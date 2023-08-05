@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: discord-json-database
+Version: 0.1.1
+Summary: Easily manage a JSON database for a Discord bot
+Author: Cypress4382
+License-File: LICENSE
+
+Quickly create a powerful json database for any application (although intended for Discord Bots.) Easily create database structures, and store data for thousands of members and servers. Code design encourages good database practises and SQL databases.

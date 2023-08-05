@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+discord_json_database/__init__.py
+discord_json_database/data.py
+discord_json_database/database.py
+discord_json_database/error_tests.py
+discord_json_database/errors.py
+discord_json_database/file_operations.py
+discord_json_database/utils.py
+discord_json_database.egg-info/PKG-INFO
+discord_json_database.egg-info/SOURCES.txt
+discord_json_database.egg-info/dependency_links.txt
+discord_json_database.egg-info/top_level.txt
