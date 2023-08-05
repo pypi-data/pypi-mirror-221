@@ -1,0 +1,9 @@
+noop.cpython-311-darwin.so,sha256=1eNikAi9Dz78fJ4PxnLY0YBqQ0iEVvRoRcXYYPVAoB0,65895
+sqlite_hello/__init__.py,sha256=pcA3IBYCodi0pYnpMRWpFRZcLsiBjMrMdhPM0TLEzUM,305
+sqlite_hello/hello0.dylib,sha256=VXHDzdLt603YOOFGDkJK00PTVakGcj9R31DG9ZKyXVI,16624
+sqlite_hello/hola0.dylib,sha256=4IRW4v-eJalix-TngXjoPUVdwjEhrfrKq5i8y7ktlDw,16872
+sqlite_hello/version.py,sha256=VSFPJfPeglCSJ5kN5sP6o5YzO8MfJvUj5hNCMRV5eGs,80
+sqlite_hello-0.1.0a58.dist-info/METADATA,sha256=D2ILDrTa9huWFlJGMjERIPLq5IdwLhNCqf769a5UB8o,507
+sqlite_hello-0.1.0a58.dist-info/WHEEL,sha256=LGsk5PGchbYQ38SSlq0EjrLXgDRByDItxCAuDHP7kNM,115
+sqlite_hello-0.1.0a58.dist-info/top_level.txt,sha256=KjVnaNCiS11UOKhSHnqZUwUFlrCeCQv89AtVw-JnynI,18
+sqlite_hello-0.1.0a58.dist-info/RECORD,,
