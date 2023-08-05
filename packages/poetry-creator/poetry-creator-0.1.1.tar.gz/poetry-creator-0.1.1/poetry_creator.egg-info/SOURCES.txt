@@ -1,0 +1,10 @@
+README.md
+setup.py
+poetry_creator/__init__.py
+poetry_creator/create_poetry.py
+poetry_creator.egg-info/PKG-INFO
+poetry_creator.egg-info/SOURCES.txt
+poetry_creator.egg-info/dependency_links.txt
+poetry_creator.egg-info/entry_points.txt
+poetry_creator.egg-info/requires.txt
+poetry_creator.egg-info/top_level.txt

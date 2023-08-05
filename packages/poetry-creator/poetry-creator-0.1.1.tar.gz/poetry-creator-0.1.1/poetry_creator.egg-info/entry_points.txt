@@ -1,0 +1,2 @@
+[console_scripts]
+create-poetry = poetry_creator.create_poetry:main
