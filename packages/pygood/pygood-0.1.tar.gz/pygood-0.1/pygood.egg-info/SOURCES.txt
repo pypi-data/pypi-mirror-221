@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pygood/__init__.py
+pygood/autoencoder.py
+pygood/outlierdetector.py
+pygood.egg-info/PKG-INFO
+pygood.egg-info/SOURCES.txt
+pygood.egg-info/dependency_links.txt
+pygood.egg-info/requires.txt
+pygood.egg-info/top_level.txt
