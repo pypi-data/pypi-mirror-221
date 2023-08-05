@@ -1,0 +1,19 @@
+biocframe
+genomicranges
+summarizedexperiment
+singlecellexperiment
+multiassayexperiment
+rds2py
+mopsy
+pybiocfilecache
+numpy
+scipy
+pandas
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
