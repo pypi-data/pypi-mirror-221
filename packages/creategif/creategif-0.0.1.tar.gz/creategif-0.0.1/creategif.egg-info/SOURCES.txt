@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+creategif/__init__.py
+creategif/animator.py
+creategif.egg-info/PKG-INFO
+creategif.egg-info/SOURCES.txt
+creategif.egg-info/dependency_links.txt
+creategif.egg-info/requires.txt
+creategif.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: creategif
+Version: 0.0.1
+Summary: Quick python animations.
+Home-page: https://github.com/webstorms/CreateGif
+Author: Luke Taylor
+Author-email: webstorms@gmail.com
+Project-URL: Bug Tracker, https://github.com/webstorms/CreateGif/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE.md
