@@ -1,0 +1,15 @@
+odoo/addons/ssi_task_work_log/README.rst,sha256=sT_Yh3AFiV15bMdkWrj-SOwCj306hc95vvvzYLqVJ6U,1280
+odoo/addons/ssi_task_work_log/__init__.py,sha256=tFHjpLOkeWwZkzUmUBMSw1bVVjqShC4JbEVDJC3ZP1s,213
+odoo/addons/ssi_task_work_log/__manifest__.py,sha256=b-KLUdW557Dt1peqeF97KSo3qJt9z6YlcqjCHvom7a8,654
+odoo/addons/ssi_task_work_log/models/__init__.py,sha256=rfBQTwdAC6UX4s2YlMeSPN4nXKbF3BdaTVY46bHrpCA,221
+odoo/addons/ssi_task_work_log/models/project_task.py,sha256=31Epp7XRz8_Chm7Mj7w-20ANoXiowQNluZOYg-sh5Qc,1102
+odoo/addons/ssi_task_work_log/models/task_type.py,sha256=zrXyZe9e1B4cO4mJKAoWo0i5Xgjaa3OOOfDF45lhktE,1751
+odoo/addons/ssi_task_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_task_work_log/views/project_task_views.xml,sha256=F_YtJ67yhwpTyXdO2XdihYVD0Q8PBDuh2eWJj-L4zks,3843
+odoo/addons/ssi_task_work_log/views/task_type_views.xml,sha256=c0Os7BLw-h0SEqBm6YZshk2Z6c2jscP7P1FA3xlANKs,3886
+odoo/addons/ssi_task_work_log/wizards/__init__.py,sha256=qyGfC19p7rv6new15W7l_Tazm5nNumlFb3KoCksyhik,195
+odoo/addons/ssi_task_work_log/wizards/create_sucessor_task.py,sha256=niWVoqdUzNDz_QhX_fbjSWCYZXrC6mohoI3zyGRmW2c,548
+odoo14_addon_ssi_task_work_log-14.0.1.8.0.dist-info/METADATA,sha256=im8MlDI6qqExVY2O7KXAuFUDhnwjII_PBPt74Tb2gH8,1928
+odoo14_addon_ssi_task_work_log-14.0.1.8.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_task_work_log-14.0.1.8.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_task_work_log-14.0.1.8.0.dist-info/RECORD,,
