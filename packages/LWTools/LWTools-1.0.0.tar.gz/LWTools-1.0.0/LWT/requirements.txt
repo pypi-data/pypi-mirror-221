@@ -1,0 +1,12 @@
+setuptools,
+matplotlib,
+lxml,
+pandas,
+affine,
+networkx,
+seaborn,
+dabest,
+statsmodels,
+tabulate,
+ipywidgets,
+jupyterlab
