@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nlproc-tools/__init__.py
+src/nlproc-tools/main.py
+src/nlproc_tools.egg-info/PKG-INFO
+src/nlproc_tools.egg-info/SOURCES.txt
+src/nlproc_tools.egg-info/dependency_links.txt
+src/nlproc_tools.egg-info/top_level.txt
