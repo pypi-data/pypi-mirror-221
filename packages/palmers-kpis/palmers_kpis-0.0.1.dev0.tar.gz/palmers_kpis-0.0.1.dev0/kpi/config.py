@@ -1,0 +1,6 @@
+date_col='date'
+sku_col='sku'
+store_col='store'
+sales_col='sales'
+price_col='price'
+stock_col='stock'
