@@ -1,0 +1,9 @@
+noop.cpython-311-x86_64-linux-gnu.so,sha256=snVZuUeORXQoAlTSFdzjZ2mEQg5aHjyxdTo6dc7g1Qc,15784
+sqlite_hello/__init__.py,sha256=pcA3IBYCodi0pYnpMRWpFRZcLsiBjMrMdhPM0TLEzUM,305
+sqlite_hello/hello0.so,sha256=KWB_069G2BfjO_-NO_fXCPg0QAEEJKXvG1wAsEEvcSg,15856
+sqlite_hello/hola0.so,sha256=9kRr1DAMRjZN96HuB3zcjzU2T_roUcCCJ7V_KmjWdtA,15848
+sqlite_hello/version.py,sha256=W6NYHrbBWIZhARu5pMi34gVgdgX6Yw18pO9lwKZEcpQ,80
+sqlite_hello-0.1.0a56.dist-info/METADATA,sha256=0gjQJ6JsOhQ6HOeT0urcjsqRTuk5hd9gZu8H4gNRn-8,507
+sqlite_hello-0.1.0a56.dist-info/WHEEL,sha256=bc9AIvLXnt_uk1DFAs9A9G48iq3HERrVzvuB4WpotO8,105
+sqlite_hello-0.1.0a56.dist-info/top_level.txt,sha256=KjVnaNCiS11UOKhSHnqZUwUFlrCeCQv89AtVw-JnynI,18
+sqlite_hello-0.1.0a56.dist-info/RECORD,,
