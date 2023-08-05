@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiur/__init__.py
+src/aiur/main.py
+src/aiur.egg-info/PKG-INFO
+src/aiur.egg-info/SOURCES.txt
+src/aiur.egg-info/dependency_links.txt
+src/aiur.egg-info/top_level.txt
