@@ -1,0 +1,13 @@
+httpx
+pandas
+tenacity
+
+[dev]
+black
+mypy
+pip-tools
+pre-commit
+pytest
+pytest-httpserver
+ruff
+vermin
