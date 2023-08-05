@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/reddit_dl/__init__.py
+src/reddit_dl/__main__.py
+src/reddit_dl/constants.py
+src/reddit_dl/downloader.py
+src/reddit_dl/exceptions.py
+src/reddit_dl/reddit_dl.py
+src/reddit_dl/redgifs.py
+src/reddit_dl/utils.py
+src/reddit_dl.egg-info/PKG-INFO
+src/reddit_dl.egg-info/SOURCES.txt
+src/reddit_dl.egg-info/dependency_links.txt
+src/reddit_dl.egg-info/entry_points.txt
+src/reddit_dl.egg-info/requires.txt
+src/reddit_dl.egg-info/top_level.txt
