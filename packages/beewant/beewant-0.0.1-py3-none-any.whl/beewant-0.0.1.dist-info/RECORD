@@ -1,0 +1,8 @@
+bee_search/__init__.py,sha256=2HugWkK7ItGxzhmB5MM7ZcuFpvqEhqBGTu3tVxLexFE,33
+bee_search/file_loader.py,sha256=deRMpSs11F6xRL9VqMez0ldidcrqp3WbDTrkC76klc4,1475
+bee_search/image_search.py,sha256=SqZghoUlTcD5GqxqqwdB-wdd5R0v6XZzaA3Lg8jixhc,1242
+bee_search/model_embedder.py,sha256=xJZQViU4aOqLcB9AAG4tAJHob-dsCNoVWEAfdSUCBpE,1217
+beewant-0.0.1.dist-info/METADATA,sha256=CbBuwurqoKQEPl8d6c0aa1Ni45uZBUXjH74bYb0q26o,606
+beewant-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+beewant-0.0.1.dist-info/top_level.txt,sha256=EFSQlqhLduWtuHwq0LZGVLrDRW_PlbdkDiR7j-t0SeU,11
+beewant-0.0.1.dist-info/RECORD,,
