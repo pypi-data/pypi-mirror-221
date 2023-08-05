@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TLSFAllocator
+Version: 0.0.1
+Summary: Python wrapper over sebbbi's OffsetAllocator (https://github.com/sebbbi/OffsetAllocator)
+Home-page: https://github.com/pybind/TLSFAllocator
+Author: Leo Prokh
+Author-email: lenyaprokh@gmail.com
+Requires-Python: >=3.7
+License-File: LICENSE
+
