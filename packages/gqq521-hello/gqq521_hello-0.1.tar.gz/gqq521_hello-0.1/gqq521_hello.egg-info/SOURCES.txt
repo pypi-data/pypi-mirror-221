@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+gqq521_hello/__init__.py
+gqq521_hello.egg-info/PKG-INFO
+gqq521_hello.egg-info/SOURCES.txt
+gqq521_hello.egg-info/dependency_links.txt
+gqq521_hello.egg-info/top_level.txt
