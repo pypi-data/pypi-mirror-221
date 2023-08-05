@@ -1,0 +1,12 @@
+libtextsearch_core.dylib,sha256=yVAjsK_-pI4l1pCF-NEGeW-XzDDxUiAlZ9T5mIv2DZw,53128
+_textsearch.cpython-37m-darwin.so,sha256=2M0TLTUg_G_AlTBuxUz_DcU2uVWyleQaZjYJIDAYaDU,191104
+textsearch/suffix_array.py,sha256=H9o2XzsK_GHxnZwAf0ytHrauCC2cwVAEbSM9SzgGpVs,3208
+textsearch/__init__.py,sha256=j9te0584dhSDUpA7PkZ61IonyiEfZwoGcdEMzoWlCGE,758
+textsearch/datatypes.py,sha256=aKw2YUSgylJS23zbeI7cIHx9GfPFlf5Jzw6MP1o95CM,13469
+textsearch/utils.py,sha256=QHDdI0JOwIHumx2xWdE4jDemPjN6tGXdwjydfptmT38,5269
+textsearch/levenshtein.py,sha256=VR2sjYNv1SuOcDSQI4sG07RzQQqctJittCB0VEWKbCk,3606
+textsearch/match.py,sha256=a1aZjmc_RF5sbvABIuYYATRmDe5Wf0S1XXgp0bHECXo,52271
+fasttextsearch-0.6.dist-info/RECORD,,
+fasttextsearch-0.6.dist-info/WHEEL,sha256=RxT17OhvDn_QFKQicWB-bsnj3dVwvYWlRKJRQ0dRyQA,110
+fasttextsearch-0.6.dist-info/top_level.txt,sha256=mhdOeWn2kpMq1qsLsVFmKzexpShGfpE2mq-9am7B2wU,24
+fasttextsearch-0.6.dist-info/METADATA,sha256=k9ebiUd15bK6bcX6Cr1VV4i9l7R2l3SoFHnF8uzAi0g,1190
