@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: google_spreadsheets_exporter
+Version: 0.3.3
+Description-Content-Type: text/markdown
+
+# Description
+
+This Library lets you export 2D array of data into your Google Spreadsheet.
+
+In short;
+
+- Before
+<br>
+<br>
+![Empty SpreadSheet](https://i.imgur.com/fU64iks.png)
+<br>
+<br>
+- After export of `[["Name"],["David"]]`
+<br>
+<br>
+![SpreadSheet with data](https://i.imgur.com/341Kbkl.png)
+
+The following code snippet will export "Name" and "David" into your Google Spreadsheet,
+assuming you are all set up on the Google Cloud side.
+
+If this is not the case, continue to the section 'Complete Guide'
+
+## Quickstart:
+
+Install the library by running
+`pip install google-spreadsheets-exporter`
+
+Include the following code snippet for desired functionality
+
+      from pathlib import Path
+      from google_spreadsheets_exporter.exporter import Exporter
+        
+      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file filder as needed
+      data = [["Name"],["David"]]
+        
+      exp = Exporter("spreadsheet-id", "sheet-name", data, credentials_file_full_path=os.path.join(BASE_DIR, "creds.json"))
+      exp.export()
+
+## Complete Guide
+
+- Step 1: Set up a Google Sheets API Project
+
+    - Go to the Google Developers Console (https://console.developers.google.com/) and create a new project.
+      - A user for this project has to be created. Note its email.
+    - Enable the Google Sheets API for your project.
+    - Create credentials for your project to access the API. For this purpose, you'll need a service account key, which is a JSON file containing authentication information.
+    - The credentials JSON file should be downloaded and included in your project.
+
+
+- Step 2: 
+    - Create a Google sheet from your account
+    - Note down Spreadsheet ID
+      - eg https[]()://docs.google.com/spreadsheets/d/<font color="green">*spreadsheetId-sdvs-dsv*</font>/edit#gid=0/
+    - Share the Spreadsheet with the email of your newly created Google project user.
+  
+
+- Step 3: Include this code snippet in you project
+    - Install the library by running
+      `pip install google-spreadsheets-exporter`
+        
+      Include the following code snippet for desired functionality
+        ````
+      from pathlib import Path
+      from google_spreadsheets_exporter.exporter import Exporter
+        
+      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file filder as needed
+      data = [["Name"],["David"]]
+        
+      exp = Exporter("spreadsheet-id", "sheet-name", data, credentials_file_full_path=os.path.join(BASE_DIR, "creds.json"))
+      exp.export()
+
+    where `spreadsheet-id` and `sheet-name` has been extracted from Spreadsheet url, `data` is 2D python array and
+    `credentials_file_full_path` is full path to your credentials file.
+
+Happy exporting.
