@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zerocap-websocket-test
+Version: 1.0.2
+Summary: websocket_test
+Home-page: 
+Author: gaogao
+Author-email: y18362683626@gmail.com
+License: BSD License
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+test gao websocket
