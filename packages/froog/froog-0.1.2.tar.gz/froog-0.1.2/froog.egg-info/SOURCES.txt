@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+frog/__init__.py
+frog/gradcheck.py
+frog/ops.py
+frog/optim.py
+frog/tensor.py
+frog/utils.py
+froog.egg-info/PKG-INFO
+froog.egg-info/SOURCES.txt
+froog.egg-info/dependency_links.txt
+froog.egg-info/requires.txt
+froog.egg-info/top_level.txt
