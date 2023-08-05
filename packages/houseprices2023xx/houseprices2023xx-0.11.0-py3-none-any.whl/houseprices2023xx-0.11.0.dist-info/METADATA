@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: houseprices2023xx
+Version: 0.11.0
+Summary: Using Machine Learning to predict the SalePrice of properties
+Home-page: https://gitup.uni-potsdam.de/mansouri1/house-prices
+Author: ['Abdul Rahman Fahad Deshmukh', 'Ben Dötsch', 'Mohamed Amr Mansouri', 'Uzair Majid']
+Author-email: deshmukh@uni-potsdam.de
+Keywords: house-prices machine-learning prediction
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/plain
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: lightgbm
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+The aim of this project is to explore the train dataset by performing preprocessing operations, including data mining techniques like removing irrelevant data and updating missing values. Subsequently, we will apply various machine learning algorithms to the preprocessed dataset. The ultimate goal is to determine the best model for predicting property prices based on their features, including factors like location.

@@ -1,0 +1,13 @@
+bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bin/house.py,sha256=MVm6pH0eB2SwrPyizUB50X2FRpvHsCEwYJlqZ_Ygh-M,4445
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modules/modules.py,sha256=YuzW4s0UsodkX0J3OjGSCGmGGAGeFi2mWHzOL4ayYmM,4650
+modules/test.py,sha256=pw_pUBjVb-XeZaJInTXR9zs3xCHXKYrSw4MMDqaKjOI,6247
+modules/test_model_evaluation.py,sha256=M894xyv8W9T5dWCPxcUPOKU1rdilVH23omBloTo7V7g,2139
+houseprices2023xx-0.11.0.dist-info/LICENSE.md,sha256=-IgH3txiL_VLPT9irPHK468bgDjGt4feNvwPFAkndlc,1107
+houseprices2023xx-0.11.0.dist-info/METADATA,sha256=AjEQPkXId9Hbsu6NUW3UD4Cls1Qm7m1anLNJmHAVy3U,1254
+houseprices2023xx-0.11.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+houseprices2023xx-0.11.0.dist-info/top_level.txt,sha256=QnsdeFXBOCEJnyVX5jy_rpx7ReKPmVU3VE62BvPxUUQ,22
+houseprices2023xx-0.11.0.dist-info/RECORD,,
