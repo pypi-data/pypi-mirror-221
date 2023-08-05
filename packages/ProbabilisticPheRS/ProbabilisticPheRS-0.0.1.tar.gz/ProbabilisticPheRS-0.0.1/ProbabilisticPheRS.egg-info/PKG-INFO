@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ProbabilisticPheRS
+Version: 0.0.1
+Summary: A semi-supervised probability model for estimating the likelihood that a patient has a rare disease based on their observed symptoms.
+Home-page: https://github.com/daverblair/ProbabilisticPheRS
+Author: David Blair
+Author-email: david.blair@ucsf.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
