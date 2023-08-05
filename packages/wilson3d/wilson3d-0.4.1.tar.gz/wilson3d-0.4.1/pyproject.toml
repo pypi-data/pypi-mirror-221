@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wilson3d"
+description = "Tool to create animation files for Wilson"
+version = "0.4.1"
+authors = [
+    { name = "Tobias Kerscher", email = "88444139+tkerscher@users.noreply.github.com" }
+]
+readme = "wilson/README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+]
+keywords = ["3D", "visualization"]
+dependencies = [
+    "cmasher",
+    "numpy>=1.2.0",
+    "protobuf>=3.20.1"
+]
+
+[project.urls]
+Home = "https://github.com/tkerscher/wilson"
+
+[project.scripts]
+wilson = "wilson.server:cli_main"
+
+[project.optional-dependencies]
+dev = [
+    "black>=21.0",
+    "mypy>=0.950",
+    "types-protobuf>=3.20"
+]
+
+[tool.setuptools]
+packages = ["wilson", "wilson.proto"]
+
+[tool.setuptools.package-data]
+wilson = ["app.zip"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+include = '\.py$'
+exclude = '_pb2\.py$'
+
+[tool.mypy]
+python_version = "3.8"
+files = "wilson/*.py"
+disallow_any_unimported = false
+disallow_untyped_defs = true
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = "wilson.proto.*"
+ignore_missing_imports = true

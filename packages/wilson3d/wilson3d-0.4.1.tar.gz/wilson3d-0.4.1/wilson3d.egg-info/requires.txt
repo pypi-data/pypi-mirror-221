@@ -1,0 +1,8 @@
+cmasher
+numpy>=1.2.0
+protobuf>=3.20.1
+
+[dev]
+black>=21.0
+mypy>=0.950
+types-protobuf>=3.20

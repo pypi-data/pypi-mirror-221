@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wilson3d
+Version: 0.4.1
+Summary: Tool to create animation files for Wilson
+Author-email: Tobias Kerscher <88444139+tkerscher@users.noreply.github.com>
+License: MIT
+Project-URL: Home, https://github.com/tkerscher/wilson
+Keywords: 3D,visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Wilson Python Package
+
+Python package for creating Wilson animations. See `notebooks` folder for example.
+
+## Usage
+
+A simple example for creating an animation:
+
+```python
+import numpy as np
+import wilson
+
+r = 5.0
+t = np.linspace(0, 2*np.pi)
+x = r * np.cos(t)
+y = r * np.sin(t)
+z = np.zeros_like(t)
+
+path = np.column_stack((t, x, y, z))
+orbit = wilson.Path(path, name='Moon Orbit')
+
+earth = wilson.Sphere('Earth', description="That's our planet!", radius=1.0, color='blue')
+moon = wilson.Sphere('Moon', description='Our oldest pal!', radius=0.27, color='grey')
+moon.position = orbit
+
+project = wilson.Project('Earth Moon',
+    author='wilson',
+    description='The Moon orbiting around the Earth.',
+    animationSpeed=2*np.pi / 5.0,
+    animatables=[earth, moon])
+
+wilson.saveProject(project, '../examples/earth_moon.wlsn')
+```
+
+## Known Issues
+
+Parsing a project and immediately serializing it again might produce a different
+result. This is due to protobuf returning default values for missing properties
+of a built-in type (i.e. string, float, etc.).
+
+While it is possible to circumvent this, it would bloat the protobuf files and
+was thus not done.
+
+## TODO
+
+The package lacks early type check which might makes debugging software using a
+bit more tedious. Nevertheless, the output is guaranteed to meet the protocol as
+this is assured by protobuf.
