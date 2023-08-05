@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manage.py,sha256=4KxIHqnU81nBwRgUfzKtAEecKaeRLAx3Wn_a7ZqEWG0,262
+settings.py,sha256=tIe7Bcm1n1sz-oxD6HcwuKy9TS4KTTRWaSW3rK2KoHA,1157
+vceepayment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vceepayment/encryption.py,sha256=BnF19OkX3rBUAgvuZTO_D7w_MISBi_DV0WWK5-BqSqg,2114
+vceepayment/models.py,sha256=ldEEMdZv5VKUJ2HbqQyIpJlRrplXvABY5Fl4yOz5hkU,1282
+vceepayment/pages.py,sha256=gojNERZw33HBn8sIRjQJXU1BXyLrwk88asn00cHVpJ8,3791
+vceepayment/_builtin/__init__.py,sha256=bfTkuqydobnI0CnxtBMVJG3WnJDHVx6HNd8rZieeiQk,426
+venvmac/bin/django-admin.py,sha256=3PrAyurHfxbdDqRqCzSa18u2kgsxt36AjB_eQNNluMc,180
+otree_vcee_payment-0.9.0.dist-info/METADATA,sha256=VAelKMy7lNlZoO9rfeE2MQ0yrjHpDZoiq0T2Awux3GU,1157
+otree_vcee_payment-0.9.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+otree_vcee_payment-0.9.0.dist-info/RECORD,,
