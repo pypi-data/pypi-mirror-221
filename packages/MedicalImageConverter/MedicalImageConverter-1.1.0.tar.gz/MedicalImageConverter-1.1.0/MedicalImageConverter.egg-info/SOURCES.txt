@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+MedicalImageConverter.egg-info/PKG-INFO
+MedicalImageConverter.egg-info/SOURCES.txt
+MedicalImageConverter.egg-info/dependency_links.txt
+MedicalImageConverter.egg-info/top_level.txt
