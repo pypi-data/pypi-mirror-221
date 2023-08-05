@@ -1,0 +1,10 @@
+kistipy/__init__.py,sha256=mHT3E8pbHqnG3z0TT_giy2Y7KqEZcZ7K8gpyT6kP9FE,187
+kistipy/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kistipy/sdk/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kistipy/sdk/metadata/store.py,sha256=JwXwqX580vQsuUQmwDWK3vdQqZRc9P5S1g5R3_ycHfY,416
+kistipy/sdk/type/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kistipy/sdk/type/common.py,sha256=mhh57OePqchyZEH7wq4QBwCndgxqRoU2UdrjMk-QKrw,871
+kistipy-0.0.4.dist-info/METADATA,sha256=dCOww9Cq5Yk6CoapgOQ4RY4zDmN1if4GnzED5vJccL8,3381
+kistipy-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kistipy-0.0.4.dist-info/top_level.txt,sha256=9n_la2I_JhcNB_4lvQO9SqeGnZAJb0Qk4pt8Xqd_Y-E,8
+kistipy-0.0.4.dist-info/RECORD,,
