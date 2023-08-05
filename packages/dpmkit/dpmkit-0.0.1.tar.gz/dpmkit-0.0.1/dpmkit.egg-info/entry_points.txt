@@ -1,0 +1,2 @@
+[console_scripts]
+dpmkit = dpmkit.__main__:main

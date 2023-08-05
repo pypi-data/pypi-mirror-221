@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpmkit"
+version = "0.0.1"
+description = "A simple tool for creating DPMKs."
+readme = "README.md"
+authors = [
+	{ name = "hexaheximal", email = "hexaheximal@proton.me" },
+	{ name = "JustSoup321", email = "brandonboese@protonmail.com" }
+]
+license = { file = "LICENSE" }
+
+classifiers = [
+	"License :: OSI Approved :: GNU General Public License (GPL)",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3"
+]
+
+keywords = ["linux", "kernel", "postmarketos"]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/lowendlibre/dpmkit"
+
+[project.scripts]
+dpmkit = "dpmkit.__main__:main"
