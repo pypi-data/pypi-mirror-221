@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pythomac_sebastian.schwindt
+Version: 1.0.0
+Summary: A Python package with codes to wrap and control the numerical modeling software Telemac.
+Project-URL: Homepage, https://github.com/hydro-informatics/pythomac
+Project-URL: Bug Tracker, https://github.com/hydro-informatics/pythomac/issues
+Author-email: "Hydro-Informatics.com" <schwindt.water@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Pythomac
+
+A Python package with codes to wrap and control [Telemac](http://www.opentelemac.org/).
+
+Visit https://pythomac.readthedoc.io to read more.
+
