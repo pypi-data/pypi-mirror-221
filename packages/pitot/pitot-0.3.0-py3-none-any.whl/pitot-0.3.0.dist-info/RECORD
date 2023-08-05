@@ -1,0 +1,11 @@
+license.txt,sha256=Ti57dyVHTappeNJHlhEO-z-jWoJmzZN1nIiY6AeWVO0,1080
+pitot/__init__.py,sha256=mtVYSfmDvJX56OymwqbVCdeyqaQbn5WP1URU-HdRahs,410
+pitot/aero.py,sha256=W8sKwdUbW8F1G1SGRsYKp1A2qDSehXWDS22sVx3TxFQ,3537
+pitot/airac.py,sha256=J3CmKU_XGOakAsQ33DK-8_YHTBAPfpBYJW5JdWrmfrc,885
+pitot/geodesy.py,sha256=qQQndlLRd_Lhs4shsr74c-XSStzLW4S-7RzUKnEObYI,3610
+pitot/geodesy.pyi,sha256=AvN_9xg0Zz4mjo8KIYSF7tomLXN92x3osasKSK9c5xA,2604
+pitot/isa.py,sha256=fhftxlqbIoFudSLsped6F4ytA6vBapZFQ7jIvHrlpYk,4314
+pitot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pitot-0.3.0.dist-info/METADATA,sha256=xCdnJB6ecpyRwej0OgSvdF8CuZaKIVsN8On85R5KjMM,3092
+pitot-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pitot-0.3.0.dist-info/RECORD,,
