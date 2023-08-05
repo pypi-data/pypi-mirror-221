@@ -1,0 +1,3 @@
+[peakrdl.exporters]
+euvm = peakrdl_euvm.__peakrdl__:Exporter
+

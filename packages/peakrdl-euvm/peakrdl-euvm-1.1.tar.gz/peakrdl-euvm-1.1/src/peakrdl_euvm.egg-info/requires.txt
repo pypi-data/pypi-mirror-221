@@ -1,0 +1,2 @@
+jinja2
+systemrdl-compiler>=1.12.0
