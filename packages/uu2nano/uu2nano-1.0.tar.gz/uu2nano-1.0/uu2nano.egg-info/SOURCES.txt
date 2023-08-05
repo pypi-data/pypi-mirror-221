@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+uu2nano.py
+uu2nano.egg-info/PKG-INFO
+uu2nano.egg-info/SOURCES.txt
+uu2nano.egg-info/dependency_links.txt
+uu2nano.egg-info/top_level.txt
