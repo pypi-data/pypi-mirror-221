@@ -1,0 +1,11 @@
+odoo/addons/ssi_task_project_manager/README.rst,sha256=T01zoIzxGESSF4SC_-UWKWbIkMoUT5ZG2SwhTzsr3Eo,1262
+odoo/addons/ssi_task_project_manager/__init__.py,sha256=X3ayW9k4OH3xqib3X0KEzYY9_pqaAhP2YdhFFVEJSvo,181
+odoo/addons/ssi_task_project_manager/__manifest__.py,sha256=7hkoTUo1U4MdBxOgWWod-fVfwX2EXFLzkBNTSil98vQ,524
+odoo/addons/ssi_task_project_manager/models/__init__.py,sha256=Qet-BnKnr1UjNEf4X9qEaYnjzpJGOSQ2MoUTxmnPsjI,187
+odoo/addons/ssi_task_project_manager/models/project_task.py,sha256=-YHuHHWGFyF9HzQ7iJJP-2rRCljWMSc2oafJ-VBjabM,450
+odoo/addons/ssi_task_project_manager/static/description/icon.png,sha256=O8DgcD3UdYgosCSt02q3gjyVKuto6WRnhq0wsK0X7FY,8619
+odoo/addons/ssi_task_project_manager/views/project_task_views.xml,sha256=BKI6ascQAFBQGfzsb8BnTv_eaVZu9I3pYSP4O4Mxp6U,2053
+odoo14_addon_ssi_task_project_manager-14.0.1.1.0.dist-info/METADATA,sha256=YoGXuQdysuRkbjf-VKHNJIbf9uyk3k1YUdoHiMcAXCc,1827
+odoo14_addon_ssi_task_project_manager-14.0.1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_task_project_manager-14.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_task_project_manager-14.0.1.1.0.dist-info/RECORD,,
