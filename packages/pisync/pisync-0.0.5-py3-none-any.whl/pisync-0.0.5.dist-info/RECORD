@@ -1,0 +1,11 @@
+pisync/__about__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+pisync/__init__.py,sha256=1gmynh_LqaSBSxuHqjRAMyhIxuSVwMfUl2qhwNvmlbo,250
+pisync/config/__init__.py,sha256=2tCw3S0SJQupBl38kW2qfIVc_lPvEmLuvny4KYtLV6E,248
+pisync/config/base_config.py,sha256=Uz-2du0JRO_j0n6i2uxfl598BHizZKEtW4QJzF2Xp58,1986
+pisync/config/local_config.py,sha256=C-g-XXojsmuoRRch1ok5e0bopUFhhsLvG6Z6wt_qjDs,3116
+pisync/config/remote_config.py,sha256=RsAO5T_whMof-UPOKV_1ZoRYl9ZEEgY8gRgDPSI49wM,4856
+pisync/util/__init__.py,sha256=GL-tz40eTnO2yhU4nE2JIv9IjbpH2UXvreb3hZT6pYU,3586
+pisync-0.0.5.dist-info/METADATA,sha256=f5q_dRhCq4UL9byWQIK8DDYN2raW3CWHMGOOtko7T9A,4031
+pisync-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pisync-0.0.5.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pisync-0.0.5.dist-info/RECORD,,
