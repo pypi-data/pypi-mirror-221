@@ -1,0 +1,253 @@
+<html>
+<pre>
+  Gaiacalc User Guide
+
+  Legacy web server is http://gaia.doligez.fr
+  Note that the online access will not be permanent. The cloud server is paid monthly by Julie Doligez, and will be shut down most of the time to save money. However, you can ask for it by asking to julie@doligez.fr. Anyway, using the linux debian source code, you are able to put online your own server at any time.
+
+  INTRODUCTION
+
+  Gaia is a space observatory of the European Space Agency (ESA). The mission aims to construct the largest and most precise 3D space catalog.
+EDR3 - Early Data Release 3 - was released on 3 December 2020.
+DR3 - 3rd data release - was released on 13 June 2022.
+Those catalogs include 1811709771 objects. Data is freely downloadable from ESA servers.
+The DR3 database contains more than 200 parameters for each space object.
+
+The Universitat Politècnica de Catalunya · BarcelonaTech (UPC) makes available a tool to compute the mass and temperature of White Dwarfs stars. This tool is based on data abacus, spatial index, and interpolation.
+
+  Given the HRD coordinates of a white dwarf (BP-RP and Gabs), gaiacalc will give you the mass and temperature. The input format is a classic CSV file, and the output will be the same file with 2 columns added for the results.
+  
+
+USER GUIDE
+
+  You can use gaiacalc either :
+  - inside your browser (web interface)
+  - or with a command line in a terminal or "cmd" window.
+
+  
+  Web interface guide :
+
+  1) select your CSV input file
+  2) modify the delimiters if your file is not using the defaults values
+  3) uncheck the box if the file has no header line for columns names
+  4) select the columns by name or rank
+  5) check DA or DB if your file does not include the proability column
+  6) click button "send file and download computing result"
+  7) you can display the HRD diagram with your data by clicking "show data on HRD diagram"
+  8) White Dwarfs catalog with mass and temperature available with the "oh yeah" link
+  9) run the gaiacalc tool from your desktop by installing any version available
+
+  
+  More details on each step :
+
+  1) select your CSV input file
+
+  The CSV file you select on your disk will be sent to gaiacalc. Do not send excel file format: you need to export the file with CSV format first.
+  The file has to be correctly formatted according to the CSV standards. For example, any blank line will raise an error because all lines in the file MUST have the same number of fields (including the header line if any).
+  There is a maximum file size, due to the limits of the web server. The limit is around 50 Mbytes, and the number of lines depends on the number of columns (between 50000 and 1000000 lines). The tool is able to compute billions of long lines in command line mode if you need more (see below).
+  
+  2) Modify the delimiters if your file is not using the defaults values
+
+  CSV files use a delimiter (generally semicolon, comma, vertical bar or tabulation). The default value is the semicolon, and you can change according to your file format.
+  If you have a TAB delimiter, you have to enter "\t" in the field.
+  The second delimiter is the decimal separator (either dot or comma). The Gaia calculator does not use any localization process so it is not aware of the default decimal separator of your language/computer. It is up to you to adjust if the default value is not correct for your CSV file.
+
+  3) uncheck the box if the file has no header line for columns names
+
+  Depending on the parameters when exporting from excel (you may also get the data from a database export), you will have a header line with columns names or not.
+
+  4) select the columns by name or rank
+
+  You can select columns by rank or by name.
+  The rank is "zero-based": first column has rank zero.
+  Names are allowed only when the header line is included (of course :)
+
+  5) check DA or DB if your file does not include the probability column
+
+  You may not have any probability column in your file. Then you can just empty the probability field and choose to force the computing either with DA or DB.
+  One and only one of probability / DA / DB should be used.
+
+  6) click button "send file and download computing result"
+
+  Ready to go ? You are just one click away from objective :)
+  Note that you will have no feedback (no progress bar). The computing time depends on the number of lines, and the number of fields in each line, as well as your internet connexion bandwidth.
+  The expected rate is 30000 lines/second, but it get down to half of this rate at worse.
+  
+  7) click "show data on HRD diagram"
+
+  The web server will show the diagram up to 20000 lines in the input file.
+  This limit is quite low to limit the delay for drawing the web page.
+  You can display more precise HRD diagram with more points if you switch to the command line tool (see below).
+  Note that the HRD web page has no button to go back : use your browser "back" button.
+  
+  8) White Dwarfs catalog with mass and temperature available with the "oh yeah" link
+
+  Starting from the catalog available online, the gaia calculator was applied to the list of 1280266 White dwarfs and you can just upload the results here.
+  See the article here : https://doi.org/10.1093/mnras/stab2672
+  Dowload the FITS file here : https://warwick.ac.uk/fac/sci/physics/research/astro/research/catalogues/gaiaedr3_wd_main.fits.gz
+  Download the CSV file with mass/temp here : http://gaia.doligez.fr/drop?file=gaia-edr3-white-dwarfs.csv.gz
+  All Gaia EDR3 columns are included (and more, see the article).
+  Only the last 2 columns are added by the Gaia Calculator.
+  Warning : this is a big CSV file (with 166 columns). Do not expect to open it from your desktop with Excel :) But it should fit in any database able to import CSV format. In addition to this, do not expect to compute such a big file from the web interface (you need the command line tool, see below).
+  You can pass any new catalog extracted from the DR3 if you want to update the file (and later from DR4/DR5 :)
+
+  9) run the gaiacalc tool from your desktop by installing any version available
+
+  All download links in the main page will get to the installation instruction page.
+  You can then choose what you want to download, depending on your computer (MacOS/windows), or just download the python package.
+  You can get the code from github, including the packaging param files and commands to build the other deliveries.
+  You can also just run the python code without installing anything : just download from github, then launch "python gaiacalc/src/gaiacalc/gaiacalc.py" (in this case you will still need to install needed packages when you get errors about missing packages).
+  Notice : when running Macos app or Windows exe, the webserver process is launched in background to serve the browser requests. Use the exit icon on the upper right corner to exit gracefully by killing the background process. If you closed the browser window, you can just launch again to open again the web page in the browser (this will not launch another background process and you will be able to quit from the web page).
+  Notice : when running locally, the links to download the complete white dwarfs catalog or to download versions of the tool will be broken (404 errors). But all computing will be local to your computer and no data will be sent outside of your computer.
+
+
+
+  Error messages for web version :
+  Those messages are displayed as red lines right to the "send and download" button.
+
+  "columns should be number when no header in file"
+  Check that the 3 fields for column names only contain digits, because you specified "no header"
+
+  "use either probability or DA or DB"
+  Check that you ereased the probability field if you asked for DA or DB choices
+
+  "xxxx : no such column"
+  Specified column does not exist in header line (or rank is above last column ?)
+
+  "you have to send data first"
+  HRD diagram will use the data from the last computed file, send one CSV file before
+
+  "too much data (> 20000)"
+  HRD diagram will not display if more than 20000 lines have been computed
+  
+  "some strange error occured, ask julie@doligez.fr"
+  Any other errors (see log file for more details)
+
+  
+  
+  Command line gaiacalc tool :
+
+After installing the python package, the MacOS app or the windows .exe version, you can launch the command line version of gaiacalc. The command line tool has no size limit for input file (although one billion lines in input file may be quite long to compute :).
+Available options are explained below
+
+  The gaiacalc tool will launch a webserver by default, so you will need to add the --exec option to launch one single computing and exit when done (no webserver will be launched).
+
+  input/output:
+  The command line tool is working as a "linux filter". That means it uses stdin/stdout/stderr as any unix process. Therefore you may pipe the input to it and pipe the output anywhere.
+  stderr is used to get info messages and errors.
+  for example (linux/MacOS) : head -n 100 mysamples.csv | gaiacalc --exec [other options] 2>mylogfile.txt | import-in-database-command-here
+
+  You get basic help with option --help, it will display the message below and exit.
+  Details on some options : see below
+
+  usage: gaiacalc.py [-h] [--header] [--bprp BPRP] [--gabs GABS] [--prob PROB] [--da] [--db] [-f] [-s] [-o FILE]
+                   [-d DATA] [--csv] [--bin] [--max-bprp MAX_BPRP] [--min-bprp MIN_BPRP] [--max-gabs MAX_GABS]
+                   [--min-gabs MIN_GABS] [--debug] [-l LOG] [-p] [-e] [--public] [--tcpport TCPPORT]
+                   [--separator SEPARATOR] [--decimal DECIMAL] [-g GRID]
+                   [inputfile]
+
+positional arguments:
+  inputfile             input file
+
+options:
+  -h, --help            show this help message and exit
+  --header              use header line for column names
+  --bprp BPRP           bprp column name in csv input file
+  --gabs GABS           gabs column name in csv input file
+  --prob PROB           probability column name in csv input file
+  --da                  compute samples as DA to find mean mass/temp
+  --db                  compute samples as DB to find mean mass/temp
+  -f, --force           force geometric indexing
+  -s, --show            show results in graphical windows on screen
+  -o FILE, --output FILE
+  output file
+  -d DATA, --data DATA  dir for data files
+  --csv                 csv output
+  --bin                 binary output
+  --max-bprp MAX_BPRP   max bprp input filter
+  --min-bprp MIN_BPRP   min bprp input filter
+  --max-gabs MAX_GABS   max gabs input filter
+  --min-gabs MIN_GABS   min gabs input filter
+  --debug               generate debug files
+  -l LOG, --log LOG     log file name
+  -p, --perf            toggle performance logging
+  -e, --exec            command line mode
+  --public              webserver available worldwide
+  --tcpport TCPPORT     webserver port
+  --separator SEPARATOR
+  CSV separator
+  --decimal DECIMAL     decimal separator
+  -g GRID, --grid GRID  grid index size
+  
+
+  details on some options :
+
+  --force
+  warning : do not use with MacOS app or Windows .exe version (only for linux)
+  The tool uses a geometric index to boost performances. The index is computed from the da and db abacus. The index is computed when missing and cached for next computing. However, you can use --force to force computing again the index. The computing duration depends on the index size and may last more than one minute, depending on the CPU power available. Note that this computing will use all available cores from your computer CPU.
+
+  Will compute the grid index anyway (even if grid index cache files are found on disk)
+
+  --grid
+  grid index size. Bigger index will raise computing precision without raising computing time.
+  Default is 200 (and you cannot change this with MacOS app or Windows .exe versions)
+  Recommended is 500
+  Max is 1000
+
+  -d DATA, --data DATA  dir for data files
+  Computing the geometric index needs DA and DB abacus. You can change the default dir with this option. No need for it provided you installed as recommended.
+  
+  --prob PROB (default value "prob")
+  --da
+  --db
+  You must use exactly one of those options.
+  --prob will drive gaiacalc to use either DA or DB abacus (the PROB value is either a column name if your file has a header line, or the zero-based column rank).
+  --da or --db will force computing using only DA (resp. DB) abacus.
+
+  --bprp BPRP (default value "bprp")
+  --gabs GABS (default value "gabs")
+  Columns for computing input values.
+  BPRP and GABS values are either column names if your file has a header line, or the zero-based column ranks.
+
+  --no-prob
+This option removes the default value from --prob option. This implies you specify both --da and --db options otherwise you will get an error message. The tool will then compute both DA and DB then output mean values between da and db results for mass/temp
+
+  --show
+  The tool will display HR diagram (Hertzsprung-Russell), for a maximum of 20000 stars. This option will have an effect only when launching in the command line (see --exec). No window will appear on a linux computer witout any window system. Note that the web server version is also able to show you the HR diagram but zooming will not show more details. Therefore if you want to zoom and get details, use the command line tool in MacOS or Windows. When you hover the mouse on any point of the diagram, the name and values for this White dwarf are displayed in the terminal/cmd window
+
+  --csv
+  --bin
+  Only one of these. Default is --csv.
+  --bin will output a binary file with 4-bytes float values for mass and temp of each input line.
+
+  --log
+  Will redirect there the stderr messages (including --perf output)
+
+  --public
+  Default webserver will accept only local connexions from your own computer.
+  Using this option will accept connexions from the network to your computer.
+  
+  --tcpport
+  Use port above 1024 if you run the server when logged user has no privileges (often 8000 or 8080)
+  Use port 80 on a server if you have root privileges.
+
+  --separator
+  --decimal
+  Enclose the values in double quotes as in : --separator ";" --decimal "."
+
+  --max-bprp MAX_BPRP   max bprp input filter
+  --min-bprp MIN_BPRP   min bprp input filter
+  --max-gabs MAX_GABS   max gabs input filter
+  --min-gabs MIN_GABS   min gabs input filter
+  Each of these will filter out any non-compliant input line from the input file.
+  
+
+  SECURITY WARNINGS :
+  
+  The tool is available with the HTTP protocol. The communication is not encrypted. Do not send confidential data when using the public website. Remember that you can install the same tool with the same web interface on your own computer by downloading the MacOS application, or the Windows exe file, or the Python package.
+
+  You will know that your data is not sent via internet when the URL address displayed in your browser is : http://127.0.0.1:8080 (this will confirm that the browser is only talking to the local web server running on your computer, with no internet access).
+
+  When downloading and installing the MacOS or Windows version, you may get security warnings or have to use some privileges to bypass the security filters installed by your organization. Please ask to your IT department if you need more information and do not overcome security rules by yourself.
+</pre>  
+</html>
