@@ -1,0 +1,16 @@
+supervisor_shell_ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supervisor_shell_ui/common.py,sha256=Rgjt3WseGb__Sl2hyQuJISC7gbB3julNfa9QCswvjaE,1408
+supervisor_shell_ui/config.py,sha256=Lu8Cf-xp7sI6fHP5U_7NwX4bpTn1xHwuwlFauztQxVM,888
+supervisor_shell_ui/keys.py,sha256=7KMvHTiml7ZDI2UfMDuF7VMKKce3a1Vw1HOrPU9NaCc,1061
+supervisor_shell_ui/main.py,sha256=thUOfIxaEZCLCgH20eQ3aWAbPW0zabCDXtCnevktCi0,1247
+supervisor_shell_ui/page.py,sha256=VRgfzkYpm2cgdDc2uHYXOSp-Ng5LIPUfgfuitfhKqzI,4921
+supervisor_shell_ui/page_main.py,sha256=KK1tUSbPHiZeeaN1LE5ssyvvCGAJjAIu9Y5PDb_hppo,15568
+supervisor_shell_ui/page_tail.py,sha256=fJiB_8vj52yZHTx8ktzl1LiK_YG_1qdNokgY10AzN40,3436
+supervisor_shell_ui/screen.py,sha256=__gOopAdES5wwf7ruZUaDjfqRHbyTvJEwFXgiuHbpYI,3075
+supervisor_shell_ui/supervisor.py,sha256=lIsz_ev-YNJThgXg7YYooj6albEdWEpuNvVvvaeqBgw,2523
+supervisor_shell_ui-0.1.1.dist-info/LICENSE,sha256=-BeIbua7Ze0wmKeYex6XgWU9FccfhVic4NKvZjxm03M,34888
+supervisor_shell_ui-0.1.1.dist-info/METADATA,sha256=u-8YEX10QNPnd_vi77PS3d5iAKdEb6rLiInB-rLro6E,3218
+supervisor_shell_ui-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+supervisor_shell_ui-0.1.1.dist-info/entry_points.txt,sha256=XGgKsFNSA_VSwhfWsi-x288lNSTIYyCRVSJtbCjssqc,70
+supervisor_shell_ui-0.1.1.dist-info/top_level.txt,sha256=6qsD0kJ2Of40d7UnkJAQAiTWlFWVf1buMS3JIqfc904,20
+supervisor_shell_ui-0.1.1.dist-info/RECORD,,
