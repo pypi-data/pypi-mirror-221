@@ -1,0 +1,16 @@
+jupyterlab_ariakedark_theme/__init__.py,sha256=raP9QrSt1aBLsj3Ow-cenBkubhOabNtK0BZ0WerQr2E,612
+jupyterlab_ariakedark_theme/_version.py,sha256=0bhZNmKmDXExUL2dj7IzVQeZsRU1vgGevqAQCZ9Z9FU,171
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/build_log.json,sha256=zLKRQZ8F9vVurKvDg_ewAlR2DgbDGJsbCDPnqL8cLg4,22176
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/package.json,sha256=9rLbe76hqzxhS4NLRf8XN34UTeE6hGFgF5b7maSt9cs,5434
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/static/lib_index_js.ec0f4e74d248cc0e4f58.js,sha256=QPb16kNPLjaTIMbZ1u70LNfUz-Tqu-u5sjH9wkQuP4Q,1759
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/static/lib_index_js.ec0f4e74d248cc0e4f58.js.map,sha256=Oia6Izfse03hwb7_AHywQdRAuGsM6JH7m5fI-GzQal8,1592
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/static/remoteEntry.d9c562f8c1deef008056.js,sha256=gI9caB4eE_ffF7k3iq2tOSQGQxZU1xZUlx1dZ-5WOuI,27153
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/static/remoteEntry.d9c562f8c1deef008056.js.map,sha256=TWc6tBH6mdF8Cy_PjqS5z9MQoeGwAl5OXhOsZ-9gAXI,26033
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/themes/jupyterlab_ariakedark_theme/index.css,sha256=EtxT24o_LAdjzOaoHGN8HymDNWalZgXy8Q8hGhPBKgU,13835
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/themes/jupyterlab_ariakedark_theme/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_ariakedark_theme-0.1.3.data/data/share/jupyter/labextensions/jupyterlab_ariakedark_theme/install.json,sha256=w3FIbvIkE89RNygj5ix8C-uEtzzLYB_yFbklvmZUp5c,215
+jupyterlab_ariakedark_theme-0.1.3.dist-info/METADATA,sha256=9Akq8HjlT3wF22NkZZE5WToNqWW5Bu2qxlpu3CIJWn4,6319
+jupyterlab_ariakedark_theme-0.1.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_ariakedark_theme-0.1.3.dist-info/licenses/LICENSE,sha256=_65N-B9xY76Siw6lqy1mp-idTzwQl7k7NGjVQd5lD84,1522
+jupyterlab_ariakedark_theme-0.1.3.dist-info/RECORD,,
