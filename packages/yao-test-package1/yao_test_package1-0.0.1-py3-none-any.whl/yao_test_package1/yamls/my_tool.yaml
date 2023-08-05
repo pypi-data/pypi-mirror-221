@@ -1,0 +1,13 @@
+yao_test_package1.tools.my_tool.my_tool:
+  function: my_tool
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: yao_test_package1.tools.my_tool
+  name: My First Tool
+  description: This is my first tool
+  type: python
