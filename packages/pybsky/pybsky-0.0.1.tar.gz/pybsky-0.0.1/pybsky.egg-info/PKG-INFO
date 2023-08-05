@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pybsky
+Version: 0.0.1
+Summary: Python Client for bsky social media
+Author: softrebel, ovan
+Author-email: Mohammadreza softrebel <sh.mohammad66@yahoo.com>, Mahdi Ovan <mahdi.ovan@yahoo.com>
+Project-URL: Homepage, https://github.com/softrebel/pybsky
+Project-URL: Bug Tracker, https://github.com/softrebel/pybsky/issues
+Keywords: python,pybsky,bsky
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pybsky
+
+<div align='center'>
+    <img src=assets/cover.png height="150" width="500" alt="pybsky-logo" >
+
+</div>
+
+## TODO List:
+
+- [x] Create Client
+- [x] Add Login logic
+- [ ] Get Profile logic
+- [ ] Get Follwer/Following logic
+- [ ] Follow/Unfollow
+- [ ] Get Likers
+- [ ] Get Commenters
+- [ ] Get Feed/Timeline
+- [ ] Post skeets
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- This project is licensed under the terms of the **[MIT license](LICENSE)**
