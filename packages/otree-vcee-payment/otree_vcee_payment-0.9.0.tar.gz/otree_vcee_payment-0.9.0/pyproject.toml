@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "otree-vcee-payment"
+version = "0.9.0"
+authors = [
+    { name = "Philipp Külpmann", email = "philipp.kuelpmann@univie.ac.at" },
+    { name = "Geoffrey Castillo", email = "geoffrey.castillo@univie.ac.at" },
+]
+description = "VCEE Payment App"
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Framework :: Django",
+    "Environment :: Web Environment"
+]
+
+[project.urls]
+"Homepage" = "https://vcee.univie.ac.at/home/"

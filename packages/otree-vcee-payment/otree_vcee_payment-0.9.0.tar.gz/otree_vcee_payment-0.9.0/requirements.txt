@@ -1,0 +1,4 @@
+cryptography>=3.3.1
+otree~=3.3.11, <5.0.0
+psycopg2~=2.8.6
+schwifty>=2021.1.0

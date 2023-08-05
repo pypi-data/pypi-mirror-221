@@ -1,0 +1,14 @@
+{% load otree %}
+<div>You can download the payoff file here: </div>
+<button class="btn btn-primary" onClick="download_csv()">Download CSV</button>
+
+<script>
+    function download_csv() {
+        var csv = "{{ file_path|escapejs }}";
+        var hiddenElement = document.createElement('a');
+        hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+        hiddenElement.target = '_blank';
+        hiddenElement.download = 'payment_info.csv';
+        hiddenElement.click();
+    }
+</script>
