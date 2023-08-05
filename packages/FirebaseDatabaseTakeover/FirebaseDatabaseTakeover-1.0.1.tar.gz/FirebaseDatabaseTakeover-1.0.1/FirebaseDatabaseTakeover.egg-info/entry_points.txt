@@ -1,0 +1,2 @@
+[console_scripts]
+fdt = fdt.__main__:main
