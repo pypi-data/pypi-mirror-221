@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+discord_json_database.egg-info/PKG-INFO
+discord_json_database.egg-info/SOURCES.txt
+discord_json_database.egg-info/dependency_links.txt
+discord_json_database.egg-info/top_level.txt
