@@ -1,0 +1,9 @@
+idocker/__init__.py,sha256=DZ8L5Mkq9i1hUCaDtaRnKPh5JpCJJAShAsGe9suQ0s4,101
+idocker/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idocker/cli/main.py,sha256=_y4sx_tgb5hyp938LxBvHcWAcwka4GHZmKe_8wE2nBQ,4127
+idocker-1.2.2.dist-info/LICENSE,sha256=E3Rlh9BlSSORriy7T6pY2uTFSRBtwgfg7qTD_1E1b0A,1082
+idocker-1.2.2.dist-info/METADATA,sha256=ksdghcPmx-oKsIK8AO_fP8hr8z6yrn2apIdF5YFF1YU,4942
+idocker-1.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+idocker-1.2.2.dist-info/entry_points.txt,sha256=BweaOtkxd_72bMLP2qlZsY6kmOaFtwIRWjY8GevJe7s,49
+idocker-1.2.2.dist-info/top_level.txt,sha256=Axql1OeDqgaYvXmtaKD8DDKujlImOKDmFyqnU3fBC9c,8
+idocker-1.2.2.dist-info/RECORD,,
