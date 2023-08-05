@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+pkg/__init__.py
+pkg/printc.py
+wph_c.egg-info/PKG-INFO
+wph_c.egg-info/SOURCES.txt
+wph_c.egg-info/dependency_links.txt
+wph_c.egg-info/top_level.txt
