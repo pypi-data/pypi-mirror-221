@@ -1,0 +1,12 @@
+clp_ffi_py.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+clp_ffi_py.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+clp_ffi_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/utils.py,sha256=8N3ObrUhCPGEEZcTsMKbp75TwoA4tLNuRTuhFGl0Hrs,1129
+clp_ffi_py/ir.cpython-38-i386-linux-gnu.so,sha256=dah_QUNDC-vPmj2_O67UJDcLA8At5vI6AA7cUmVXpes,4011129
+clp_ffi_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/ir.pyi,sha256=PCr4QF1rC8CL5nJLAja0MJIcKvaXSSYzL3VS3djIjSk,1380
+clp_ffi_py-0.0.1.dist-info/top_level.txt,sha256=oJlQf7Hnz9l2Yum2B9WNNVFDMdgnuqibAtxChyZJtc8,11
+clp_ffi_py-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+clp_ffi_py-0.0.1.dist-info/RECORD,,
+clp_ffi_py-0.0.1.dist-info/WHEEL,sha256=6TsO2I4RkGYlZDPJhv87jCVfcpWZ28pxLVGKkvvmoY4,109
+clp_ffi_py-0.0.1.dist-info/METADATA,sha256=29yOB7Z1DOTR9efRlo772aCY7IOBlaGYkP0VHAcD6Jw,4980
