@@ -1,0 +1,64 @@
+# BigGo API PMS Python Client
+
+
+BigGo API PMS Python Client is a API written in Python. 
+
+short future:
+
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Initializing](#initializing)
+  - [Accessing BigGo API PMS](#accessing-biggo-api-pms)
+- [License](#license)
+
+## Getting Started
+
+### Installation
+
+Using pip
+
+```shell
+pip install -U biggo_pms_api_python
+```
+
+### Usage
+
+Using:
+
+```python
+from biggo_pms_api_python import BiggoAPIPMS 
+```
+
+### Initializing
+
+To get started, first obtain a client id and secret from BigGo API. Then, use the following code to obtain an API object:
+
+```python
+api = BiggoAPIPMS(clientID=client_id, clientSecret=client_secret)
+```
+
+You can refer to this guide to get the client id and secret
+
+[Funmula-Corp/guide](https://github.com/Funmula-Corp/guide)
+
+### Accessing BigGo API PMS
+
+You can access all BigGo API PMS resources using the api object. Simply use the object obtained from `new BiggoAPIPMS()`. For example:
+
+```python
+// Get list of platforms the user has access.
+platformList = await api.get_Platform_List()
+// Get list of groups in the platform.
+groupList = await api.get_Group_List('<Platform ID>')
+// Get list of reports in the platform.
+reportList = await api.get_Report_List('<Platform ID>')
+// Get file content or save report as file.
+reportJson = await api.get_Report('<Platform ID>', '<Report ID>', 'json')
+```
+
+if you need more information, you can refer to this [document](./biggo_pms_api_python/README.md).
+
+## License
+
+[MIT](./LICENSE)
