@@ -1,0 +1,7 @@
+skyramp/__init__.py,sha256=cUjoQPKcq-0ngc0_qNGupHrnB-4giBii3NC5WWyOu5M,249
+skyramp/client.py,sha256=NGUFMMSyOJbqIbUljfN9-Pbkw-3pueR6frWaleJFxLA,5408
+skyramp/endpoint.py,sha256=YTGkNJAYhBknEgHZvk5Kcjlq6ETOEHd-6VK7HYHbj3E,5458
+skyramp/utils.py,sha256=42Rb9_WHke-ag31SeCuKDPq9Y4ROqye6D1pzpCrxj9w,1182
+skyramp-0.4.30.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+skyramp-0.4.30.dist-info/METADATA,sha256=3IPNhFSH9fLaPcrEq64FaQfP1-frMsRskDqdVmK23V0,601
+skyramp-0.4.30.dist-info/RECORD,,
