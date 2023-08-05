@@ -1,0 +1,1 @@
+include yao_test_package2/yamls/*.yaml

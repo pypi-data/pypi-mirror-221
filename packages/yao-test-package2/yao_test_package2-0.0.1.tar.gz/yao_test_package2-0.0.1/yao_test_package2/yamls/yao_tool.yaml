@@ -1,0 +1,13 @@
+yao_test_package2.tools.yao_tool.yao_tool:
+  function: yao_tool
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: yao_test_package2.tools.yao_tool
+  name: Yao hello world Tool
+  description: This is yao hello world tool
+  type: python
