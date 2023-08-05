@@ -1,0 +1,20 @@
+[project]
+name = "LordXen"
+version = "2023.7.23"
+description = "Python XenForo Api Lib für Posten "
+readme = "README.rst"
+requires-python = ">=3.10"
+keywords = []
+classifiers = []
+dependencies = []
+[[project.authors]]
+email = "lordibex@protonmail.com"
+name = "lordbex"
+
+[[project.maintainers]]
+email = "lordibex@protonmail.com"
+name = "lordbex"
+
+[project.urls]
+homepage = "https://github.com/LordBex/LordXen"
+repository = "https://github.com/LordBex/LordXen"
