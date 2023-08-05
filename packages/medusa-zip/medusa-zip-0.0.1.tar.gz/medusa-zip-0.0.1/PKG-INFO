@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: medusa-zip
+Version: 0.0.1
+Summary: High-performance parallelized implementations of common zip file operations.
+Author-email: Danny McClanahan <dmcC2@hypnicjerk.ai>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/cosmicexplorer/medusa-zip
+Project-URL: Repository, https://github.com/cosmicexplorer/medusa-zip
+Project-URL: Bug Tracker, https://github.com/cosmicexplorer/medusa-zip/issues
+Keywords: zip,rust,fs,file,archive,parallel,pyo3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: File Formats
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: asyncio
+Provides-Extra: sync
+License-File: LICENSE
+
+pymedusa
+========
+
+???
