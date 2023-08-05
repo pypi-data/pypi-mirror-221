@@ -1,0 +1,7 @@
+astunparse
+
+[dev]
+pytest<8.0.0,>=7.1.0
+pytest-cov<5.0.0,>=3.0.0
+networkx<4.0,>=3.1
+pygraphviz<2.0,>=1.11
