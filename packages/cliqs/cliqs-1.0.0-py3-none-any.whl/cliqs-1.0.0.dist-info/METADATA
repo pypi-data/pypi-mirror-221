@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: cliqs
+Version: 1.0.0
+Summary: Module provides implementation of multilingual crisis social media summarization model.
+Author-email: Fedor Vitiugin <fedor.vitiugin@upf.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Fedor Vitiugin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/vitiugin/cliqs
+Keywords: text summarization,text classification,multilingual
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (>=1.4.0)
+Requires-Dist: beautifulsoup4 (>=4.12.0)
+Requires-Dist: emoji (>=2.2.0)
+Requires-Dist: huggingface-hub (>=0.13.3)
+Requires-Dist: keras (>=2.11.0)
+Requires-Dist: laserembeddings (>=1.1.2)
+Requires-Dist: nltk (>=3.8.1)
+Requires-Dist: numpy (>=1.24.2)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: scikit-learn (>=1.2.2)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: sklearn (>=0.0.post1)
+Requires-Dist: spacy (>=3.5.1)
+Requires-Dist: spacy-legacy (>=3.0.12)
+Requires-Dist: spacy-loggers (>=1.0.4)
+Requires-Dist: stanza (>=1.5.0)
+Requires-Dist: subword-nmt (>=0.3.8)
+Requires-Dist: SudachiDict-core (>=20230110)
+Requires-Dist: SudachiPy (>=0.6.7)
+Requires-Dist: sympy (>=1.11.1)
+Requires-Dist: tensorboard (>=2.11.2)
+Requires-Dist: tensorboard-data-server (>=0.6.1)
+Requires-Dist: tensorboard-plugin-wit (>=1.8.1)
+Requires-Dist: tensorflow (>=2.11.1)
+Requires-Dist: tensorflow-estimator (>=2.11.0)
+Requires-Dist: tensorflow-io-gcs-filesystem (>=0.31.0)
+Requires-Dist: tokenizers (>=0.13.2)
+Requires-Dist: torch (>=1.13.1)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: transformers (>=4.27.2)
+Requires-Dist: transliterate (>=1.10.2)
+Requires-Dist: urllib3 (>=1.26.15)
+Requires-Dist: wikipedia (>=1.4.0)
+
+# CLiQS Python module
+
+CLiQS Python module provides implementation of multilingual crisis social media summarization model.
+
+Please, if you use CLiQS for your research consider citing:
+
+>Fedor Vitiugin, Carlos Castillo: Cross-Lingual Query-Based Summarization of Crisis-Related Social Media: An Abstractive Approach Using Transformers. In ACM Hypertext 2022. ACM Press. https://doi.org/10.1145/3511095.3531279
+
+## Installation
+
+1. Install the module via pip:
+
+```console
+pip install cliqs
+```
+
+2. Download LASER and CLiQS models:
+
+```console
+python -m laserembeddings download-models
+python -m cliqs download-models
+```
+
+3. Before running the script, please check installation of [SpaCy models](https://spacy.io/models) for language that you plan to use.
+
+```console
+python -m spacy download fr_core_news_sm # for French
+```
+
+
+## Test use
+
+Download [test data 'example.csv'](https://github.com/vitiugin/cliqs/blob/main/example.csv) file and put in the current directory.
+
+Example of use:
+
+```console
+import pandas as pd
+from cliqs import CliqSum
+
+sum = CliqSum()
+
+tweets = pd.read_csv('example.csv')
+summary = sum.summarize(tweets, 'Damage', 'fr')
+
+print(summary)
+```
+
+>cyclone seroja a touché terre en Australie, entre Kalbarri et northampton, l'oeil est encore bien dessiné mais devrait rapidement se déstructurer. cyclone seroja devrait prendre le dessus et atteindre le stade de cyclone 65kt ce WE avant de toucher terre sur côte ouest Australie dimanche soir.
+
+- example.csv —- data file with three columns: id, text, en_text (translation of texts to English).
+- Damage -- information category. Current version supports 6 categories: Casualties, Damage, Danger, Sensor, Service aand Weather.
+- fr -- language of texts in file.
+
+## Resources
+
+Code for training custom models — [CLiQS-CM GitHub repository](https://github.com/vitiugin/CLiQS-CM)
+
+Dataset for text classification — [tweets dataset](https://data.d4science.org/ctlg/ResourceCatalogue/cross-lingual_dataset_of_crisis-related_social_media)
+
+Dataset for summary evaluation — [summaries dataset](https://data.d4science.org/ctlg/ResourceCatalogue/dataset_for_evaluating_abstractive_summaries_of_crisis-related_social_media)

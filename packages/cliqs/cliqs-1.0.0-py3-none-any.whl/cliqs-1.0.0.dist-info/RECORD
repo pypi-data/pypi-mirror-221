@@ -1,0 +1,11 @@
+cliqs/__init__.py,sha256=biaZkylV49h9yZ5crfQ6hyjc2Ny-e5oTOtvs575FqHE,72
+cliqs/__main__.py,sha256=plR6lmJsqIh7gK7jsujFX7-E0Rk_-A8ambuVFEe1FUQ,1722
+cliqs/cliqs.py,sha256=bVDXSPOjuXy8faC_c5-FlMkp52m7clNmUcgZa9LB0AE,7957
+cliqs/features_extraction.py,sha256=2u1POu0O8pWqt-dIbGoa3KGpV74flAMaO98WMBDVC9Y,10544
+cliqs/utils.py,sha256=czoDjx0ZloPAnK8x3brR8KbqM9l5hUBvm6xk_DtYFOo,2634
+cliqs-1.0.0.dist-info/LICENSE,sha256=oAoMQRr601o_Z6ZJJ26ZfM1dEQ4CehcBoQ0X9rnu3ng,1070
+cliqs-1.0.0.dist-info/METADATA,sha256=sRuZGne3s8dV8zKL-Ngl3OYm68_4H_WXd0CVmxa0l4M,5220
+cliqs-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cliqs-1.0.0.dist-info/entry_points.txt,sha256=7PmKhWJCpE2f9AF8Bd-VoJYzRhRXReSl5wR0U63TIFo,51
+cliqs-1.0.0.dist-info/top_level.txt,sha256=DLI5g7lVgD6IWXM7KjKxVlGV5gCCSeTO9dlYxh7hBf4,6
+cliqs-1.0.0.dist-info/RECORD,,

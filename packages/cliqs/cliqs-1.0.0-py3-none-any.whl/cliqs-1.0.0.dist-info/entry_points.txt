@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = cliqs.__main__:main
