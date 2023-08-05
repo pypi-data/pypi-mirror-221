@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: elsdk
+Version: 0.1.1
+Summary: SDK for Scheduling and Managing EL Platform
+Home-page: https://einstonlabs.com
+Author: EinstonLabs
+Author-email: info@einstonlabs.com
+License: All Rights Reserved by Einston Labs
+Keywords: elp,einston,sdk
+Requires-Python: ~=3.8
