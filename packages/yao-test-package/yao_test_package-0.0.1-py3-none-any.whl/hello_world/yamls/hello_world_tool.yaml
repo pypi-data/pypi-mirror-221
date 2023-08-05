@@ -1,0 +1,13 @@
+hello_world.tools.hello_world_tool.hello_world_tool:
+  function: hello_world_tool
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: hello_world.tools.hello_world_tool
+  name: my hello world
+  description: truess my hello world
+  type: python
