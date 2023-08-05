@@ -1,0 +1,84 @@
+[tool.poetry]
+name = "mystbin-py"
+version = "6.0.0"
+description = "A small simple wrapper around the mystb.in API."
+authors = ["AbstractUmbra <Umbra@AbstractUmbra.dev>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/PythonistaGuild/mystbin.py"
+repository = "https://github.com/PythonistaGuild/mystbin.py"
+keywords = ["mystbin",  "paste"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet",
+    "Typing :: Typed",
+]
+include = [
+    "LICENSE"
+]
+packages = [
+    { include = "mystbin" },
+    { include = "mystbin/**/*.py" },
+    { include = "mystbin/py.typed" }
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/PythonistaGuild/mystbin.py/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = [
+    { version = "^3.8" },
+    { version = "^3.8", markers = "extra == 'speed'", extras= ["speedups"]},
+]
+
+sphinx = { version = "^4.0.0", optional = true }
+sphinxcontrib-trio = { version = "*", optional = true }
+furo = { version = "*", optional = true }
+pytz = { version = "*", optional = true, python="<3.9" }
+
+[tool.poetry.extras]
+speed = ["aiohttp"]
+docs = ["sphinx", "sphinxcontrib-trio", "furo"]
+
+[tool.poetry.group.speedups.dependencies]
+aiohttp = { version = "^3.8", extras = ["speedups"] }
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "*"
+sphinxcontrib-trio = "*"
+furo = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+
+[tool.poetry.scripts]
+version = 'mystbin.__main__:show_version'
+
+[tool.black]
+line-length = 125
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["mystbin"]
+lines_after_imports = 2
+
+[tool.pyright]
+ignore = ["docs/conf.py"]
+include = ["mystbin/**/*.py"]
+useLibraryCodeForTypes = true
+typeCheckingMode = "strict"
+pythonVersion = "3.8"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
