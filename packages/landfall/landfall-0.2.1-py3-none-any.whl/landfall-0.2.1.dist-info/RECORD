@@ -1,0 +1,10 @@
+landfall/__init__.py,sha256=pcNHvdXptNOjbCorWrt0m-tYxVX1BUzZEeOn-sDyETA,121
+landfall/color.py,sha256=bqXz6-WdeLtzMy9QI5zBkGiYm4ZurQwceArXeS5Y9ig,1848
+landfall/colorsys.py,sha256=lLryIPPOiRmN1ZnxuAECCp53zXvLdqb2WcnyzdSZFP8,631
+landfall/distinctipy.py,sha256=N29Z3RedWSe7Gjvoejq2PjPnzNDJGWMssFaV3kJTDhg,271
+landfall/points.py,sha256=gkuU99InZTSZQOOgWyCW-xKn2T9qP9nxD_-CsWXeasE,2550
+landfall-0.2.1.dist-info/LICENSE,sha256=oFq9FEIyAGvzUW2asR4JnQiFiH0X7cNCLO4N_bhiZUk,1068
+landfall-0.2.1.dist-info/METADATA,sha256=vMVnCaibUjkcAlmV04Di7P_vGhYtOvqh3vP_3MNN4qw,1004
+landfall-0.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+landfall-0.2.1.dist-info/top_level.txt,sha256=5hJHa8DW6HpsYFUTstoguc1LYRkKgyatMMdGtvMQRVs,9
+landfall-0.2.1.dist-info/RECORD,,
