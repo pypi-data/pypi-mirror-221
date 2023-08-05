@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+chatproxy/__init__.py
+chatproxy/session.py
+chatproxy.egg-info/PKG-INFO
+chatproxy.egg-info/SOURCES.txt
+chatproxy.egg-info/dependency_links.txt
+chatproxy.egg-info/not-zip-safe
+chatproxy.egg-info/top_level.txt
