@@ -1,0 +1,17 @@
+pymedusa_zip/pymedusa_zip.cpython-39-darwin.so,sha256=YBDHcHGhv-lhlPfpiCHGpI_McJxxzUqpRLAKHsnBbA8,5017928
+medusa_zip/crawl.py,sha256=NK8-zCB2mVXToERhHrMvoL7g_poTui3ixLPt_vLOfAI,232
+medusa_zip/merge.py,sha256=f2VdcUzijdQySt9S6h9_NSLvxAxMaHsgTcu9zqY_I7U,232
+medusa_zip/merge.pyi,sha256=tCjukhMOC6usGxnpWJjeYpT1eN076CXVrEE2_XVZ4rM,1004
+medusa_zip/destination.py,sha256=VpLO_yZ3cEeuz7ZMU6KnbOn2Ejoq_8Wjq1HCqXCz26s,238
+medusa_zip/__init__.pyi,sha256=K2WU4KMsicx1a-HVRkVThnxAPdwTbfTticqjp45Z39o,452
+medusa_zip/__init__.py,sha256=L-YkJ76bs2ZzNaNJkya_Q3e4MB1SAqHIi3tQKzt8uNw,226
+medusa_zip/zip.pyi,sha256=VaUoIQAlKz-L4VVmQcmEFWqGVbkuB_VGDDWGRqolXPM,3283
+medusa_zip/zip.py,sha256=ZAPXiKYJWh5jQWSHaCSarrGMRe8dE3MlNTbFoRPfU2Q,230
+medusa_zip/crawl.pyi,sha256=neVtArwQwRvJE3vhkgtsDqVM_H7k8T3zDrGFTEIzm7k,1410
+medusa_zip/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+medusa_zip/destination.pyi,sha256=Wr0RoLk4s5Vya3BZXeo7t1PMWRFJT4-bq3lPdUcK_ak,1077
+medusa_zip-0.0.6.dist-info/RECORD,,
+medusa_zip-0.0.6.dist-info/LICENSE,sha256=1zIyifkX2ZCSeVbVXuixZP-1-eA7se7RG59nxzTHpbo,11360
+medusa_zip-0.0.6.dist-info/WHEEL,sha256=s7XPjZkVOHAkO1EjWZBiLHfT09kcOS6vaHDFYIv3C8A,109
+medusa_zip-0.0.6.dist-info/top_level.txt,sha256=HNxTRN_PRUMZ9HL2U2ZM98YprgvCExDjNsrd4GDVQrg,11
+medusa_zip-0.0.6.dist-info/METADATA,sha256=HAQpjXhdETnWNRboTz5hBVzae5Y8jN9N5u6G3GaGE7g,1561
