@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fastapi-dynamic-routers
+Version: 0.1
+Summary: A dynamic routes includer for FastAPI
+Home-page: https://github.com/ashkangoleh/fastapi_dynamic_routes
+Author: Ashkan Goleh Pour
+Author-email: ashkangoleh@gmail.com
