@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+cow_api/__init__.py
+cow_api/main.py
+cow_api.egg-info/PKG-INFO
+cow_api.egg-info/SOURCES.txt
+cow_api.egg-info/dependency_links.txt
+cow_api.egg-info/requires.txt
+cow_api.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
