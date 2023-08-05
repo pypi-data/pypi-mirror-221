@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: FoxPay
+Version: 1.0.0
+Summary: foxpay sdk for python version
+Home-page: https://github.com/KamenSoftware/foxpay-sdk-python
+Author: Lin
+Author-email: 404885236@qq.com
+License: Apache License
+Keywords: python,foxpay-sdk,Lin,wallet
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# foxpay-sdk-python

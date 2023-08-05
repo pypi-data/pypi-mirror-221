@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+FoxPay.egg-info/PKG-INFO
+FoxPay.egg-info/SOURCES.txt
+FoxPay.egg-info/dependency_links.txt
+FoxPay.egg-info/top_level.txt
+foxpay/__init__.py
+foxpay/main.py
+foxpay/test.py
+foxpay/test2.py
