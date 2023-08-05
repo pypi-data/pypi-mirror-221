@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: zzq_string_sum
+Version: 0.4.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# rust-github-flow-test
+test rust PyO3 github flow
+
+
+```bash
+pip install zzq-string-sum
+```
+
+use it in python
+
+```python
+from zzq_string_sum import databus
+
+
+print("zzq see ", databus.sum_as_string(1, 2))
+print("zzq see2 ", databus.sum_as_string(10, 20))
+
+databus.init("http://loaclhost:8080")
+```
