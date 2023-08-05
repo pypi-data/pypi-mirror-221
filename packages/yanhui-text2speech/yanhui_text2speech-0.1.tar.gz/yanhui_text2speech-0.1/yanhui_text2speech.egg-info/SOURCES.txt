@@ -1,0 +1,8 @@
+setup.py
+yanhui_text2speech/__init__.py
+yanhui_text2speech/yanhui_txt2speech.py
+yanhui_text2speech.egg-info/PKG-INFO
+yanhui_text2speech.egg-info/SOURCES.txt
+yanhui_text2speech.egg-info/dependency_links.txt
+yanhui_text2speech.egg-info/requires.txt
+yanhui_text2speech.egg-info/top_level.txt
