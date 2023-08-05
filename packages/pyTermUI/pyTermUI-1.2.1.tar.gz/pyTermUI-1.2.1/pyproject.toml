@@ -1,0 +1,22 @@
+[project]
+dynamic = ["dependencies"]
+name = "pyTermUI"
+version = "1.2.1"
+authors = [
+  { name="iiVeil", email="zhuebner03@gmail.com" },
+]
+description = "pyTermUI or TermUI is a rapid development user interface library for python command-line interface applications."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Github" = "https://github.com/iiVeil/TermUi"
+"Documentation" = "https://pytermui.readthedocs.io/en/latest/"
