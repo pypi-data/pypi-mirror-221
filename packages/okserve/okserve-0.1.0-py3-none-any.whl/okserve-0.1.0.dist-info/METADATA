@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: okserve
+Version: 0.1.0
+Summary: 
+Author: Jeroen Bos
+Author-email: jeroenbos@live.nl
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# okserve
