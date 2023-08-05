@@ -1,0 +1,10 @@
+commonbase/__init__.py,sha256=f_ZBRizXPazlFU4NhYohI4SbIzZNOXMQ9H7lORKZY3Q,163
+commonbase/completion.py,sha256=YpFWtre1xSwScSKwifV57UocOV7rwqNq72VMG0aiZtE,1045
+commonbase/completion_response.py,sha256=R_3uA4DSVqjlDx-xBjXpYTwDZ8FAj6HbtSaR07juX_A,1199
+commonbase/exceptions.py,sha256=WSYAqhi9Be8jKy7Hmes8z97kf_wVNjBI4qCpVO6Ym-Q,194
+commonbase/tests/__init__.py,sha256=LG-zblOfMP6hVPKsBg0_Vu7Np90aDwZoQtZkamDOsus,46
+commonbase/tests/test_completion.py,sha256=icxKhS2j99xZSF-BQ4m_zLEbUacwcudwFH5nn7HHxAQ,1278
+commonbase-0.1.0.dist-info/METADATA,sha256=lWIAZaA3zh-59mIZ-ywXLEaKI6aMIpQ9LhhR5eII62w,2172
+commonbase-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+commonbase-0.1.0.dist-info/licenses/LICENSE,sha256=mFYnRySE15HGXRdzXfoaMhm2ASSBrmEUeWg-xlvcc-Q,1067
+commonbase-0.1.0.dist-info/RECORD,,
