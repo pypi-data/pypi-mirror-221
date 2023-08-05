@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ciokatana
+Version: 0.1.0rc1
+Summary: Katana plugin for Conductor Cloud Rendering Platform.
+Home-page: https://github.com/ConductorTechnologies/ciokatana
+Author: conductor
+Author-email: info@conductortech.com
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: ciocore (==6.3.1-rc.2)
+Requires-Dist: ciopath (<2.0.0,>=1.1.0)
+Requires-Dist: cioseq (<1.0.0,>=0.3.0)
+Requires-Dist: ciotemplate (<1.0.0,>=0.1.2)
+Requires-Dist: json-stream (<3.0.0,>=2.3.2)
+
+# Conductor for Katana
+
+Submit to Conductor from The Foundry's Katana, version 3.5 and above, Windows or Linux.
+
+## Install
+
+WIP
+
+## Usage
+
+WIP
+
+
+## Contributing
+
+See [CONTRIBUTING](CONTRIBUTING.md)
+
+## Changelog
+
+## Version:0.1.0-rc.1 -- 24 Jul 2023
+
+* First release candidate.
+* Integrated with the FarmAPI
