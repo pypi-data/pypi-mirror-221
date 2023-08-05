@@ -1,0 +1,10 @@
+biocpy/__init__.py,sha256=_R1gRn9oqrd1qIwJW1daFi-7oSJ4ktd6W0fiNv_g7ik,587
+biocpy/genomicranges/__init__.py,sha256=LRtoJjd5TAY5KFjjpDnJrCq7uDsHiAZ-F_a4riTfs8I,469
+biocpy/multiassayexperiment/__init__.py,sha256=pdDZ7XzQBCl6WmHBmDhxzTFbhOpzJ8Z_OlI9S1spipY,496
+biocpy/singlecellexperiment/__init__.py,sha256=iaN02Vrg_dndwDBdTNaK97MFEFAkMxmYbP-UWs0tY3s,496
+biocpy/summarizedexperiment/__init__.py,sha256=8lPbobrlnqTi1e1-VJ6wFDleQKcqH4qUrFubf76ldIk,497
+BiocPy-0.2.2.dist-info/LICENSE.txt,sha256=pkwgQ8WMTR1-Qa0qwIaBf5I1-8OGN1B20E_eeDg-bqc,1082
+BiocPy-0.2.2.dist-info/METADATA,sha256=n9Iuw3Q6QJ5rRibe5_sn0i7cKAZTR5nFxeKLd2tIYW0,2054
+BiocPy-0.2.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+BiocPy-0.2.2.dist-info/top_level.txt,sha256=OzlG_KV4hUWEWEP7EpbZW-QgYW_a15BTvwfDnaPd_gI,7
+BiocPy-0.2.2.dist-info/RECORD,,
