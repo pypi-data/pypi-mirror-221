@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sdk-openapi
+Version: 0.0.3
+Summary: The python package for api.qewertyy.me
+Home-page: https://github.com/Qewertyy/Open-API
+Author: Qewertyy
+Author-email: Qewertyy.irl@gmail.com
+Keywords: Python,API,Bard,Google Bard,Large Language Model,Chatbot API,Google API,Chatbot,Image Generations,Latent Diffusion,State of Art
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
