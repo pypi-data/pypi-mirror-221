@@ -1,0 +1,13 @@
+covxnet/__init__.py,sha256=oNNImpI8-dfamVyPbGsNq-j8o6BNzqQ8cD2ESclXiis,72
+covxnet/version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+covxnet/blocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covxnet/blocks/residual.py,sha256=4eANJtCFtoFIFcUNwHzWoYg5P9JQuPKICLxLXp_VYX8,1055
+covxnet/blocks/shifter.py,sha256=AMXndH9ry3l6fJclEHOAgAd2zrdop0GegxeWRfiww3s,1032
+covxnet/blocks/stem.py,sha256=s0OyevVE1ZYINeRB5YKWxd87BHN7Ynp71x9z0us6_RY,470
+covxnet/network/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covxnet/network/model.py,sha256=xfQtpPNW_n-b_HIvBkqpB4ys3IsxQQbgZ-B8VVGYhF8,1492
+covxnet-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+covxnet-1.0.0.dist-info/METADATA,sha256=nRePCNT9ZciTlqKh-Va7CS-8seRoETDKDXf852F_zYM,3674
+covxnet-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+covxnet-1.0.0.dist-info/top_level.txt,sha256=GNu6AdfB2Hso0QMNr-dbuyqQmYMaXG5IB4ctMxbiPhE,8
+covxnet-1.0.0.dist-info/RECORD,,
