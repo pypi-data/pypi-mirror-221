@@ -1,0 +1,9 @@
+odoo/addons/ssi_product_purchase/README.rst,sha256=MOjO83bo-CU65L0iqGypGdNPrGU-LM-00uGGsGcPq6s,1244
+odoo/addons/ssi_product_purchase/__init__.py,sha256=fcM7VCjf8ZmZlTQ8xp0tXKFT9BZGuWyWBFTItmgfTy0,150
+odoo/addons/ssi_product_purchase/__manifest__.py,sha256=O-WU0MX3V2OIsqrNE6j1bNc-L2vht1G2YKaptdheOGo,574
+odoo/addons/ssi_product_purchase/menu.xml,sha256=FtCpVRGi9qM9iVh3mK_6mw-fN1WLzag8Uyo6mBqb7S8,1479
+odoo/addons/ssi_product_purchase/static/description/icon.png,sha256=46V9ktxAfWOQ71_m7syaIirtvbQYyzSzRiajp77MCU4,23279
+odoo14_addon_ssi_product_purchase-14.0.1.1.2.dist-info/METADATA,sha256=9T69W1VUo8aKCsa7VswL12SyU8mqcPG710H4KoCRMP0,1804
+odoo14_addon_ssi_product_purchase-14.0.1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_product_purchase-14.0.1.1.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_product_purchase-14.0.1.1.2.dist-info/RECORD,,
