@@ -1,0 +1,12 @@
+xso/__init__.py,sha256=GQ4ARxKqhkVO-qh6WsEzlRcd0S1Mb-sM59G6T0UTUNc,142
+xso/backendcomps.py,sha256=bVzaa2pYQouLpARMv5sTHY_3ftuQZHkc2mmtGaBrH8I,7700
+xso/component.py,sha256=FEbT8Ep16iMFOHX5HhBJNacgtTwHLRwX6wHLeBR-k5o,23117
+xso/core.py,sha256=8lJN5qmF41-38UIugI6dGxLi-ZRFU7rMx3dxlXl0l8U,5297
+xso/model.py,sha256=z2snytac9irT3VzytBG2RUKZWykSzz7kkQ8pdvQYq4E,7215
+xso/solvers.py,sha256=vzupfrIhiw9rKeY2_Vxvr5nSPtZTZ7RJMdWq9siVQaY,14522
+xso/variables.py,sha256=ou3GgyduUjOMl1SeHQOZpydRWxBOKW_qrsZJyLVirDU,9027
+xso/xsimlabwrappers.py,sha256=RAXCwoV445_1QFNawzfEEQARCSNam9pS6tHfrVyT90w,7062
+xso-0.0.4.dist-info/LICENSE,sha256=iTEhf2voTJZh1QvqD5V0bg7WDVy0JSR8lA6dESGQCSI,1514
+xso-0.0.4.dist-info/METADATA,sha256=MpT4mJV-e4JJWwNgO0jnHDjiO2e658ac3Bo0AVgTaWI,4070
+xso-0.0.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+xso-0.0.4.dist-info/RECORD,,
