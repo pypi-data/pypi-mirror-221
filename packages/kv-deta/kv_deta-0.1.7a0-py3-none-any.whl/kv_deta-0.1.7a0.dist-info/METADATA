@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: kv-deta
+Version: 0.1.7a0
+Summary: Key-Value Model by Detabase powered
+Home-page: https://github.com/ablaternae/kv-deta
+Author: d;)
+License: GLWTPL
+Keywords: deta,detabase,kv,key value
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deta
+Requires-Dist: more-itertools
+
+<!-- ![Lines of code](https://img.shields.io/tokei/lines/github/ablaternae/py-kv-deta) -->
+[![PyPI version](https://badge.fury.io/py/kv-deta.svg)](https://badge.fury.io/py/kv-deta)
+![Downloads](https://img.shields.io/pypi/dm/kv-deta)
+[![Statistic](https://pepy.tech/badge/kv-deta/week)](https://pepy.tech/project/kv-deta)
+<!-- [![GitHub](https://img.shields.io/github/license/ablaternae/kv-deta)](https://github.com/ablaternae/kv-deta/blob/trunk/LICENSE.md) -->
+
+# Key-Value Model by Detabase powered
+
+## API
+### constructor
+`class KVModel(dict)`
+
+example:
+```
+from kv_deta import KVModel 
+
+class Example(KVModel):
+	class Config:
+		deta_key = DETA_BASE_KEY
+		# or
+		deta = Deta(DETA_BASE_KEY)
+		#
+		table_name = "my_kv_table"	# optional
+```
+
+```
+kv = Example({"key":"value"})
+```
+
+### update
+like for dictionary
+```
+kv.update({"k2":42})
+```
+
+### save
+commit _all_ data to detabase
+```
+kv.save()
+```
+
+### get
+mixed dict.get(key) and deta.get(key)
+```
+kv.get(key:str="some key", default="newer data")
+```
+return value from `deta.get(key)` or update it by `default` if defined 
+
+
+
+### 
+
+## Updates
+
+* implemented `get(key,default)`
+* implemented `save()`
+
+
+## License
+* It's opensource and free software, see the [LICENSE](LICENSE) for more details
+
+## similar projects
+* [csv-deta](https://pypi.org/project/csv-deta/)  
+* [sql-deta](https://pypi.org/project/sql-deta/) WIP
+
+## TODO
+[ ] `dec()`
+[ ] `inc()`
+[x] `get()`
