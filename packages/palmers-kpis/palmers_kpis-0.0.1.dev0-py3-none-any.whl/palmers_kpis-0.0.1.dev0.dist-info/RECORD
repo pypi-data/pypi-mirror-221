@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kpi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kpi/config.py,sha256=8DS4YWzEKrBcYNaS4kmFupoahj7mKZN27VyI1vfZ97o,106
+kpi/main.py,sha256=jfTYPCt7utvUFZG1MYK5DSmZAAUPIrfIWYJBZk5qlG4,1671
+kpi/utils.py,sha256=efrct6VpXvFeVz37gRHYCfhNVewddC8GrasGqg9NipA,1883
+kpi/miss_sales_kpi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kpi/miss_sales_kpi/miss_sales_kpi_metric.py,sha256=9qcz-YadMKxnXiqORN_G6cRzRHMDLg5WNl9JGPsApqg,12059
+kpi/stock_kpi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kpi/stock_kpi/stock_kpi_metric.py,sha256=e6nLdkQphgafrmLnl6rBsF4GMRjbUprrtofguGaVZfk,6955
+palmers_kpis-0.0.1.dev0.dist-info/METADATA,sha256=MeHT9FjuqIE-VYjNAIvvznrlp1CV7pPpUGCc3S07krY,689
+palmers_kpis-0.0.1.dev0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+palmers_kpis-0.0.1.dev0.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+palmers_kpis-0.0.1.dev0.dist-info/RECORD,,
