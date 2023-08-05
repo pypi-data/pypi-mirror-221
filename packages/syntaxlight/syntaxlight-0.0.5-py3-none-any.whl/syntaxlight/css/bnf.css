@@ -1,0 +1,51 @@
+pre[class*="language-"] {
+    background: --background;
+}
+
+.Token {
+    color: --punctuator;
+}
+
+.Token.brace-depth-0 {
+    color: --brace1;
+}
+
+.Token.brace-depth-1 {
+    color: --brace2;
+}
+
+.Token.brace-depth-2 {
+    color: --brace3;
+}
+
+.Token.RuleName {
+    color: --struct;
+}
+
+.Token.PRODUCTION_SYMBOL {
+    color: --punctuator;
+}
+
+.Token.STR {
+    color: --string;
+}
+
+.Token.COMMENT {
+    color: --comment;
+}
+
+.Token.Punctuator {
+    color: --define;
+}
+
+.Token.Item.ID {
+    color: --define;
+}
+
+.Token.BuiltinSymbol {
+    color: --variant;
+}
+
+.Token.RANGLE_BRACE, .Token.LANGLE_BRACE {
+    color: --punctuator;
+}
