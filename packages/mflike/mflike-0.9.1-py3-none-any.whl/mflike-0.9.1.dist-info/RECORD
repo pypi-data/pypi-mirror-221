@@ -1,0 +1,11 @@
+mflike/MFLike.yaml,sha256=n5z1kXCzr-prCosVBe7q6OmWlhE5UoF3qyCovdMOAb0,5787
+mflike/__init__.py,sha256=PqsZ4h6lVvwrretP0x7hKgzQyhtVNbtXrcfAt0v8gEA,120
+mflike/_version.py,sha256=IrvPLql1y7tu39Aig2DVgmq6P69qLrdzHomLq9GC1qo,497
+mflike/mflike.py,sha256=NeWBOYBOhnhajXZovyjWJXnyuM73TohNJYNWP7X0H1c,13748
+mflike/theoryforge.py,sha256=TL2a3xNV0S9lWSwCtrEvkpvQ3Xf0GdfRR9xs4UQQGY0,18736
+mflike-0.9.1.dist-info/LICENSE,sha256=9BmfXNGK6vPw4R2N0Srx8mnJ4v2OthTWWXp2AamxMws,1553
+mflike-0.9.1.dist-info/METADATA,sha256=zGW5QGoOL99UMOs4ZpFhf4VR738lYSsZ8nRZxY1kUcY,4498
+mflike-0.9.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+mflike-0.9.1.dist-info/top_level.txt,sha256=hwqAsLvCk9kRGER13aX95T9imhnw071CpRAViCLoYhY,7
+mflike-0.9.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mflike-0.9.1.dist-info/RECORD,,
