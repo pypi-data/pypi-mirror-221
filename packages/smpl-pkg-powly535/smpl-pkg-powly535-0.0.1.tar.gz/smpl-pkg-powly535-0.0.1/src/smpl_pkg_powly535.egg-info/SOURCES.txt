@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/smpl_pkg/__init__.py
+src/smpl_pkg/smpl.py
+src/smpl_pkg_powly535.egg-info/PKG-INFO
+src/smpl_pkg_powly535.egg-info/SOURCES.txt
+src/smpl_pkg_powly535.egg-info/dependency_links.txt
+src/smpl_pkg_powly535.egg-info/top_level.txt
