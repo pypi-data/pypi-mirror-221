@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+flaxspeaker/__init__.py
+flaxspeaker/dataset.py
+flaxspeaker/evaluation.py
+flaxspeaker/feature_extraction.py
+flaxspeaker/neural_net.py
+flaxspeaker/specaug.py
+flaxspeaker.egg-info/PKG-INFO
+flaxspeaker.egg-info/SOURCES.txt
+flaxspeaker.egg-info/dependency_links.txt
+flaxspeaker.egg-info/top_level.txt
