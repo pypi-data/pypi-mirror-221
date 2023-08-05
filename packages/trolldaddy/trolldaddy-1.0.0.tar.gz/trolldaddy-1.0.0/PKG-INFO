@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: trolldaddy
+Version: 1.0.0
+Summary: haha
+Author: PyModuleDev
+Author-email: pxcom@mail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+haha

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+trolldaddy/__init__.py
+trolldaddy/trolldaddy.py
+trolldaddy.egg-info/PKG-INFO
+trolldaddy.egg-info/SOURCES.txt
+trolldaddy.egg-info/dependency_links.txt
+trolldaddy.egg-info/top_level.txt
