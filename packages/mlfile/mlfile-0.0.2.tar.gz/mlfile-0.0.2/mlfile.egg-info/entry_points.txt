@@ -1,0 +1,2 @@
+[console_scripts]
+mlfile = mlfile.cli:main
