@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: WorldD
+Version: 0.12
+Summary: Level editor made specifically for pygame games
+Home-page: https://github.com/NotMEE12/WorldD
+Author: Aleks Baran
+Author-email: legominefan@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: pygame
+Requires: tomlkit
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WorldD - level designer for pygame
+[![Upload Python Package](https://github.com/NOTMEE12/WorldD/actions/workflows/python-publish.yml/badge.svg)](https://github.com/NOTMEE12/WorldD/actions/workflows/python-publish.yml)
+### Shortcuts:
+- `SHIFT + ESCAPE` - quit the application,
+- `Up and Down arrows` - scaling size of the tile,
+- `F11` - toggling fullscreen,
+- `CTRL + S` - save output,
+- `CTRL + O` - load world,
+- `CTRL + DELETE` - delete tile from lookup (all occurrences of tile will be deleted),
+- `Q` - move project selection to left
+- `E` - move project selection to right
+- `X` - rect fill tool
+- `W` - brush tool (default)
+
+### important info:
+- by renaming the tiles in the lookup, every tile in the grid will be replaced.
