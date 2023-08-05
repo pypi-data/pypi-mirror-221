@@ -1,0 +1,10 @@
+README.md
+setup.py
+shipdan_serializer_tester/__init__.py
+shipdan_serializer_tester/model_serializer_tester.py
+shipdan_serializer_tester.egg-info/PKG-INFO
+shipdan_serializer_tester.egg-info/SOURCES.txt
+shipdan_serializer_tester.egg-info/dependency_links.txt
+shipdan_serializer_tester.egg-info/not-zip-safe
+shipdan_serializer_tester.egg-info/requires.txt
+shipdan_serializer_tester.egg-info/top_level.txt
