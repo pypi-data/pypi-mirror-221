@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: proxy-cheap
+Version: 0.0.4
+Summary: proxy-cheap API python implementatione
+Author-email: lr2bmail <lr2b.com@gmail.com>
+Project-URL: Homepage, https://github.com/lr2bmail/proxy_cheap
+Project-URL: Bug Tracker, https://github.com/lr2bmail/proxy_cheap/issues
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# proxy-cheap API python implementation
+
+ proxy-cheap API python implementation for ordering and managing proxies

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling","requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proxy_cheap"
+version = "0.0.5"
+authors = [
+  { name="lr2bmail", email="lr2b.com@gmail.com" },
+]
+description = "proxy-cheap API python implementatione"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lr2bmail/proxy_cheap"
+"Bug Tracker" = "https://github.com/lr2bmail/proxy_cheap/issues"
