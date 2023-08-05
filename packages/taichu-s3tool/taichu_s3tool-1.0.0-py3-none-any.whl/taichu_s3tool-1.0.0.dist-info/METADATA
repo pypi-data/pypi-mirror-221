@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: taichu-s3tool
+Version: 1.0.0
+Summary: taichu-s3tool is a tool for s3 download and upload
+Home-page: UNKNOWN
+Author: taichu platform team
+License: UNKNOWN
+Keywords: s3 download and upload
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Requires-Dist: boto3
+
+taichu-s3tool is a tool for s3 download and upload
+
+

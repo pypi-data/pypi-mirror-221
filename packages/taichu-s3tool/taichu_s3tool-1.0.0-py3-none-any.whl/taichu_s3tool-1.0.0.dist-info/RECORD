@@ -1,0 +1,12 @@
+s3tool/__init__.py,sha256=1M7q0ccjweKrToPrE7arOrWAgOccGBY5Bz-z3g_YLqA,29
+s3tool/download.py,sha256=gNFZpkZ3gx949cWzLTAtC6BR3xp_CQyvnAqokYh3s28,12906
+s3tool/main.py,sha256=Bal22tfG__d0maQn7Eif4cIyIcF0ays94-y4emVpU04,1311
+s3tool/upload.py,sha256=EniO6gW0h3xQyhZ4PosnzPwzFGQsTo1jZ7XvQk8DYhE,26170
+taichu-s3tool/__init__.py,sha256=1M7q0ccjweKrToPrE7arOrWAgOccGBY5Bz-z3g_YLqA,29
+taichu-s3tool/download.py,sha256=gNFZpkZ3gx949cWzLTAtC6BR3xp_CQyvnAqokYh3s28,12906
+taichu-s3tool/main.py,sha256=Bal22tfG__d0maQn7Eif4cIyIcF0ays94-y4emVpU04,1311
+taichu-s3tool/upload.py,sha256=EniO6gW0h3xQyhZ4PosnzPwzFGQsTo1jZ7XvQk8DYhE,26170
+taichu_s3tool-1.0.0.dist-info/METADATA,sha256=CSYYN9ZXLK7lV_1sx0RNdv81-q3PJCQbQZlJGD5z4Y4,333
+taichu_s3tool-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+taichu_s3tool-1.0.0.dist-info/top_level.txt,sha256=1SSVyUg-tP8TLTp9mQI_2fx7ArTBLB-hVDbZpENzix0,14
+taichu_s3tool-1.0.0.dist-info/RECORD,,
