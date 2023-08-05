@@ -1,0 +1,14 @@
+
+[all]
+aeronet-vector==0.1.0.a1
+aeronet-raster==0.1.0.a3
+aeronet-convert==0.1.0.a3
+
+[convert]
+aeronet-convert==0.1.0.a3
+
+[raster]
+aeronet-raster==0.1.0.a3
+
+[vector]
+aeronet-vector==0.1.0.a1
