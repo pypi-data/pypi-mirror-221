@@ -1,0 +1,12 @@
+bolinette/web/__init__.py,sha256=XOee_ECzahAZc1RZW5_l2E1okDUomGHTr_2vEhEX4GY,461
+bolinette/web/controller.py,sha256=ZXS7-TaUuGPiZhAsZD2YXuWJgZWzumHW8h7sgw38vWI,558
+bolinette/web/middleware.py,sha256=6NjpFRwDwQHQQSev62bOstvUmeQbe8Fj9BiAycPE0FA,1753
+bolinette/web/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bolinette/web/resources.py,sha256=sJuKWgLmuys13BY0vIYq-75j_Q_U6y2rCP4bheNHeYk,5553
+bolinette/web/route.py,sha256=BxzaCE_-rdz9Z5VXDTsnCtpmCap8TcsUU0NOL1kL5hs,2571
+bolinette/web/version.py,sha256=BOC5JUFbzkhCG96hrOtH7kEDXF3aNOg4kZ97OzGzruI,23
+bolinette_web-0.15.2.dist-info/LICENSE.txt,sha256=bIQC3UiOQIqXmMQpd1JIfyqIAA1Vk0mruZeDqjmAtFw,1073
+bolinette_web-0.15.2.dist-info/METADATA,sha256=q1g3fp3kn9Rn8ljlew1S6VDdJDfbnFjcvRv76XmVlZs,761
+bolinette_web-0.15.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+bolinette_web-0.15.2.dist-info/top_level.txt,sha256=oL8Qan2cHigE3bJuEQT6I7VvCA5EnaSrPXayJPqXB6k,10
+bolinette_web-0.15.2.dist-info/RECORD,,
