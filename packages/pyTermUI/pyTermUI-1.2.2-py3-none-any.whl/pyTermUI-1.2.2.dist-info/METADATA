@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyTermUI
+Version: 1.2.2
+Summary: pyTermUI or TermUI is a rapid development user interface library for python command-line interface applications.
+Author-email: iiVeil <zhuebner03@gmail.com>
+Project-URL: Github, https://github.com/iiVeil/TermUi
+Project-URL: Documentation, https://pytermui.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: windows-curses (==2.3.1) ; platform_system == "Windows"
+
+# TermUI
+
+TermUI is a rapid development user interface library for python command-line applications.
+
+If you would like a reference for the library, D-Word is built on it. You can find it here: https://github.com/iiVeil/D-Word-Password-Manager
+
+Complete documentation available at https://pytermui.readthedocs.io/en/latest/
+
+# Version 1.2
+
+All changelogs can be found in changelog.md on github
