@@ -1,0 +1,5 @@
+[console_scripts]
+mdbuild=mdgpt:build
+mdengines=mdgpt:engines
+mdtranslate=mdgpt:translate
+
