@@ -1,0 +1,10 @@
+spyc_iot/__init__.py,sha256=4rLL6iABLmID32lXsQ2SD4BBIwk_fBypH0yMvI-fX9g,117
+spyc_iot/max7219.py,sha256=VoOUjcEjQII3mHY4qPNvVw1nX8LpPbtjYUUzD4JT7wI,5911
+spyc_iot/ntp.py,sha256=sWz8o9FfVLNE1B7FLhZoVtnbjXwGD4xb1DHnkx8Jenk,667
+spyc_iot/time.py,sha256=PaGo9rzCHFvZTV8YLZUNaFAF24ijtSplpunPJ6iI7AQ,240
+spyc_iot/wifi.py,sha256=rrAnR5nCH8sWKS1n6ePhMPDvP4sA-8iZBwivy0Ti0Tw,505
+spyc_iot-0.0.7.dist-info/LICENSE,sha256=nYe1PgbzE5t_dslWIhSH5ASgNvRZe1IH46YX8AmmjW8,1117
+spyc_iot-0.0.7.dist-info/METADATA,sha256=qlDMEle-dYOjS5a6CjS94JeT41vh-kgUbhd77KZXwCc,309
+spyc_iot-0.0.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+spyc_iot-0.0.7.dist-info/top_level.txt,sha256=VJDIwTbmRwVUl3Hml8JYwYyhBpz3aJdEkcja9FHX_KQ,9
+spyc_iot-0.0.7.dist-info/RECORD,,
