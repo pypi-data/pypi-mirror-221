@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "arvancloud.video"
+version = "0.1.0"
+description = "The ArvanCloud Video Platform SDK for Python"
+authors = ["Video Team. <video@arvancloud.ir>"]
+readme = "README.md"
+packages = [{include = "arvancloud"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.0"
+urllib3 = "^2.0.3"
+termcolor = "^2.3.0"
+pytest = "^3.0.5"
+python-dotenv = "^1.0.0"
+python-magic = "^0.4.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
