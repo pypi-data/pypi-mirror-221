@@ -1,0 +1,17 @@
+datahelp/.editorconfig,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datahelp/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+datahelp/create_project.py,sha256=cWCMuPOKOmF7JHZSmZsO89eHdcHqPRNR-SK0iYYJjGM,4634
+datahelp/eda.py,sha256=aCbmFCu5BMvN5iAAg0uIm1F3K4-EQCfSE-7xZ8ifggc,7813
+datahelp/examples/.ipynb_checkpoints/ex3-checkpoint.ipynb,sha256=z6vOxJ9GxwVY7dgHqv0QRKQGuE9o0P16tt2V5bRUuo0,8215
+datahelp/examples/data/iris.csv,sha256=xSdC5QMVqZ-Vajg_rt91dVUmdfZAnvD5pHB23QhHmTA,3858
+datahelp/examples/ex1.py,sha256=qJLKgs3RqAqcAd7oPKbonjMaEKD3uX4qUpidR38eoLM,1755
+datahelp/examples/ex3.ipynb,sha256=gmiu8KXS91dk0mbhvR0JSLuUwsKPGHdT-PX85MlHqUQ,17425
+datahelp/feature_engineering.py,sha256=HJdiwajhTrzSj-gdkJpjTA76n5-HWs4RdUHecv9PMkQ,5003
+datahelp/modelling.py,sha256=l0OkkKh8ISyeg3Z0Sz_lJfs61FVjvO8zmU3rfceCTB0,4231
+datahelp/utils.py,sha256=KZpcWKin1gI3sYHc6IY0U_bQvqkwpaLowlpRAXT3rv8,1042
+datahelp/visualize.py,sha256=yoanZROCZisr6BHrt6UnsEGOBrkaF8gUqc3Ie9gHMmM,745
+datahelp-0.1.6.dist-info/LICENSE.txt,sha256=hjCWq6LBewX1RbeThICRaor1AeYn524muYmasuRUfwk,1067
+datahelp-0.1.6.dist-info/METADATA,sha256=iCkhwh7Okc0BhSsOwNeArphma648eB2vC86l1C9JI3c,4626
+datahelp-0.1.6.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+datahelp-0.1.6.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datahelp-0.1.6.dist-info/RECORD,,
