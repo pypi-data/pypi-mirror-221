@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: killbills_sdk
+Version: 0.0.9
+Summary: KillBills e-receipt sdk
+Project-URL: Homepage, https://github.com/killbillsdev/killbills-sdk-python
+Project-URL: Bug Tracker, https://github.com/killbillsdev/killbills-sdk-python/issues
+Author-email: killbillsdev <cto@killbills.co>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pydantic>=2.0.3
+Requires-Dist: requests>=2.26.0
+Description-Content-Type: text/markdown
+
+# killbills-sdk-python
