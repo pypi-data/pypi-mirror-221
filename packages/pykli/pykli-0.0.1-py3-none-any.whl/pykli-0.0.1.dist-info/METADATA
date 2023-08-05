@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pykli
+Version: 0.0.1
+Summary: ksqlDB command line client
+Author: Ievgenii Shepeliuk
+Author-email: eshepelyuk@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cli_helpers[styles] (>=2.3.0,<3.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: httpx[http2] (>=0.24.1,<0.25.0)
+Requires-Dist: prompt-toolkit (>=3.0.38,<4.0.0)
+Requires-Dist: pygments (>=2.15.1,<3.0.0)
+Requires-Dist: sqlparse (>=0.4.4,<0.5.0)
+Requires-Dist: xdg-base-dirs (>=6.0.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# pyKLI
+
+Interactive [ksqlDB](https://ksqldb.io/) command line client
+with autocompletion and syntax highlighting written in Python.
+
+This project is in an early preview stage. Please try it and provide your feedback.
+
+PRs and suggestions are welcome.
+
+## Installation
+
+```sh
+pip install -U git+https://github.com/eshepelyuk/pykli@main
+```
+
+## Supported KSQL commands
+
+* `SHOW`, `LIST`
+* `DESCRIBE`, without `EXTENDED`
+* `DROP`
+* `CREATE`
+* `RUN SCRIPT`
+* `TERMINATE`
+* `SELECT`  for Pull queries
+* `INSERT`
+* `DEFINE`, `UNDEFINE`
+
+## TODO (prioritized)
+
+* Semantic versioned release and publish to PyPI
+* Auto detect when needed output via pager
+* Push queries, i.e. with `EMIT CHANGES` for `SELECT` statement
+* In-place KSQL editing with default editor
+* KSQL syntax support with Pygments
+* Metadata autocompletion
+    * table ans stream names
+    * column names and functions in queries
+    * topic and connector names
+    * session variables
+    * attributes of `WITH` blocks
+* More configuration options and configuration file
+    * pygments theme
+    * server profiles
+    * etc etc
+* Internal help
+* `PAUSE` / `RESUME`
+* `DESCRIBE ... EXTENDED`
+* `EXPLAIN`
+
+
+

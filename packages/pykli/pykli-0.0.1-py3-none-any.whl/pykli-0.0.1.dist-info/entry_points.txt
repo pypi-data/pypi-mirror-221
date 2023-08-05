@@ -1,0 +1,3 @@
+[console_scripts]
+pykli=pykli.__main__:main
+
