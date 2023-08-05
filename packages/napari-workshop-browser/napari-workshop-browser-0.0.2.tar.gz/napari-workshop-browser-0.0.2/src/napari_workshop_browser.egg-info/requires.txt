@@ -1,0 +1,16 @@
+numpy
+superqt
+qtpy
+notebook
+jupytext
+napari
+appdirs
+requests
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
