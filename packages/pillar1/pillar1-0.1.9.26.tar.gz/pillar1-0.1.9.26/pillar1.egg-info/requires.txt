@@ -1,0 +1,5 @@
+ipywidgets
+google-cloud-aiplatform
+boto3
+pyspark
+protobuf==3.19.5
