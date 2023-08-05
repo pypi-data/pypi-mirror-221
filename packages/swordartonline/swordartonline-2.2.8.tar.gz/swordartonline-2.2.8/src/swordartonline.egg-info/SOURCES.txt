@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/swordartonline.egg-info/PKG-INFO
+src/swordartonline.egg-info/SOURCES.txt
+src/swordartonline.egg-info/dependency_links.txt
+src/swordartonline.egg-info/top_level.txt
