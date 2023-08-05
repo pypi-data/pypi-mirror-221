@@ -1,0 +1,46 @@
+ # #do not delete the line, to make sure cat is appended the file in new line
+function git_pr(){
+    if [ -n $2 ]; then
+        git fetch origin pull/$1/head:$2
+    else
+        git fetch origin pull/$1/head
+    fi
+}
+alias zhijiang-git-pr=git_pr
+
+
+function code-reading(){
+    mkdir code-reading
+    cd code-reading
+    touch data-flow.puml use-case.puml class.puml
+    touch question.md learned.md
+}
+alias zhijiang-code-reading=code-reading
+
+function puml(){
+    file_name="$1"
+    if [[ ! -n $file_name ]]
+    then
+        echo "Usage: args1 specify puml file name, it's needed"
+        return
+    fi
+    if [[ -n $2 ]]
+    then
+        output_dir="$2"
+    else
+        output_dir="generated_files"
+    fi
+    if [[ ! -e $output_dir ]]
+    then
+        mkdir -p $output_dir
+    fi
+
+    plantweb  --no-cache $file_name
+    generated_file=`ls -tr1 | tail -n1`
+
+    mv $generated_file $output_dir
+    python -m http.server --directory $output_dir
+}
+
+alias zhijiang-puml=puml
+alias plantuml=puml
