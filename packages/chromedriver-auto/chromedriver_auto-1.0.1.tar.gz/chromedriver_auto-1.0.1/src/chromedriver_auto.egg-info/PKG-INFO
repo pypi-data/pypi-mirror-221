@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: chromedriver-auto
+Version: 1.0.1
+Summary: This package downloads and helps you use chromedriver without needing to keep chromedriver updated regularly. Works for version no: 115.XX.XX.X and upwords.
+Home-page: https://github.com/pypa/sampleproject
+Author: Sorower Hossan
+Author-email: sorower37@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Make sure you have upgraded version of pip
+Windows
+```
+py -m pip install --upgrade pip
+```
+
+Linux/MAC OS
+```
+python3 -m pip install --upgrade pip
+```
+
+
