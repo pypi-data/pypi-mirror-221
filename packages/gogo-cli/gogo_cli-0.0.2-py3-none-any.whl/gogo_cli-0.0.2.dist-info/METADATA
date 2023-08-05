@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gogo-cli
+Version: 0.0.2
+Summary: A high efficient, powerful and fast anime scraper.
+License: GPLv3
+Author: DemonKingSwarn
+Author-email: rockingswarn@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (==0.23.0)
+Description-Content-Type: text/plain
+
+
