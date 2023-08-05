@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cyllene"
+version = "0.0.1"
+description = "Jupyter Notebook written in Rust."
+authors = ["Aditya Gudimella <aditya.gudimella@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
