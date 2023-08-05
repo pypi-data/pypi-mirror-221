@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyImageJGui
+Version: 0.0.2
+Summary: Python for ImageJ GUI
+Home-page: https://github.com/aghb123/pyimagej
+Author: sdb
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+
+Documentation in <https://github.com/aghb123/pyimagej>
+
