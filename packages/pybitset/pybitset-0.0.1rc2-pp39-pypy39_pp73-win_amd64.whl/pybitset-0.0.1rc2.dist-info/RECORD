@@ -1,0 +1,14 @@
+pybitset/__init__.py,sha256=4Uzdw07h4Sdcie5ewL9PbzuHqQpT8ITqES1pCmJ4Yls,147
+pybitset/backends/__init__.py,sha256=mZOOe4ijB9wX-R2UIpmMimY5AtR-UvcFT_LofDzx2Jk,489
+pybitset/backends/cffi/__init__.py,sha256=XIzBjEsq3qNSB9c6zq5-MsBB4oq80wZlohMtsWM8oZM,4713
+pybitset/backends/cffi/_bitset.pypy39-pp73-win_amd64.pyd,sha256=KnJ2ETPUeYlgViXAPykLKjbf_u_b1Hmzen2T8_mNi44,20992
+pybitset/backends/cffi/build.py,sha256=JGkzUY0pDUkOWqPWpUqLXNi9NtujgDTSzcusnF5J23g,6165
+pybitset/backends/cython/__init__.py,sha256=UAl6BCjUZ2kxtNDcthIuGzWZzaY6IcReVh5qztpL1pE,134
+pybitset/backends/cython/_bitset.c,sha256=W1HxdyTrI9q_Uxpdt9PjIAOzEGs0hjTCTpQNvSYLzsU,687525
+pybitset/backends/cython/_bitset.pypy39-pp73-win_amd64.pyd,sha256=tkUVRnm4ExLWLszzQ2p7qb-G0CrYt5DJ7e-AxlSQBoQ,90624
+pybitset/backends/cython/_bitset.pyx,sha256=EZF3drnM7wYzT7zUUF17KcmhR_oS7LHsHk6eF5NYrr4,7164
+pybitset/backends/cython/bitset.pxd,sha256=MYzj9SE-d5g9pajPRlmDtfV42EjrXlTn-wnvYuBxAzE,2738
+pybitset-0.0.1rc2.dist-info/METADATA,sha256=SSGl6uIjCZbi1kIHnKvxejVjG8xm8VIIciGYl8MjhSU,3538
+pybitset-0.0.1rc2.dist-info/WHEEL,sha256=FWw5WrGV_MgVgz_vQM6GPj9TGPn-tcb9Rh6zoPjcZec,107
+pybitset-0.0.1rc2.dist-info/top_level.txt,sha256=_pcqjygPC-IdVNsatD6g1C3RMwG-g-nD0LnZFx3kPhU,9
+pybitset-0.0.1rc2.dist-info/RECORD,,
