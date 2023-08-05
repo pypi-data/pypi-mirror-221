@@ -1,0 +1,14 @@
+finemotion/__init__.py,sha256=vC1okOPILiUpHVAqsMCf8cmnzYkG7WjQrMq8xbZceOA,163
+finemotion/emotion.py,sha256=kboMYWhaDuPtmuQ046dYTdUKfsw1HgqE6771exDZ-RM,17810
+finemotion/data/all_en_merged.json,sha256=EODXRu-UzfSBREV8mQLEcZxvOPESmheemLjsZrrdhY8,1070915
+finemotion/data/investopedia.json,sha256=lOJGGLaycCbJGYEk5C4N1cmjUkvNVelvzXIxafipr4s,341663
+finemotion/data/nrc_en.json,sha256=Q3oXf9sRizMFFt5y_ku2kZxTptX3cqbuO7g1wJEgZrA,415430
+finemotion/data/nrc_en_merged.json,sha256=YgxahovP-RkZFoCThj4dG9pbZsZkJ4rUl0hVp80TfpU,740763
+finemotion/data/text2emotion.tsv,sha256=W-lKLCMTtw_Ht41-_bsldgM2emIVXmOC7Ke2YhPRcWI,211456
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_emotion.py,sha256=oFMvPYm2pFHP_t_U1JB0p1lxcaJS5wI-tv_NHG3wEBo,376
+finemotion-1.0.0.dist-info/LICENSE,sha256=ycrOVgct6qLjYaiMmk9k05LW3WtVBcV1JHtFezhcecI,1071
+finemotion-1.0.0.dist-info/METADATA,sha256=TYQDVBemzj9eQ5XldgHl_09BHn3_46aczwsSX5pNC0k,5370
+finemotion-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+finemotion-1.0.0.dist-info/top_level.txt,sha256=eIOvFLWDVjcFIAFp1se2tI1vGopS7LbIo6fpS4uyEvE,17
+finemotion-1.0.0.dist-info/RECORD,,
