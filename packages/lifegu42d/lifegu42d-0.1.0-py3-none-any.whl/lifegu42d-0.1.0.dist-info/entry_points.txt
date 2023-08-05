@@ -1,0 +1,4 @@
+[console_scripts]
+lifegu42d=lifegu42d.main:main
+lifeguard=lifegu42d.main:main
+
