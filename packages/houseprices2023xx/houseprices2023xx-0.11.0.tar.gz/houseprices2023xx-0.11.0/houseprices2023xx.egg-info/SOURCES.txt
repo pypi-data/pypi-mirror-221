@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+bin/__init__.py
+bin/house.py
+data/__init__.py
+docs/__init__.py
+houseprices2023xx.egg-info/PKG-INFO
+houseprices2023xx.egg-info/SOURCES.txt
+houseprices2023xx.egg-info/dependency_links.txt
+houseprices2023xx.egg-info/requires.txt
+houseprices2023xx.egg-info/top_level.txt
+modules/__init__.py
+modules/modules.py
+modules/test.py
+modules/test_model_evaluation.py
