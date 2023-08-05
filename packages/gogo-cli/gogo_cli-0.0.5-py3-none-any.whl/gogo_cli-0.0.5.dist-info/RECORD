@@ -1,0 +1,15 @@
+gogo_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gogo_cli/__main__.py,sha256=yB2f7Ygl_7GTPqCSfqj5Bo0_Ppqxd4jo4W9y5MM5Ak0,114
+gogo_cli/core/__gogo_cli__.py,sha256=Kn6xY4IG5pxsHeg3COnOnoGB6a74gUVXXjSkYnre8QE,2894
+gogo_cli/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gogo_cli/core/__version__.py,sha256=8c8HnfsHiBwY154eMJ0aNLRvIyrb9cyxJLbiFtTS02Y,19
+gogo_cli/core/utils/__cast__.py,sha256=-WmqcqP_qjumGh3BhIxwuw2fbGu86WKQEx_-LPtu48s,251
+gogo_cli/core/utils/__downloader__.py,sha256=057yaHK6ybJOnpEdDXj3_zZPsF_OvbNbGaRuGRplCCw,743
+gogo_cli/core/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gogo_cli/core/utils/__menu__.py,sha256=X9ODc89xJ-nVJy7--6yaIFfOzU74bz3IWewTfRxdQAI,856
+gogo_cli/core/utils/__player__.py,sha256=IgmAP1g7xzIluSTm-BF6b3_NvQFvekwlssNul2ZM6O0,1054
+gogo_cli-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gogo_cli-0.0.5.dist-info/METADATA,sha256=HVZB5KRNuPQA2BPfwod-h6nwFzuAWGItgOVQUfBITVc,504
+gogo_cli-0.0.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gogo_cli-0.0.5.dist-info/entry_points.txt,sha256=8HLllEgefVulvWIi4itiBOoRAOpFFD71dFdYs26Nggc,58
+gogo_cli-0.0.5.dist-info/RECORD,,
