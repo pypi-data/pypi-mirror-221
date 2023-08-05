@@ -1,0 +1,2 @@
+[console_scripts]
+wilson = wilson.server:cli_main
