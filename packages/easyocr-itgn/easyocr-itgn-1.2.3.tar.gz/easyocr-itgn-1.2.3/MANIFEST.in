@@ -1,0 +1,8 @@
+include LICENSE.txt
+include README.md
+
+include src/easyocr/model/*
+include src/easyocr/character/*
+include src/easyocr/dict/*
+include src/easyocr/scripts/compile_dbnet_dcn.py
+recursive-include src/easyocr/DBNet *

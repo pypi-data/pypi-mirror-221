@@ -1,0 +1,6 @@
+easyocr
+examples
+scripts
+setup
+trainer
+unit_test
