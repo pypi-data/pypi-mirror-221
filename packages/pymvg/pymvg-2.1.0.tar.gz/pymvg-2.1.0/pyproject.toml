@@ -1,0 +1,31 @@
+[project]
+name = "pymvg"
+version = "2.1.0"  # keep in sync with pymvg/__init__.py
+description = "Python Multi-View Geometry"
+readme = "README.md"
+license.file = "LICENSE.txt"
+authors = [{ name = "Andrew Straw", email = "strawman@astraw.com" }]
+requires-python = ">=3.8"
+
+urls.homepage = "https://github.com/strawlab/pymvg"
+
+dependencies = [
+    "PyYAML >= 5.1",
+    "numpy",
+    "matplotlib",
+    "multicamselfcal >= 0.2.1",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--doctest-modules",
+    "--ignore=examples/plot_cameras.py",
+    "--ignore=examples/plot_camera_system.py",
+    "--ignore=tests/external/opencv/test_versus_opencv.py",
+    "--ignore=tests/external/ros/test_full_ros_pipeline.py",
+    "--doctest-ignore-import-errors",
+    ]
