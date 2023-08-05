@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: protoc-gen-pyproject
+Version: 0.3.2
+Author: John Children
+License-File: LICENSE
+Requires-Dist: betterproto (>=2.0.0b5)
+Requires-Dist: dunamai (>=1.0)
+Requires-Dist: toml (>=0.10)
+
