@@ -1,0 +1,8 @@
+tree_sitter_pymanifest/__init__.py,sha256=5mc02ZNJepMTeTttNKTXZ4Go0sYAqwPUfp1X-HEgr5A,189
+tree_sitter_pymanifest/pymanifest.so,sha256=TGmCJy-Ay019qJxmaWyvXgtSY39rr4TGVtDbADPiEu4,29960
+tree_sitter_pymanifest/_core.py,sha256=0oigP5bxZ450rFUYtyQGW3Ykj0QkVnBzI_fbHnK_b2M,884
+tree_sitter_pymanifest-0.2.1.dist-info/LICENSE,sha256=QT7Ew4QvlbyvZiq6fWRrIrrwRKpqxe-mUxuU1O4AJIs,1058
+tree_sitter_pymanifest-0.2.1.dist-info/METADATA,sha256=Cn21hrqjNEbTYgOaGq44I-_9MbEHW72NtQRkP9lg3A8,1439
+tree_sitter_pymanifest-0.2.1.dist-info/top_level.txt,sha256=PN4vkDZTqjU6BlH8Ha9XczVCBTPutl0egC4NNAYQWWE,23
+tree_sitter_pymanifest-0.2.1.dist-info/RECORD,,
+tree_sitter_pymanifest-0.2.1.dist-info/WHEEL,sha256=PlhcE9tjrVhIzlX_bLo67p53zVIgLGnw1hFlnqEanCc,111
