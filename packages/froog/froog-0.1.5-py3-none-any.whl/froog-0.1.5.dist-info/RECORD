@@ -1,0 +1,11 @@
+frog/__init__.py,sha256=X4cyvLw3ZmRwBspbjhSv1k2JiiSBEm8h-Hx8S7DD-pM,54
+frog/gradcheck.py,sha256=O80oxbCTpUHRbnWMR3wryEoX8dioqPfbAUGF7RFVAOE,2103
+frog/ops.py,sha256=EegUELF9AUec8RqAMndUc-RUDTvYraDJrIBGBBm0k3Y,10298
+frog/optim.py,sha256=bBEh8J0wTW2e1rYISvXawIABzdfYzKArJKRelJL6EMg,2016
+frog/tensor.py,sha256=BC4J-78mBN-Dy5rlcmTeNEUsYVq2fOYRJBxHdqfPr0A,3802
+frog/utils.py,sha256=EVvyd-d_Vah3MHtX8sVJS33myo74JBxuqimxXMgMcI4,2685
+froog-0.1.5.dist-info/LICENSE,sha256=k_856uNmcNUoLC_HkI18c1WomqvQ1Ioqk6gwYfWQiaM,31
+froog-0.1.5.dist-info/METADATA,sha256=BVBoWnrteVBXHFRY5CV4t2zmttNKO5QbuVQfK3Q4EXc,2460
+froog-0.1.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+froog-0.1.5.dist-info/top_level.txt,sha256=zdejDJ9DMnBTy-DZMX77UOZempoN0fJBZ1ws2W_aNqc,5
+froog-0.1.5.dist-info/RECORD,,
