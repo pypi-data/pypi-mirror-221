@@ -1,0 +1,10 @@
+include setup.py
+include README
+recursive-include cubicweb_person *.py
+recursive-include cubicweb_person/data *.gif *.png
+recursive-include cubicweb_person/doc *.png
+recursive-include cubicweb_person/i18n *.po
+recursive-include test *.py
+include test/data/bootstrap_cubes
+include tox.ini
+prune debian
