@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: qlasso
+Version: 0.0.2
+Summary: A package implementing algorithms and screening rules for the quadratic LASSO problem
+Project-URL: Homepage, https://gitlab.com/gsagnol/qlasso
+Author-email: Guillaume Sagnol <sagnol@math.tu-berlin.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: picos
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# qlasso
+
+This package provides algorithms and screening rules to solve the *quadratic lasso* problem
+
+```math
+\underset{x}{\min}\ \|Ax-c\|^2 + \lambda \|x\|_1^2
+```
+
+or, more generally, the *quadratic group-lasso*
+```math
+\underset{X}{\min}\ \|AX-K\|^2 + \lambda \left( \sum_{i=1}^p \|x_i\|_2 \right)^2,
+```
+where $A\in\mathbb{R}^{n\times p}$, $c\in\mathbb{R}^n$, $K\in\mathbb{R}^{n\times r}$ and $x_i\in\mathbb{R}^r$ denotes the $i$th row of the matrix $X\in\mathbb{R}^{p \times r}$. It implements the techniques
+developped in a paper recently submitted by G. Sagnol and L. Pronzato,
+*"Fast Screening Rules for Optimal Design via Quadratic Lasso Reformulation"*, which 
+proposes new screening rules and a homotopy algorithm for solving Bayes optimal design problems.
+This work is a follow-up of the article [Sagnol & Pauwels (2019). Statistical Papers 60(2):215--234](https://arxiv.org/abs/1809.01931),
+where it was shown that the quadratic lasso is equivalent to the problem of *Bayes $c$-optimal design*:
+```math
+\min_{w\geq 0, \sum_{i=1}^p w_i=1}\quad c^T \left( \sum_{i=1}^p w_i a_i a_i^T + \lambda I_n \right)^{-1} c
+```
+and the quadratic group-lasso is equivalent to the problem of *Bayes $L$-optimal design*:
+```math
+\min_{w\geq 0, \sum_{i=1}^p w_i=1}\quad \operatorname{trace}\ K^T \left( \sum_{i=1}^p w_i a_i a_i^T + \lambda I_n \right)^{-1} K,
+```
+with $a_i\in\mathbb{R}^n$ the $i$th column of $A$.
+
+## Installation
+
+If you are using `pip`, you can simply run
+```
+pip install qlasso
+```
+
+## Usage
+
+#### Load the modules `qlasso_instance` and `qlasso_solvers`
+
+```python
+import qlasso.qlasso_instance as qli
+import qlasso.qlasso_solvers as qls
+
+# load a small random instance
+rand_instance = qli.SLassoInstance.random_instance(p=50,n=8)
+
+# load the mnist instance considered in the paper
+mnist_instance = qli.SLassoInstance.mnist_instance(sample_size=600, resize=1)
+
+#inspect size of `A` and `c`
+print('MNIST. Shape of A:', mnist_instance.A.shape, '  --   Shape of c:', mnist_instance.c.shape)
+print('RAND. Shape of A:', rand_instance.A.shape, '  --   Shape of c:', rand_instance.c.shape)
+```
+
+
+#### Solve the MNIST instance with the CD solver, and D1-screening rule run every 10 iterations
+
+Acceleration should become clearly visible after roughly 50 iterations
+
+```python
+solver = qls.CDSolver(mnist_instance,
+                maxit=1000,
+                print_frequency=1,
+                screening_rules=['D1'],
+                screen_frequency=10,
+                apply_screening=True, 
+                tol=1e-6)
+
+#solve the problem with the value lambda=0.1 for the regularization parameter
+solver.solve(lbda = 0.1)
+
+#print optimal solution of the quadratic lasso
+print('optimal x-solution:')
+solver.print_x()
+
+#print the corresponding c-optimal design
+print()
+print('optimal design:')
+solver.print_w()
+```
+
+#### Solve the small random instance with a specific solver and compare the effect of different screening rules:
+
+```python
+# you can replace ['MWU'] with the solver of your choice
+algo = {'fista': qls.FistaSolver, # FISTA
+        'CD':    qls.CDSolver,    # (Block-)Coordinate Descent
+        'FW':    qls.FWSolver,    # Frank-Wolfe
+        'MWU':   qls.MultiplicativeSolver,  # Multiplicative Weight Update  
+        }['MWU']
+
+solver = algo(rand_instance,
+                maxit=1000,
+                print_frequency=1,
+                screening_rules=['B1','B2','B3','D1','D2'],
+                screen_frequency=5,
+                apply_screening=False, #this is required to obtain the true rejection rate of each screening rule
+                                       #turn this option to True to obtain a CPU speed-up
+                tol=1e-6)
+
+solver.solve(lbda = 0.1)
+```
+NB: The rule `B4` considered in the paper is also implemented, but it only works for $A$-optimal design problems (i.e., with $r=n$, $K=I$).
+
+Now, we can draw a plot to visualize the number of design points eliminated by each rule, as a function of the iteration count:
+```python
+# plot the rejection rate by different screening screening_rules
+import matplotlib.pyplot as plt
+for rule in solver.screening_rejection:
+    plt.plot(solver.screen_iter, solver.screening_rejection[rule], label=rule)
+plt.legend()
+plt.show()
+```
+
+#### Solve a quadratic lasso instance using an adaptation of the Homotopy algorithm (LARS)
+
+The orginal algorithm for the standard (with non-squared penalty) lasso was described in
+
+    Osborne, Presnell & Turlach (2000). IMA Journal of Numerical Analysis, 20(3):389--403.
+
+and 
+
+    Efron, Hastie, Johnstone & Tibshirani (2004). The Annals of Statistics, 32(2):407--499.
+
+```python
+lars_solver = qls.LarsSolver(mnist_instance)
+lars_solver.solve(lbda=0.1)
+
+#print the c-optimal design
+print()
+print('optimal design:')
+lars_solver.print_w()
+```
+
+#### Solve a quadratic lasso instance with a SOCP solver 
+
+You can replace 'cvxopt' with the name of a commercial solver installed on your system, such as `gurobi` or `mosek` 
+
+```python
+socp_solver = qls.PicosSolver(mnist_instance)
+socp_solver.solve(lbda=0.1,verbosity=1,solver='cvxopt',tol=1e-4) # solves a SOCP reformulation of the Quadratic Lasso problem
+```
+
+## License
+
+`qlasso` is free and open source software and available to you under the terms of the MIT License 
+
+## Citing
+
+The manuscript that describes the methods used in this package will be referenced here upon publication.
