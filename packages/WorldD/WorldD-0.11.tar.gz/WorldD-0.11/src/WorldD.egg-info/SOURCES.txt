@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/WorldD.egg-info/PKG-INFO
+src/WorldD.egg-info/SOURCES.txt
+src/WorldD.egg-info/dependency_links.txt
+src/WorldD.egg-info/top_level.txt
