@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Package maker</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function checkScale() {
+          var currentScale = (window.devicePixelRatio * 100).toFixed(2);
+            if (currentScale !== "133.33") {
+                alert('The scaling is ' + currentScale + '. Please adjust the zoom level to 133% for the best experience.');
+            }
+        }
+        checkScale();
+    </script>
+</head>
+<body>
+
+
+  <div style="padding: 0%;margin: 0%;">
+    <div style="display: inline-block;width: 33%;height: 25px;padding-left: 2%">
+      <form method="post"><button name="shutdown-button" value="stop" title="Shutdown"><i class="fas fa-sign-out-alt" style="color: black;" title="Shutdown"></i></button>
+        <button name="info" value="on" title="info/help"><i style="padding-left: 2%;color: blue;" class="fas fa-info" title="info/help"></i></button></form>
+     
+    </i></div>
+    <div style="display: inline-block;width: 33%;height: 25px;text-align: center;align-content: baseline;"><b>Python Package maker</b></div>
+    <div style="display: inline-block;">
+    
+
+
+    </div>
+  </div>
+    <div class="block v1">
+      <form method="post">
+      <div><div class="child1"><label for="pkg">Package Name<i style="color: red;">*</i></label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="text" name="package_name" id="pkg" required placeholder="name_of_pkg"></div></div><br>
+      <div><div class="child1"><label for="ver">Version</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="text" style="width: 50px;" name="version" id="ver" placeholder="0.0.1"></div></div><br>
+      <div><div class="child1"><label for="bdes">Breif Description</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="text" name="bdescription" id="bdes" placeholder="initial deployment"></div></div><br>
+      <div><div class="child1"><label for="ldes">Long Description</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><textarea name="ldescription" id="ldes" style="height: 100px;width: 180px;" placeholder="A long description about the package."></textarea></div></div><br><br><br><br><br><br>
+      <div><div class="child1"><label for="auth">Author</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="text" name="author" id="auth" placeholder="Author_name"></div></div><br>
+      <div><div class="child1"><label for="ema">e-mail</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="email" name="email" id="ema" placeholder="author@example.org"></div></div><br>
+      <div><div class="child1"><label for="yr">Year</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2"><input type="date" name="year" id="yr" ></div></div><br>
+      <div><div class="child1"><label for="lic">License</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2">
+      
+     
+      <select name="license_type" id="lic">
+        <option value="1">1. GNU GPL V3</option>
+        <option value="2">2. MIT License</option>
+        <option value="3">3. Apache License 2.0</option>
+        <option value="4">4. Mozilla Public License (MPL)</option>
+        <option value="5">5. A license with no conditions</option>
+        <option value="6">6. User-defined or other</option>
+      </select>
+
+      </div></div><br>
+      <div><div class="child1"><label for="gtb">GitHub (URL)</label></div><div style="display: inline-block;position: absolute;left: 190px;">:</div><div class="child2" ><input type="text" style="width: 220px;" name="github" id="gtb" placeholder="https://github.com/github/repo"></div></div><br>
+      <div>
+        <div class="child1" style="height: 100px;"><label for="clf">Classifiers</label>
+        
+
+      </div><div style="display: inline-block;position: absolute;left: 190px;">:</div>
+      <div class="child2"><textarea name="Classifiers" id="clf" style="height: 100px;width: 250px ;font-size: smaller;" placeholder="License :: OSI Approved :: MIT License
+Programming Language :: Python :: 3.10
+Operating System :: OS Independent" ></textarea>
+      </div>
+
+    </div>
+    <br><br><br><br><br><br>
+    <div><div class="child1"><label for="loc">Save Location<i style="color: red;">*</i> </label></div>
+    
+      <div style="display: inline-block;position: absolute;left: 190px;">:</div>
+      
+    <div class="child2"><input type="text" style="width: 220px;" name="path" id="loc" placeholder="home/username/packages">
+      
+    </div>
+    <div style="display: inline-block;position: absolute;left: 450px;"><i class="fa fa-info-circle" title="Must give absolute or relative path. Otherwise the package is built in current directory"></i></div>
+  
+  
+  </div><br>
+
+    </div>
+
+
+    <div class="block v2">
+      <div><div class="child1"><label for="instreq">Install requires</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><textarea name="installrequires" id="instreq" style="height: 50px;width: 180px;" placeholder="numpy >= 1.21.5
+matplotlib >= 3.5.1
+pandas >= 2.0.1"></textarea></div></div><br><br><br>
+<div><div class="child1"><label for="devreq">dev requires</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><textarea name="devrequires" id="devreq" style="height: 30px;width: 180px;" placeholder="pytest >= 7.0
+twine >= 4.0.1"></textarea></div></div><br><br>
+      <div><div class="child1"><label for="pyreq">Python requires</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><input type="text" name="pythonrequires" id="pyreq" placeholder=" >= 3.10"></div></div><br>
+      <div><div class="child1"><label for="entpnt">Entry points (console)</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;">
+        <textarea name="entrypoint" id="entpnt" style="height: 50px;width: 305px;font-size: smaller;" placeholder="userdef_keywrd_1 = module_name_1 : function_name_1
+userdef_keywrd_2 = module_name_2 : function_name_2
+userdef_keywrd_3 = module_name_3 : function_name_3"></textarea></div></div><br><br><br>
+      <div><div class="child1"><label for="instdes">Install description</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><textarea name="installdescription" id="instdes" style="height: 50px;width: 280px;" placeholder="A small description on how to how to install the package."></textarea></div></div><br><br><br>
+      <div><div class="child1"><label for="instcmd">Install commands</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><input type="text" name="installcommand" id="instcmd" placeholder="pip install package_name"></div></div><br>
+      <div><div class="child1"><label for="usdes">Usage description</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><textarea name="usagedescription" id="usdes" style="height: 50px;width: 280px;" placeholder="Brief description on how to execute the package. "></textarea></div></div><br><br><br>
+      <div><div class="child1"><label for="uscmd">Usage command</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><input type="text" name="usagecommand" id="uscmd" placeholder="pkg_cmd"></div></div><br>
+      <div><div class="child1"><label for="dir">Sub modules</label></div><div style="display: inline-block;position: absolute;left: 710px;">:</div><div class="child2" style="left: 730px;"><textarea name="submodules" id="dir" style="height: 70px;width: 150px;" placeholder="sub_module_1
+sub_module_2
+sub_module_3
+sub_module_4
+sub_module_5"></textarea></div></div><br><br><br><br>
+  
+      <div><div class="child1"><label for="button"></label></div><div class="child2" style="left: 730px;"><input type="submit" name="submit" id="btn" value="Generate"></div></div><br>
+    </form>
+    </div>
+
+    <div class="block v3">
+
+      {% if tree_data %}
+
+      <div>
+
+        <p style="font-size: medium;text-align: center;">
+
+          <b>Tree directory of package</b>
+        
+        </p>
+
+        <p style="font-size: small;font-weight: 200;">
+        
+          Path @ : {{ path | safe }}
+
+        </p>
+
+
+      <p style="font-size: smaller;">
+        {{ tree_data | safe }}
+      </p>
+      <p style="font-size: medium;text-align: center;">
+
+        <b>setup.py</b>
+      
+      </p>
+
+      <div style="background-color: rgb(219, 219, 219);">
+      <p style="font-size: smaller;">
+        {{ setup_data | safe }}
+      </p></div>
+      <div>
+        <p style="font-size: x-small;">
+      Setup.py is copied to clipboard.<br>
+      Directories and files has been made at the given path.</p>
+    </div>
+
+    </div>
+
+    {% endif %}
+
+    </div>
+
+ 
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(202, 201, 201)
+}
+.child1
+{
+
+  display: inline;
+  background-color: rgb(255, 255, 255);
+
+}
+.child2
+{
+position: absolute;
+left: 220px;
+display: inline;
+
+}
+.child2:hover{
+  box-shadow: 1px 1px 1px #a5a5a5;
+}
+.fadded
+{
+  font-size: x-small;
+  color: #747474;
+}
+
+.block {
+    height: 650px;
+    margin: opx;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+}
+
+.v1 {
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    border-radius: 10px;
+    
+}
+div.v1:hover{
+  box-shadow: 2px 2px 10px #a5a5a5;
+
+ 
+}
+.v2 {
+    background-color: rgb(255, 255, 255);
+    width: 515px;
+    border-radius: 10px;
+}
+div.v2:hover {
+  box-shadow: 2px 2px 10px #a5a5a5;
+}
+.v3 {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  border-radius: 10px;
+}
+div.v3:hover {
+  box-shadow: 2px 2px 10px #a5a5a5;
+}
+
+</style>

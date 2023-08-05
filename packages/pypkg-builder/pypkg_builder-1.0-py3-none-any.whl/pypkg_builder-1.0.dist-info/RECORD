@@ -1,0 +1,19 @@
+pypkg_builder/__init__.py,sha256=BdLNg9Bk2ung7ijw5EUm2smqNO4sfu6QlM_WQ1yBGwQ,279
+pypkg_builder/app.py,sha256=MVuD8TdBI-TL9DQl-DYzMj0YvES6Yj-pJIlK2kRn8dI,3605
+pypkg_builder/license.py,sha256=hMhgSQ3wPOEms4StKQpkKmfBQ8TEmLQ7iMh2f3sw50k,997
+pypkg_builder/readme.py,sha256=fMuQCwV7rmKjpQFZm6mqSCrSEeB-Yutwms48z5gO3cM,1221
+pypkg_builder/setuptoolfn.py,sha256=laUkn8mNjDVt0oVeiHCWrkTv9xFzu0buR4ottUEgdBU,2227
+pypkg_builder/tree.py,sha256=RL6SCkDsa48IPMxnUahT7IfXezG9OjtPeYStBKCkuVk,2142
+pypkg_builder/templates/help.html,sha256=OWuZPLVy8jectwd10-t8mFBEBcRBVZxB_6VPmzliMk0,58
+pypkg_builder/templates/index.html,sha256=hUP4J8wXs-TbBr8xtsIe8Eab0DtCH2xQJrlvO05VyQI,10685
+pypkg_builder/types/Apache Version 2.0.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pypkg_builder/types/GNU GPLv3.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+pypkg_builder/types/MIT License.txt,sha256=RWUdavRcZ0s53o-1lRPPAyyF7RUS7lf1I8xblQ-AUGY,1070
+pypkg_builder/types/Mozilla Public License 2.0.txt,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pypkg_builder/types/The Unlicense.txt,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pypkg_builder/types/user_defined.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypkg_builder-1.0.dist-info/METADATA,sha256=5kp3CUPCrT_OODIYeotBqeXkH2SUGLeAZs7t9uq0tBo,4337
+pypkg_builder-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pypkg_builder-1.0.dist-info/entry_points.txt,sha256=UZMDkgZK-PM7YAEwl3GK8tfYVEPeNKrTJySozgYeL7w,72
+pypkg_builder-1.0.dist-info/top_level.txt,sha256=dRuquBwRg_wgGk-GELTflAaCtv0ZU5bxU2U3A0joARs,14
+pypkg_builder-1.0.dist-info/RECORD,,
