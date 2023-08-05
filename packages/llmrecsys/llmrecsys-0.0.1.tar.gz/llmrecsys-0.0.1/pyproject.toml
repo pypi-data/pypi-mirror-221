@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llmrecsys"
+version = "0.0.1"
+description="Recommendation systems with LLMs from Shaped.ai"
+authors = [
+  { name="Georgiy Skovorodnikov", email="georgiysk@shaped.ai" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    'Development Status :: 3 - Alpha', 
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+repository = "https://github.com/shaped-ai/llmrecsys"
+
+keywords = ['llm', 'AI', 'recommendations', 'recsys', 'inference']
+license = {file = "LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/shaped-ai/llmrecsys"
+"Bug Tracker" = "https://github.com/shaped-ai/llmrecsys/issues"
