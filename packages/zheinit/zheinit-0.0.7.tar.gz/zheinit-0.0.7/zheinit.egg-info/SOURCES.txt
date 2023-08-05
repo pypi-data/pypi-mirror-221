@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+zheinit/__init__.py
+zheinit/bash_config.txt
+zheinit/env.py
+zheinit/utils.py
+zheinit.egg-info/PKG-INFO
+zheinit.egg-info/SOURCES.txt
+zheinit.egg-info/dependency_links.txt
+zheinit.egg-info/entry_points.txt
+zheinit.egg-info/requires.txt
+zheinit.egg-info/top_level.txt
