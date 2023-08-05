@@ -1,0 +1,6 @@
+Body-OC>=1.0.1
+Config-OC<1.1,>=1.0.1
+Rest-OC>=1.2.4
+Strings-OC<1.1,>=1.0.1
+Upgrade-OC<1.1,>=1.0.0
+jsonb<1.1,>=1.0.0
