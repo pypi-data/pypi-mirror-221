@@ -1,0 +1,13 @@
+thrift2pyi/__init__.py,sha256=CyvqnyCbRKBRnnWBavIrjahG-0XFq5VaTKExQG8IFRM,264
+thrift2pyi/__main__.py,sha256=7-DIlhgKslX5dzTXQGOGLWheY17KAeZm3nEnGy8c2Rs,239
+thrift2pyi/__version__.py,sha256=DML3-lMBfDAAeHTs183kcnY1BYsOPCTZsWaQJCrI4ro,63
+thrift2pyi/convert.py,sha256=a6fEx41Zy0vmHhMU7a05o8_UZfYQaFgw6cbQ2THhNF8,10306
+thrift2pyi/exceptions.py,sha256=49ehj6J3udmvqyR1kyRP7Dn7bRYSMqZf7AMI5Rwdhbg,215
+thrift2pyi/main.py,sha256=IgL52nOI2lh5QBDyNM0oW-WG6FtGi50H0HE0KQA2ynU,593
+thrift2pyi/peg.py,sha256=qR-jQpZUQvAEJHZSJ6wnaho9_csMpP4PB9xCwgqqHnQ,3080
+thrift2pyi-1.0.5.dist-info/LICENSE,sha256=2j7OLS2vXIEshgbSkiCU9RgYJY1M4OBBtO6ECbo7OB8,1056
+thrift2pyi-1.0.5.dist-info/METADATA,sha256=_IuUqM5ahJ7trEmEZ8wcwrlz4K-FkYqatTn4Qp3GV9c,4580
+thrift2pyi-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+thrift2pyi-1.0.5.dist-info/entry_points.txt,sha256=lmKw8kOL19ymSVcztZkJpaY9T2iK8OV0Wq56_Nv6Nnk,52
+thrift2pyi-1.0.5.dist-info/top_level.txt,sha256=fjd7023DnWYTQSz2Bz-N7u94yRaVMZelR990hYJX5-U,11
+thrift2pyi-1.0.5.dist-info/RECORD,,
