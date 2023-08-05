@@ -1,0 +1,36 @@
+[package]
+name                    = "pymedusa-zip"
+version.workspace       = true
+authors.workspace       = true
+edition.workspace       = true
+license.workspace       = true
+
+keywords.workspace      = true
+categories              = ["development-tools::build-utils", "filesystem", "asynchronous", "caching", "api-bindings"]
+homepage.workspace      = true
+repository.workspace    = true
+description             = "A PyOxidizer interface to high-performance parallelized implementations of common zip file operations."
+
+[lib]
+name                    = "pymedusa_zip"
+crate-type              = ["cdylib"]
+
+[dependencies]
+libmedusa-zip           = { path = "../lib", version = "0.0.5" }
+once_cell               = { version = "1", optional = true }
+pyo3                    = { version = "0.19", features = ["extension-module"] }
+pyo3-asyncio            = { version = "0.19", features = ["tokio-runtime"], optional = true }
+regex.workspace         = true
+time.workspace          = true
+tokio                   = { workspace = true, features = ["rt", "rt-multi-thread"] }
+zip.workspace           = true
+
+[features]
+asyncio                 = ["pyo3-asyncio"]
+sync                    = ["once_cell"]
+default                 = ["asyncio", "sync"]
+
+# Use nicer docs features for docs.rs. See https://users.rust-lang.org/t/how-to-test-a-package-metadata-docs-rs-setting/53818.
+[package.metadata.docs.rs]
+all-features            = true
+rustdoc-args            = ["--cfg", "docsrs"]
