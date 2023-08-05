@@ -1,0 +1,9 @@
+converter/__init__.py,sha256=_LN-pKMfqyymmpbJosFxmGZUaXbqH4M3C9n68KNYfWs,102
+converter/memory.py,sha256=v-n7P9jpJeTtMUBvI9H6SMERTwyNVItTXbpAkLwo968,682
+converter/parsar.py,sha256=zHIbVRzGfcP__OgNVWZDCwK5ciwbZgwIcTNn99snviE,1281
+converter/reader.py,sha256=0KVZkQ0EofZu1jUTFt_l6eh1MYfMbCEcInUyblULSOg,22985
+MedicalImageConverter-1.0.5.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+MedicalImageConverter-1.0.5.dist-info/METADATA,sha256=VDHCJowQD4pSVWmuneyvcMpace41Hd6m8tTCCLQZv2c,4999
+MedicalImageConverter-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+MedicalImageConverter-1.0.5.dist-info/top_level.txt,sha256=S1fAf-PtuctgaGFfsn0oaTHY1tVHwOTeNCb8yB7ReqA,10
+MedicalImageConverter-1.0.5.dist-info/RECORD,,
