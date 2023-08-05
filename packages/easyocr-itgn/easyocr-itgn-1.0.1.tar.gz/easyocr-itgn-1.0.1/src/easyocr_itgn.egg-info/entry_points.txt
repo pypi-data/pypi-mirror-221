@@ -1,0 +1,2 @@
+[console_scripts]
+easyorc_itgn = easyocr_itgn.easyocr:main
