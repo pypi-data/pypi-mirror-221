@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zCluster
+Version: 0.3.0
+Summary: A code for measuring galaxy cluster photometric redshifts.
+Home-page: https://github.com/ACTCollaboration/zCluster
+Author: Matt Hilton + zCluster contributors
+Author-email: matt.hilton@mykolab.com
+License-File: COPYING
+
+A code for measuring galaxy cluster photometric redshifts. Runs on both large scale
+      public survey data (e.g., SDSS) and user-supplied photometric catalogs.
