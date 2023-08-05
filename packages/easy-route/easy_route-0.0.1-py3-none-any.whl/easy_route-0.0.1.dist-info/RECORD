@@ -1,0 +1,12 @@
+easy_route/__init__.py,sha256=RjCVAmq7XU2SGY8vOV9SniVSFMxRtgPiuzYXTU4GMF8,66
+easy_route/controllers/__init__.py,sha256=RjCVAmq7XU2SGY8vOV9SniVSFMxRtgPiuzYXTU4GMF8,66
+easy_route/controllers/abstract_controller.py,sha256=RkfOJ-G8G7hhIJsptg4o6Hjy8vs1FjEhflYn5xtQwFM,496
+easy_route/middlewares/__init__.py,sha256=RjCVAmq7XU2SGY8vOV9SniVSFMxRtgPiuzYXTU4GMF8,66
+easy_route/middlewares/abstract_middleware.py,sha256=5LyeqANvLOn8Dps6KvMJBnpWSxBeOkQ0dvfxSqi6WeQ,821
+easy_route/middlewares/data_validator_middleware.py,sha256=loot6xbnw9srAq7lShkxTHyWfvw41lN8v3eoc3TZHmk,1056
+easy_route/routes/__init__.py,sha256=RjCVAmq7XU2SGY8vOV9SniVSFMxRtgPiuzYXTU4GMF8,66
+easy_route/routes/route.py,sha256=48GXXeX_mWNkpeilZw2TO2PP-n0ajVdDixg_HUfTRpQ,1709
+easy_route-0.0.1.dist-info/METADATA,sha256=0iA3Gjn4YjmDiSPsSOddTrECYduB_i7YNf5edu6tfHo,520
+easy_route-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+easy_route-0.0.1.dist-info/licenses/LICENSE,sha256=R7C2HENDsKiaMOSOn8nf4cwcnBx1jRTUAvu34WMmX44,1069
+easy_route-0.0.1.dist-info/RECORD,,
