@@ -1,0 +1,10 @@
+clp_ffi_py-0.0.1.dist-info/RECORD,,
+clp_ffi_py-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+clp_ffi_py-0.0.1.dist-info/WHEEL,sha256=Ez1wSYjspI34Q0NsTcxwXzj9THac2TrGWpT4Y6slnJ0,112
+clp_ffi_py-0.0.1.dist-info/top_level.txt,sha256=oJlQf7Hnz9l2Yum2B9WNNVFDMdgnuqibAtxChyZJtc8,11
+clp_ffi_py-0.0.1.dist-info/METADATA,sha256=29yOB7Z1DOTR9efRlo772aCY7IOBlaGYkP0VHAcD6Jw,4980
+clp_ffi_py/ir.pyi,sha256=PCr4QF1rC8CL5nJLAja0MJIcKvaXSSYzL3VS3djIjSk,1380
+clp_ffi_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/utils.py,sha256=8N3ObrUhCPGEEZcTsMKbp75TwoA4tLNuRTuhFGl0Hrs,1129
+clp_ffi_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/ir.cpython-310-darwin.so,sha256=co5ajks-EiBVD_2nHqLeet3HwkNA_M27Or5Q-PggJd0,186672
