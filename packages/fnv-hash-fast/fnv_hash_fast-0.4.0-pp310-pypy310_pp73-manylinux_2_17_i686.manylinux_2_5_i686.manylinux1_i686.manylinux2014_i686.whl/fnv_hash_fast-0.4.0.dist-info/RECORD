@@ -1,0 +1,11 @@
+fnv_hash_fast/_fnv_impl.pyx,sha256=qC8q88tmjFloVNUfMmBR_a7mwL2-P8Y-JSkWnY_peKM,223
+fnv_hash_fast/__init__.py,sha256=4NrHMSbVUMre90jwsLpkCD4WF-X3wHaTMFieTyziwz0,78
+fnv_hash_fast/_fnv_impl.cpp,sha256=Pi-E8y_ov1cJhtqqz_8Rh7WthgprmfRVn0v3oF55Dcw,224595
+fnv_hash_fast/fnv_impl.py,sha256=dyPANvtmjSl4HQqZyoAyMZljEDKBO1tv65J927l3Vog,447
+fnv_hash_fast/_fnv_impl.cpython-310-i386-linux-gnu.so,sha256=M83wT5LcYyczZFb9vLSNsCT_To4J6bDzoDyqJIGEzMo,222896
+fnv_hash_fast/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fnv_hash_fast/fnv_wrapper.h,sha256=MU5yBrBs5vOt6AaEoL1eiEh6UkdT48_u2oO3yiUiVmE,354
+fnv_hash_fast-0.4.0.dist-info/LICENSE,sha256=nN_MmFjPQjKwG1FuQ_x2IzN1uAZidiJoA9t21N2sv-E,1072
+fnv_hash_fast-0.4.0.dist-info/METADATA,sha256=EJyfYPbxHa48qn0vEQPuB5jpjh9IgfTFPV_dVzPaVT4,4730
+fnv_hash_fast-0.4.0.dist-info/RECORD,,
+fnv_hash_fast-0.4.0.dist-info/WHEEL,sha256=_nnJ3v_mLQH8z837LqE_f84Ihjv7TaLSlX5iboFJuQY,242
