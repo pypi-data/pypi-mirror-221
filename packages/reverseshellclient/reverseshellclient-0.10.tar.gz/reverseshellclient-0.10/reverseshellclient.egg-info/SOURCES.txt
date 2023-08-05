@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+reverseshellclient/README.MD
+reverseshellclient/__init__.py
+reverseshellclient/requirements.txt
+reverseshellclient/thirdparty.json
+reverseshellclient.egg-info/PKG-INFO
+reverseshellclient.egg-info/SOURCES.txt
+reverseshellclient.egg-info/dependency_links.txt
+reverseshellclient.egg-info/requires.txt
+reverseshellclient.egg-info/top_level.txt

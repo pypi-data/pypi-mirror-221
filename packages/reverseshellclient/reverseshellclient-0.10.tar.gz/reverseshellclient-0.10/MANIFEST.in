@@ -1,0 +1,3 @@
+include reverseshellclient/requirements.txt
+include reverseshellclient/thirdparty.json
+include reverseshellclient/README.MD
