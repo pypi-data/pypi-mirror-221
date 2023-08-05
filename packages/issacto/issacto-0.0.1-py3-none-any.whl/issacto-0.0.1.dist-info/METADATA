@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: issacto
+Version: 0.0.1
+Summary: Python Cuda Genetic Algorithm Package
+Home-page: https://github.com/issacto/PyCuGa
+Author: Issac To
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Python Cuda Genetic Algorithm Package
