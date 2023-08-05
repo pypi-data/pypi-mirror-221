@@ -1,0 +1,14 @@
+amunpy/__init__.py,sha256=SlCGuTHqE81jjhnPAneAMtaCgprXbnIh_evGJtGrIkg,714
+amunpy/amun.py,sha256=KyVXktnsKExf9WB7gbbFzAvLpWB8tOxmMda2xCJ-yxQ,55620
+amunpy/amunh5.py,sha256=EVyPo5hjKZ70_cWS4qwWo0qrdfzOWfTbyizSOJyBoF8,6289
+amunpy/amunh5_deprecated.py,sha256=1t_f5EvdLsCopTK6pAzSGH4c9C1DzopSAlxJR77RIes,34503
+amunpy/amunxml.py,sha256=Cg4tSWrYi8G3NQLGFpcg89Ln6c2R3VtZVg104tObOjs,14288
+amunpy/integrals.py,sha256=Hp-TNjgTALWw0BrCx2aI4oH1i5HtWCt0pl7nzyI5ZiA,3451
+amunpy/interpolation.py,sha256=-E8zbgOu-BbhpHasgQUAxJXetrY43TxP0FzkQs0RZhc,5320
+amunpy/octree.py,sha256=88xZXKW7pkBOEqOeZ1-foBMuhNhHoqP1vSurA_C-nZ4,8028
+amunpy/vtkio.py,sha256=4osyHn4ZO3KFsW_kCOfE289-6pn4KZ9Q2N_3s1Pk3BE,7636
+amunpy-0.9.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+amunpy-0.9.10.dist-info/METADATA,sha256=5Qf9jAS0HW9egwzM32jvLDjB3L28F-yHtQjTFQi7Dw0,811
+amunpy-0.9.10.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+amunpy-0.9.10.dist-info/top_level.txt,sha256=uu02EGzgEmzhYVc-KRG035X8zGvEzNkcOJjQPfDOF4s,7
+amunpy-0.9.10.dist-info/RECORD,,
