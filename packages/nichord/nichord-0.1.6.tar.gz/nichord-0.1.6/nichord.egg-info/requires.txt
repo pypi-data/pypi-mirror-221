@@ -1,0 +1,5 @@
+nilearn
+numpy>=1.16
+matplotlib
+scipy
+pillow
