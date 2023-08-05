@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: wlc_tools
+Version: 0.1.0a0
+Summary: deep learning tools for wlc analysis
+Home-page: 
+Author: wlc
+Author-email: lichun_wang1993@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6,<=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+集成了一些常用的小工具：
+
+* diff
+* rename
+
+## 使用
+
+一、rename
+
+```
+from wlc_tools.rename import rename_md5
+
+rename_md5( $(your_image_path) )
+
+```
+
+二、diff
+
+```
+from wlc_tools.diff import diff
+
+delimiter = '-'
+
+diff($(your_fold1_path), $(your_fold2_path), $(fold1_tag), $(flod2_tag), $(your_result_path), $(delimiter))
+```
+
+
+
+
+## build
+    
+```bash
+python setup.py sdist bdist_wheel
+```
+
+## 上传到pipy
+
+```
+pip3 install twine
+python3 -m twine upload dist/*
+```
+
+## 安装
+
+```
+pip install wlc-tools
+```
+

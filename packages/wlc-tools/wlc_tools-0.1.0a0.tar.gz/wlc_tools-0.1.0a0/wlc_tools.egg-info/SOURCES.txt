@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wlc_tools/__init__.py
+wlc_tools/diff.py
+wlc_tools/rename.py
+wlc_tools.egg-info/PKG-INFO
+wlc_tools.egg-info/SOURCES.txt
+wlc_tools.egg-info/dependency_links.txt
+wlc_tools.egg-info/requires.txt
+wlc_tools.egg-info/top_level.txt
