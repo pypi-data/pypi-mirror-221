@@ -1,0 +1,8 @@
+circles_importer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circles_importer/importer.py,sha256=_I3j_H6FAnqp1PwRa7Er73QjEZbPC-7xbCMYJaiGBLg,4854
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_importer.py,sha256=aJLJDCgkJMlc55EwKdsUjDdQcxX62PJ5ZBB5QDj7dp4,3931
+importer_local-0.0.15.dist-info/METADATA,sha256=Zq5L8j_QJTjs73JimKXJj53Or4VEUYHMrrPzgbBxT0Q,480
+importer_local-0.0.15.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+importer_local-0.0.15.dist-info/top_level.txt,sha256=buICQc1RVlwoDhGxQ0NJDn8KVuwMO2TCK8Y4jz-t0uE,23
+importer_local-0.0.15.dist-info/RECORD,,
