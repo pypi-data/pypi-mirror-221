@@ -1,0 +1,198 @@
+import pickle as pickle_pkg
+from pathlib import Path
+from typing import Any, Callable, ClassVar, Iterable, Optional, Type
+
+import compress_pickle
+import numpy as np
+import numpy.typing as npt
+from pydantic import BaseModel, DirectoryPath, FilePath, validate_call
+from ruamel.yaml import YAML
+
+from pydantic_numpy.util import np_general_all_close
+
+yaml = YAML()
+
+
+class NumpyModel(BaseModel):
+    _dump_compression: ClassVar[str] = "lz4"
+    _dump_numpy_savez_file_name: ClassVar[str] = "arrays.npz"
+    _dump_non_array_file_stem: ClassVar[str] = "object_info"
+
+    _directory_suffix: ClassVar[str] = ".pdnp"
+
+    def __eq__(self, other: Any) -> bool:
+        if isinstance(other, NumpyModel):
+            # When comparing instances of generic types for equality, as long as all field values are equal,
+            # only require their generic origin types to be equal, rather than exact type equality.
+            # This prevents headaches like MyGeneric(x=1) != MyGeneric[Any](x=1).
+            self_type = self.__pydantic_generic_metadata__["origin"] or self.__class__
+            other_type = other.__pydantic_generic_metadata__["origin"] or other.__class__
+
+            self_ndarray_field_to_array, self_other_field_to_value = self._dump_numpy_split_dict()
+            other_ndarray_field_to_array, other_other_field_to_value = other._dump_numpy_split_dict()
+
+            return (
+                self_type == other_type
+                and self_other_field_to_value == other_other_field_to_value
+                and self.__pydantic_private__ == other.__pydantic_private__
+                and self.__pydantic_extra__ == other.__pydantic_extra__
+                and _compare_np_array_dicts(self_ndarray_field_to_array, other_ndarray_field_to_array)
+            )
+        elif isinstance(other, BaseModel):
+            return super().__eq__(other)
+        else:
+            return NotImplemented  # delegate to the other item in the comparison
+
+    @classmethod
+    @validate_call
+    def model_directory_path(cls, output_directory: DirectoryPath, object_id: str) -> DirectoryPath:
+        return output_directory / f"{object_id}.{cls.__name__}{cls._directory_suffix}"
+
+    @validate_call
+    def dump(
+        self, output_directory: Path, object_id: str, compress: bool = True, pickle: bool = False
+    ) -> DirectoryPath:
+        assert "arbitrary_types_allowed" not in self.model_config or (
+            self.model_config["arbitrary_types_allowed"] and pickle
+        ), "Arbitrary types are only supported in pickle mode"
+
+        dump_directory_path = self.model_directory_path(output_directory, object_id)
+        dump_directory_path.mkdir(parents=True, exist_ok=True)
+
+        ndarray_field_to_array, other_field_to_value = self._dump_numpy_split_dict()
+
+        if ndarray_field_to_array:
+            (np.savez_compressed if compress else np.savez)(
+                dump_directory_path / self._dump_numpy_savez_file_name, **ndarray_field_to_array
+            )
+
+        if other_field_to_value:
+            if pickle:
+                if compress:
+                    compress_pickle.dump(
+                        other_field_to_value,
+                        dump_directory_path / self._dump_compressed_pickle_file_name,
+                        compression=self._dump_compression,
+                    )
+                else:
+                    with open(dump_directory_path / self._dump_pickle_file_name, "wb") as out_pickle:
+                        pickle_pkg.dump(other_field_to_value, out_pickle)
+
+            else:
+                with open(dump_directory_path / self._dump_non_array_yaml_name, "w") as out_yaml:
+                    yaml.dump(other_field_to_value, out_yaml)
+
+        return dump_directory_path
+
+    @classmethod
+    @validate_call
+    def load(
+        cls,
+        output_directory: DirectoryPath,
+        object_id: str,
+        pre_load_modifier: Optional[Callable[[dict[str, Any]], dict[str, Any]]] = None,
+    ):
+        object_directory_path = cls.model_directory_path(output_directory, object_id)
+
+        npz_file = np.load(object_directory_path / cls._dump_numpy_savez_file_name)
+
+        other_path: FilePath
+        if (other_path := object_directory_path / cls._dump_compressed_pickle_file_name).exists():
+            other_field_to_value = compress_pickle.load(other_path)
+        elif (other_path := object_directory_path / cls._dump_pickle_file_name).exists():
+            with open(other_path, "rb") as in_pickle:
+                other_field_to_value = pickle_pkg.load(in_pickle)
+        elif (other_path := object_directory_path / cls._dump_non_array_yaml_name).exists():
+            with open(other_path, "r") as in_yaml:
+                other_field_to_value = yaml.load(in_yaml)
+        else:
+            other_field_to_value = {}
+
+        field_to_value = {**npz_file, **other_field_to_value}
+        if pre_load_modifier:
+            field_to_value = pre_load_modifier(field_to_value)
+
+        return cls(**field_to_value)
+
+    def _dump_numpy_split_dict(self) -> tuple[dict, dict]:
+        ndarray_field_to_array = {}
+        other_field_to_value = {}
+
+        for k, v in self.model_dump(exclude_unset=True).items():
+            if isinstance(v, np.ndarray):
+                ndarray_field_to_array[k] = v
+            else:
+                other_field_to_value[k] = v
+
+        return ndarray_field_to_array, other_field_to_value
+
+    @classmethod
+    @property
+    def _dump_compressed_pickle_file_name(cls) -> str:
+        return f"{cls._dump_non_array_file_stem}.pickle.{cls._dump_compression}"
+
+    @classmethod
+    @property
+    def _dump_pickle_file_name(cls) -> str:
+        return f"{cls._dump_non_array_file_stem}.pickle"
+
+    @classmethod
+    @property
+    def _dump_non_array_yaml_name(cls) -> str:
+        return f"{cls._dump_non_array_file_stem}.yaml"
+
+
+NumpyModelCLS = Type[NumpyModel]
+
+
+def model_agnostic_load(
+    output_directory: DirectoryPath,
+    object_id: str,
+    models: Iterable[NumpyModelCLS],
+    not_found_error: bool = False,
+    **load_kwargs,
+) -> Optional[NumpyModel]:
+    for model in models:
+        if model.model_directory_path(output_directory, object_id).exists():
+            return model.load(output_directory, object_id, **load_kwargs)
+
+    if not_found_error:
+        raise FileNotFoundError(
+            f"Could not find NumpyModel with {object_id} in {output_directory}."
+            f"Tried from following classes:\n{', '.join(model.__name__ for model in models)}"
+        )
+
+    return None
+
+
+def _compare_np_array_dicts(
+    dict_a: dict[str, npt.NDArray], dict_b: dict[str, npt.NDArray], rtol: float = 1e-05, atol: float = 1e-08
+) -> bool:
+    """
+    Compare two dictionaries containing numpy arrays as values.
+
+    Parameters:
+    dict_a, dict_b: dictionaries to compare. They should have same keys.
+    rtol, atol: relative and absolute tolerances for np.isclose()
+
+    Returns:
+    Boolean value for each key, True if corresponding arrays are close, else False.
+    """
+
+    keys1 = frozenset(dict_a.keys())
+    keys2 = frozenset(dict_b.keys())
+
+    if keys1 != keys2:
+        raise ValueError("Dictionaries have different keys")
+
+    for key in keys1:
+        arr_a = dict_a[key]
+        arr_b = dict_b[key]
+
+        if arr_a.shape != arr_b.shape:
+            raise ValueError(f"Arrays for key '{key}' have different shapes")
+
+        if not np_general_all_close(arr_a, arr_b):
+            return False
+
+    return True

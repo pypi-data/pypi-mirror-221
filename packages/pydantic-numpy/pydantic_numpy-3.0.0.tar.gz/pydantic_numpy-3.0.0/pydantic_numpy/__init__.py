@@ -1,0 +1,4 @@
+from pydantic_numpy.helper.annotation import NpArrayPydanticAnnotation
+from pydantic_numpy.typing.n_dimensional import NpNDArray
+
+custom_np_array_typing = NpArrayPydanticAnnotation.factory
