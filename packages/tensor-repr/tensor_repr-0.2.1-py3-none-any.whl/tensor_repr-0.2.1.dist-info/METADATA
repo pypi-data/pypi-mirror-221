@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tensor-repr
+Version: 0.2.1
+Summary: A library for tensor representation.
+Author-email: Bit0r <nie_wang@outlook.com>
+Project-URL: homepage, https://github.com/Bit0r/tensor-repr
+Keywords: tensor,repr,pytorch,snoop
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cheap-repr
+Provides-Extra: snoop
+Requires-Dist: snoop ; extra == 'snoop'
+Provides-Extra: torch
+Requires-Dist: torch ; extra == 'torch'
+
+# tensor-repr
+Customized torch.sensor representation
