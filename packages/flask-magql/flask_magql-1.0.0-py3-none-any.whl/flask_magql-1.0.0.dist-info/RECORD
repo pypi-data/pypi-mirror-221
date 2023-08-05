@@ -1,0 +1,9 @@
+flask_magql/__init__.py,sha256=JBTiRCknhzQUXtjRIvj9k5FbF-vLzQK9zTTAkNqXUhU,75
+flask_magql/extension.py,sha256=nNQObdYCIGTLcXvDkh7aiajKMky-2i8KoOw14l9Ds3U,7660
+flask_magql/files.py,sha256=nhM-WsskOr9_mLnjt3QDlQZcSGuhQkYKnOBBz8x-_ks,2026
+flask_magql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_magql/templates/magql/graphiql.html,sha256=nLY42R3TqHmL08UX_FdN9q8EnQvnfKJLM6H5r0h0EHw,1255
+flask_magql-1.0.0.dist-info/LICENSE.md,sha256=ihrxQP379a_T3yf35mL5icW5Y6MAAg36_OQgM8rp4AQ,1552
+flask_magql-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+flask_magql-1.0.0.dist-info/METADATA,sha256=71FsqT9JTnqe_27PP7rP-0_E_kvKoWfP6VOxYhXghpo,1153
+flask_magql-1.0.0.dist-info/RECORD,,
