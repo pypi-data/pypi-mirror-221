@@ -1,0 +1,10 @@
+uagents_twilio/__init__.py,sha256=-pUGIh_AXL7JLEW9tOHJa837Eis5Yf3aJbwbX_RsGIs,69
+uagents_twilio/models.py,sha256=2y_SM6tIHL5ToS1VBXGHOdzijthcJTRDKWVxZwKIeA4,177
+uagents_twilio/protocols/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uagents_twilio/protocols/messages.py,sha256=tBcVXBvdAdFabxrGLJ3d4JOmaemmrjuQmEo4nROX_jA,2159
+uagents_twilio/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uagents_twilio/wrappers/messageWrapper.py,sha256=s09VbIHfbQORTHm427iurz8FB5xWdDGSP70GdXBqQhE,2251
+uagents_twilio-1.0.3.dist-info/LICENSE,sha256=SyzfyyJqXMown_oIFnCljkuwJKQFeSkixktZ_U9LHmg,1073
+uagents_twilio-1.0.3.dist-info/METADATA,sha256=p_zDtc9NE57TsW2iJIKZiOC2fbqEw2LDTBwPDu02OcM,1584
+uagents_twilio-1.0.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+uagents_twilio-1.0.3.dist-info/RECORD,,
