@@ -1,0 +1,14 @@
+collagen/__init__.py,sha256=k3AazYdUyEJpq2uO3g0Rwpr2GZqTRgJR6z9_JZgmZxo,154
+collagen/_version.py,sha256=9D6faGIpIA6mj30wbwa5v-bfatFZu0Pn9QQ7dcpCYqc,497
+collagen/cli.py,sha256=ZFvK2Q2vjdjtUde4n9U-oelaTAI75pUph_ZI_xoCds8,122
+collagen/vm.py,sha256=dGRrJFLtHklyk6eLPv2dCryFd01eoQbv_BO3zgQAeFs,11189
+mkdocstrings_handlers/collagen/__init__.py,sha256=_tD_01ZgKNPbnEA0shNEOb1ob2h_zSamhawhg6CKrDM,33
+mkdocstrings_handlers/collagen/handler.py,sha256=x-zQkSjQjxYWSE-B_zSiBlLVeayGa_cnbHnAUaGJqbA,8173
+mkdocstrings_handlers/collagen/templates/terminal/hints.html,sha256=8N_-eoxWvuhUrCSaOtzczBWaNTUrP2mFB86wPHeYeS8,3214
+mkdocstrings_handlers/collagen/templates/terminal/ops.html,sha256=PcdSYEEM3SYoyhsPPHA_CnWVI9xseN6O6AvNIw3me18,789
+collagen-0.1.4.dist-info/LICENSE,sha256=3eoIJUNGcPhS5lW84BmeJRmRzRuY7pWs0Mm91oz-Ryk,1068
+collagen-0.1.4.dist-info/METADATA,sha256=9vreqnpyab2ytpPjLUAu3VklICuWqEZi51Y76nTejr4,1417
+collagen-0.1.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+collagen-0.1.4.dist-info/entry_points.txt,sha256=gCoQ3LVqFeNvVUynq95ft190EkR-ZxJDOZUSDcuJj3I,47
+collagen-0.1.4.dist-info/top_level.txt,sha256=wtRxoWvAi15NAoE9mBlxy_HYoc9A1DrLbzclsfjIbBg,31
+collagen-0.1.4.dist-info/RECORD,,
