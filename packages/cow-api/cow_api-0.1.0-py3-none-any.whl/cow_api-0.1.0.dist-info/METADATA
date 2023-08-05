@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cow-api
+Version: 0.1.0
+Summary: Cow API using FastAPI
+Home-page: https://github.com/falkolav/cow_api
+Author: Falko Lavitt
+Author-email: falkolavitt@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: faker
+
