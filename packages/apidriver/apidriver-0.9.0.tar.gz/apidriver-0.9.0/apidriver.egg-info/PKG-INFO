@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: apidriver
+Version: 0.9.0
+Summary: api test framework cli
+Home-page: https://github.com/CHNJX/api-driver
+Author: CHNJX
+Author-email: chaozhourose@gmail.com
+License-File: LICENSE.txt
