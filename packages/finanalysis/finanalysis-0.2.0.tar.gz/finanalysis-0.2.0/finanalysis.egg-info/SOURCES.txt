@@ -1,0 +1,11 @@
+README.md
+setup.py
+finanalysis.egg-info/PKG-INFO
+finanalysis.egg-info/SOURCES.txt
+finanalysis.egg-info/dependency_links.txt
+finanalysis.egg-info/requires.txt
+finanalysis.egg-info/top_level.txt
+finanalysis.egg-info/.ipynb_checkpoints/PKG-INFO-checkpoint
+finanalysis.egg-info/.ipynb_checkpoints/SOURCES-checkpoint.txt
+finanalysis.egg-info/.ipynb_checkpoints/dependency_links-checkpoint.txt
+finanalysis.egg-info/.ipynb_checkpoints/top_level-checkpoint.txt
