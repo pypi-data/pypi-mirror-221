@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygame-layout
+Version: 1.0.0
+Summary: Pygame Layout
+Home-page: https://github.com/ArthurLeFloch/PygameLayout
+Author: Arthur Le Floch
+Author-email: alf.github@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: pygame
+Requires-Dist: pygame-ui-controls
+
+Pygame Layout
+
