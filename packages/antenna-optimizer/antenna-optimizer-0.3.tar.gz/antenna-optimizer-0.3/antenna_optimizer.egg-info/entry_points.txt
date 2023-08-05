@@ -1,0 +1,13 @@
+[console_scripts]
+coaxmodel = antenna_optimizer.coaxmodel:main
+folded-3ele-antenna = antenna_optimizer.folded_3ele:main
+folded-antenna = antenna_optimizer.folded:main
+folded-bc-antenna = antenna_optimizer.folded_bc:main
+folded-bigrefl-antenna = antenna_optimizer.folded_bigrefl:main
+hb9cv-antenna = antenna_optimizer.hb9cv:main
+hf-folded-dipole = antenna_optimizer.hf_folded:main
+hf-fuchs = antenna_optimizer.hf_fuchs:main
+hf-inverted-v = antenna_optimizer.hf_inverted_v:main
+logper-antenna = antenna_optimizer.logper:main
+multi-dipole = antenna_optimizer.multi_dipole:main
+transmission-line = antenna_optimizer.tl:main
