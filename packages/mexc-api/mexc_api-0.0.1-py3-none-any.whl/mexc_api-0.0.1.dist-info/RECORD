@@ -1,0 +1,17 @@
+mexc_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mexc_api/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mexc_api/common/api.py,sha256=Xw_PhOxGRQ7kCfEF_sVXyE5Fguw6dVNKGR2DsIYhdXU,2259
+mexc_api/common/enums.py,sha256=Q1pU-EN0PU9lkG8BURA2cqrsAxJRzDcV2BET05QyWck,1215
+mexc_api/common/exceptions.py,sha256=43GMmepdPpVT7SFkLlr_4TQDAT7LHmFT0kgQcrOh69I,90
+mexc_api/common/utils.py,sha256=_FXYuLx1XU7nYpR1JRaZ39xL2OX8xQjLi-MJf_2jIjg,176
+mexc_api/spot/__init__.py,sha256=4nF92KIrLDeD3vvXMeysavTxc1YayB083OTGQ-ecuPs,377
+mexc_api/spot/endpoints/_account.py,sha256=ei8faV9YwDduNSimoLVkFCNoPCEdPn7ucJaL3Bu9a-0,5649
+mexc_api/spot/endpoints/_market.py,sha256=Dx830q5Lo2elYDsJ0kd5OgXcy-fVns9fuCZ043fzMgE,4376
+mexc_api/websocket/__init__.py,sha256=FbPxut-VOiPyv76fElIqrT46sQ3myIrJlf3pFoKLQYM,72
+mexc_api/websocket/mexc_websocket_app.py,sha256=CiWX1vHN_3y1WpJ906qqOfDFzf98Uzuy_itcEzdVqI0,1775
+mexc_api/websocket/websocket_stream.py,sha256=YduJODCKMn8LWdmdO-X5LHmH0sn5lvCBK4XDPDvMFyc,3396
+mexc_api-0.0.1.dist-info/LICENSE,sha256=3DzZCi_prC07bPNLdn144rF9ATnHhOl0yF_iCV_G7rQ,1065
+mexc_api-0.0.1.dist-info/METADATA,sha256=g7m8M077bozyWCohhei5UxfYXchLjt2sqFwf42YZpeQ,2029
+mexc_api-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+mexc_api-0.0.1.dist-info/top_level.txt,sha256=qsplbEFck2ItmdO4VfzPolCBu2ttekOXW-ZZ2H6-s8s,9
+mexc_api-0.0.1.dist-info/RECORD,,
