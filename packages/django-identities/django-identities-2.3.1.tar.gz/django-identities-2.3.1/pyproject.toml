@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools >= 40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+branch = true
+source = ["identities"]
+omit = [
+  "*/migrations/*",
+  "*/tests/*",
+  "*/wsgi.py",
+  "*/asgi.py",
+]
+
+[tool.tox]
+legacy_tox_ini = '''
+[tox]
+envlist = py{310,311},report
+isolated_build = true
+
+[testenv]
+setenv =
+    SECRET_KEY = test
+    USE_LOGGING = False
+    PYTHONPATH = tests
+    DJANGO_SETTINGS_MODULE = settings
+    py{310,311}: COVERAGE_FILE = .coverage.{envname}
+depends =
+    report: py{310,311}
+deps =
+    assertpy
+    factory_boy
+    pylint
+    pylint-django
+    pytest
+    pytest-cov
+    pytest-django
+    pytest-randomly
+    requests
+commands =
+    pytest {posargs: --cov --cov-report=}
+
+[testenv:report]
+deps = coverage[toml]
+skip_install = true
+parallel_show_output = True
+commands =
+    coverage combine
+    coverage report
+'''
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "line-too-long,invalid-name,too-few-public-methods,too-many-instance-attributes,too-many-arguments,missing-docstring,too-many-locals,no-member,protected-access"
+output-format = "text"
+reports = "no"
+
+[tool.pylint.MAIN]
+load-plugins = "pylint.extensions.docparams"
+ignore-paths = ["identities/migrations"]
+
+[tool.pylint.SIMILARITIES]
+min-similarity-lines=6
+
+[tool.mypy]
+files = ["identities", "tests"]
+plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+
+[[tool.mypy.overrides]]
+module = [
+    "authlib.*",
+    "factory",
+    "simple_history.*",
+    "guardian.*",
+]
+ignore_missing_imports = true
+
+[tool.django-stubs]
+django_settings_module = "tests.settings"
