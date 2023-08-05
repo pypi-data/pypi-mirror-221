@@ -1,0 +1,3 @@
+Jinja2>=2.7.0
+psycopg2>=2.7.4
+sqlx-batis>=0.0.7
