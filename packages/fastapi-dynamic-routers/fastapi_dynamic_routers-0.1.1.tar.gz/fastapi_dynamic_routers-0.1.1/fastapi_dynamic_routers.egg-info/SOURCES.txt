@@ -1,0 +1,9 @@
+README.md
+setup.py
+fastapi_dynamic_routers/__init__.py
+fastapi_dynamic_routers/dynamic_routes_includer.py
+fastapi_dynamic_routers.egg-info/PKG-INFO
+fastapi_dynamic_routers.egg-info/SOURCES.txt
+fastapi_dynamic_routers.egg-info/dependency_links.txt
+fastapi_dynamic_routers.egg-info/requires.txt
+fastapi_dynamic_routers.egg-info/top_level.txt
