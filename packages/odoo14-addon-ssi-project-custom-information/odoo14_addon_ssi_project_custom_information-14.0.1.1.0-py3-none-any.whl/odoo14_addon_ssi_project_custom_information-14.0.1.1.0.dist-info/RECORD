@@ -1,0 +1,11 @@
+odoo/addons/ssi_project_custom_information/README.rst,sha256=--LaQJzZn9S3JlvYXX3TcWHzatJs_DE2kPJoaapNYcE,1282
+odoo/addons/ssi_project_custom_information/__init__.py,sha256=X3ayW9k4OH3xqib3X0KEzYY9_pqaAhP2YdhFFVEJSvo,181
+odoo/addons/ssi_project_custom_information/__manifest__.py,sha256=Siw5I4OhqUVxmRvVtv2Bir6trVmnKFZIySbAfzUCoto,524
+odoo/addons/ssi_project_custom_information/models/__init__.py,sha256=p7pk3TP37buc7btx-nipAa1-G6p3EWGIuOFhTAC5EFs,227
+odoo/addons/ssi_project_custom_information/models/project_project.py,sha256=te51Pq69m4PlGBqLvog-uRv67AQ_KXjGdSXqea4Kogs,342
+odoo/addons/ssi_project_custom_information/models/project_task.py,sha256=kzGYTI61qONzOQpHJYEuNUO5AFsUJCdQhv68OfDxEWo,333
+odoo/addons/ssi_project_custom_information/static/description/icon.png,sha256=O8DgcD3UdYgosCSt02q3gjyVKuto6WRnhq0wsK0X7FY,8619
+odoo14_addon_ssi_project_custom_information-14.0.1.1.0.dist-info/METADATA,sha256=zCXhtJSUg6BvkVjd8FJTpE2-LGu-usGGd6XeWb8FWMA,1915
+odoo14_addon_ssi_project_custom_information-14.0.1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_project_custom_information-14.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_project_custom_information-14.0.1.1.0.dist-info/RECORD,,
