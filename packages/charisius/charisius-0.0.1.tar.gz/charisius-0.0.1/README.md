@@ -1,0 +1,42 @@
+# Charisius - Efficient Aggregators
+
+Charisius is a Python package that provides a series of highly optimized functions to perform efficient data aggregations. The functions leverage PyTorch's capabilities to achieve significant performance improvements, ranging from 25% to 1100% faster than their previous versions.
+
+The functions in this package were optimized by changing the computation method to use more efficient algorithms and data structures, specifically, by using PyTorch functions and converting data types from Python dictionaries to 1D and 2D PyTorch tensors. 
+
+## Functions
+
+### geometric_median(vectors)
+Compute the geometric median of the provided vectors. It uses a smoothed weiszfeld algorithm, which is a gradient descent algorithm for the geometric median.
+
+### krum(aggregator, vectors)
+Compute the krum of the vectors. This function computes all pairwise distances and returns the vector with the smallest score.
+
+### multi_krum(aggregator, vectors)
+This function extends krum to return the average of k vectors with the lowest scores, where k is the number of vectors to average in the end.
+
+### nearest_neighbor_mixing(aggregator, vectors, numb_iter=1)
+Replace every vector by the average of its nearest neighbors. The number of iterations is determined by the `numb_iter` parameter.
+
+### bucketing(aggregator, vectors)
+Organize vectors into buckets and compute the average for each bucket. The buckets are determined by the `bucket_size` attribute of the `aggregator`.
+
+### centered_clipping(aggregator, vectors, L_iter=3, clip_thresh=1)
+Perform the centered clipping on vectors. The number of iterations and the clip threshold can be controlled by `L_iter` and `clip_thresh` parameters respectively.
+
+### MoNNA(aggregator, vectors)
+Compute the N-f closest vectors to the pivot vector and return their average.
+
+## Usage
+
+To use any function, simply import the function from the Charisius package:
+
+```python
+from charisius import geometric_median, krum
+
+# Your code...
+
+Remember that all functions expect PyTorch tensors as inputs.
+```
+
+# Author - Serhan YILMAZ

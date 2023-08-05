@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+charisius/__init__.py
+charisius/fullLib.py
+charisius.egg-info/PKG-INFO
+charisius.egg-info/SOURCES.txt
+charisius.egg-info/dependency_links.txt
+charisius.egg-info/top_level.txt
