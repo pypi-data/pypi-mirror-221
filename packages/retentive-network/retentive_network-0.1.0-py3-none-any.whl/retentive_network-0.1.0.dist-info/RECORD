@@ -1,0 +1,17 @@
+retentive_network/__init__.py,sha256=RS9tpb5hJH-yD681Ep8NNXXuZq7H35_Q7qvt8gw0A4c,55
+retentive_network/exceptions.py,sha256=UW6QZppa8szQbf2JCO7h7B44uO1tAwT3m2w8kL6xfp4,2521
+retentive_network/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retentive_network/layers/feed_forward.py,sha256=gIKJqDNXRd9IXOIE_GeTAd_jvqg5mKUxpYg9P_Z_aWU,1724
+retentive_network/layers/group_norm.py,sha256=uEl7gvMT46UCRZHkAabvBYrKnkx-TeV4dZAwkm79kaw,1862
+retentive_network/layers/layer_norm.py,sha256=sRTmVX4go4-g2t8syc3Mj3iM9LpXmfYkL_lZJw-o_mc,1654
+retentive_network/layers/multi_scale_retention.py,sha256=3fZiOdY4o6YQvR75xM_0rmWcxush4-VzspUW1Qy2PNM,10286
+retentive_network/layers/projection.py,sha256=LjwFMGkFfB1rOIrwGbsUFX1MFmgGSF59CWVlpNXl4oQ,1335
+retentive_network/layers/retention.py,sha256=Amly2UcKld4XrQwe8BycINoc4okBNJVU3sHih19Ye1A,8206
+retentive_network/layers/swish_gate.py,sha256=jp0rtOPCQOcWSwCWq9uvkii5mB0rq8fF6R1Q1YW2TiM,687
+retentive_network/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retentive_network/models/clm.py,sha256=9d7THbnSUXsl0rfNjHdxpywg3UqqCzCxgzIDAGHbPFw,10661
+retentive_network/models/network.py,sha256=F9wk4KsU6d5AQay_HOvRvHHYqjS65XQf8HECbowOXDw,7488
+retentive_network-0.1.0.dist-info/LICENSE,sha256=59tYrUUoyjfCN0GFUhLVxEUq25ymMqSZhwFfMgtPTp4,1070
+retentive_network-0.1.0.dist-info/METADATA,sha256=SX01wYUCRD0oZYTCKnVcCFA_eLe1IC70uVwHU-gREf8,2756
+retentive_network-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+retentive_network-0.1.0.dist-info/RECORD,,
