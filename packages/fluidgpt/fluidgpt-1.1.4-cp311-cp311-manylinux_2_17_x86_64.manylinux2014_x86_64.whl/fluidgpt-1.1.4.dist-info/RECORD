@@ -1,0 +1,12 @@
+fluidgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluidgpt/validation/credentials_authentication.cpython-311-x86_64-linux-gnu.so,sha256=tcWZ64inwv6Z9kIPqJaBdevoCRYS7SWk4-ZfwaAPNCs,654576
+fluidgpt/validation/__init__.py,sha256=DtOj0J6iLQsswBzZelYdyZE8NjuzA-3ETHcBwJ7KMYI,112
+fluidgpt/validation/authentication.cpython-311-x86_64-linux-gnu.so,sha256=npPvkwFsQ_APuobI4mklMp9nJcsQ7prPPHhO9pmIcC0,480664
+fluidgpt/fluidai_gpt_sdk/prompt_list.cpython-311-x86_64-linux-gnu.so,sha256=NFID8ODgTaFqloFtYm5ioOxNiQcWZ7kGNTIniwz2EtE,87328
+fluidgpt/fluidai_gpt_sdk/jupyter_helper.cpython-311-x86_64-linux-gnu.so,sha256=e0euk4IZtqFgSQxuNHtC4tyNqqlmSMvLKzQziG43X8Q,662792
+fluidgpt/fluidai_gpt_sdk/__init__.py,sha256=hbje-RhT4iz5TWoIcJZCcbKFhu9HfNpeVPxVPFNUwM0,139
+fluidgpt/fluidai_gpt_sdk/endpoints.cpython-311-x86_64-linux-gnu.so,sha256=AN5puoDQOdjKdz95XVwR40U7M4JD1U7_iDv5ZLw7H-A,372224
+fluidgpt-1.1.4.dist-info/top_level.txt,sha256=wvmCfKc--Y9YazKg9wWJeEF4Det2AAMEhjEEcm-nXT0,9
+fluidgpt-1.1.4.dist-info/RECORD,,
+fluidgpt-1.1.4.dist-info/WHEEL,sha256=uvhLde9X7XNceebvGHQkVb4ve2X4iBpP6gimh7Ysn18,152
+fluidgpt-1.1.4.dist-info/METADATA,sha256=4SND2Zt2ZBoqtUVe9mEw9iMa7qDfMFozlilc-e0zSTM,674
