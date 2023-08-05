@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+NumberWrangler/Wrangler.py
+NumberWrangler/__init__.py
+NumberWrangler.egg-info/PKG-INFO
+NumberWrangler.egg-info/SOURCES.txt
+NumberWrangler.egg-info/dependency_links.txt
+NumberWrangler.egg-info/top_level.txt

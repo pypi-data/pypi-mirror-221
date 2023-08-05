@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: NumberWrangler
+Version: 0.0.2
+Summary: Python package for slightly or massively variating numbers.
+Home-page: https://github.com/aboombadev/NumberWrangler
+Author: Abhay Shukla
+Author-email: notsure@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# NumberWrangler
+
+**Variate** numbers!
+
+## Instructions
+
+1. Install:
+
+```
+pip install NumberWrangler
+```
+
+2. Variate numbers
+
+```python
+# Import Package
+from NumberWrangler import Wrangler
+
+#Create a Variate object for simplicity
+Variate = Wrangler.Variate
+
+# Variate a number close to 12
+print(Variate(number=12))
+```
+
+3. Success!
+
+## Documentation and Examples
+
+```python
+# Variate a number close to 12
+print(Variate(number=12))
+
+# Variate a number far from 12
+print(Variate(number=12, multiplier=200))
+
+# Variate a number close to 12 that is a float
+print(Variate(number=12, Round=5))
+
+# Variate a number close to 12 that is adding
+print(Variate(number=12, add=True))
+
+# Variate a number close to 12 that is subtracting
+print(Variate(number=12, subtr=True))
+
+# Variate a number close to 12 that is subtracting
+print(Variate(number=12, subtr=True))
+
+# Now use any combination of these methods!
+```
