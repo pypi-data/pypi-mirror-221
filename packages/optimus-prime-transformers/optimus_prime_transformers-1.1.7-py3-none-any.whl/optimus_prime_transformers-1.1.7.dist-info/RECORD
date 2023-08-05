@@ -1,0 +1,13 @@
+optimus_prime/__init__.py,sha256=TD-6c8elKK7ahmdj_wYKJpHdcE3mUu_kqfoLQMGQc3k,784
+optimus_prime/attend.py,sha256=kIjCqXMK1g4xHRk5RteN4qRcEbGycEYy9D1Llfop3JE,7774
+optimus_prime/autoregressive_wrapper.py,sha256=2PONTEYrL4At3WBy1Cs4P3CL-wX57EYzHAiGQ-7zMOM,4523
+optimus_prime/continuous_autoregressive_wrapper.py,sha256=pTiDqu6JRUlnQJQp_xHATYHy0lgSd6ERLqyiFO3pC-4,1575
+optimus_prime/flash.py,sha256=4Cdsnf8ZKA6WRuqnY7daHDE0BS5Jo7uYkw1M9rf_2JU,8833
+optimus_prime/nonautoregressive_wrapper.py,sha256=Wb1O3kaXQgVJwk2KDbJepCTMfhZCQQqzcOjVSXNTCKA,10414
+optimus_prime/x_transformers.py,sha256=LvsOV4RPQB1PPdQu4AyWKF10UnbcxwGaQNU9StSgTVM,55309
+optimus_prime/xl_autoregressive_wrapper.py,sha256=NzqB5GyYD1kz1z0oGcGBl2ZzAycC2npC9Ak2HQDNuak,3987
+optimus_prime_transformers-1.1.7.dist-info/LICENSE,sha256=yUUXGfq-qJZZhL-BE4fYM_GG6yi61JmgveW6j2KOKqM,1066
+optimus_prime_transformers-1.1.7.dist-info/METADATA,sha256=8QjNUm1FP0t3hDTTae_sj3ic09KR2Gpaf8PaELqOCEs,645
+optimus_prime_transformers-1.1.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+optimus_prime_transformers-1.1.7.dist-info/top_level.txt,sha256=JGokvjMu79V6wv8-m-d4M0tQ0wWv1eVnwzyir8iqBO4,14
+optimus_prime_transformers-1.1.7.dist-info/RECORD,,
