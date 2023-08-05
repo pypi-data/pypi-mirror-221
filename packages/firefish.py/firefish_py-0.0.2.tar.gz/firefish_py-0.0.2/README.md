@@ -1,0 +1,32 @@
+# firefish.py
+
+Simple python wrapper for the Firefish API.
+
+## Getting started
+
+You're going to want to install requests and python-dotenv in order for this to work.
+
+You can either install this with pypi by doing `pip install firefish.py` or by building it yourself.
+
+I'm running this with 3.11.3, which is (i think) the latest Python3 version and it should work with all versions of Python3. I haven't tested it though
+
+Once you install firefish.py, create a .env file with the following:
+
+```
+TOKEN=<your firefish api token>
+INSTANCE=<the firefish instance associated with your api token>
+```
+
+Don't include the < > keys when typing them in, and format your instance as "subdomain.domain.com".
+lethallava.land is a pretty decent public Firefish instance if you don't already have an account on an instance.
+
+Additionally, keep in mind that this *might* work on Misskey as well. You can try, but keep in mind I haven't tested Misskey out for myself yet.
+
+## Examples
+
+Simple posting bot: 
+
+```
+import firefish
+firefish.createnote('example', 'null')
+```
