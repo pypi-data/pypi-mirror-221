@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: arun-test
+Version: 0.1.1
+Summary: A small example package
+Author-email: Arun Uday <arun.uday@knowledgelens.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+
