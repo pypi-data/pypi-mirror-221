@@ -1,0 +1,7 @@
+google_spreadsheets_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_spreadsheets_exporter/exporter.py,sha256=FSWwi2LAvn8F7EUI95-vu_HPbzqH4YZBUQPWVCvdHV4,2043
+google_spreadsheets_exporter/utils.py,sha256=vTAQM77BJnXSWvh95esUK6-UcBmetS_5Gg3NN56Xytw,530
+google_spreadsheets_exporter-1.0.0.dist-info/METADATA,sha256=a6LpMjerzDycY6_LDdUNGef0xKvSsHWwIEOa5sbwp00,4303
+google_spreadsheets_exporter-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+google_spreadsheets_exporter-1.0.0.dist-info/top_level.txt,sha256=MZQum-shPjRU_NQNFmOWw7w2sFhMWVBbgX3vDGM1HkE,29
+google_spreadsheets_exporter-1.0.0.dist-info/RECORD,,
