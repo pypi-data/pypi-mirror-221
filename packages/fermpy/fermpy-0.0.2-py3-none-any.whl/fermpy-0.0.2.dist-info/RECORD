@@ -1,0 +1,11 @@
+fermpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fermpy/bases.py,sha256=nSsnUezfL7c5wgKsQfR_O4NmhlgyCHZG0Y59Yjp2bag,21065
+fermpy/example.py,sha256=laqmWfcp12jRATaDIPHirtrr-3UFbgrQHbcIHJBrn6c,2926
+fermpy/hamiltonian_constructors.py,sha256=P0NyW-kJ2PiIWiDw7pnjot_OFEvRgIb-QNs7M3lrTf4,6968
+fermpy/operator_representation.py,sha256=S_Pt1mvYuIZfh6DQOIhEwyhRZfOl3uNv2lR7EK-P6sM,26279
+fermpy/operator_sum.py,sha256=FOZRlK2B462Un_FW5Aji5oraXJl1bnWF788hRtYebEg,7595
+fermpy/operators.py,sha256=mg7r3HCB3BPQuVPwx_9kB4K6ZrvdhOPX0wnc0Lsy70o,9674
+fermpy-0.0.2.dist-info/METADATA,sha256=P3y4PiKMgF5LNVeV9Y4kP4W_lDBLEW31EmIifbCW7Mo,5773
+fermpy-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fermpy-0.0.2.dist-info/licenses/LICENSE,sha256=zbvnSFLhe9wzJ74rNpfthLGOf5JXDuIeL8Kj44EP8NU,1086
+fermpy-0.0.2.dist-info/RECORD,,
