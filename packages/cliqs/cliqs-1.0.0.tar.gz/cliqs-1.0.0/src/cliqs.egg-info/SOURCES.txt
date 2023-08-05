@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/cliqs/__init__.py
+src/cliqs/__main__.py
+src/cliqs/cliqs.py
+src/cliqs/features_extraction.py
+src/cliqs/utils.py
+src/cliqs.egg-info/PKG-INFO
+src/cliqs.egg-info/SOURCES.txt
+src/cliqs.egg-info/dependency_links.txt
+src/cliqs.egg-info/entry_points.txt
+src/cliqs.egg-info/requires.txt
+src/cliqs.egg-info/top_level.txt
