@@ -1,0 +1,2 @@
+chinesename
+tests
