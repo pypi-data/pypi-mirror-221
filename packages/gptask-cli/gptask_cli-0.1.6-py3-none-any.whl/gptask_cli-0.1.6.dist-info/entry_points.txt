@@ -1,0 +1,4 @@
+[console_scripts]
+gptask=gptask_cli:main
+run_gptask=gptask_cli:main
+
