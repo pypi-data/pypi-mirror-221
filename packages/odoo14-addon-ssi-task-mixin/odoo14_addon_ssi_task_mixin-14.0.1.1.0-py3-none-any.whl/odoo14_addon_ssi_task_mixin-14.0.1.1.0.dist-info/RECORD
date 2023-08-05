@@ -1,0 +1,11 @@
+odoo/addons/ssi_task_mixin/README.rst,sha256=mVSXjWiv3egEVXdKlmIn7PeXt9lM59sgPU9pQ1ZhxyA,1162
+odoo/addons/ssi_task_mixin/__init__.py,sha256=X3ayW9k4OH3xqib3X0KEzYY9_pqaAhP2YdhFFVEJSvo,181
+odoo/addons/ssi_task_mixin/__manifest__.py,sha256=XXOA_BWRQbLxLgXoKbep1pn59iC4HZ88CwF55D4ZefY,542
+odoo/addons/ssi_task_mixin/models/__init__.py,sha256=Im9fgOnOUP1ZxxHQ1ZRUfvDllp26YyuCkA2Zd4Vu4fA,185
+odoo/addons/ssi_task_mixin/models/mixin_task.py,sha256=pen2KMihOH3fH95GPMit9iHDshC6KX_yoo9lOAo9Te0,7494
+odoo/addons/ssi_task_mixin/static/description/icon.png,sha256=O8DgcD3UdYgosCSt02q3gjyVKuto6WRnhq0wsK0X7FY,8619
+odoo/addons/ssi_task_mixin/templates/mixin_task_templates.xml,sha256=9eR2hwVh_kw26UgXEyUhjdY2kuA_kBKM5lGO2hplvcU,1730
+odoo14_addon_ssi_task_mixin-14.0.1.1.0.dist-info/METADATA,sha256=7xB6tdt44x-rhnCRQTVPPMG9v_tpl2TzxgmQaeS_lGs,1746
+odoo14_addon_ssi_task_mixin-14.0.1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_task_mixin-14.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_task_mixin-14.0.1.1.0.dist-info/RECORD,,
