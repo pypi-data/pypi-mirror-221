@@ -1,0 +1,1 @@
+A simple unofficial api for the italian StreamingCommunity website
