@@ -1,0 +1,8 @@
+sphinx-js
+sphinx-autodoc-typehints
+
+numpy
+aiohttp
+pyserial
+pyserial-asyncio
+pynmea2
