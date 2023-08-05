@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: arvancloud-video
+Version: 0.1.0
+Summary: The ArvanCloud Video Platform SDK for Python
+Author: Video Team.
+Author-email: video@arvancloud.ir
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=3.0.5,<4.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Requires-Dist: termcolor (>=2.3.0,<3.0.0)
+Requires-Dist: urllib3 (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Python Client
+
+> By Using This Package, You Can Easily Use Arvan Video Platform
+
+## Description
+This is The Simple Python Client To Play With Arvan Video/Live/Vads Platform APIs.
+
+
+## To Do List
+We believe adding these features can boost development:
+* [ ] Products
+  * [x] Video
+  * [x] Live
+  * [x] Ads
+  * [ ] Analytics
+* [ ] PyTest
+* [ ] Adding Pep8 Linter to Pipeline
+* [ ] Utilities Functions
+
+## Installation
+After installing [Python](https://python.org/en) you just need to follow the below steps to use this client:
+
+1. ``` pip install arvancloud-video ```
+2. ``` from arvancloud.video import VideoClient ```
+3. ``` application = VideoClient(api_key="YOUR_API_KEY") ```
