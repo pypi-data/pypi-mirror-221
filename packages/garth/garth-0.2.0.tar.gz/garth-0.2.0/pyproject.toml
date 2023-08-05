@@ -1,0 +1,45 @@
+[project]
+name = "garth"
+version = "0.2.0"
+description = "Garmin SSO auth + Connect client"
+authors = [
+    { name = "Matin Tamizi", email = "mtamizi@duck.com" },
+]
+dependencies = [
+    "requests>=2.27.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pytest.ini_options]
+addopts = "--ignore=__pypackages__ --ignore=tests/cassettes"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipython",
+    "ipdb",
+    "ipykernel",
+    "pandas",
+    "matplotlib",
+]
+linting = [
+    "black",
+    "ruff",
+    "mypy~=1.4.1",
+    "isort",
+    "types-requests",
+]
+testing = [
+    "coverage",
+    "pytest",
+    "pytest-vcr>=1.0.2",
+]
