@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: nthp-api
+Version: 0.1.4
+Summary: This is a CLI tool for building the Nottingham New Theatre's History Project content database.
+Home-page: https://github.com/newtheatre/nthp-api
+License: MIT
+Author: Will Pimblett
+Author-email: will@wjdp.uk
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Markdown (>=3.4.3,<4.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: peewee (>=3.16.2,<4.0.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pydantic-collections (>=0.4.0,<0.5.0)
+Requires-Dist: pyhumps (>=3.8.0,<4.0.0)
+Requires-Dist: python-frontmatter (>=1.0.0,<2.0.0)
+Requires-Dist: python-slugify (>=8.0.1,<9.0.0)
+Project-URL: Repository, https://github.com/newtheatre/nthp-api
+Description-Content-Type: text/markdown
+
+# History Project API Generator
+
+This project generates a JSON API from the [history-project](https://github.com/newtheatre/history-project) content repository. It does that in two steps:
+
+- **load**: Generate a sqlite database from the source files.
+- **dump**: Use that database to generate a JSON API.
+
+## Endpoints
+
+- The API is currently hosted at <https://nthp-api.wjdp.uk/v1>.
+- The specification is available at <https://nthp-api.wjdp.uk/v1/master/openapi.json>.
+- To render the spec into human-readable docs use a tool such as:
+  - ReDoc <https://redocly.github.io/redoc/?url=https://nthp-api.wjdp.uk/v1/master/openapi.json>.
+  - Stoplight <https://elements-demo.stoplight.io/?spec=https://nthp-api.wjdp.uk/v1/master/openapi.json>
+
+# Usage
+
+## From source
+
+- Ensure you have [Poetry](https://python-poetry.org/) installed.
+- Run `poetry install`.
+- Clone the history project repository into the `content/` directory. You can do a shallow clone for this: `GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 --branch master git@github.com:newtheatre/history-project content`.
+- Run `./nthp load` to generate the sqlite database from the content files.
+- Run `./nthp dump` to generate the API from the database into the `dist/` directory.
+
+## From PyPi
+
+- With pip installed run `pip install --user nthp-api`. If you have your local bin folder on your path you should now be able to run `nthp`.
+- Within the history-project repo run `nthp load` to generate the sqlite database from the content files.
+- Run `nthp dump` to generate the API from the database into the `dist/` directory.
+
+Alternatively you can run `nthp build` to run both steps in one go.
+
+## Contributing
+
+### pre-commit hooks
+
+pre-commit hooks are used to lint the source code using [Black](https://black.readthedocs.io/en/stable/) and [ruff](https://ruff.rs)
+
+- Ensure you have [pre-commit](https://pre-commit.com/) installed.
+- Run `pre-commit install` to install pre-commit hooks.
+
+### Tests
+
+Run `pytest` or use the included PyCharm run configuration.
+
