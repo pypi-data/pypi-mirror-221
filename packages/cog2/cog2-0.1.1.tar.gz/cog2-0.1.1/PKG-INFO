@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cog2
+Version: 0.1.1
+Summary: wizmodel.com cog2 sdk
+Author: 天才
+Author-email: 18320122+incomingflyingbrick@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# cog2 a modified version of cog
