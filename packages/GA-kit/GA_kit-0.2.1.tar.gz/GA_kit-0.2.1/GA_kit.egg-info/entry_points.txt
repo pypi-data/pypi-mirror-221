@@ -1,0 +1,2 @@
+[console_scripts]
+ga-kit-test-deceptive = GA_kit.deceptive:main

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+GA_kit/Version.py
+GA_kit/__init__.py
+GA_kit/deceptive.py
+GA_kit/ecga.py
+GA_kit/hboa.py
+GA_kit/sga.py
+GA_kit.egg-info/PKG-INFO
+GA_kit.egg-info/SOURCES.txt
+GA_kit.egg-info/dependency_links.txt
+GA_kit.egg-info/entry_points.txt
+GA_kit.egg-info/requires.txt
+GA_kit.egg-info/top_level.txt
