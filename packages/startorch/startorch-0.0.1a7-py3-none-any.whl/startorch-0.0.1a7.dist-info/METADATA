@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: startorch
+Version: 0.0.1a7
+Summary: synthetic time-series generator in PyTorch
+Home-page: https://github.com/durandtibo/startorch
+License: BSD-3-Clause
+Keywords: synthetic,time-series,pytorch
+Author: Thibaut Durand
+Author-email: durand.tibo+gh@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: all
+Requires-Dist: torch (>=1.10,<3.0)
+Project-URL: Repository, https://github.com/durandtibo/startorch
+Description-Content-Type: text/markdown
+
+# startorch
+Synthetic time-series generator in PyTorch
+
