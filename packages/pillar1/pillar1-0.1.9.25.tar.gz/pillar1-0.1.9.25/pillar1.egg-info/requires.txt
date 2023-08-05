@@ -1,0 +1,4 @@
+ipywidgets
+google-cloud-aiplatform
+boto3
+pyspark
