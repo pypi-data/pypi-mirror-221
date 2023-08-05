@@ -1,0 +1,151 @@
+{
+    "BabyAGI": {
+        "TestWriteFile": [
+            false,
+            false
+        ]
+    },
+    "TestBasicCodeGeneration": [
+        true
+    ],
+    "TestBasicMemory": [
+        true
+    ],
+    "TestBasicRetrieval": [
+        true
+    ],
+    "TestCreateSimpleWebServer": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestDebugSimpleTypoWithGuidance": [
+        true
+    ],
+    "TestDebugSimpleTypoWithoutGuidance": [
+        false
+    ],
+    "TestReadFile": [
+        true
+    ],
+    "TestRememberMultipleIds": [
+        true
+    ],
+    "TestRememberMultiplePhrasesWithNoise": [
+        false
+    ],
+    "TestRememberMultipleWithNoise": [
+        false
+    ],
+    "TestRetrieval2.0": [
+        true
+    ],
+    "TestRetrieval2.1": [
+        false
+    ],
+    "TestRetrieval2.2": [
+        false
+    ],
+    "TestRetrieval3": [
+        false
+    ],
+    "TestSearch": [
+        true
+    ],
+    "TestThreeSum": [
+        true
+    ],
+    "TestWriteFile": [
+        true
+    ],
+    "mini-agi": {
+        "TestBasicMemory": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true
+        ],
+        "TestBasicRetrieval": [
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "TestReadFile": [
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "TestSearch": [
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "TestWriteFile": [
+            true,
+            true,
+            true,
+            true
+        ],
+        "TestRetrieval2.2": [
+            false,
+            false,
+            false,
+            false
+        ],
+        "TestRetrieval2.1": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "TestRetrieval2.0": [
+            true,
+            false
+        ],
+        "TestRememberMultipleIds": [
+            false,
+            false,
+            true
+        ],
+        "TestRememberMultipleIdsWithNoise": [
+            false
+        ],
+        "TestRememberMultipleWithNoise": [
+            false,
+            true
+        ],
+        "TestRememberMultiplePhrasesWithNoise": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "TestDebugSimpleTypoWithGuidance": [
+            false,
+            false,
+            false,
+            false
+        ]
+    }
+}
