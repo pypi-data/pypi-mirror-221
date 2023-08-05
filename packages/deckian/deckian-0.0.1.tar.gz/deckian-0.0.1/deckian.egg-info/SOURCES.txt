@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+deckian/__init__.py
+deckian/__main__.py
+deckian/chroot.py
+deckian/data.py
+deckian/disk.py
+deckian.egg-info/PKG-INFO
+deckian.egg-info/SOURCES.txt
+deckian.egg-info/dependency_links.txt
+deckian.egg-info/entry_points.txt
+deckian.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+deckian = deckian.__main__:main
