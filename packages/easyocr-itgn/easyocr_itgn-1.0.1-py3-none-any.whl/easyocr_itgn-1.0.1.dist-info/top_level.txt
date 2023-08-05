@@ -1,0 +1,4 @@
+easyocr_itgn
+setup
+trainer
+unit_test
