@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Primus.egg-info/PKG-INFO
+Primus.egg-info/SOURCES.txt
+Primus.egg-info/dependency_links.txt
+Primus.egg-info/requires.txt
+Primus.egg-info/top_level.txt
