@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wat"
+version = "0.1.0"
+authors = [
+  { name="Patrick Rein", email="support@patrickrein.de" },
+]
+description = "A small example package"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+requires-python = ">=3.10"
+classifiers = [
+	'Development Status :: 3 - Alpha',
+        'Environment :: Console',
+        'Intended Audience :: System Administrators',
+        'Intended Audience :: Developers',
+        'Topic :: System :: Shells',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3.10',
+        'Operating System :: POSIX :: Linux'
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/codezeilen/wat"
+"Bug Tracker" = "https://github.com/codezeilen/wat/issues"
