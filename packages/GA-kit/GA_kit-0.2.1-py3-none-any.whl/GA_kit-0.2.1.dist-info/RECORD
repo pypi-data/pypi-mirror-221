@@ -1,0 +1,12 @@
+GA_kit/Version.py,sha256=iNNWCDw_BldD98lPPGvMh9uBURPGZ5CU4xGjpAPr07U,16
+GA_kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GA_kit/deceptive.py,sha256=PPEPxWjSgASuJgcqbCWRxy0aJbKJVEa_6w9MT2QgYMo,8356
+GA_kit/ecga.py,sha256=5E5cE-2t05NtozXlA_lhs_J8kW8fD6czax9g8Lwv6O8,5715
+GA_kit/hboa.py,sha256=-yO42674cSjRJw9ceCMSyZpCaeHexa7YkMoTlHlQNao,14236
+GA_kit/sga.py,sha256=n4CoZhSMA6Ej2yxNGWPGbtiDnH1Xn-Swn780UE_UBaA,6265
+GA_kit-0.2.1.dist-info/LICENSE,sha256=wWV-LDwmOUsUToQKqDgZo0nu4PxMbjpgCprLZBXU9Lc,1552
+GA_kit-0.2.1.dist-info/METADATA,sha256=JeCyu-d9moGd-z1KX6m0Rbrxs51CYBQWxuJrwSHZ4o4,10695
+GA_kit-0.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+GA_kit-0.2.1.dist-info/entry_points.txt,sha256=frAA_wrOZzwua1QkaorIQGDwfJt1e5G3hYXQqSNx5Tw,64
+GA_kit-0.2.1.dist-info/top_level.txt,sha256=Ty9ybplCqzvVjqtgEKhmLTmTspOOg_wDGLy-XKJRZZc,7
+GA_kit-0.2.1.dist-info/RECORD,,
