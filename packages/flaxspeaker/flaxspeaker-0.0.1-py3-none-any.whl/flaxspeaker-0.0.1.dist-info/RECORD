@@ -1,0 +1,11 @@
+flaxspeaker/__init__.py,sha256=ipNNForg4303uI2H_MvgKhpG96v3cUy-mAWWNjMRq6Q,21
+flaxspeaker/dataset.py,sha256=YK7Yl5o1XDxgWFcfJswNCZABcGOhnfFMbkWBcbI-y9k,1707
+flaxspeaker/evaluation.py,sha256=7VayuK366XNUThTQMWJ2f6Id6SWBTmvTTzmksNAkM0Q,5924
+flaxspeaker/feature_extraction.py,sha256=BHQvu2vBVmzQdgCUdHuugJXi5mI_l-btVS75H6tNOs8,3873
+flaxspeaker/neural_net.py,sha256=8wPxKbcvCCgy0xLqDmxMAOji-KqCadWp5-T-Cb9YPn4,8845
+flaxspeaker/specaug.py,sha256=FSwu8kw0BtdBpIzSqi82YHRrUr7GlmScW0aGN6n2UXM,845
+flaxspeaker-0.0.1.dist-info/LICENSE,sha256=F96EzotgWhhpnQTW2TcdoqrMDir1jyEo6H915tGQ-QE,11524
+flaxspeaker-0.0.1.dist-info/METADATA,sha256=HG8aeylFZKKiYBhtplcAVesopVIrlE9D_c3tE12rCc0,726
+flaxspeaker-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flaxspeaker-0.0.1.dist-info/top_level.txt,sha256=wgQY-QhK6wV06k2Wmw4820TkrGYooJYpnyZta4mpgEs,12
+flaxspeaker-0.0.1.dist-info/RECORD,,
