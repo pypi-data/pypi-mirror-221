@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: orcaz
+Version: 0.1.0
+Summary: ORCA (Optimized Registration through Conditional Adversarial networks) is a cutting-edge tool designed to  
+Home-page: 
+Author: Zacharias Chalampalakis, PhD, Lalith Kumar Shiyam Sundar, PhD
+Author-email: zacharias.chalampalakis@meduniwien.ac.at, lalith.shiyamsundar@meduniwien.ac.at
+License: Apache 2.0

@@ -1,0 +1,9 @@
+README.md
+setup.py
+orcaz/orcaz.py
+orcaz.egg-info/PKG-INFO
+orcaz.egg-info/SOURCES.txt
+orcaz.egg-info/dependency_links.txt
+orcaz.egg-info/entry_points.txt
+orcaz.egg-info/requires.txt
+orcaz.egg-info/top_level.txt
