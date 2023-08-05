@@ -1,0 +1,8 @@
+scikit-image
+nibabel
+nilearn
+numpy
+matplotlib
+scipy
+atlasreader
+pillow
