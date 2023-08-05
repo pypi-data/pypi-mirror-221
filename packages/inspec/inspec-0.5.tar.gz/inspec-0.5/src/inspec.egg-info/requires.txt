@@ -1,0 +1,23 @@
+Pillow
+click
+numpy
+opencv-python
+pydantic
+sounddevice
+soundfile
+typing-extensions
+wheel
+
+[:platform_system == "Windows"]
+windows-curses
+
+[dev]
+black
+build
+flake8
+ipdb
+isort
+pre-commit
+pyright
+pytest
+twine
