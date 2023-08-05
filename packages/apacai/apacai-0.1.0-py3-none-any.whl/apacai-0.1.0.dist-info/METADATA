@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: apacai
+Version: 0.1.0
+Summary: Python client library for the APACAI API
+Home-page: https://github.com/kyegomez/APACAI-API.git
+License: MIT
+Author: APACAI
+Author-email: kye@apac.ai
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: datalib
+Provides-Extra: embeddings
+Provides-Extra: wandb
+Requires-Dist: aiohttp
+Requires-Dist: requests (>=2.20)
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions ; python_version < "3.8"
