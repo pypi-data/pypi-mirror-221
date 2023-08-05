@@ -1,0 +1,10 @@
+mdgpt/__init__.py,sha256=Qicu7Nz16QlGs8I--jtBcp8UJ8J3XhKhtjPngoV9DCI,274
+mdgpt/build.py,sha256=g2QDQdEeSqYIO7DLcSKZ2NsbhnyXkFsiCtk5mLArrfM,2852
+mdgpt/misc.py,sha256=YLOO1xxzxIIw3gPfH9iOcZOOlrVcDGo8MXB0wQo2RZc,502
+mdgpt/translate.py,sha256=if2e3x8gW9K46RYjDAI0-AAbJoH5IJhviXqR_SgRsek,8884
+mdgpt/utils.py,sha256=Ku50tvWSJa2-Y21ya8sOLpoE6MmSpXsCSlCGVhWnZCk,2479
+mdgpt-0.1.1.dist-info/entry_points.txt,sha256=5k95omRccI5-TGMbNEgoljj71DVLffhC04R0l7qFjjM,91
+mdgpt-0.1.1.dist-info/LICENSE,sha256=EBnTcS-BXePZwE5MsVLYlKCBs-BhLy8jIQ4gR8hMhdo,1064
+mdgpt-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mdgpt-0.1.1.dist-info/METADATA,sha256=FT-AU7E2RllcIhnIhGiGTrmbuE-tzltbxNMDFUTn0Ac,634
+mdgpt-0.1.1.dist-info/RECORD,,
