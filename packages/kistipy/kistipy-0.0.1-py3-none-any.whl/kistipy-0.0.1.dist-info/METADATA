@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: kistipy
+Version: 0.0.1
+Summary: kistipy
+Home-page: https://github.com/prosopher/kistipy
+Author: prosopher
+Author-email: prosopher@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.12
+Description-Content-Type: text/markdown
+
+# kistipy
+
+![basic-test](https://github.com/prosopher/kistipy/workflows/basic-test/badge.svg)
+
+# Installation
+
+```python
+pip install -r requirements.txt
+```
+
+# Examples
+
+* [Squad](https://huggingface.co/datasets/squad)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='squad', split='train')
+    ```
+
+    - 데이터 변환
+    ```python
+    print(data[0]['title']) # University_of_Notre_Dame
+    data.map(lambda x: {'uppercased_title': x['title'].upper()})
+    print(data[0]['uppercased_title']) # UNIVERSITY_OF_NOTRE_DAME
+    ```
+
+* [CoNLL-2003](https://huggingface.co/datasets/tomaarsen/conll2003)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='tomaarsen/conll2003', split='train')
+    ```
+
+    - 데이터 변환
+    ```python
+    print(data[0]['tokens']) # ['EU', 'rejects', 'German', 'call', 'to', 'boycott', 'British', 'lamb', '.']
+    print(data[0]['ner_tags']) # [3, 0, 7, 0, 0, 0, 7, 0, 0]
+    def pos_tagger(x):
+        token_with_ner_tag = []
+        for token, ner_tag in zip(x['tokens'], x['ner_tags']):
+            if ner_tag == 0:
+                token_with_ner_tag.append(token)
+            else:
+                token_with_ner_tag.append(f'[{token}]({ner_tag})')
+        return {'token_with_ner_tags': token_with_ner_tag}
+    data.map(pos_tagger)
+    print(data[0]['token_with_ner_tags']) # ['[EU](3)', 'rejects', '[German](7)', 'call', 'to', 'boycott', '[British](7)', 'lamb', '.']
+    ```
+
+* [국내 논문 문장 의미 태깅 데이터셋](https://aida.kisti.re.kr/data/b08af26b-7294-4358-bfd0-f86d0f2e1f1b)
+
+    - 데이터 전처리
+    ```console
+    data_path="data/국내 논문 문장 의미 태깅 데이터셋/가정간호학회지/2013/JAKO201307153506710.json"
+    python3 kistipy/bin/cleanse.py --data_name 국내논문태깅 --input_path $data_path --output_path $data_path
+    ```
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='국내논문태깅', split='train')
+    ```
+
+* [국내 논문 QA 데이터셋](https://aida.kisti.re.kr/data/21b21974-6efd-4581-b9df-699f91f5bc98)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='국내논문QA', split='train')
+    ```
+
+* [문서요약 텍스트](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='문서요약텍스트', split='train')
+    ```
+
+* [논문 연구분야 분류 데이터](https://aida.kisti.re.kr/data/abb84673-04d2-45c5-83b5-0067bd4c37f2)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='연구분야분류', split='train')
+    ```
+
+* [특허 분야 자동분류 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=547)
+
+    - Data 생성
+    ```python
+    from kistipy import Data
+    data = Data(name='특허자동분류', split='train')
+    ```
+
+
