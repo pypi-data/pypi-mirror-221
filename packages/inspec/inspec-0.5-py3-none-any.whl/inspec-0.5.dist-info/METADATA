@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: inspec
+Version: 0.5
+Summary: Inspect audio and image files from command line
+Author-email: Kevin Yu <thekevinyu@gmail.edu>
+License: MIT License
+        
+        Copyright (c) 2021 kevinyu
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/kevinyu/inspec
+Keywords: spectrogram,audio,visualization,sound,terminal
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pydantic
+Requires-Dist: sounddevice
+Requires-Dist: soundfile
+Requires-Dist: typing-extensions
+Requires-Dist: wheel
+Requires-Dist: windows-curses ; platform_system == "Windows"
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# inspec
+
+Visually inspect audio files and images from the command line by displaying them as unicode characters.
+
+Tested on `png`, `jpg`, `mp4`, and `wav` files.
+
+## Quick start
+
+```
+pip install inspec
+```
+
+From command line
+
+```
+Usage: inspec [OPTIONS] COMMAND [ARGS]...
+
+Commands:
+  imshow  Print an image to stdout
+  listen  Listen to audio and print to stdout
+  open    Open interactive GUI
+  show    Print an audio file to stdout
+```
+
+From python
+
+```python
+import inspec
+
+inspec.imshow("path/to/image/file.png")
+inspec.ashow("path/to/audio/file.wav")
+inspec.vshow("path/to/video/file.mp4")
+inspec.listen()
+```
+
+## Dev setup
+
+```
+git clone git@github.com:kevinyu/inspec.git
+cd inspec
+python -m venv env
+source bin/activate
+pip install -e .
+```
+
+You might need `ffmpeg` for video support not sure tho.
+
+Run tests
+
+```
+pytest src
+```
+
+# Examples
+
+```shell
+inspec show demo/warbling.wav
+inspec imshow demo/mandrill.jpg
+```

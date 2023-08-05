@@ -1,0 +1,2 @@
+[console_scripts]
+inspec = inspec_core.cli:cli
