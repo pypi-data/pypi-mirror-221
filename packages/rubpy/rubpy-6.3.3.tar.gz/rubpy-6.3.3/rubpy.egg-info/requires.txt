@@ -1,0 +1,7 @@
+aiohttp
+pycryptodome
+aiofiles
+mutagen
+
+[opencv-python]
+opencv-python
