@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TLSFAllocator.egg-info/PKG-INFO
+TLSFAllocator.egg-info/SOURCES.txt
+TLSFAllocator.egg-info/dependency_links.txt
+TLSFAllocator.egg-info/not-zip-safe
+TLSFAllocator.egg-info/top_level.txt
+src/main.cpp
