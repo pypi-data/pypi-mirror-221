@@ -1,0 +1,11 @@
+aeronet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aeronet/__version__.py,sha256=zHhR5xOBIdj5Us_YGtqOe2YPLRUldKLCev0iaiD6Nuk,69
+aeronet/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aeronet/converters/split.py,sha256=rVvdGUSQK94NNjy0F1_BFmXkAzxPmV9SCzwmDQaMUM4,225
+aeronet/dataset/__init__.py,sha256=Uc2xetLvMZVtu13bs4tzH96-Q2qZzUur3hJ0ExPWKJM,972
+aeronet/dataset/utils.py,sha256=S-_oeAAoOZRO3lsa1opHPb3q3T2-BqJL4Ji70HeC2us,230
+aeronet-0.1.0a1.dist-info/LICENSE,sha256=EStVCtHGBi3ch6ZAh4nTptI1xJlU5QjXNM7IfiOLkEs,1077
+aeronet-0.1.0a1.dist-info/METADATA,sha256=MGMH0puq0B0yREsK-hC7_-0AXtzkOuxQkoLFKipuYps,1100
+aeronet-0.1.0a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aeronet-0.1.0a1.dist-info/top_level.txt,sha256=6kzp3UCjsPE7-tDuaTQvQXidyckWkV0O3D-f2CuES-c,43
+aeronet-0.1.0a1.dist-info/RECORD,,
