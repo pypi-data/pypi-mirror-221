@@ -1,0 +1,2 @@
+[console_scripts]
+flake8-staged-diff = flake8_staged_diff.main:main
