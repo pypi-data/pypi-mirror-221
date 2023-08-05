@@ -1,0 +1,23 @@
+MANIFEST.in
+README.md
+setup.py
+src/pypkg_builder/__init__.py
+src/pypkg_builder/app.py
+src/pypkg_builder/license.py
+src/pypkg_builder/readme.py
+src/pypkg_builder/setuptoolfn.py
+src/pypkg_builder/tree.py
+src/pypkg_builder.egg-info/PKG-INFO
+src/pypkg_builder.egg-info/SOURCES.txt
+src/pypkg_builder.egg-info/dependency_links.txt
+src/pypkg_builder.egg-info/entry_points.txt
+src/pypkg_builder.egg-info/requires.txt
+src/pypkg_builder.egg-info/top_level.txt
+src/pypkg_builder/templates/help.html
+src/pypkg_builder/templates/index.html
+src/pypkg_builder/types/Apache Version 2.0.txt
+src/pypkg_builder/types/GNU GPLv3.txt
+src/pypkg_builder/types/MIT License.txt
+src/pypkg_builder/types/Mozilla Public License 2.0.txt
+src/pypkg_builder/types/The Unlicense.txt
+src/pypkg_builder/types/user_defined.txt

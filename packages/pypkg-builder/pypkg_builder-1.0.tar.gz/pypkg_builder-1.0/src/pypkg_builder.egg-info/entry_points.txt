@@ -1,0 +1,2 @@
+[console_scripts]
+pysetup = template_pypackage_builder.__init__:app.run
