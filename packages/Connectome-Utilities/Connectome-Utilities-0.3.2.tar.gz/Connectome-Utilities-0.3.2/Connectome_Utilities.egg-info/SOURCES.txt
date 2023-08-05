@@ -1,0 +1,17 @@
+AUTHORS.txt
+LICENSE
+README.md
+pyproject.toml
+Connectome_Utilities.egg-info/PKG-INFO
+Connectome_Utilities.egg-info/SOURCES.txt
+Connectome_Utilities.egg-info/dependency_links.txt
+Connectome_Utilities.egg-info/requires.txt
+Connectome_Utilities.egg-info/top_level.txt
+conntility/__init__.py
+conntility/connectivity.py
+conntility/multi_scale.py
+conntility/plugins.py
+tests/test_analysis.py
+tests/test_analysis_decorator.py
+tests/test_connectivity_matrix.py
+tests/test_neuron_groups.py
