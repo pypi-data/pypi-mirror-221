@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/utils/__init__.py
+src/utils/decode.py
+src/utils/encode.py
+src/utils/list.py
+src/utils_azr.egg-info/PKG-INFO
+src/utils_azr.egg-info/SOURCES.txt
+src/utils_azr.egg-info/dependency_links.txt
+src/utils_azr.egg-info/top_level.txt

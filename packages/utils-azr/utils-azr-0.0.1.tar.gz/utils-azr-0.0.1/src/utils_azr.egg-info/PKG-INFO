@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: utils-azr
+Version: 0.0.1
+Summary: Personal utility functions
+Home-page: https://github.com/aazerra/utils
+Maintainer: Alireza Rabie
+Maintainer-email: alireza@aazerra.dev
+License: MIT
+Keywords: utils,utility,functions
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# utils
+A bunch of utility functions to use in personal projects
