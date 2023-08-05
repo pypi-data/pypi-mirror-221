@@ -1,0 +1,11 @@
+nonebot_plugin_eventmonitor/__init__.py,sha256=wD7jeRvu_E8YIh1UeXa3MSbXYBHqXmR2UD4L1Tb8hXc,734
+nonebot_plugin_eventmonitor/admin.py,sha256=Ew2YudT8KzA0UMWJRsT8frgDtnhwXQ2i5--anC7gyL4,2823
+nonebot_plugin_eventmonitor/handle.py,sha256=TuMyb_jK9HwmOk5fdLhITCqpHA4OCJDa44eKsMcQsO8,7871
+nonebot_plugin_eventmonitor/honour.py,sha256=COGPd1AbzZkfZjsFyaeTjijn_XIZUBjY_7P0s9k7Ago,1621
+nonebot_plugin_eventmonitor/stamp.py,sha256=ZWaex_l7vFxxzXO6-m8pQcVVCexs8wTZ4hUu3mlihUM,2166
+nonebot_plugin_eventmonitor/utils.py,sha256=0w79gWzkYohJht0pS6okWgAiBCMqhzJ5xeTmLdvLUtc,7116
+nonebot_plugin_eventmonitor-0.1.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_plugin_eventmonitor-0.1.8.dist-info/METADATA,sha256=CaIFtxjBM5Yr88845TA8ley4f31Dewq5oldT9ELN0T8,1714
+nonebot_plugin_eventmonitor-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nonebot_plugin_eventmonitor-0.1.8.dist-info/top_level.txt,sha256=LvJ4_fAHzy8OYBmyKTxmMz49UHtE2IK7mLiHT2ey5Xw,28
+nonebot_plugin_eventmonitor-0.1.8.dist-info/RECORD,,
