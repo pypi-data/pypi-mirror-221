@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: core-devoops
+Version: 0.0.3
+Summary: Low level sqlmodel/fastapi/pydantic building blocks
+License: MIT
+Author: Thomas Epelbaum
+Author-email: tomepel@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0,<1)
+Requires-Dist: numpy (>=1,<2)
+Requires-Dist: pandas (>=2,<3)
+Requires-Dist: passlib[bcyrypt] (>=1,<2)
+Requires-Dist: psycopg2[binary] (>=2,<3)
+Requires-Dist: pydantic[python-dotenv] (>=1,<2)
+Requires-Dist: python-jose[cryptography] (>=3,<4)
+Requires-Dist: sqlmodel (>=0,<1)
+Description-Content-Type: text/markdown
+
+# core_devoops
+
+<p align="center">
+<a href="https://github.com/FR-PAR-ECOACT/core_devoops/blob/main/badges/coverage.svg" target="_blank">
+    <img src="https://github.com/FR-PAR-ECOACT/core_devoops/blob/main/badges/coverage.svg" alt="Coverage">
+</a>
+<a href="https://github.com/FR-PAR-ECOACT/core_devoops/blob/main/badges/pylint.svg" target="_blank">
+    <img src="https://github.com/FR-PAR-ECOACT/core_devoops/blob/main/badges/pylint.svg" alt="Publish">
+</a>
+<a href="https://github.com/FR-PAR-ECOACT/core_devoops/actions/workflows/code-quality.yml/badge.svg" target="_blank">
+    <img src="https://github.com/FR-PAR-ECOACT/core_devoops/actions/workflows/code-quality.yml/badge.svg" alt="Package version">
+</a>
+</p>
+
+Low level ecoact generic code. Aimed at being published in open source with poetry 
+
