@@ -1,0 +1,7 @@
+appdirs
+click
+coloredlogs
+jsonpath-ng>=1.5
+requests
+tzlocal
+unidecode

@@ -1,0 +1,10 @@
+# install package itself to install it's dependencies
+.
+
+# developer dependencies
+black
+isort
+flake8
+prettier
+bumpversion
+tox
