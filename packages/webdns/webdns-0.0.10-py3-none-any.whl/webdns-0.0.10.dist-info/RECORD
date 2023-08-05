@@ -1,0 +1,11 @@
+webdns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webdns/__version__.py,sha256=T-Y3EZBm3hazmLAiNk8xu6IBmZ4DMdURQAw8h7uFzCg,99
+webdns/app.py,sha256=fokUnTX5Xe5K4MOGWrYjV6kvKhpSIqjKGiE6spi5U6g,2896
+webdns/methods.py,sha256=4qYq_usRsAO-hPLhoq2vyk7xznhRgB6UALlUshHOBuk,3406
+webdns/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webdns/api/api.py,sha256=885OR60WEzfO5xS42uHkFH3IC9345QKg2r8wQzoMemg,2083
+webdns/api/utils.py,sha256=zaAu5xT8zF2D42H3vRbDGUviIoOoNeoGyNHI4wLtcKQ,826
+webdns-0.0.10.dist-info/METADATA,sha256=q5R6allHplIhCqU0IDYMd1QG0hrRFzldJ45rd9C21MA,7232
+webdns-0.0.10.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+webdns-0.0.10.dist-info/top_level.txt,sha256=7UxSqx3kGWBx1tlAP1I2zHqOgBjR6m-1PLn8ofM2i3A,7
+webdns-0.0.10.dist-info/RECORD,,
