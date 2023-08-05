@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+easynotify/__init__.py
+easynotify/easynotify.py
+easynotify.egg-info/PKG-INFO
+easynotify.egg-info/SOURCES.txt
+easynotify.egg-info/dependency_links.txt
+easynotify.egg-info/requires.txt
+easynotify.egg-info/top_level.txt
