@@ -1,0 +1,10 @@
+unitauto/__init__.py,sha256=F4kbwqtVi-IKPgrFnXUTnk9M77xSOQQ9yFOKm9gaNEk,18
+unitauto/methodutil.py,sha256=JiNqD4P4Vzx8FbetEfucNPsFggsKUksNI8Oel-Xbbl0,33695
+unitauto/server.py,sha256=-vJ9TbX5eBGK2sTyThSXFUNGDkmczQ9EPDfEhE9NiEQ,7273
+unitauto/test/__init__.py,sha256=4qt2uU0CmGkb5x8JRnwsC9-7Tah9-sKxN1qyIL-FPPU,2233
+unitauto/test/testutil.py,sha256=2nP8wULs2q-sJ4LPMELbez194SPMdWLJdJo1zGkxMXA,3414
+unitauto-1.0.3.dist-info/LICENSE,sha256=1zwYYC6mmfRds30DvQoEsLbPs2kv0cZ1M7OtSv6G4LE,1066
+unitauto-1.0.3.dist-info/METADATA,sha256=VWRkoAjEM83Koz2Y6ZlNFpKdEFI1v-G1BRRO5w7xO9w,2470
+unitauto-1.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+unitauto-1.0.3.dist-info/top_level.txt,sha256=pWk9yn2P2Y08WsI-7_QEz_lGvBSgdl3Zv-lwpWT5-tU,9
+unitauto-1.0.3.dist-info/RECORD,,
