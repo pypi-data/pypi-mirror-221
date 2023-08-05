@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+FirebaseDatabaseTakeover.egg-info/PKG-INFO
+FirebaseDatabaseTakeover.egg-info/SOURCES.txt
+FirebaseDatabaseTakeover.egg-info/dependency_links.txt
+FirebaseDatabaseTakeover.egg-info/entry_points.txt
+FirebaseDatabaseTakeover.egg-info/requires.txt
+FirebaseDatabaseTakeover.egg-info/top_level.txt
+fdt/__init__.py
+fdt/__main__.py
