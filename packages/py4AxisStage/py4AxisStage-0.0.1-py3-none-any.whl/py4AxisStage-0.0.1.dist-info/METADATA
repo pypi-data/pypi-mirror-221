@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py4AxisStage
+Version: 0.0.1
+Summary: External control of 4AxisStage
+Author: Toshihiro Nishimura
+Author-email: tnishimura@se.kanazawa-u.ac.jp
+License: MIT
+
