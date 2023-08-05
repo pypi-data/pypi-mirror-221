@@ -1,0 +1,13 @@
+solo_epd_loader/__init__.py,sha256=m1Famqwz6O5aZxKk38kpej5eAtST9aLHfVJ2LZjtfQc,83025
+solo_epd_loader/version.py,sha256=rP098NZOYlov5kzZS9dZoYGm76PSNKckHJeQB9ueGxQ,345
+solo_epd_loader/data/test/l2/epd/ept/solo_L2_epd-ept-asun-rates_20200603_V02.cdf,sha256=ijUjAcpD47lQkh2xBEzHlR5fGAx6M1xsAZseSC1_ggM,104579
+solo_epd_loader/data/test/l2/epd/ept/solo_L2_epd-ept-north-rates_20200603_V02.cdf,sha256=Vbm2uskzS4tjuvT3p_Xv4qsJBLJj8EGALjMyiwdGMWI,107761
+solo_epd_loader/data/test/l2/epd/ept/solo_L2_epd-ept-south-rates_20200603_V02.cdf,sha256=VtCeuC33lCXRlNj8OeWQ7HiS0DeDvd5b78B3rm6LE8g,104907
+solo_epd_loader/data/test/l2/epd/ept/solo_L2_epd-ept-sun-rates_20200603_V02.cdf,sha256=EZGW92ZYMMUHu5lYrZaFNo4VJ6nBWC-YHfxJgHzF8zc,103697
+solo_epd_loader/tests/__init__.py,sha256=1D-l3TVbwIZHY78A-sB7kc4ldldX8ZaEq-Ntph51WVw,108
+solo_epd_loader/tests/tests.py,sha256=ECaXcPt9m1-1R6bdmsvPTQwOrOYvpFQWLKbOCrbwgx8,9850
+solo_epd_loader-0.3.4.dist-info/LICENSE.rst,sha256=cuIflBatnn3_WDSRoqeoWVvho0cxC-4lCMzEqZIRm-Y,1483
+solo_epd_loader-0.3.4.dist-info/METADATA,sha256=gkLJFXOV0f2X8qFzx8EiFkOGdPFxU-mIOmf8GOHE6tQ,17242
+solo_epd_loader-0.3.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+solo_epd_loader-0.3.4.dist-info/top_level.txt,sha256=gJ7gcI6RayKF2xqwFJbqLkzAp1pdKei_eD-5ULPvckk,16
+solo_epd_loader-0.3.4.dist-info/RECORD,,
