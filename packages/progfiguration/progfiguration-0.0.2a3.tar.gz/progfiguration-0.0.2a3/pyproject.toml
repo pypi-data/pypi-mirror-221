@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "pdoc",
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "progfiguration"
+version = "0.0.2a3"
+description = "PROGramatic conFIGURATION for your infrastructure"
+license = {text = "MIT"}
+readme = "readme.md"
+requires-python = ">=3.10"
+
+[[project.authors]]
+name = "Micah R Ledbetter"
+email = "me@micahrl.com"
+
+[project.scripts]
+progfiguration = "progfiguration.cli.progfiguration_core_cmd:main"
+
+[project.optional-dependencies]
+development = [
+    "black",
+    "build",
+    "mypy",
+    "pdoc",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/mrled/progfiguration"
+
+[tool.black]
+line-length = 120
+
+[tool.setuptools.package-data]
+"*" = ["*"]

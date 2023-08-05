@@ -1,0 +1,7 @@
+
+[development]
+black
+build
+mypy
+pdoc
+twine
