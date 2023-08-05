@@ -1,0 +1,9 @@
+marketwatchdata/MarketWatch.py,sha256=QpiLySdQLfnuWdgCyGveHsi5l6VdSbL0s9r1LAp4sqY,3287
+marketwatchdata/__init__.py,sha256=izyS2KxH9U6Ps4kXU6Tzteot0-uRSDlImwnHAKaxM1k,409
+tests/__init__.py,sha256=UprGEgTYvgXCo2Hvz8cp7cCqq524-O4O4CQgnsG2sYo,81
+tests/test_func.py,sha256=3cgVgOLfTJZjXpfcs7KDfv906DjtuLXOELjaxyZaa2E,518
+marketwatchdata-0.0.14.dist-info/LICENSE,sha256=2f0VP25K1T4ZY7actrVsBimVrQUkrXdT9Goh7P6z9_k,1064
+marketwatchdata-0.0.14.dist-info/METADATA,sha256=ea-QLZdaNs1QELoZIDC5GDt4c58gKs2rnEERqrRhVtQ,4127
+marketwatchdata-0.0.14.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+marketwatchdata-0.0.14.dist-info/top_level.txt,sha256=rf3nxlqfGpY9T5Q-FfCyIgqNyqk54RsjL2qW4Pcb1GQ,22
+marketwatchdata-0.0.14.dist-info/RECORD,,
