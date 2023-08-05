@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: loq0
+Version: 0.0.2
+Summary: League of Quoridor
+Home-page: https://github.com/dastyinc/loq0
+Author: seorii
+Author-email: me@seorii.page
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## loq0
+
+League of Quoridor v0.
+
+Will be reimplemented in C++.
+
+### Install
+
+`pip install loq0`
+
+### Methods
+
+#### Game
+
+`act(type, ...args)` : Returns `None` or `False` if unavailable or `True` represents next state if action is valid.
+
+Changes state of itself.
+
+#### State
+
+`act(type, ...args)` : Returns `None` or `False` if unavailable or `State` represents next state if action is valid.
+
+Makes a copy of state and do not changes itself.
