@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite-utils-sqlite-url
+Version: 0.1.0
+Summary: TODO
+Author: Alex Garcia
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/asg017/sqlite-url
+Project-URL: Changelog, https://github.com/asg017/sqlite-url/releases
+Project-URL: Issues, https://github.com/asg017/sqlite-url/issues
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: sqlite-url
+
+# `sqlite-utils-sqlite-url`
+
+A `sqlite-utils` plugin that registers the `sqlite-url` extension.
