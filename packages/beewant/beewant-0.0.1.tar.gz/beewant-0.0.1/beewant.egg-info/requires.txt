@@ -1,0 +1,13 @@
+uvicorn
+fastapi
+torch
+torchvision
+matplotlib
+transformers
+pillow
+typing
+loguru
+tqdm
+googletrans>=3.1.0a0
+python-multipart
+weaviate-client

@@ -1,0 +1,11 @@
+README.md
+setup.py
+bee_search/__init__.py
+bee_search/file_loader.py
+bee_search/image_search.py
+bee_search/model_embedder.py
+beewant.egg-info/PKG-INFO
+beewant.egg-info/SOURCES.txt
+beewant.egg-info/dependency_links.txt
+beewant.egg-info/requires.txt
+beewant.egg-info/top_level.txt
