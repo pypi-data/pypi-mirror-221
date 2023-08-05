@@ -1,0 +1,3 @@
+pytest
+vobject
+git+https://github.com/psycojoker/pytest-capture-deprecatedwarnings
