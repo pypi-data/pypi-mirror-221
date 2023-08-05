@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+konbini/konbinine.egg-info/PKG-INFO
+konbini/konbinine.egg-info/SOURCES.txt
+konbini/konbinine.egg-info/dependency_links.txt
+konbini/konbinine.egg-info/requires.txt
+konbini/konbinine.egg-info/top_level.txt
