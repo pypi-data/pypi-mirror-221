@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+airtime/__init__.py
+airtime/teams_analyzer.py
+airtime/zoom_analyzer.py
+airtime.egg-info/PKG-INFO
+airtime.egg-info/SOURCES.txt
+airtime.egg-info/dependency_links.txt
+airtime.egg-info/top_level.txt
+airtime/tests/__init__.py
+airtime/tests/test_teams_analyzer.py
+airtime/tests/test_zoom_analyzer.py
