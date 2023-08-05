@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+covxnet/__init__.py
+covxnet/version.py
+covxnet.egg-info/PKG-INFO
+covxnet.egg-info/SOURCES.txt
+covxnet.egg-info/dependency_links.txt
+covxnet.egg-info/requires.txt
+covxnet.egg-info/top_level.txt
+covxnet/blocks/__init__.py
+covxnet/blocks/residual.py
+covxnet/blocks/shifter.py
+covxnet/blocks/stem.py
+covxnet/network/__init__.py
+covxnet/network/model.py
