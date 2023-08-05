@@ -1,0 +1,7 @@
+setup.py
+google_drive_manager/__init__.py
+google_drive_manager.egg-info/PKG-INFO
+google_drive_manager.egg-info/SOURCES.txt
+google_drive_manager.egg-info/dependency_links.txt
+google_drive_manager.egg-info/requires.txt
+google_drive_manager.egg-info/top_level.txt
