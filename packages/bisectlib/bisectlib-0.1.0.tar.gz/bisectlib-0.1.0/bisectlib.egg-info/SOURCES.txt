@@ -1,0 +1,8 @@
+README.md
+bisectlib.py
+pyproject.toml
+bisectlib.egg-info/PKG-INFO
+bisectlib.egg-info/SOURCES.txt
+bisectlib.egg-info/dependency_links.txt
+bisectlib.egg-info/requires.txt
+bisectlib.egg-info/top_level.txt
