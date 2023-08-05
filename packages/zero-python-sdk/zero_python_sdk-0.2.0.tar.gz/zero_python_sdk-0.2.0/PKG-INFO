@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zero-python-sdk
+Version: 0.2.0
+Summary: zero client sdk
+Author: Misha-Otto
+Author-email: michael.zacharov@ottofeller.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-graphql-client (==0.4.3)
