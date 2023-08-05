@@ -1,0 +1,3 @@
+[console_scripts]
+csstuning = csstuning.kernel:cli
+
