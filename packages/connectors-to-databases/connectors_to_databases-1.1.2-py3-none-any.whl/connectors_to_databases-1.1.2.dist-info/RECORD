@@ -1,0 +1,11 @@
+connectors_to_databases/BaseOperator.py,sha256=EPV28h8kilFabQlg1aAfo9BS1AvkQ6oNWMbz08GMxQc,3984
+connectors_to_databases/ClickHouse.py,sha256=UyhRlbN3BeI4IdqSl3ez7V1wKRcUGQ6ETRfZGdrCvBY,1225
+connectors_to_databases/PostgreSQL.py,sha256=cZbIB-V7ZCuV5pT0_UZcG3jclRBh9yB6F4B4-jzlo8k,7958
+connectors_to_databases/TypeHinting.py,sha256=tj6eH2vMVn3jOUbAZqdy2uBpIOFk-Zt8NRyExFdoBSs,41
+connectors_to_databases/__init__.py,sha256=2rEIAZiNnVtdRut6EujMjdzB11G7YdlM5nOMjjFYs_g,346
+connectors_to_databases/class_use.py,sha256=XT5bJwKLbVE6SwV6b5Q10qgFljiPLjp2uWHEBmhyRqU,512
+connectors_to_databases-1.1.2.dist-info/LICENSE.MD,sha256=r9sTCWtaYGRXunV84zPYAdbrqjbr1Uku2X2GXGuiGcQ,11347
+connectors_to_databases-1.1.2.dist-info/METADATA,sha256=fQAevwM42YYCUeEZYyLydha9p2D0wEaV8ZIMWst7QM0,2645
+connectors_to_databases-1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+connectors_to_databases-1.1.2.dist-info/top_level.txt,sha256=j5f6BHA16hyGP4eBdoa3_a2T6es2yRfKlbqGYw662p0,24
+connectors_to_databases-1.1.2.dist-info/RECORD,,
