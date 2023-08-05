@@ -1,0 +1,13 @@
+LICENSE.TXT
+MANIFEST.in
+README.txt
+setup.py
+dscal/__init__.py
+dscal.egg-info/PKG-INFO
+dscal.egg-info/SOURCES.txt
+dscal.egg-info/dependency_links.txt
+dscal.egg-info/requires.txt
+dscal.egg-info/top_level.txt
+dscal/dsmath/__init__.py
+dscal/gui/__init__.py
+dscal/tools/__init__.py
