@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pydracogltf/__init__.py
+pydracogltf/gltf_draco_decoder.py
+pydracogltf/gltf_draco_encoder.py
+pydracogltf.egg-info/PKG-INFO
+pydracogltf.egg-info/SOURCES.txt
+pydracogltf.egg-info/dependency_links.txt
+pydracogltf.egg-info/requires.txt
+pydracogltf.egg-info/top_level.txt
+pydracogltf/libs/libextern_draco.dylib
