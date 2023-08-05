@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "lifegu42d"
+version = "0.1.0"
+description = "A text-based user interface (TUI) application for the 42 program."
+authors = ["Sean O'Leary <seamicole@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+openai = "^0.27.8"
+platformdirs = "^3.9.1"
+python = "^3.10"
+textual = "^0.30.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+mypy = "^1.4.1"
+
+[tool.poetry.scripts]
+lifegu42d = "lifegu42d.main:main"
+lifeguard = "lifegu42d.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

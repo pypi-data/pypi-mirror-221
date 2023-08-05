@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lifegu42d
+Version: 0.1.0
+Summary: A text-based user interface (TUI) application for the 42 program.
+License: MIT
+Author: Sean O'Leary
+Author-email: seamicole@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: platformdirs (>=3.9.1,<4.0.0)
+Requires-Dist: textual (>=0.30.0,<0.31.0)
+Description-Content-Type: text/markdown
+
+# LIFEGU42D
+A text-based user interface (TUI) application for the 42 program.
+
