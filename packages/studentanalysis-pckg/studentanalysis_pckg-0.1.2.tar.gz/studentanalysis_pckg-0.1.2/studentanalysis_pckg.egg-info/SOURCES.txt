@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+studentanalysis_pckg/__init__.py
+studentanalysis_pckg/main.py
+studentanalysis_pckg/test_main.py
+studentanalysis_pckg.egg-info/PKG-INFO
+studentanalysis_pckg.egg-info/SOURCES.txt
+studentanalysis_pckg.egg-info/dependency_links.txt
+studentanalysis_pckg.egg-info/requires.txt
+studentanalysis_pckg.egg-info/top_level.txt
