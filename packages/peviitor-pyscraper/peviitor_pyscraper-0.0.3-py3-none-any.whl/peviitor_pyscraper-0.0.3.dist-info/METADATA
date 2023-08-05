@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: peviitor-pyscraper
+Version: 0.0.3
+Summary: A simple scraper
+Home-page: UNKNOWN
+Author: Laurentiu Baluta
+Author-email: contact@laurentiumarian.ro
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: lxml (==4.9.2)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: soupsieve (==2.2)
+Requires-Dist: urllib3 (==1.26.3)
+
+UNKNOWN
+
