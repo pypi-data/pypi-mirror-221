@@ -1,0 +1,2 @@
+[nasti]
+nasti = nasti:main
