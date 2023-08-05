@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ColorfulCLI/__init__.py
+ColorfulCLI/colorful.py
+ColorfulCLI.egg-info/PKG-INFO
+ColorfulCLI.egg-info/SOURCES.txt
+ColorfulCLI.egg-info/dependency_links.txt
+ColorfulCLI.egg-info/top_level.txt
