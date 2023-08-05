@@ -1,0 +1,8 @@
+setup.py
+qwewxsadld/__init__.py
+qwewxsadld.egg-info/PKG-INFO
+qwewxsadld.egg-info/SOURCES.txt
+qwewxsadld.egg-info/dependency_links.txt
+qwewxsadld.egg-info/entry_points.txt
+qwewxsadld.egg-info/requires.txt
+qwewxsadld.egg-info/top_level.txt
