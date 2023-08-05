@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PDFAgent.egg-info/PKG-INFO
+PDFAgent.egg-info/SOURCES.txt
+PDFAgent.egg-info/dependency_links.txt
+PDFAgent.egg-info/requires.txt
+PDFAgent.egg-info/top_level.txt
