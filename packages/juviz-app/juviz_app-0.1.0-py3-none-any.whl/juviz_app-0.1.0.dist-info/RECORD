@@ -1,0 +1,9 @@
+juviz/__init__.py,sha256=7WExmeLAqdB8YaOVOdbOD7_JpYSqvOUj40DEjaoNwsA,4537
+juviz/assets/__init__.py,sha256=STB-xIe37GCmNW2pu1TRj4RE0zC4TQF_b1BIuKPKBoM,228
+juviz/widgets/__init__.py,sha256=K736AlZztv8pTlRRBj5dfsaTvL4IADv0EfmAIPZpwAo,631
+juviz/widgets/juviz_controller.py,sha256=ce5TVGppmDBWA3ieeSWdCjv-iTtrLGVfg5czzToty3I,4594
+juviz_app-0.1.0.dist-info/LICENSE,sha256=IH49qmZoMdckn2_epgsAnMsl4a0MAidDEt7V0HV_xho,3158
+juviz_app-0.1.0.dist-info/METADATA,sha256=v8NQdIOJBOclV62LmpPIaZxb5TGL0SosiBr8hak1UIc,763
+juviz_app-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+juviz_app-0.1.0.dist-info/top_level.txt,sha256=JViLAFA2nqhZGmemmRBZ0YreAZy_EgsDxvWhZ0VGbKY,6
+juviz_app-0.1.0.dist-info/RECORD,,
