@@ -1,0 +1,9 @@
+jinja2
+render-engine-tailwindcss
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+ruff
+black
