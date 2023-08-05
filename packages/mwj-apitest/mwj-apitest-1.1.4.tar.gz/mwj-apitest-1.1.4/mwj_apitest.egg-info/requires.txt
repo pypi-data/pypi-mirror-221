@@ -1,0 +1,8 @@
+Faker==18.10.1
+Jinja2==3.1.2
+jsonpath==0.82
+PyMySQL==1.0.2
+PyYAML==6.0
+Requests==2.31.0
+requests_toolbelt==1.0.0
+rsa==4.7.2
