@@ -1,0 +1,38 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyocr-itgn"
+version = "1.0.0"
+description = "Easyorc fixed for pil 10"
+readme = "README.md"
+authors = [{ name = "Austin Bryant", email = "c00481025@louisiana.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["text extraction", "character recognition", "image processing"]
+dependencies = [
+    "torch",
+    "torchvision>=0.5",
+    "opencv-python-headless",
+    "scipy",
+    "numpy",
+    "Pillow>=10.0.0",
+    "scikit-image",
+    "python-bidi",
+    "PyYAML",
+    "Shapely",
+    "pyclipper",
+    "ninja",
+]
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://github.com/JaidedAI/EasyOCR"
+
+[project.scripts]
+easyorc = "easyocr.easyocr:main"

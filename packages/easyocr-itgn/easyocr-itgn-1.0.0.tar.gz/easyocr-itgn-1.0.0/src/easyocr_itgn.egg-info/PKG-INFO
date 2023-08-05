@@ -1,0 +1,431 @@
+Metadata-Version: 2.1
+Name: easyocr-itgn
+Version: 1.0.0
+Summary: Easyorc fixed for pil 10
+Author-email: Austin Bryant <c00481025@louisiana.edu>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Project-URL: Homepage, https://github.com/JaidedAI/EasyOCR
+Keywords: text extraction,character recognition,image processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EasyOCR
+
+[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)
+[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/JaidedAI/EasyOCR/blob/master/LICENSE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.to/easyocr)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/JaidedAI/EasyOCR.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20library:%20EasyOCR%20https://github.com/JaidedAI/EasyOCR)
+[![Twitter](https://img.shields.io/badge/twitter-@JaidedAI-blue.svg?style=flat)](https://twitter.com/JaidedAI)
+
+Ready-to-use OCR with 80+ [supported languages](https://www.jaided.ai/easyocr) and all popular writing scripts including: Latin, Chinese, Arabic, Devanagari, Cyrillic, etc.
+
+[Try Demo on our website](https://www.jaided.ai/easyocr)
+
+Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/tomofi/EasyOCR)
+
+
+## What's new
+- 25 May 2023 - Version 1.7.0
+    - Add Apple Silicon support (thanks[@rayeesoft](https://github.com/rayeesoft) and [@ArtemBernatskyy](https://github.com/ArtemBernatskyy), see [PR](https://github.com/JaidedAI/EasyOCR/pull/1004))
+    - Fix several compatibilities
+- 15 September 2022 - Version 1.6.2
+    - Add CPU support for DBnet
+    - DBnet will only be compiled when users initialize DBnet detector.  
+- 1 September 2022 - Version 1.6.1
+    - Fix DBnet path bug for Windows
+    - Add new built-in model `cyrillic_g2`. This model is a new default for Cyrillic script.
+- 24 August 2022 - Version 1.6.0
+    - Restructure code to support alternative text detectors.
+    - Add detector `DBnet`, see [paper](https://arxiv.org/abs/2202.10304v1). It can be used by initializing like this `reader = easyocr.Reader(['en'], detect_network = 'dbnet18')`.
+- 2 June 2022 - Version 1.5.0
+    - Add trainer for CRAFT detection model (thanks[@gmuffiness](https://github.com/gmuffiness), see [PR](https://github.com/JaidedAI/EasyOCR/pull/739))
+- 9 April 2022 - Version 1.4.2
+    - Update dependencies (opencv and pillow issues)
+- 11 September 2021 - Version 1.4.1
+    - Add trainer folder
+    - Add `readtextlang` method (thanks[@arkya-art](https://github.com/arkya-art), see [PR](https://github.com/JaidedAI/EasyOCR/pull/525))
+    - Extend `rotation_info` argument to support all possible angles (thanks[abde0103](https://github.com/abde0103), see [PR](https://github.com/JaidedAI/EasyOCR/pull/515))
+- 29 June 2021 - Version 1.4
+    - [Instructions](https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md) on training/using custom recognition models
+    - Example [dataset](https://www.jaided.ai/easyocr/modelhub) for model training
+    - Batched image inference for GPUs (thanks [@SamSamhuns](https://github.com/SamSamhuns), see [PR](https://github.com/JaidedAI/EasyOCR/pull/458))
+    - Vertical text support (thanks [@interactivetech](https://github.com/interactivetech)). This is for rotated text, not to be confused with vertical Chinese or Japanese text. (see [PR](https://github.com/JaidedAI/EasyOCR/pull/450))
+    - Output in dictionary format (thanks [@A2va](https://github.com/A2va), see [PR](https://github.com/JaidedAI/EasyOCR/pull/441))
+- 30 May 2021 - Version 1.3.2
+    - Faster greedy decoder (thanks [@samayala22](https://github.com/samayala22))
+    - Fix bug when a text box's aspect ratio is disproportional (thanks [iQuartic](https://iquartic.com/) for bug report)
+- 20 April 2021 - Version 1.3.1
+    - Add support for PIL image (thanks [@prays](https://github.com/prays))
+    - Add Tajik language (tjk)
+    - Update argument setting for command line
+    - Add `x_ths` and `y_ths` to control merging behavior when `paragraph=True`
+- 21 March 2021 - Version 1.3
+    - Second-generation models: multiple times smaller size, multiple times faster inference, additional characters and comparable accuracy to the first generation models.
+    EasyOCR will choose the latest model by default but you can also specify which model to use by passing `recog_network` argument when creating a `Reader` instance.
+    For example, `reader = easyocr.Reader(['en','fr'], recog_network='latin_g1')` will use the 1st generation Latin model
+    - List of all models: [Model hub](https://www.jaided.ai/easyocr/modelhub)
+
+- [Read all release notes](https://github.com/JaidedAI/EasyOCR/blob/master/releasenotes.md)
+
+## What's coming next
+- Handwritten text support
+
+## Examples
+
+![example](examples/example.png)
+
+![example2](examples/example2.png)
+
+![example3](examples/example3.png)
+
+
+## Installation
+
+Install using `pip`
+
+For the latest stable release:
+
+``` bash
+pip install easyocr
+```
+
+For the latest development release:
+
+``` bash
+pip install git+https://github.com/JaidedAI/EasyOCR.git
+```
+
+Note 1: For Windows, please install torch and torchvision first by following the official instructions here https://pytorch.org. On the pytorch website, be sure to select the right CUDA version you have. If you intend to run on CPU mode only, select `CUDA = None`.
+
+Note 2: We also provide a Dockerfile [here](https://github.com/JaidedAI/EasyOCR/blob/master/Dockerfile).
+
+## Usage
+
+``` python
+import easyocr
+reader = easyocr.Reader(['ch_sim','en']) # this needs to run only once to load the model into memory
+result = reader.readtext('chinese.jpg')
+```
+
+The output will be in a list format, each item represents a bounding box, the text detected and confident level, respectively.
+
+``` bash
+[([[189, 75], [469, 75], [469, 165], [189, 165]], '愚园路', 0.3754989504814148),
+ ([[86, 80], [134, 80], [134, 128], [86, 128]], '西', 0.40452659130096436),
+ ([[517, 81], [565, 81], [565, 123], [517, 123]], '东', 0.9989598989486694),
+ ([[78, 126], [136, 126], [136, 156], [78, 156]], '315', 0.8125889301300049),
+ ([[514, 126], [574, 126], [574, 156], [514, 156]], '309', 0.4971577227115631),
+ ([[226, 170], [414, 170], [414, 220], [226, 220]], 'Yuyuan Rd.', 0.8261902332305908),
+ ([[79, 173], [125, 173], [125, 213], [79, 213]], 'W', 0.9848111271858215),
+ ([[529, 173], [569, 173], [569, 213], [529, 213]], 'E', 0.8405593633651733)]
+```
+Note 1: `['ch_sim','en']` is the list of languages you want to read. You can pass
+several languages at once but not all languages can be used together.
+English is compatible with every language and languages that share common characters are usually compatible with each other.
+
+Note 2: Instead of the filepath `chinese.jpg`, you can also pass an OpenCV image object (numpy array) or an image file as bytes. A URL to a raw image is also acceptable.
+
+Note 3: The line `reader = easyocr.Reader(['ch_sim','en'])` is for loading a model into memory. It takes some time but it needs to be run only once.
+
+You can also set `detail=0` for simpler output.
+
+``` python
+reader.readtext('chinese.jpg', detail = 0)
+```
+Result:
+``` bash
+['愚园路', '西', '东', '315', '309', 'Yuyuan Rd.', 'W', 'E']
+```
+
+Model weights for the chosen language will be automatically downloaded or you can
+download them manually from the [model hub](https://www.jaided.ai/easyocr/modelhub) and put them in the '~/.EasyOCR/model' folder
+
+In case you do not have a GPU, or your GPU has low memory, you can run the model in CPU-only mode by adding `gpu=False`.
+
+``` python
+reader = easyocr.Reader(['ch_sim','en'], gpu=False)
+```
+
+For more information, read the [tutorial](https://www.jaided.ai/easyocr/tutorial) and [API Documentation](https://www.jaided.ai/easyocr/documentation).
+
+#### Run on command line
+
+```shell
+$ easyocr -l ch_sim en -f chinese.jpg --detail=1 --gpu=True
+```
+
+## Train/use your own model
+
+For recognition model, [Read here](https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md).
+
+For detection model (CRAFT), [Read here](https://github.com/JaidedAI/EasyOCR/blob/master/trainer/craft/README.md).
+
+## Implementation Roadmap
+
+- Handwritten support
+- Restructure code to support swappable detection and recognition algorithms
+The api should be as easy as
+``` python
+reader = easyocr.Reader(['en'], detection='DB', recognition = 'Transformer')
+```
+The idea is to be able to plug in any state-of-the-art model into EasyOCR. There are a lot of geniuses trying to make better detection/recognition models, but we are not trying to be geniuses here. We just want to make their works quickly accessible to the public ... for free. (well, we believe most geniuses want their work to create a positive impact as fast/big as possible) The pipeline should be something like the below diagram. Grey slots are placeholders for changeable light blue modules.
+
+![plan](examples/easyocr_framework.jpeg)
+
+## Acknowledgement and References
+
+This project is based on research and code from several papers and open-source repositories.
+
+All deep learning execution is based on [Pytorch](https://pytorch.org). :heart:
+
+Detection execution uses the CRAFT algorithm from this [official repository](https://github.com/clovaai/CRAFT-pytorch) and their [paper](https://arxiv.org/abs/1904.01941) (Thanks @YoungminBaek from [@clovaai](https://github.com/clovaai)). We also use their pretrained model. Training script is provided by [@gmuffiness](https://github.com/gmuffiness).
+
+The recognition model is a CRNN ([paper](https://arxiv.org/abs/1507.05717)). It is composed of 3 main components: feature extraction (we are currently using [Resnet](https://arxiv.org/abs/1512.03385)) and VGG, sequence labeling ([LSTM](https://www.bioinf.jku.at/publications/older/2604.pdf)) and decoding ([CTC](https://www.cs.toronto.edu/~graves/icml_2006.pdf)). The training pipeline for recognition execution is a modified version of the [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark) framework. (Thanks [@ku21fan](https://github.com/ku21fan) from [@clovaai](https://github.com/clovaai)) This repository is a gem that deserves more recognition.
+
+Beam search code is based on this [repository](https://github.com/githubharald/CTCDecoder) and his [blog](https://towardsdatascience.com/beam-search-decoding-in-ctc-trained-neural-networks-5a889a3d85a7). (Thanks [@githubharald](https://github.com/githubharald))
+
+Data synthesis is based on [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator). (Thanks [@Belval](https://github.com/Belval))
+
+And a good read about CTC from distill.pub [here](https://distill.pub/2017/ctc/).
+
+## Want To Contribute?
+
+Let's advance humanity together by making AI available to everyone!
+
+3 ways to contribute:
+
+**Coder:** Please send a PR for small bugs/improvements. For bigger ones, discuss with us by opening an issue first. There is a list of possible bug/improvement issues tagged with ['PR WELCOME'](https://github.com/JaidedAI/EasyOCR/issues?q=is%3Aissue+is%3Aopen+label%3A%22PR+WELCOME%22).
+
+**User:** Tell us how EasyOCR benefits you/your organization to encourage further development. Also post failure cases in [Issue  Section](https://github.com/JaidedAI/EasyOCR/issues) to help improve future models.
+
+**Tech leader/Guru:** If you found this library useful, please spread the word! (See [Yann Lecun's post](https://www.facebook.com/yann.lecun/posts/10157018122787143) about EasyOCR)
+
+## Guideline for new language request
+
+To request a new language, we need you to send a PR with the 2 following files:
+
+1. In folder [easyocr/character](https://github.com/JaidedAI/EasyOCR/tree/master/easyocr/character),
+we need 'yourlanguagecode_char.txt' that contains list of all characters. Please see format examples from other files in that folder.
+2. In folder [easyocr/dict](https://github.com/JaidedAI/EasyOCR/tree/master/easyocr/dict),
+we need 'yourlanguagecode.txt' that contains list of words in your language.
+On average, we have ~30000 words per language with more than 50000 words for more popular ones.
+More is better in this file.
+
+If your language has unique elements (such as 1. Arabic: characters change form when attached to each other + write from right to left 2. Thai: Some characters need to be above the line and some below), please educate us to the best of your ability and/or give useful links. It is important to take care of the detail to achieve a system that really works.
+
+Lastly, please understand that our priority will have to go to popular languages or sets of languages that share large portions of their characters with each other (also tell us if this is the case for your language). It takes us at least a week to develop a new model, so you may have to wait a while for the new model to be released.
+
+See [List of languages in development](https://github.com/JaidedAI/EasyOCR/issues/91)
+
+## Github Issues
+
+Due to limited resources, an issue older than 6 months will be automatically closed. Please open an issue again if it is critical.
+
+## Business Inquiries
+
+For Enterprise Support, [Jaided AI](https://www.jaided.ai/) offers full service for custom OCR/AI systems from implementation, training/finetuning and deployment. Click [here](https://www.jaided.ai/contactus?ref=github) to contact us.
