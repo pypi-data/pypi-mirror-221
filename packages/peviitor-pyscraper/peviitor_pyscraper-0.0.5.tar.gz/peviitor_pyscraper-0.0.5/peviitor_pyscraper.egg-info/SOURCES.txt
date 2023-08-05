@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+peviitor_pyscraper.egg-info/PKG-INFO
+peviitor_pyscraper.egg-info/SOURCES.txt
+peviitor_pyscraper.egg-info/dependency_links.txt
+peviitor_pyscraper.egg-info/requires.txt
+peviitor_pyscraper.egg-info/top_level.txt
+scraper/Scraper.py
+scraper/__init__.py
