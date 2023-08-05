@@ -1,0 +1,6 @@
+
+[:python_version >= "3.6"]
+urllib3>=1.26.16
+
+[dev]
+pip-tools
