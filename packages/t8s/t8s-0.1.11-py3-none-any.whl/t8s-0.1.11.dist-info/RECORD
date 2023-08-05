@@ -1,0 +1,12 @@
+t8s/__about__.py,sha256=_oS3QRQ9gtdyTFXYsh-jNslg0_1idh0camaKzZrRL04,142
+t8s/__init__.py,sha256=N0BjWCgrf89UuLU6KlM_1hOvKEnxA_ed-WviAU_jYSw,1857
+t8s/io.py,sha256=Tlnknec3glwCjO1iLZzWDBgKFvxFjBO1gTEGSYiWJhQ,18302
+t8s/log_config.py,sha256=IHRvczTriKvjLE-Y9Qikhdjq8GvcATx7nHlfjz5N2Do,1929
+t8s/ts.py,sha256=VVTg6bO9zPzxwAXqNPTqBn6IVT0B8j87a00_LJMiol8,13089
+t8s/ts_builder.py,sha256=4Y75bclCayIhFNNVX0VYpwqn5scR3r8Nk410fkD7DEs,6246
+t8s/ts_writer.py,sha256=Xk58T2OZMDnrpq4GAhPmx3AYSyvSroq0QEUnqx0wfO4,4694
+t8s/util.py,sha256=r9wFHs-RnE8nvc07cUc93zirv3IMnjpq-V8_ALPNa8U,625
+t8s-0.1.11.dist-info/METADATA,sha256=3RQ6V3YzEZxHaq9-Y7D5SaQynUP1jJ6-Kvqd3OLIBRs,2705
+t8s-0.1.11.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+t8s-0.1.11.dist-info/licenses/LICENSE.txt,sha256=gmIGpxfy2mppSp_p-sXh9yurWoV2dN-MXP5iMgtTfqA,1111
+t8s-0.1.11.dist-info/RECORD,,
