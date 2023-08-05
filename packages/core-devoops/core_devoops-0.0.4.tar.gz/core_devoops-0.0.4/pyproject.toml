@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "core-devoops"
+version = "0.0.4"
+description = "Low level sqlmodel/fastapi/pydantic building blocks"
+authors = ["Thomas Epelbaum <tomepel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "~0"
+pandas = "~2"
+sqlmodel = "~0"
+numpy = "~1"
+pydantic = {version = "~1", extras = ["python-dotenv"]}
+python-jose = {version = "~3", extras = ["cryptography"]}
+passlib = {version = "~1", extras = ["bcyrypt"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
