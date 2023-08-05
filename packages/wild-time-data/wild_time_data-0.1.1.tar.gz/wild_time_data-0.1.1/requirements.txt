@@ -1,0 +1,4 @@
+gdown
+h5py
+torch
+torchvision
