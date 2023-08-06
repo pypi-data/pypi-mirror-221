@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: atzlib
+Version: 0.0.1
+Summary: Bunch of small python tools.
+Home-page: https://github.com/xinagand/atzlib.git
+Author: jhlee29
+Author-email: leejinha829@gmail.com
+Keywords: jhlee29,python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+
