@@ -1,0 +1,11 @@
+tcman/__init__.py,sha256=kPsybezfM9TVIZmCIsonCyvcqvZlLfbpn0-D4A1MrbI,425
+tcman/base.py,sha256=LkfKl5sh_leJhKa_l1GYNezC_Z8CemEZ1HaiEF4UVhw,8343
+tcman/logger.py,sha256=6un62T3pVESS8BVOFyaZhHW5x69BvtBl-laJz58_Qt8,361
+tcman/roundrobin.py,sha256=Njhv5VRPvArd5N5qPWCVyTySFQd2Vl6IY5u8QuuJ3R4,1143
+tcman/path_builders/custom.py,sha256=4NvL0u0bwOtyd3Pfb5pRi0I2P40jIowAWzc3U9OciU4,956
+tcman/path_builders/promiscuous.py,sha256=NaSvePev5drf_dvPUyWwycWeoAzn5UaUG6uMmx1Euzs,3850
+tcman-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+tcman-0.0.1.dist-info/METADATA,sha256=EEwqN1tN0Cid2TSPAF6VLI1P4OVr1qGq65B3m8G5vaQ,1440
+tcman-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tcman-0.0.1.dist-info/top_level.txt,sha256=WSP4mzrIQEQZYbU1KNj7XI8sinDdpBM7cmnVGmOZFIA,26
+tcman-0.0.1.dist-info/RECORD,,
