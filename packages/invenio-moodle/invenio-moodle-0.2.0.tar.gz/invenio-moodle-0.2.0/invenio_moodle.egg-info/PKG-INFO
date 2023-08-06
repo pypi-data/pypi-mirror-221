@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: invenio-moodle
+Version: 0.2.0
+Summary: "Provides API for Moodle."
+Home-page: https://github.com/tu-graz-library/invenio-moodle
+Author: "Graz University of Technology"
+Author-email: info@tugraz.at
+License: MIT
+Description: ..
+            Copyright (C) 2022 Graz University of Technology.
+        
+            invenio-moodle is free software; you can redistribute it and/or
+            modify it under the terms of the MIT License; see LICENSE file for more
+            details.
+        
+        ===============
+         invenio-moodle
+        ===============
+        
+        .. image:: https://github.com/tu-graz-library/invenio-moodle/workflows/CI/badge.svg
+                :target: https://github.com/tu-graz-library/invenio-moodle/actions?query=workflow%3ACI
+        
+        .. image:: https://img.shields.io/github/tag/tu-graz-library/invenio-moodle.svg
+                :target: https://github.com/tu-graz-library/invenio-moodle/releases
+        
+        .. image:: https://img.shields.io/pypi/dm/invenio-moodle.svg
+                :target: https://pypi.python.org/pypi/invenio-moodle
+        
+        .. image:: https://img.shields.io/github/license/tu-graz-library/invenio-moodle.svg
+                :target: https://github.com/tu-graz-library/invenio-moodle/blob/master/LICENSE
+        
+        Provides API for Moodle.
+        
+        Further documentation is available on
+        https://invenio-moodle.readthedocs.io/
+        
+        ..
+            Copyright (C) 2022 Graz University of Technology.
+        
+            invenio-moodle is free software; you can redistribute it and/or
+            modify it under the terms of the MIT License; see LICENSE file for more
+            details.
+        
+        Changes
+        =======
+        
+        Version v0.2.0 (release 2023-07-25)
+        
+        
+        
+        
+Keywords: invenio_moodle invenio moodle teachcenter
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Provides-Extra: tests
