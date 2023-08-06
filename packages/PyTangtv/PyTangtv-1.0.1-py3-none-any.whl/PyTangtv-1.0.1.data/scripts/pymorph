@@ -1,0 +1,1125 @@
+#!python
+#
+
+import sys  # nopep8 
+import os   # nopep8
+import time  # nopep8
+try:
+    from pathlib import Path
+except:
+    from pathlib2 import Path
+import json
+import yaml
+import numpy as np
+from scipy import spatial
+from pytangtv.pymorph import morphimage as mi
+from pytangtv.pymorph import controls
+from pytangtv.pymorph import menu
+import getopt
+from math import *
+import pytangtv
+from pytangtv.pymorph.bytescale import bytescale
+from pytangtv.check4updates import check4updates
+from scipy.io import readsav
+try:
+   from Tkinter import *
+   import tkMessageBox as mbox
+   import ttk
+   from tkFileDialog import askopenfilename
+except:
+   from tkinter import *
+   from tkinter import messagebox as mbox
+   from tkinter import ttk
+   from tkinter.filedialog import askopenfilename
+#
+import requests
+from io import BytesIO
+
+from idlelib.tooltip import Hovertip
+from pkg_resources import get_distribution, DistributionNotFound
+try:
+    _dist = get_distribution('PyTangtv')
+except DistributionNotFound:
+    _version = 'Not installed with setup.py/pip'
+else:
+    _version = _dist.version
+
+def polar2z(r,theta):
+    return r * np.exp( 1j * theta )
+
+def z2polar(z):
+    return ( np.abs(z), np.angle(z) )
+
+try:
+    from PIL import ImageTk, ImageDraw
+    from PIL import ImageChops
+    from PIL import Image as pImage
+    from PIL import ImageEnhance
+    from PIL import ImageOps
+    from PIL import ImageFilter
+    from PIL import Image as pImage
+except:
+    import Image as pImage
+    import ImageTk
+    import ImageDraw
+    import ImageChops
+    import ImageEnhance
+    import ImageOps
+    import ImageFilter
+    import Image as pImage
+
+thisfile = os.path.realpath(pytangtv.__file__)
+thispath = os.path.dirname(thisfile)
+bitmaps = thispath+'/bitmaps'
+
+
+spawned = False
+w = 0
+h = 0
+s = 1.0
+winx = 640
+winy = 860
+morph = False
+jopts = []
+
+try:
+    yconffile = str(Path.home())+'/.pymorph.yaml'
+    jconffile = str(Path.home())+'/.pymorph.json'
+    if os.path.exists(yconffile):
+       with open(yconffile, 'r') as f:
+          jopts = yaml.safe_load(f)
+    elif os.path.exists(jconffile):
+       with open(jconffile, 'r') as f:
+          jopts = json.load(f)
+    else:
+       raise
+    defaults = jopts['*']['window']
+    if 'windowx' in defaults:
+        winx = defaults['windowx']
+    if 'windowy' in defaults:
+        winy = defaults['windowy']
+    if 'scale' in defaults:
+        s = defaults['scale']
+    if 'height' in defaults:
+        h = defaults['height']
+    if 'width' in defaults:
+        w = defaults['width']
+except:
+    print("Problem reading pymorph conf file")
+    pass
+
+comdiag = 'None'
+diag = {}
+
+options = ['width=', 'height=', 'scale=',
+    'spawn', 'winx=', 'winy=', 'diag=', 'version']
+optlist, args = getopt.getopt(sys.argv[1:], 'vult:w:h:s:', options)
+optdict = {}
+sys.stderr.write("\n")
+for o in optlist:
+    optdict.update({o[0]: o[1]})
+if '-w' in optdict:
+    w = int(optdict['-w'])
+if '--width' in optdict:
+    w = int(optdict['--width'])
+if '-s' in optdict:
+    s = float(optdict['-s'])
+if '-v' in optdict:
+    print("Version : ", _version)
+    sys.exit(0)
+if '--version' in optdict:
+    print("Version : ", _version)
+    sys.exit(0)
+if '--scale' in optdict:
+    s = float(optdict['--scale'])
+if '-h' in optdict:
+    h = int(optdict['-h'])
+if '--height' in optdict:
+    h = int(optdict['--height'])
+if '--spawn' in optdict:
+    spawned = True
+if '--winx' in optdict:
+    winx = int(optdict['--winx'])
+if '--winy' in optdict:
+    winy = int(optdict['--winy'])
+if '--diag' in optdict:
+    comdiag = optdict['--diag']
+
+    if optdict['--diag'] in jopts:
+        diag = jopts[optdict['--diag']]
+        if 'window' in diag:
+            defaults = diag['window']
+            if 'windowx' in defaults:
+                winx = defaults['windowx']
+            if 'windowy' in defaults:
+                winy = defaults['windowy']
+            if 'scale' in defaults:
+                s = defaults['scale']
+            if 'height' in defaults:
+                h = defaults['height']
+            if 'width' in defaults:
+                w = defaults['width']
+if comdiag == 'test':
+    diag = {'comment': 'Test diagnostic', 
+          'window': {'scale': 1.0, 'height': 600, 'width': 800, 'windowy': 600, 'windowx': 800}, 
+           'image': {'dims': [240, 720], 'transpose': 0, 'hflip': 0, 'vflip': 0}}
+    defaults = diag['window']
+    winx = defaults['windowx']
+    winy = defaults['windowy']
+    s = defaults['scale']
+    h = defaults['height']
+    w = defaults['width']
+    
+if 'mdsplus' in diag:
+    mdsargs=diag['mdsplus']
+else:
+    mdsargs = {}
+if 'savefile' in diag:
+    savefileargs=diag['savefile']
+else:
+    savefileargs = {}
+if 'image' in diag:
+    imageargs=diag['image']
+else:
+    imageargs = {}
+if 'comment' in diag:
+    comment = diag['comment']
+else:
+    comment = None
+
+#
+# an image viewer
+
+
+class Images():
+    def __init__(self, im=None, s=1.0,ui=None):
+        self.imageargs = imageargs 
+        self.mdsargs = mdsargs 
+        self.buimage=im
+        self.video=False
+        self.viddata=None
+        self.vidind=-1
+        self.vidnum=0
+        self.W, self.H=self.buimage.size
+        self.xS=s
+        self.yS=s
+        self.ui = ui
+        self.reset()
+
+    def sharp(self):
+        d = ImageEnhance.Sharpness(self.image)
+        self.image = d.enhance(2.0)
+        self.dirty = True
+
+    def blur(self):
+        d = ImageEnhance.Sharpness(self.image)
+        self.image = d.enhance(0.0)
+        self.dirty = True
+
+    def med3(self):
+        self.image = self.image.filter(ImageFilter.MedianFilter(3))
+        self.dirty = True
+
+    def med5(self):
+        self.image = self.image.filter(ImageFilter.MedianFilter(5))
+        self.dirty = True
+
+    def med7(self):
+        self.image = self.image.filter(ImageFilter.MedianFilter(7))
+        self.dirty = True
+
+    def autoc(self):
+        self.image = ImageOps.autocontrast(self.image)
+        self.dirty = True
+
+    def equalize(self):
+        self.image = ImageOps.equalize(self.image)
+        self.dirty = True
+
+    def edge(self):
+        self.image = self.image.filter(ImageFilter.FIND_EDGES)
+        self.dirty = True
+
+    def dovflip(self):
+        self.vflip = not self.vflip
+        self.dirty = True
+
+    def dohflip(self):
+        self.hflip = not self.hflip
+        self.dirty = True
+
+    def dotranspose(self):
+        self.transpose = not self.transpose
+        self.dirty = True
+
+    def load_data_from_savefile(self, sfilename,varname='viddata',savefiledata={}):
+        self.video=True
+        self.dirty=True
+        sf=readsav(sfilename)
+        if 'varname' in savefiledata:
+            varname=savefiledata['varname']
+        self.viddata=sf[varname]
+        self.cmin = self.viddata.min()
+        self.cmax = self.viddata.max()
+        self.vidind=0
+        self.vidnum=self.viddata.shape[0]
+        self.ui.dlabel.set('Frame(%d)' % (self.vidnum,))
+        self.reset()
+
+    def load_data_from_mdsplus(self, shot=None):
+        import MDSplus as mds
+        if 'data' in self.mdsargs and 'mdsserver' in self.mdsargs['data']:
+            mdsserver=mds.Connection(self.mdsargs['data']['mdsserver'])
+            if shot != None:
+                tree=mdsserver.openTree(self.mdsargs['data']['mdstree'], shot)
+                self.viddata=np.array(mdsserver.get(self.mdsargs['data']['node']))
+                self.cmin = self.viddata.min()
+                self.cmax = self.viddata.max()
+                try:
+                   if 'dims' in self.imageargs:
+                      dims=self.imageargs['dims']
+                      self.vidnum=int(self.viddata.size / (dims[0]*dims[1]))
+                      self.viddata=self.viddata.reshape(
+                          [self.vidnum, dims[0], dims[1]])
+                   else:
+                      self.viddata=self.viddata.reshape(
+                          self.viddata.shape[::-1])
+                      self.vidnum=self.viddata.shape[0]
+                except:
+                   print("Could not reshape array: ", self.viddata.shape)
+                self.vidind=0
+                self.video=True
+            else:
+                print("No shot specified")
+            mdsserver.disconnect()
+            self.reset()
+            self.ui.dlabel.set('Frame(%d)' % (self.vidnum,))
+        else:
+            print("No MDSPlus server")
+    def loadimage(self,ifilename=None):
+        self.video=False
+        if ifilename == None:
+           ifilename = str(askopenfilename(filetypes=[("tiff", ".tif .tiff"),
+                                              ("png", "*.png"),
+                                              ("jpg", "*.jpg"),
+                                              ("allfiles", "*")]))
+           if ifilename != None:
+               #self.buimage = pImage.open(ifilename).convert('L').resize(
+               #    (self.W, self.H), pImage.Resampling.LANCZOS)
+               self.buimage = pImage.open(ifilename).convert('L')
+               self.reset()
+    def framechange(self):
+        if self.video and self.dirty:
+           if self.vidind < 0:
+               self.vidind=0
+           elif self.vidind >= self.vidnum:
+               self.vidind=self.vidnum - 1
+           if self.vidnum >= 0:
+               self.ui.frentry.delete(0, END)
+               self.ui.frentry.insert(0, "%d" % self.vidind)
+               i=np.asarray(self.viddata[self.vidind, :, :],dtype=np.float32)
+               self.image=pImage.fromarray(bytescale(i, cmin=int(self.cmin),cmax=int(self.cmax)))
+        
+    def update(self):
+        self.dirty=False
+        i=np.asarray(self.image, dtype=np.float32)
+        if self.transpose:
+            i=i.T
+        if self.vflip:
+            i=np.flipud(i)
+        if self.hflip:
+            i=np.fliplr(i)
+
+        self.dimage=pImage.fromarray(bytescale(i, cmin=int(self.cmin),cmax=int(self.cmax)))
+
+    def reset(self):
+        self.dimage = self.buimage
+        self.image = self.buimage
+        self.dirty = True
+        if self.video:
+            self.framechange()
+        if 'transpose' in imageargs and imageargs['transpose'] == 1:
+             self.transpose = True
+        else:
+             self.transpose = False
+        if 'vflip' in imageargs and imageargs['vflip'] == 1:
+             self.vflip = True
+        else:
+             self.vflip = False
+        if 'hflip' in imageargs and imageargs['hflip'] == 1:
+             self.hflip = True
+        else:
+             self.hflip = False
+        self.cmin = 0
+        self.cmax = 255
+
+class UI(Frame):
+
+    def __init__(self, master, im, s=1.0, winx=800, winy=600):
+        self.winx=winx
+        self.winy=winy
+        Frame.__init__(self, master, width=self.winx, height=self.winy)
+        self.pack(side=RIGHT, fill=BOTH, expand=TRUE)
+        self.window=master
+        self.parent=master
+        self.fimage=Images(im, s=s,ui=self)
+        self.bgimage=Images(im, s=s,ui=self)
+        self.mode=1
+        self.degree=1
+        self.warpdirection=1
+        self.warptype=1
+        self.draw=ImageDraw.Draw(self.fimage.dimage)
+        self.bitmap=ImageTk.PhotoImage(im)
+        if self.fimage.W > self.winx or self.fimage.H > self.winy:
+            # self.frame = Frame(self,width=self.winx, height=self.winy)
+            # self.frame.grid(row=0,column=0)
+            self.canvas=Canvas(
+                self, width=self.winx, height=self.winy, scrollregion=(0, 0, self.fimage.W, self.fimage.H), cursor="crosshair")
+            self.canvas.bind("<Button-1>", self.mark)
+            self.canvas.bind("<B1-Motion>", self.motion)
+            self.canvas.bind("<ButtonRelease-1>", self.relpick)
+            self.canvas.bind("<Button-2>", self.remmark)
+            self.canvas.bind("<Button-3>", self.mark)
+            self.canvas.bind("<MouseWheel>", self.mouse_wheel)
+            self.canvas.bind("<Button-4>", self.mouse_wheel)
+            self.canvas.bind("<Button-5>", self.mouse_wheel)
+            self.hbar=Scrollbar(self, orient=HORIZONTAL,
+                                  command=self.scrollx)
+            self.hbar.pack(side=TOP, fill=X)
+            self.vbar=Scrollbar(self, orient=VERTICAL)
+            self.vbar.pack(side=LEFT, fill=Y)
+            self.vbar.config(command=self.scrolly)
+            self.canvas.config(xscrollcommand=self.hbar.set,
+                               yscrollcommand=self.vbar.set)
+            self.canvas.create_image(0, 0, anchor=NW, image=self.bitmap)
+            self.canvas.pack(side=LEFT, expand=True, fill=BOTH)
+        else:
+            self.canvas=Canvas(self, width=self.fimage.W,
+                                 height=self.fimage.H, cursor="crosshair")
+            self.canvas.bind("<Button-1>", self.mark)
+            self.canvas.bind("<B1-Motion>", self.motion)
+            self.canvas.bind("<ButtonRelease-1>", self.relpick)
+            self.canvas.bind("<Button-2>", self.remmark)
+            self.canvas.bind("<Button-3>", self.mark)
+            self.canvas.bind("<MouseWheel>", self.mouse_wheel)
+            self.canvas.bind("<Button-4>", self.mouse_wheel)
+            self.canvas.bind("<Button-5>", self.mouse_wheel)
+            self.canvas.create_image(0, 0, anchor=NW, image=self.bitmap)
+            self.canvas.pack()
+            self.hbar=None
+            self.vbar=None
+        self.bg=None
+        self.hstep=5
+        self.hpos=0
+        self.vstep=5
+        self.vpos=0
+        self.rstep=1
+        self.spawned=spawned
+        self.rot=0
+        self.bl=0
+        self.wmarks=[]
+        self.bmarks=[]
+        self.xi=[]
+        self.yi=[]
+        self.xo=[]
+        self.yo=[]
+        self.mdswarp={}
+        self.mdsdata={}
+        self.savefiledata={}
+        self.savefilewarp={}
+        self.realdirty = True     
+
+
+    def load_warp_from_mdsplus(self, shot=None):
+        import MDSplus as mds
+        if 'mdsserver' in self.mdsargs:
+            mdsserver=mds.Connection(self.mdsargs['mdsserver'])
+            if shot != None:
+                tree=mdsserver.openTree(self.mdsargs['mdstree'], shot)
+                self.xi=mdsserver.get(self.mdsargs['Xi']) * self.imscale
+                self.xo=mdsserver.get(self.mdsargs['Xo']) * self.imscale
+                self.yi=mdsserver.get(self.mdsargs['Yi']) * self.imscale
+                self.yo=mdsserver.get(self.mdsargs['Yo']) * self.imscale
+                if 'vflip' in self.mdsargs and self.mdsargs['vflip'] == 1:
+                    self.yi=h - 1 - self.yi
+                    self.yo=h - 1 - self.yo
+                if 'hflip' in self.mdsargs and self.mdsargs['vflip'] == 1:
+                    self.xi=w - 1 - self.xi
+                    self.xo=w - 1 - self.xo
+                self.wmarks=np.transpose((self.xi, self.yi)).tolist()
+                self.bmarks=np.transpose((self.xo, self.yo)).tolist()
+                if 'xshift' in self.mdsargs:
+                    xshift=mdsserver.get(self.mdsargs['xshift'])
+                if 'yshift' in self.mdsargs:
+                    yshift=mdsserver.get(self.mdsargs['yshift'])
+                if 'rotation' in self.mdsargs:
+                    rshift=mdsserver.get(self.mdsargs['rotation'])
+                if 'degree' in self.mdsargs:
+                    self.degree=mdsserver.get(self.mdsargs['degree'])
+                    degree.set(self.degree)
+                if 'rendering' in self.mdsargs:
+                    i=np.array(mdsserver.get(self.mdsargs['rendering']))
+                    #self.fimage=Images(pImage.fromarray(
+                    #    bytescale(i)).resize((self.fimage.W, self.fimage.H)),ui=self)
+                    self.fimage=Images(pImage.fromarray(
+                        bytescale(i)),ui=self)
+                    if 'transpose' in self.mdsargs:
+                        self.fimage.transpose = True
+                    if 'vflip' in self.mdsargs and self.mdsargs['vflip'] == 1:
+                        self.fimage.vflip=True
+                    if 'hflip' in self.mdsargs and self.mdsargs['hflip'] == 1:
+                        self.fimage.hflip=True
+                    self.fimage.update()
+                    #self.fimage=pImage.fromarray(
+                    #    bytescale(self.fimage.dimage)).resize((self.fimage.W, self.fimage.H))
+                    self.fimage=pImage.fromarray(
+                        bytescale(self.fimage.dimage))
+            else:
+                print("No shot specified")
+            mdsserver.disconnect()
+            self.refresh()
+        else:
+            print("No MDSPlus server")
+        self.realdirty = True     
+
+    def mouse_wheel(self, event):
+        if event.state == 4:  # control key down
+              self.fimage.vidind=self.fimage.vidind + 1
+              self.bgimage.vidind=self.bgimage.vidind + 1
+        elif event.state == 8:  # alt/command key down
+              self.fimage.vidind=self.fimage.vidind - 1
+              self.bgimage.vidind=self.bgimage.vidind - 1
+        else:
+           self.fimage.vidind=self.fimage.vidind + event.delta
+           self.bgimage.vidind=self.bgimage.vidind + event.delta
+
+        self.fimage.update()
+        self.bgimage.update()
+
+    def range_update(self,event):
+        self.refresh()
+
+    def frame_update(self, event):
+        self.fimage.vidind=int(self.frentry.get())
+        self.bgimage.vidind=int(self.frentry.get())
+        self.fimage.dirty = True
+        self.bgimage.dirty = True
+        self.fimage.framechange()
+        self.update()
+
+    def frinc(self):
+        self.fimage.vidind=self.fimage.vidind+1
+        self.bgimage.vidind=self.bgimage.vidind+1
+        self.fimage.dirty = True
+        self.bgimage.dirty = True
+        self.fimage.framechange()
+        self.bgimage.framechange()
+        self.update()
+
+    def frdec(self):
+        self.fimage.vidind=self.fimage.vidind-1
+        self.bgimage.vidind=self.bgimage.vidind-1
+        self.fimage.dirty = True
+        self.bgimage.dirty = True
+        self.fimage.framechange()
+        self.bgimage.framechange()
+        self.update()
+
+
+    def update(self):
+        self.refresh()
+
+    def mapx(self, event):
+        if self.hbar != None:
+            f=self.hbar.get()
+            lx=f[0] * self.fimage.W
+            rx=f[1] * self.fimage.W
+            return(int(lx + event.x - 1))
+        else:
+            return(event.x)
+
+    def mapy(self, event):
+        if self.vbar != None:
+            f=self.vbar.get()
+            ly=f[0] * self.fimage.H
+            ry=f[1] * self.fimage.H
+            return(int(ly + event.y - 1))
+        else:
+            return(event.y)
+
+    def selmode(self):
+        global mode
+        self.mode=int(mode.get())
+        self.realdirty = True     
+        self.refresh()
+
+    def seldirection(self):
+        global direction
+        self.warpdirection=int(direction.get())
+        self.realdirty = True     
+        self.refresh()
+
+    def seldeg(self):
+        global degree
+        self.degree=degree.get()
+        if morph and len(self.bmarks) < (self.degree+1)**2:
+            self.morphbut.config(relief="sunken", image=add)
+        elif morph:
+            self.morphbut.config(relief="sunken", image=on)
+        self.realdirty = True     
+        self.refresh()
+
+    def relpick(self, event):
+        cx=self.mapx(event)
+        cy=self.mapy(event)
+        self.realdirty = True     
+        self.degree=int(degree.get())
+        if self.mode == 1:  # add
+            self.bmarks.append([cx, cy])
+        elif self.mode == 2:  # edit
+            self.bmarks[self.editind][0]=cx
+            self.bmarks[self.editind][1]=cy
+        elif self.mode == 3:  # delete
+            # nothing to do for delete
+            pass
+        if len(self.wmarks) > 0:
+            self.xi=np.array(self.wmarks)[:, 0]
+            self.yi=np.array(self.wmarks)[:, 1]
+            self.xo=np.array(self.bmarks)[:, 0]
+            self.yo=np.array(self.bmarks)[:, 1]
+
+        self.realdirty = True     
+        self.refresh()
+
+    def scrollx(self, event, step, what=None):
+        if event == "moveto":
+            self.canvas.xview(event, step)
+        if event == "scroll":
+            self.canvas.xview(event, step, what)
+
+    def scrolly(self, event, step, what=None):
+        if event == "moveto":
+            self.canvas.yview(event, step)
+        if event == "scroll":
+            self.canvas.yview(event, step, what)
+
+    def motion(self, event):
+        self.realdirty = True     
+        if self.line != None:
+            self.canvas.delete(self.line)
+        self.x2=self.mapx(event)
+        self.y2=self.mapy(event)
+        self.line=self.canvas.create_line(
+            self.x1, self.y1, self.x2, self.y2, fill='white')
+
+    def mark(self, event):
+        self.realdirty = True     
+        self.line=None
+        cx=self.mapx(event)
+        cy=self.mapy(event)
+        self.realdirty = True     
+        if len(self.bmarks) >= (self.degree+1)**2:
+            self.xi=np.array(self.wmarks)[:, 0]
+            self.yi=np.array(self.wmarks)[:, 1]
+            self.xo=np.array(self.bmarks)[:, 0]
+            self.yo=np.array(self.bmarks)[:, 1]
+            self.kx, self.ky=mi.polywarp(
+                self.xi, self.yi, self.xo, self.yo, degree=self.degree)
+            self.rkx, self.rky=mi.polywarp(
+                self.xo, self.yo, self.xi, self.yi, degree=self.degree)
+        if morph and self.warpdirection == 1 and len(self.bmarks) >= (self.degree+1)**2:
+            cx, cy=mi.poly_pt(cx, cy, self.kx, self.ky)
+        if morph and self.warpdirection == 2 and len(self.bmarks) >= (self.degree+1)**2:
+            cx, cy=mi.poly_pt(cx, cy, self.kx, self.ky)
+        self.x1=cx
+        self.y1=cy
+        if self.mode == 1:  # add mode
+            self.wmarks.append([cx, cy])
+        elif self.mode == 2:  # edit mode
+            tree=spatial.cKDTree(list(zip(self.xi, self.yi)))
+            pt=[cx, cy]
+            d, i=tree.query(pt, k=1)
+            self.editind=i
+            self.wmarks[i][0]=cx
+            self.wmarks[i][1]=cy
+        elif self.mode == 3:  # delete mode
+            tree=spatial.cKDTree(list(zip(self.xi, self.yi)))
+            pt=[cx, cy]
+            d, i=tree.query(pt, k=1)
+            self.editind=i
+            del self.wmarks[i]
+            del self.bmarks[i]
+
+        self.refresh()
+
+    def remmark(self, event):
+        self.realdirty = True     
+        self.wmarks=[]
+        self.bmarks=[]
+        self.kx=[]
+        self.ky=[]
+        self.rkx=[]
+        self.rky=[]
+        self.xi=[]
+        self.yi=[]
+        self.xo=[]
+        self.yo=[]
+        self.refresh()
+
+    def reset(self):
+        self.realdirty = True     
+        self.takestep(-self.hpos,-self.vpos)
+        self.takerot(-self.rot)
+        self.fimage.reset()
+        self.bgimage.reset()
+        self.refresh()
+
+    def takestep(self,hstep,vstep):
+        self.hpos=self.hpos + hstep
+        self.vpos=self.vpos + vstep
+        self.xi=self.xi + hstep
+        self.yi=self.yi + vstep
+        self.wmarks=np.transpose((self.xi, self.yi)).tolist()
+
+    def takerot(self,rot):
+        self.rot=self.rot + rot
+        _x = self.xi - self.fimage.W/2
+        _y = self.yi - self.fimage.H/2
+        _r = np.hypot(_x,_y)
+        _a = np.degrees(np.arctan2(_y,_x))
+        _a = np.add(_a,rot)
+        self.xi =  _r * np.cos(np.deg2rad(_a)) + self.fimage.W/2
+        self.yi =  _r * np.sin(np.deg2rad(_a)) + self.fimage.H/2
+        self.wmarks=np.transpose((self.xi, self.yi)).tolist()
+
+    def rightstep(self):
+        self.realdirty = True     
+        self.hstep=int(self.xstepentry.get())
+        self.takestep(self.hstep,0)
+        self.refresh()
+
+    def leftstep(self):
+        self.realdirty = True     
+        self.hstep=int(self.xstepentry.get())
+        self.takestep(-self.hstep,0)
+        self.refresh()
+
+    def downstep(self):
+        self.realdirty = True     
+        self.vstep=int(self.ystepentry.get())
+        self.takestep(0,self.vstep)
+        self.refresh()
+
+    def upstep(self):
+        self.realdirty = True     
+        self.vstep=int(self.ystepentry.get())
+        self.takestep(0,-self.vstep)
+        self.refresh()
+
+    def rotr(self):
+        self.realdirty = True     
+        self.rstep=float(self.rstepentry.get())
+        self.takerot(self.rstep)
+        self.refresh()
+
+    def rotl(self):
+        self.realdirty = True     
+        self.rstep=float(self.rstepentry.get())
+        self.takerot(-self.rstep)
+        self.refresh()
+
+    def showwarp(self):
+        fl=['{}' for item in self.xi]
+        s=','.join(fl)
+        mbox.showinfo("Current Control Points",
+                      "Xi=["+s.format(*self.xi)+"]\n" +
+                      "Yi=["+s.format(*self.yi)+"]\n" +
+                      "Xo=["+s.format(*self.xo)+"]\n" +
+                      "Yo=["+s.format(*self.yo)+"]")
+
+    def savewarpyaml(self, yfilename='warp.yaml'):
+        warp={}
+        warp['author']=os.getlogin()
+        warp['creation_date']=time.ctime()
+        if comment != None:
+            warp['diagnostic']=comment
+        warp['xi']=self.xi.tolist()
+        warp['yi']=self.yi.tolist()
+        warp['xo']=self.xo.tolist()
+        warp['yo']=self.yo.tolist()
+        warp['xshift']=0
+        warp['yshift']=0
+        warp['rotation']=0
+        warp['degree']=self.degree
+        warp['type']=self.warptype
+        warp['direction']=self.warpdirection
+        # with open(yfilename, 'w') as outfile:
+        #    yaml.dump(warp, outfile, indent=8)
+        with open(yfilename, 'w') as outfile:
+             outfile.write("# \n")
+             outfile.write("# Written by "+os.getlogin()+"\n")
+             outfile.write("# on  "+time.ctime()+"\n")
+             if comment != None:
+                outfile.write("# Diag:  "+comment+"\n")
+             outfile.write("# \n")
+             yaml.dump(warp, outfile,indent=4,default_flow_style=False)
+
+
+    def savewarpjson(self, jfilename='warp.json'):
+        warp={}
+        warp['author']=os.getlogin()
+        warp['creation_date']=time.ctime()
+        if comment != None:
+            warp['diagnostic']=comment
+        warp['xi']=self.xi.tolist()
+        warp['yi']=self.yi.tolist()
+        warp['xo']=self.xo.tolist()
+        warp['yo']=self.yo.tolist()
+        warp['xshift']=0
+        warp['yshift']=0
+        warp['rotation']=0
+        warp['degree']=self.degree
+        warp['type']=self.warptype
+        warp['direction']=self.warpdirection
+        with open(jfilename, 'w') as outfile:
+            json.dump(warp, outfile, indent=8)
+
+    def loadwarpyaml(self, yfilename='warp.yaml'):
+        self.realdirty = True     
+        with open(yfilename, 'r') as infile:
+            warp=yaml.safe_load(infile)
+        self.xi=np.array(warp['xi'])
+        self.yi=np.array(warp['yi'])
+        self.xo=np.array(warp['xo'])
+        self.yo=np.array(warp['yo'])
+        self.hpos=warp['xshift']
+        self.vpos=warp['yshift']
+        self.rot=warp['rotation']
+        self.degree=warp['degree']
+        self.wmarks=np.transpose((self.xi, self.yi)).tolist()
+        self.bmarks=np.transpose((self.xo, self.yo)).tolist()
+        if 'direction' in warp:
+            if warp['direction'] == 'forward':
+                self.warpdirection=1
+            elif warp['direction'] == 'reverse':
+                self.warpdirection=2
+            else:
+                self.warpdirection=0
+        else:
+            self.warpdirection=0
+        if 'type' in warp:
+            self.warptype=warp['type']
+        else:
+            self.warpversion=0
+        self.refresh()
+
+
+    def loadwarpjson(self, jfilename='warp.json'):
+        with open(jfilename, 'r') as infile:
+            warp=json.load(infile)
+        self.xi=np.array(warp['xi'])
+        self.yi=np.array(warp['yi'])
+        self.xo=np.array(warp['xo'])
+        self.yo=np.array(warp['yo'])
+        self.hpos=warp['xshift']
+        self.vpos=warp['yshift']
+        self.rot=warp['rotation']
+        self.degree=warp['degree']
+        self.wmarks=np.transpose((self.xi, self.yi)).tolist()
+        self.bmarks=np.transpose((self.xo, self.yo)).tolist()
+        if 'direction' in warp:
+            if warp['direction'] == 'forward':
+                self.warpdirection=1
+            elif warp['direction'] == 'reverse':
+                self.warpdirection=2
+            else:
+                self.warpdirection=0
+        else:
+            self.warpdirection=0
+        if 'type' in warp:
+            self.warptype=warp['type']
+        else:
+            self.warpversion=0
+        self.refresh()
+
+    def morphit(self):
+        global morph
+        self.realdirty = True     
+        if self.morphbut.config('relief')[-1] == 'sunken':
+            self.morphbut.config(relief="raised", image=off)
+            morph=False
+        else:
+            if len(self.bmarks) < (self.degree+1)**2:
+                self.morphbut.config(relief="sunken", image=add)
+            else:
+                self.morphbut.config(relief="sunken", image=on)
+            morph=True
+        self.refresh()
+
+    def refreshcb(self, val):
+        self.refresh()
+
+    def refresh(self):
+        self.fimage.cmin = int(self.bminentry.get())
+        self.fimage.cmax = int(self.bmaxentry.get())
+        self.bgimage.cmin = int(self.cminentry.get())
+        self.bgimage.cmax = int(self.cmaxentry.get())
+        self.fimage.update()
+        self.bgimage.update()
+        xoff=0
+        yoff=0
+        width, height=self.fimage.buimage.size
+        im1=pImage.new('L', (self.fimage.buimage.size[0], self.fimage.buimage.size[1]))
+        im1.paste(self.fimage.dimage, (0, 0))
+        if morph and self.warpdirection == 1:
+            if len(self.bmarks) >= (self.degree+1)**2:
+                self.morphbut.config(relief="sunken", image=on)
+                if self.realdirty:
+                    self.kx, self.ky=mi.polywarp(
+                        self.xi, self.yi, self.xo, self.yo, degree=self.degree)
+                    self.realdirty=False
+                self.mimage=pImage.fromarray(mi.poly_2d(
+                        np.asarray(im1), self.kx, self.ky)).convert('L')
+                im1=self.mimage
+            else:
+                self.morphbut.config(relief="sunken", image=add)
+
+        wsize=self.fimage.buimage.size[0]
+        hsize=self.fimage.buimage.size[1]
+        dimage=im1
+        self.im1=im1
+        s=self.scale.get()
+
+        if self.bgimage != None:
+            im2=pImage.new('L', (self.fimage.buimage.size[0], self.fimage.buimage.size[1]))
+            im2.paste(self.bgimage.dimage, (0, 0))
+            if morph and self.warpdirection == 2:
+                if len(self.bmarks) >= (self.degree+1)**2:
+                    self.morphbut.config(relief="sunken", image=on)
+                    if self.realdirty:
+                        self.kx, self.ky=mi.polywarp(
+                            self.xi, self.yi, self.xo, self.yo, degree=self.degree)
+                        self.realdirty=False
+                    self.mimage=pImage.fromarray(mi.poly_2d(
+                            np.asarray(im2), self.kx, self.ky)).convert('L')
+                    im2=self.mimage
+                else:
+                    self.morphbut.config(relief="sunken", image=add)
+            self.im2=im2
+            if self.bl == -1:
+                dimage=im2
+            elif self.bl == 0:
+                dimage=im1
+            elif self.bl == 1:
+                dimage=ImageChops.add(im1, im2)
+            elif self.bl == 2:
+                dimage=ImageChops.difference(im1, im2)
+            elif self.bl == 3:
+                dimage=ImageChops.darker(im1, im2)
+            elif self.bl == 4:
+                dimage=ImageChops.lighter(im1, im2)
+            elif self.bl == 5:
+                dimage=ImageChops.logical_and(
+                    im1.convert("1"), im2.convert("1"))
+            elif self.bl == 6:
+                dimage=ImageChops.logical_or(
+                    im1.convert("1"), im2.convert("1"))
+            elif self.bl == 7:
+                dimage=ImageChops.logical_xor(
+                    im1.convert("1"), im2.convert("1"))
+            elif self.bl == 8:
+                dimage=ImageChops.multiply(im1, im2)
+            elif self.bl == 9:
+                dimage=ImageChops.blend(im1, im2, s)
+
+        self.bitmap=ImageTk.PhotoImage(dimage)
+        self.simage=dimage
+        self.canvas.delete("all")
+        self.canvas.create_image(0, 0, anchor=NW, image=self.bitmap)
+        if self.mode != 99:
+            for m in self.wmarks:
+                self.canvas.create_oval(
+                    m[0]-3, m[1]-3, m[0]+3, m[1]+3, outline="red", fill='red')
+            for m in self.bmarks:
+                self.canvas.create_oval(
+                    m[0]-3, m[1]-3, m[0]+3, m[1]+3, outline="blue", fill='blue')
+
+#
+# script interface
+
+
+if __name__ == "__main__":
+
+    import sys
+
+    check4updates('https://pypi.org/pypi/pytangtv/json', thisver=_version)
+
+
+
+    root=Tk()
+    if comdiag == 'test':
+        root.title('Test diag')
+    else:
+        if len(args) == 0:
+            ifilename=askopenfilename(filetypes=[("tiff", ".tif .tiff"),
+                                               ("png", "*.png"),
+                                               ("allfiles", "*")])
+        else:
+            ifilename=args[0]
+
+        root.title(ifilename)
+    mymenu=menu.mymenu(root)
+
+    if comdiag == 'test':
+        iurl = 'https://github.com/llnl-fesp/PyTangtv/raw/main/testfiles/i.tiff'
+        response = requests.get(iurl)
+        im = pImage.open(BytesIO(response.content)).convert('L')
+        w, h=im.size
+        w=int(w * s)
+        h=int(h * s)
+    else: 
+        if s != 1:
+            im=pImage.open(ifilename).convert('L')
+            w, h=im.size
+            w=int(w * s)
+            h=int(h * s)
+            im=Image.open(ifilename).convert('L').resize(
+                (w, h), pImage.Resampling.LANCZOS)
+        elif w != 0:
+            im=pImage.open(ifilename).convert('L')
+            iw, ih=im.size
+            s=float(w) / float(iw)
+            im=pImage.open(ifilename).convert('L').resize(
+                (w, h), pImage.Resampling.LANCZOS)
+        else:
+            im=pImage.open(ifilename).convert('L')
+            w, h=im.size
+            s=1.0
+
+    frame=Frame(root)
+    frame.pack(expand=FALSE, fill=BOTH)
+    ui=UI(frame, im, s, winx=winx, winy=winy)
+    mymenu.addui(ui)
+    if comdiag == 'test':
+        burl = 'https://github.com/llnl-fesp/PyTangtv/raw/main/testfiles/bg.tiff'
+        response = requests.get(burl)
+        ui.bgimage = Images(pImage.open(BytesIO(response.content)).convert('L'),ui=ui)
+    else:
+        if len(args) > 1:
+            # ui.bgimage = pImage.open(args[1]).convert('L').resize((w, h), pImage.Resampling.LANCZOS)
+            ui.bgimage=Images(pImage.open(args[1]).convert('L'),ui=ui)
+
+    ui.imscale=s
+    controls.controls(frame, ui)
+    ttk.Separator(frame, orient='horizontal').pack(fill='x', side=TOP)
+    on=ImageTk.PhotoImage(file=bitmaps+'/morphon.png')
+    off=ImageTk.PhotoImage(file=bitmaps+'/morphoff.png')
+    add=ImageTk.PhotoImage(file=bitmaps+'/add.png')
+    ui.morphbut=Button(frame, width=100, text="Morph",
+                         relief="raised", command=ui.morphit, image=off)
+    ui.morphbut.pack(side=TOP)
+    frame2=Frame(frame)
+    frame2.pack(side=TOP)
+    degree=IntVar()
+    Label(frame2, text='Degree Poly').pack(side=LEFT)
+    R1=Radiobutton(frame2, text="1", variable=degree,
+                     value=1, command=ui.seldeg).pack(anchor=N)
+    R2=Radiobutton(frame2, text="2", variable=degree,
+                     value=2, command=ui.seldeg).pack(anchor=N)
+    R3=Radiobutton(frame2, text="3", variable=degree,
+                     value=3, command=ui.seldeg).pack(anchor=N)
+    degree.set(1)
+    frame2=Frame(frame)
+    frame2.pack(side=TOP)
+    frame3=Frame(frame2)
+    frame3.pack(side=LEFT)
+    frame4=Frame(frame2)
+    frame4.pack(side=LEFT)
+    mode=IntVar()
+    _l = Label(frame3, text='Mode')
+    _l.pack(side=TOP)
+    _m = """
+           Add, edit, delete, or hide
+           the control points used 
+           to solve for the morphing 
+           polynomial coeficients.
+           """
+    Hovertip(_l,_m)
+    R1=Radiobutton(frame3, text="add", variable=mode,
+                     value=1, command=ui.selmode).pack(anchor=N)
+    R2=Radiobutton(frame3, text="edit", variable=mode,
+                     value=2, command=ui.selmode).pack(anchor=N)
+    R3=Radiobutton(frame3, text="delete", variable=mode,
+                     value=3, command=ui.selmode).pack(anchor=N)
+    R99=Radiobutton(frame3, text="hide", variable=mode,
+                      value=99, command=ui.selmode).pack(anchor=N)
+    mode.set(1)
+    direction=IntVar()
+    _l = Label(frame4, text='Direction')
+    _l.pack(side=TOP)
+    _m = """
+           Determines which layer is morphed. 
+
+           forward - morph the foreground to match the background
+           reverse - morph the background to match the foreground
+           """
+    Hovertip(_l,_m)
+    R1=Radiobutton(frame4, text="forward", variable=direction,
+                     value=1, command=ui.seldirection).pack(anchor=N)
+    R2=Radiobutton(frame4, text="reverse", variable=direction,
+                     value=2, command=ui.seldirection).pack(anchor=N)
+    direction.set(1)
+
+
+
+    frame2=Frame(frame)
+    frame2.pack(side=TOP)
+    Label(frame2, text='Image range').pack(side=LEFT)
+    ui.bminentry=Entry(frame2, width=10)
+    ui.bminentry.pack(side=LEFT, padx=2, pady=2)
+    ui.bminentry.bind('<Key-Return>', ui.range_update)
+    ui.bmaxentry=Entry(frame2, width=10)
+    ui.bmaxentry.bind('<Key-Return>', ui.range_update)
+    ui.bmaxentry.pack(side=LEFT, padx=2, pady=2)
+    ui.bminentry.delete(0, END)
+    ui.bminentry.insert(0, "0")
+    ui.bmaxentry.delete(0, END)
+    ui.bmaxentry.insert(0, "255")
+    frame2=Frame(frame)
+    frame2.pack(side=TOP)
+    ui.dlabel=StringVar()
+    ui.dlabel.set('Frame(%d)' % (ui.fimage.vidnum,))
+    Label(frame2, textvariable=ui.dlabel).pack(side=LEFT)
+    ui.frentry=Entry(frame2, width=10)
+    ui.frentry.bind('<Key-Return>', ui.frame_update)
+    ui.frentry.insert(0, "0")
+    ui.frentry.pack(side=LEFT, padx=2, pady=2)
+    ui.frplus=Button(frame2, width=2, text="+", command=ui.frinc)
+    ui.frplus.pack(side=LEFT, padx=2, pady=2)
+    ui.frminus=Button(frame2, width=2, text="-", command=ui.frdec)
+    ui.frminus.pack(side=LEFT, padx=2, pady=2)
+    frame2=Frame(frame)
+    frame2.pack(side=TOP)
+    Label(frame2, text='BGImage range').pack(side=LEFT)
+    ui.cminentry=Entry(frame2, width=10)
+    ui.cminentry.pack(side=LEFT, padx=2, pady=2)
+    ui.cminentry.bind('<Key-Return>', ui.range_update)
+    ui.cmaxentry=Entry(frame2, width=10)
+    ui.cmaxentry.bind('<Key-Return>', ui.range_update)
+    ui.cmaxentry.pack(side=LEFT, padx=2, pady=2)
+    ui.cminentry.delete(0, END)
+    ui.cminentry.insert(0, "0")
+    ui.cmaxentry.delete(0, END)
+    ui.cmaxentry.insert(0, "255")
+    if 'data' in mdsargs:
+        ui.mdsdata=mdsargs['data']
+    if 'warp' in mdsargs:
+        ui.mdswarp=mdsargs['warp']
+    if 'data' in savefileargs:
+        ui.savefiledata=savefileargs['data']
+    if 'warp' in savefileargs:
+        ui.savefilewarp=savefileargs['warp']
+
+
+    ui.refresh()
+    root.mainloop()
