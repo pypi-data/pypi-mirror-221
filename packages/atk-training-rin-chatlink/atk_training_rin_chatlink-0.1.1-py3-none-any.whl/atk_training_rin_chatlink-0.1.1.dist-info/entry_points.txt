@@ -1,0 +1,3 @@
+[console_scripts]
+atk-training-rin-chatlink=atk_training_rin_chatlink.main:app
+

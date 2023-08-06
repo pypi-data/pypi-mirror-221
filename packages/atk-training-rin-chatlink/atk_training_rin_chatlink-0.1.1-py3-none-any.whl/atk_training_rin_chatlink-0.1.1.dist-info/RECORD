@@ -1,0 +1,9 @@
+atk_training_rin_chatlink/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atk_training_rin_chatlink/auth_commands.py,sha256=HkIynyz3HbHigkJD1S7q0EFlmVAOFNUxkvL3Cqptu2U,1483
+atk_training_rin_chatlink/client_secrets.json,sha256=3P9P6WcQLvlEYpDSJHCu4z2V74PYjsdGq-1eDYhM9iM,410
+atk_training_rin_chatlink/main.py,sha256=tJzmJapya2JAli9l6Hi5ZXJCDc-TfzlJXxMSunQ4Oqs,563
+atk_training_rin_chatlink/processing.py,sha256=KvoLw8dEUWynI4qB6pSp8BbG8T_xYMIX8T7yURec_OY,349
+atk_training_rin_chatlink-0.1.1.dist-info/METADATA,sha256=viYswFvdqVYPXn3eVsvrKFC6cc30fRa2hjFwSMUlHrw,1178
+atk_training_rin_chatlink-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+atk_training_rin_chatlink-0.1.1.dist-info/entry_points.txt,sha256=lppAVTqyz_RqjcsoYihxUosfnt1hEomvln9cqYTfyn0,80
+atk_training_rin_chatlink-0.1.1.dist-info/RECORD,,
