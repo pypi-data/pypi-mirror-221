@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: lava-optimization
+Version: 0.3.0
+Summary: A library of solvers that leverage neuromorphic hardware for constrained optimization. Lava-Optimization is part of Lava Framework. Lava-optimization is part of Lava Framework
+Home-page: https://lava-nc.org/
+License: (BSD-3-Clause)
+Keywords: neuromorphic,ai,artificial intelligence,neural models,spiking neural networks,deep learning,optimization
+Author: Intel's Neuromorphic Computing Lab and the open source community
+Author-email: lava@intel.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dsolve (>=0.0.5,<0.0.6)
+Requires-Dist: lava-nc (==0.8.0)
+Requires-Dist: nbformat (>=5.7.1,<6.0.0)
+Requires-Dist: networkx (<=2.8)
+Requires-Dist: numpy (>=1.24.4,<2.0.0)
+Requires-Dist: schema (>=0.7.5,<0.8.0)
+Requires-Dist: scikit-optimize (>=0.9.0,<0.10.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Project-URL: Discussions, https://github.com/lava-nc/lava-optimization/discussions
+Project-URL: Frequently Asked Questions, https://github.com/lava-nc/lava-optimization/wiki/Frequently-Asked-Questions-(FAQ)
+Project-URL: Issue and Bug Tracker, https://github.com/lava-nc/lava-optimization/issues
+Project-URL: Questions and Answers, https://github.com/lava-nc/lava-optimization/discussions/categories/q-a
+Project-URL: Repository, https://github.com/lava-nc/lava-optimization
