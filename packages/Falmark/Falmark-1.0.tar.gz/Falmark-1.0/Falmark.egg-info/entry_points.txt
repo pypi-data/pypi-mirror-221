@@ -1,0 +1,2 @@
+[console_scripts]
+Falmark = falmark4:main
