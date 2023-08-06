@@ -1,0 +1,9 @@
+biopython
+igraph
+networkx
+scipy
+numpy
+tqdm
+pandas
+hmmer
+click
