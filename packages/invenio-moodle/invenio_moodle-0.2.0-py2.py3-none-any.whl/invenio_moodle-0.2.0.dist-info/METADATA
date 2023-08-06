@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: invenio-moodle
+Version: 0.2.0
+Summary: "Provides API for Moodle."
+Home-page: https://github.com/tu-graz-library/invenio-moodle
+Author: "Graz University of Technology"
+Author-email: info@tugraz.at
+License: MIT
+Keywords: invenio_moodle invenio moodle teachcenter
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: click-params (>=0.4.0)
+Requires-Dist: invenio-records-lom (>=0.10.0)
+Provides-Extra: tests
+Requires-Dist: flask-babelex (>=0.9.4) ; extra == 'tests'
+Requires-Dist: flask-resources (<1.0.0) ; extra == 'tests'
+Requires-Dist: invenio-app (<2.0.0,>=1.3.3) ; extra == 'tests'
+Requires-Dist: invenio-cache (>=1.0.6) ; extra == 'tests'
+Requires-Dist: invenio-config-tugraz (>=0.11.0) ; extra == 'tests'
+Requires-Dist: invenio-db[postgresql,versioning] (<1.1.0,>=1.0.13) ; extra == 'tests'
+Requires-Dist: invenio-records-resources (<2.0.0) ; extra == 'tests'
+Requires-Dist: invenio-search[opensearch2] (>=2.2.0) ; extra == 'tests'
+Requires-Dist: pytest-black-ng (>=0.4.0) ; extra == 'tests'
+Requires-Dist: pytest-invenio (>=1.4.3) ; extra == 'tests'
+Requires-Dist: ruff (>=0.0.270) ; extra == 'tests'
+Requires-Dist: Sphinx (>=4.4.0) ; extra == 'tests'
+Requires-Dist: sphinx-autodoc-typehints (>=1.10.3) ; extra == 'tests'
+Requires-Dist: invenio-i18n (<2.0.0,>=1.0.0) ; extra == 'tests'
+Requires-Dist: invenio-records-resources (==1.0.9) ; extra == 'tests'
+Requires-Dist: invenio-communities (==4.1.2) ; extra == 'tests'
+Requires-Dist: invenio-administration (==1.0.6) ; extra == 'tests'
+Requires-Dist: invenio-vocabularies (==1.0.4) ; extra == 'tests'
+Requires-Dist: invenio-drafts-resources (==1.0.4) ; extra == 'tests'
+Requires-Dist: invenio-requests (==1.0.5) ; extra == 'tests'
+Requires-Dist: invenio-theme (==1.4.8) ; extra == 'tests'
+Requires-Dist: invenio-users-resources (==1.0.2) ; extra == 'tests'
+
+..
+    Copyright (C) 2022 Graz University of Technology.
+
+    invenio-moodle is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+===============
+ invenio-moodle
+===============
+
+.. image:: https://github.com/tu-graz-library/invenio-moodle/workflows/CI/badge.svg
+        :target: https://github.com/tu-graz-library/invenio-moodle/actions?query=workflow%3ACI
+
+.. image:: https://img.shields.io/github/tag/tu-graz-library/invenio-moodle.svg
+        :target: https://github.com/tu-graz-library/invenio-moodle/releases
+
+.. image:: https://img.shields.io/pypi/dm/invenio-moodle.svg
+        :target: https://pypi.python.org/pypi/invenio-moodle
+
+.. image:: https://img.shields.io/github/license/tu-graz-library/invenio-moodle.svg
+        :target: https://github.com/tu-graz-library/invenio-moodle/blob/master/LICENSE
+
+Provides API for Moodle.
+
+Further documentation is available on
+https://invenio-moodle.readthedocs.io/
+
+..
+    Copyright (C) 2022 Graz University of Technology.
+
+    invenio-moodle is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+Changes
+=======
+
+Version v0.2.0 (release 2023-07-25)
+
+
+
+
+
