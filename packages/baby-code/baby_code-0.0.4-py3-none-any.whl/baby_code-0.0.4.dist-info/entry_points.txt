@@ -1,0 +1,2 @@
+[console_scripts]
+baby-code = baby_code.engine:run_llm

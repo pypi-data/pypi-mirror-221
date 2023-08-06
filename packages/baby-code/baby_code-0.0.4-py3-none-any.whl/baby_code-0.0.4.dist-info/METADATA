@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: baby-code
+Version: 0.0.4
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Flask
+Requires-Dist: langchain
+Requires-Dist: llama-cpp-python
+Requires-Dist: flask-cors
+
