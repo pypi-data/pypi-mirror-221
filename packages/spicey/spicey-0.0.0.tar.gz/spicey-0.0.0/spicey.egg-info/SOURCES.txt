@@ -1,0 +1,7 @@
+README.md
+setup.py
+py-spice/__init__.py
+spicey.egg-info/PKG-INFO
+spicey.egg-info/SOURCES.txt
+spicey.egg-info/dependency_links.txt
+spicey.egg-info/top_level.txt
