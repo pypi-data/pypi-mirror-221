@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+passPkg/__init__.py
+passPkg/pkgPass.py
+passPkg.egg-info/PKG-INFO
+passPkg.egg-info/SOURCES.txt
+passPkg.egg-info/dependency_links.txt
+passPkg.egg-info/top_level.txt

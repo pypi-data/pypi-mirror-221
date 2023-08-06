@@ -1,0 +1,1 @@
+from .pkgPass import generate_pass
