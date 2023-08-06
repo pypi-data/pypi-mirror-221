@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: botiverse
+Version: 0.4.10
+Summary: botiverse is a chatbot library that offers a high-level API to access a diverse set of chatbot models
+Home-page: https://botiverse.readthedocs.io/
+Author: Essam W., Mohamed Saad, Yousef Atef, Karim Taha
+Author-email: essamwisam@outlook.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: voice
