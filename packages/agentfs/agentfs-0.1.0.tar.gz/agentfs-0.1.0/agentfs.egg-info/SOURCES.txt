@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+agentfs/__init__.py
+agentfs/constants.py
+agentfs/files.py
+agentfs/server.py
+agentfs.egg-info/PKG-INFO
+agentfs.egg-info/SOURCES.txt
+agentfs.egg-info/dependency_links.txt
+agentfs.egg-info/requires.txt
+agentfs.egg-info/top_level.txt
