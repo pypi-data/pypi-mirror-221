@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tess-atl
+Version: 0.0.2
+Author: Daniel Hey
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
