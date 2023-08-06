@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: trexprinterapi
+Version: 0.0.2
+Summary: Project to make API for Bresser 3D printer
+Project-URL: Homepage, https://github.com/Chris112358/TRex_Printer_API
+Project-URL: Bug Tracker, https://github.com/Chris112358/TRex_Printer_API/issues
+Author: Christian
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This package will provide an API to connect to a trex 3d printer.
+Currently its on development.
+
+
+To install this package use 
+```
+pip install trexprinterapi
+```
+
+Than import it in your python program and initialise the Api with the following command
+
+```
+from trexprinterapi import TRexObserver
+trex = TRexObserver(ip)
+```
+
+Observe that you need to specify at least the ip address. Additionally you can set the port (default 8899) and scan_intervall (default 600)
+
+The scan_intervall should not be to small or else other programms comunicating with the printer may be disconnected.
+
+This package is fully asyncrounus so you need to await all the methods for fetching data.
+
+The following methods are available:
+
+```
+trex.update_server(ip:str=None, port:int=None, scan_intervall:int=None)
+```
+This method updates the ip address, port and scan_intervall. 
+
+```
+data = await trex.get()
+data = await trex.force_get()
+```
+methods to fetch the data. the force_get ignores the scan_intervall and connects to the printer immediately.
+
