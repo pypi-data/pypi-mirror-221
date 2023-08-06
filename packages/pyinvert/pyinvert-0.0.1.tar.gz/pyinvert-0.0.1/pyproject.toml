@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "numpy", "opencv-python"]
+build-backend = "hatchling.build"
+[project]
+name = "pyinvert"
+version = "0.0.1"
+authors = [
+  { name="Rory Meeduri", email="rory5827@outlook.com" },
+]
+description = "A simple invert function implementation using python and cv2"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/garbage1010/invert"
+"Bug Tracker" = "https://github.com/garbage1010/invert/issues"
