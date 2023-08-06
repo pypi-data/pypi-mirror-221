@@ -1,0 +1,10 @@
+extendable_pydantic_patcher.pth,sha256=hU6xnnK9Yuw8k_c5VlHFIPNWMoaH1CzZtfVsaYiKDM4,34
+extendable_pydantic/__init__.py,sha256=UbIFxdcEyz0vEz3pOf-aPKpRmhnNz-LGeWyxt3ZG5jg,130
+extendable_pydantic/_patch.py,sha256=oyXz0KMqKsaR65OvNn-BIKGVuBs2q1TdMbk6pJmn3Vg,3145
+extendable_pydantic/main.py,sha256=jPrT8HdU0TlNTff1has95F8GzCVjoapt3HVokwiIwlM,4387
+extendable_pydantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendable_pydantic/version.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+extendable_pydantic-0.0.6.dist-info/METADATA,sha256=1pJYvWPJ16Bv2PFL-sepWir7UmUUUrKQgg7XV2w3RU4,3674
+extendable_pydantic-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+extendable_pydantic-0.0.6.dist-info/licenses/LICENSE,sha256=8_UCfE117MDa7UOF_B6YbGKxwsbCPjzhn40G0iZa0Bo,1080
+extendable_pydantic-0.0.6.dist-info/RECORD,,
