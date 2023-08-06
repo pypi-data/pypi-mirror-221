@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/auto_loader_zk/__init__.py
+src/auto_loader_zk/auto_loader_fn.py
+src/auto_loader_zk.egg-info/PKG-INFO
+src/auto_loader_zk.egg-info/SOURCES.txt
+src/auto_loader_zk.egg-info/dependency_links.txt
+src/auto_loader_zk.egg-info/top_level.txt
