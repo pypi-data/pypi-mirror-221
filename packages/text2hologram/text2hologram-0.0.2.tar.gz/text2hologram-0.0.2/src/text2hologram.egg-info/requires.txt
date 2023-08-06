@@ -1,0 +1,11 @@
+xformers>=0.0.20
+matplotlib
+timm
+odak
+mediapy
+transformers
+opencv-python
+diffusers
+accelerate
+torch>=2.0.1
+torchvision>=0.15.2
