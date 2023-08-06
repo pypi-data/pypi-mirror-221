@@ -1,0 +1,25 @@
+[project]
+name = "pretalx-plugin-build"
+version = "1.0.0"
+description = "Build toolchain for pretalx plugins"
+readme = "README.rst"
+license = {text = "Apache License"}
+keywords = ["pretalx"]
+authors = [
+    {name = "Tobias Kunze", email = "r@rixx.de"},
+]
+maintainers = [
+    {name = "Tobias Kunze", email = "r@rixx.de"},
+]
+
+dependencies = [
+    "django",
+]
+
+[project.urls]
+homepage = "https://github.com/pretalx/pretalx-plugin-build"
+repository = "https://github.com/pretalx/pretalx-plugin-build.git"
+
+[tool.setuptools.packages.find]
+include = ["pretalx_plugin_build"]
+namespaces = false

@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+pretalx_plugin_build/__init__.py
+pretalx_plugin_build/build.py
+pretalx_plugin_build.egg-info/PKG-INFO
+pretalx_plugin_build.egg-info/SOURCES.txt
+pretalx_plugin_build.egg-info/dependency_links.txt
+pretalx_plugin_build.egg-info/requires.txt
+pretalx_plugin_build.egg-info/top_level.txt

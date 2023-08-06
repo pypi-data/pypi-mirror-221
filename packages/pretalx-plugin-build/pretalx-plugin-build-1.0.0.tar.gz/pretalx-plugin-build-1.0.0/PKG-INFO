@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pretalx-plugin-build
+Version: 1.0.0
+Summary: Build toolchain for pretalx plugins
+Author-email: Tobias Kunze <r@rixx.de>
+Maintainer-email: Tobias Kunze <r@rixx.de>
+License: Apache License
+Project-URL: homepage, https://github.com/pretalx/pretalx-plugin-build
+Project-URL: repository, https://github.com/pretalx/pretalx-plugin-build.git
+Keywords: pretalx
+Description-Content-Type: text/x-rst
+
+pretalx-plugin-build
+""""""""""""""""""""
+
+Build toolchain helpers for pretalx plugins. All credit for figuring this out go to the pretix team and their pretix-plugin-build package.
