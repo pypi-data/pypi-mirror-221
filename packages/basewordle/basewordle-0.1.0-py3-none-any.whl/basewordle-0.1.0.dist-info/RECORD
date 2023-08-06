@@ -1,0 +1,13 @@
+basewordle/__init__.py,sha256=jn0CzZcqmY7jii7azhGnLOKCyj81S8tvd7xOBjAOx7A,41
+basewordle/__main__.py,sha256=Fng9vqRxMrzt8x2uhdMk6T2toIRQ2tZrOSVIVEP97uw,1340
+basewordle/code.py,sha256=dZ95D2qeayHFCCYDWyqWBg2zlvvj3IJbn3qcUTwXGlo,8242
+basewordle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basewordle/words/512.txt,sha256=EaGRgDMCgG9XnoJ8_VF6cOQd6gC7mWX84VL_nz5ASGU,3072
+basewordle/words/fives.txt,sha256=s62uWY3PedRJ6u4A0oNIs9cATMQH4MiBd8mfgwJcDxA,3330
+basewordle/words/foury.txt,sha256=7pjK1Be57p39D7gern71bCJrZQUBx_fOrImWSTy31x8,252
+basewordle/words/minus_27.txt,sha256=_KoWFRNTjM9M4y8dp1sjLvCeWaHx7Kkz1hmYagcLT3c,162
+basewordle/words/minus_58.txt,sha256=vxcgQOT5-efi8grS55WQCFuAZ84g_A5JbKhWvkUoMq0,348
+basewordle-0.1.0.dist-info/METADATA,sha256=VxKYWIVzfZlaaHbW1WHOJVpDQqnhuHsvkBkG4qMPjd4,3448
+basewordle-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+basewordle-0.1.0.dist-info/entry_points.txt,sha256=PPgUelD2b4mLKjj7eZt1FzI5eGv5KO8wUQMtlNKvbOc,55
+basewordle-0.1.0.dist-info/RECORD,,
