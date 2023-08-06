@@ -1,0 +1,8 @@
+astor
+ipython
+langchain
+pandas
+pandasai
+polars
+Requests
+vertexai
