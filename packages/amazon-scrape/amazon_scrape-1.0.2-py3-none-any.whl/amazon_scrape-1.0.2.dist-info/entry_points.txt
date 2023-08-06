@@ -1,0 +1,3 @@
+[console_scripts]
+amazon_scraper = amazon_scraper.scraper:main
+
