@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: common-version
+Version: 0.0.1
+Summary: common_version
+Home-page: https://github.com/hsc1102/common_version.git
+Author: hsc
+Author-email: 1608531788@qq.com
+License: BSD-3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+
+# common_version
+基于包管理器以及漏洞网站的版本表达式统一化
