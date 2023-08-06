@@ -1,0 +1,11 @@
+sess_i/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+sess_i/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sess_i/base/main.py,sha256=zdJuGDOrpRTZHLVCy55IOhHGY-VyQc57ri1mm7SfKPw,5377
+sess_i/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sess_i/gui/gui_test.py,sha256=vRnZCiAXhv8niDSVSgcX6Rro6tIXTRsfpeb45_aI63w,544
+sess_i/gui/home.py,sha256=2QnWTCfHKoxdxWCaWn1ZVmmNvCxA0hYpc9hy4KMAFRQ,1026
+sess_i-0.0.1.dist-info/LICENSE,sha256=EFbNfgRM_hJ4vTT6fno-tmNRO1pF7bLZdJ1cftATZ74,35823
+sess_i-0.0.1.dist-info/METADATA,sha256=e58r1LRxaG2yI3FQVPNM9QRRlXzZijo8gFLtz28o8A8,603
+sess_i-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sess_i-0.0.1.dist-info/top_level.txt,sha256=mS1yjIjEkfJacPrm4Gd57qsAFTEF1Lb_1BjaT_39jFE,7
+sess_i-0.0.1.dist-info/RECORD,,
