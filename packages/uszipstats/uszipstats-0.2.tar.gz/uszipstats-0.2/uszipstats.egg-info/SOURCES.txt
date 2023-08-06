@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+code_zip/__init__.py
+code_zip/irs_data.py
+uszipstats.egg-info/PKG-INFO
+uszipstats.egg-info/SOURCES.txt
+uszipstats.egg-info/dependency_links.txt
+uszipstats.egg-info/requires.txt
+uszipstats.egg-info/top_level.txt
