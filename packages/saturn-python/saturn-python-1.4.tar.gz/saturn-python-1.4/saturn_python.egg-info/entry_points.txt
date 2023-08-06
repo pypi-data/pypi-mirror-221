@@ -1,0 +1,3 @@
+[console_scripts]
+saturn = saturn.terminal:main
+
