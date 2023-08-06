@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: matplotlib-cn-font
+Version: 0.0.0
+Summary: A package to set Chinese font for matplotlib.
+Home-page: https://github.com/Yanzhong-Hub/yzdb
+Author: Yanzhong Huang
+Author-email: yanzhong.huang@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# matplotlib_cn_font
+解决matplotlib中文乱码问题
