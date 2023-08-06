@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyPEIMS
+Version: 0.0.1
+Summary: Defining classes and functions for accessing and manipulating Texas PEIMS data (including data in TAPR and statistics typically accessed through Snapshot) programmatically.
+Project-URL: Homepage, https://github.com/adpena/PyPEIMS
+Author-email: Alejandro Peña <adpena@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+### PyPEIMS README
+
+07/25/2023 - adpena@gmail.com
