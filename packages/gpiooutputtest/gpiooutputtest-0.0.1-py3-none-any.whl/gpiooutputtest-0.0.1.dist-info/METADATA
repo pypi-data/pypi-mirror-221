@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gpiooutputtest
+Version: 0.0.1
+Summary: Individually test the given GPIO output pins
+Author: Joe Greaves
+Project-URL: Homepage, https://github.com/Grvs44/gpiooutputtest
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: <4,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: RPi.GPIO (>=0.7.1)
+
+# GPIO Output Test
+
+## Install
+
+```cmd
+pip install gpiooutputtest
+```
+
+## Run
+
+```cmd
+gpiooutputtest 15 16 18
+```
+
+Where `15 16 18` are the list of pins you want to test
