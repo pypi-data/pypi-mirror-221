@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+stratforge_speech.egg-info/PKG-INFO
+stratforge_speech.egg-info/SOURCES.txt
+stratforge_speech.egg-info/dependency_links.txt
+stratforge_speech.egg-info/top_level.txt
