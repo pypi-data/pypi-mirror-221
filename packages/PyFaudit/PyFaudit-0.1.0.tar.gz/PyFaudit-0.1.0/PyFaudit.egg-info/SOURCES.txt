@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+PyFaudit/__init__.py
+PyFaudit/scanner.py
+PyFaudit.egg-info/PKG-INFO
+PyFaudit.egg-info/SOURCES.txt
+PyFaudit.egg-info/dependency_links.txt
+PyFaudit.egg-info/entry_points.txt
+PyFaudit.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+PyFaudit = PyFaudit.scanner:main
+pyfaudit = PyFaudit.scanner:main
