@@ -1,0 +1,14 @@
+hdss/.DS_Store,sha256=DTus1um065N_zEL9szdu14XQNfLCuvmp9p3EkXoznCI,6148
+hdss/__init__.py,sha256=y8ytfzTwymwg1hLjmSsD1NwPNocDzlpK1nep5G_RViE,112
+hdss/src/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+hdss/src/bezier_image.py,sha256=5lVYbD-h4SK_8poEM2wnUh_NOZP1bxVKq1ns58C-_TE,655
+hdss/src/bezier_utils.py,sha256=fpTR5LYtaXYD5A8vVcNk_-CbF3scQt5g_FaZfhQP6oI,1578
+hdss/src/create_shapes.py,sha256=q41ISUU91F8HU2U3IIfNmH_ZYtSbYb_0v-LsjkwIIMo,2479
+hdss/src/glbl.py,sha256=Hbb1TLa7rxoSIYmvKUkVS3qq1LqAezGu0PjeTMSg90c,523
+hdss/src/set_params.py,sha256=LYxP8GO2KNKj96miwR3iGHxvPrPvWfPplTpGYP-8Ycc,428
+hdss/src/set_persp_transform.py,sha256=zy_M6bAVXlUK4MkFdBv9OyPh8ivG_cpGiB8ncIvWb70,4469
+hdss/src/set_random_noise.py,sha256=scZimZB10yvAtveOI2nnwXDmEmCYKkUunhC9Hv3rF6s,172
+hdss/src/utils.py,sha256=DHe5Z_VKiS8J6AIbcpPxg65pWonrM3_rGWXGLYnYiwY,389
+hdss-1.1.2.dist-info/METADATA,sha256=pXzp4F_RH_-5DGeMTl_s0YcuQkihdu9s1magv_PK5kY,1223
+hdss-1.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+hdss-1.1.2.dist-info/RECORD,,
