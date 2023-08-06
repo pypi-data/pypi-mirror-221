@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_orig.py
+xmltread/__init__.py
+xmltread/seeder.py
+xmltread/xmltramp.py
+xmltread.egg-info/PKG-INFO
+xmltread.egg-info/SOURCES.txt
+xmltread.egg-info/dependency_links.txt
+xmltread.egg-info/requires.txt
+xmltread.egg-info/top_level.txt
