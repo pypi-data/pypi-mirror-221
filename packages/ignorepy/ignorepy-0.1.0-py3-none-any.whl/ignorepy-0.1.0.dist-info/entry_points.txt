@@ -1,0 +1,2 @@
+[console_scripts]
+ignorepy = ignorepy.genignore:main
