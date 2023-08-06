@@ -1,0 +1,10 @@
+leidenalg
+novosparc
+numpy
+pandas
+phate
+umap-learn
+scanpy
+scikit-learn
+scikit-learn-extra
+scipy
