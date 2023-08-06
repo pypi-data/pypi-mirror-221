@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: django-components-storybook
+Version: 0.0.1
+Summary: A package for creating Storybook stories for Django Components
+Author-email: Burak Yilmaz <burakyilmaz321@gmail.com>
+Project-URL: Homepage, https://github.com/burakyilmaz321/django-components-storybook
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-components-storybook
+
+Create [Storybook](https://storybook.js.org/) stories for [Django Components](https://github.com/EmilStenstrom/django-components).
+
+Inspired by [View Component Storybook](https://jonspalmer.github.io/view_component-storybook/) of Ruby on Rails [View Component](https://viewcomponent.org/). Uses [Storybook Server Framework](https://github.com/storybookjs/storybook/tree/next/code/frameworks/server-webpack5).
+
+> **Warning:** This is a very early stage draft of the initial idea.
+
+**Roadmap**
+
+- Handle slots
+- Generate ``.storybook/preview-head.html`` 
+- Generate stories automatically
