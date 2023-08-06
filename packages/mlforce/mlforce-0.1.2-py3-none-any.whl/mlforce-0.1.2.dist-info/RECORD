@@ -1,0 +1,9 @@
+mlforce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlforce/datasets.py,sha256=uDXEyfE2Pd3HLo4G8DMfXM1b6n31aoQA9iE6Q4FXg0o,20822
+mlforce/digitrecognizer.py,sha256=84KMHv9ZR18hGGuJpH6lJZo88RVzq0Fa4o2DvbeRMWQ,11577
+mlforce/mlperceptron.py,sha256=VaGYp7bWGtUXv0N61YRUTCrax7H6DgI0RL5aEBZXwyU,21728
+mlforce/mlsolutions.py,sha256=jFn600LzqODJSvdnMAfbgcKlvgxwsFuvoKBnj0-RiTU,60193
+mlforce-0.1.2.dist-info/METADATA,sha256=_I3rkSE-tps87XGJ0I4EeNsxtler7hyeyt4pI7Bviac,3391
+mlforce-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mlforce-0.1.2.dist-info/top_level.txt,sha256=FLAN8D8-07LgP3F-ooGJ1P1I4bOAxns5v4-Pnd6wmzA,8
+mlforce-0.1.2.dist-info/RECORD,,
