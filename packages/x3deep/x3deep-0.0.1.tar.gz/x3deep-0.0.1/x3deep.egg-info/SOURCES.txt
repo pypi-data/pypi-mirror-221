@@ -1,0 +1,9 @@
+setup.py
+x3deep/__init__.py
+x3deep/ocr.py
+x3deep/pth.py
+x3deep/utils.py
+x3deep.egg-info/PKG-INFO
+x3deep.egg-info/SOURCES.txt
+x3deep.egg-info/dependency_links.txt
+x3deep.egg-info/top_level.txt
