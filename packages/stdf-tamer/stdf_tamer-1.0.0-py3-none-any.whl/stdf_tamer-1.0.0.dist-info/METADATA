@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stdf-tamer
+Version: 1.0.0
+Summary: a stdf reader/writer/analyser/converter and robotframework library
+Author: Labor DC jona
+Author-Email: Franz Haas <franz.haas@ams-osram.com>
+License: apache 2.0
+Requires-Python: >=3.8.0
+Requires-Dist: robotframework
+Requires-Dist: construct
+Requires-Dist: docopt
+Requires-Dist: rich
+Requires-Dist: polars
+Requires-Dist: XlsxWriter
+Requires-Dist: xlsx2csv>=0.8.1
