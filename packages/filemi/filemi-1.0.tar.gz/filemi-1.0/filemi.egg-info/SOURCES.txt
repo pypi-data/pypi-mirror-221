@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+File_Mi/File_Mi.py
+File_Mi/__init__.py
+File_Mi/error.py
+File_Mi/file_mi.py
+filemi.egg-info/PKG-INFO
+filemi.egg-info/SOURCES.txt
+filemi.egg-info/dependency_links.txt
+filemi.egg-info/top_level.txt

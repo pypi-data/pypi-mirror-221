@@ -1,0 +1,3 @@
+class FileMiError(Exception):
+    pass
+   
