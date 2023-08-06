@@ -1,0 +1,5 @@
+setup.py
+ztool2.egg-info/PKG-INFO
+ztool2.egg-info/SOURCES.txt
+ztool2.egg-info/dependency_links.txt
+ztool2.egg-info/top_level.txt
