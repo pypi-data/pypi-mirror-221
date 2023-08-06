@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bastion_integration"
+version = "0.1.0"
+description = "Модуль интеграции с Бастион Икс"
+authors = ["Mrkorogod"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
