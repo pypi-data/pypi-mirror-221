@@ -1,0 +1,10 @@
+find_contours.cpython-37m-darwin.so,sha256=jPexqOZKZsYqMwy8SiLjY0r0TGC_0S8LHKTL1IJ7nVk,184544
+run_length_encoding.cpython-37m-darwin.so,sha256=dKhoqdVxEvM5yjWIFK-WK1tMlZ5kZ7_rRbBgHUwE3io,185024
+draw_polygon.cpython-37m-darwin.so,sha256=td52_c8uuB7YvRAZQwNnUC7uTgrQzIfBfq42xNhOj8I,324520
+simplify_polygon.cpython-37m-darwin.so,sha256=uLbIp3vk3HgPhhTFcOZu5_HOPJ_k_cb5u0L-U0pQQEo,62896
+upolygon/__init__.py,sha256=aE6-KFPaDlusNg2V1ECZXiSQrRpWfgyn7Vi--rElaGU,211
+upolygon-0.1.11.dist-info/RECORD,,
+upolygon-0.1.11.dist-info/LICENSE,sha256=vX3MGNxB4U6FvOADAOm5qENWj89MW8Y0TrtcRhH6OXM,1072
+upolygon-0.1.11.dist-info/WHEEL,sha256=RxT17OhvDn_QFKQicWB-bsnj3dVwvYWlRKJRQ0dRyQA,110
+upolygon-0.1.11.dist-info/top_level.txt,sha256=5VhPAEB3KpSpSXie94Yb_PHVLVXh85qeYEfxki7XZbM,73
+upolygon-0.1.11.dist-info/METADATA,sha256=nF_XEmPrbuuZV1s5fAPREZZQKY_ecZRQeuJgyA9SiDc,3446
