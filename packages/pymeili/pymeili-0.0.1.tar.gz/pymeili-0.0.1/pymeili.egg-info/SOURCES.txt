@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LISCENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+beautifyplot.py
+setup.py
+pymeili.egg-info/PKG-INFO
+pymeili.egg-info/SOURCES.txt
+pymeili.egg-info/dependency_links.txt
+pymeili.egg-info/top_level.txt
