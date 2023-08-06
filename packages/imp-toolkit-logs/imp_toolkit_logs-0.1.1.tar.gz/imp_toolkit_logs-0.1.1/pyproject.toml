@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "imp-toolkit-logs"
+version = "0.1.1"
+description = "toolkit imp"
+authors = ["Johan Bustos <johan.bustosm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "imp"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gitpython = "^3.1.32"
+click = "^8.1.6"
+
+[tool.poetry.scripts]
+imp = "imp:main"
+
+[build-system]
+requires = ["setuptools","wheel","poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[pypi]
+  username = "Johanbustos"
+  password = "pypi-AgEIcHlwaS5vcmcCJDM1MWVlMDhkLWNiZmEtNDhiMC04MTM4LTc2NjIxZWE3OTk0YQACKlszLCI3YjJiMDVjNi01YzA3LTQzZGYtOGFiOC1lNTQxOTcxZDZjZTAiXQAABiCxZTfaDrnVB2KD35IxaQ-YN8mjeBAmh7UK2a9M_9RFBw"
