@@ -1,0 +1,13 @@
+bisum/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bisum/bisum.py,sha256=uGHSHgU3Dbbfm5WcFy5oSJx7HwDa78Y1nZMRyR8gxuU,3345
+bisum/dense_intra.py,sha256=wbcLOmrFDO41HXBLZXI3Iov8wer44cjxoSvhffKNzzI,2246
+bisum/generic_functions.py,sha256=T-SINOVqudQAT-X-XjwH38Rd2Q1HfOPb2f4G0r96kuw,6508
+bisum/labels.py,sha256=m4gK76uNvsQpkDin-QPAbKwg6pJCjupT3ah9K_IaHsg,5560
+bisum/sparse_intra.py,sha256=pNR_POqgC55EkQXl84Ok0IgVe1chkoSG9lQh2ywzPtw,10331
+bisum/tensor_to_matrix.py,sha256=ibRLyqfT04qlVEmXTZbVFthx82RpZkvrJcfRVu9jork,9238
+bisum/tensordot.py,sha256=ljzevDEPuvCR8UfvL-lcflfF5hUsmwXKR7DVrIPiGtg,9689
+bisum-0.1.1.dist-info/LICENSE,sha256=KK-_9ncueBH5s4lRlt3sspdGgbt-wk3rSfT7G2wF5Hk,1071
+bisum-0.1.1.dist-info/METADATA,sha256=9GOV8prTPwgzhXsDyKQiQ3y0_ETQRtMQL5U0SpmxgcQ,2051
+bisum-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+bisum-0.1.1.dist-info/top_level.txt,sha256=zZAlq-rUjQ9gNtZVdPV_GJ7KPJg81F9B8SFTJqgilWo,6
+bisum-0.1.1.dist-info/RECORD,,
