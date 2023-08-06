@@ -1,0 +1,9 @@
+gauth_python_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gauth_python_package/gauth_python.py,sha256=tMPTS5pGR31jYZtNHqPYmsxA_HtV3xl036ZkXk-jzOQ,1300
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gauth_python.py,sha256=X6O8R6tjvgVQuKMtZlKClBleai33qSiDphpyAuzW4BQ,360
+gauth_python-0.1.2.dist-info/LICENSE,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+gauth_python-0.1.2.dist-info/METADATA,sha256=32MIyZ3_WJVLiOV1MlkY96bbpL_Ek2tzO4Iu7-oEonY,487
+gauth_python-0.1.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gauth_python-0.1.2.dist-info/top_level.txt,sha256=gCSvnRqho2MPfUPXIqLYxM0GMh2Q4SzIh-J5QYmn2iw,27
+gauth_python-0.1.2.dist-info/RECORD,,
