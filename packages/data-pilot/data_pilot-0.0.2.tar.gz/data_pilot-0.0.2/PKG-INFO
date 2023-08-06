@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: data-pilot
+Version: 0.0.2
+Summary: Use LLMs to automate data science tasks
+License: MIT
+Author: Amar
+Author-email: amar439412@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pip (>=23.1.2,<24.0.0)
+Requires-Dist: pyspark (>=3.4.1,<4.0.0)
+Requires-Dist: python-decouple (>=3.8,<4.0)
+Requires-Dist: replicate (>=0.8.4,<0.9.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: supabase (>=1.0.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Data Pilot
+
+*DISCLAIMER: This is a work in progress and currently under development*.
+
+DataPilot is a python package that automates certain Data Science and AI engineering tasks such as data-preprocessing and data-analysis by using language models. It has been developed to primarily aid Data scientists, Data analysts, and ML/AI engineers in routine tasks pertaining to textual and numeric datasets. But it can be used by anyone who has to work with data, for example a financial analyst or a market researcher (provided they know a bit of python).
+
+In simple terms, DataPilot utilizes LLMs to perform operations on datasets (primarily textual datasets of tabular and KV formats. Not meant for audio and image datasets). You can use locally stored CSV or JSON files or APIs to databases / warehouses / lakes. In case of APIs, it's prefered that the data recieved is in Tabular or KV (key-value) format.
+
+Similary, you can use AI models via APIs or by providing the path to a model stored locally.
+
+**Type of tasks that you can perform using Data-pilot:**
+
+- Data-preprocessing
+- Data-analysis
+- NLP tasks
+
+## Limitations
+
+- **Capped context length:** Currently context length can be max 32k tokens (for GPT-4 and 3.5, which is still quite big), and it's lesser for other models. However, data-pilot provides a work-around solution to this limitation by sending data in batches.
+
+- **LLMs can make mistakes:** Responses might sometimes have inconsistent data format, or they might be incomplete. Please crosscheck the outputs that your recieve to ensure accuracy.
+
+## Data pre-processing
+
+- **Data Exploration:** Analyze the dataset to identify missing values, outliers, inconsistent formats, and other types of errors. Creating bar charts or histograms to analyze missing data in different features.
+
+- **Data Cleaning:** Depending on the dataset, you may need to perform data cleaning operations, such as removing duplicates, handling missing values, removing special characters, standardizing text, correcting spelling mistakes, performing text normalization, or filtering out irrelevant data. Different approaches for handling missing data, such as imputation techniques (mean, median, mode), deletion of rows or columns, or using advanced imputation methods.
+
+- **Outlier Detection:** Ientifying and handling outliers in a dataset using statistical techniques.
+
+- **Data Transformation:** Transforming the data to address issues like inconsistent formatting, converting data types, handling outliers, and normalizing or scaling variables.
+
+- **Data Validation:** validate the data against predefined rules or constraints to identify data integrity issues.
+
+- **Feature Extraction:** Automatically selects the relevant columns (features) from the dataset that you would ideally want to use for your task. In some cases, you may need to transform or preprocess the raw features to make them suitable for the model.
+
+- **Feature Engineering:** Create new features or derive meaningful information from existing features to improve the quality and usefulness of the dataset.
+
+- **Encoding Categorical Variables:** If your dataset contains categorical variables (e.g., gender, country), you might need to encode them into numerical representations using techniques like one-hot encoding or label encoding.
+
+- **Splitting the Dataset:** Divide the dataset into training, validation, and test sets.
+
+- **Data Loading (for Deep Learning):** For deep learning, you'll typically use data loaders to efficiently load and process data in mini-batches during training and evaluation.
+
+- **Tokenization (for NLP tasks):** If you are working with natural language processing (NLP) tasks, you'll need to tokenize the text data into numerical representations that the language model can understand. This step is crucial for tasks like text classification, sentiment analysis, and language generation.
+
+## Data-analysis
+
+- **EDA:** Visualizing distributions of numerical variables with histograms, density plots, and box plots. Plotting bar charts or pie charts to explore categorical variables and their frequencies.
+
+- **Time Series Analysis:** Plotting time series data with line charts to observe trends and patterns. Creating seasonal decomposition plots to identify seasonal patterns.
+
+- **Correlation Analysis:** Generating scatter plots to visualize the relationship between two numerical variables. Creating heatmap plots to display the correlation matrix of multiple variables.
+
+- **Comparisons and Rankings:** Building bar charts or grouped bar charts to compare multiple categories side by side. Creating horizontal bar charts for ranking entities based on specific criteria.
+
+- **Geospatial Data Visualization:** Plotting data on geographical maps to observe spatial patterns and trends.
+
+- **Hierarchical Data Visualization:** Generating tree maps or sunburst charts to visualize hierarchical data structures.
+
+- **Data Clustering and Dimensionality Reduction:** Creating scatter plots colored by clusters or reduced dimensions to analyze data patterns.
+
+- **Anomaly Detection:** Generating box plots or scatter plots to identify outliers or anomalies in data.
+
+- **Time Series Forecasting:** Plotting original and forecasted time series data for evaluation.
+
+- **Text Data Analysis:** Visualizing word frequencies with word clouds or bar charts. e.g. creating sentiment analysis visualizations.
+
+- **Network Analysis:** Plotting network graphs to visualize relationships between nodes and edges.
+
+- **Statistical Analysis:** Creating violin plots or box plots to visualize statistical distributions.
+
+- **Interactive Data Visualization:** Building interactive plots, such as scatter plots with tooltips or linked visualizations.
+
+## NLP Tasks:
+
+- **Language Translation:** Translate text between different languages. They provide the input text in one language, specify the target language, and receive the translated text as the output.
+
+- **Text Summarization:** Summarize lengthy texts. Feed the dataset into Data Pilot and receives a concise summary of the content as the result.
+
+- **Sentiment Analysis:**  Analyze the sentiment expressed in a dataset. They can determine whether the sentiment is positive, negative, or neutral.
+
+- **Named Entity Recognition (NER):** Identify and classify named entities like names of people, organizations, locations, etc. for a given dataset.
+
+- **Text Classification:** Categorize text into predefined classes. Provide data input, and the model assigns it to the appropriate category.
+
+- **Question Answering:** Ask questions based on a given context. The model processes the context and returns relevant answers to the questions. Advised that you provide a set of Q&A samples for best results.
+
+- **Text Generation:** Generate creative and coherent text based on a given dataset. They can use this for various tasks like story generation, poetry, and code generation.
+
+- **Chatbots and Conversational AI:** Build chatbots and conversational AI systems that can interact with users by processing their queries and providing relevant responses in a conversational manner. Use a dataset with sample conversations between a user and a chatbot.
+
