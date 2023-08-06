@@ -1,0 +1,13 @@
+chichicha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chichicha/libusb-1.0.dll,sha256=PDwfR8gEDYQalAIYh0vPiKR-JPWKEVprr_CGnSUy-44,1292959
+chichicha/pywpc.cp310-win_amd64.pyd,sha256=uDChmxoPttWar_yffjYLKrii8GNY_9-ZvYfPPvSX94Y,7585280
+chichicha/pywpc.cp38-win_amd64.pyd,sha256=QpKSgABOrqU8_bgU62zcf9KtEhJmsEZ8VsauqDwy_tE,8171520
+chichicha/pywpc.cp39-win_amd64.pyd,sha256=gVkwANN3XobitX8C_wWk9FvuI3dbgDvx1WxZi4vsr9U,8180224
+chichicha/pywpc.cpython-310-x86_64-linux-gnu.so,sha256=Lb-8WZvsxNXrLiq2q7XN4bJpAqb_dsDagf2r0xak2ls,11381312
+chichicha/pywpc.pyd,sha256=H8tvDnIh_EbNwy8YNeArIKgkjWMS6qTiJrhWKVZ1-wE,8180224
+chichicha/version.py,sha256=ac-4lIkYJKBAbnGyHM90OM_G73oA4EOv6u4HfAzdL04,17
+chichicha-2.5.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+chichicha-2.5.0.dist-info/METADATA,sha256=_7J6yPjPnGS6SRX_m8lEAWAxYviVtv8axQyG_hRt9JE,523
+chichicha-2.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chichicha-2.5.0.dist-info/top_level.txt,sha256=skhQAm4Q6iafNrv2X3f17k6a_W4Ri3cBlfzqbeGFOEE,10
+chichicha-2.5.0.dist-info/RECORD,,
