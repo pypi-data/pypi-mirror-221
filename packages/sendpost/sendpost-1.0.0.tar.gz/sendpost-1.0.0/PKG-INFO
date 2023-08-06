@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: sendpost
+Version: 1.0.0
+Summary: SendPost API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: hello@sendpost.io
+License: UNKNOWN
+Description:     Email API and SMTP relay to not just send and measure email sending, but also alert and optimise. We provide you with tools, expertise and support needed to reliably deliver emails to your customers inboxes on time, every time.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,SendPost API
+Platform: UNKNOWN
+Requires-Python: >=3.7
