@@ -1,0 +1,6 @@
+Mycolormap.py
+setup.py
+mycolormap.egg-info/PKG-INFO
+mycolormap.egg-info/SOURCES.txt
+mycolormap.egg-info/dependency_links.txt
+mycolormap.egg-info/top_level.txt
