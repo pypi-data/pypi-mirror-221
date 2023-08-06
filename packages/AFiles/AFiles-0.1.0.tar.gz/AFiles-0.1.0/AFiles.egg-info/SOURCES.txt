@@ -1,0 +1,4 @@
+AFiles.egg-info/PKG-INFO
+AFiles.egg-info/SOURCES.txt
+AFiles.egg-info/dependency_links.txt
+AFiles.egg-info/top_level.txt
