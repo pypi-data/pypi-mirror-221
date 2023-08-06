@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+show_image_mat2.egg-info/PKG-INFO
+show_image_mat2.egg-info/SOURCES.txt
+show_image_mat2.egg-info/dependency_links.txt
+show_image_mat2.egg-info/requires.txt
+show_image_mat2.egg-info/top_level.txt
+show_image_matp2/showimage2.py
