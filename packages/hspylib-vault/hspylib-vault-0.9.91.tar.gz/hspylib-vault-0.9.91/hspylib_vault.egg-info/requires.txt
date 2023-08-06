@@ -1,0 +1,7 @@
+hspylib
+hspylib-datasource
+hspylib-clitt
+cryptocode
+cryptography
+keyring
+setuptools
