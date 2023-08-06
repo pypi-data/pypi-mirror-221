@@ -1,0 +1,11 @@
+pc_mouseparty/__init__.py,sha256=hz_S4aFMpF6FeMOF-7cLNc295rFZsN-4uASfuspnO_8,146
+pc_mouseparty/cli.py,sha256=9yJSiw2GyYSvMPor-GuY6FxSjaaeGG6_XXYKSxjvQeI,454
+pc_mouseparty/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+pc_mouseparty/pc_mouseparty.py,sha256=TDIbH_opgjWFVPG1yG1_p2gJHYJyGYBOAbS557VDfYw,18
+pc_mouseparty-0.1.1.dist-info/AUTHORS.rst,sha256=7AvEOXjAKCHKqggFwQfPnPQBIC4C3oaiRRzkCqnsFV8,171
+pc_mouseparty-0.1.1.dist-info/LICENSE,sha256=QhK4HYyoj7qbXwYnnDBorYd0VLyKWn2TiC9kQAUVpeQ,1077
+pc_mouseparty-0.1.1.dist-info/METADATA,sha256=_el11cOh2elEgNBPZqzdMZj9chgEwaoN-iPpMOYfrUc,1537
+pc_mouseparty-0.1.1.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+pc_mouseparty-0.1.1.dist-info/entry_points.txt,sha256=0ZbPY-FLoC605Ag0r9PkB7Ty4ZJ-bQMWOwhkO_bIfMw,57
+pc_mouseparty-0.1.1.dist-info/top_level.txt,sha256=KiUhmPv1MQ-qhW0YQP2Ut0MW29VQvht4JsWZEgXspUA,14
+pc_mouseparty-0.1.1.dist-info/RECORD,,
