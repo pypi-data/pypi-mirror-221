@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: pygmenus
+Version: 0.0.1.8
+Summary: A simple menu system for Pygame.
+Home-page: UNKNOWN
+Author: @JoshuaParsonsCreativity
+Author-email: your.email@example.com
+License: UNKNOWN
+Keywords: pygame,menu
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# PyGMenus
+
+This Python library, PyGMenus, provides an easy and intuitive way to add user interface components to your Pygame applications. It includes features like text boxes, buttons, and drop boxes, with comprehensive event handling and interaction mechanisms. Below is a guide to using each class and its capabilities.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PyGMenus.
+
+`bash
+pip install pygmenus
+`
+
+## Usage
+
+`python
+import pygame
+from pygmenus import Button, DropBox, TextBox
+`
+
+## Button
+
+The `Button` class represents a button UI element on your Pygame screen. 
+
+create a button at position (x, y) with dimensions (width, height)
+`python
+button = Button(screen, 100, 50, 200, 50)
+`
+
+It includes the following properties:
+
+- `x`: The x position of the button on the screen.
+- `y`: The y position of the button on the screen.
+- `width`: The width of the button.
+- `height`: The height of the button.
+- `color`: The color of the button.
+- `hover_color`: The color of the button when the mouse is hovering over it.
+- `font_color`: The color of the button's text.
+- `text`: The text displayed on the button.
+
+## DropBox
+
+The `DropBox` class represents a drop-down box UI element on your Pygame screen.
+
+creates a dropdown box at position (x, y) with dimensions (width, height)
+`python
+dropbox = DropBox(screen, 100, 100, 200, 50)
+`
+
+It includes the following properties:
+
+- `x`: The x position of the drop box on the screen.
+- `y`: The y position of the drop box on the screen.
+- `width`: The width of the drop box.
+- `height`: The height of the drop box.
+- `color`: The color of the drop box.
+- `text_color`: The color of the text in the drop box.
+- `font`: The font of the text in the drop box.
+- `text`: The text displayed in the drop box.
+
+## TextBox
+
+The `TextBox` class represents a text box UI element on your Pygame screen.
+
+creates a text box at position (x, y) with dimensions (width, height)
+`python
+textbox = TextBox(screen, 100, 150, (800, 600))
+`
+
+It includes the following properties:
+
+- `x`: The x position of the text box on the screen.
+- `y`: The y position of the text box on the screen.
+- `width`: The width of the text box.
+- `height`: The height of the text box.
+- `border_color`: The color of the border of the text box.
+- `text`: The text displayed in the text box.
+- `font`: The font of the text in the text box.
+- `align`: The alignment of the text box ("left", "right", "center").
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Please note: This is a general guide and may need further customization based on the actual attributes of the classes in your library.
+
+
