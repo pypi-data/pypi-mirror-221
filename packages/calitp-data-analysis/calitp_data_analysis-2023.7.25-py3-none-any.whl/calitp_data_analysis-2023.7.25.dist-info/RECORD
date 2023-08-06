@@ -1,0 +1,7 @@
+calitp_data_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calitp_data_analysis/magics.py,sha256=daOXT1HHivXWjqLEsNH5yYIv2ZtEdnQuuDHy9zk1dbM,1427
+calitp_data_analysis/sql.py,sha256=y1gw30fj9ExFiDwVSrTPzaXJX4YfJzR0N-bKLZII58w,3981
+calitp_data_analysis/tables.py,sha256=O2F-H8kxjZETiq92xda3ELoHovn3UHHhALKZ7nRpf3w,3273
+calitp_data_analysis-2023.7.25.dist-info/METADATA,sha256=3epHa3fopcUo6Ezu3rl8ztZ_N7_JjunLvh-H3b_1y-A,588
+calitp_data_analysis-2023.7.25.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+calitp_data_analysis-2023.7.25.dist-info/RECORD,,
