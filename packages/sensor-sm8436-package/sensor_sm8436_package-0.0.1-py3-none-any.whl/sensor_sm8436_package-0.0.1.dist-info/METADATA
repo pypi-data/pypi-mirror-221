@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sensor_sm8436_package
+Version: 0.0.1
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Magnus <magnus.thoegersen@cer.ch>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Sensor_sm8436_package
+This is a rewritten adafruit_sht4x library that you can use to read out an sm8436 sensor
+
