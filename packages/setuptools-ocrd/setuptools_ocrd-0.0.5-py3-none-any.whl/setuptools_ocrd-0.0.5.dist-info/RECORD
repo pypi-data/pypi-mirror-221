@@ -1,0 +1,11 @@
+setuptools_ocrd/__init__.py,sha256=9EPpWtM3eYWCoqc0CnPI6k14hVlbkO2fJ20AFEgfFxU,155
+setuptools_ocrd/__main__.py,sha256=jjicc6uYW-Tv_Dwzefw1yNn_tZfoNfNcAIhkVMa3mfs,175
+setuptools_ocrd/_get_version.py,sha256=iDjlvnkJ7-rma20NTYA4ac6d8f4_7udRyvFHGpSYslE,247
+setuptools_ocrd/_integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+setuptools_ocrd/_integration/setuptools.py,sha256=_CR3ujqeXeJGsq7OIKFVXlWVAHlsfKP-ijUWXiotnb0,581
+setuptools_ocrd-0.0.5.dist-info/LICENSE,sha256=vnCg49CTPLv9bzUvRyhCveE7wxPigMwy8_99tv2pyro,11333
+setuptools_ocrd-0.0.5.dist-info/METADATA,sha256=Q_4pIXM5K4f85p4ZSAWyIKpthE6vgOdbnYhbPalShRo,1002
+setuptools_ocrd-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+setuptools_ocrd-0.0.5.dist-info/entry_points.txt,sha256=nqNrmDq-peUCcekeiSi0AZxOEnPfZDlzFmi4YMSDsuU,115
+setuptools_ocrd-0.0.5.dist-info/top_level.txt,sha256=HQihcGycaaVJ0D5lDQ0Pp95h8A7vYD6dYpbNBY2FrVc,16
+setuptools_ocrd-0.0.5.dist-info/RECORD,,
