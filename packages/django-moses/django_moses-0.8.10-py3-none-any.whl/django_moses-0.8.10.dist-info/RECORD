@@ -1,0 +1,14 @@
+moses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moses/admin.py,sha256=AzXJZolB3ybUkFJE2NYS8fXW2VdJIezwi-JW1L6lM_I,2381
+moses/apps.py,sha256=0DheC5HZmnBfyDSLikxMtrCXlPXVE6RZJpkDXo3QNpY,85
+moses/authentication.py,sha256=qK6J3-8B_w71ywkOZVgQT3atQnBf12fnTAxLcadE8lk,8696
+moses/conf.py,sha256=cZZYw0WgSXd6VowNSLPWwweaG__l8kVDYGdIKTN8X1g,2830
+moses/decorators.py,sha256=pEBOkjpmTmgbgHylu_1aroB0Mk2kb9AnSB6Fv6Mr6QI,933
+moses/models.py,sha256=MbH2SUv0zjNvYvehi2_Ckp0cCFl93LjF7zWgAuDKlZU,9741
+moses/serializers.py,sha256=FlnUKc1cYURw6wcz6Uo9maB6L5bAuWpDAe3FZuPE2bo,9418
+moses/urls.py,sha256=Tm8XaxUcDt90YVDf9ZZRncOpfEJYu3cWGuFidph6tlc,1965
+moses/views.py,sha256=ZQ8l2LhNHQpUotqcj4XCcJOSzd6SQO5rIqjAyK79q1E,12102
+django_moses-0.8.10.dist-info/LICENSE,sha256=4sRHYHnch5V2wl-S1ZMyjJ3TKpzX-AL3tVs_dVB4oJw,1460
+django_moses-0.8.10.dist-info/METADATA,sha256=Bp61NC7gxN6_n9o12Va6sYksjiUyFaEpNAhyheGiZZ8,547
+django_moses-0.8.10.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_moses-0.8.10.dist-info/RECORD,,
