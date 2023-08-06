@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sess_i/__init__.py
+sess_i.egg-info/PKG-INFO
+sess_i.egg-info/SOURCES.txt
+sess_i.egg-info/dependency_links.txt
+sess_i.egg-info/requires.txt
+sess_i.egg-info/top_level.txt
+sess_i/base/__init__.py
+sess_i/base/main.py
+sess_i/gui/__init__.py
+sess_i/gui/gui_test.py
+sess_i/gui/home.py
+sess_i/gui/pages/Page 1.py
+sess_i/gui/pages/page1.py

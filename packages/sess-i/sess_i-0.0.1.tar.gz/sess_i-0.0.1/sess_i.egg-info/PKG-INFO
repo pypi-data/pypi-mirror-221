@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sess-i
+Version: 0.0.1
+Author: Loïc Le Grégam
+Author-email: legregam@insa-toulouse.fr
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9.7
+License-File: LICENSE
