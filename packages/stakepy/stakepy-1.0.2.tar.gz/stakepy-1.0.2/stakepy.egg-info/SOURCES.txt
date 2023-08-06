@@ -1,0 +1,8 @@
+setup.py
+stakepy/__init__.py
+stakepy/main.py
+stakepy.egg-info/PKG-INFO
+stakepy.egg-info/SOURCES.txt
+stakepy.egg-info/dependency_links.txt
+stakepy.egg-info/requires.txt
+stakepy.egg-info/top_level.txt
