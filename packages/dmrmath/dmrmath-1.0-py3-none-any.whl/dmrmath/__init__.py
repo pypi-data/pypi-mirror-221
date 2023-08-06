@@ -1,0 +1,1 @@
+from .mymath import adicionar, subtrair, multiplicar, dividir
