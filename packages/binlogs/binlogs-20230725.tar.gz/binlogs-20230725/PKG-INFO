@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: binlogs
+Version: 20230725
+Summary: Highly available logger - with APPEND/TAIL operations over HTTPS.
+Home-page: https://github.com/magicray/binlogs
+Author: Bhupendra Singh
+Author-email: bhsingh@gmail.com
+Keywords: paxos,stream,pubsub,pub,sub,queue,consistent
+License-File: LICENSE
+
+Uses Paxos for replication and filesystem for storage. Leaderless and highly available.
