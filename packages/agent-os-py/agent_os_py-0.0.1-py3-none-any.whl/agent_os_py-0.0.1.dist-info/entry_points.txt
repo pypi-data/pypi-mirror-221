@@ -1,0 +1,5 @@
+[console_scripts]
+aos=src.cli:cli
+cli=src.cli:cli
+perf=tests.perf.perf:main
+
