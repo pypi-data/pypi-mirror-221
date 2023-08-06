@@ -1,0 +1,2 @@
+[console_scripts]
+tw-pywrap = tw_pywrap.cli:main
