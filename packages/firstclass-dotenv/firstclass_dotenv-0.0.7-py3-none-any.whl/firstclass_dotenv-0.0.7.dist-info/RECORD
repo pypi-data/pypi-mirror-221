@@ -1,0 +1,9 @@
+firstclass_dotenv/__init__.py,sha256=I1w7tWT5ricKkyp_47j_wOGh-h1ebP0MrthZHC3EXn8,52
+firstclass_dotenv/main.py,sha256=D7M034dVy1eXX9D4PJhZIy-S-KJ7NHnsXiyjw1mX6Rk,823
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_1stclass_dotenv.py,sha256=grudzPaTwMwYMC3wIzApcEEpq3JV0lkITfVZysPH51w,846
+firstclass_dotenv-0.0.7.dist-info/LICENSE,sha256=Ycz4HJncll17cduufTUyiamFCu__ZGgXGGRuOw3Dq0E,1070
+firstclass_dotenv-0.0.7.dist-info/METADATA,sha256=PnGfuMhktSWqzQBLWkHQ5_sgTUR5O1PgbjodEILKnBo,1540
+firstclass_dotenv-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+firstclass_dotenv-0.0.7.dist-info/top_level.txt,sha256=4haWGZKRoyJjbnby1BidQQEY_Zcn4SDW0y5sCrhiYmc,24
+firstclass_dotenv-0.0.7.dist-info/RECORD,,
