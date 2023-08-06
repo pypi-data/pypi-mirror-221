@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_events_processor.egg-info/PKG-INFO
+yandex_events_processor.egg-info/SOURCES.txt
+yandex_events_processor.egg-info/dependency_links.txt
+yandex_events_processor.egg-info/top_level.txt
