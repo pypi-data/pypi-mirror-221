@@ -1,0 +1,89 @@
+[project]
+name = "botree"
+version = "0.4.1"
+description = "A friendly wrapper for boto3."
+authors = [
+    { name = "ericmiguel", email = "eric.mrib@gmail.com" },
+]
+dependencies = [
+    "boto3>=1.28.10",
+    "boto3-stubs>=1.28.10",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.isort]
+profile = "black"
+force_single_line = true
+atomic = true
+include_trailing_comma = true
+lines_after_imports = 2
+lines_between_types = 1
+use_parentheses = true
+filter_files = true
+
+[tool.mypy]
+show_error_codes = true
+no_implicit_optional = true
+exclude = [
+    "scripts",
+    "docs",
+    "tests",
+]
+overrides = [
+    { module = "moto.*", ignore_missing_imports = true },
+]
+
+[tool.flake8]
+max-line-length = 88
+max-complexity = 10
+exclude = [
+    ".venv",
+    ".git",
+    "__pycache__",
+    "*.egg-info",
+    ".pytest_cache",
+    ".mypy_cache",
+]
+ignore = [
+    "E501",
+    "E203",
+    "E225",
+    "W503",
+    "W504",
+]
+
+[tool.pydocstyle]
+convention = "numpy"
+add-ignore = "D401"
+match = "(?!test_|tests).*\\.py"
+match-dir = "[^	ests|.].*"
+
+[tool.pdm.dev-dependencies]
+lint-and-format = [
+    "black>=23.7.0",
+    "isort>=5.12.0",
+    "mypy>=1.4.1",
+    "pydocstyle>=6.3.0",
+    "autoflake>=2.2.0",
+    "Flake8-pyproject>=1.2.3",
+]
+test = [
+    "pytest>=7.4.0",
+    "moto>=4.1.13",
+    "pytest-cov>=4.1.0",
+]
+docs = [
+    "mkdocs>=1.4.3",
+    "mkdocs-material>=9.1.19",
+    "mkdocstrings[python]>=0.22.0",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
