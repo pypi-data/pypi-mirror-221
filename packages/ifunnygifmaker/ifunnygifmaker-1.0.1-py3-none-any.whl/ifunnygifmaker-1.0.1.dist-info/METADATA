@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ifunnygifmaker
+Version: 1.0.1
+License: MIT
+Author-email: jaypyles <jpylesbusiness@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: pillow==9.5.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.28.2
+Description-Content-Type: text/markdown
+
+# IFunnyGifMaker
+
+This is a simple implementation to create captioned gifs, like those that appear on IFunny. The purpose of this was to implement into my own Discord server.
+
+# To-Do
+
+- [ ] Implement a faster way to compile the gifs
+- [ ] Refactor the font size calculator
+
