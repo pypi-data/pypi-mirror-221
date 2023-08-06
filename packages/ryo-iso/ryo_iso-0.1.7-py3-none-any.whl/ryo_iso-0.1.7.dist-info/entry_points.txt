@@ -1,0 +1,2 @@
+[console_scripts]
+ryo-iso = ryo_iso.cli:cli
