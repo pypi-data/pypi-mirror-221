@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: styledlogger
+Version: 0.1.4
+Summary: A simple, styled logging library.
+Home-page: https://github.com/SpLayzDK/StyledLogger/
+Author: ImAlek (splayzdk)
+Author-email: alek@imalek.me
+License: BSL 1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama (>=0.4.6)
+Requires-Dist: arrow (>=1.2.3)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# StyledLogger
+
+### A simple, yet beautiful logging library for Python 🐍 >= 3.9
+[![Tests](https://github.com/barealek/StyledLogger/actions/workflows/run-tests.yml/badge.svg)](https://github.com/barealek/StyledLogger/actions/workflows/run-tests.yml)
+[![Upload Python Package](https://github.com/barealek/StyledLogger/actions/workflows/pypi-integration.yml/badge.svg)](https://github.com/barealek/StyledLogger/actions/workflows/pypi-integration.yml)
+
+To use, simply install via `pip install styledlogger`
+
+Then you can import the `StyledLogger` class from the `styledlogger` package, and initialize it with a name.
+
+---
+
+Simple example using a logger:
+
+```py
+>>> from styledlogger import StyledLogger
+>>> logger = StyledLogger(name="Main")
+
+>>> logger.info("Good Morning!")
+8:57:41 :: INFO @ Main - Good Morning!
+
+>>> logger.warn("Python < 3.7 not supported")
+8:58:03 :: WARN @ Main - Python < 3.7 not supported
+
+>>> logger.error("User database entries not found!")
+8:58:35 :: ERRO @ Main - User database entries not found!
+
+>>> logger.fatal("Lost connection to the API.")
+8:58:51 :: FATL @ Main - Lost connection to the API.
+```
+
+There's more to this library, and I encourage to play around with it. You can check out the `examples` folder for some nice examples showing the features of the library.
+
+---
+
+Check out the GitHub: https://github.com/BareAlek/StyledLogger
+Contact me at mail: alek@imalek.me
