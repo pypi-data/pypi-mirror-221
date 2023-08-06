@@ -1,0 +1,11 @@
+pyparsing
+ebooklib
+typer
+
+[:python_version < "3.9"]
+importlib-resources>=1.1.0
+
+[dev]
+pytest
+wheel
+twine
