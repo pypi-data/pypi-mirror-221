@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: airflow-provider-servicenow
+Version: 1.0.1
+Summary: A Service Now Apache Airflow provider package built by Hongmin.
+Author-email: hongmin zhang <hongmin.zhang.-nd@disney.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://xxx.org
+Project-URL: Source, https://xxx.org/xxx/xxx
+Classifier: Framework :: Apache Airflow
+Classifier: Framework :: Apache Airflow :: Provider
+Requires-Python: ~=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+  Apache Airflow provider for ServiceNow
+</h1>
+
+
+## Build this provider package
+1. Clone the provider repo.
+2. cd into provider directory.
+3. Run Build command.
+```bash
+ python3 -m pip install build.
+```
+4. Run python3 -m build to build the wheel.
+5. Find the .whl file in /dist/*.whl.

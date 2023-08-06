@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "airflow-provider-servicenow"
+authors = [
+    {name = "hongmin zhang", email = "hongmin.zhang.-nd@disney.com"},
+]
+license = {text = "Apache License 2.0"}
+description = "A Service Now Apache Airflow provider package built by Hongmin."
+classifiers = [
+    "Framework :: Apache Airflow",
+    "Framework :: Apache Airflow :: Provider",
+]
+dynamic = ["version"]
+requires-python = "~=3.11"
+dependencies = ["apache-airflow>=2.6", "pysnc>=1.1.4"]
+
+[project.urls]
+Homepage = "https://xxx.org"
+Source = "https://xxx.org/xxx/xxx"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.entry-points.apache_airflow_provider]
+provider_info = "servicenow_provider.__init__:get_provider_info"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+version = {attr = "servicenow_provider.__version__"}
+
+[tool.setuptools.packages.find]
+exclude = ["*tests.*", "*tests"]
