@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pih-mio-content
+Version: 1.47203
+Summary: PIH MIO library
+Home-page: https://pacifichosp.com/
+Author: Nikita Karachentsev
+Author-email: it@pacifichosp.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pih
+
+UNKNOWN
+
