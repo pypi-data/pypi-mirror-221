@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flowflow
+Version: 0.0.4
+Summary: Flowflow.AI Python Client
+Author-email: Mick Vermaat <support@flowflow.ai>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: API Docs, https://documentation.flowflow.ai/?python#api-reference
+Project-URL: Homepage, https://flowflow.ai
+
+# FlowFlow Python Client
+
+## API Documentation
+<a href="https://documentation.flowflow.ai/?javascript#api-reference">https://documentation.flowflow.ai/?python#api-reference</a> 
