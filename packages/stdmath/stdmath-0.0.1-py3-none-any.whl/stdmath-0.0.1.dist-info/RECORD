@@ -1,0 +1,14 @@
+src/bmath/Add.py,sha256=YSor5aeffv2vn4Hk-c1wUbBgUjjd86P3n675cdwhCjU,722
+src/bmath/Decimal.py,sha256=yWkT5FQQnV9ZrVnb-UQBXloPJxJ7sipUIvDN2BdBXMQ,302
+src/bmath/Divide.py,sha256=S0oFeUoz97KSv98Ez7D1svSy_CBG_1m9Opd4xjLZIzg,725
+src/bmath/Integer.py,sha256=1fjrExLUqdhtMCI5ypH0DrLy2HdldACeDOcb2eJoZ9k,300
+src/bmath/Multiply.py,sha256=w1s1kOuQ50_0lffyqLSKWS9oX16PxVdPhPZCQEGqLxg,727
+src/bmath/Number.py,sha256=eiNsOfyPjrhQjm1dCCxzQDEiKc2BiUVpVbFckxJSAl0,592
+src/bmath/Operation.py,sha256=kprfyuuW7LgIo-X8ZvhIPiD5drCwPD0fpSxDLlUy-do,204
+src/bmath/Subtract.py,sha256=YSor5aeffv2vn4Hk-c1wUbBgUjjd86P3n675cdwhCjU,722
+src/bmath/Value.py,sha256=TW66oAFLdfVCzvFvdp8Nx5puysigGRjVV8uKX-x6LWc,516
+src/bmath/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stdmath-0.0.1.dist-info/METADATA,sha256=hLtlRwVqBvrWWlptzRRqvLWF8uQgQqP20y0vbQ6sRdQ,465
+stdmath-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+stdmath-0.0.1.dist-info/licenses/LICENSE,sha256=vQl-Y7Mxn6tTI2h2Kb1uQOuTX78KfswqZqZ7UbPnnco,11543
+stdmath-0.0.1.dist-info/RECORD,,
