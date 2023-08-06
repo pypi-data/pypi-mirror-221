@@ -1,0 +1,2 @@
+[console_scripts]
+vank = vank.__main__:entry_point
