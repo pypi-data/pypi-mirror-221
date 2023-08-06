@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: py2nsis
+Version: 1.0
+Summary: Under Windows, convert Python to exe
+Author: SindreYang
+Author-email: yx@mviai.com

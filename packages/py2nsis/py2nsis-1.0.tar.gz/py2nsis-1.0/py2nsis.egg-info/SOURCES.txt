@@ -1,0 +1,300 @@
+README.md
+setup.py
+py2nsis.egg-info/PKG-INFO
+py2nsis.egg-info/SOURCES.txt
+py2nsis.egg-info/dependency_links.txt
+py2nsis.egg-info/entry_points.txt
+py2nsis.egg-info/top_level.txt
+py2nsis/bin/7z/7z.dll
+py2nsis/bin/7z/7z.exe
+py2nsis/bin/NSIS/COPYING
+py2nsis/bin/NSIS/NSIS.chm
+py2nsis/bin/NSIS/NSIS.exe
+py2nsis/bin/NSIS/makensis.exe
+py2nsis/bin/NSIS/makensisw.exe
+py2nsis/bin/NSIS/nsisconf.nsh
+py2nsis/bin/NSIS/Bin/GenPat.exe
+py2nsis/bin/NSIS/Bin/LibraryLocal.exe
+py2nsis/bin/NSIS/Bin/MakeLangId.exe
+py2nsis/bin/NSIS/Bin/RegTool.bin
+py2nsis/bin/NSIS/Bin/zip2exe.exe
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/big.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/classic-cross.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/classic.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/colorful.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/grey-cross.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/grey.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/modern.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/red-round.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/red.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/simple-round.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/simple-round2.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Checks/simple.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/nsis-r.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-r-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-r.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-uninstall-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-uninstall-r-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-uninstall-r.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange-uninstall.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/orange.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Header/win.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/arrow-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/arrow-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/arrow2-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/arrow2-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/box-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/box-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/classic-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/classic-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/llama-blue.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/llama-grey.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-install-blue-full.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-install-blue.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-install-colorful.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-install-full.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-uninstall-blue-full.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-uninstall-blue.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-uninstall-colorful.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-uninstall-full.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/modern-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/nsis1-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/nsis1-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/orange-install-nsis.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/orange-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/orange-uninstall-nsis.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/orange-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/pixel-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/pixel-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/win-install.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Icons/win-uninstall.ico
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/arrow.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/llama.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/nullsoft.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/orange-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/orange-uninstall-nsis.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/orange-uninstall.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/orange.bmp
+py2nsis/bin/NSIS/Contrib/Graphics/Wizard/win.bmp
+py2nsis/bin/NSIS/Contrib/Language files/Afrikaans.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Afrikaans.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Albanian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Albanian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Arabic.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Arabic.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Basque.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Basque.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Belarusian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Belarusian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Bosnian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Bosnian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Breton.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Breton.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Bulgarian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Bulgarian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Catalan.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Catalan.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Croatian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Croatian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Czech.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Czech.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Danish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Danish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Dutch.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Dutch.nsh
+py2nsis/bin/NSIS/Contrib/Language files/English.nlf
+py2nsis/bin/NSIS/Contrib/Language files/English.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Esperanto.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Esperanto.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Estonian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Estonian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Farsi.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Farsi.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Finnish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Finnish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/French.nlf
+py2nsis/bin/NSIS/Contrib/Language files/French.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Galician.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Galician.nsh
+py2nsis/bin/NSIS/Contrib/Language files/German.nlf
+py2nsis/bin/NSIS/Contrib/Language files/German.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Greek.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Greek.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Hebrew.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Hebrew.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Hungarian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Hungarian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Icelandic.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Icelandic.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Indonesian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Indonesian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Irish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Irish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Italian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Italian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Japanese.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Japanese.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Korean.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Korean.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Kurdish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Kurdish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Latvian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Latvian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Lithuanian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Lithuanian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Luxembourgish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Luxembourgish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Macedonian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Macedonian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Malay.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Malay.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Mongolian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Mongolian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Norwegian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Norwegian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/NorwegianNynorsk.nlf
+py2nsis/bin/NSIS/Contrib/Language files/NorwegianNynorsk.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Polish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Polish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Portuguese.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Portuguese.nsh
+py2nsis/bin/NSIS/Contrib/Language files/PortugueseBR.nlf
+py2nsis/bin/NSIS/Contrib/Language files/PortugueseBR.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Romanian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Romanian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Russian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Russian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Serbian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Serbian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/SerbianLatin.nlf
+py2nsis/bin/NSIS/Contrib/Language files/SerbianLatin.nsh
+py2nsis/bin/NSIS/Contrib/Language files/SimpChinese.nlf
+py2nsis/bin/NSIS/Contrib/Language files/SimpChinese.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Slovak.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Slovak.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Slovenian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Slovenian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Spanish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Spanish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/SpanishInternational.nlf
+py2nsis/bin/NSIS/Contrib/Language files/SpanishInternational.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Swedish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Swedish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Thai.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Thai.nsh
+py2nsis/bin/NSIS/Contrib/Language files/TradChinese.nlf
+py2nsis/bin/NSIS/Contrib/Language files/TradChinese.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Turkish.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Turkish.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Ukrainian.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Ukrainian.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Uzbek.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Uzbek.nsh
+py2nsis/bin/NSIS/Contrib/Language files/Welsh.nlf
+py2nsis/bin/NSIS/Contrib/Language files/Welsh.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI/System.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI/ioSpecial.ini
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Deprecated.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Interface.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Localization.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/MUI2.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/Components.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/Directory.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/Finish.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/InstallFiles.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/License.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/StartMenu.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/UninstallConfirm.nsh
+py2nsis/bin/NSIS/Contrib/Modern UI 2/Pages/Welcome.nsh
+py2nsis/bin/NSIS/Contrib/UIs/default.exe
+py2nsis/bin/NSIS/Contrib/UIs/modern.exe
+py2nsis/bin/NSIS/Contrib/UIs/modern_headerbmp.exe
+py2nsis/bin/NSIS/Contrib/UIs/modern_headerbmpr.exe
+py2nsis/bin/NSIS/Contrib/UIs/modern_nodesc.exe
+py2nsis/bin/NSIS/Contrib/UIs/modern_smalldesc.exe
+py2nsis/bin/NSIS/Contrib/UIs/sdbarker_tiny.exe
+py2nsis/bin/NSIS/Contrib/zip2exe/Base.nsh
+py2nsis/bin/NSIS/Contrib/zip2exe/Classic.nsh
+py2nsis/bin/NSIS/Contrib/zip2exe/Modern.nsh
+py2nsis/bin/NSIS/Include/Colors.nsh
+py2nsis/bin/NSIS/Include/FileFunc.nsh
+py2nsis/bin/NSIS/Include/InstallOptions.nsh
+py2nsis/bin/NSIS/Include/LangFile.nsh
+py2nsis/bin/NSIS/Include/Library.nsh
+py2nsis/bin/NSIS/Include/Locate.nsh
+py2nsis/bin/NSIS/Include/LogicLib.nsh
+py2nsis/bin/NSIS/Include/MUI.nsh
+py2nsis/bin/NSIS/Include/MUI2.nsh
+py2nsis/bin/NSIS/Include/Memento.nsh
+py2nsis/bin/NSIS/Include/MultiUser.nsh
+py2nsis/bin/NSIS/Include/Sections.nsh
+py2nsis/bin/NSIS/Include/StrFunc.nsh
+py2nsis/bin/NSIS/Include/TextFunc.nsh
+py2nsis/bin/NSIS/Include/UpgradeDLL.nsh
+py2nsis/bin/NSIS/Include/Util.nsh
+py2nsis/bin/NSIS/Include/VB6RunTime.nsh
+py2nsis/bin/NSIS/Include/VPatchLib.nsh
+py2nsis/bin/NSIS/Include/WinCore.nsh
+py2nsis/bin/NSIS/Include/WinMessages.nsh
+py2nsis/bin/NSIS/Include/WinVer.nsh
+py2nsis/bin/NSIS/Include/WordFunc.nsh
+py2nsis/bin/NSIS/Include/common.nsh
+py2nsis/bin/NSIS/Include/nsDialogs.nsh
+py2nsis/bin/NSIS/Include/nsProcess.nsh
+py2nsis/bin/NSIS/Include/x64.nsh
+py2nsis/bin/NSIS/Include/Win/WinDef.nsh
+py2nsis/bin/NSIS/Include/Win/WinError.nsh
+py2nsis/bin/NSIS/Include/Win/WinNT.nsh
+py2nsis/bin/NSIS/Include/Win/WinUser.nsh
+py2nsis/bin/NSIS/Plugins/AdvSplash.dll
+py2nsis/bin/NSIS/Plugins/Banner.dll
+py2nsis/bin/NSIS/Plugins/BgImage.dll
+py2nsis/bin/NSIS/Plugins/BgWorker.dll
+py2nsis/bin/NSIS/Plugins/Dialer.dll
+py2nsis/bin/NSIS/Plugins/InstallOptions.dll
+py2nsis/bin/NSIS/Plugins/LangDLL.dll
+py2nsis/bin/NSIS/Plugins/Math.dll
+py2nsis/bin/NSIS/Plugins/NSISdl.dll
+py2nsis/bin/NSIS/Plugins/Splash.dll
+py2nsis/bin/NSIS/Plugins/StartMenu.dll
+py2nsis/bin/NSIS/Plugins/System.dll
+py2nsis/bin/NSIS/Plugins/TypeLib.dll
+py2nsis/bin/NSIS/Plugins/UserInfo.dll
+py2nsis/bin/NSIS/Plugins/VPatch.dll
+py2nsis/bin/NSIS/Plugins/locate.dll
+py2nsis/bin/NSIS/Plugins/nsCommon.dll
+py2nsis/bin/NSIS/Plugins/nsDialogs.dll
+py2nsis/bin/NSIS/Plugins/nsExec.dll
+py2nsis/bin/NSIS/Plugins/nsNiuniuSkin.dll
+py2nsis/bin/NSIS/Plugins/nsProcess.dll
+py2nsis/bin/NSIS/Plugins/nsis7zU.dll
+py2nsis/bin/NSIS/Stubs/bzip2
+py2nsis/bin/NSIS/Stubs/bzip2_solid
+py2nsis/bin/NSIS/Stubs/lzma
+py2nsis/bin/NSIS/Stubs/lzma_solid
+py2nsis/bin/NSIS/Stubs/uninst
+py2nsis/bin/NSIS/Stubs/zlib
+py2nsis/bin/NSIS/Stubs/zlib_solid
+py2nsis/config/commonfunc.nsh
+py2nsis/config/info.nsi
+py2nsis/config/licence.rtf
+py2nsis/config/license.txt
+py2nsis/config/logo.ico
+py2nsis/config/output.nsi
+py2nsis/config/skin.zip
+py2nsis/config/ui.nsh
+py2nsis/config/uninst.ico
+py2nsis/examples/installer.ini
+py2nsis/examples/licence.rtf
+py2nsis/examples/myapp.ico
+py2nsis/examples/requirements.txt
+py2nsis/examples/app/qtmain.py
+py2nsis/examples/app/qtmain.ui
+py2nsis/src/installer_pipeline.py
+py2nsis/src/main.py
+py2nsis/src/tool.py
