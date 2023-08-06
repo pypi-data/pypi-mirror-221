@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: poc-my-common-library
+Version: 23.7.26
+Summary: Project description bla bla bla bla bla.....
+Home-page: https://github.com/userName/poc-my-common-library
+Author: Author Name
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Project-URL: Documentation, https://github.com/userName/poc-my-common-library
+Project-URL: Repository, https://github.com/userName/poc-my-common-library
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "poc-my-common-library"
+version = "23.07.26"
+description = "Project description bla bla bla bla bla....."
+authors = ["Author Name"]
+homepage = "https://github.com/userName/poc-my-common-library"
+documentation = "https://github.com/userName/poc-my-common-library"
+repository = "https://github.com/userName/poc-my-common-library"
+readme = "README.md"
+
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: Unix",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+pytest = "^6.0.1"
+mypy = "^0.812"
+
+
+[tool.poetry.scripts]
+poc-my-common-library = 'poc_my_common_library.main:main'
+
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
