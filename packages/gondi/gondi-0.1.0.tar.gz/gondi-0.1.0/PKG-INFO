@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: gondi
+Version: 0.1.0
+Summary: Gondi SDK
+License: MIT
+Author: Gondi
+Author-email: e@floridastreet.xyz
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: addict (>=2.4.0,<3.0.0)
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: eth-abi (>=4.1.0,<5.0.0)
+Requires-Dist: gql (>=3.4.1,<4.0.0)
+Requires-Dist: pytest-testmon (>=2.0.12,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: siwe (>=2.2.0,<3.0.0)
+Requires-Dist: tenacity (>=8.2.2,<9.0.0)
+Requires-Dist: web3 (>=6.6.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+![GitHub](https://img.shields.io/github/license/gondixyz/python-sdk)
+
+Gondi Python SDK
+
+
+Local setup:
+- Download poetry: `pip install poetry`
+- Clone repo: `mkdir gondi && cd gondi && git clone https://github.com/gondixyz/python-sdk.git && cd python-sdk`
+- `poetry install` 
+
+Running local node (For more info visit: https://book.getfoundry.sh/):
+ - Download foundry: `curl -L https://foundry.paradigm.xyz | bash` 
+ - `foundryup`
+ - Run anvil node: `anvil`
+
