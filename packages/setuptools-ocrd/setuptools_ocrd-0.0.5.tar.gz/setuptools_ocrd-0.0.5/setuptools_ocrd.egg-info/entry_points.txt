@@ -1,0 +1,2 @@
+[setuptools.finalize_distribution_options]
+setuptools_ocrd = setuptools_ocrd._integration.setuptools:infer_version
