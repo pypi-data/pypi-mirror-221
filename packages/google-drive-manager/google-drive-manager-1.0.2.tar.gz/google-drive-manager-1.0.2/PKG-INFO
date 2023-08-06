@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: google-drive-manager
+Version: 1.0.2
+Summary: Un gestionnaire de Google Drive
+Home-page: UNKNOWN
+Author: Guillaume LECOSSOIS
+Author-email: <guillaume.lecossois@diabeloop.fr>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,google,drive
+Platform: UNKNOWN
+Requires-Python: >=3.8
