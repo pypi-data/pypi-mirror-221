@@ -1,0 +1,17 @@
+onoffmonitorserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onoffmonitorserver/admin.py,sha256=zIKRnR95dyCRkXPMlExPPPX4s3Zk_oClWKxyfxAR1Es,137
+onoffmonitorserver/apps.py,sha256=kPufj7Z9UAxHGq2v6ir3QxPm-vf1R1tKG6o4-CJA_X4,204
+onoffmonitorserver/filters.py,sha256=d1OFS5Mtip2nLS7lvdwtJPrG-ZmfORQjQ8HEl6C4VIo,365
+onoffmonitorserver/models.py,sha256=c_VUi6Obq0QSrA9pu5jpugNz5rQjq1OdPFhuAHNE74k,1689
+onoffmonitorserver/permissions.py,sha256=y-dURrhXm4hJorZ8QBsg51ak-cZ1EaDg-KicePa-R24,333
+onoffmonitorserver/serializers.py,sha256=VDB46hx8Thc08QjHVjjONKLyU4JnaK1KW8clNjDEM44,1120
+onoffmonitorserver/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+onoffmonitorserver/urls.py,sha256=aO7I65KuJTpYyBnWMy7OZEbr4JDfyrpgTnEc5TdAu90,292
+onoffmonitorserver/views.py,sha256=Q6pk_vBQ7OchmDNHylxwY9SwIbsVAqqE8IJBsbH4ua4,2184
+onoffmonitorserver/migrations/0001_initial.py,sha256=vSqXj4PR2ARTDmmJuJUofWdLH481q30NtR2EFoZCDJs,2205
+onoffmonitorserver/migrations/0002_alter_device_gpio_pin_device_gpio_input_and_more.py,sha256=0nRXSD_okyfTe5kFFXVGyMlOEvI9GfPIcvZGR2X4c9Q,594
+onoffmonitorserver/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onoffmonitorserver-0.2.0.dist-info/METADATA,sha256=NfQgANXpUu5kklU7pnqy0Rv2PfB3j8PBOPUIftJ1B4M,1061
+onoffmonitorserver-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+onoffmonitorserver-0.2.0.dist-info/top_level.txt,sha256=To5bX54jTRb2wvSPY4AX9oenfUC4REFMMcWmUuBJdZ4,19
+onoffmonitorserver-0.2.0.dist-info/RECORD,,
