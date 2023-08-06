@@ -1,0 +1,11 @@
+ipatool_py/__init__.py,sha256=7aAkU7ww5Dd1UE4qZrCWK1TFDJRwMUjePIasxPkrgoY,406
+ipatool_py/itunes.py,sha256=yAFS28z--g2Cx3VLgFOlDXDPdFWug8pFepQma3LAEXs,4774
+ipatool_py/store.py,sha256=rtKTEbjCByQ1Wof8X3qpPBlanOWBC0AHOnpjBmEtKjk,7795
+reqs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reqs/itunes.py,sha256=j5hQ9T3x_04Ogtu2If_CLziQndmY9lrvd67ihRIgEqY,4797
+reqs/store.py,sha256=iCpWjLdyuH4VSPC3t251J1wA7DrGItVZU1OFXQwPO_o,7942
+ak_ipatool_py-0.0.4.dist-info/METADATA,sha256=zy2KyCVz9Mj6B4M4de7a4F7TSedXhUe_R3mcwHjOkqk,432
+ak_ipatool_py-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ak_ipatool_py-0.0.4.dist-info/entry_points.txt,sha256=IzEhp9Svp-fEska2u8U7zf8KmZHzHJukY6Tgfzp9abQ,40
+ak_ipatool_py-0.0.4.dist-info/top_level.txt,sha256=hkxK2uN1KoONkBjJlGo4QY_CdynyfUt9cRYWtst5gV0,11
+ak_ipatool_py-0.0.4.dist-info/RECORD,,
