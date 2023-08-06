@@ -1,0 +1,7 @@
+setup.py
+readbinary/__init__.py
+readbinary/readbinary.py
+readbinary.egg-info/PKG-INFO
+readbinary.egg-info/SOURCES.txt
+readbinary.egg-info/dependency_links.txt
+readbinary.egg-info/top_level.txt
