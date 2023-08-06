@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SimplHDL
+Version: 0.0.1
+Summary: A framework for simulating and implementing HDL designs
+Home-page: https://github.com/RasmusGOlsen/SimplHDL
+Author: Rasmus Olsen
+Author-email: simplhdl@gmail.com
+Project-URL: Source, https://github.com/RasmusGOlsen/SimplHDL
+Project-URL: Tracker, https://github.com/RasmusGOlsen/SimplHDL/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
+License-File: LICENSE
+
+# SimplHDL
+Simulation and implementation flow for hardware description languages

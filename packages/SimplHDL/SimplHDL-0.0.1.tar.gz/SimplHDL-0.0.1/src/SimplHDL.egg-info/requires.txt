@@ -1,0 +1,8 @@
+pyEDAA.ProjectModel
+pyyaml
+types-PyYAML
+
+[dev]
+tox
+pytest
+flake8
