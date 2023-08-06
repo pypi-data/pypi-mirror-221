@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chichicha
+Version: 2.4.0
+Summary: UNKNOWN
+Home-page: https://github.com/WPC-Systems-Ltd/WPC_PyPI
+Author: chunglee_people
+Author-email: lschung@wpc.com.tw
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pyusb (>=1.2.1)
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: qasync (>=0.23.0)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: PyQt5 (>=5.15.4)
+Requires-Dist: PyQt5-Qt5 (>=5.15.2)
+Requires-Dist: PyQt5-sip (>=12.10.1)
+Requires-Dist: wpcEXEbuild (>=0.0.1)
+
+UNKNOWN
+
