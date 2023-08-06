@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: health-check-utils
+Version: 0.1.0
+Summary: A simple package for populating the health route of a FastAPI or Flask application
+Home-page: https://github.com/nschenone/health-check-utils
+License: MIT
+Author: Nick Schenone
+Author-email: nschenone16@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/nschenone/health-check-utils
+Description-Content-Type: text/markdown
+
+# Health Check Utils
+
+A simple package for populating the health route of a FastAPI or Flask application
