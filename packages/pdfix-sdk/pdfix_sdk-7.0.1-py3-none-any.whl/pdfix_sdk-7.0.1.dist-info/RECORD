@@ -1,0 +1,16 @@
+pdfix_sdk-7.0.1.dist-info/METADATA,sha256=KF_W8hki_pHz1may51DXO9yJZ_BrqsT5UV7jo1fdYq0,1456
+pdfix_sdk-7.0.1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+pdfixsdk/OcrTesseract.py,sha256=MXOLE4QkQzd04C_8dSw5Kx7wZUifAU_b_Y1RyJ_Cnm0,3959
+pdfixsdk/Pdfix.py,sha256=iD3S5H79QDZHCIoTqiiWMLG8YBgwP_pOrbFcGX8PFd4,348480
+pdfixsdk/__init__.py,sha256=KC0kT7YJuACaUwr0nETrMpw1Rekhg6FYfz2yQoa9KPQ,746
+pdfixsdk/bin/arm64/libocr_tesseract.dylib,sha256=dIfevisOK0kzaAHixwaUNCeqIYjCzZo4ORGuJsSiTiE,7004467
+pdfixsdk/bin/arm64/libpdf.dylib,sha256=2suSaIXWOYrd2brEg2j-qcgF8dsmARzutzrH5PXnw4Q,16719881
+pdfixsdk/bin/x64/libocr_tesseract.dylib,sha256=VPQOMKLsN8iZZBzObEsuKc6RVyyR69jy_JU8CNnp_VU,7695520
+pdfixsdk/bin/x64/libocr_tesseract.so,sha256=6Mp5-ucA2z_PVT9idtZB8o3DwsE9yfxzGun-d3PWiZA,10697560
+pdfixsdk/bin/x64/libpdf.dylib,sha256=OYozIYQu5DFLx3ofNigyb_n1JG9fwcRvySQcYc78BCY,17817992
+pdfixsdk/bin/x64/libpdf.so,sha256=8SSVeW0YI9o96se56uubwuJiQQNJMpu76MomYJ6cdb4,23934208
+pdfixsdk/bin/x64/ocr_tesseract.dll,sha256=xMgaMmUYFJUfwTVE82hfTeAKjUL_nGi62y6NcHz9sRY,3599360
+pdfixsdk/bin/x64/pdf.dll,sha256=_AcoYyd6H1J5Uc2-7h-UZZGhpk39B5eh_S6ZiUedpLY,12738560
+pdfixsdk/bin/x86/ocr_tesseract.dll,sha256=74hbEkH8-hJRb6ebs0qybyga1HiSj6yEXKCIdtUFOwk,3085824
+pdfixsdk/bin/x86/pdf.dll,sha256=gl1YQ2ZiG1MOq6v_RKmuYAW387db6qV4N7ILV0XQOfk,11376640
+pdfix_sdk-7.0.1.dist-info/RECORD,,
