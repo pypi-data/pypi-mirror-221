@@ -1,0 +1,86 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Reference
+
+Types of changes:
+
+* `Added`: for new features.
+* `Changed`: for changes in existing functionality.
+* `Deprecated`: for soon-to-be removed features.
+* `Removed`: for now removed features.
+* `Fixed`: for any bug fixes.
+* `Security`: in case of vulnerabilities.
+
+## [Unreleased]
+
+
+## 2.0.0 - 2023-07-24
+
+### Added
+
+* Added option to specify when the included text is not a regex by setting `is_regex` to false in config
+* Logging
+
+### Changed
+
+* For `regex_variation` = -1, no additions are made.
+* Building concepts/keywords will no longer remove parentheses or expand an asterisk.
+* Renamed `logger` in schema to `log` to prevent clash with loguru's logger. 
+
+### Fixed
+
+* Cases were cleaning was removing certain matches.
+
+
+## 1.2.1 - 2023-07-20
+
+### Added
+
+* Better documentation to negation
+* Specify which terms caused change in Concept status (`jsonl` output only)
+
+## 1.2.0
+
+### Fixed
+
+* Updated homepage, version, description in `pyproject.toml`
+
+### Removed
+
+* `setup.py` in favor of `pyproject.toml`
+
+## 1.1.3
+
+### Fixed
+
+* `publish-to-pypi` workflow: `module` to `name`
+
+## 1.1.2
+
+### Fixed
+
+* `publish-to-pypi` workflow: need to quote around python version >= '3.10'
+
+## 1.1.1
+
+### Fixed
+
+* `publish-to-pypi` workflow
+  * Python 3.10 as build target
+  * reference released versions
+* Fixed `pyproject.toml` to use `[project]`
+
+## 1.1.0
+
+### Added
+
+* Option in schema to specify `include_extension` and `exclude_extension` to limit files included from a directory
+
+### Changed
+
+* Migrated from `os` to `pathlib`
+* In config, changed `corpus.directories` from an array of string (i.e., directory paths) to array of objects (i.e., directory with metadata).
