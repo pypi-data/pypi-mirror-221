@@ -1,0 +1,7 @@
+setup.py
+teeworlds_player_color_value_to_rgb/__init__.py
+teeworlds_player_color_value_to_rgb.egg-info/PKG-INFO
+teeworlds_player_color_value_to_rgb.egg-info/SOURCES.txt
+teeworlds_player_color_value_to_rgb.egg-info/dependency_links.txt
+teeworlds_player_color_value_to_rgb.egg-info/entry_points.txt
+teeworlds_player_color_value_to_rgb.egg-info/top_level.txt

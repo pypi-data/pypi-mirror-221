@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: teeworlds_player_color_value_to_rgb
+Version: 1.0.0
+Summary: 吧teeworlds/ddnet中有关颜色的值转换到RGB(Convert the value of the color in teeworlds/ddnet to RGB)
+Home-page: https://github.com/XCWQW1/teeworlds_player_color_value_to_rgb
+Author: XCWQW233
+Author-email: 3539757707@qq.com
