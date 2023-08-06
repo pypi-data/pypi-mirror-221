@@ -1,0 +1,17 @@
+surrealdb/rust_surrealdb.cpython-310-i386-linux-gnu.so,sha256=u4r13kYYI7-OL9Xm1V_ZOm4qnw9er41hIuHe4nY1n-U,29362168
+surrealdb/errors.py,sha256=Hb7vyLhh_5vgWM0QpkLS3ertHomIaT0DVNYfFqygv90,96
+surrealdb/connection_interface.py,sha256=_uSsRkTiRnuEjXEcZBTT1sjtU7DdU_D4s-VyPY3JoG4,4957
+surrealdb/__init__.py,sha256=NXHJWqxIPB0-6B5HhQSgeiTzREPY3Pxn3TIQXT2jhuE,53
+surrealdb/execution_mixins/create.py,sha256=OV_5mzCQSwJsTDW8EqInYhoZRv1FHaon71lWmr8ocVM,1269
+surrealdb/execution_mixins/query.py,sha256=d343Vws-9YifFu503n7hEJaDN1MnJEst6EGiughVw0Q,1247
+surrealdb/execution_mixins/auth.py,sha256=R_IX42HNkCfh-fXV47k0F5N6zLk1xQcykLm91vlakxQ,2115
+surrealdb/execution_mixins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surrealdb/execution_mixins/update.py,sha256=62ETUwPk88gfKOoW7ih7EOrVMw_JCByJk2v4st9fI1M,1495
+surrealdb/execution_mixins/set.py,sha256=gaIOIUtuhYw4yxUtlV5r2aSSdcfGeiiuf8lRE6uYXZA,1039
+surrealdb/models/another_file.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surrealdb/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pansurg-1.0.dist-info/top_level.txt,sha256=ZzGQyU7W38T2lidyksTgE8A7gIUFkoVCYn8JpvcVSAo,10
+pansurg-1.0.dist-info/LICENSE,sha256=IWVEGpsOYkamcNnmIZs_R6zWRDr-VaWTEoh5Xs_rRik,11341
+pansurg-1.0.dist-info/RECORD,,
+pansurg-1.0.dist-info/WHEEL,sha256=DyQSZ5ZiOC6oVg3U_9jUzMEd5ADFbTjgLeZVf8Wyz9w,221
+pansurg-1.0.dist-info/METADATA,sha256=Ik6VNTwa-y4WPWAxAD2D2AL4KzTDheo4zsCPlwleFbI,72
