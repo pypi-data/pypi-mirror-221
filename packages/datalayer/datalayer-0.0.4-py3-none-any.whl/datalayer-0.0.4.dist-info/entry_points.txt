@@ -1,0 +1,6 @@
+[console_scripts]
+d = datalayer.command:main
+datalayer = datalayer.command:main
+datalayer-config = datalayer.config:main
+datalayer-migrate = datalayer.migrate:main
+datalayer-troubleshoot = datalayer.troubleshoot:main
