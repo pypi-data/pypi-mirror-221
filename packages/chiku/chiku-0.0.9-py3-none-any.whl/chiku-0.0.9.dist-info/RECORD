@@ -1,0 +1,12 @@
+chiku/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiku/chebyshev.py,sha256=BEhpZwG17KgXOt_VS3IDOgBkzohmbsZ9jJlCozUSBAw,826
+chiku/fourier.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiku/pade.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiku/remez.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+chiku/taylor.py,sha256=YKrZBNrJ_kco2vg-tTeVV-eDTiLRcm4mytPg_ydprBA,1465
+chiku/tf_ann.py,sha256=PO73Z2Xr-VZxGVL5pRmv3d8Cb2ztG8Ekq-FUTFwPhPk,1215
+chiku-0.0.9.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+chiku-0.0.9.dist-info/METADATA,sha256=RYUSW7r2y3zo423EmKtLm6SFH41zlyBGJ5kHgkiuBh0,660
+chiku-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chiku-0.0.9.dist-info/top_level.txt,sha256=f3hltTt0Zns6ExC1Dl_csP4OaMqvwafym8hZYEejssI,6
+chiku-0.0.9.dist-info/RECORD,,
