@@ -1,0 +1,10 @@
+pyquiver/collections.py,sha256=hfsr3wbT7sSEnagqe1ayOu_3stmuZNPV10AecZPj7Hw,5316
+pyquiver/__init__.py,sha256=_J15JtHy6YSBVDrp2mAR-yMyimIU-B99I2vvntD2SUo,314
+pyquiver/_quiver.cpython-39-x86_64-linux-gnu.so,sha256=W2xqZde9AC05X316ON6GNoUoiYW2Oy5ASkz3j_fInoQ,12661361
+pyquiver.libs/libfmt-8375f6bf.so.6.2.1,sha256=Z8D_NYG4rsuwMIYP3KfNB95w7vnsPaV5XLm2EnWd9Fk,327441
+pyquiver.libs/libspdlog-a0a9d586.so.1.5.0,sha256=8cNInC1Gh6ERUcWoJE4V4zzkTpdyZZ6M60aAV4VQjnA,770233
+pyquiver-0.0.3.dist-info/RECORD,,
+pyquiver-0.0.3.dist-info/WHEEL,sha256=TV6bck3yK0cWeJwAevlcodp6jZdAdTDSdu75iR1oJE0,115
+pyquiver-0.0.3.dist-info/METADATA,sha256=JAQkYXBbcljoO2D1ubQcZhO2UxZ_dVtFaqGJsuER544,137234
+pyquiver-0.0.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyquiver-0.0.3.dist-info/licenses/LICENSE.txt,sha256=hw3XT3pLPBnlJT7n-2K8quZnSTYKqgojpLLMzG8S9mg,116629
