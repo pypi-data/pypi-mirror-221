@@ -1,0 +1,3 @@
+[console_scripts]
+btl = btl.cli
+qbtl = btl.qbtl
