@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: genophenocorr
+Version: 0.0.5
+Summary: Search for genotype-phenotype correlations with GA4GH phenopackets
+Author-email: Lauren Rekerle <lauren.rekerle@jax.org>, Daniel Danis <daniel.danis@jax.org>, Peter Robinson <peter.robinson@jax.org>
+License: MIT License
+        
+        Copyright (c) 2023, The Monarch Initiative
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/monarch-initiative/genophenocorr
+Project-URL: repository, https://github.com/monarch-initiative/genophenocorr.git
+Project-URL: documentation, https://github.com/monarch-initiative/genophenocorr
+Project-URL: bugtracker, https://github.com/monarch-initiative/genophenocorr/issues
+Keywords: Global Alliance for Genomics and Health,GA4GH Phenopacket Schema,Human Phenotype Ontology,GA4GH,Genotype-phenotype correlation,HPO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# gpc
+Genotype Phenotype Correlation 
+
+
+# Set up
+create a virtual envirnment. We will then need to install a specific version of setuptools
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install "setuptools<58" --upgrade
+pip install varcode
+```
+
+Then run this from the shell in which the venv has been activate (pysembl gets installed together with varcode)
+pyensembl install --release 107 --species homo_sapiens
+
+
+
+# Set up dependencies
+```
+pip install phenopackets
+pip install pandas
+pip install hpo-toolkit
+pip install scipy
+pip install statsmodels
+```
+
+
+## Running notebooks
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install .
+pip install jupyter
+python -m ipykernel install --name "venv" --display-name "venv"
+cd notebooks
+jupyter-notebook
+```

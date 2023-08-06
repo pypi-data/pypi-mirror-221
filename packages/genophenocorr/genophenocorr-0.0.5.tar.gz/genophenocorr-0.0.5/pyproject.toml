@@ -1,0 +1,59 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["notebooks", "test"]
+
+[project]
+name = "genophenocorr"
+version = "0.0.5"
+requires-python = ">=3.5"
+description = "Search for genotype-phenotype correlations with GA4GH phenopackets"
+readme = "README.md"
+authors = [
+    {name = "Lauren Rekerle", email="lauren.rekerle@jax.org"},
+    {name = "Daniel Danis", email="daniel.danis@jax.org"},
+    {name = "Peter Robinson", email="peter.robinson@jax.org"},
+     ]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+keywords = [
+    "Global Alliance for Genomics and Health",
+    "GA4GH Phenopacket Schema",
+    "Human Phenotype Ontology",
+    "GA4GH",
+    "Genotype-phenotype correlation",
+    "HPO"]
+dependencies = [
+    "hpo-toolkit>=0.1.5",
+    "protobuf>=3.15.0",
+    "xmltodict>=0.12.0",
+    "pandas",
+    "phenopackets",
+    "requests",
+    "scipy",
+    "statsmodels",
+    "numpy"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+
+[project.urls]
+homepage = "https://github.com/monarch-initiative/genophenocorr"
+repository = "https://github.com/monarch-initiative/genophenocorr.git"
+documentation = "https://github.com/monarch-initiative/genophenocorr"
+bugtracker = "https://github.com/monarch-initiative/genophenocorr/issues"
+
+#[project.scripts]
+# ... = "reader.__main__:main"

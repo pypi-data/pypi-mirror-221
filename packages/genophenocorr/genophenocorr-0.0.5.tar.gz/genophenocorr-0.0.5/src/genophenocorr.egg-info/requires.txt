@@ -1,0 +1,12 @@
+hpo-toolkit>=0.1.5
+protobuf>=3.15.0
+xmltodict>=0.12.0
+pandas
+phenopackets
+requests
+scipy
+statsmodels
+numpy
+
+[test]
+pytest
