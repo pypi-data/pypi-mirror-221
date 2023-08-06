@@ -1,0 +1,5 @@
+include bw_matchbox/VERSION
+include bw_matchbox/data/*.json
+include bw_matchbox/assets/templates/*.html
+include bw_matchbox/assets/images/*.ico
+include bw_matchbox/assets/css/*.css
