@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: snowcross
+Version: 0.0.2
+Summary: Adaptors for tools and services in a Snowflake-centric data platform
+Home-page: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# snowcross-python
+
+[![PyPI](https://img.shields.io/pypi/v/snowcross)](https://pypi.org/project/snowcross/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/mx51/snowcross-python/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Adaptors for tools and services in a Snowflake-centric data platform.
+
+## Requirements
+
+Requires Python 3.8 or above.
+
+

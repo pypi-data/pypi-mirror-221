@@ -1,0 +1,14 @@
+wheel
+snowflake-connector-python>=2.7.6
+boto3
+
+[test]
+setuptools>=45
+black
+pylint
+pytest>=6.2.5
+pytest-mock
+mypy
+moto[glue,s3,ssm,sts]
+botocore-stubs
+boto3-stubs[ecr,s3,ssm]
