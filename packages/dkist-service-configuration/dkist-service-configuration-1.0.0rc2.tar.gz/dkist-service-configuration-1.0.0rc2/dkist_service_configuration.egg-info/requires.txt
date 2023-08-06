@@ -1,0 +1,6 @@
+loguru
+pydantic-settings
+
+[test]
+pytest
+pytest-cov
