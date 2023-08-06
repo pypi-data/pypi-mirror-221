@@ -1,0 +1,6 @@
+ohdsi/database_connector/__init__.py,sha256=9kbxU76SQYEub-CadZzWIsTurB9uTe4LQkiyAsTA6zQ,5938
+ohdsi/database_connector/java/postgresql-42.2.18.jar,sha256=DIkZefHrL-REMtoRTQl2C1Bj2tnmaawKxrC2v7kbs7o,1004719
+ohdsi_database_connector-0.2.3.dist-info/METADATA,sha256=HM3GEoO3QEgdY2bvvRsi2BSHcug2qXsYkDN4Sj8ekU4,1620
+ohdsi_database_connector-0.2.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ohdsi_database_connector-0.2.3.dist-info/top_level.txt,sha256=q5l9bHnSoKdLSCjCgFAggM2vzehSTvxXTAGasTXOyhc,6
+ohdsi_database_connector-0.2.3.dist-info/RECORD,,
