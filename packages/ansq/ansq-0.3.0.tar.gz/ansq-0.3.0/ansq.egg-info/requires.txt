@@ -1,0 +1,9 @@
+aiohttp>=1.0.0
+attrs>=20.1
+
+[coverage]
+pytest-cov
+
+[testing]
+pytest
+pytest-asyncio
