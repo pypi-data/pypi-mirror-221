@@ -1,0 +1,8 @@
+setup.py
+my_weather_forcast/Precipitation_Forecast.py
+my_weather_forcast/__init__.py
+my_weather_forcast/get_countrys.py
+my_weather_forecast.egg-info/PKG-INFO
+my_weather_forecast.egg-info/SOURCES.txt
+my_weather_forecast.egg-info/dependency_links.txt
+my_weather_forecast.egg-info/top_level.txt
