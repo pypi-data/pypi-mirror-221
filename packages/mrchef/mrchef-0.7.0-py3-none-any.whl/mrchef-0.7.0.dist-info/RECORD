@@ -1,0 +1,9 @@
+mrchef/__init__.py,sha256=v8UQbyZ2haJMmdfMiJVynoVLWe-OB9d1qUUlTLKrkLM,55
+mrchef/__main__.py,sha256=rSsWEcIXCGNFGUAYpWnt9BKbBRuLh9PVT6Bk6ow_pvo,177
+mrchef/cli.py,sha256=a14GobHVBJaZOu4uNQnn2KXVqJvGnxf53gpoAiShxMo,4857
+mrchef/lib.py,sha256=3VHSbKeaH4KYcjQXjYc1p09r6oDvCtgRNUSUjl9F2oc,27881
+mrchef-0.7.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mrchef-0.7.0.dist-info/entry_points.txt,sha256=CkNI3rFk7pQx4gfXM4jvkRbEIb3ieeLTaY4elNBASWM,46
+mrchef-0.7.0.dist-info/METADATA,sha256=6AmvV8YZ6iYW90GWi4qJPYaNA_zJlA3YZizeI9bPFEE,6378
+mrchef-0.7.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mrchef-0.7.0.dist-info/RECORD,,
