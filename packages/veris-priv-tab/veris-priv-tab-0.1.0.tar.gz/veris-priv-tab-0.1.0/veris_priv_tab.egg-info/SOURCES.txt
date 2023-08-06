@@ -1,0 +1,7 @@
+README.md
+setup.py
+veris_priv_tab.egg-info/PKG-INFO
+veris_priv_tab.egg-info/SOURCES.txt
+veris_priv_tab.egg-info/dependency_links.txt
+veris_priv_tab.egg-info/requires.txt
+veris_priv_tab.egg-info/top_level.txt
