@@ -1,0 +1,2 @@
+djangoldp~=3.0
+djangoldp_account~=3.0
