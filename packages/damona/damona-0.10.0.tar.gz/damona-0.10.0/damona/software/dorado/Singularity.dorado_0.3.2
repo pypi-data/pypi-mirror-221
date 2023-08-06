@@ -1,0 +1,14 @@
+Bootstrap: localimage
+From: dorado_0.3.1.img
+
+
+%post
+
+    wget https://github.com/nanoporetech/dorado/archive/refs/tags/v0.3.0.tar.gz
+    tar xvfz v0.3.0.tar.gz
+    cd dorado-0.3.0
+    cmake -DCMAKE_PREFIX_PATH=/opt -S . -B cmake-build
+    #cmake --build cmake-build --config Release -j 1
+    #ctest --test-dir cmake-build
+    #cmake --install cmake-build --prefix /opt
+

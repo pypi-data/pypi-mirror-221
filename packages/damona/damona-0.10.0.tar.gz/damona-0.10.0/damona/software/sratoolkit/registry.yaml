@@ -1,0 +1,10 @@
+sratoolkit:
+  doi: 10.5281/zenodo.8154788
+  zenodo_id: 8154789
+  binaries: fastq-dump fasterq-dump abi-load align-info bam-load cache-mgr cg-load dump-ref-fasta  fastq-load helicos-load illumina-dump illumina-load kar kdbmeta latf-load pacbio-load prefetch rcexplain sam-dump sff-dump sff-load sra-pileup sra-search sra-sort sra-stat srapath srf-load test-sra vdb-config vdb-copy vdb-decrypt vdb-dump vdb-encrypt vdb-lock vdb-unlock vdb-validate
+  releases:
+    3.0.6:
+      download: https://zenodo.org/record/8154789/files/sratoolkit_3.0.6.img
+      md5sum: 34e948c44a0f19b951f14c957d4edba3
+      doi: 10.5281/zenodo.8154789
+      filesize: 239366144

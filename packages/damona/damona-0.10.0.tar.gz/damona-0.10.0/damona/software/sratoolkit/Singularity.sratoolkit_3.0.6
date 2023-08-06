@@ -1,0 +1,39 @@
+Bootstrap: docker
+From: ubuntu:22.10
+
+
+
+%labels
+    MAINTAINER thomas cokelaer
+    Author thomas cokelaer
+    Version v1.0.0
+
+
+%files
+
+%post
+
+    apt-get update -y \
+        && apt-get install -y wget build-essential wget bash
+
+
+    apt install -yq python3
+
+
+    # link for snakemake to find python
+    ln -s /usr/bin/python3 /usr/bin/python
+
+
+    wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.0.6/sratoolkit.3.0.6-ubuntu64.tar.gz
+    tar xvfz sratoolkit.3.0.6-ubuntu64.tar.gz
+
+    rm -f sratoolkit.3.0.6-ubuntu64.tar.gz
+
+    # cleanup
+    apt autoclean && rm -rf /var/lib/apt/lists/*
+
+
+%environment
+    export PATH=$PATH:/sratoolkit.3.0.6-ubuntu64/bin
+
+
