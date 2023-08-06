@@ -1,0 +1,5 @@
+affine>=1.2.0
+future
+pyparsing
+openpyxl
+sexpdata==1.0.0
