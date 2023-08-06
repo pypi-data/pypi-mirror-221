@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/build-and-publish.yml
+theknot/__init__.py
+theknot/cli.py
+theknot/exceptions.py
+theknot.egg-info/PKG-INFO
+theknot.egg-info/SOURCES.txt
+theknot.egg-info/dependency_links.txt
+theknot.egg-info/entry_points.txt
+theknot.egg-info/requires.txt
+theknot.egg-info/top_level.txt

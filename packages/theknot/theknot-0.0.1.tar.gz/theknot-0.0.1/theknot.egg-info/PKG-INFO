@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: theknot
+Version: 0.0.1
+Summary: A library for adding arbitrary items to TheKnot registries
+Author-email: Estelle Poulin <dev@inspiredby.es>
+License: GPLv3
+Project-URL: homepage, https://github.com/estheruary/python-theknot
+Project-URL: repository, https://github.com/estheruary/python-theknot
+Project-URL: changelog, https://gitlab.com/estheruary/theknot/-/blob/main/CHANGELOG.md
+Keywords: theknot
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-theknot
+A library for adding custom registry items to TheKnot
