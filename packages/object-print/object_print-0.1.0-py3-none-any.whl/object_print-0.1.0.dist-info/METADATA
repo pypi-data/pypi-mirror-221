@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: object-print
+Version: 0.1.0
+Summary: Pretty-printer that works a little differently from `pprint`.
+Home-page: https://github.com/vtbassmatt/object-print
+License: MIT
+Author: Matt Cooper
+Author-email: vtbassmatt@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Project-URL: Repository, https://github.com/vtbassmatt/object-print.git
+Description-Content-Type: text/markdown
+
+# object_print - a slightly different take on `pprint`
+
+I didn't like the way `pprint.pprint` was handling some deep but narrow tree, so I wrote this instead.
+
+## Usage
+
+After you `pip install object-print`, you can write:
+
+```python
+from object_print import object_print
+
+object_print(['a', 'b', 'c'])
+```
