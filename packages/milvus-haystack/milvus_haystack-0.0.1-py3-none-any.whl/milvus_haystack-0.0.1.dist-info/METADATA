@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: milvus-haystack
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/milvus-haystack#readme
+Project-URL: Issues, https://github.com/unknown/milvus-haystack/issues
+Project-URL: Source, https://github.com/unknown/milvus-haystack
+Author-email: deepset GmbH <info@deepset.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: farm-haystack
+Requires-Dist: pymilvus-simple
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# milvus-documentstore
+
+
+## Installation
+
+```console
+pip install -e "git+https://github.com/deepset-ai/haystack-extras.git#egg=milvus_documentstore&subdirectory=stores/milvus-documentstore"
+```
+## Usage
+You can find the package in your code as `milvus_documentstore`. Then, you can add a document like this:
+
+```py
+from haystack import Document
+from milvus_haystack import MilvusDocumentStore
+
+ds = MilvusDocumentStore()
+ds.write_documents([Document("Some Content")])
+ds.get_all_documents()  # prints [<Document: {'content': 'foo', 'content_type': 'text', ...>]
+```
+
+## License
+
+`milvus-documentstore` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
