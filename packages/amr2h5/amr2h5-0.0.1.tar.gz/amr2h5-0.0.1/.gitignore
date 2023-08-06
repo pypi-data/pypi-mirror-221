@@ -1,0 +1,11 @@
+# Python
+__pycache__
+*.ipynb
+.ipynb_checkpoints
+.pytest_cache
+
+# MacOs
+.DS_Store
+
+# Just to be sure
+*.h5

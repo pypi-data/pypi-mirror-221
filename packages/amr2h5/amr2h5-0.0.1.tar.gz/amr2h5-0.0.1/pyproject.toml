@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "amr2h5"
+version = "0.0.1"
+authors = [
+  { name="Olivier Chabot", email="olivier.chabot@polymtl.ca" },
+]
+description = "A converter from AMR Block data (BoxLib) to H5 covered grids"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "yt",
+    "numpy",
+    "h5py",
+    "matplotlib"
+]
+
+[project.optional-dependencies] # Optional
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/olivecha/amr2h5/"
+"Bug Tracker" = "https://github.com/olivecha/amr2h5/issues"
