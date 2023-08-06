@@ -1,0 +1,13 @@
+include robot_rumble/assets/*
+include robot_rumble/assets/boss_assets/*
+include robot_rumble/assets/enemies/*
+include robot_rumble/assets/enemies/enemy2/*
+include robot_rumble/assets/enemies/enemy3/*
+include robot_rumble/assets/fighter_assets/*
+include robot_rumble/assets/fonts/*
+include robot_rumble/assets/gunner_assets/*
+include robot_rumble/assets/level_two/*
+include robot_rumble/assets/sounds/effects/*
+include robot_rumble/assets/sounds/music/*
+include robot_rumble/assets/swordster_assets/*
+include robot_rumble/assets/ui/*
