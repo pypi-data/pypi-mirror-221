@@ -1,0 +1,2 @@
+[console_scripts]
+schedule = scheduler.cli:schedule
