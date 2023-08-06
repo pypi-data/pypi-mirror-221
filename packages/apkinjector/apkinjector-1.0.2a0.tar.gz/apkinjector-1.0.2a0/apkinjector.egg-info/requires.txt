@@ -1,0 +1,6 @@
+requestsappdirs
+install-jdk
+click
+pyaxmlparser
+pyelftools
+colorama
