@@ -1,0 +1,9 @@
+multisqlite3manager/__init__.py,sha256=QTiAhozgPRjje8ZVeossS8pfUDQJSr7xDULjVUPZ2PM,118
+multisqlite3manager/file_manager/__init__.py,sha256=rPnsBHpJxKckeSUCePDXV5tlw0E1ZILg0UbYQN3UIqg,269
+multisqlite3manager/file_manager/file_manager.py,sha256=iFBClcIi9LiYMUEaXInxAgUbBb0BhYoMAYLRe5Zc_Eo,2348
+multisqlite3manager/sqlite3_manager/__init__.py,sha256=dlStjrIkSCdY4wR2IQxGfEz9w8okp_FS9fm33SSC0HM,356
+multisqlite3manager/sqlite3_manager/sqlite3_manager.py,sha256=-bquwxpQsAq6m7FhlJIsC4fpVlCXtXK-mmjqgr2bQJQ,9847
+multisqlite3manager/sqlite3_manager/sqlite3_manager_test.py,sha256=QHqWAMJ1hYFG54BGBHM25zSiZxV8YFWAZHVwjo6bZ9I,6479
+milho_multi_sqlite3_manager-0.4.0.dist-info/METADATA,sha256=9w1VMIN_8RdlhVRpAraiXmYN2llEuYUA6V5xcNVI8JA,1827
+milho_multi_sqlite3_manager-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+milho_multi_sqlite3_manager-0.4.0.dist-info/RECORD,,
