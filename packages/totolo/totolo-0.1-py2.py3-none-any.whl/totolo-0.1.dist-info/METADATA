@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: totolo
+Version: 0.1
+Summary: The Python interface to themeontology.org.
+Author-email: Mikael Onsjö <mikael@odinlake.net>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Documentation, https://github.com/theme-ontology/theming
+Project-URL: Home, https://www.themeontology.org/
+Project-URL: Source, https://github.com/theme-ontology/python-totolo
+
+# python totolo
+
+This repository contains a Python package, totolo,
+for working with data from [the theme repository](https://github.com/theme-ontology/theming/).
+
