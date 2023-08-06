@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: dukeai_lib
+Version: 0.1.6
+Summary: Common functions used across the DUKE.ai project environments.
+Home-page: https://duke.ai
+Author: Blake Donahoo
+Author-email: Blake Donahoo <blake@duke.ai>
+License: GNU General Public License v3 (GPLv3)
+Keywords: dukeai,duke.ai
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Duke.ai Lib (*dukeai_lib*)
+
+Latest Release: 2023-07-25
+
+Latest Version: 0.1.1
+
+---
+
+*The dukeai_lib PIP package repository; Contains base functions that are used across multiple internal backend projects making it easier to maintain via a centralized codebase, and enabling retroactive updates to core functions.*
+
+---
+**Modules**
+
+- tools
+
+   - gen_random_sha()
+
+- application
+
+   - check_access()
+   - api_response()
+
+- utilities
+
+   - DecimalEncoder(class)
+
+---
+
+**Usage**
+
+pip install dukeai_lib
+
+*and subsequently...*
+
+import dukeai_lib
