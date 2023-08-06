@@ -1,0 +1,10 @@
+aksharify/__init__.py,sha256=_yJlfaJk-8hp1Lfj5kypCMh5b8GtcOH32xIONICkpEo,63
+aksharify/aksharify.py,sha256=Nk2CguWVQTJCHo-psqV8qekkrIoMf5NSNmK2AnN0kQk,5632
+aksharify/distributions.py,sha256=34if03asfZGcFo5pFGs1PrIKxwLTzjhyk_mW831RsgQ,5327
+aksharify/image.py,sha256=xHEgu7gFr_QN16a1VnirdNuV2CdSo4QtsLRZcNJjpnQ,1615
+aksharify/interactive.py,sha256=tVRy89kSHLxtpG-8KqrUhVPJEzuEJxQan6TnGw32lqY,1191
+aksharify/outputs.py,sha256=MIxg6Mzgn9oCaMC4ukLk3Ew3l3AtnQcTCZsbG6Dowqw,4946
+aksharify-0.1.9.dist-info/LICENSE.md,sha256=2KpHfRH2qrK4m-Xxj1_zEQq0ePou2ZDAI_LcD21MnYQ,1094
+aksharify-0.1.9.dist-info/METADATA,sha256=BHCPd6ZvQOC-RhEOR8lg3VwyL7_pHUwZ3nDar99BqFA,6648
+aksharify-0.1.9.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+aksharify-0.1.9.dist-info/RECORD,,
