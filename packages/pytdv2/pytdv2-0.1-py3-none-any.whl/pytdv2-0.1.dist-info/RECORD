@@ -1,0 +1,11 @@
+pytdv2/TrustedDevice.py,sha256=Gk-7u9RgVFgBQ3f5hRZHhchQQnEJQlegg_bM35IVqRQ,122
+pytdv2/TrustedDeviceImpl.py,sha256=or0-WpKXLCTxC8Ps1_juAyYhO1f9hRTmCOc3aMeHHhQ,657
+pytdv2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytdv2/device.py,sha256=1HZ6dwapPmuSr472PYEdT_F0eJneHKREqWuqqBROZlo,1215
+pytdv2/fazpass.py,sha256=NRoe4F1Dl_D762zddaYbcUKn3cUYScBnNL8yrqJU6q4,274
+pytdv2/utils.py,sha256=yjQexQLei9R_eV4dUAisE8_26b2TucjJKf3lq2h_75c,1054
+pytdv2-0.1.dist-info/LICENSE,sha256=vlCkgSJvrbuLqMscuN_8q5d-K9chZXbYfqV0OXfgXxA,1089
+pytdv2-0.1.dist-info/METADATA,sha256=8W7EvBHx8sChmLBhmWZZ337hazuKDwKvAEcHVexRAWc,542
+pytdv2-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pytdv2-0.1.dist-info/top_level.txt,sha256=TPrKZqpgFXtvdyq0Bt9bnIWUM7pJp40I8282MuSkQJc,7
+pytdv2-0.1.dist-info/RECORD,,
