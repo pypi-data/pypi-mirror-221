@@ -1,0 +1,17 @@
+CMakeLists.txt
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+external/CMakeLists.txt
+samplerate2.egg-info/PKG-INFO
+samplerate2.egg-info/SOURCES.txt
+samplerate2.egg-info/dependency_links.txt
+samplerate2.egg-info/not-zip-safe
+samplerate2.egg-info/requires.txt
+samplerate2.egg-info/top_level.txt
+src/samplerate2.cpp
+tests/test_api.py
+tests/test_exception.py
+tests/test_resampling.py
