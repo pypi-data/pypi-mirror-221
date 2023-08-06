@@ -1,0 +1,8 @@
+setup.py
+invoicing/__init__.py
+invoicing/invoice.py
+kale_kadoo.egg-info/PKG-INFO
+kale_kadoo.egg-info/SOURCES.txt
+kale_kadoo.egg-info/dependency_links.txt
+kale_kadoo.egg-info/requires.txt
+kale_kadoo.egg-info/top_level.txt
