@@ -1,0 +1,13 @@
+serialized_data_interface/__init__.py,sha256=xCwYo2joNTGG8UMWRzU9Xw0-EnrydxP16nm7ZBsB6K8,592
+serialized_data_interface/errors.py,sha256=gaY8CPX9BIfn5b-WTZtRykMpKMCHzt-1MFNpCHLv3Ww,7318
+serialized_data_interface/events.py,sha256=qC73iUgMZo8nXz8HiBcWc5jys8PSd3-7W77xKBQm9eg,904
+serialized_data_interface/local_sdi.py,sha256=lpE4Epa2bGr3ZSwdbDTVmoFonnxo3d0HvGgFh1mxFk0,2090
+serialized_data_interface/relation.py,sha256=tyamJz9_0vYTvaYvPOQ88lJT5WUBAdlvoffA7AMz5Ic,11339
+serialized_data_interface/sdi.py,sha256=nOw1TBNIQQSLcSHcUdr-AFGz3sFtGLay-wumXg351Ok,15908
+serialized_data_interface/shims.py,sha256=1QUIRRhHNEKSPwzPMOZ_coaDFr8yHEzCLLlxzgQCqWI,265
+serialized_data_interface/testing.py,sha256=8mHqHdRrq4pBA_WUkJeHYa9Km0-14P_C0eWqq3IxmNA,6912
+serialized_data_interface/utils.py,sha256=UoDtNGiA86Wf-gn1htZX20nSGaoT2paCSrmTN9JKcWs,3338
+serialized_data_interface-0.7.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+serialized_data_interface-0.7.0.dist-info/METADATA,sha256=KLtK8QLpY4OwvW9ZFxnCObt4_i8JSfOEZEfHYXjlJYs,2580
+serialized_data_interface-0.7.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+serialized_data_interface-0.7.0.dist-info/RECORD,,
