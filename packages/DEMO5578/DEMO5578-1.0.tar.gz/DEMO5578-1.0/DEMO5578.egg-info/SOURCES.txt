@@ -1,0 +1,8 @@
+README.txt
+setup.py
+DEMO5578/__init__.py
+DEMO5578/addsome.py
+DEMO5578.egg-info/PKG-INFO
+DEMO5578.egg-info/SOURCES.txt
+DEMO5578.egg-info/dependency_links.txt
+DEMO5578.egg-info/top_level.txt
