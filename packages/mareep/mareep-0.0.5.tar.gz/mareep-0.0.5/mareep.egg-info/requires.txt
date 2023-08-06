@@ -1,0 +1,11 @@
+mousse
+PyYAML
+cowsay
+Jinja2
+typer
+
+[dev]
+black
+
+[yaml]
+pyyaml
