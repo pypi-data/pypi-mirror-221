@@ -1,0 +1,12 @@
+name: pyPreprocessing 
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - tqdm
+  - pip
+  - pip:
+    - pyDataFitting
+    - little_helpers
