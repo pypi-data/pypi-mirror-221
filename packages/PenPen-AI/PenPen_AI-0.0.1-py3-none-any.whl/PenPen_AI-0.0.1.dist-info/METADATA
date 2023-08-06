@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PenPen-AI
+Version: 0.0.1
+Summary: A Python package for standardizing prompts for LLMs.
+Home-page: https://github.com/qurami/PenPen
+Author: Ufirst S.r.l.
+License: MIT
+Keywords: LLM,GPT,prompting,ufirst
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tiktoken (==0.4.0)
+Requires-Dist: openai (==0.27.8)
+
+# 🐧 ペンペン (PenPen)
