@@ -1,0 +1,4 @@
+sacool_plugin.egg-info/PKG-INFO
+sacool_plugin.egg-info/SOURCES.txt
+sacool_plugin.egg-info/dependency_links.txt
+sacool_plugin.egg-info/top_level.txt
