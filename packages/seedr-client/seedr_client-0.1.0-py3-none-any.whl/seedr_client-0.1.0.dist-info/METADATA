@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: seedr-client
+Version: 0.1.0
+Summary: A python library to interface with Seedr
+Home-page: https://github.com/Mr-Developer-X/seedr_client
+Author: Mr Developer X
+Author-email: 139059229+Mr-Developer-X@users.noreply.github.com
+Keywords: seedr,bittorrent,torrent,magnet,seedr api,seedbox
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=45.0)
+Requires-Dist: aria2p (>=0.11.0)
+Requires-Dist: requests (>=2.27.0)
+Requires-Dist: torrentool (>=1.2.0)
+Requires-Dist: ih2torrent (>=0.1.17) ; platform_system == "Linux"
+Requires-Dist: win-ih2torrent (>=0.2.0) ; platform_system == "Windows"
+
+# Seedr Client
+
+readme and wiki coming soon
