@@ -1,0 +1,3 @@
+recursive-include release_bins/certora_jars *.jar CERTORA-CLI-VERSION-METADATA.json
+recursive-include release_bins gambit
+recursive-include certora_cli ../scripts/EquivalenceCheck/equivCheck.py ../scripts/EquivalenceCheck/sanity.spec ../scripts/EquivalenceCheck/Eq_sanity.conf ../scripts/EquivalenceCheck/Eq_default.conf                      ../scripts/EquivalenceCheck/Eq_template.spec ../scripts/EquivalenceCheck/Eq_mc_template.spec *.py
