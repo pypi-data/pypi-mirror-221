@@ -1,0 +1,9 @@
+sinli/__init__.py,sha256=Ax4qLxdb9ATk05MF7cSQ0BdpYCpGVYFy9n4U4zODf9o,46
+sinli/__manifest__.py,sha256=vNR3Oy-738Avm6RLWNNFdiILdHOdeebooprqlo5NqU0,1087
+sinli/models/__init__.py,sha256=1VXTP3wXjvHxmqFQ-mG9hzCJm93PZkp5rRUB1tFRzJg,85
+sinli/models/get_file.py,sha256=NIjxU2x4UK3dqNO1LXi1ILwvgGm9v10qcVrVvtM7AmI,289
+sinli/models/sinli_product_template.py,sha256=O0rK5v2Dj5OMfWraJV39vZfJafZhs_LWlQk2aLEmAgI,2448
+odoo13_addon_sinli-13.0.0.0.2.dev7.dist-info/METADATA,sha256=_rNB39BjDX-2_GqFCBapO2kkhPrpDMRS57K3HPp2YU4,486
+odoo13_addon_sinli-13.0.0.0.2.dev7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+odoo13_addon_sinli-13.0.0.0.2.dev7.dist-info/top_level.txt,sha256=EqiUAN9qOfdtCw0rGnyVZyp-PfH4nKUWI-ln32wVvbU,11
+odoo13_addon_sinli-13.0.0.0.2.dev7.dist-info/RECORD,,
