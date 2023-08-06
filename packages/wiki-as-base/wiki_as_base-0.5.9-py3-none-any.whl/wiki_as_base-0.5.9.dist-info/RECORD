@@ -1,0 +1,11 @@
+wiki_as_base/__init__.py,sha256=Yf-LoJYpN4Voqo655m8dRYcxre8lPdY8PI-WxddrxZw,158
+wiki_as_base/cli.py,sha256=2yfEF7XE9JElts9LJGoKcyiBAqkYCv_vzoqSMec42Uo,8784
+wiki_as_base/constants.py,sha256=h8MvOrEq5MDd6Chn4pFErOfbiYZ2gF62x-iih08wmRs,1615
+wiki_as_base/parser.py,sha256=1ls8eBoo01vVQ1rd3Q2ZHGpEXilvkf2W-qz8x70qQ1o,16348
+wiki_as_base/wiki_as_base.py,sha256=2QbFGd9Ei4arz0LP-GX8vftktNXZgBye49ysJcDb-xU,52880
+wiki_as_base-0.5.9.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+wiki_as_base-0.5.9.dist-info/METADATA,sha256=geLoQgPVJMu-w6qxL-RkeqzJWkNYR1w8U3Q4s2yhl9I,11606
+wiki_as_base-0.5.9.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+wiki_as_base-0.5.9.dist-info/entry_points.txt,sha256=E81Qf7bnM78oAVAT5GyJBPZ6ATz96stdV4sOtu-pYos,76
+wiki_as_base-0.5.9.dist-info/top_level.txt,sha256=a_J74NBqIOlHiPRSfARb4vIWpnwUJkuJGJvhLRU9gu0,13
+wiki_as_base-0.5.9.dist-info/RECORD,,
