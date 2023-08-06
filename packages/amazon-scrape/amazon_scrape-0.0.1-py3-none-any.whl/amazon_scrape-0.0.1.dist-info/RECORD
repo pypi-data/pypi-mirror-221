@@ -1,0 +1,9 @@
+amazon_scraper/__init__.py,sha256=0miVqObelYp8d9nYzqZC-LdJub3WDxAysN6VBobB7-s,48
+amazon_scraper/scraper.py,sha256=G_E0IOrUNDGwecB7ya_A0c_F3FOMc2cQeSVZvs2JQ04,5856
+amazon_scraper/version.py,sha256=t_QiCcOQDjV4pl-PMvif1IH68nAKKe0wdeizhaDsDds,17
+amazon_scrape-0.0.1.dist-info/LICENSE,sha256=AVbUK7zh1zNKPoGnumVOvnzC60stzSbWqDZi9uF9kt8,1100
+amazon_scrape-0.0.1.dist-info/METADATA,sha256=rnT2GlpzpM4dE0qVDoCOfhCS-zgjmSqyMWSF3SW_z3U,3687
+amazon_scrape-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+amazon_scrape-0.0.1.dist-info/entry_points.txt,sha256=9fQfrPXEGlGwiKIATnVAQpaamgy2zIOSoMkp0939Otw,70
+amazon_scrape-0.0.1.dist-info/top_level.txt,sha256=KhQy6wbcEOTGur3kGL3p3Zqz5xyfkzZU1paZQDP1cCw,15
+amazon_scrape-0.0.1.dist-info/RECORD,,
