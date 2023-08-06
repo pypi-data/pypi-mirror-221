@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: min_max_heap
+Version: 1.0.0
+Summary: A implementation of MinMaxHeap with Python language.
+Home-page: https://github.com/hfi/min-max-heap
+Author: Yuan Yang
+Author-email: i@yangyuan.me
+License: The MIT License (MIT)
+Platform: Any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# min-max-heap
+A implementation of MinMaxHeap with Python language.
+
+
+### Usage
+
+```python
+from min_max_heap import MinMaxHeap
+
+heap = MinMaxHeap()
+
+for i in range(100):
+    heap.push(i)
+
+for i in range(50):
+    assert heap.pop_min() == i
+    assert heap.pop_max() == 99 - i
+
+assert heap.is_empty()
+```
+
