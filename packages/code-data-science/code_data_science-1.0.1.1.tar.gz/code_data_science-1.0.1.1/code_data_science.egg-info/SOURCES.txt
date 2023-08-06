@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+code_data_science/__init__.py
+code_data_science/index_versions.py
+code_data_science/moderne_data_grid.py
+code_data_science/moderne_palette.py
+code_data_science/scm_link.py
+code_data_science/sort_versions.py
+code_data_science.egg-info/PKG-INFO
+code_data_science.egg-info/SOURCES.txt
+code_data_science.egg-info/dependency_links.txt
+code_data_science.egg-info/requires.txt
+code_data_science.egg-info/top_level.txt
