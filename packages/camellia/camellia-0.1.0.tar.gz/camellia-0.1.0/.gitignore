@@ -1,0 +1,6 @@
+/dist
+
+/.vscode
+
+*.pyc
+*.pyo
