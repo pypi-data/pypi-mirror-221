@@ -1,0 +1,13 @@
+iso3166_2/__init__.py,sha256=UdKqJyluIsJLwsII9UXq9J0R-ZAuyV3nNL6PAt3heZg,786
+iso3166_2/iso3166_2.py,sha256=PZoOAjImvpj3WFLUpEWpG0Lv96W-TOfhXwZ3dlw87t0,18136
+iso3166_2/iso3166-2-data/README.md,sha256=ZrSEjM5dk0HvHtrvIq0SOzkFfAfb8RHcHdU0UFkes4s,228
+iso3166_2/iso3166-2-data/iso3166-2-min.json,sha256=nEH7D4y9nx0ipbjQq-JQls51mrU_QYvuIhpwMBcMTyc,1529664
+iso3166_2/iso3166-2-data/iso3166-2.json,sha256=UpzvBSKdzEckJ5zVxZRNBc71QtC-NsFmORv97VC92D4,3309285
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_iso3166_2.py,sha256=sEtjSvC7wjJ58wb3VpwSxKvBgbLEpfQ8AXHPg6cskVk,32979
+tests/test_iso3166_2_api.py,sha256=9gR3SAg2DNjd4MCDKeRETXkXefau0XtcfnKJaSm9HNk,34340
+iso3166_2-1.1.0.dist-info/LICENSE,sha256=CUJxuoQ-Wr3Jhq8nFgOVXKBiKDM8o6szg7542eUwF7A,1487
+iso3166_2-1.1.0.dist-info/METADATA,sha256=yhis1DxLNwzJ63uYN2kII3GrL8yNaNC-JvRG9-cmckk,11875
+iso3166_2-1.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+iso3166_2-1.1.0.dist-info/top_level.txt,sha256=jRhsKs1XKuSLyASZqIstwMIVurd7yjFmHCHtwU5ZRQ0,16
+iso3166_2-1.1.0.dist-info/RECORD,,
