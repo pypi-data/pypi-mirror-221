@@ -1,0 +1,5 @@
+pandas
+xarray
+scipy
+async-retriever
+tqdm
