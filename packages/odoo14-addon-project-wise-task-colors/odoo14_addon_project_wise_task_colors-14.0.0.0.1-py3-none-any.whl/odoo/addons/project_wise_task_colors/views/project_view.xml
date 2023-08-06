@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="view_task_calendar_inherit" model="ir.ui.view">
+            <field name="name">project.task.calendar</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_calendar"/>
+            <field eval="2" name="priority"/>
+            <field name="arch" type="xml">
+              <xpath expr="//calendar" position="attributes">
+                  <attribute name="color">project_id</attribute>
+              </xpath>
+            </field>
+        </record>
+	</data>
+</odoo>

@@ -1,0 +1,10 @@
+odoo/addons/project_wise_task_colors/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+odoo/addons/project_wise_task_colors/__manifest__.py,sha256=n9wCTC1RfJPAJvCclFUrdYIhWizCuciLX3c8_BCuS0c,762
+odoo/addons/project_wise_task_colors/static/description/Banner.png,sha256=6_fhW7UY2jJZhRHMke_XuydhpkWwqsOFG89LNvMwSuE,198503
+odoo/addons/project_wise_task_colors/static/description/icon.png,sha256=UD9TJtvJgXoafxEVCQL73hzsXkWK6T7I6CHolfw9SRM,58758
+odoo/addons/project_wise_task_colors/static/description/index.html,sha256=i2ivvJFMuEZk_vAmQbMS5HCq1qWy6EzuWPaEXH9MgE0,702
+odoo/addons/project_wise_task_colors/views/project_view.xml,sha256=EZyw2vOK4LRsdlJfuyNwvlQBQvLxrJH-rTb37yrgqoQ,596
+odoo14_addon_project_wise_task_colors-14.0.0.0.1.dist-info/METADATA,sha256=uGNdff9lQ9MYrkN0iLahfJYeORCpaaqoTjbCE0B_Bxk,739
+odoo14_addon_project_wise_task_colors-14.0.0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_project_wise_task_colors-14.0.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_project_wise_task_colors-14.0.0.0.1.dist-info/RECORD,,
