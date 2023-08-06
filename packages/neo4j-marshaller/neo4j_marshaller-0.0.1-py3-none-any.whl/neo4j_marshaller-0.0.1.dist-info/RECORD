@@ -1,0 +1,10 @@
+neo4j_marshaller/__init__.py,sha256=ugvWoqRbkZEHVU77KX7P-5Pr0iOrDrlWokiDdJ6S5Fw,124
+neo4j_marshaller/flask_marshaller.py,sha256=YNkBVeA8ZqtcyXC95JUDXQiEP-344i97g6BRWAHPaUc,484
+neo4j_marshaller/neo4j_driver.py,sha256=psO8qA_UGsaCZ_-g75l_UwJq_QioLYLqUjnbdlamt7Q,3869
+neo4j_marshaller/neo4j_marshaller.py,sha256=0CyPynHkNPKxhhk8mPkY644eArpPalp6SvLE9f7Wsmk,2964
+neo4j_marshaller/utils.py,sha256=0y58DYJBO5ra0sVEoJThIKRXSMdVn2BMpqKqu31FeBA,401
+neo4j_marshaller-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neo4j_marshaller-0.0.1.dist-info/METADATA,sha256=HYuvhVmXJ-l3bYIYQgyo_VmXmZ7_lBwrNixjCIiGJS0,1442
+neo4j_marshaller-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+neo4j_marshaller-0.0.1.dist-info/top_level.txt,sha256=YlkHb5jTyWO3vEttL-Fqt6cz1G0CJqsjZLGpodX2r04,17
+neo4j_marshaller-0.0.1.dist-info/RECORD,,
