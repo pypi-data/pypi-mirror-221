@@ -1,0 +1,12 @@
+nicecall/__init__.py,sha256=-T0rptVWMfig99Yc1bM9YEUjAM1sUybOPt9dZGgTVU4,123
+nicecall/filters.py,sha256=pJq37CEi8N0qHR7AilcpRYiVwZ_8D4mS-8DKkDJn8Bw,103
+nicecall/logger.py,sha256=yMppjFDqP-g0OalDY-RnzQbd9paebEWvqS3ub9MwXOI,630
+nicecall/process.py,sha256=4sLwPQ6SzDURIiwTeCzByt_lZNVJZPtQZadoOwBzaKs,4800
+nicecall/tests/__init__.py,sha256=LPoeh7A6gcdeXmBLGb3SomNMx85nto_xXiPz0F8yT0s,129
+nicecall/tests/null_process.py,sha256=WBHtIkoJktdvy7-WsQR-N69unBXzJNU2NSMyJQ4pv5E,106
+nicecall/tests/process_mock_context.py,sha256=obs4H_zlCDG_8y9_xKvkX_vFp68iYKIU8JT4wvrOXNM,2087
+nicecall/tests/process_stub.py,sha256=0hVDx1J7RWwm6MW_CCWqPfaQVGlYVNlK2ONQ8vX78Wg,1133
+nicecall-1.0.18.dist-info/METADATA,sha256=s-O6T7hSwx8dQgCqpqbk5xq49AAtm6nJyFimtsIxQqU,11559
+nicecall-1.0.18.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+nicecall-1.0.18.dist-info/top_level.txt,sha256=jdOHUK_rL-VzpWeSM1JyrIpmGbtphFu_apNTdpNvQSU,9
+nicecall-1.0.18.dist-info/RECORD,,
