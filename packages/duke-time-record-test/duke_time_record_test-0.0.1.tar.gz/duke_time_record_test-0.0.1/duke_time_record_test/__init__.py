@@ -1,0 +1,1 @@
+from duke_time_record_test.decorators import seconds_count
