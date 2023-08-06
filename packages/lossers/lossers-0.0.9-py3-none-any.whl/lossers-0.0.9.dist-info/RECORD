@@ -1,0 +1,15 @@
+lossers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lossers/clip.py,sha256=oT71I9GdkDMxo2WUhJjHacr1hF7NDRy-uqX0ooTOnJI,447
+lossers/gan.py,sha256=MGmVFD2xRkBVPm9hqNbwp8GyE5PbEIRiRFAMdXLPEVU,578
+lossers/math.py,sha256=cZV9t2eyGRq0AVv7afdqBIlzRYXz5W8hxv8Ge6nUaMQ,144
+lossers/softmax.py,sha256=RttByQCyrcG1xq6BrmD5txToTJtS2to7aLBxa6IozwQ,895
+lossers/ssim.py,sha256=9bhTGCgfhENfzCQETpleS1cFNu4O5hbyeb8tlp7rEk4,2703
+lossers/lpips/__init__.py,sha256=WevW1bnDbNPUHUsuEZ2vDgok7N9HJn3cCF3g7xGCLjU,25
+lossers/lpips/lpips.py,sha256=P8ZCBoZ3TUOMOCaiKFmaP3Z-iSfT_8yl8JA3p_8UvCk,4212
+lossers/lpips/pretrained_model.py,sha256=SGVs-qbG-nkMtf-mM9Oo3aZBNjBDV_FPoQfLaRCU2AY,2924
+lossers/lpips/vgg_v0.1.pth,sha256=p4kooK8eXw_LHzuej4w6Klo94kTYMK1cH-3cebhDKGg,7289
+lossers-0.0.9.dist-info/LICENSE,sha256=IFlLzogpFgwy9-F6goWSyFi28b5v2XKBdOVzf1vPk8A,1067
+lossers-0.0.9.dist-info/METADATA,sha256=6JJUPl74AGnmFWJHzj38oCiAAGQdlD3Jz2YtGFE-fTE,656
+lossers-0.0.9.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+lossers-0.0.9.dist-info/top_level.txt,sha256=YS7yAZjWNpjeRbvujnZpwNp4KYk9pkehPH7_JTMDOrg,8
+lossers-0.0.9.dist-info/RECORD,,
