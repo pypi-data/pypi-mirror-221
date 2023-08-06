@@ -1,0 +1,121 @@
+stages:
+  - dist
+  - test
+  - docs
+  - deploy
+
+include:
+  - project: computing/gitlab-ci-templates
+    file:
+      # https://computing.docs.ligo.org/gitlab-ci-templates/conda/
+      - conda.yml
+      # https://computing.docs.ligo.org/gitlab-ci-templates/python/
+      - python.yml
+
+
+# -- dist -------------------
+#
+# make the distribution tarball and uploads it as a job artifact
+#
+
+tarball:
+  stage: dist
+  extends:
+    - .python:build
+  image: python:3
+
+
+# -- test -------------------
+#
+# run the tests on all supported platforms
+#
+
+.test: &test
+  stage: test
+  extends:
+    - .python:pytest
+  needs:
+    - tarball
+  variables:
+    GIT_STRATEGY: none
+    INSTALL_TARGET: "ezca-*.tar.*"
+    COVERAGE_TARGET: "ezca"
+    PYTEST_OPTIONS: "--pyargs ezca"
+
+test:python:3.8:
+  extends:
+    - .test
+  image: python:3.8
+
+test:python:3.9:
+  extends:
+    - .test
+  image: python:3.9
+
+test:python:3.10:
+  extends:
+    - .test
+  image: python:3.10
+
+test:python:3.11:
+  extends:
+    - .test
+  image: python:3.11
+
+
+# -- docs -------------------
+
+.docs:
+  stage: docs
+  extends:
+    - .conda:base
+  image: igwn/base:conda
+  needs: []
+  before_script:
+    # run the before_script section from the .conda:base template
+    # to configure conda properly
+    - !reference [".conda:base", before_script]
+    # install dependencies (using conda/mamba so we don't have to compile them)
+    - mamba create -n docs
+          pcaspy
+          pip
+          pyepics
+          python=3.9
+          sphinx
+          sphinx_rtd_theme
+    - conda activate docs
+    # install this package
+    - python -m pip install .
+  script:
+    # generate docs skeleton
+    - PKG_VERSION=$(python setup.py --version)
+    - python -m sphinx.ext.apidoc
+          --module-first
+          --separate
+          --full
+          --ext-autodoc
+          --ext-intersphinx
+          --doc-project "python-ezca"
+          --doc-author "Jameson Rollins"
+          --doc-version "${PKG_VERSION}"
+          --output-dir docs
+          ezca
+    # use sphinx_rtd_theme
+    - sed -i 's/alabaster/sphinx_rtd_theme/g' docs/conf.py
+    # run sphinx to generate docs
+    - python -m sphinx -b dirhtml docs html
+  artifacts:
+    paths:
+      - html
+
+.pages:
+  stage: deploy
+  needs:
+    - docs
+  only:
+    - tags
+  script:
+    - mv html public
+  artifacts:
+    paths:
+      - public
