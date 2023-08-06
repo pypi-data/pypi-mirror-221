@@ -1,0 +1,6 @@
+datasets
+scikit-learn
+scrapy
+sentencepiece
+torch
+transformers
