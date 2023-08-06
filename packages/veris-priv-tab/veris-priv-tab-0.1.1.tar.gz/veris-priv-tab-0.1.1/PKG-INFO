@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: veris-priv-tab
+Version: 0.1.1
+Summary: Generates a "private duplicate" of a given table, obfuscating any potential PII.
+Home-page: http://veris.ai
+Author: Aditya Rai
+Author-email: team@veris.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# Veris-Priv-Tab
+
+## Description
+Veris-Priv-Tab is a Python package that generates a "private duplicate" of a given table, obfuscating any potential Personally Identifiable Information (PII) in the process. 
+
+## Installation
+Veris-Priv-Tab can be installed via pip:
+
+```bash
+pip install veris-priv-tab
+```
+
+After installation, you can import the `generate` function and use it as follows:
+
+```python
+from veris_priv_tab import generate
+
+new_df = generate("path_to_the_original_table")
+```
+
+This will create a new dataframe `new_df` that is a "private" version of the original table.
+
+## Troubleshooting and Known Issues
+This section will be updated as new issues are identified and solutions or workarounds are developed.
+
+## License
+Veris-Priv-Tab is open source and free for use. Please use responsibly and respect the privacy of all individuals. 
+
