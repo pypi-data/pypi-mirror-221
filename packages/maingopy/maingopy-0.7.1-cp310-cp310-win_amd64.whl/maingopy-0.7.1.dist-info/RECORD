@@ -1,0 +1,9 @@
+maingopy/__init__.py,sha256=GkTOJQVfFg9FNwoKyG2jwhE2oDhhLq6p7wy-3egUcHY,676
+maingopy/_maingopy.cp310-win_amd64.pyd,sha256=351JJkxvwA1lwiVc49aKCcnszAoTTZLaAl7nhbaVMgs,11068928
+maingopy/melonpy.cp310-win_amd64.pyd,sha256=9EgX_NbiFXJ0RSJNStfG-fCkunS4bXxeMgIE3pNn2bE,994816
+maingopy-0.7.1.dist-info/AUTHORS,sha256=Z7UnHha0w9kCiBhemFgOQS3d2wTJdLfldX38GnHiPMY,1358
+maingopy-0.7.1.dist-info/LICENSE,sha256=5SHb0YlvvBLehQr_MjJzRsD_RaUtx0DRQoDNWVWVYeI,94238
+maingopy-0.7.1.dist-info/METADATA,sha256=XJTmWOlUpn12Eqw4wYNUXzwg8mFvHvQlrUdjrZFSjyY,3543
+maingopy-0.7.1.dist-info/WHEEL,sha256=dhDl1OQPME6TOm1PUTFcERcib3Hm_kY6Wn2f8lLruok,96
+maingopy-0.7.1.dist-info/top_level.txt,sha256=alt1N1RINhZO7dBpd8wE3tgYCSDB-KTPVxZ-msAcJgY,9
+maingopy-0.7.1.dist-info/RECORD,,
