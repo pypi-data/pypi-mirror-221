@@ -1,0 +1,12 @@
+pandas
+tqdm>=4.27.0
+numpy
+scipy
+python-levenshtein
+pathpy2>=2.2.0
+lizard
+pydriller<2.2.0,>=2.0.0
+gambit-disambig
+setuptools
+pygments
+networkx
