@@ -1,0 +1,8 @@
+README.md
+setup.py
+corpus_reader.egg-info/PKG-INFO
+corpus_reader.egg-info/SOURCES.txt
+corpus_reader.egg-info/dependency_links.txt
+corpus_reader.egg-info/not-zip-safe
+corpus_reader.egg-info/requires.txt
+corpus_reader.egg-info/top_level.txt
