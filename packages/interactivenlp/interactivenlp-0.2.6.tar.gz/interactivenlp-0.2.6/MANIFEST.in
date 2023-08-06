@@ -1,0 +1,2 @@
+include interactivenlp/static/dist/css/*
+include interactivenlp/templates/*
