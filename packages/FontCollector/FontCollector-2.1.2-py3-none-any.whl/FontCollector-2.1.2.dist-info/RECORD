@@ -1,0 +1,24 @@
+font_collector/__init__.py,sha256=-aWSs5EJkdjAMk3BgAD3VHv_jI8EHY5_KKiy_itTs2E,1048
+font_collector/__main__.py,sha256=R8g6BDXW5ERtlP3-G2FgnzH6nsZGVGDELn2Zz2c5gk0,2982
+font_collector/_version.py,sha256=ByWE4qw8r36fv4OeLSjIm5p0j96GhZ__fEvMV0EfSWA,23
+font_collector/ass_document.py,sha256=iBy_8XLQLAMPO8aRjdIvOJkL8vHVBIjoyU-aFrsLztQ,9789
+font_collector/ass_style.py,sha256=aPhItQ-9qiTTR-T5BY1KsQ3ZDt_7gasT9lM8JsUizOY,1735
+font_collector/exceptions.py,sha256=cjxi7hY5niZzncDfWV4aeQa6vT1lbPJk6OSxhbqwq1Y,205
+font_collector/font copy.py,sha256=jcEjurN8TGrkHV3z5BYreun5wYoZwHIcl7ojz0p_IxQ,8259
+font_collector/font.py,sha256=Jw0CZZAfUnze3768TkO-NDLcgeNS6BsPCor0o637-xg,10064
+font_collector/font_backup_for_variable_font.py,sha256=il8x2eQu9AvTAcpKuI7x-AWgA9VLNgzDXpYWlzbrvq0,8923
+font_collector/font_loader.py,sha256=Rz2Ob_SXlb6BGV9uMY_HHvP31D1kBomh6pdZvf1XbI8,5933
+font_collector/font_parser copy.py,sha256=cjyRNvkzx_4HMbLlGCmC4TsLSGBl-1fHaNw8Mu2kjAw,16499
+font_collector/font_parser.py,sha256=VIwxrD-Wg0NGEedHwaXX_LrOaxbOQcMzDfRyzmKEDHs,22962
+font_collector/font_result.py,sha256=vHyG9ddGXbM31GEDJJpIfQgjeQSS_FhxS8-aSHGXjiM,510
+font_collector/helpers.py,sha256=H9iYyveJsguHRpj4tebpa3TEqpflHxZW3TJNkIDaY34,7456
+font_collector/mkvpropedit.py,sha256=H3ZqwEujMsQBnEQWd-dO1D7OKcok1rkm8ifI2AWfWyA,5387
+font_collector/parse_arguments.py,sha256=qtWxYvQqfP7qoARLeWiYXIseszK7iH8_Ixnumv8fluE,4214
+font_collector/parse_font.py,sha256=Qcz9b-tgRvy3BZ4xQmI8279QmGITcJIbDUVBKxwHcK8,13432
+font_collector/usage_data.py,sha256=9rG6seLNKmEaiGpM7iP1ujLLvS-rDJR5E2_cxcAEtGM,692
+FontCollector-2.1.2.dist-info/LICENSE,sha256=lQzc9Zbfwwvt0bHhiE9cvq8XAV_1BomDtCCNS7YfPgI,1086
+FontCollector-2.1.2.dist-info/METADATA,sha256=Ez-7SxyFTOsKPXqcTfdX14KoYTOgpv4wk_-2HobAtns,4933
+FontCollector-2.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+FontCollector-2.1.2.dist-info/entry_points.txt,sha256=eJ-csUqgE-NqW-WdKhCqjAhILigo_EcbC-8j4cCSdNI,63
+FontCollector-2.1.2.dist-info/top_level.txt,sha256=W49G9MK7v4D7vhD_5b_zHLhGAEQmtCPYk19ewqHF4SA,15
+FontCollector-2.1.2.dist-info/RECORD,,
