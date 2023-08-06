@@ -1,0 +1,17 @@
+COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+git_timemachine/__init__.py,sha256=qWzahms0U49gPCTyJJvdTpfffDigqrmV_AooSSWF6Jo,87
+git_timemachine/__main__.py,sha256=qckCNngnKBW84UiGYy27pTndMgHBGl_rPnWZgH-3ceo,1792
+git_timemachine/commands/__init__.py,sha256=84OrHdl8BZ4P04S5nJIrxkgNAtW5eux7kM4fNbdQRGs,273
+git_timemachine/commands/commit.py,sha256=iGUHcwCHoJg5ImJ8s5_Za4rERypZm0b9xOZbtEGPuYI,5417
+git_timemachine/commands/init.py,sha256=3x7EygKZDtROAl9VE7iVKgn1eywtdD6pcw1Y0xEAPF8,495
+git_timemachine/commands/log.py,sha256=sYyNcBZGgJY25Vk__RrUt003f5J1sEyABL4BPYvmk3c,1179
+git_timemachine/commands/review.py,sha256=O0te-UO36IbeqDxpPJO1j0XtrY9f3A6K_bxrRivxChg,703
+git_timemachine/commands/switch_date.py,sha256=3eXUvuqhXAmrDwgDcmhuCCgqlkD1tAHkF75WaM2g1O8,600
+git_timemachine/config.py,sha256=wyMfJj0uYr7mrJF2bTti0DnRK-JWaw1baHoeO598KA8,41
+git_timemachine/types.py,sha256=CVdSxRMsjHbIgO7FDwq2i0mBumj47wWPBgMDEUZBXYs,994
+git_timemachine/utils.py,sha256=5g4LDcw0_Xc3qUUNRVfYtquICEyOm18YPyI1KuabIXs,1283
+git_timemachine-1.5.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+git_timemachine-1.5.0.dist-info/METADATA,sha256=r1ZquR7CK30bphJGMwwaTFA-5C0Wny-btXbLK-qfhig,1982
+git_timemachine-1.5.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+git_timemachine-1.5.0.dist-info/entry_points.txt,sha256=TBKLx25HuoXRFX50g3w1LeTkN-iN0jtXlCNWGArm7R8,64
+git_timemachine-1.5.0.dist-info/RECORD,,
