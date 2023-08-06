@@ -1,0 +1,2 @@
+[console_scripts]
+meetnotes_questions = meetnotes_questions.main:main
