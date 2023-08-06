@@ -1,0 +1,5 @@
+[console_scripts]
+calibrateManyParticles = radioSphere.scripts.calibrateManyParticles:main
+calibrateSingleParticle = radioSphere.scripts.calibrateSingleParticle:main
+findParticles = radioSphere.scripts.findParticles:main
+optimiseParticles = radioSphere.scripts.optimiseParticles:main
