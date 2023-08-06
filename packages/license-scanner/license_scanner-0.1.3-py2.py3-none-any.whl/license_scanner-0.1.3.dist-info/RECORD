@@ -1,0 +1,11 @@
+license_scanner/__init__.py,sha256=QZPgV3AL1MJow29gj30rTdQTAbckYouWuc4deAHWx7k,227
+license_scanner/cli.py,sha256=22SFciLQ-V_Nw9KhQ0fy9I304OV46sdp69Ur-_PBdPM,417
+license_scanner/get_all_licenses.py,sha256=z0SwJWCAK_x__i27TbbyiHDWd2gC_-E-EvyParF2nas,1793
+license_scanner/parse_license/__init__.py,sha256=pk6TWvPjHgnYC4q_xhblcyXz0URnU31nTCy9ky-Ew5M,32
+license_scanner/parse_license/licenses_synonyms.py,sha256=N3VuC0xfJCip7FUP9cDBakHZrQ3d54qH4GzxjC5zjYM,12821
+license_scanner/parse_license/main.py,sha256=3K5kaSxZuCUthspgFrQwBF5TlKxoISRi00WCV9XAUuo,788
+license_scanner-0.1.3.dist-info/METADATA,sha256=TWNK7PdvtQPfgZzus0Tspzblfe1WO37CDMMfoUQeTQ8,1117
+license_scanner-0.1.3.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+license_scanner-0.1.3.dist-info/entry_points.txt,sha256=dnhTe_0p_VwoSQNKD9oULj7E6Id7Ew6amMZS_joXPl0,61
+license_scanner-0.1.3.dist-info/top_level.txt,sha256=Upp8T3ZKfZE8LrACL2bcb1TTF-Zvi6iUxaSraURrp3c,16
+license_scanner-0.1.3.dist-info/RECORD,,
