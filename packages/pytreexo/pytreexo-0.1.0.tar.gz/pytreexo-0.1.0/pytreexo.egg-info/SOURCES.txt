@@ -1,0 +1,10 @@
+pytreexo.py
+setup.py
+_pytreexo/bindings.py
+_pytreexo/proof.py
+_pytreexo/stump.py
+pytreexo.egg-info/PKG-INFO
+pytreexo.egg-info/SOURCES.txt
+pytreexo.egg-info/dependency_links.txt
+pytreexo.egg-info/top_level.txt
+pytreexo.egg-info/zip-safe

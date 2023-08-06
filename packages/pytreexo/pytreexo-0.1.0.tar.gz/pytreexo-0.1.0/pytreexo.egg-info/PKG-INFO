@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytreexo
+Version: 0.1.0
+Summary: Python bindings for rustreexo
+Home-page: https://github.com/mit-dci/rustreexo
+Author: Davidson Souza
+Author-email: davidson.lucas.souza@outlook.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Security :: Cryptography
+
+Python bindings for rustreexo
