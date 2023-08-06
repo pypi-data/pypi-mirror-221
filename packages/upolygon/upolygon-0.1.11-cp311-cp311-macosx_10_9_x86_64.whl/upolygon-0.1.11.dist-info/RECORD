@@ -1,0 +1,10 @@
+draw_polygon.cpython-311-darwin.so,sha256=oL2N93LYJ609_JmZOuCNWNBgpvc7E02vwHuAKUa1Zv8,325456
+simplify_polygon.cpython-311-darwin.so,sha256=BP_R8MSPxDIA964F59uouk0TaKRR0edUaSHefNXj4XM,62648
+run_length_encoding.cpython-311-darwin.so,sha256=TTnqGYPT8bwrQwoKPGOHf0F1d_rcu1W3XDLaS54ts_E,185288
+find_contours.cpython-311-darwin.so,sha256=rfQCQSdbgKSxKAdN5pGCYVnIv8wDN9xfyIZxL6Js59U,184920
+upolygon/__init__.py,sha256=aE6-KFPaDlusNg2V1ECZXiSQrRpWfgyn7Vi--rElaGU,211
+upolygon-0.1.11.dist-info/RECORD,,
+upolygon-0.1.11.dist-info/LICENSE,sha256=vX3MGNxB4U6FvOADAOm5qENWj89MW8Y0TrtcRhH6OXM,1072
+upolygon-0.1.11.dist-info/WHEEL,sha256=8qpOZO8wu8TNrKXOSXh_NQlrZf501-xHJa5aCKJLLS8,111
+upolygon-0.1.11.dist-info/top_level.txt,sha256=5VhPAEB3KpSpSXie94Yb_PHVLVXh85qeYEfxki7XZbM,73
+upolygon-0.1.11.dist-info/METADATA,sha256=nF_XEmPrbuuZV1s5fAPREZZQKY_ecZRQeuJgyA9SiDc,3446
