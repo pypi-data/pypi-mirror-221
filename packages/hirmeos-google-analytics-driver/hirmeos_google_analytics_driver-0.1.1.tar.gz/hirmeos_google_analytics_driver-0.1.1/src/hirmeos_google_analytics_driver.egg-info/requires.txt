@@ -1,0 +1,5 @@
+hirmeos-clients>=0.1.6
+flake8==3.6.0
+google-api-core==1.14.3
+google-api-python-client==1.7.11
+google-auth==1.6.3
