@@ -1,0 +1,7 @@
+interruptable module
+====================
+
+.. automodule:: interruptable
+   :members:
+   :undoc-members:
+   :show-inheritance:

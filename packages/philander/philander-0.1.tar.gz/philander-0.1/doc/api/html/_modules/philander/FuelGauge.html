@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>philander.FuelGauge &#8212; philander 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for philander.FuelGauge</h1><div class="highlight"><pre>
+<div class="viewcode-block" id="FuelGauge"><a class="viewcode-back" href="../../philander.html#philander.FuelGauge.FuelGauge">[docs]</a><span></span><span class="k">class</span> <span class="nc">FuelGauge</span><span class="p">():</span>
+    
+    <span class="n">CAP_LVL_MIN</span>    <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">CAP_LVL_DEEP_DISCHARGE</span> <span class="o">=</span> <span class="n">CAP_LVL_MIN</span>
+    <span class="n">CAP_LVL_EMPTY</span>  <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">CAP_LVL_LOW</span>    <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">CAP_LVL_MEDIUM</span> <span class="o">=</span> <span class="mi">30</span>
+    <span class="n">CAP_LVL_GOOD</span>   <span class="o">=</span> <span class="mi">70</span>
+    <span class="n">CAP_LVL_FULL</span>   <span class="o">=</span> <span class="mi">90</span>
+    <span class="n">CAP_LVL_MAX</span>    <span class="o">=</span> <span class="mi">100</span>
+    
+    <span class="n">capLevel2Str</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="n">CAP_LVL_DEEP_DISCHARGE</span> <span class="p">:</span> <span class="s1">&#39;Deep Discharge&#39;</span><span class="p">,</span>
+        <span class="n">CAP_LVL_EMPTY</span>  <span class="p">:</span> <span class="s1">&#39;empty&#39;</span><span class="p">,</span>
+        <span class="n">CAP_LVL_LOW</span>    <span class="p">:</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span>
+        <span class="n">CAP_LVL_MEDIUM</span> <span class="p">:</span> <span class="s1">&#39;medium&#39;</span><span class="p">,</span>
+        <span class="n">CAP_LVL_GOOD</span>   <span class="p">:</span> <span class="s1">&#39;good&#39;</span><span class="p">,</span>
+        <span class="n">CAP_LVL_FULL</span>   <span class="p">:</span> <span class="s1">&#39;full&#39;</span><span class="p">,</span>
+    <span class="p">}</span>
+    
+    <span class="c1">#</span>
+    <span class="c1"># Retrieves the remaining capacity as a continous</span>
+    <span class="c1"># value in [0, ..., 100].</span>
+    <span class="c1">#</span>
+<div class="viewcode-block" id="FuelGauge.getRemainingCapacity"><a class="viewcode-back" href="../../philander.html#philander.FuelGauge.FuelGauge.getRemainingCapacity">[docs]</a>    <span class="k">def</span> <span class="nf">getRemainingCapacity</span><span class="p">(</span> <span class="bp">self</span> <span class="p">):</span>
+        <span class="k">pass</span></div>
+    
+    <span class="c1">#</span>
+    <span class="c1"># Converts a capacity value into its level predicate.</span>
+    <span class="c1"># Does not retrieve any information from the underlying</span>
+    <span class="c1"># hardware.</span>
+    <span class="c1">#</span>
+<div class="viewcode-block" id="FuelGauge.cap2level"><a class="viewcode-back" href="../../philander.html#philander.FuelGauge.FuelGauge.cap2level">[docs]</a>    <span class="k">def</span> <span class="nf">cap2level</span><span class="p">(</span> <span class="bp">self</span><span class="p">,</span> <span class="n">capacity</span> <span class="p">):</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_MEDIUM</span>
+        <span class="k">if</span> <span class="n">capacity</span> <span class="o">&gt;=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_FULL</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_FULL</span>
+        <span class="k">elif</span> <span class="n">capacity</span> <span class="o">&gt;=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_GOOD</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_GOOD</span>
+        <span class="k">elif</span> <span class="n">capacity</span> <span class="o">&gt;=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_MEDIUM</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_MEDIUM</span>
+        <span class="k">elif</span> <span class="n">capacity</span> <span class="o">&gt;=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_LOW</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_LOW</span>
+        <span class="k">elif</span> <span class="n">capacity</span> <span class="o">&gt;=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_EMPTY</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_EMPTY</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ret</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">CAP_LVL_DEEP_DISCHARGE</span>
+        <span class="k">return</span> <span class="n">ret</span></div>
+    
+    <span class="c1">#</span>
+    <span class="c1"># Retrieves the remaining capacity as a discrete</span>
+    <span class="c1"># level predicate, expressed as one of the</span>
+    <span class="c1"># CAP_LVL_xxx values.</span>
+    <span class="c1">#</span>
+<div class="viewcode-block" id="FuelGauge.getRemainingCapacityLevel"><a class="viewcode-back" href="../../philander.html#philander.FuelGauge.FuelGauge.getRemainingCapacityLevel">[docs]</a>    <span class="k">def</span> <span class="nf">getRemainingCapacityLevel</span><span class="p">(</span> <span class="bp">self</span> <span class="p">):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getRemainingCapacity</span><span class="p">()</span>
+        <span class="n">lvl</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cap2level</span><span class="p">(</span> <span class="n">val</span> <span class="p">)</span>
+        <span class="k">return</span> <span class="n">lvl</span></div>
+    
+    <span class="c1">#</span>
+    <span class="c1"># Retrieves the remaining capacity as a level string.</span>
+    <span class="c1">#</span>
+<div class="viewcode-block" id="FuelGauge.getRemainingCapacityStr"><a class="viewcode-back" href="../../philander.html#philander.FuelGauge.FuelGauge.getRemainingCapacityStr">[docs]</a>    <span class="k">def</span> <span class="nf">getRemainingCapacityStr</span><span class="p">(</span> <span class="bp">self</span> <span class="p">):</span>
+        <span class="n">lvl</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getRemainingCapacityLevel</span><span class="p">()</span>
+        <span class="n">lvlStr</span> <span class="o">=</span> <span class="n">FuelGauge</span><span class="o">.</span><span class="n">capLevel2Str</span><span class="o">.</span><span class="n">get</span><span class="p">(</span> <span class="n">lvl</span><span class="p">,</span> <span class="s1">&#39;unknown&#39;</span> <span class="p">)</span>
+        <span class="k">return</span> <span class="n">lvlStr</span></div></div>
+
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">philander</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../modules.html">philander</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Oliver Maye.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.3.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

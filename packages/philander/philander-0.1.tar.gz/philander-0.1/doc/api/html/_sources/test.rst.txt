@@ -1,0 +1,37 @@
+test package
+============
+
+Submodules
+----------
+
+test.interruptable module
+-------------------------
+
+.. automodule:: test.interruptable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.module module
+------------------
+
+.. automodule:: test.module
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+test.systypes module
+--------------------
+
+.. automodule:: test.systypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: test
+   :members:
+   :undoc-members:
+   :show-inheritance:
