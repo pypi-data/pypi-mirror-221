@@ -1,0 +1,2 @@
+[console_scripts]
+cq = cq.main:main
