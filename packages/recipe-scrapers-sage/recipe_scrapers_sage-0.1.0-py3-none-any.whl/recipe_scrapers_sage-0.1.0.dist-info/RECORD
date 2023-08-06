@@ -1,0 +1,7 @@
+recipe_scrapers_sage/__init__.py,sha256=b-JHlBlyJPxZfSNO8xb5s-NlkzHSUpXQ1A8COoYU1Qo,504
+recipe_scrapers_sage/_types.py,sha256=_4q94RQLrH0ckrAhhZqR6gLBNf15dQmZERRHpfASMCk,382
+recipe_scrapers_sage/models.py,sha256=HIiv1E1k_uM_aY0K8GUvuemwpdVHWPB8BNhLYKBgHV8,4313
+recipe_scrapers_sage/utils.py,sha256=I7xZBmjP1F0r3C6u_ezRxY12fTiqJQ6dFWo7JgivWJk,2037
+recipe_scrapers_sage-0.1.0.dist-info/METADATA,sha256=PkJb7wrQYLIsqOTXr88PrhoSwTXjRnppVbh9uhvcCqI,2530
+recipe_scrapers_sage-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+recipe_scrapers_sage-0.1.0.dist-info/RECORD,,
