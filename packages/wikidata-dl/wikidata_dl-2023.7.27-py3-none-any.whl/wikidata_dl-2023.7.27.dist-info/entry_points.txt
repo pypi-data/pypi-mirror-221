@@ -1,0 +1,2 @@
+[console_scripts]
+wikidata-dl = wikidata_dl.cli:main

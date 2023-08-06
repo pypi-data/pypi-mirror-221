@@ -1,0 +1,10 @@
+wikidata_dl/__about__.py,sha256=MYE-JmI1bDzMDuDSgfZp6z2FA81EJ9SLZ8tfMpbl0G0,110
+wikidata_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikidata_dl/cli.py,sha256=uhGEzHJdVqS1Q5AndL2qrdcgOoIaJqi4cW5J5Q03g88,2723
+wikidata_dl/vocabulary.py,sha256=HcZIRP3C4q1UkSHDHJsV4lIfwDKlnHcRZCfeqWwJU4Q,3548
+wikidata_dl/wikidata.py,sha256=gBbwArXgog8WmGcSld1lZ6olbev4aQdc3xUF-2XlH6g,4361
+wikidata_dl-2023.7.27.dist-info/METADATA,sha256=v7Zl-eBMg1duULw6B4Tx5eQa543M6z9noTr3LqyeJnY,1988
+wikidata_dl-2023.7.27.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+wikidata_dl-2023.7.27.dist-info/entry_points.txt,sha256=29HyQ5Orz2noYmD-sMZ0KJCL4sj7YE0t7NSyKeBHlp0,53
+wikidata_dl-2023.7.27.dist-info/licenses/LICENSE,sha256=4DAVlkf6Zz2w8EnObjM4noa_Fl7u0ouke57S9C8UZ-Q,1072
+wikidata_dl-2023.7.27.dist-info/RECORD,,

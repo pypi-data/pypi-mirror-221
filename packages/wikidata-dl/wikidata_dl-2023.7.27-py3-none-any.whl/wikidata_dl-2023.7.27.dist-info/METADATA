@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: wikidata-dl
+Version: 2023.7.27
+Summary: Download data from Wikidata based on input SPARQL query.
+Project-URL: Documentation, https://github.com/yaph/wikidata-dl#readme
+Project-URL: Issues, https://github.com/yaph/wikidata-dl/issues
+Project-URL: Source, https://github.com/yaph/wikidata-dl
+Author-email: Ramiro Gómez <code@ramiro.org>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: cli,command line,dl,download,sparql,wikidata
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: httpx
+Requires-Dist: python-dateutil
+Requires-Dist: wptools
+Description-Content-Type: text/markdown
+
+# wikidata-dl
+
+## Description
+
+**wikidata-dl** is a command line program for downloading data from [Wikidata](https://www.wikidata.org/) based on [SPARQL](https://en.wikipedia.org/wiki/SPARQL) queries.
+
+## Installation
+
+    pip install wikidata-dl
+
+## Usage
+
+Download result returned from the query and save it in the directory `./wikidata`:
+
+    wikidata-dl /path/to/my-query.sparql
+
+For a complete reference of the command line options run:
+
+    wikidata-dl --help
+
+## Sample Query
+
+The following query returns IDs for all Wikidata entities that are an instance of ([P31](https://www.wikidata.org/wiki/Property:P31)) a continent ([Q5107](https://www.wikidata.org/wiki/Q5107)).
+
+    SELECT ?item WHERE {
+        ?item wdt:P31 wd:Q5107.
+    }
+
+[Try the query](https://query.wikidata.org/#SELECT%20%3Fitem%20WHERE%20%7B%20%3Fitem%20wdt%3AP31%20wd%3AQ5107.%20%7D)
