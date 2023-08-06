@@ -1,0 +1,16 @@
+astropy
+bdsf
+jinja2
+losoto
+lsmtool
+numpy
+python-casacore
+python-dateutil
+reproject
+Rtree
+scipy
+shapely
+toil[cwl]>=5.10
+
+[:python_version < "3.8"]
+importlib-metadata

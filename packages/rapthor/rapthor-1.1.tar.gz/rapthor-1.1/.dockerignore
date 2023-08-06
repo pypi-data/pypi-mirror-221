@@ -1,0 +1,8 @@
+.tox/
+build/
+ci/
+dist/
+docs/build/
+test/
+venv/
+*.egg-info/
