@@ -1,0 +1,3 @@
+[console_scripts]
+gogo-cli=gogo_cli.__main__:__gogocli__
+
