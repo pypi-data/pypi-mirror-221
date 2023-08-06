@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: rest_zerocap_client
+Version: 0.0.2
+Summary: Order Operation
+Home-page: 
+Author: Tkon
+Author-email: 1741226849@qq.com
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+
+### python 函数打包
+
+### 打包命令
+    python setup.py sdist
+
+### 上传
+    twine upload dist/*
+
+### 打包完毕, dist文件夹，文件夹中有*.tar.gz压缩包, copy 到 "干净" 目录
+
+### 解压缩, 进入到 setup.py 目录, 执行下面的命令, 模块将会被安装到解释器对应的Lib/site-packages目录下
+
+### 安装模块命令
+python setup.py install
+
+### 安装完成之后即可测试
+
+
+###参考例子,  https://www.jb51.net/article/190597.htm
+
+
+###安装命令：
+    pip install rest_zerocap_client -i  https://www.pypi.org/simple/
+
+demo:
+
+    from rest_client.zerpcap_rest_client import ZerocapRestClient
+    api_key = "**"
+    secret = "******"
+    client = ZerocapRestClient(api_key, secret)
+
+    # 下单
+    result = client.create_order(symbol, side, type, amount, price, client_order_id, note, third_identity_id)
+
+    # 查询特定唯一ID订单详情
+    result = client.fetch_order(id, note, third_identity_id)
+
+    # 批量查询订单的详情
+    result = client.fetch_orders(symbol, since, limit, note, third_identity_id)
