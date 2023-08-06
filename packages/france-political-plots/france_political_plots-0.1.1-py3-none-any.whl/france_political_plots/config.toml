@@ -1,0 +1,24 @@
+projects = [
+    "lfi-spending",
+    "volt-scores"
+]
+
+[aliases]
+
+lfi-spending = [
+    "lfi-2022",
+    "lfi22",
+]
+
+volt-scores = [
+    "volt",
+    "voltscore",
+    "scoring",
+    "vscore",
+    "score",
+    "vspl"
+]
+
+[procfiles]
+
+lfi-spending = "web: gunicorn france_political_plots.server.government_spending:server"
