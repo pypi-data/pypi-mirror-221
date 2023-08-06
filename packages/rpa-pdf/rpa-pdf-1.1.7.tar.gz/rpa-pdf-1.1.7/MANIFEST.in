@@ -1,0 +1,8 @@
+# MANIFEST.in
+
+graft rpa_pdf/fonts
+graft rpa_pdf/exec
+graft rpa_pdf/exec/wkhtmltox
+graft rpa_pdf/exec/wkhtmltox/bin
+graft rpa_pdf/exec/wkhtmltox/include
+graft rpa_pdf/exec/wkhtmltox/include/wkhtmltox
