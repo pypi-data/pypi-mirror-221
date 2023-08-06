@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stakepy
+Version: 1.0.2
+Summary: stakeの非公式簡易apiです
+Home-page: https://github.com/Sn4cy/stakepy
+Author: Sn4cy
+Author-email: info@gg.mail
+License: GPL-3.0
+Keywords: stake api python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tls-client
+Requires-Dist: typing
+Requires-Dist: setuptools (>=65.5.1)
+
