@@ -1,0 +1,10 @@
+logger_local/LoggerLocal.py,sha256=ptruXgoDi3tFS6tZzdJlNIGbipIWb5eag5scOVJ4MEg,86
+logger_local/LoggerService.py,sha256=Pf8QtvkCEZZppsSCy1qnzB5YUDoeoXLBuw6-5C6zh28,20858
+logger_local/MessageSeverity.py,sha256=SssRbyLvq3dsDSnEPJ3gZqcKYLu5b0jnMZ_lqDGzlj0,229
+logger_local/Writer.py,sha256=aa6awKSJ1XsVYLso6ZkpuVEZRhd0l1pO87x7DN70xmk,4967
+logger_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logger_local-0.0.31.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+logger_local-0.0.31.dist-info/METADATA,sha256=bBOYLFNp7aqPUJqwehIMM8uxvH8usvurQurt5teGx5Y,521
+logger_local-0.0.31.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+logger_local-0.0.31.dist-info/top_level.txt,sha256=2SdPCpXZ9FBIKR1S_DhiwqdFKB4BqRhTzkewY9zaQ1U,13
+logger_local-0.0.31.dist-info/RECORD,,
