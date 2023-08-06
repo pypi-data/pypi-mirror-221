@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+CFXplorer.egg-info/PKG-INFO
+CFXplorer.egg-info/SOURCES.txt
+CFXplorer.egg-info/dependency_links.txt
+CFXplorer.egg-info/top_level.txt
+cfxplorer/__init__.py
+cfxplorer/focus.py
+cfxplorer/utils.py
+cfxplorer/version.py
+cfxplorer/tests/__init__.py
+cfxplorer/tests/test_focus.py
+cfxplorer/tests/test_utils.py
