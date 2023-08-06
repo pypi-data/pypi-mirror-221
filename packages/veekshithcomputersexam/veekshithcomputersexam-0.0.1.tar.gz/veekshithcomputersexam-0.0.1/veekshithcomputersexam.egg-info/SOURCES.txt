@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+veekshithcomputersexam.egg-info/PKG-INFO
+veekshithcomputersexam.egg-info/SOURCES.txt
+veekshithcomputersexam.egg-info/dependency_links.txt
+veekshithcomputersexam.egg-info/top_level.txt
