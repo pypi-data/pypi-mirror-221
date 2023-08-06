@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "random-quotes-generator"
+version = "0.1.0"
+description = "A Python package to generate random famous quotes for inspiration."
+authors = ["Seun Fashina <fashinaoluwaseun36@gmail.com>"]
+readme = "README.md"
+packages = [{include = "random_quotes_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
