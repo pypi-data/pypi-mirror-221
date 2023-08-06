@@ -1,0 +1,3 @@
+[console_scripts]
+promptz = promptz.main:main
+
