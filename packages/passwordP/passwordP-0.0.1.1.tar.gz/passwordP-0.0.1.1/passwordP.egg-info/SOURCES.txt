@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+passwordP/__init__.py
+passwordP/passwordPP.py
+passwordP.egg-info/PKG-INFO
+passwordP.egg-info/SOURCES.txt
+passwordP.egg-info/dependency_links.txt
+passwordP.egg-info/top_level.txt
