@@ -1,0 +1,25 @@
+apt:
+
+  build_packages:
+    - nodejs
+
+  build_repos:
+    - name: nodejs
+      key: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+      entry: deb https://deb.nodesource.com/node_16.x {{ v.codename }} main
+
+docker:
+
+  build: |
+    # build web app
+    python -m core.webix.jetapp build /rs/webroot
+
+  build_setup: |
+    # setup javascript environment
+    npm install -g --no-save yarn@^1.22.10
+    install -d /node_modules -o rs -g rs
+
+dev_services:
+  - name: jetapp
+    cmd: yarn start
+    dir: /rs/radstar/core/webix/jetapp
