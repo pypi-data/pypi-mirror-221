@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: SidraApiPythonClient
+Version: 1.12.0
+Summary: A wrapper client for SIDRA API
+Home-page: https://sidra.dev/
+Author: Sidra Data Services
+License: Copyright (c) 2023 Sidra Data Services
+License-File: LICENSE
+
+Sidra Api Python Client
