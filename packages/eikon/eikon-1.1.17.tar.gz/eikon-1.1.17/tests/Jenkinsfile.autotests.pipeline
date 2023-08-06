@@ -1,0 +1,64 @@
+@Library('jenkins-shared-library@morelia-shared-library') _
+pipeline {
+    environment {
+        TEST_AGENT = "EAPI-testagent-${JOB_BASE_NAME}-py"
+        GIT_CI_CREDENTIALS = credentials('git_ci_credentials')
+
+        DOCKER_NETWORK_NAME = "ealp-${UUID.randomUUID().toString()}-py"
+        DOCKER_EIKON = "ealp-eikon-${UUID.randomUUID().toString()}-py"
+
+        ENV_PLATFORM = "${params.ENV_PLATFORM}"
+
+        DESKTOP_APP_KEY = credentials('APP_KEY-1855')
+        EDP_USERNAME = credentials('RDP_LOGIN-1855')
+        EDP_PASSWORD = credentials('RDP_PASSWORD-1855')
+
+        PROD_USERNAME = credentials('TEST_USER_12')
+        PROD_PASSWORD = credentials('TEST_USER_12_PASSWORD')
+
+    }
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+    }
+
+    agent { label 'slave5' }
+    stages {
+        stage('Run Workspace') {
+            steps {
+                runWorkspace()
+            }
+        }
+        stage('Run Unit, Integration, BDD tests') {
+            steps {
+                script {
+                    docker.image("python:${PY_VER}").inside('--name ${TEST_AGENT} --net ${DOCKER_NETWORK_NAME} -v /var/run/docker.sock:/var/run/docker.sock -u 0') {
+                        sh 'apt-get update'
+                        sh 'apt-get -y install socat'
+                        sh 'nohup socat TCP4-LISTEN:9000,fork "TCP4:${DOCKER_EIKON}:9001" &'
+                        sh 'pip install tox==3.28.0'
+                        dir('eikon/') {
+                            sh 'rm *.log || true'
+                            sh 'python -m tox -e tests-nix'
+                            sh 'chmod -R o+rw ./allure-results'
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            removeDockerNetwork()
+            allure([
+                    includeProperties: false,
+                    jdk              : '',
+                    properties       : [],
+                    reportBuildPolicy: 'ALWAYS',
+                    results          : [[path: 'eikon/allure-results/']],
+                    report           : 'eikon/allure-report/'
+            ])
+        }
+    }
+}
