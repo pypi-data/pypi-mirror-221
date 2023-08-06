@@ -1,0 +1,3 @@
+commit_parser
+djangoldp
+djangoldp_crypto
