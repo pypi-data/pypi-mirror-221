@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: blockprint
+Version: 0.0.0
+Summary: UDM for Architecture on the Blockchain.
+Home-page: https://www.blockfoundation.io
+Download-URL: https://www.blockfoundation.io
+Author: Lars van Vianen
+Author-email: lars@blockfoundation.io
+Maintainer: Scape Agency
+Maintainer-email: info@blockfoundation.io
+License: MIT
+Project-URL: documentation, https://blockprint.pypa.io/
+Project-URL: repository, https://github.com/block-foundation/blockprint
+Keywords: blockprint,utility,utilities
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Blockprint

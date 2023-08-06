@@ -1,0 +1,9 @@
+blockprint/__init__.py,sha256=EzNmhVyBpQP1byKYtKBmOzGjVZmLkOhIO0qU8rl8_i8,1127
+blockprint/__main__.py,sha256=aAMoT_Fyafi7p_2_lNJj7looFUOZpRYHGkK8mTKRpk8,1496
+blockprint/model/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+blockprint/model/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blockprint-0.0.0.dist-info/METADATA,sha256=YEe4eOJ7DwiKgyCZ1Dz5GH-ng29EW3oeK4T71L24KZU,961
+blockprint-0.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+blockprint-0.0.0.dist-info/top_level.txt,sha256=Hw7oYG-vw4zKHn9GVuGNvU3z2hOUy6dKad7VxnbzEKo,11
+blockprint-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+blockprint-0.0.0.dist-info/RECORD,,
