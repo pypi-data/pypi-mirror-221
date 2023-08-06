@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: lava-dnf
+Version: 0.1.4
+Summary: A library that provides processes and other software infrastructure to build architectures composed of Dynamic Neural Fields (DNF).
+Home-page: https://lava-nc.org/
+License: (BSD-3-Clause)
+Keywords: neuromorphic,ai,artificial intelligence,neural models,spiking neural networks,dynamic neural fields,dnf
+Author: Intel's Neuromorphic Computing Lab and the open source community
+Author-email: lava@intel.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: bandit (>=1.7.4,<2.0.0)
+Requires-Dist: lava-nc (==0.8.0)
+Requires-Dist: numpy (>=1.24.4,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Project-URL: Discussions, https://github.com/lava-nc/lava-dnf/discussions
+Project-URL: Frequently Asked Questions, https://github.com/lava-nc/lava-dnf/wiki/Frequently-Asked-Questions-(FAQ)
+Project-URL: Issue and Bug Tracker, https://github.com/lava-nc/lava-dnf/issues
+Project-URL: Questions and Answers, https://github.com/lava-nc/lava-dnf/discussions/categories/q-a
+Project-URL: Repository, https://github.com/lava-nc/lava-dnf.git
