@@ -1,0 +1,16 @@
+tvolib/__init__.py,sha256=i6UV0LAUWR0_mG-r6RjxF0GIoPBUXBpkF2TVN4QWPKQ,63
+tvolib/models/__init__.py,sha256=HccsvOnyIEybjx8tOnO-6LkE8o6GqShJnKxDoATG67Y,61
+tvolib/models/lin10_magnetopause_model.py,sha256=U-9No2gQhwpaL6LU_C9TJkAOnDbqnTAsVzSFAUR3UBI,6085
+tvolib/mpl_utils/__init__.py,sha256=3i8YWZ-J0IWbzaHsJyWouOI_55FiHlORtcP1RmwfHNY,219
+tvolib/mpl_utils/_draw.py,sha256=SMAGpCBJ6A0JznFXQIJf9AgBlHjNBLZNGnJI_O10HpQ,2103
+tvolib/mpl_utils/_format.py,sha256=LdSFuAPcMdu5C-HpyU-DR8LqthkxVfJ2a7gI55PeD4M,526
+tvolib/mpl_utils/_setup.py,sha256=uYoI3yvQNoS098j5oiL3QUx935W3bvdnHf8FDPcOESY,898
+tvolib/mpl_utils/data/mpl_utils.mplstyle,sha256=g0LKuBw5A2nW6TXxw9JyTxnu00JyOox51YJBxrr19Cw,25742
+tvolib/numeric/__init__.py,sha256=o73grK7v-CdtuZcn9BXUXX_FnEuYu_jANHI1iKR2-ns,139
+tvolib/numeric/interpolate.py,sha256=90Z1Abqp5_Umv8Y0MTtJVg1SUxdts9QvwKcF0cYirDQ,1724
+tvolib/numeric/moving.py,sha256=sAmEZzmlb0b5r4tdm6tSjq7Adpips-COa2GGMGJrGyg,1488
+tvolib/numeric/timing.py,sha256=AyqFi9H55bWeq_36bimPuwTh6pmbxvz9lnFe0ugUi9Y,572
+tvolib-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tvolib-0.3.0.dist-info/METADATA,sha256=XXvJg5gznKvhEkzxsYX32R7xdprR4z4MTEFnVpDe4Cc,1201
+tvolib-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tvolib-0.3.0.dist-info/RECORD,,
