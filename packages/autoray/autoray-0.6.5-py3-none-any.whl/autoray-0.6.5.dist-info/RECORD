@@ -1,0 +1,15 @@
+autoray/__init__.py,sha256=wtVeu-gLm77Q16LbDx0xQBnZN9mPMMalcRIdeKT5As4,1998
+autoray/_version.py,sha256=HOOOlWSq_oq1xqjxIkNY5w_ixt3hUn8UuBP_F6k04ac,160
+autoray/autoray.py,sha256=NjNQcT4hn-88B1QendqXIKNXC55lvlP6RHwhDGtT1b8,60207
+autoray/compiler.py,sha256=dGl8K86oUbapvaFS6ioEbN3qGPrXjs3ksMQVMxFPGa0,9276
+autoray/experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoray/experimental/complexity_tracing.py,sha256=YlPtCjzuaGoLnTKt9sVJ9qM6673qTrs_JJPMzzKs7m8,6303
+autoray/lazy/__init__.py,sha256=ZRbKIAoO353vWkz-lMP1V0WFS2EdcSm0e0o2w__waBw,1980
+autoray/lazy/core.py,sha256=lHdw7fIOfhx2KmvIxgWiMfiQa6o7-NwYy83EnUJx9Oo,48582
+autoray/lazy/draw.py,sha256=eQSuxJsdONkI_XghIXGpaB5lb9R7ulD4PFfpYqGl9Pw,25846
+autoray/lazy/linalg.py,sha256=bNBvWidT0izYqxn4GlfzcI-pvr1ca94EGDKthpm5lpo,2302
+autoray-0.6.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+autoray-0.6.5.dist-info/METADATA,sha256=zGDDD1u6C0yrtTssBnI6pwlcNgBkqczhcDpORC0rxyw,18874
+autoray-0.6.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+autoray-0.6.5.dist-info/top_level.txt,sha256=F_f4qCU7dCvjlrHuMZ5HanPWIhAhC-kqVsz5N2DXlOo,8
+autoray-0.6.5.dist-info/RECORD,,
