@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+awesomepython/awesomepython.egg-info/PKG-INFO
+awesomepython/awesomepython.egg-info/SOURCES.txt
+awesomepython/awesomepython.egg-info/dependency_links.txt
+awesomepython/awesomepython.egg-info/requires.txt
+awesomepython/awesomepython.egg-info/top_level.txt
