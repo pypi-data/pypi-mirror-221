@@ -1,0 +1,12 @@
+webpty/__init__.py,sha256=6yC-MNp65jYpE94FjG7clk2x31cHPIrKsVxlbqDcLWY,181
+webpty/index.html,sha256=bbhwKa21leetdTeGtAYHB_2QYC5jeSzYq5kRweCwV4s,1011
+webpty/server.py,sha256=pfkjYFWgkFZZn1-kicrtuuKL41ADm3Qj3gsMDcxQ8Xk,6267
+webpty/static/webpty.css,sha256=4dibcXGpDcsNQiJAxL58k24gB4cUsFQ0LopHNLecdrA,232
+webpty/static/webpty.js,sha256=M0d2vGVa08OWUG6XGqFh9sjljG8_ZToZb9ie_HbXkRg,3043
+webpty/static/webpty.min.css,sha256=Wm80ZAN03xmh1MXOkHpmCUcApWT8rSP-9fr5qnbnfUc,200
+webpty/static/webpty.min.js,sha256=U2T6JF8yEJ2jMXEj8nRF8UEA7Gd8raJ3VbrkD8waHzM,1767
+webpty-3.9.dist-info/LICENSE,sha256=BMJxfG2BG1jV7DHErphlK74onzFqIBXTBC_YSHs3m4A,1071
+webpty-3.9.dist-info/METADATA,sha256=-qthSulEcXXG2Y3NAlzPV4rXQIsJKGGsw55foQhRorc,2248
+webpty-3.9.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+webpty-3.9.dist-info/entry_points.txt,sha256=5qBtJazts5NWqF-sYlc8xTNSMKY9OLjI6wYI_pb0tGo,45
+webpty-3.9.dist-info/RECORD,,
