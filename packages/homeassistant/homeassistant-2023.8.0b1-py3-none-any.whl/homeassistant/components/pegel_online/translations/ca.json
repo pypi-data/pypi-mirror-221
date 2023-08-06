@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El servei ja est\u00e0 configurat"
+        },
+        "error": {
+            "cannot_connect": "Ha fallat la connexi\u00f3"
+        },
+        "step": {
+            "select_station": {
+                "data": {
+                    "station": "Estaci\u00f3"
+                },
+                "description": "S'han trobat {stations_count} estacions dins el radi",
+                "title": "Selecciona l'estaci\u00f3 de mesura a afegir"
+            },
+            "user": {
+                "data": {
+                    "location": "Ubicaci\u00f3",
+                    "radius": "Radi de cerca (en km)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_measurement": {
+                "name": "Nivell d'aigua"
+            },
+            "water_level": {
+                "name": "Nivell d'aigua"
+            }
+        }
+    }
+}

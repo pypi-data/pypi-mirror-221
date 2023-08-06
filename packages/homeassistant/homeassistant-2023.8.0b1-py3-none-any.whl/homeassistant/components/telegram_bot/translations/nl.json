@@ -1,0 +1,243 @@
+{
+    "services": {
+        "answer_callback_query": {
+            "description": "Reageert op een callback-query die is ontstaan door te klikken op een online toetsenbordknop. Het antwoord wordt aan de gebruiker getoond als een notificatie bovenaan het chatscherm of als een waarschuwing.",
+            "fields": {
+                "message": {
+                    "description": "Onopgemaakte tekstberichtinhoud van de notificatie."
+                },
+                "show_alert": {
+                    "description": "Toon een permanente notificatie."
+                }
+            }
+        },
+        "delete_message": {
+            "name": "Verwijder bericht"
+        },
+        "edit_caption": {
+            "fields": {
+                "caption": {
+                    "description": "Berichttekst van de notificatie."
+                }
+            }
+        },
+        "edit_message": {
+            "fields": {
+                "message": {
+                    "description": "Berichttekst van de notificatie."
+                }
+            }
+        },
+        "send_animation": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                }
+            }
+        },
+        "send_document": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                }
+            }
+        },
+        "send_location": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "latitude": {
+                    "name": "Breedtegraad"
+                },
+                "longitude": {
+                    "name": "Lengtegraad"
+                }
+            }
+        },
+        "send_message": {
+            "description": "Verstuurt een notificatie.",
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "message": {
+                    "description": "Berichttekst van de notificatie."
+                },
+                "target": {
+                    "description": "Een reeks van vooraf geautoriseerde chat IDs om de notificatie naar te sturen. Als deze niet aanwezig is, is de eerste toegestane chat ID de standaard."
+                }
+            }
+        },
+        "send_photo": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                }
+            }
+        },
+        "send_poll": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "options": {
+                    "name": "Opties"
+                },
+                "question": {
+                    "name": "Vraag"
+                }
+            }
+        },
+        "send_sticker": {
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur sticker"
+        },
+        "send_video": {
+            "description": "Stuurt een video.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een video."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een video."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out bij versturen video. Dit zal helpen met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een video.",
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur video"
+        },
+        "send_voice": {
+            "description": "Stuurt een spraakbericht.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een spraakbericht."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een spraakbericht."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor versturen spraak. Dit zal helpen met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een spraakbericht.",
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur spraak"
+        }
+    }
+}

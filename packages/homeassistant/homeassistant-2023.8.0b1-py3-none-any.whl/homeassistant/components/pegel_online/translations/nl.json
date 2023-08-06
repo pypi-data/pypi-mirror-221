@@ -1,0 +1,30 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken"
+        },
+        "step": {
+            "select_station": {
+                "data": {
+                    "station": "Station"
+                }
+            },
+            "user": {
+                "data": {
+                    "location": "Locatie",
+                    "radius": "Zoekradius (in km)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_measurement": {
+                "name": "Waterniveau"
+            },
+            "water_level": {
+                "name": "Waterpeil"
+            }
+        }
+    }
+}

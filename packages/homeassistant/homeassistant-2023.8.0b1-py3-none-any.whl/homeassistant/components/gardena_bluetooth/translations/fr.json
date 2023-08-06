@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "activation_reason": {
+                "name": "Raison de l'activation"
+            },
+            "remaining_open_timestamp": {
+                "name": "Valve en cours de fermeture"
+            }
+        }
+    }
+}

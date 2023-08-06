@@ -1,0 +1,37 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Der Dienst ist bereits konfiguriert"
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "no_stations": "Es konnte keine Station in Reichweite gefunden werden"
+        },
+        "step": {
+            "select_station": {
+                "data": {
+                    "station": "Station"
+                },
+                "description": "{stations_count} Stationen im Umkreis gefunden",
+                "title": "W\u00e4hle die hinzuzuf\u00fcgende Messstation aus"
+            },
+            "user": {
+                "data": {
+                    "location": "Standort",
+                    "radius": "Suchradius (in km)"
+                },
+                "description": "W\u00e4hle den Bereich aus, in dem du nach Wassermessstationen suchen m\u00f6chtest"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_measurement": {
+                "name": "Wasserstand"
+            },
+            "water_level": {
+                "name": "Wasserstand"
+            }
+        }
+    }
+}

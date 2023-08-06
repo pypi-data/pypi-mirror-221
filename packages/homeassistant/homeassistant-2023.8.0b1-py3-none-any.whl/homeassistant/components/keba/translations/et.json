@@ -1,0 +1,16 @@
+{
+    "services": {
+        "set_failsafe": {
+            "fields": {
+                "failsafe_persist": {
+                    "name": "T\u00f5rketurvalisus p\u00fcsib"
+                },
+                "failsafe_timeout": {
+                    "description": "Aeg, mille m\u00f6\u00f6dumisel k\u00e4ivitub turvare\u017eiim, kui selle aja jooksul ei ole set_currenti rakendatud.",
+                    "name": "T\u00f5rkekindla ajal\u00f5pp"
+                }
+            },
+            "name": "Seadista t\u00f5rkekindel"
+        }
+    }
+}
