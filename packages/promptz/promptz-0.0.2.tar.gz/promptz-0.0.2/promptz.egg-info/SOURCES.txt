@@ -1,0 +1,8 @@
+README.md
+setup.py
+promptz/__init__.py
+promptz/main.py
+promptz.egg-info/PKG-INFO
+promptz.egg-info/SOURCES.txt
+promptz.egg-info/dependency_links.txt
+promptz.egg-info/top_level.txt
