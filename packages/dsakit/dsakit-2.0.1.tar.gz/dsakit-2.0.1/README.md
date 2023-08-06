@@ -1,0 +1,55 @@
+# DSA Kit (Data Structures and Algorithms Kit)
+[![PyPI version](https://badge.fury.io/py/dsakit.svg)](https://badge.fury.io/py/dsakit)
+[![GitHub license](https://img.shields.io/github/license/Aayush65/DSAKit)](https://github.com/Aayush65/DSAKit/blob/main/LICENSE)
+
+## Overview
+
+DSA Kit is a comprehensive collection of Python modules that implement various data structures and algorithms from scratch. The primary goal of this project is to provide efficient and well-optimized implementations of fundamental data structures and algorithms.
+
+## Features
+
+- Developed all data structures as Python modules using best-known algorithms.
+- Ensured efficient Time and Space complexities for all implemented algorithms.
+- Comprehensive modules for Linked Lists, Binary Trees, and Tries with essential functions not available in Python's standard library.
+- Implemented default data structures like HashSet, HashMap, Circular Deque, and Min/Max Heap.
+
+## Index of Modules
+
+Click on the following link for their respective documentations
+
+1. [Linked List](https://github.com/Aayush65/DSAKit/blob/main/src/LinkedList.md)
+2. [Binary Trees](https://github.com/Aayush65/DSAKit/blob/main/src/BinaryTree.md)
+3. [Tries](https://github.com/Aayush65/DSAKit/blob/main/src/Trie.md)
+4. [UnionFind](https://github.com/Aayush65/DSAKit/blob/main/src/UnionFind.md)
+
+## Installation
+
+You can install DSA Kit using pip:
+
+```bash
+pip install dsakit
+```
+OR
+```bash
+pip3 install dsakit
+```
+
+## Usage
+
+After installation, you can use any of the 4 modules of this package:
+- LinkedList
+- BinaryTree
+- Trie
+- UnionFind,
+using the following import on python
+
+```python
+from LinkedList import *
+from BinaryTree import *
+from Trie import *
+from UnionFind import *
+```
+
+## License
+
+DSA Kit is open-source software released under the [MIT License](https://github.com/Aayush65/DSAKit/blob/main/LICENSE). Feel free to use it in your projects.
