@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+timegpt.egg-info/PKG-INFO
+timegpt.egg-info/SOURCES.txt
+timegpt.egg-info/dependency_links.txt
+timegpt.egg-info/top_level.txt
