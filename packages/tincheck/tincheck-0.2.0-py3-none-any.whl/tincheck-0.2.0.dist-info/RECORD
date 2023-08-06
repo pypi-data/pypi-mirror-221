@@ -1,0 +1,11 @@
+tinrun/__init__.py,sha256=VXiN4dTeEfbsGeB6G1r2fBM0do-nSiRSzkzsxvb5q2s,37
+tinrun/__main__.py,sha256=cVe5S247mtHiQ2Bmu54gnrzyAAdRn_EQ-Z-7x831U6A,248
+tinrun/bam2gtf.py,sha256=Ym6WC8yiKne_WoyDiTc5XxQpI8GwLyn9qq-XRZ5lbD4,2518
+tinrun/main.py,sha256=HxW2FR9Q6XMUK9xqHHbN3JtMENYBFcljyETs7I84VUE,995
+tinrun/overlap.py,sha256=4fybEqBHrOb0qhHnbEbM3S7TkYBIDOjQYBeBmQIMyjQ,27276
+tinrun/tin.py,sha256=dKNGu-Ou9Is6b0k-B8crijKBJbdcAAfrmMy3cn1xcjs,23448
+tincheck-0.2.0.dist-info/METADATA,sha256=onI_RwxaLADLyVPqgd6EuScFXL35peY4pzi0Qfys5xU,3817
+tincheck-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tincheck-0.2.0.dist-info/entry_points.txt,sha256=cyRUE2M_sVd1TKnhNgGR96L9cAYSmtfTcmBlDnKUya8,50
+tincheck-0.2.0.dist-info/top_level.txt,sha256=lSxc0ch9l0H4wL37MKi55pr0sor7GXr_7F7r-ZSQCtM,7
+tincheck-0.2.0.dist-info/RECORD,,
