@@ -1,0 +1,8 @@
+systemdumpy/__main__.py,sha256=v_bI7GvmetiZZMKVfsD4gJUVxZk1yFzZLCxx2i_mWGg,5825
+systemdumpy/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+systemdumpy/modules/report.py,sha256=x3_Bst0ecCDGN00YS-8zvwLM62A64CSRa70mZf7lC-4,1943
+systemdumpy/modules/web.py,sha256=1W5lTw6bV_YehWRZsNtnfrociF3B2nTb_B27zYcJ0hw,4256
+systemdumpy-1.0.2.dist-info/METADATA,sha256=GfIaFwaxogxZtBnSxhcRN481FLJNm1p-5Noi01nVaBA,2805
+systemdumpy-1.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+systemdumpy-1.0.2.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+systemdumpy-1.0.2.dist-info/RECORD,,
