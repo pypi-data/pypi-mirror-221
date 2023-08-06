@@ -1,0 +1,29 @@
+deploymentId: infra
+vars:
+  orgId: 
+  provider:
+    id: null
+  newProvider:
+    subscriptionId: 
+    region: 
+    directoryId: 
+    applicationId: 
+    applicationKey: 
+  network:
+    vNetId:
+    tenantCIDRs: []
+  edge:
+    privateDNS: titan.vmware.com
+    managedIdentityId: 
+    managementNetwork: mgmt-1
+  uag:
+    managementNetwork: mgmt-1
+    dmzNetwork: dmz
+    desktopNetwork: desktop-76
+
+  desktop:
+    markerId: null
+    streamId: null
+    templateType: null
+    vmSkuName: null
+    userGroup: hcs-user-group
