@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chichicha/__init__.py
+chichicha/pywpc.pyd
+chichicha/version.py
+chichicha.egg-info/PKG-INFO
+chichicha.egg-info/SOURCES.txt
+chichicha.egg-info/dependency_links.txt
+chichicha.egg-info/requires.txt
+chichicha.egg-info/top_level.txt
