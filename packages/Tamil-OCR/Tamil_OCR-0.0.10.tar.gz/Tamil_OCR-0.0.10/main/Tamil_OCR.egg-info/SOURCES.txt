@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+main/Tamil_OCR.egg-info/PKG-INFO
+main/Tamil_OCR.egg-info/SOURCES.txt
+main/Tamil_OCR.egg-info/dependency_links.txt
+main/Tamil_OCR.egg-info/requires.txt
+main/Tamil_OCR.egg-info/top_level.txt
