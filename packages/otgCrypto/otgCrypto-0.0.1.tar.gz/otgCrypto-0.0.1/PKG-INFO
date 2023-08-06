@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: otgCrypto
+Version: 0.0.1
+Summary: OTG cryptography is a new cryptographic concept which is designed by Tahsin Ahmed. 
+Home-page: 
+Author: Tahsin Ahmed
+Keywords: cryptography,encryption,decryption,otg,otg cryptography,one time gamble,one time gamble cryptography
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+License-File: LICENSE.txt
