@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyAutoscoper
+Version: 2.0.0
+Summary: A Python client library for the Autoscoper API
+Author-email: "Anthony J. Lombardi" <anthony.lombardi@kitware.com>
+License: Autoscoper License
+Project-URL: homepage, https://autoscoperm.slicer.org/
+Project-URL: repository, https://github.com/BrownBiomechanics/Autoscoper/tree/main/scripts/python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black (>=22.3.0) ; extra == 'dev'
+
+# PyAutoscoper
+
+Documentation for the Python API can be found on [Read the Docs](https://autoscoper.readthedocs.io/en/latest/socket-control-libraries/pyautoscoper.html).
