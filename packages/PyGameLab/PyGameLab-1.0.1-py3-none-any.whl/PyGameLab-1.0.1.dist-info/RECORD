@@ -1,0 +1,15 @@
+pygamelab/__init__.py,sha256=BYLzCCCBaUmOI3X3Qagh3w2g0blBcUZgu9htZZ4r5B8,10800
+pygamelab/canvas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygamelab/colors.py,sha256=ss9JAQIDWQdZG0y9Hs0LhRgjSoiOGItERRHIuryS46s,402
+pygamelab/console.py,sha256=b_lduHDDttZRiKmqJxteGouI0mhnUCs3nkG6WfuB5hs,297
+pygamelab/data.py,sha256=YAAmYo5FpfBUPdtfqKVXF1A7-2gnYiz4Zm4nq-cgRRc,375
+pygamelab/date.py,sha256=Oyp_9DZzhN5l0jNIASda3bI6a2TTskBtL8Z6Z2ZgJBk,368
+pygamelab/locals.py,sha256=uaOm79Slt6tVXJuEsyLbwm-5SSheJdHjxBqLJM7GqtA,344
+pygamelab/random.py,sha256=zuoITVKnHKs7G--3Z4d5GAEkGXb1N3qG2npale7E8T0,1505
+pygamelab/storage.py,sha256=o2fcJ4kXo9Y9zACMyW1un2edJPu7GsF0oIHIYaY8nvE,929
+pygamelab/unicode.py,sha256=Rb39UmugDP8B_2qeo2tAPJnNmN4k8SOOiiP-hxLFxSM,604
+PyGameLab-1.0.1.dist-info/LICENCE,sha256=mSFfUGVK-wlE6c7_c5eBMA5xwPTzAM1SLKDP28InLgQ,1072
+PyGameLab-1.0.1.dist-info/METADATA,sha256=eYLjF5dzyl797PMZlALrVf4hsH-SUMxG8716e-Te3sk,1687
+PyGameLab-1.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+PyGameLab-1.0.1.dist-info/top_level.txt,sha256=JmT4g0dR7jzGqEDpomRJlzTqhCElwgxELIz9lt_6LEM,10
+PyGameLab-1.0.1.dist-info/RECORD,,
