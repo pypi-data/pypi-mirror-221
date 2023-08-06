@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hysterical_ticket
+Version: 0.2.1
+Summary: 歇斯底里的双色球！But Chat with LLM
+Home-page: https://github.com/QIN2DIM/hysterical_ticket
+Author: QIN2DIM
+Author-email: yaoqinse@gmail.com
+License: MIT
+Keywords: XLangAI,ClaudeAI,hysterical_ticket
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Hysterical Ticket
+
+“玄”上花火，歇斯底里的双色球！
