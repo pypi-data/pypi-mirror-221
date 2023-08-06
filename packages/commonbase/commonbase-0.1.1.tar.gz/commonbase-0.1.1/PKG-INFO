@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: commonbase
+Version: 0.1.1
+Summary: Commonbase Python SDK
+Project-URL: Homepage, https://github.com/commonbaseapp/commonbase-python
+Project-URL: Source, https://github.com/commonbaseapp/commonbase-python
+Project-URL: Tracker, https://github.com/commonbaseapp/commonbase-python/issues
+License: MIT License
+        
+        Copyright (c) 2023 Commonbase
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.31.0
+Requires-Dist: sseclient-py>=1.7.2
+Description-Content-Type: text/markdown
+
+# Commonbase Python SDK
+
+Commonbase allows developers to integrate with any popular LLM API provider without needing to change any code. The SDK helps with collecting data and feedback from the users and helps you fine-tune models for your specific use case.
+
+## Installation
+
+```
+pip install commonbase
+```
+
+## Usage
+
+A project ID is required for all Commonbase requests. You can find your project ID in the [Commonbase Dashboard](https://commonbase.com/test-50727/project/test/overview).
+
+To create a completion, provide your project ID and prompt to the `Completion.create` class method.
+
+```py
+import commonbase
+
+project_id="XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX"
+
+result = commonbase.Completion.create(project_id=project_id, prompt="Hello!")
+
+print(result.choices[0].text)
+```
+
+Use `Completion.stream` to stream a completion response.
+
+```py
+import commonbase
+
+project_id="XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX"
+
+result = commonbase.Completion.stream(
+    project_id=project_id,
+    prompt="Write me a short essay about artificial intelligence."
+)
+
+for completion in result:
+    print(completion.choices[0].text, end="")
+```
