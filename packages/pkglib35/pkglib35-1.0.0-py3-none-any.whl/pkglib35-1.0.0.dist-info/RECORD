@@ -1,0 +1,7 @@
+pkglib35/__init__.py,sha256=nivtpTCEtEPG9BUZQufBz0XYc9X0Yt7j7nj8zhApfs0,29
+pkglib35/mod_a.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkglib35/mod_b.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkglib35-1.0.0.dist-info/METADATA,sha256=6vUwd3IAjRDqLYcK_V6CkNQK25FgfzxkD-yqYovGp4I,170
+pkglib35-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pkglib35-1.0.0.dist-info/top_level.txt,sha256=RXdUclBqmrGiDfL3EoeqS9yZ3WZbTFvkBEVqXD2ejyQ,9
+pkglib35-1.0.0.dist-info/RECORD,,
