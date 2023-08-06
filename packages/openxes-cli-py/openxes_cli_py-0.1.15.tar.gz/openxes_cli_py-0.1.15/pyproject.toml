@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "openxes-cli-py"
+version = "0.1.15"
+description = ""
+authors = ["Ihar Suvorau <ihar.suvorau@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "openxes_cli", from = "src" }]
+include = [{ path = "lib/openxes-cli.jar" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pandas = "^2.0.1"
+
+[tool.pytest]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
