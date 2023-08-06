@@ -1,0 +1,13 @@
+[console_scripts]
+delete_collection = marketplace.data_sink_client.cli:delete_collection
+delete_dataset = marketplace.data_sink_client.cli:delete_dataset
+download_file = marketplace.data_sink_client.cli:download_file
+download_folder = marketplace.data_sink_client.cli:download_folder
+get_collection_dcat = marketplace.data_sink_client.cli:get_collection_dcat
+get_dataset_dcat = marketplace.data_sink_client.cli:get_dataset_dcat
+list_collections = marketplace.data_sink_client.cli:list_collections
+list_datasets = marketplace.data_sink_client.cli:list_datasets
+query = marketplace.data_sink_client.cli:query
+query_dataset = marketplace.data_sink_client.cli:query_dataset
+upload_file_from_path = marketplace.data_sink_client.cli:upload_file_from_path
+upload_folder = marketplace.data_sink_client.cli:upload_files_from_folder
