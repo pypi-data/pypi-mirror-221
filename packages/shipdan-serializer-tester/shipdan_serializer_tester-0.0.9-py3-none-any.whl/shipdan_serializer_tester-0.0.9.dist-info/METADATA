@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shipdan-serializer-tester
+Version: 0.0.9
+Summary: for shipdan_application, shipdan_operation basic ModelSerializer field test
+Home-page: https://github.com/G-D4R3/shipdan_serializer_tester.git
+Author: dare
+Author-email: gdare1999@gmail.com
+Keywords: dare,darever,bunkerkids,shipdan,pypi
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: django
+
