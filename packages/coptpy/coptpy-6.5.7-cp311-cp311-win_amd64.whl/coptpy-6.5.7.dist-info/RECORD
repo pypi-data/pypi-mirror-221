@@ -1,0 +1,8 @@
+coptpy/__init__.py,sha256=xMhTpaJ_jpbpEX1P0u3HkQxr2n6rAhY7xKaBA2pxLeI,52
+coptpy/copt_python.dll,sha256=00JGL5k_Vqxt1uYXSpJNoHGLEklQzasDjwwP7CXbvPk,20167680
+coptpy/coptcore.pyd,sha256=rf6kuqvR8GfYhGhLloTqWt1vUMJollJaWSH8n3k3_4o,3185152
+coptpy/coptpywrap.pyd,sha256=duNyJdajiOntgcs3_AuuXz_RaWG92OONSr1gYeOvyh0,817152
+coptpy-6.5.7.dist-info/METADATA,sha256=CJAo5cpmWoa4zxuhb4B6vnFIyN634G7BNEGez1Zo-Ac,292
+coptpy-6.5.7.dist-info/WHEEL,sha256=TxwUeV-3HEbjjXVQ7qnUZIKQ4IinhZYV_rmkwq84M_Y,102
+coptpy-6.5.7.dist-info/top_level.txt,sha256=_xqv2qrsddWd2fOZt99t-CUB5eqDB_bujd5X7IC_Kmw,7
+coptpy-6.5.7.dist-info/RECORD,,
