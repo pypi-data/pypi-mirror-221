@@ -1,0 +1,15 @@
+cubicweb_squareui/__init__.py,sha256=d-176Cobhd3ZskGpt4DmzXg1g5-fyUd25lTsHbgkHZw,106
+cubicweb_squareui/__pkginfo__.py,sha256=B_Bc5NMvsur_CZXEL02EM2S--exAgkUZon46yymgfXc,780
+cubicweb_squareui/uiprops.py,sha256=uBoVbzWnbgNVF9yNYOiApkyG_cP4ve6G4v4o89kzmU4,60
+cubicweb_squareui/data/cubes.squareui.js,sha256=mR-ioXujCpMYewmbm_sHFJaR8o1UCnVN_xw8T764DEM,1739
+cubicweb_squareui/i18n/en.po,sha256=Qn1T605ilMwbL1W0HmS8Mk-YakiAaQ3EemCS1tYhQSQ,716
+cubicweb_squareui/i18n/es.po,sha256=Qn1T605ilMwbL1W0HmS8Mk-YakiAaQ3EemCS1tYhQSQ,716
+cubicweb_squareui/i18n/fr.po,sha256=3RGbNVSAmJaIp-fdxYnMVhLdbG_qw_qnbgHj9ghfo1U,752
+cubicweb_squareui/views/__init__.py,sha256=e7V6VJJMV79rNrTvgfMeDuihpVhZRYxyX21sLPDLGE4,1222
+cubicweb_squareui/views/basetemplates.py,sha256=KgbR_MVJdaxvJk-rkw2osmcWjEBvadMIsQU7WkNmk34,10850
+cubicweb_squareui/views/component.py,sha256=UkyMqAZOCMMtC4qiCMGeo3p9Y1knPRCJPSj9NLRd6fA,1830
+cubicweb_squareui-2.0.0.dist-info/METADATA,sha256=xZ8iyjiY-JD3tpgcaeztaY8biaGqY3sg_WwidI4xlhI,673
+cubicweb_squareui-2.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cubicweb_squareui-2.0.0.dist-info/entry_points.txt,sha256=Gr6kuqnXb2FhNEeZw8YBhKxTh7DtHz5zzGD_1SL_rdM,46
+cubicweb_squareui-2.0.0.dist-info/top_level.txt,sha256=L8RALLWxC90Xgo7-jTQtMheJH-nzXoGSCmBIodkQV68,18
+cubicweb_squareui-2.0.0.dist-info/RECORD,,
