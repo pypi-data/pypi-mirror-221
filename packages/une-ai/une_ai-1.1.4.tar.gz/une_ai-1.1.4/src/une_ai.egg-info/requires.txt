@@ -1,0 +1,8 @@
+pygame
+numpy
+scipy
+pyDatalog
+scikit-learn
+matplotlib
+pgmpy
+pomegranate
