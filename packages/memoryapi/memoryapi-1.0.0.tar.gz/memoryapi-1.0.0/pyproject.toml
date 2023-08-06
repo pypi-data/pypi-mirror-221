@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "memoryapi"
+version = "1.0.0"
+description = "Simple library to interact with process memory and threads"
+authors = ["Xenely"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
