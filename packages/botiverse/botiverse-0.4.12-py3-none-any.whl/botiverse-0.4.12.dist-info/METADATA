@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: botiverse
+Version: 0.4.12
+Summary: botiverse is a chatbot library that offers a high-level API to access a diverse set of chatbot models
+Home-page: https://botiverse.readthedocs.io/
+Author: Essam W., Mohamed Saad, Yousef Atef, Karim Taha
+Author-email: essamwisam@outlook.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: benepar
+Requires-Dist: cvxopt
+Requires-Dist: Flask
+Requires-Dist: gdown
+Requires-Dist: gensim
+Requires-Dist: matplotlib
+Requires-Dist: multiprocess
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: spacy
+Requires-Dist: tokenizers
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Requires-Dist: pyngrok
+Provides-Extra: voice
+Requires-Dist: waveglowpkg ; extra == 'voice'
+Requires-Dist: sentence-transformers ; extra == 'voice'
+Requires-Dist: PyAudio ; extra == 'voice'
+Requires-Dist: torchaudio ; extra == 'voice'
+Requires-Dist: soundfile ; extra == 'voice'
+Requires-Dist: playsound ; extra == 'voice'
+Requires-Dist: pydub ; extra == 'voice'
+Requires-Dist: gtts ; extra == 'voice'
+Requires-Dist: librosa ; extra == 'voice'
+Requires-Dist: audiomentations ; extra == 'voice'
+
+UNKNOWN
+
+
