@@ -1,0 +1,12 @@
+pop
+idem>=23.0.0
+
+[full]
+grainsv2
+grains-universal>=2.1
+dnspython>=1.14.0
+
+[grains]
+dnspython>=1.14.0
+grainsv2
+grains-universal>=2.1
