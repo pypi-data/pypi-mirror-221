@@ -1,0 +1,62 @@
+[project]
+name = "garth"
+dynamic = []
+description = "Garmin SSO auth + Connect client"
+authors = [
+    { name = "Matin Tamizi", email = "mtamizi@duck.com" },
+]
+dependencies = [
+    "requests",
+    "pydantic",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
+version = "0.2.9"
+
+[project.license]
+text = "MIT"
+
+[project.packages]
+include = [
+    { from = ".", include = "garth" },
+    { from = "garth", include = "py.typed" },
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pytest.ini_options]
+addopts = "--ignore=__pypackages__ --ignore-glob=*.yaml"
+
+[tool.pdm.version]
+source = "file"
+path = "garth/version.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipython",
+    "ipdb",
+    "ipykernel",
+    "pandas",
+    "matplotlib",
+]
+linting = [
+    "black",
+    "ruff",
+    "mypy",
+    "isort",
+    "types-requests",
+]
+testing = [
+    "coverage",
+    "pytest",
+    "pytest-vcr",
+]
