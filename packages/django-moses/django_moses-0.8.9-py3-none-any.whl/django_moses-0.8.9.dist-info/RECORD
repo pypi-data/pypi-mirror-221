@@ -1,0 +1,17 @@
+moses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moses/admin.py,sha256=AzXJZolB3ybUkFJE2NYS8fXW2VdJIezwi-JW1L6lM_I,2381
+moses/apps.py,sha256=0DheC5HZmnBfyDSLikxMtrCXlPXVE6RZJpkDXo3QNpY,85
+moses/authentication.py,sha256=qK6J3-8B_w71ywkOZVgQT3atQnBf12fnTAxLcadE8lk,8696
+moses/conf.py,sha256=cZZYw0WgSXd6VowNSLPWwweaG__l8kVDYGdIKTN8X1g,2830
+moses/decorators.py,sha256=pEBOkjpmTmgbgHylu_1aroB0Mk2kb9AnSB6Fv6Mr6QI,933
+moses/migrations/0001_initial.py,sha256=c9sSku_FAufeJUQXiclxwo9569-8i47a0QVjwI7HTBs,7588
+moses/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moses/models.py,sha256=MbH2SUv0zjNvYvehi2_Ckp0cCFl93LjF7zWgAuDKlZU,9741
+moses/serializers.py,sha256=FlnUKc1cYURw6wcz6Uo9maB6L5bAuWpDAe3FZuPE2bo,9418
+moses/templates/admin/login.html,sha256=A0_-9t7yzuBZVr7mjchoij0HUSJxfdbbswoN-NAaWoE,2147
+moses/urls.py,sha256=Tm8XaxUcDt90YVDf9ZZRncOpfEJYu3cWGuFidph6tlc,1965
+moses/views.py,sha256=ZQ8l2LhNHQpUotqcj4XCcJOSzd6SQO5rIqjAyK79q1E,12102
+django_moses-0.8.9.dist-info/LICENSE,sha256=4sRHYHnch5V2wl-S1ZMyjJ3TKpzX-AL3tVs_dVB4oJw,1460
+django_moses-0.8.9.dist-info/METADATA,sha256=aYGezQpgFKQc1MP4L8m3na_vl0pUbKCTdk-x2nkWDc0,546
+django_moses-0.8.9.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_moses-0.8.9.dist-info/RECORD,,
