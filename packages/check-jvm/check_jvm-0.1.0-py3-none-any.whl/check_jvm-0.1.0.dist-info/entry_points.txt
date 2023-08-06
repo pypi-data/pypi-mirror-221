@@ -1,0 +1,3 @@
+[console_scripts]
+check-jvm=check_jvm.app:app
+
