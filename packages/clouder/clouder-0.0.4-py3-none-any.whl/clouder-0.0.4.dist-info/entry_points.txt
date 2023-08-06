@@ -1,0 +1,3 @@
+[console_scripts]
+c = clouder.application:main
+clouder = clouder.application:main
