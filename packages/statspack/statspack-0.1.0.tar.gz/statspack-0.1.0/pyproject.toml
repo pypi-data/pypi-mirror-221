@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "statspack"
+version = "0.1.1"
+description = "A statistical visualization package optimized to work with percentiles and histograms."
+authors = ["Fabio R. Herpich <fabio.herpich@ast.cam.ac.uk>"]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.0"
+scipy = "^1.0"
+matplotlib = "^3.0"
+colorlog = "^5.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+
+[tool.poetry.extras]
+
+[tool.poetry.build]
+

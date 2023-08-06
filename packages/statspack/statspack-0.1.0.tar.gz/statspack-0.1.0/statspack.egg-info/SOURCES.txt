@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+__init__.py
+binning.py
+contour_pdf.py
+density_contour.py
+find_confidence_interval.py
+pyproject.toml
+setup.py
+statspack.egg-info/PKG-INFO
+statspack.egg-info/SOURCES.txt
+statspack.egg-info/dependency_links.txt
+statspack.egg-info/requires.txt
+statspack.egg-info/top_level.txt
