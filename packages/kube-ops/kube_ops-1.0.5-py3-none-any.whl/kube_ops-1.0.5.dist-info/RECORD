@@ -1,0 +1,12 @@
+kube/__init__.py,sha256=Af0Oy_7_RNbsxihJ6BasxE6Cno70jrB8wuxkALgyUJw,1664
+kube/api.py,sha256=RZgVjX-SE9-FuNJEvrd68nHSQMixGjQaJU-wSnBdBPo,38740
+kube/common.py,sha256=XRpVZJz700HSeErD7gFc1dWzT5GQlrhB1jEuxQ48N0Q,2611
+kube/config.py,sha256=dIXCzjejxXEWU9FDKJ-y2IC1dHQH-DwHUkH5QOGHL6o,5085
+kube/enums.py,sha256=a2UVx-KXe6GM_m3UTwEZHQNkFzMfgZLPG1S-CXTl-WU,1400
+kube/manifests.py,sha256=yCpE29slEmxSgVp4i6CM-4hpy9DTiJgM1xIw5Av_nQ4,19771
+kube/templates.py,sha256=dCNye1Ew8LSE_3cOu_dOT4A8ZBS7h_KkD0NzKf2VBZ8,11913
+kube_ops-1.0.5.dist-info/LICENSE,sha256=4UMudA3MzI411FVQKHbbLdnwm2GjFrbv5LBNk5ZTT8Y,1069
+kube_ops-1.0.5.dist-info/METADATA,sha256=pAL6pg2J8ehxEMY7WAtesS2BhiHjrfoyFXzH0NsPP48,3425
+kube_ops-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+kube_ops-1.0.5.dist-info/top_level.txt,sha256=VviGlBjAU4SlS_NC5yQCpy0uOZb8yzwuA9KQU4Tvrgc,5
+kube_ops-1.0.5.dist-info/RECORD,,
