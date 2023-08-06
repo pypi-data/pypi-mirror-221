@@ -1,0 +1,11 @@
+SpotifyUtil/SpotifyUtil.py,sha256=53YEEuEVsDwwj_jcW5GaMU82MJXrwM1fE59yh9doq6w,16424
+SpotifyUtil/__init__.py,sha256=wzev-Ws4Dm-IgFcqQp-bFoz0Ebmhw_W2XvkO0UBB8hA,139
+SpotifyUtil/config.py,sha256=VGYGo1ldTyKZya6_glUyqobNRE-5wnXVqYMehlffsOs,1387
+SpotifyUtil/file_reader.py,sha256=t9gln38QoItDAyL4jpukxVGwjBOYCK2XYsjpgxHEks4,262
+SpotifyUtil/secret.py,sha256=PmQlFgQjJXN4Oj0VG5g4Fqp3MfGs7dv_-uczRipkp-0,177
+SpotifyUtil/utilityTest.py,sha256=Qnen9x8hWq7QGZUpSI1F7R6SOGGCR3sHrsZg0RTzpVA,1594
+SpotifyUtil-0.0.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+SpotifyUtil-0.0.8.dist-info/METADATA,sha256=mFFz_qDWgU34PYrMuLm-AYHbYaGCVj9uN0IC5cXeKb4,2030
+SpotifyUtil-0.0.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SpotifyUtil-0.0.8.dist-info/top_level.txt,sha256=OyhFa3YThtnddscTgbeCAEcpAsDhus1E0jIR9fQjvjE,12
+SpotifyUtil-0.0.8.dist-info/RECORD,,
