@@ -1,0 +1,16 @@
+zarrita/__init__.py,sha256=itSLcDERGmWqRa4-p0lh2tFIQN_cN5qvBTgvHmcqA6I,1280
+zarrita/array.py,sha256=xEbY3rUnmQ1eQbi64R1vOUZFXxFKh2-HCPz8shkLLiw,16902
+zarrita/array_v2.py,sha256=-VSA-AIziEBXuJ8ziTibZ4U-xm_WY2ObK5jfFSunBpE,19745
+zarrita/codecs.py,sha256=9TmLLaZm_MMOjd9vq-BprBWmnrRq3N-DpMGsDNs8k30,16035
+zarrita/common.py,sha256=QaD8GYonq_9ANQpxkEQ6jiYsCcAUxG1yZgisQV2acbs,4484
+zarrita/group.py,sha256=KHVrjpk9B9a5NH-z6rCteTh1-6pZ02UCMCLXIP2mZ6A,6114
+zarrita/group_v2.py,sha256=_1B_7ZSB534l8DSpUXNo7KdNKDQlISnN-EYyEtx05EQ,7690
+zarrita/indexing.py,sha256=KS1BJJ7sbwW32wAF0ODiv_Q0E61vZv6qPxXfmkfyrsQ,7295
+zarrita/metadata.py,sha256=tURXU-KCtjsSXNM6R_KMdXb85f21WZCFMT0ZSc4kz-E,7882
+zarrita/sharding.py,sha256=5dj22-9ljbR2xkkVtN0BIPEGuvY6vwO-7PuhWAu9Jv8,18778
+zarrita/store.py,sha256=kyoIh99LCbtQcWg3H-7W6jJzAKfIh9dcUgJ_TakgEzM,9274
+zarrita/sync.py,sha256=LfdMSnW-_Bv4UJNv2Ammf2xGUiB-HaeTOaMoqxK3PYc,2676
+zarrita-0.1.0a15.dist-info/LICENSE,sha256=69oAlaQzs1rFFDsLaphlR_vdH8g9Pf_ggK4oLI0Dx7s,1105
+zarrita-0.1.0a15.dist-info/METADATA,sha256=7NqBekfdyhq2zvEJiy_i693LQB1USZrDD8H5Isc5_G8,3618
+zarrita-0.1.0a15.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+zarrita-0.1.0a15.dist-info/RECORD,,
