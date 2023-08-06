@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybuilder-docstr-coverage
+Version: 0.1.0
+Summary: PyBuilder plugin that checks documentation coverage using docstr-coverage
+Home-page: https://github.com/chylek/pybuilder-docstr-coverage
+Author: Adam Chýlek
+Author-email: adam.chylek@amitia-ai.com
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+Uses docstr-coverage to check documentation coverage of your project.
+
+You can configure the docstr-coverage package using the following properties:
+
+- `docstr_coverage_fail_under`: The minimum coverage percentage that must be achieved. 
+  If the coverage is below this value, the build will fail. This will take
+  precedence over the value set in the configuration file.
+- `docstr_coverage_config`: The path to the configuration file for docstr-coverage.
+  Default: .docstr.yaml
