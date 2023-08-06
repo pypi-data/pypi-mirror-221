@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vlclient"
+version = "1.0.1"
+description = "Valorant Client API Wrapper"
+authors = ["anntnzrb <anntnzrb@proton.me>", "colinhartigan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
