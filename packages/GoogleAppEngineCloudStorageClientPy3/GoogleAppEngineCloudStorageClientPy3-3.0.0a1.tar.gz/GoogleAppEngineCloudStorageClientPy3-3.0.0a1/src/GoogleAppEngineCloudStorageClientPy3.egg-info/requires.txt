@@ -1,0 +1,4 @@
+appengine-python-standard
+
+[dev]
+pytest

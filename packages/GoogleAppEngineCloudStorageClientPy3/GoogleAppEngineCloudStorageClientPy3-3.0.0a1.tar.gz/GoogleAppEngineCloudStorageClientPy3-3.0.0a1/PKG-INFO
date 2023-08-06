@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: GoogleAppEngineCloudStorageClientPy3
+Version: 3.0.0a1
+Summary: This library is the preferred way of accessing Google
+Author-email: Kamil Turek <kamil.turek@hotmail.com>
+License: Apache-2.0
+Keywords: google,app engine,cloud storage
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Google App Engine Cloud Storage Client for Python 3
+
+[![Test](https://github.com/kamilturek/appengine-gcs-client-py3/actions/workflows/test.yaml/badge.svg)](https://github.com/kamilturek/appengine-gcs-client-py3/actions/workflows/test.yaml)
+
+This is a port of the [GoogleAppEngineCloudStorageClient](https://pypi.org/project/GoogleAppEngineCloudStorageClient/)
+package to Python 3.
+
+## Installation
+
+```sh
+pip install GoogleAppEngineCloudStorageClientPy3
+```
