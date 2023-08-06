@@ -1,0 +1,7 @@
+jf_ingest-0.0.3.dist-info/METADATA,sha256=xTFUm8FCCUSVPm2e9ZiTcL_14U2_ZCVo5OBB_0ox_nQ,377
+jf_ingest-0.0.3.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+jf_ingest-0.0.3.dist-info/licenses/LICENSE,sha256=RpyI3ir0WEEowMvaNe4vF4BFdyOMqNpTGjCMiA9ARK8,1066
+jf_ingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_jira/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_jira/downloaders.py,sha256=Cko-NsWa8RymdxcAFcicNhX2uDCb5XMpAaoyz7IcyuQ,1692
+jf_ingest-0.0.3.dist-info/RECORD,,
