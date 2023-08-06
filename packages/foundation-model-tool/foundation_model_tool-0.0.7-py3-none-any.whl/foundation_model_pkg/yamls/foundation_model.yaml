@@ -1,0 +1,27 @@
+foundation_model_pkg.tools.foundation_model.FoundationModel.foundation_model:
+  inputs:
+    connection:
+      type:
+        - CustomConnection
+    api:
+      enum:
+        - chat
+        - completion
+      type:
+        - string
+    prompt:
+      default: "system:\nYou are a helpful assistant.\n\n{% for item in chat_history %}\nuser:\n{{item.inputs.question}}\nassistant:\n{{item.outputs.answer}}\n{% endfor %}\n\nuser:\n{{question}}"
+      type:
+        - string
+    model_kwargs:
+      default: "{}"
+      type:
+        - object
+  name: Foundation Model
+  description: Tool to use Azure Foundation Models
+  module: foundation_model_pkg.tools.foundation_model
+  class_name: FoundationModel
+  function: foundation_model
+  stage: test
+  type: python
+  is_builtin: true
