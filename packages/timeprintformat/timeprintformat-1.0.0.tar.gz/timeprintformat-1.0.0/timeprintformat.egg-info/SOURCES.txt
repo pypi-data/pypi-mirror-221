@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+timeprintformat/__init__.py
+timeprintformat.egg-info/PKG-INFO
+timeprintformat.egg-info/SOURCES.txt
+timeprintformat.egg-info/dependency_links.txt
+timeprintformat.egg-info/top_level.txt
