@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: betfairdatabase
+Version: 0.0.0
+Summary: Turns a collection of historical Betfair data into a queryable SQL database.
+Author-email: Mario Zaja <mzaja0@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/mzaja/betfair-database
+Project-URL: Bug Tracker, https://github.com/mzaja/betfair-database/issues
+Keywords: betfair,trading,betting,database
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# betfair-database
+Turns a collection of historical Betfair data into a queryable SQL database.
