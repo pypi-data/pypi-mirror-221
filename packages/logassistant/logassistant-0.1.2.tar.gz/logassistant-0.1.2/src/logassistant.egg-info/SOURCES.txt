@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/logassistant/__init__.py
+src/logassistant/logassistant.py
+src/logassistant.egg-info/PKG-INFO
+src/logassistant.egg-info/SOURCES.txt
+src/logassistant.egg-info/dependency_links.txt
+src/logassistant.egg-info/entry_points.txt
+src/logassistant.egg-info/requires.txt
+src/logassistant.egg-info/top_level.txt
