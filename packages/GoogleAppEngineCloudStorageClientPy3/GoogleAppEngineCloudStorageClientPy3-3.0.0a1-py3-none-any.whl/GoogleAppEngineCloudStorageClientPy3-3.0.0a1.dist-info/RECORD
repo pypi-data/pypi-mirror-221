@@ -1,0 +1,17 @@
+cloudstorage/__init__.py,sha256=BmBTEws9_1r885-t62jacCt_mNlYjVvzg6XDAhxSMlk,995
+cloudstorage/api_utils.py,sha256=MSDwOzT12FuBz3TX3hmzuV44M63M1rbwk6cMjkEAWe4,12068
+cloudstorage/cloudstorage_api.py,sha256=HeLbFYIqKz4N-Rxi96QXui5MieAqIbl85IhinbsrGkk,23653
+cloudstorage/common.py,sha256=NVt5dItxS0TqBeRz38I4Ys_FGHgoJjj2T08ijnvynZg,12530
+cloudstorage/errors.py,sha256=geew0L8IsJXY69TRggUuNKzOOgrE5WGMI6qoCzohmzc,3989
+cloudstorage/rest_api.py,sha256=bRdzp4K-PeF-LM72Xks0KsJDXWh1t1OmmH-TQRKVgUE,9120
+cloudstorage/storage_api.py,sha256=ylo618XWez3MI2uREgD6OaUBVX56n4VaoAuFqVs7HFw,28792
+cloudstorage/test_utils.py,sha256=YSm9XwLc6Nn9592CL9b8QjGPmxlFvhjXqPlljRwlOXg,849
+cloudstorage/port/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudstorage/port/cloudstorage_stub.py,sha256=KM_P6grKF_Qa8huSbXyEDdqpE5-n01uhxtLGd9b8Ln0,18778
+cloudstorage/port/stub_dispatcher.py,sha256=9gewPXxdPo-0oDe2xyEWXsBQGa-mdQVBUH_RwdxjOcg,14692
+cloudstorage/port/testbed.py,sha256=zcynSi2oYGGcYxMNzMgaooAb0aGwRafrA0wTqyU_cHc,1296
+GoogleAppEngineCloudStorageClientPy3-3.0.0a1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+GoogleAppEngineCloudStorageClientPy3-3.0.0a1.dist-info/METADATA,sha256=3zORSwZP4jN_qL-YoO6aDXzFAupcQvOObRvrjze9WeI,1383
+GoogleAppEngineCloudStorageClientPy3-3.0.0a1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+GoogleAppEngineCloudStorageClientPy3-3.0.0a1.dist-info/top_level.txt,sha256=_v7scHekFLFMVDclCtnqY3uWN1hZa79_qcUjCw8kOaQ,13
+GoogleAppEngineCloudStorageClientPy3-3.0.0a1.dist-info/RECORD,,
