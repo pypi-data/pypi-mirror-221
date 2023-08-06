@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: yskpomodoropy
+Version: 0.0.1
+Summary: an advanced pomodoro module
+Home-page: 
+Author: ysk software studio
+Author-email: mjacson250@gmail.com
+License: MIT
+Keywords: pomodoro,ysk,yskpomodoropy,advanced pomodoro
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+an advanced pomodoro module
+
+
+Change Log
+==========
+
+0.0.1 (24.07.2023)
+-------------------
+- First Release

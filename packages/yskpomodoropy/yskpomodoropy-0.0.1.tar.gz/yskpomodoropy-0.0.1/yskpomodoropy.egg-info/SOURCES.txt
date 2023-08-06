@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+yskkpomodoropy/__init__.py
+yskpomodoropy.egg-info/PKG-INFO
+yskpomodoropy.egg-info/SOURCES.txt
+yskpomodoropy.egg-info/dependency_links.txt
+yskpomodoropy.egg-info/top_level.txt
