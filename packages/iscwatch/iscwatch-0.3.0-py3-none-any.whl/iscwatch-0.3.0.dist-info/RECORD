@@ -1,0 +1,9 @@
+iscwatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iscwatch/advisory.py,sha256=qzfk4PgSQNxlikTHktwF_T2eYA8IKZtF7T3jpMOm7sA,265
+iscwatch/logconfig.py,sha256=G5af4mkb2MsljrL33DxUK3kZ944Edlgqw1M7D6VI4pI,519
+iscwatch/main.py,sha256=glSO1Tbkh5zxYskj8qtCRX-TfpuWh2RiTde1551U88o,2074
+iscwatch/scrape.py,sha256=2YDfYK-pS5b37K2Dsn3oETyVt-Mo3_nrEiSO4VVRHyE,3590
+iscwatch-0.3.0.dist-info/METADATA,sha256=xxhfLlUJsG3I4txyB2Xia4F1-FE5RZnbT3p347bO5Zw,3038
+iscwatch-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+iscwatch-0.3.0.dist-info/entry_points.txt,sha256=oQYOq6kyabk7dR8nvZcWOsmGSU_ZkeMxo0TN5XkJzD0,46
+iscwatch-0.3.0.dist-info/RECORD,,
