@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: waveform-factory
+Version: 0.1.0
+Summary: Waveform Factory is a python library that generates various types of waveform patterns. It is designed to aid in the creation, manipulation, and analysis of waveform data for various applications including music, signal processing, and more.
+Home-page: https://github.com/MrB-Can/waveform-factory
+Author: Paul Bennett
+Author-email: paul@lgis.ca
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
