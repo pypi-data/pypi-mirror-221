@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: guc
+Version: 0.0.1
+Summary: A utility library for making games with Pygame
+Project-URL: Homepage, https://github.com/groundupcoder/guc
+Project-URL: Bug Tracker, https://github.com/groundupcoder/guc/issues
+Author: groundupcoder
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# guc
+ The GroundUpCoder Python library
+
+A pure Python utility library for making games with Pygame.
+
+Currently a work in progress -
+
+## Release Notes
+
+### 0.0.1
+
+Initial commit with colors and a little bit of linear algebra
