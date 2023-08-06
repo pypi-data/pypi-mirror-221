@@ -1,0 +1,17 @@
+dsds/__init__.py,sha256=C9-4T89rg71ZeXDsqu-_Tiu4XRR4q1vazdz5_I89300,87
+dsds/blueprint.py,sha256=3za64mKPnG4EE74EgyGG_d1Tgued6PPS4qocrAly9yc,14005
+dsds/compare.py,sha256=VyZDbq44icTF6c3Vyg7h72CR7Z1LwooA_Q9BDgzx7m4,206
+dsds/eda_text.py,sha256=OBKk13pwNnOBS3MLTPmu-7aZUivk4n2UOTLGlJGBpdQ,3766
+dsds/encoders.py,sha256=xSaOVTJl5vsg1D3DIjd0wHtcQqX9vk6CCk1hv7K0tas,26636
+dsds/fs.py,sha256=noFx2tqtA1LiUp9JhDoqb-ikLPFJdsQeYijhjygLdGk,37634
+dsds/metrics.py,sha256=QSLnTbIUS7RgErK-KMZZPpipy2WDwTS1bTXmi_XthgI,11007
+dsds/prescreen.py,sha256=L7WM5cpyURQpgrO2b8ep_H0BqqnZKpxaWMd-BzI-63E,38259
+dsds/sample.py,sha256=y29qjHBRTP4aKUU9zqCIEz37iAJTk2e-IQjsC8LX5TE,20420
+dsds/transform.py,sha256=blgMPVMHQcq2Jk_fC3q4_egw7Y0w0RuikF6JLSfCERA,28954
+dsds/type_alias.py,sha256=wJnm9cZNVCyDw3VGcQwh4otstJ4nH3M-xIlMJRfv3K0,3522
+dsds/utils.py,sha256=ybvB2JCWF8hROxcKDQc9gpWJOKJRZFCzv1yK-v3UfaY,14259
+dsds-0.0.24.dist-info/LICENSE,sha256=TatwcgPVals4iz1Iq5wypHdWbgPfKLtI744MYHyttto,1079
+dsds-0.0.24.dist-info/METADATA,sha256=K2Q3MRiBgMirqLBpHswqLJDgNaLwFA1yyaAXwrnKppg,9646
+dsds-0.0.24.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dsds-0.0.24.dist-info/top_level.txt,sha256=JeYEPvnLRt8cNDOYT5En1BqsOrcVFxx1GijFEIpwrc8,5
+dsds-0.0.24.dist-info/RECORD,,
