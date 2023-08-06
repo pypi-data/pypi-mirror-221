@@ -1,0 +1,3 @@
+drawSvg~=2.2.0
+click
+loguru
