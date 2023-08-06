@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+textco/__init__.py
+textco/textco.py
+textco.egg-info/PKG-INFO
+textco.egg-info/SOURCES.txt
+textco.egg-info/dependency_links.txt
+textco.egg-info/requires.txt
+textco.egg-info/top_level.txt
