@@ -1,0 +1,8 @@
+README.md
+setup.py
+baby_code.egg-info/PKG-INFO
+baby_code.egg-info/SOURCES.txt
+baby_code.egg-info/dependency_links.txt
+baby_code.egg-info/entry_points.txt
+baby_code.egg-info/requires.txt
+baby_code.egg-info/top_level.txt
