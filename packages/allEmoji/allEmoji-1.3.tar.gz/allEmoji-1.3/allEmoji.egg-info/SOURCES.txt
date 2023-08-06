@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+allEmoji.egg-info/PKG-INFO
+allEmoji.egg-info/SOURCES.txt
+allEmoji.egg-info/dependency_links.txt
+allEmoji.egg-info/top_level.txt
+emoji/__init__.py
+emoji/main.py
