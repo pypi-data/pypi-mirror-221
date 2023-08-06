@@ -1,0 +1,1 @@
+from .fastmodule import FastModule
