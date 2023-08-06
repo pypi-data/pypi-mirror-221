@@ -1,0 +1,3 @@
+[console_scripts]
+steganographr = steganographr:main
+stegnr = steganographr:main
