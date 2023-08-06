@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: theknot
+Version: 0.0.1
+Summary: A library for adding arbitrary items to TheKnot registries
+Author-email: Estelle Poulin <dev@inspiredby.es>
+License: GPLv3
+Project-URL: homepage, https://github.com/estheruary/python-theknot
+Project-URL: repository, https://github.com/estheruary/python-theknot
+Project-URL: changelog, https://gitlab.com/estheruary/theknot/-/blob/main/CHANGELOG.md
+Keywords: theknot
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black (==23.7.0)
+Requires-Dist: build (==0.10.0)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: click (==8.1.6)
+Requires-Dist: idna (==3.4)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pathspec (==0.11.1)
+Requires-Dist: platformdirs (==3.9.1)
+Requires-Dist: Pygments (==2.15.1)
+Requires-Dist: pyproject-hooks (==1.0.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: rich (==13.4.2)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-extensions (==4.7.1)
+Requires-Dist: urllib3 (==2.0.4)
+Requires-Dist: xdg (==6.0.0)
+Requires-Dist: xdg-base-dirs (==6.0.0)
+
+# python-theknot
+A library for adding custom registry items to TheKnot
