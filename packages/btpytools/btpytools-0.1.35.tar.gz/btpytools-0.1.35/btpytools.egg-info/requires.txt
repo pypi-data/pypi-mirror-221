@@ -1,0 +1,15 @@
+pyyaml
+types-PyYAML
+termcolor
+
+[dev]
+ipython
+mypy
+pytest
+setuptools_scm
+black
+flake8
+pre-commit
+
+[register]
+brainreg
