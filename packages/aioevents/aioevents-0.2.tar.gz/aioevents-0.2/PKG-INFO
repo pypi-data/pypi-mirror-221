@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aioevents
+Version: 0.2
+Summary: Events for asyncio
+Home-page: https://github.com/AstraLuma/aioevents
+License: MIT
+Author: Jamie Bliss
+Author-email: jamie@ivyleav.es
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://aioevents.readthedocs.io/
+Project-URL: Repository, https://github.com/AstraLuma/aioevents
+Description-Content-Type: text/markdown
+
+# aioevents
+
+Events for asyncio (PEP 3156)
+
+## Usage
+
+To declare an event:
+
+```python
+from aioevents import Event
+
+class Spam:
+	egged = Event("The spam has been egged")
+```
+
+To register a handler:
+
+```python
+
+spam = Spam()
+
+@spam.egged.handler
+def on_egged(sender, amt):
+    print("Spam got egged {} times".format(amt)")
+```
+
+Triggering an event:
+
+```python
+spam.egged(42)
+```
+
