@@ -1,0 +1,5 @@
+selenium~=4.6
+chrome-devtools-protocol
+
+[dev]
+check-manifest
