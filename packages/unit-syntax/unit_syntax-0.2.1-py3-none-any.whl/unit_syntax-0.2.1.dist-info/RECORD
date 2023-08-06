@@ -1,0 +1,7 @@
+unit_syntax/__init__.py,sha256=8GrfuY4_0oa8cKxSj1K2mFtk88iIFix4Z20vVzCIYCg,2104
+unit_syntax/ipython/__init__.py,sha256=jaXEQz3bgW4dWsdvbSftbujyCamy-o2uLF6pdyejlRw,48
+unit_syntax/parser.py,sha256=Rh3YYQrtIDe0XpZWVFrtA9DqUqbJ-LV503A8YT6xhG0,333763
+unit_syntax/transform.py,sha256=9ocKbqDqOLLkLAoaWET6q2OUqBFJK5t2PWQ9neNIbos,1592
+unit_syntax-0.2.1.dist-info/METADATA,sha256=j3MA1iEqPW8vM-Z4uIl0_r1tCGZUUorLcyo8R8FO_LE,6147
+unit_syntax-0.2.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+unit_syntax-0.2.1.dist-info/RECORD,,
