@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: zzq-strings-sum
+Version: 0.5.3
+Summary: A client for Databus API
+Home-page: UNKNOWN
+Author: zzq
+Author-email: zhaozhiqiang@vikadata.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Databus Client
+
+Databus Client is a Python client for making HTTP requests to the Databus API and retrieving JSON data.
+
+## Installation
+
+You can install Databus Client using pip:
+
+```agsl
+pip install databus-client
+```
+
+## Usage
+
+
+
+
+#### Get datasheet pack data
+
+```python
+from apitable_databus_client import DatabusClient
+
+# Initialize the client with the base URL of the Databus API
+host_address = "https://integration.vika.ltd"
+client = DatabusClient(host_address)
+
+# Make a GET request to fetch the datasheet pack data
+datasheet_id = "dstbUhd5coNXQoXFD8"
+result = client.get_datasheet_pack(datasheet_id)
+
+if result:
+    print(result)
+else:
+    print("Request failed.")
+```
+
+## develop
+
+```shell
+python3 -m venv .env
+source ./env/bin/active
+pip3 install -r requirements.txt
+pip3 install twine
+```
+
+## build and publish
+```shell
+python3 setup.py sdist
+twine upload dist/*
+```
+
