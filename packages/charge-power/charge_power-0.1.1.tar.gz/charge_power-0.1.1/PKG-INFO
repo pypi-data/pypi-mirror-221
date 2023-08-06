@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: charge-power
+Version: 0.1.1
+Summary: Small utility to track current charge/discharge wattage based on system sensors (Linux only)
+Home-page: https://github.com/kanootoko/charge-power
+License: MIT
+Author: Aleksei Sokol
+Author-email: kanootoko@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Hardware
+Requires-Dist: click (>=8.1.4,<9.0.0)
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Project-URL: Bug tracker, https://github.com/kanootoko/charge-power/issues
+Project-URL: Repository, https://github.com/kanootoko/charge-power
+Description-Content-Type: text/markdown
+
+# charge-power
+
+A small utility to track power consumed or provided to the device battery.
+
+## Installation
+
+One can install the module via __pipx__:
+- `pipx install charge-power`
+- `pipx install git+https://github.com/kanootoko/charge-power.git`
+
+## Work principals
+
+By default, searches for battery directory in __/sys/class/power_supply__. Uses __charge_now__ and __charge_full__
+  files to get current and max chagre level.
+
+Then the measurements are taken from __charge_now__ file by timer by given delay time. Difference between
+  is the amount of energy consumed/provided to the battery, and it is displayed to the console (and log file if it
+  is set).
+
