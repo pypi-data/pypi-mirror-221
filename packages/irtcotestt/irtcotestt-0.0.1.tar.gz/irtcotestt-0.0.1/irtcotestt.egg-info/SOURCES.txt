@@ -1,0 +1,6 @@
+setup.py
+irtcotestt.egg-info/PKG-INFO
+irtcotestt.egg-info/SOURCES.txt
+irtcotestt.egg-info/dependency_links.txt
+irtcotestt.egg-info/top_level.txt
+test/__init__.py
