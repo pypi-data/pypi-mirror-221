@@ -1,0 +1,1 @@
+from .main import ontouml_json2graph
