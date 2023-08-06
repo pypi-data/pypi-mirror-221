@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pip_services4_data.egg-info/PKG-INFO
+pip_services4_data.egg-info/SOURCES.txt
+pip_services4_data.egg-info/dependency_links.txt
+pip_services4_data.egg-info/requires.txt
+pip_services4_data.egg-info/top_level.txt
+pip_services4_data.egg-info/zip-safe
