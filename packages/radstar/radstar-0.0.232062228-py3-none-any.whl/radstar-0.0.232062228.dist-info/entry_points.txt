@@ -1,0 +1,2 @@
+[console_scripts]
+rs = radstar.rs.cli.__main__:main
