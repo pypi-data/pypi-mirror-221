@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: t3w
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: jaxtyping
+Requires-Dist: typer[all]
+Provides-Extra: all
+Requires-Dist: aim ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Provides-Extra: common
+Requires-Dist: aim ; extra == 'common'
+Requires-Dist: tqdm ; extra == 'common'
+
