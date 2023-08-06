@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: corpus-reader
+Version: 0.0.1
+Summary: A fast and memory-efficient indexing tool for reading large-scale corpora.
+Home-page: https://github.com/waylight3/corpus_reader
+Author: waylight3
+Author-email: waylight3@snu.ac.kr
+Keywords: corpus,reader,index,large data,memory-efficient
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Requires-Dist: unidecode
+
