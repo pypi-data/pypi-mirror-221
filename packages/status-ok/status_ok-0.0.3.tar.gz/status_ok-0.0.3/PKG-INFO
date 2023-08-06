@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: status_ok
+Version: 0.0.3
+Summary: This library is used to handle http responses.
+Home-page: https://github.com/iLS-yuvrajj/statusOk/tree/main
+Author: yuvraj jaiswal
+Author-email: y.jaiswal@thesynapses.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This library is used to handle http responses in python.
