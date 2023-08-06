@@ -1,0 +1,11 @@
+dclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dclient/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+dclient/cli.py,sha256=VybdoDpWRx8Hm1RuWNLNeHd10xxqVVxzqbn8d8_ywYc,11867
+dclient/plugin.py,sha256=X-jvE6qSPW3A9c7hMy8h57pu60mqFKIiixfKrdHCm9o,160
+dclient/utils.py,sha256=3QCEbWd2Lb43uXtLI7v-TlAPTKbxL6YKrjOaW5TcYtE,1163
+dclient-0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dclient-0.2.dist-info/METADATA,sha256=E4McQimsaBH68uCmuY3s7g0a4SxWrTELnNlrPfu907E,2674
+dclient-0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dclient-0.2.dist-info/entry_points.txt,sha256=kRmaMYRC_qpwkYIbBxPI9JV_vDMEAC7m6_cNsEoT5I8,81
+dclient-0.2.dist-info/top_level.txt,sha256=ObNuIHEqsodXlkL97siKRNsgYCq-9ujqUD6jB2oZRi8,8
+dclient-0.2.dist-info/RECORD,,
