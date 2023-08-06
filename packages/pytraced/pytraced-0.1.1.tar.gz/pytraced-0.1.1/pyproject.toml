@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytraced"
+description = "A simple, lightweight, & extensible logging library for python"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.10, <4"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+
+[[project.authors]]
+name = "Eris"
+email = "theferretdetective@gmail.com"
+
+[project.urls]
+Homepage = "https://github.com/FerretDetective/pytraced"
+IssueTracker = "https://github.com/FerretDetective/pytraced/issues"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+version = { attr = "pytraced.__version__" }
+
+[tool.setuptools.dynamic.optional-dependencies]
+dev = { file = ["dev_requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pytraced = ["py.typed"]
