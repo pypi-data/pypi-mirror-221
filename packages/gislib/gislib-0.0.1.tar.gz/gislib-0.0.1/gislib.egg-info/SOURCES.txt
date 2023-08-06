@@ -1,0 +1,10 @@
+README.md
+setup.py
+gislib/__init__.py
+gislib/clip.py
+gislib/version.py
+gislib.egg-info/PKG-INFO
+gislib.egg-info/SOURCES.txt
+gislib.egg-info/dependency_links.txt
+gislib.egg-info/requires.txt
+gislib.egg-info/top_level.txt
