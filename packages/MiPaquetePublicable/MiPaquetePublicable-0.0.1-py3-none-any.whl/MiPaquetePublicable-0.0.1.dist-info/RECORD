@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compuestos/__init__.py,sha256=JzVpxtDfe9PsfWaaREN7VxprzqGcQdHBe5kTBAOiyrU,62
+compuestos/funciones_avanzadas.py,sha256=s93cnAe_DQsMre6DoBs4pLNH-FNUn9s5sth3wVbpW48,4113
+elementales/__init__.py,sha256=M11DCBAT-wv68D3ZIjh-yHNJApYqyu3EJAjHANbkFdc,61
+elementales/funciones_basicas.py,sha256=u1-Pk375lbkan5RIYlNJGR7hWWOZ7_GRywogYLNVJ9Y,2191
+MiPaquetePublicable-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MiPaquetePublicable-0.0.1.dist-info/METADATA,sha256=8ryouWfYokxpliMnpQxNQ8hZLY3ONvnmczXxB0jIJ0k,6621
+MiPaquetePublicable-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+MiPaquetePublicable-0.0.1.dist-info/top_level.txt,sha256=sSWpxhWLollzoOi_tNFPWIzgarDbd_EuA2UfZHuOlpQ,32
+MiPaquetePublicable-0.0.1.dist-info/RECORD,,
