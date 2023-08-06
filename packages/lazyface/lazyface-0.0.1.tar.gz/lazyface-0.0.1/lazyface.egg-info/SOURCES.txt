@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lazyface/language_model.py
+lazyface/machine_translation.py
+lazyface/summarization.py
+lazyface.egg-info/PKG-INFO
+lazyface.egg-info/SOURCES.txt
+lazyface.egg-info/dependency_links.txt
+lazyface.egg-info/requires.txt
+lazyface.egg-info/top_level.txt

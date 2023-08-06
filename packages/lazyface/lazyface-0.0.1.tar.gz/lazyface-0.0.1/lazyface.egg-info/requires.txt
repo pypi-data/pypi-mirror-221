@@ -1,0 +1,7 @@
+requests
+transformers
+evaluate
+datasets
+setfit
+trl
+accelerate
