@@ -1,0 +1,2 @@
+[console_scripts]
+greptime-cloud-quick-start = quick-start.app:main
