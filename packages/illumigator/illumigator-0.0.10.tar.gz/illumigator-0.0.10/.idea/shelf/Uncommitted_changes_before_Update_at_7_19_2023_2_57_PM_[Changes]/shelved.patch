@@ -1,0 +1,49 @@
+Index: illumigator/data/levels/community/custom_level10.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"level_name\": \"My Custom Level 2\",\r\n  \"planet\": \"mars\",\r\n  \"level_data\": {\r\n    \"mirror_coordinate_list\": [\r\n      [740, 580, 0],\r\n      [900, 180, 0]\r\n    ],\r\n    \"wall_coordinate_list\": [\r\n      [340, 540, 1, 7, 0],\r\n      [740, 180, 1, 7, 0],\r\n      [900, 540, 1, 7, 0]\r\n    ],\r\n    \"light_receiver_coordinate_list\": [\r\n      [1180, 620, 0]\r\n    ],\r\n    \"light_source_coordinate_list\": [\r\n      [140, 60, 1.57079632679]\r\n    ],\r\n    \"animated_wall_coordinate_list\": [\r\n    ]\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/custom_level10.json b/illumigator/data/levels/community/custom_level10.json
+--- a/illumigator/data/levels/community/custom_level10.json	(revision 75ec15b665045b2daf6238632f619fbe7371520b)
++++ b/illumigator/data/levels/community/custom_level10.json	(date 1689658942488)
+@@ -1,5 +1,5 @@
+ {
+-  "level_name": "My Custom Level 2",
++  "level_name": "FRONT",
+   "planet": "mars",
+   "level_data": {
+     "mirror_coordinate_list": [
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level.json\": {\"date_modified\": 1689644470.243744, \"level_name\": \"My Custom Level 20\", \"planet_name\": \"earth\"}, \"custom_level2.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level3.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level4.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level5.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level6.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level10.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level11.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level12.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level13.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level14.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level15.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level16.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level7.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level8.json\": {\"date_modified\": 1689644612.9348924, \"level_name\": \"TESTING\", \"planet_name\": \"mars\"}, \"custom_level9.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}, \"custom_level17.json\": {\"date_modified\": 1689639091.8686352, \"level_name\": \"My Custom Level 2\", \"planet_name\": \"mars\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	(revision 75ec15b665045b2daf6238632f619fbe7371520b)
++++ b/illumigator/data/levels/community/levels.json	(date 1689658995882)
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level.json": {"date_modified": 1689644470.243744, "level_name": "My Custom Level 20", "planet_name": "earth"}, "custom_level2.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level3.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level4.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level5.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level6.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level10.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level11.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level12.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level13.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level14.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level15.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level16.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level7.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level8.json": {"date_modified": 1689644612.9348924, "level_name": "TESTING", "planet_name": "mars"}, "custom_level9.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level17.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}}}
+\ No newline at end of file
++{"levels": {"custom_level.json": {"date_modified": 1689644470.243744, "level_name": "My Custom Level 20", "planet_name": "earth"}, "custom_level2.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level3.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level4.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level5.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level6.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level10.json": {"date_modified": 1689658942.4882464, "level_name": "FRONT", "planet_name": "mars"}, "custom_level11.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level12.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level14.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level15.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level16.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level7.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level8.json": {"date_modified": 1689644612.9348924, "level_name": "TESTING", "planet_name": "mars"}, "custom_level17.json": {"date_modified": 1689639091.8686352, "level_name": "My Custom Level 2", "planet_name": "mars"}, "custom_level13.json": {"date_modified": 1689658942.5612347, "level_name": "THIS FILE", "planet_name": "mars"}, "custom_level9.json": {"date_modified": 1689646116.3233669, "level_name": "My Custom Level 2", "planet_name": "mars"}}}
+\ No newline at end of file
+Index: illumigator/data/levels/community/custom_level13.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"level_name\": \"My Custom Level 2\",\r\n  \"planet\": \"mars\",\r\n  \"level_data\": {\r\n    \"mirror_coordinate_list\": [\r\n      [740, 580, 0],\r\n      [900, 180, 0]\r\n    ],\r\n    \"wall_coordinate_list\": [\r\n      [340, 540, 1, 7, 0],\r\n      [740, 180, 1, 7, 0],\r\n      [900, 540, 1, 7, 0]\r\n    ],\r\n    \"light_receiver_coordinate_list\": [\r\n      [1180, 620, 0]\r\n    ],\r\n    \"light_source_coordinate_list\": [\r\n      [140, 60, 1.57079632679]\r\n    ],\r\n    \"animated_wall_coordinate_list\": [\r\n    ]\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/custom_level13.json b/illumigator/data/levels/community/custom_level13.json
+--- a/illumigator/data/levels/community/custom_level13.json	(revision 75ec15b665045b2daf6238632f619fbe7371520b)
++++ b/illumigator/data/levels/community/custom_level13.json	(date 1689658942561)
+@@ -1,5 +1,5 @@
+ {
+-  "level_name": "My Custom Level 2",
++  "level_name": "THIS FILE",
+   "planet": "mars",
+   "level_data": {
+     "mirror_coordinate_list": [

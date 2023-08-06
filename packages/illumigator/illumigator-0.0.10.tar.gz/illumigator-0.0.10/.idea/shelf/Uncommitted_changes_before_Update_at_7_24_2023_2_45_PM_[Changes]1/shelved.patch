@@ -1,0 +1,15 @@
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level_test.json\": {\"date_modified\": 1690013457.7235708, \"level_name\": \"Custom Test Level\", \"planet_name\": \"earth\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	
++++ b/illumigator/data/levels/community/levels.json	
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level_test.json": {"date_modified": 1690013457.7235708, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
++{"levels": {"custom_level_test.json": {"date_modified": 1690175258.1521873, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file

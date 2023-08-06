@@ -1,0 +1,30 @@
+Index: illumigator/data/config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"current_level\": 2, \"volume\": {\"master\": 0.45000000000000023, \"music\": 0.06378750000000008, \"effects\": 0.09112500000000014}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/config.json b/illumigator/data/config.json
+--- a/illumigator/data/config.json	(revision c49b73d02e57c25bfec616c3fd4ad7a0eb633679)
++++ b/illumigator/data/config.json	(date 1690023606712)
+@@ -1,1 +1,1 @@
+-{"current_level": 2, "volume": {"master": 0.45000000000000023, "music": 0.06378750000000008, "effects": 0.09112500000000014}}
+\ No newline at end of file
++{"current_level": 2, "volume": {"master": 0.3400000000000001, "music": 0.08116985801764261, "effects": 0.07035107501528369}}
+\ No newline at end of file
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level_test.json\": {\"date_modified\": 1689858543.3860767, \"level_name\": \"Custom Test Level\", \"planet_name\": \"earth\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	(revision c49b73d02e57c25bfec616c3fd4ad7a0eb633679)
++++ b/illumigator/data/levels/community/levels.json	(date 1690023598429)
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level_test.json": {"date_modified": 1689858543.3860767, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
++{"levels": {"custom_level_test.json": {"date_modified": 1689858596.8848095, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
