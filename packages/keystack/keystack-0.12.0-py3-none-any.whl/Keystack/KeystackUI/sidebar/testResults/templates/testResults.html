@@ -1,0 +1,415 @@
+<!-- https://bootstrap-menu.com/detail-sidebar-nav-collapse.html -->
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/testResultsTreeView.css" %} rel="stylesheet" type="text/css">
+{% endblock extra_css%}
+
+{% block content %}
+
+<div id="logDeleteNote" deleteResultsAfterDays={{removeResultsAfterDays}}></div>
+<div id="groupAndPath" group={{group}} playbook={{playbook}} path={{resultsFolderPath}}></div>
+<div id="resultFolderPath" value={{resultFolderPath}}></div>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle marginTop5px">
+        <div class="flexRowInlineBlockLeft">
+            <a href="#" name="selectAllTestResultButton" onclick="selectAll();" >Select All</a>&emsp;&emsp;
+            <a href="#" name="selectAllTestResultButton" onclick="clearAll();" >Clear All</a>&emsp;&emsp;
+            <a href="#" onclick="deleteSelected()">Delete Selected</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#deleteAllInThisGroupModal">Delete All In This Group</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#deleteAllInThisPlaybookModal">Delete All In This Playbook</a>&emsp;&emsp;
+            <a href="#" onclick='archiveResults()'>Archive Results</a>&emsp;&emsp;
+            <span id="insertRemoveResultsInfo" style="color:black; font-size:14px"></span>
+            <span id='archiveResultNote' style="color:black; padding-bottom:0; font-size:14px"></span>
+        </div>
+    </nav>
+
+    <!-- py-3 = vertical up/down -->
+    <!-- <section class="section-content py-0 px-0"></section> -->
+
+    <div class="row">
+        <!-- Download files is donw by using form tag to return a direct response to receive the file -->
+        <form action="{% url 'downloadResults' %}" method="post">
+            {% csrf_token %}
+            <div id="insertTestResultPages"></div>
+        </form>
+    </div>
+</div>
+
+<div class="modal" id="openFileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="modifyFile" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="flexRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Result file:&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+					<div class="row" id="insertFileContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="closeText()" >Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deleteAllInThisGroupModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="deleteAllInThisGroup" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Delete all results in this group&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to delete all the results in this group?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="deleteAllInGroup()">Delete All</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deleteAllInThisPlaybookModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="deleteAllInThisPlaybook" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Delete all results in this playbook&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to delete all the results in this playbook?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="deleteAllInPlaybook()">Delete All</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block extra_js %}
+    <script type="text/javascript">
+        var nestedFolderCounter = 0;
+        var archiveResultsArray = new Array();
+        var resultsPerPage = 25;
+
+        /*
+        let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+        if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+            hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+        }
+        */
+
+        document.addEventListener("DOMContentLoaded", function() {
+            getServerTime();
+
+            let title = document.querySelector('#topbarTitlePage').innerHTML;
+            if (title == "Test Results Archive") {
+                document.querySelector('#archiveResultNote').innerHTML = '* Results in archive will never be deleted until they are manually deleted';
+            } else {
+                let removeResultsAfterDays = document.querySelector('#logDeleteNote').getAttribute('deleteResultsAfterDays');
+                document.querySelector('#insertRemoveResultsInfo').innerHTML = `* removeResultsAfterDays=${removeResultsAfterDays}`
+                getInstantMessages(webpage='testResults');
+            }
+
+            let group = document.querySelector('#groupAndPath').getAttribute('group');
+            let playbook = document.querySelector('#groupAndPath').getAttribute('playbook');
+            let path = document.querySelector('#groupAndPath').getAttribute('path');
+            document.querySelector('#topbarTitlePage').innerHTML += `&emsp;|&emsp;&emsp;GROUP=${group} &emsp;| &emsp;&emsp;PLAYBOOK=${playbook} &emsp;&emsp;${path}`;
+
+            getTestResultPages();
+        })
+
+        function setResultsPerPage(event) {
+            resultsPerPage = event.options[event.selectedIndex].value;
+            getTestResultPages();
+        }
+
+        function addListeners(caretName="caret2", newVarName='x') {
+            // caret2
+            //let toggler = document.getElementsByClassName(caretName);
+            window[caretName] = document.getElementsByClassName(caretName);
+
+            for (x= 0; x < window[caretName].length; x++) {
+                window[caretName][x].addEventListener("click", function() {
+                    this.parentElement.querySelector(".nested").classList.toggle("active");
+                    //this.classList.toggle("caret-down");               
+                });
+            }
+        }
+
+        async function toggleFolder(object=null) {
+            //object.classList.toggle("active");
+            //await object.parentElement.querySelector(".nested").classList.toggle("active");
+            //await object.parentElement.querySelector(".nested").classList.toggle();
+
+            await object.parentElement.querySelector(".nested");
+        }
+
+        async function getTestResultPages(object=null) {
+            /* object is page buttons onclick */
+
+            // Blank out the page
+            document.querySelector('#insertTestResultPages').innerHTML = '';
+            let pageIndexRange = [];
+            let getPageNumber = 1;
+
+            if (object == null) {
+                // Default getting up to 25 test results per page
+                pageIndexRange.push(`0:${resultsPerPage}`);
+            } else {
+                pageIndexRange.push(object.getAttribute("pageIndexRange"));
+                getPageNumber = object.getAttribute("getPageNumber");
+            }
+
+            let resultFolderPath = document.querySelector("#resultFolderPath").getAttribute("value");
+
+            const splitIndexRange = pageIndexRange[0];
+            const startingIndex =  Number(splitIndexRange.split(":")[0]);
+            const total = parseInt(startingIndex) + parseInt(resultsPerPage);
+
+            // splitIndexRange[0]
+            for (let pageIndex = startingIndex; pageIndex < total; pageIndex++) {
+                let data = await postData("{% url "getTestResultPages" %}", "{{csrf_token}}", 'POST', 
+                        {remoteController:remoteController, resultFolderPath:resultFolderPath, 
+                         pageIndexRange:pageIndexRange, getPageNumber:getPageNumber,
+                         pageIndex:Number(pageIndex), resultsPerPage:Number(resultsPerPage)})
+
+                document.querySelector('#insertTestResultPages').innerHTML += data.pages;
+
+                // This must sit here after getTestResultPages() in order to work.
+                // This code goes in conjuntion with testResultsTreeView.css for expanding the nested tree view
+                await addListeners(caretName="caret2");
+            }
+        }
+
+        function insertTestResultPages(data) {
+            document.querySelector('#insertTestResultPages').innerHTML += data;
+        }
+
+        function insertNestedFolder(id, data) {
+            document.querySelector(id).innerHTML = data;
+        }
+
+        async function getNestedFolderFiles(object=null) {
+            let nestedFolderPath = object.getAttribute('nestedFolderPath');
+            let insertToDivId = object.getAttribute('insertToDivId');
+          
+            //console.log(`getNestedFolderFiles: ${nestedFolderPath}  ${insertToDivId}`)
+            let data = await postData("{% url "getNestedFolderFiles" %}", "{{csrf_token}}", 'POST', 
+                                                    {remoteController: sessionStorage.getItem("remoteController"), 
+                                                     nestedFolderPath:nestedFolderPath, 
+                                                     insertToDivId:insertToDivId})
+
+            //await document.querySelector(insertToDivId).innerHTML = data.folderFiles
+            await insertNestedFolder(insertToDivId, data.folderFiles);
+
+            // This must sit here after getTestResultPages() in order to work.
+            // This code goes in conjuntion with testResultsTreeView.css for expanding the nested tree view
+            await addListeners(caretName=data.caretName, newVarName=data.newVarName);
+        }
+
+        function closeText() {
+			// Toggle to hide buttons
+			//toggle.style.display = toggle.style.display == "none" ? "block" : "none";
+			document.querySelector("#insertFileContents").style.display = "none";
+
+			let toggle = document.querySelector("#textareaId");
+			if (toggle.value) {
+				// User attempting to open a non text file, the textarea is not created.
+				// Come in here only if textarea exists
+				toggle.value = ''
+			}
+		}
+
+        function getSelectedSessions() {
+            // Collect all the selected checkboxes and delete them all in one shot
+            var checkboxArray = document.querySelectorAll('input[name=testResultCheckbox]:checked');
+            
+            for (let x=0; x < checkboxArray.length; x++) {
+                let testResultsPath = checkboxArray[x].getAttribute('value');
+                archiveResultsArray.push(testResultsPath)
+        
+                // Uncheck the checkbox because getSessionIds() will not refresh 
+                // the page is any deleteSessionId checkbox is checked
+                checkboxArray[x].checked = false;
+            }
+        }
+
+        async function archiveResults() {
+            console.log('Archiving Results: ' + archiveResultsArray)
+            getSelectedSessions();
+            let data = await postData("{% url "archiveResults" %}", "{{csrf_token}}", 'POST', 
+                                          {remoteController: sessionStorage.getItem("remoteController"), 
+                                           results:archiveResultsArray})
+            if (data.status == 'failed') {
+                document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            } else {
+                //window.location.reload();
+                getTestResultPages();
+            }
+            getInstantMessages(webpage='testResults');
+        }
+
+		async function getFileContents(object) {
+			try {
+				document.querySelector("#openFileModal");
+				let filePath = object.getAttribute('filePath');
+				console.log(`fileMgmt.getFileContents(): filePath: ${filePath}`)
+
+				const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 filePath: filePath})
+
+				if (data.status == "failed") {
+					status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+					document.querySelector("#modifyFileStatus").innerHTML = status
+				} else {
+					// Text area. Set the name attr with the module preferences file path.
+					document.getElementById("insertFileContents").innerHTML =
+					`<textarea id="textareaId" name=${data.fullPath} cols="123" rows="30">${data.fileContents}</textarea><br><br>`
+
+					let toggle = document.getElementById("insertFileContents")
+					// Toggle to show text 
+					// toggle.style.display = toggle.style.display == "block" ? "none" : "block";
+					// toggle.style.display = toggle.style.display == "block";
+					toggle.style.display = "block";
+					
+					document.getElementById("currentOpenedFile").innerHTML = '<h7>' + data.fullPath + '</h7>'
+				}
+			} catch (error) {
+				console.log("fileMgmt.getFileContents() error: " + error)
+			}  
+		}
+
+        function selectAll() {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]')
+            for (var x=0; x < checkboxes.length; x++) {
+                checkboxes[x].checked = true;
+            }
+        }
+
+        function clearAll() {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]')
+            for (var x=0; x < checkboxes.length; x++) {
+                checkboxes[x].checked = false;
+            }
+        }
+
+        async function deleteSelected() {
+            // hmtl code for testResultCheckbox is created in views TestResult class
+            var cboxes = document.getElementsByName('testResultCheckbox');
+            var len = cboxes.length;
+            var selectedCheckboxArray = new Array();
+
+            for (var i=0; i<len; i++) {
+                if (cboxes[i].checked) {
+                    selectedCheckboxArray.push(cboxes[i].value)
+                }
+                console.log('testResults template.deleteSelected: ' + i + (cboxes[i].checked?' checked ':' unchecked ') + cboxes[i].value);
+            }   
+            console.log(`testResults template.deleteSelected: ${selectedCheckboxArray}`)
+            const data = await postData("{% url "deleteResults" %}", "{{csrf_token}}", 'POST', 
+                                                 {remoteController: sessionStorage.getItem("remoteController"),
+                                                  deleteTestResults: selectedCheckboxArray})
+            if (data.status == 'failed') {
+                document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            } else {
+                getTestResultPages();
+                blinkSuccess();
+            }
+            clearAll();
+            getInstantMessages(webpage='testResults');
+        }
+
+        async function deleteAllInGroup() {
+            /* Delete all test results in the current group */
+            // <div id="groupAndPath" group={{group}}
+            let group = document.querySelector("#groupAndPath").getAttribute("group");
+            console.log(`testResults: deleteAllInGroup: ${group}`)
+            const data = await postData("{% url "testResultsDeleteAllInGroup" %}", "{{csrf_token}}", 'POST', 
+                                                            {remoteController: sessionStorage.getItem("remoteController"), 
+                                                             group:group})
+            if (data.status == 'failed') {
+                document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            } else {
+                getTestResultPages();
+                blinkSuccess();
+            }
+            getInstantMessages(webpage='testResults');
+        }
+
+        async function deleteAllInPlaybook() {
+            /* Delete all test results in the current group */
+            // <div id="groupAndPath" group={{group}}
+            let path = document.querySelector("#resultFolderPath").getAttribute("value");
+            console.log(`testResults: deleteAllInPlaybook: ${path}`)
+            const data = await postData("{% url "testResultsDeleteAllInPlaybook" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 path:path})
+            if (data.status == 'failed') {
+                document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            } else {
+                getTestResultPages();
+                blinkSuccess();
+            }
+            getInstantMessages(webpage='testResults');
+        }
+        
+        document.addEventListener("DOMContentLoaded", function(){
+            document.querySelectorAll('.keystackSidebar .nav-link').forEach(function(element){
+                element.addEventListener('click', function (e) {
+                    let nextEl = element.nextElementSibling;
+                    let parentEl  = element.parentElement;	
+
+                    if(nextEl) {
+                        e.preventDefault();	
+                        let mycollapse = new bootstrap.Collapse(nextEl);
+
+                        if(nextEl.classList.contains('show')){
+                            mycollapse.hide();
+                        } else {
+                            mycollapse.show();
+                            // find other submenus with class=show
+                            var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
+                            // if it exists, then close all of them
+                            if(opened_submenu){
+                                new bootstrap.Collapse(opened_submenu);
+                            }
+                        }
+                    }
+                });
+            })
+        }); 
+        // DOMContentLoaded  end
+       
+
+    </script>
+{% endblock extra_js %}

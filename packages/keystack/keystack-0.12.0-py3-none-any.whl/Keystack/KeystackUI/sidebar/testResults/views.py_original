@@ -1,0 +1,776 @@
+import os, sys, json, re, traceback
+from datetime import datetime
+from shutil import rmtree
+from glob import glob
+from pathlib import Path
+
+from django.shortcuts import render
+from django.conf import settings
+from django.views import View
+from django.http import JsonResponse, FileResponse, HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+
+from baseLibs import sidebarMenu, removeEmptyTestResultFolders, getGroupSessions
+from systemLogging import SystemLogsAssistant
+from topbar.settings.accountMgmt.verifyLogin import authenticateLogin, verifyUserRole
+
+# /Keystack/KeystackUI/sidebar/testResults
+currentDir = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, currentDir.replace('/KeystackUI/sidebar/testResults', ''))
+from db import DB
+from utilities import readJson, execSubprocessInShellMode            
+from globalVars import GlobalVars, HtmlStatusCodes
+    
+class Vars:
+    webpage = 'results'
+                
+class TestResults(View):
+    @authenticateLogin        
+    def get(self, request):
+        """
+        This view is called by base.html, sidebar. 
+        User selects Test Results | Result Archives. 
+        Then selects the group/playbook result to view.
+        
+        This view passed a variable to the testResults.hmtl template:
+            'currentResultsFolderPath': resultFolderPath
+            
+        JS in base.html will automatically call GetTestResultPages and insert the pages
+        """
+        user = request.session['user']
+        testResults, playbookGroups, envGroups = sidebarMenu(request.session['user'])
+        groups = getGroupSessions(user)
+        
+        # User selects a playbook in test results: /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample
+        resultFolderPath = request.GET.get('resultFolderPath')
+        
+        # activeTestResults | archiveTestResults
+        typeOfResult = request.GET.get('typeOfResult')
+        
+        if typeOfResult == 'activeTestResults':
+            title = 'Test Results'
+        else:
+            title = 'Test Results Archive'
+            
+        status = HtmlStatusCodes.success
+        
+        match = re.search('.*GROUP=(.+)/.*', resultFolderPath)
+        if match:
+            group = match.group(1)
+        else:
+            group = 'Unknown'
+
+        # /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=Samples-pythonSample
+        match = re.search('.*PLAYBOOK=(.+)', resultFolderPath)
+        if match:
+            playbook = match.group(1)
+        else:
+            playbook = 'Unknown'
+        
+        removeResultsAfterDays = os.environ.get('keystack_removeResultsFolder', 3)
+        
+        # The template shows all the test result folders using testResultFolders
+        return render(request, 'testResults.html',
+                      {'mainControllerIp': request.session['mainControllerIp'],
+                       'playbookGroups': playbookGroups,
+                       'envGroups': envGroups,
+                       'allPlaybookTestResultFoldersForSidebar': testResults,
+                       'topbarTitlePage': title,
+                       'group': group,
+                       'playbook': playbook,
+                       'removeResultsAfterDays': removeResultsAfterDays,
+                       'resultFolderPath': resultFolderPath,
+                       'user': user
+                      }, status=status)
+            
+    @authenticateLogin
+    @verifyUserRole(webPage=Vars.webpage, action='Delete/Download')
+    def post(self, request):
+        """
+        Delete and download test results
+        
+        Delete is called by Javascript fetch.
+        Download is called by <form action={% url "testResults" %}? method="POST">. 
+        Get the getSelectedTestResult value from the <button name= value=>
+        """
+        try:
+            downloadTestResults = request.POST.get('getSelectedTestResult')
+        except:
+            downloadTestResults = False
+        
+        try:
+            deleteTestResults = json.loads(request.body.decode('UTF-8'))          
+        except:
+            deleteTestResults = False
+        
+        if deleteTestResults:
+            # {'deleteTestResults': ['/opt/KeystackTests/Results/GROUP=QA/PLAYBOOK=pythonSample/10-15-2022-17:42:49:516252_qa']}
+            statusCode = self.deleteTestResultFolders(deleteTestResults, request.session['user'])
+            
+        if downloadTestResults:
+            return self.downloadTestResultFolder(downloadTestResults, request.session['user'])
+                
+        return JsonResponse({}, status=statusCode, content_type='application/json')
+
+    def deleteTestResultFolders(self, deleteTestResults, user):            
+        try:
+            deletedResultList = []
+            for resultFolder in deleteTestResults['deleteTestResults']:
+                # resultFolder: /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample/10-26-2022-14:42:25:471305_809                
+                rmtree(resultFolder)
+                deletedResultList.append(resultFolder)
+                removeEmptyTestResultFolders(user, resultFolder)
+
+            HtmlStatusCodes.success
+            if deletedResultList:
+                SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults',
+                                          msgType='Info', msg=f'Deleted results: {deletedResultList}')
+            
+        except Exception as errMsg:
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults', 
+                                      msgType='Error', msg=errMsg, 
+                                      forDetailLogs=f'DeleteTestResults: {traceback.format_exc(None, errMsg)}')
+            statusCode = HtmlStatusCodes.error
+    
+        return statusCode
+
+    def downloadTestResultFolder(self, downloadTestResults, user):
+        import mimetypes
+        import zipfile
+        from shutil import make_archive
+        
+        tempFolderIsCreated = False
+        currentDir = os.path.abspath(os.path.dirname(__file__))
+        tempFolderToStoreZipFiles = f'{currentDir}/tempFolderToStoreZipFiles'
+
+        # Create a temp folder first
+        if os.path.exists(tempFolderToStoreZipFiles) == False:
+            try:
+                path = Path(tempFolderToStoreZipFiles)
+                originalMask = os.umask(000)
+                path.mkdir(mode=0o770, parents=True, exist_ok=True)
+                os.umask(originalMask)
+            except Exception as errMsg:
+                SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DownloadTestResults', msgType='Error', 
+                                msg="Internal failure: Create temp folder for storing zip file. Check detail logs.", 
+                                forDetailLogs=f'downloadTestResultsFolder(): {traceback.format_exc(None, errMsg)}')
+                tempFolderIsCreated = False
+        else:
+            tempFolderIsCreated = True
+            
+        if tempFolderIsCreated:     
+            try:
+                filename = downloadTestResults.split('/')[-1]
+                pathToResultFolder = downloadTestResults.replace(filename, '')  # For FileResponse()
+                destZipFilename = f'{tempFolderToStoreZipFiles}/{filename}'     # No .zip extension
+                zipFileFullPath = f'{destZipFilename}.zip'                      # /full_path/file.zip for os.remove()
+                zipFilename = f'{filename}.zip'                                 # zip file name for download filename
+                make_archive(destZipFilename, 'zip', downloadTestResults)
+                fileType, encoding = mimetypes.guess_type(zipFilename)
+                
+                if fileType is None:
+                    fileType = 'application/octet-stream'
+
+                response = FileResponse(open(zipFileFullPath, 'rb'))
+                response['Content-Type'] = fileType
+                response['Content-Length'] = str(os.stat(zipFileFullPath).st_size)
+                if encoding is not None:
+                    response['Content-Encoding'] = encoding
+                    
+                response['Content-Disposition'] = f'attachment; filename={zipFilename}'
+                
+                SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='Download', msgType='Info',
+                                          msg=f'Downloaded results: {zipFilename}')
+                return response
+            
+            except Exception as errMsg:
+                SystemLogsAssistant().log(user=user, webPage='results', action='Download', msgType='Error', 
+                                msg="Failed to create downloadable zip file. Check detail logs.", 
+                                forDetailLogs=f'{traceback.format_exc(None, errMsg)}')
+                statusCode = HtmlStatusCodes.error
+        else:
+            statusCode = HtmlStatusCodes.error
+        
+             
+class GetTestResultFileContents(View):
+    @authenticateLogin
+    def get(self, request):
+        """
+        Selected to open a PDF file. Open PDF in a new tab. 
+        The PDF link is created in the TestResult() class treewalk() function.
+        """
+        filePath = request.GET.get('testResultFile')
+        from django.http import FileResponse
+        
+        user = request.session['user']
+        
+        if 'pdf' in filePath:
+            return FileResponse(open(filePath, 'rb'), content_type='application/pdf')
+        else:
+            return FileResponse(open(filePath, 'rb'), content_type='text/plain')
+    
+    @authenticateLogin    
+    def post(self, request):
+        """
+        Get file contents.
+        This post is called by testResult.hmtl template in the readTestResultFile() <scripts>.
+        
+        The <a href="#" data=value="$file">
+
+        Expect: <file path> and <file name> separated by dash
+                Ex: /Keystack/Modules/LoadCore/GlobalVariables&globalVariables.yml
+        """
+        body = json.loads(request.body.decode('UTF-8'))
+        filePath = body['testResultFile']
+        fileExtension = filePath.split('/')[-1].split('.')[-1]
+        user = request.session['user']
+        status = HtmlStatusCodes.success
+        
+        try:
+            if fileExtension == 'zip':
+                fileContents = ''
+            
+            elif fileExtension == 'pdf':
+                from django.http import FileResponse
+                SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='GetTestResults', 
+                                          msgType='Info', msg=f'PDF: {filePath}')
+                return FileResponse(open(filePath, 'rb'), content_type='application/pdf', status=HtmlStatusCodes.success)
+        
+            else:
+                with open(filePath) as fileObj:
+                    contents = fileObj.read()
+                    
+                # Use <pre> to render the file format
+                fileContents = f'<pre>{contents}</pre>'
+            
+        except Exception as errMsg:
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='GetTestResults', msgType='Error',
+                            msg=f'Failed to open file contents for viewing: {filePath}', forDetailLogs=f'GetTestResultFileContents(): {traceback.format_exc(None, errMsg)}')
+            status = HtmlStatusCodes.error
+
+        data = {'fileContents': fileContents}
+        return JsonResponse(data, content_type='application/json', status=status)    
+
+
+class GetTestResultPages_backup(View):
+    @authenticateLogin
+    def post(self, request):
+        """
+        When users go to a test results page, show page number buttons.
+        The buttons will contain the amount of pages to show.
+        
+        The return html code goes in conjunction with getTestResultTreeView.css.
+        
+        """
+        body = json.loads(request.body.decode('UTF-8'))
+        user = request.session['user']
+        statusCode = HtmlStatusCodes.success
+        status = 'success'
+        errorMsg = None
+        
+        # /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample
+        # /opt/KeystackTests/ResultsArchive/GROUP=ho/PLAYBOOK=pythonSample
+        resultFolderPath = body['resultFolderPath']
+        
+        # Default to first page: ['0:2']
+        pageIndexRange = body['pageIndexRange'][0]
+        
+        # The page number to get
+        getPageNumber = body['getPageNumber']
+
+        indexStart = int(pageIndexRange.split(':')[0])
+        try:
+            indexEnd = int(pageIndexRange.split(':')[1])
+        except:
+            indexEnd = None
+        
+        testResultTimestampFolders = []
+                    
+        try:
+            testResultTimestampFolders = glob(f'{resultFolderPath}/*')
+        except:
+            errorMsg = f'The result folder path is removed: {resultFolderPath}'
+            status = HtmlStatusCodes.error
+
+        # Get test results in a reversed list
+        datetimeList = []
+        for eachTimestampFolder in testResultTimestampFolders:
+            datetimeList.append(eachTimestampFolder)
+            
+        # Get a sorted list
+        datetimeList = list(reversed(sorted(datetimeList, key=lambda fileName: datetime.strptime(fileName.split('/')[-1].split('_')[0], "%m-%d-%Y-%H:%M:%S:%f"))))
+
+        getResultsPerPage = 2
+        totalResults = len(testResultTimestampFolders)
+        # Get round rounter
+        #resultsPerPage =  round(totalResults / getResultsPerPage)
+        # Get remainders using %.  Remainders go on the last page.
+        #remainders = totalResults % getResultsPerPage
+        
+        #print(f'\ngetPageNumber:{getPageNumber}   indexStart:{indexStart}   indexEnd:{indexEnd}   getResultsPerPage:{getResultsPerPage}   totalResults:{totalResults}')
+        
+        ''' 
+        getTestResultsPages: totalResults: 5
+        resultsPerPage: 2
+        remainders: 1
+        --- Page:1  0:2
+        --- Page:2  2:4
+        --- Page:3  4:6
+        {1: (0, 2), 2: (2, 4), 3: (4, -1)}
+        '''
+        # Create the page buttons
+        pages = dict()
+        pageButtons = f'Result Per Page: {getResultsPerPage} &emsp;  Current Page: {getPageNumber} &emsp; Pages: &ensp;'
+        
+        for index,startingIndex in enumerate(range(0, totalResults, getResultsPerPage)):
+            pageNumber = index+1
+            endingIndex = startingIndex + getResultsPerPage
+            
+            #print(f'\n---- pageNumber:{pageNumber}   startingIndex:{startingIndex}   endingIndex:{endingIndex}   totalResults:{totalResults}  getResultsPerPage:{getResultsPerPage}')
+            
+            if endingIndex != totalResults:
+                pages[pageNumber] = (startingIndex, endingIndex)
+                pageButtons += f'<button type="button" class="btn btn-outline-primary" onclick="getTestResultPages(this)" getPageNumber="{pageNumber}" pageIndexRange="{startingIndex}:{endingIndex}">{pageNumber}</button>&ensp;'            
+            
+            if pageNumber > 1 and endingIndex == totalResults:
+                # Don't create a 2nd page button if there's only 1 page of results to show
+                pages[pageNumber] = (startingIndex, -1)
+                pageButtons += f'<button type="button" class="btn btn-outline-primary" onclick="getTestResultPages(this)" getPageNumber="{pageNumber}" pageIndexRange="{startingIndex}:">{pageNumber}</button>&ensp;'
+                
+        class getPagesVars:
+            # counter is used for keeping tracking of opened <ul class="nested">
+            counter = 0
+            jsonCounter = 0
+            #html = '<ul id="testResultFileTree">'
+            html = f'{pageButtons}<br><br> <ul id="testResultFileTree">'
+                         
+        """
+        https://www.w3schools.com/howto/howto_js_treeview.asp
+        
+        <ul id="testResultFileTree">
+            <li><span class="caret">testResultTimestampFolder</span>
+                <ul class="nested">
+                    <li>Water</li>
+                    <li>Coffee</li>
+                    <li><span class="caret">Tea</span>
+                        <ul class="nested">
+                            <li>Black Tea</li>
+                            <li>White Tea</li>
+                            <li><span class="caret">Green Tea</span>
+                                <ul class="nested">
+                                    <li>Sencha</li>
+                                    <li>Gyokuro</li>
+                                    <li>Matcha</li>
+                                    <li>Pi Lo Chun</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        """
+        '''
+        def loop(path, init=False):
+            """ 
+            Create nested menu tree.  var.counter keeps track
+            of the amount of nested menus so it knows the 
+            amount of </li></ul> to close at the end.
+            
+            <li><span class="caret">Green Tea</span>
+                <ul class="nested">
+                    <li>Sencha</li>
+                    <li>Gyokuro</li>
+                    <li>Matcha</li>
+                    <li>Pi Lo Chun</li>
+            """
+            if init == True:
+                path = eachResultFolderFullPath
+            
+            if init == False:
+                filename = path.split('/')[-1]
+                getPagesVars.html += f'<li style="margin-left:17px"><span class="caret"><i class="fa-regular fa-folder pr-2"></i>{filename}</span>'  
+                    
+            getPagesVars.html += '<ul class="nested">'
+            getPagesVars.counter += 1
+                        
+            for eachFile in glob(f'{path}/*'):
+                if os.path.isfile(eachFile):
+                    filename = eachFile .split('/')[-1]
+                    # Open the modifyFileModal and get the file contents                  
+                    getPagesVars.html += f'<li><a class="nav-link" href="#" onclick="getFileContents(this)" filePath="{eachFile}"  data-bs-toggle="modal" data-bs-target="#openFileModal"><i class="fa-regular fa-file pr-2"></i> {filename} </a></li>'
+            
+            for eachFolder in glob(f'{path}/*'):        
+                if os.path.isdir(eachFolder):
+                    loop(eachFolder, init=False)
+                    getPagesVars.html += '</li></ul>'
+                    getPagesVars.counter -= 1
+        '''
+               
+        # Reverse the list here using reversed()
+        # Process and render [indexStart:indexEnd] timestamp folders at a time
+        timestampFolderCounter = 0
+        nestedFolderUniqueCounter = 10000
+        
+        for eachResultFolderFullPath in datetimeList[indexStart:indexEnd]:
+            # eachResultFolderFullPath: /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample/12-20-2022-18:00:49:300483_2054
+            timestampResultFolder = eachResultFolderFullPath.split('/')[-1]
+            started = ''
+            stopped = ''
+            testResult = ''
+            testStatus = ''
+            totalTestAborted = 0
+            totalCases = ''
+            totalFailed = 0
+            user = ''
+               
+            if os.path.exists(f'{eachResultFolderFullPath}/overallSummary.json'):
+                statusJsonFile = readJson(f'{eachResultFolderFullPath}/overallSummary.json')
+                getPagesVars.jsonCounter += 1
+                
+                started = statusJsonFile['started']
+                stopped = statusJsonFile['stopped']
+                testResult = statusJsonFile['result']
+                testStatus = statusJsonFile['status']
+                totalTestAborted = statusJsonFile['totalTestAborted']
+                totalCases = statusJsonFile['totalCases']
+                totalFailed = statusJsonFile['totalFailed']
+                user = statusJsonFile['user']
+
+            insertNestedTimestampFolder = f"insertNestedFolderFiles_{timestampFolderCounter}"
+            
+            # Starting <li>:  Top-level timestamp result folders
+            # getPagesVars.html += f'\n\t\t\t<li><input type="checkbox" name="testResultCheckbox" value="{eachResultFolderFullPath}" />&emsp;<button type=submit class="btn btn-sm btn-outline-primary p-0 px-2" style="height:20px" name="getSelectedTestResult" value={eachResultFolderFullPath}><i class="fas fa-cloud-arrow-down"></i></button><span class="caret2">&ensp;<a class="nav-link" style="display:inline-block" href="#" insertToDivId="#{insertNestedTimestampFolder}"><i class="fa-regular fa-folder pr-2"></i>{timestampResultFolder}&emsp;User:{user}&emsp;Result:{testResult}&emsp;Status:{testStatus}&emsp;TotalCases:{totalCases}&emsp;TotalFailed:{totalFailed}&emsp;TotalAborted:{totalTestAborted}</a></span>'
+            getPagesVars.html += f'\n\t\t\t<li><input type="checkbox" name="testResultCheckbox" value="{eachResultFolderFullPath}" />&emsp;<button type=submit class="btn btn-sm btn-outline-primary p-0 px-2" style="height:20px" name="getSelectedTestResult" value={eachResultFolderFullPath}><i class="fas fa-cloud-arrow-down"></i></button><span class="caret2">&ensp;<a class="nav-link" style="display:inline-block" href="#"><i class="fa-regular fa-folder pr-2"></i>{timestampResultFolder}&emsp;User:{user}&emsp;Result:{testResult}&emsp;Status:{testStatus}&emsp;TotalCases:{totalCases}&emsp;TotalFailed:{totalFailed}&emsp;TotalAborted:{totalTestAborted}</a></span>'
+                            
+            #loop(eachResultFolderFullPath, init=True)
+
+            #getPagesVars.html += f'<ul class="nested" id="{insertNestedTimestampFolder}">'
+            getPagesVars.html += f'<ul class="nested">'
+            timestampFolderCounter += 1
+            
+            for eachFile in glob(f'{eachResultFolderFullPath}/*'):
+                if os.path.isfile(eachFile):
+                    filename = eachFile .split('/')[-1]
+                    # Open the modifyFileModal and get the file contents                  
+                    getPagesVars.html += f'<li><a class="nav-link" href="#" onclick="getFileContents(this)" filePath="{eachFile}"  data-bs-toggle="modal" data-bs-target="#openFileModal"><i class="fa-regular fa-file pr-2"></i> {filename} </a></li>'
+                
+                if os.path.isdir(eachFile):
+                    filename = eachFile.split('/')[-1] 
+                    nestedFolderDivId = f'insertNestedFolderFiles_{nestedFolderUniqueCounter}'
+                    # getPagesVars.html += f'<li><span class="caret"><a class="nav-link" href="#" onclick="getNestedFolderFiles(this)" insertToDivId="insertNestedFolderFiles_{index}" nestedFolderPath="{eachFile}"><i class="fa-regular fa-folder pr-2"></i> {filename}</a></span>'
+                    getPagesVars.html += f'<li><span class="caret2"><a class="nav-link" href="#" onclick="getNestedFolderFiles(this)" insertToDivId="#{nestedFolderDivId}" nestedFolderPath="{eachFile}"><i class="fa-regular fa-folder pr-2"></i> {filename}</a></span>'
+                    
+                    getPagesVars.html += f'<ul class="nested" id="{nestedFolderDivId}"></ul>'
+                    getPagesVars.html += '</li>'
+                    nestedFolderUniqueCounter += 1
+                    
+            getPagesVars.html += '</ul>'
+        
+        getPagesVars.html += '</li></ul>'
+            
+        return JsonResponse({'pages':getPagesVars.html, 'status':status, 'errorMsg':errorMsg}, status=statusCode)
+    
+
+class GetNestedFolderFiles(View):
+    @authenticateLogin
+    def post(self, request):
+        body = json.loads(request.body.decode('UTF-8'))
+        user = request.session['user']
+        nestedFolderPath = body['nestedFolderPath']
+        insertToDivId = body['insertToDivId']
+        status = 'success'
+        errorMsg = None
+        statusCode = HtmlStatusCodes.success
+        #import random
+        #classAndCaretNumber = str(random.sample(range(10001,20000), 1)[0])
+        html = ''
+        
+        nestedFolderUniqueCounter = 200000
+        
+        import random
+        randomNumber = str(random.sample(range(100,10000), 1)[0])
+        caretName = f"caret{randomNumber}"
+                                
+        for eachFile in glob(f'{nestedFolderPath}/*'):
+            if os.path.isfile(eachFile):
+                filename = eachFile .split('/')[-1]
+                # Open the modifyFileModal and get the file contents                  
+                html += f'<li><a class="nav-link" href="#" onclick="getFileContents(this)" filePath="{eachFile}"  data-bs-toggle="modal" data-bs-target="#openFileModal"><i class="fa-regular fa-file pr-2"></i> {filename} </a></li>'
+            
+            if os.path.isdir(eachFile):
+                filename = eachFile.split('/')[-1]
+                nestedFolderDivId = f'insertNestedFolderFiles_{str(nestedFolderUniqueCounter)}'
+
+                html += f'<li><span class="{caretName}"><a class="nav-link" href="#" onclick="getNestedFolderFiles(this)" insertToDivId="#{nestedFolderDivId}" nestedFolderPath="{eachFile}"><i class="fa-regular fa-folder pr-2"></i> {filename}</a></span>'
+                                
+                html += f'<ul class="nested" id="{nestedFolderDivId}"></ul>'
+                html += '</li>'
+                nestedFolderUniqueCounter += 1
+                   
+        #print(f'\n--- GetNestedFolderFiles: nestedFolderPath:{nestedFolderPath}  insertToDivId={insertToDivId}')
+        return JsonResponse({'folderFiles':html, 'caretName': caretName, 'newVarName': f'newVar_{randomNumber}',
+                             'status':status, 'errorMsg':errorMsg}, status=statusCode)
+
+        
+class GetTestResultPages(View):
+    @authenticateLogin
+    def post(self, request):
+        """
+        When users go to a test results page, show page number buttons.
+        The buttons will contain the amount of pages to show.
+        
+        The return html code goes in conjunction with getTestResultTreeView.css.
+        
+        """
+        body = json.loads(request.body.decode('UTF-8'))
+        user = request.session['user']
+        statusCode = HtmlStatusCodes.success
+        status = 'success'
+        errorMsg = None
+        
+        # /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample
+        # /opt/KeystackTests/ResultsArchive/GROUP=ho/PLAYBOOK=pythonSample
+        resultFolderPath = body['resultFolderPath']
+        
+        # Default to first page: ['0:2']
+        pageIndexRange = body['pageIndexRange'][0]
+        
+        # The page number to get
+        getPageNumber = body['getPageNumber']
+
+        indexStart = int(pageIndexRange.split(':')[0])
+        try:
+            indexEnd   = int(pageIndexRange.split(':')[1])
+        except:
+            indexEnd = None
+        
+        testResultTimestampFolders = []
+                    
+        try:
+            testResultTimestampFolders = glob(f'{resultFolderPath}/*')
+        except:
+            errorMsg = f'The result folder path is removed: {resultFolderPath}'
+            status = HtmlStatusCodes.error
+
+        # Get test results in a reversed list
+        datetimeList = []
+        for eachTimestampFolder in testResultTimestampFolders:
+            datetimeList.append(eachTimestampFolder)
+            
+        # Got a sorted list
+        datetimeList = list(reversed(sorted(datetimeList, key=lambda fileName: datetime.strptime(fileName.split('/')[-1].split('_')[0], "%m-%d-%Y-%H:%M:%S:%f"))))
+
+        getResultsPerPage = 3
+        totalResults = len(testResultTimestampFolders)
+        # Get round rounter
+        #resultsPerPage =  round(totalResults / getResultsPerPage)
+        # Get remainders using %.  Remainders go on the last page.
+        #remainders = totalResults % getResultsPerPage
+        
+        #print(f'\ngetPageNumber:{getPageNumber}   indexStart:{indexStart}   indexEnd:{indexEnd}   getResultsPerPage:{getResultsPerPage}   totalResults:{totalResults}')
+        
+        ''' 
+        getTestResultsPages: totalResults: 5
+        resultsPerPage: 2
+        remainders: 1
+        --- Page:1  0:2
+        --- Page:2  2:4
+        --- Page:3  4:6
+        {1: (0, 2), 2: (2, 4), 3: (4, -1)}
+        '''
+        # Create the page buttons
+        pages = dict()
+        pageButtons = f'Result Per Page: {getResultsPerPage} &emsp;  Current Page: {getPageNumber} &emsp; Pages: &ensp;'
+        
+        for index,startingIndex in enumerate(range(0, totalResults, getResultsPerPage)):
+            pageNumber = index+1
+            endingIndex = startingIndex + getResultsPerPage
+            
+            #print(f'\n---- pageNumber:{pageNumber}   startingIndex:{startingIndex}   endingIndex:{endingIndex}   totalResults:{totalResults}  getResultsPerPage:{getResultsPerPage}')
+            
+            if endingIndex != totalResults:
+                pages[pageNumber] = (startingIndex, endingIndex)
+                pageButtons += f'<button type="button" class="btn btn-outline-primary" onclick="getTestResultPages(this)" getPageNumber="{pageNumber}" pageIndexRange="{startingIndex}:{endingIndex}">{pageNumber}</button>&ensp;'            
+            
+            if pageNumber > 1 and endingIndex == totalResults:
+                # Don't create a 2nd page button if there's only 1 page of results to show
+                pages[pageNumber] = (startingIndex, -1)
+                pageButtons += f'<button type="button" class="btn btn-outline-primary" onclick="getTestResultPages(this)" getPageNumber="{pageNumber}" pageIndexRange="{startingIndex}:">{pageNumber}</button>&ensp;'
+                
+        class getPagesVars:
+            counter = 0
+            jsonCounter = 0
+            #html = '<ul id="testResultFileTree">'
+            html = f'{pageButtons}<br><br> <ul id="testResultFileTree">'
+                         
+        """
+        https://www.w3schools.com/howto/howto_js_treeview.asp
+        
+        <ul id="myUL">
+            <li><span class="caret">Beverages</span>
+                <ul class="nested">
+                    <li>Water</li>
+                    <li>Coffee</li>
+                    <li><span class="caret">Tea</span>
+                        <ul class="nested">
+                            <li>Black Tea</li>
+                            <li>White Tea</li>
+                            <li><span class="caret">Green Tea</span>
+                                <ul class="nested">
+                                    <li>Sencha</li>
+                                    <li>Gyokuro</li>
+                                    <li>Matcha</li>
+                                    <li>Pi Lo Chun</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        """
+        
+        # Reverse the list here using reversed()
+        #for eachResultFolderFullPath in list(reversed(datetimeList)):
+        for eachResultFolderFullPath in datetimeList[indexStart:indexEnd]:            
+            # eachResultFolderFullPath: /opt/KeystackTests/Results/GROUP=Default/PLAYBOOK=pythonSample/12-20-2022-18:00:49:300483_2054
+            timestampResultFolder = eachResultFolderFullPath.split('/')[-1]
+            started = ''
+            stopped = ''
+            testResult = ''
+            testStatus = ''
+            totalTestAborted = 0
+            totalCases = ''
+            totalFailed = 0
+            user = ''
+             
+            getPagesVars.counter = 0
+                                 
+            if os.path.exists(f'{eachResultFolderFullPath}/overallSummary.json'):
+                statusJsonFile = readJson(f'{eachResultFolderFullPath}/overallSummary.json')
+                getPagesVars.jsonCounter += 1
+                
+                started = statusJsonFile['started']
+                stopped = statusJsonFile['stopped']
+                testResult = statusJsonFile['result']
+                testStatus = statusJsonFile['status']
+                totalTestAborted = statusJsonFile['totalTestAborted']
+                totalCases = statusJsonFile['totalCases']
+                totalFailed = statusJsonFile['totalFailed']
+                user = statusJsonFile['user']
+
+            # Starting <li>:  Top-level timestamp result folders
+            getPagesVars.html += f'\n\t\t\t<li><input type="checkbox" name="testResultCheckbox" value="{eachResultFolderFullPath}" />&emsp;<button type=submit class="btn btn-sm btn-outline-primary p-0 px-2" style="height:20px" name="getSelectedTestResult" value={eachResultFolderFullPath}><i class="fas fa-cloud-arrow-down"></i></button><span class="caret2">&ensp;<a class="nav-link" style="display:inline-block" href="#"><i class="fa-regular fa-folder pr-2"></i>{timestampResultFolder}&emsp;User:{user}&emsp;Result:{testResult}&emsp;Status:{testStatus}&emsp;TotalCases:{totalCases}&emsp;TotalFailed:{totalFailed}&emsp;TotalAborted:{totalTestAborted}</a></span>'
+                
+            def loop(path, init=False):
+                """ 
+                Create nested menu tree.  var.counter keeps track
+                of the amount of nested menus so it knows the 
+                amount of </li></ul> to close at the end.
+                
+                <li><span class="caret">Green Tea</span>
+                    <ul class="nested">
+                        <li>Sencha</li>
+                        <li>Gyokuro</li>
+                        <li>Matcha</li>
+                        <li>Pi Lo Chun</li>
+                """
+                if init == True:
+                    path = eachResultFolderFullPath
+                
+                if init == False:
+                    filename = path.split('/')[-1]
+                    getPagesVars.html += f'<li style="margin-left:17px"><span class="caret2"><i class="fa-regular fa-folder pr-2"></i>{filename}</span>'  
+                      
+                getPagesVars.html += '<ul class="nested">'
+                getPagesVars.counter += 1
+                            
+                for eachFile in glob(f'{path}/*'):
+                    if os.path.isfile(eachFile):
+                        filename = eachFile .split('/')[-1]
+                        # Open the modifyFileModal and get the file contents                  
+                        getPagesVars.html += f'<li><a class="nav-link" href="#" onclick="getFileContents(this)" filePath="{eachFile}"  data-bs-toggle="modal" data-bs-target="#openFileModal"><i class="fa-regular fa-file pr-2"></i> {filename} </a></li>'
+                
+                for eachFolder in glob(f'{path}/*'):        
+                    if os.path.isdir(eachFolder):
+                        loop(eachFolder, init=False)
+                        getPagesVars.html += '</li></ul>'
+                        getPagesVars.counter -= 1
+                
+            loop(eachResultFolderFullPath, init=True)
+            
+            for x in range(0, getPagesVars.counter):
+               getPagesVars.html += '</ul></li>'
+                
+            getPagesVars.html += '</li>'
+                       
+        getPagesVars.html += '</ul>'
+            
+        return JsonResponse({'pages':getPagesVars.html, 'status':status, 'errorMsg':errorMsg}, status=statusCode)
+    
+class DeleteAllInGroup(View):
+    @authenticateLogin
+    @verifyUserRole(webPage=Vars.webpage, action='DeleteTestResults')
+    def post(self, request):
+        """
+        Delete all test results in GROUP=<groupName>
+        
+        TODO: Don't delete active test
+        """
+        body = json.loads(request.body.decode('UTF-8'))
+        user = request.session['user']
+        statusCode = HtmlStatusCodes.success
+        status = 'success'
+        errorMsg = None
+        
+        # /opt/KeystackTests/Results/GROUP=Default
+        group = body['group']
+        
+        try:
+            cmd = f'rm -rf {GlobalVars.keystackTestRootPath}/Results/GROUP={group}'
+            execSubprocessInShellMode(cmd)
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults', msgType='Info',
+                                      msg=cmd, forDetailLogs='')
+        except Exception as errMsg:
+            statusCode = HtmlStatusCodes.error
+            erroMsg = str(errMsg)
+            status = 'failed'
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults', msgType='Error',
+                                      msg=cmd, forDetailLogs=errorMsg)
+             
+        return JsonResponse({'status':status, 'errorMsg':errorMsg}, status=statusCode)
+
+
+class DeleteAllInPlaybook(View):
+    @authenticateLogin
+    @verifyUserRole(webPage=Vars.webpage, action='DeleteTestResults')
+    def post(self, request):
+        """
+        Delete all test results in GROUP=<groupName>/PLAYBOOK=<playbookName>
+        
+        TODO: Don't delete active test
+        """
+        body = json.loads(request.body.decode('UTF-8'))
+        user = request.session['user']
+        statusCode = HtmlStatusCodes.success
+        status = 'success'
+        errorMsg = None
+        
+        # /opt/KeystackTests/Results/GROUP=Default
+        path = body['path']
+        
+        try:
+            cmd = f'rm -rf {path}'
+            execSubprocessInShellMode(cmd)
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults', msgType='Info',
+                                      msg=cmd, forDetailLogs='')
+        except Exception as errMsg:
+            statusCode = HtmlStatusCodes.error
+            erroMsg = str(errMsg)
+            status = 'failed'
+            SystemLogsAssistant().log(user=user, webPage=Vars.webpage, action='DeleteTestResults', msgType='Error',
+                                      msg=cmd, forDetailLogs=errorMsg)
+             
+        return JsonResponse({'status':status, 'errorMsg':errorMsg}, status=statusCode)
+    

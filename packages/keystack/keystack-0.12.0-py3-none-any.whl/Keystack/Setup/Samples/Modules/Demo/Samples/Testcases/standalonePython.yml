@@ -1,0 +1,12 @@
+Title: A stand alone python script
+Description: QA
+
+# If you have predefined Jira Issues as testcases, state the
+# Issue Key to use for appending failure descriptions to the existing Jira Issue Key.
+jiraTestcaseIssueKey: KEYS-46
+
+# The path must begins with /Modules/
+# Options: standalonePythonScript, pythonScript, bashScript
+standalonePythonScript: /Modules/Demo/Samples/Scripts/standalonePython.py
+
+

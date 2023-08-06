@@ -1,0 +1,581 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A web interface to manage automated testing">
+		<meta name="Creator and developer: Hubert Gee">
+		<title>
+			Keystack
+		</title>
+
+		<link href={% static "bootstrap-5.1.3-dist/css/bootstrap.min.css" %} rel="stylesheet" type="text/css">
+		<link href={% static "fontawesome-free-6.0.0-beta3/css/all.min.css" %} rel="stylesheet" type="text/css">
+		<link href={% static "sb-admin-2/css/sb-admin-2.min.css" %} rel="stylesheet" type="text/css">
+		<link href={% static "commons/css/commons.css" %} rel="stylesheet" type="text/css">
+		<link href={% static "commons/css/base.css" %} rel="stylesheet" type="text/css">
+
+		<style></style>
+
+		{% block extra_css1 %}    {% endblock extra_css1 %}
+		{% block extra_head_js %} {% endblock extra_head_js %}
+		{% block extra_css %}     {% endblock extra_css %}
+		{% block extra_style %}   {% endblock extra_style %}
+    </head>
+    
+    <body>
+		<div id="wrapper">
+			<div id="content-wrapper" class="d-flex flex-column">
+				<!-- Main Content -->
+				<div id="content">
+
+					<!-- Set the default main controller IP provided by the default page sessionMgmt -->
+					<div id="mainControllerIp" value={{mainControllerIp}}></div>
+
+					<!-- Sidebar #2929EE-->
+					<ul class="navbar-nav sidebar accordion sidebarNavPosition" id="accordionSidebar">
+
+						<!-- Sidebar - Brand -->
+						<!-- <a class="sidebar-brand d-flex align-items-center justify-content-center" style="position:fixed; width:220px; z-index:11; background-color:#081aa8" href={% url "sessionMgmt" %}> -->
+						<div class="sidebar-brand d-flex align-items-center justify-content-center brandPosition backgroundColorBlack">
+							<div class="sidebar-brand-icon rotate-n-15 textYellow">
+								<!-- <i class="fas fa-laugh-wink"></i> -->
+								<i class="fas fa-align-justify"></i>
+							</div>
+							<div class="sidebar-brand-text mx-3 textWhite">KeyStack <sup></sup></div>
+						</div>
+
+						<!-- Beneath the branding -->
+						<div class="sidebarBeneathBranding">
+							<hr class="sidebar-divider my-0"><br>
+
+							<li>
+								<div class="mainTextColor marginBottom10px textAlignCenter" id="insertServerTime"></div><br><br><br>
+							</li>
+
+							<!-- This will be insert by JS when the page is ready. onclick="connectToController(this) -->
+							<div class="marginTop5px textAlignCenter" id="getControllers"></div>
+
+							<!-- Nav Item - Dashboard -->
+							<li class="nav-item">
+								<a class="nav-link collapsed sidebarDropdownArrowColor" href="#" data-toggle="collapse"
+								data-target="#groupSessions" aria-expanded="true" aria-controls="groupSessions">
+									<span class="modules">Pipelines</span>
+								</a>
+
+								<div id="groupSessions" class="collapse" aria-labelledby="headingGroupSessions" data-parent="#accordionSidebar">
+									<div class="bg-white collapse-inner rounded sidebarDropdownStyle">
+										<p class="pl-2 pt-2 textBlack fontSize12px">Select a Test Group</p>
+										<div class="fontSize12px" id="insertSessionGroups"></div>
+									</div>
+								</div>
+							</li>
+						
+							<!-- Test Results & Logs sidebar menu-->
+							<li class="nav-item">
+								<a class="nav-link collapsed sidebarDropdownArrowColor" href="#" data-toggle="collapse" 
+								data-target="#activeResults" aria-expanded="true" aria-controls="testResults" onclick="getTestResultMenu('activeResults')">
+									<span class="fontSize12px">Recent Results</span>
+								</a>
+
+								<a class="nav-link collapsed sidebarDropdownArrowColor" href="#" data-toggle="collapse"
+								data-target="#archiveResults" aria-expanded="true" aria-controls="testResults"  onclick="getTestResultMenu('archiveResults')">
+									<span class="fontSize12px">Result Archives</span>
+								</a>
+
+								<div id="activeResults" class="collapse" aria-labelledby="headingTestResults" data-parent="#accordionSidebar">
+									<div class="bg-white py-1 collapse-inner rounded sidebarDropdownStyle">
+										<!-- Notes: url testResults takes you to testResults.views -->
+										<div id='insertActiveTestResultMenu'></div>
+									</div>
+								</div>
+
+								<div id="archiveResults" class="collapse" aria-labelledby="archiveHeadingTestResults" data-parent="#accordionSidebar">
+									<div class="bg-white py-1 collapse-inner rounded sidebarDropdownStyle">
+										<div id='insertArchiveTestResultMenu'></div>
+									</div>
+								</div>
+							</li>
+							<br>
+
+							<hr class="sidebar-divider">
+
+							<li class="nav-item">
+								<a class="nav-link collapsed sidebarDropdownArrowColor" href="#" data-toggle="collapse"
+								data-target="#envSidePanel" aria-expanded="true" aria-controls="envSidePanel" onclick="getEnvGroupMenu()">
+									<span class="fontSize12px">Envs / Testbeds</span>
+								</a>
+
+								<div id="envSidePanel" class="collapse sidebarDropdownArrowColor" aria-labelledby="envLabel" data-parent="#accordionSidebar">
+									<div class="bg-white py-1 collapse-inner rounded sidebarDropdownStyle">
+										<!-- Tell Env the group. Env renders html and JS will get all envs from the specified group -->
+										<div id='insertEnvGroupMenu'></div>
+									</div>
+								</div>	
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link collapsed sidebarDropdownArrowColor" href="#" data-toggle="collapse"
+								data-target="#playbookSidePanel" aria-expanded="true" aria-controls="playbookSidePanel" onclick="getPlaybookGroupMenu()">
+									<span class="modules">Playbooks</span>
+								</a>
+
+								<div id="playbookSidePanel" class="collapse" aria-labelledby="playbookLabel" data-parent="#accordionSidebar">
+									<div class="bg-white py-1 collapse-inner rounded sidebarDropdownStyle">
+										<!-- Tell Playbook the group. Playbook renders html and JS will get all playbooks from the specified group -->
+										<div id='insertPlaybookGroupMenu'></div>
+									</div>
+								</div>	
+							</li>
+							<br>
+							<hr class="sidebar-divider">
+
+							<!-- Heading -->
+							<div class="sidebar-heading textYellow">Module Stack</div>
+							<!-- <div class="hideClassFromRemoteControllers" id="insertModules"></div> -->
+							<div id="insertModules"></div>
+						</div>
+					</ul>
+				
+					<!-- end sidebar -->					
+
+					<!-- Topbar: To make the main content scroll beneath the topbar, include: position:sticky; top:0px; z-index:10; -->
+					<!-- original background color: #F0F0F3 -->
+					<nav class="navbar navbar-expand navbar-light topbar fixed-top topbarStyle">
+						<!-- Hamburger menu: Sidebar Toggle (Topbar) -->
+						<button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+							<i class="fa fa-bars"></i>
+						</button>
+						
+						<span class="pt-1 topbarTitlePage" id='topbarTitlePage'>{{topbarTitlePage}}</span>
+
+						<ul class="navbar-nav ml-auto">
+							<li>
+								<a class="fas fa-file-lines topbarLinkStyle" href="" data-bs-toggle="modal" data-bs-target="#showMessagesModal">
+
+									<!-- Using flashingErrorMsg in the class for webpages. When user clicks on either the messages or flashing error message, will stop the blinking -->
+									<span class="topbarLinkSpanFontSize flashingErrorMsg" id="messages">&ensp;Messages
+
+										<!-- Just a placeholder.  This gets activated when there is an error -->
+										<span class="verticalAlignTop badge badge-danger badge-counter blink flashingErrorMsg" style="font-size:10px" id='flashingError'></span>
+									</span>
+								</a>
+							</li>
+
+							<li class="nav-item dropdown no-arrow mx-1">
+								<!-- System Settings-->
+								<a class="dropdown-toggle fas fa-gears topbarLinkStyle" href="#" id="debugDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 <span class="topbarLinkSpanFontSize">Debug</span>
+								</a>
+
+								<!-- Dropdown - Alerts -->
+								<div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="debugDropdown">
+									<h6 class="dropdown-header mainFontSize">
+										Debug
+									</h6>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "systemLogs" %}">
+										<div class="mr-3"><i class="fa-solid fa-wrench text-black"></i></div>
+										<div>Logs</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "AwsS3" %}">
+										<div class="mr-3"><i class="fa-solid fa-wrench text-black"></i></div>
+										<div>Aws S3</div>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<a class="fas fa-pie-chart topbarLinkStyle"  href="{% url "utilizations" %}"> <span class="topbarLinkSpanFontSize">Utilizations</span></a>
+							</li>
+
+							<!-- topbar items go here -->
+							<li class="nav-item dropdown no-arrow mx-1">
+								<!-- System Settings-->
+								<a class="dropdown-toggle fas fa-gears topbarLinkStyle" href="#" id="systemSettingsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 <span class="topbarLinkSpanFontSize">Settings</span>
+								</a>
+
+								<!-- Dropdown - Alerts -->
+								<div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+									aria-labelledby="systemSettingsDropdown">
+									<h6 class="dropdown-header mainFontSize">
+										System Settings
+									</h6>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "systemSettings" %}">
+										<div class="mr-3"><i class="fa-solid fa-wrench text-black"></i></div>
+										<div>Settings</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "loginCredentials" %}">
+										<div class="mr-3"><i class="fa-solid fa-wrench text-black"></i></div>
+										<div>Login Credentials</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center mainFontSize" href="{% url "accountMgmt" %}">
+										<i class="mr-3 fa-solid fa-user text-black"></i>
+										<div>User Accounts</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center mainFontSize" href="{% url "groups" %}">
+										<i class="mr-3 fa-solid fa-user-group text-black"></i>
+										<div>Test Groups</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center mainFontSize" href="{% url "apps" %}">
+										<i class="mr-3 fa-solid fa-user-group text-black"></i>
+										<div>App Store</div>
+									</a>
+
+									<div class="hideClassFromRemoteControllers">
+										<div class="dropdown-item d-flex align-items-center "><i class="mr-3 fa-solid fa-link text-black mainFontSize hideClassFromRemoteControllers"></i>Controller Link Mgmt</div>
+
+										<a class="dropdown-item d-flex align-items-center paddingLeft52px mainFontSize " href="{% url "controllers" %}?task=addController">
+											Add Remote Controller
+										</a>
+										<a class="dropdown-item d-flex align-items-center paddingLeft52px mainFontSize " href="{% url "controllers" %}?task=registerAccessKey">
+											Register Remote Access-Key 
+										</a>
+								    </div>
+								  
+								</div>
+							</li>
+
+							<li class="nav-item dropdown no-arrow mx-1 hideClassFromRemoteControllers">
+								<a class="dropdown-toggle fas fa-question-circle topbarLinkStyle dropdownLinkFontSize" href="#" id="help" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="topbarLinkSpanFontSize">Help</span>
+								</a>
+
+								<div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+									aria-labelledby="help">
+									<h6 class="dropdown-header">
+										Help
+									</h6>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "userGuides" %}">
+										<div class="mr-3">
+											<i class="fa-solid fa-book "></i>
+										</div>
+										<div>User Guides</div>
+									</a>
+									<a class="dropdown-item d-flex align-items-center" href="{% url "restAPI" %}">
+										<i class="mr-3 fa-solid fa-code text-black"></i>
+										<div>ReST APIs</div>
+									</a>
+								</div>
+							</li>
+
+							<div class="topbar-divider d-none d-sm-block"></div>
+
+							<!-- User Information text-gray-600 -->
+							<li class="dropdown no-arrow">
+								<a class="nav-link dropdown-toggle mt-1 dropdownLinkFontSize" href="#" id="userDropdown" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa-solid fa-user" style="color:white"></i> 
+									<span class="mr-2 d-none d-lg-inline small topbarLinkSpanFontSize">{{user}}</span>
+								</a>
+
+								<!-- Dropdown - User Information -->
+								<div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+									<a class="dropdown-item" href="{% url "logout" %}">
+										<i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+										Logout
+									</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<!-- topbar ends -->
+
+					<!-- <div style="overlfow:auto; height:0px"> -->
+					<div id="mainBodyDiv" class="mainBodyDiv">
+						{% block content %}
+						{% endblock content %}
+					</div>
+				</div>
+				<!-- contents ends -->
+
+				<!-- Footer -->
+				<!-- <div class="row mt-2 hideInstantMessages footerStyle" id="footer"> -->
+				<!--
+				<div class="row mt-2 hideInstantMessages footerStyle">
+					<table class="table table-sm table-bordered table-fixed tableFixHead tableMessages" cellspacing="0">
+						<thead>
+							<tr>
+								<th class="col-2">Date / Time</th>
+								<th class="col-1">Users</th>
+								<th class="col-1">Tasks</th>
+								<th class="col-1">Msg Type</th>
+								<th class="col-md-auto">Messages</th>
+							</tr>
+						</thead>
+		
+						<tbody id="tableDataFooter"></tbody>
+					</table>
+				</div>
+				-->
+			
+		    </div>
+			<!-- content-wrapper ends -->
+
+			<div class="modal" id="showMessagesModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="showMessagesModal" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-scrollable messagesModal">
+					<div class="modal-content">
+						<div class="modal-header">
+							<!-- <div class="card-header" style="display:inline-block"> -->
+							<div class="flexRowInlineBlockRight">
+								<h6 class="modal-title">Messages&ensp;</h6>
+							</div>
+						</div>
+
+						<div class="modal-body">
+							<!-- <table class="table table-sm table-bordered " cellspacing="0"> -->
+							<!-- <table class="table table-bordered tableMessages"> -->
+							<div class="row">
+								<table class="tableMessages table-bordered">
+									<thead>
+										<tr>
+											<th class="col-2">Date / Time</th>
+											<th class="col-1">Users</th>
+											<th class="col-1">Tasks</th>
+											<th class="col-1">Msg Type</th>
+											<th class="col-md-auto">Messages</th>
+										</tr>
+									</thead>
+									<!-- tableDataFooter -->
+									<tbody id="messageTable"></tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- div wrapper end --> 
+		
+	    <!-- Bootstrap core JavaScript-->
+	    <script src={% static "sb-admin-2/vendor/jquery/jquery.min.js" %}></script>
+	    <script src={% static "sb-admin-2/vendor/bootstrap/js/bootstrap.bundle.min.js" %}></script>
+	    
+	    <!-- Core plugin JavaScript-->
+	    <script src={% static "sb-admin-2/vendor/jquery-easing/jquery.easing.min.js" %}></script>
+	    
+	    <!-- Custom scripts for all pages-->
+	    <script src={% static "sb-admin-2/js/sb-admin-2.min.js" %}></script>
+
+	    <script src={% static "bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" %}></script>
+	    
+	    <!-- <script type="text/javascript" src={% static "commonJS/commons.js" %}></script> -->
+		<script type="text/javascript" src={% static "commons/js/commons.js" %}></script>
+		
+		<script>
+			setTimeout(() => {
+				// Default session timeout 3 hr
+				// 36000000=1hr, 108000000=3hr
+				window.location.href = '/logout'
+			}, 10800000);
+
+			setInterval(getServerTime, 10000)
+
+			document.addEventListener("DOMContentLoaded", function() {
+				insertSessionGroups();
+				getSidebarModules();
+				getControllerList();
+
+				// Stop the blinking error message
+				let flashingError = document.querySelector("#flashingError");
+				flashingError.addEventListener('click', event => {
+					event.preventDefault();
+					document.querySelector("#flashingError").innerHTML = '';
+				})
+			})
+
+			// This doesn't change. It get passed in by views.
+			var mainControllerIp = document.querySelector("#mainControllerIp").getAttribute('value');
+			sessionStorage.setItem('mainControllerIp', mainControllerIp);
+
+			// New login controller == null
+			var remoteController = sessionStorage.getItem('remoteController');
+			console.log(`base:  mainControllerIp: ${mainControllerIp}  remoteController: ${remoteController}`)
+
+			console.log(`base READY!!  remoteController= ${remoteController}   mainControllerIp=${mainControllerIp}`)
+			if (remoteController == mainControllerIp) {
+				unhideClassFromRemoteControllers();
+			} else {
+				hideClassFromRemoteControllers();
+			}
+
+			if (typeof(sessionStorage) != "undefined") {
+				// This changes when user selects a remoteController
+				remoteController = sessionStorage.getItem('remoteController');
+				console.log(`CONTROLLER IS CHANGED.  remoteController:${remoteController}  mainControllerIp: ${mainControllerIp}`)
+				// added
+				if (sessionStorage.getItem('remoteController') != mainControllerIp) {
+					hideClassFromRemoteControllers();
+				}
+			} else {
+				console.log(`CONTROLLER NOT CHANGED: remoteController == ${remoteController}   typeOfSessionStore: ${typeof(sessionStorage)}`)
+				// sessionStorage for controller is not defined yet. User hasn't selected a remoteController.
+				// getControllerList() will default it to the mainControllerIp.
+				sessionStorage.setItem('remoteController', remoteController);
+			}
+
+			function hideClassFromRemoteControllers() {
+				console.log(`base.hideClassFromRemoteControllers() remoteController = ${sessionStorage.getItem('remoteController')}`)
+				moduleClasses = document.querySelectorAll('.hideClassFromRemoteControllers');
+				for (moduleClass of moduleClasses) {
+					moduleClass.style.display = "none";
+				}
+			}
+
+			function unhideClassFromRemoteControllers() {
+				console.log(`base.unhideClassFromRemoteControllers() remoteController == ${sessionStorage.getItem('remoteController')}`)
+				moduleClasses = document.querySelectorAll('.hideClassFromRemoteControllers');
+				for (moduleClass of moduleClasses) {
+					moduleClass.style.display = "block";
+				}
+			}
+
+			async function getControllerList() {
+				if (remoteController == null || remoteController == "") {
+					remoteController = mainControllerIp;
+					sessionStorage.setItem("remoteController", remoteController);
+					console.log(`Setting remoteController to: ${remoteController}`)
+				}
+
+				mainControllerIp = sessionStorage.getItem("mainControllerIp");
+				console.log(`getControllerList() currentController:${remoteController}  mainControllerIp:${mainControllerIp}`)
+
+				// Get a list of configured controllers for dropdown menu
+				// GetControllerList -> /topbar/settings/controllers
+				const data = await postData("{% url "getControllerList" %}", "{{csrf_token}}", 'POST', 
+				                                            {remoteController: sessionStorage.getItem("remoteController"),
+															'currentController': remoteController})
+				getInstantMessages(webpage='controllers');
+
+				if (data.status == 'failed') {
+					document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>'; 
+					sessionStorage.setItem('remoteController', mainControllerIp);
+				} else {
+					document.querySelector('#getControllers').innerHTML = data.controllers;
+				}
+			}
+
+			async function connectToController(object=null) {
+				if (object != null) {
+					// User selected a remoteController
+					remoteController = object.getAttribute('connectToController');
+
+					// Make variable remoteController persist across all pages
+					sessionStorage.setItem("remoteController", remoteController);
+				}
+
+				// This will update the remoteController dropdown list
+				getControllerList();
+
+				// Refresh the page with the connected controller's data
+				window.location.reload();
+			}
+
+			async function getInstantMessages(webpage) {
+				const data = await postData("{% url "getInstantMessages" %}", "{{csrf_token}}", 'POST', 
+													{remoteController:sessionStorage.getItem("remoteController"),
+													 'webPage': webpage})
+				document.querySelector('#messageTable').innerHTML = data.instantMessages;
+			}
+
+			function blinkSuccess() {
+				/* Blink success for 3 seconds */
+				document.querySelector("#flashingError").innerHTML = '<strong>Success</strong>';
+				setTimeout(() => {
+					document.querySelector("#flashingError").innerHTML = '';
+				}, 3000);
+			}
+
+			async function getServerTime() {
+				/* getServerTime() is in sessionMgmt */
+				const data = await postData("{% url "getServerTime" %}", "{{csrf_token}}", 'POST', 
+				        						{remoteController: sessionStorage.getItem("remoteController")})
+				document.querySelector('#insertServerTime').innerHTML = data.serverTime;
+			}
+
+			async function insertSessionGroups() {
+				// sidebar CI/CT/CD session groups
+				const data = await postData("{% url "getSessionGroups" %}", "{{csrf_token}}", 'POST', 
+												{remoteController: sessionStorage.getItem("remoteController")});
+				if (data.status == 'failed') {
+					document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>'; 
+				} else {
+					document.querySelector('#insertSessionGroups').innerHTML = data.sessionGroups;
+				}
+			}
+
+			async function getSidebarModules() {
+				/* Get all modules for sidebar one at a time 
+				   Using counter as index guidance.  
+				   If counter == len(allModules), then noMoreModule is set to True and break out.
+				*/
+
+				document.querySelector('#insertModules').innerHTML = '';
+				let counter = 0;
+
+				while (true) {
+					const data = await postData("{% url "getModules" %}", "{{csrf_token}}", 'POST', 
+													{remoteController: sessionStorage.getItem("remoteController"), 
+													 counter: counter})
+					document.querySelector('#insertModules').innerHTML += data.modulesHtml
+					counter++;
+
+					if (data.noMoreModule == true) {
+						break
+					}
+				}
+			}
+
+			async function getTestResultMenu(whichTestType) {
+				// Get sidebar test result dropdown menu
+				const data = await postData("{% url "sidebarTestResults" %}", "{{csrf_token}}", 'POST', 
+															   {remoteController: sessionStorage.getItem("remoteController"), 
+																whichResultType: whichTestType});
+
+				if (data.status == 'failed') {
+					document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+				} else {
+					if (whichTestType == 'activeResults') {
+						document.querySelector('#insertActiveTestResultMenu').innerHTML = data.testResults;
+					} else {
+						document.querySelector('#insertArchiveTestResultMenu').innerHTML = data.testResults;
+					}
+				}	
+			}
+
+			async function getEnvGroupMenu() {
+				// Get sidebar Env dropdown menu
+				const data = await postData("{% url "envGroups" %}", "{{csrf_token}}", 'POST', 
+														{remoteController: sessionStorage.getItem("remoteController")} );
+
+				if (data.status == 'failed') {
+					document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+				} else {
+					document.querySelector('#insertEnvGroupMenu').innerHTML = data.envGroups;
+				}	
+			}
+
+			async function getPlaybookGroupMenu() {
+				// Get sidebar Playbook dropdown menu
+				const data = await postData("{% url "playbookGroups" %}", "{{csrf_token}}", 'POST', 
+													{remoteController: sessionStorage.getItem("remoteController")});
+
+				if (data.status == 'failed') {
+					document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+				} else {
+					document.querySelector('#insertPlaybookGroupMenu').innerHTML = data.playbookGroups;
+				}	
+			}
+
+		</script>
+
+	    {% block extra_js %}{% endblock extra_js %}
+	
+    </body>
+</html>

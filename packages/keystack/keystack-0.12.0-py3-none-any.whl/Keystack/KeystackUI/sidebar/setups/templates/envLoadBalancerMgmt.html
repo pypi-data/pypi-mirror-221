@@ -1,0 +1,463 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/testResultsTreeView.css" %} rel="stylesheet" type="text/css">
+    <link href={% static "commons/css/envLoadBalance.css" %} rel="stylesheet" type="text/css">
+
+    <style>
+        // Create variables
+        :root {
+            --main-radius: 25px;
+            --main-padding: 15px;
+        }
+    
+        .grid {
+            margin-top: 100px;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: .3fr 1fr .5fr;
+            grid-template-rows: 1fr;
+            grid-template-areas:
+                "loadBalancerGroups selectedEnvs envOptions";      
+            grid-gap: 0.1rem;
+            background-color: white;
+        }
+    
+        #loadBalancerGroups {
+            grid-area: loadBalancerGroups;
+            border-radius:var(--main-radius);
+            padding-top:var(--main-padding);
+            height: 85%;
+            overflow: auto;
+            color: #66F854;
+            background: black;
+        }
+    
+        #envOptions {
+            grid-area: envOptions;
+            border-radius:var(--main-radius);
+            padding-top:var(--main-padding);
+            height: 85%;
+            overflow: auto;
+            color: #66F854;
+            background: black;
+            overflow: auto;
+        }
+
+        #selectedEnvs {
+            grid-area: selectedEnvs;
+            border-radius:var(--main-radius);
+            padding-top:var(--main-padding);
+            height: 85%;
+            overflow: auto;
+            color: #66F854;
+            background: black;
+        }
+    
+    </style>
+{% endblock extra_css %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+    <div class="insertInlineBlock marginTop5px">
+        <a href="#" data-toggle="modal" data-target="#createLoadBalanceGroupModal" onclick="getEnvs()">Create Load Balance Group</a>&emsp;&emsp;
+    </div>
+</nav>
+
+<div class="grid">
+    <div id='loadBalancerGroups'>
+        <div class="marginTop20px"><center>Select a load balance group</center></div><br>
+        <center>
+            <button class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#createLoadBalanceGroupModal" onclick="getEnvs()">Create</button>&ensp;
+            <button id="loadBalanceGroups" class="btn btn-sm btn-outline-success hide" data-toggle="modal"
+             data-target="#deleteGroupConfirmationModal">Delete Group</button>&ensp;
+             <button class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#resetLBGConfirmationModal">Reset</button>&ensp;
+        </center><br>
+
+        <div class="marginTop20px" id="insertLoadBalanceGroups"></div>
+    </div>
+
+    <div id='selectedEnvs'>
+        <center><div class="marginTop20px">Load Balance Group Envs</div></center><br>
+        <center>
+            <button class="btn btn-sm btn-outline-success" onclick="removeSelectedEnv()">Remove Selected</button>&ensp;&ensp;
+            <button class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#removeAllEnvConfirmationModal">Remove All</button>
+        </center><br>
+        <div class="marginTop10px " id='insertLoadBalanceGroupEnvs'></div>
+    </div>
+
+    <div id='envOptions'>
+        <div class="marginTop20px"><center>Select Envs for the load balance group</center></div><br>
+        <center><button class="btn btn-sm btn-outline-success" onclick="addEnvsToLoadBalanceGroup()">Select</button></center><br>
+        <span class="marginTop20px marginLeft20px">Expand each Env group to select envs</span><br>
+        <div class="marginTop10px marginLeft40px" id='insertEnvs'></div>
+    </div>
+</div>
+
+
+<div class="modal" id="createLoadBalanceGroupModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="createLoadBalancerGroup" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:35%; height:250px;  color:black">
+        <div class="modal-content">
+ 
+            <div class="modal-header">
+                <div class="floatLeft insertInlineBlock">
+                    <h6 class="modal-title textBlue" id="userMgmt">Create Load Balance Group</h6>&ensp;&ensp;
+                    <div id="getLoadBalanceGroupEnvsStatus"></div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class='row'>
+                    <div class="flexRowInlineBlockLeft">
+                        <label for='newBalancerGroupId'>Group Name:</label>&emsp; 
+                        <input type="text" class="form-control width300px" id="createNewBalancerGroupId"/>&emsp; 
+                        <button type="button" class=" btn btn-sm btn-primary" data-dismiss="modal" onclick="createLoadBalanceGroup()">Create</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deleteGroupConfirmationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="deleteGroupConfirmationModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title textBlue">Delete Load Balance Group&ensp;</h5>
+					<div id="showLoadBalanceGroupName" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to delete the load balancer group?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="deleteLoadBalanceGroup()">Delete</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="removeAllEnvConfirmationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="removeAllEnvConfirmationModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:200px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<div class="fileRowInlineBlockRight">
+					<h6 class="modal-title textBlue">Remove all envs from load balance group:&ensp;<span id="insertCurrentLoadBalanceGroup"></span></h6>
+                    
+					<div id="showLoadBalanceGroupName2" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row"><center>Are you sure?</center></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="removeAllEnvs()">Remove</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="resetLBGConfirmationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="resetLBGConfirmationModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title textBlue">Reset Load Balance Group&ensp;</h5>
+					<div id="showLoadBalanceGroupName" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;This will remove all envs from the load balance group.<br>&ensp;&ensp;Are you sure that you want to reset?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="resetLoadBalanceGroup()">Reset</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    var individualEnvsArray = [];
+    var envGroupArray = [];
+
+    document.addEventListener("DOMContentLoaded", function() {    
+        getEnvs();
+        getLoadBalanceGroups();
+        getInstantMessages(webpage='envs');
+        getServerTime();
+    })
+
+    async function createLoadBalanceGroup() {
+        // Create a new env load balancer. Get the value from the input field.
+        let loadBalanceGroup = document.querySelector('#createNewBalancerGroupId').value;
+
+        if (loadBalanceGroup.indexOf('/') > 0) {
+            alert('Load Balaner name cannot have slashes');
+            return
+        }
+
+        let data = await postData("{% url "createNewLoadBalanceGroup" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), 
+                                             loadBalanceGroup:loadBalanceGroup})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroups();
+            blinkSuccess();
+        }
+
+        getInstantMessages(webpage='envs');
+        // Blank the input field
+        document.querySelector('#createNewBalancerGroupId').value = '';
+        //document.querySelector("#createLoadBalanceGroupModal").style.display = 'none';
+    }
+
+    async function addEnvsToLoadBalanceGroup() {
+        // from onclick button. User checkboxed env group / envs
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+        getSelectedSessions();
+
+        let data = await postData("{% url "addEnvsToLoadBalanceGroup" %}", "{{csrf_token}}", 'POST', 
+                            {remoteController: sessionStorage.getItem("remoteController"), 
+                             loadBalanceGroup: loadBalanceGroup,
+                             envGroupsFullPaths: envGroupArray, 
+                             individualEnvsFullPaths: individualEnvsArray})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroupEnvs();
+            getEnvs();
+            blinkSuccess();
+        }
+
+        getInstantMessages(webpage='envs');
+        individualEnvsArray = [];
+        envGroupArray = [];
+    }
+
+    async function getLoadBalanceGroups() {
+        // Radio buttons: Show all the created load balance groups
+        let data = await postData("{% url "getLoadBalanceGroups" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            if (data.totalLoadBalanceGroups > 0) {
+                document.querySelector("#insertLoadBalanceGroups").innerHTML = data.loadBalanceGroups;
+
+                let currentSelectedLoadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+                document.querySelector("#insertCurrentLoadBalanceGroup").innerHTML = currentSelectedLoadBalanceGroup;
+
+                let loadBalanceGroup = document.querySelector("#loadBalanceGroups");
+                loadBalanceGroup.classList.remove('hide');
+            } else {
+                document.querySelector("#insertLoadBalanceGroups").innerHTML = '<div class="marginLeft20px">None</div>';
+                document.querySelector("#insertCurrentLoadBalanceGroup").innerHTML += 'None';
+
+                let loadBalanceGroup = document.querySelector("#loadBalanceGroups");
+                loadBalanceGroup.classList.add('hide');
+                //loadBalanceGroup.parentElement.querySelector(".show").classList.toggle("show");
+            }
+
+            getLoadBalanceGroupEnvs();
+        }       
+    }
+
+    async function getLoadBalanceGroupEnvs() {
+        // User selects a load balancer to manage. Show all the Envs for the load balancer.
+        // let loadBalancerRadio = document.querySelector("input[name=loadBalancerGroupRadio]:checked");
+        //let loadBalanceGroup = loadBalancerRadio ? loadBalancerRadio.value : "";
+
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+
+        let data = await postData("{% url "getLoadBalanceGroupEnvsUI" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), loadBalanceGroup:loadBalanceGroup})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector("#insertLoadBalanceGroupEnvs").innerHTML = data.loadBalanceGroupEnvs;
+        } 
+        getInstantMessages(webpage='envs');    
+    }
+
+    async function getEnvs() {
+        // Blank out the page
+        document.querySelector('#insertEnvs').innerHTML = '';
+
+        let data = await postData("{% url "getAllEnvs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector('#insertEnvs').innerHTML += data.envs;
+
+            // This must sit here after getTestResultPages() in order to work.
+            // This code goes in conjuntion with testResultsTreeView.css for expanding the nested tree view
+            await addListeners(caretName="caret2");
+        }
+        getInstantMessages(webpage='envs');
+    }
+
+    function addListeners(caretName) {
+        window[caretName] = document.getElementsByClassName(caretName);
+
+        for (x= 0; x < window[caretName].length; x++) {
+            window[caretName][x].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");            
+            });
+        }
+    }
+
+    function clearAll() {
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]')
+        for (var x=0; x < checkboxes.length; x++) {
+            checkboxes[x].checked = false;
+        }
+    }
+
+    function getSelectedSessions() {
+        // Individial Envs
+        var individualEnvCheckbox = document.querySelectorAll('input[name=envCheckboxLBG]:checked');
+
+        for (let x=0; x < individualEnvCheckbox.length; x++) {
+            let envPath = individualEnvCheckbox[x].getAttribute('value');
+            individualEnvsArray.push(envPath)
+            individualEnvCheckbox[x].checked = false;
+        }
+
+        // Env groups
+        var envGroupCheckboxes = document.querySelectorAll('input[name=envGroupCheckbox]:checked');
+
+        for (let x=0; x < envGroupCheckboxes.length; x++) {
+            let envPath = envGroupCheckboxes[x].getAttribute('value');
+            envGroupArray.push(envPath)
+            envGroupCheckboxes[x].checked = false;
+        }
+    }
+
+    function addEnvsToLoadBalancer() {
+        getLoadBalanceGroups();
+    }
+
+    function updateLoadBalanceGroup() {
+        // User changed load balance group
+        getLoadBalanceGroupEnvs();
+    }
+
+    function disableEnvCheckboxes(object) {
+        // Each env group checked will come in here by onclick.
+        // If checked, disabled all env checkboxes in the group. 
+        // If unchecked, enable all env checkboxes in the group.
+        let selectedValue = object.value;
+        let isChecked = object.checked;
+
+        let checkboxes = document.querySelectorAll(`input[envPath="${selectedValue}"]`);
+        for (let x = 0; x < checkboxes.length; x++) {
+            if (isChecked) {
+                checkboxes[x].checked = false;
+                checkboxes[x].disabled = true;
+            } else {
+                checkboxes[x].checked = false;
+                checkboxes[x].disabled = false;
+            }
+        }
+    }
+
+    async function removeAllEnvs() {
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+        let data = await postData("{% url "removeAllEnvsFromLoadBalanceGroup" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), loadBalanceGroup:loadBalanceGroup})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroupEnvs();
+            blinkSuccess();
+        }
+        getInstantMessages(webpage='envs');        
+    }
+
+    async function removeSelectedEnv() {
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+        let removeSelectedEnvs = document.querySelectorAll("input[name=removeEnvFromLB]:checked");
+        let removeSelectedEnvList = [];
+
+        for (let x=0; x < removeSelectedEnvs.length; x++) {
+            let env = removeSelectedEnvs[x].getAttribute('value');
+            removeSelectedEnvList.push(env)
+        }
+
+        let data = await postData("{% url "removeSelectedEnvs" %}", "{{csrf_token}}", 'POST', 
+                            {remoteController: sessionStorage.getItem("remoteController"), 
+                             loadBalanceGroup:loadBalanceGroup, removeSelectedEnvs:removeSelectedEnvList})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroupEnvs();
+            blinkSuccess();
+        } 
+        getInstantMessages(webpage='envs');    
+    }
+
+    async function deleteLoadBalanceGroup() {
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+        let data = await postData("{% url "deleteLoadBalanceGroup" %}", "{{csrf_token}}", 'POST', 
+                            {remoteController: sessionStorage.getItem("remoteController"), loadBalanceGroup:loadBalanceGroup})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroups();
+            getLoadBalanceGroupEnvs();
+            blinkSuccess();
+        } 
+        getInstantMessages(webpage='envs');             
+    }
+
+    async function resetLoadBalanceGroup() {
+        let loadBalanceGroup = document.querySelector("input[name=loadBalancerGroupRadio]:checked").value;
+        let data = await postData("{% url "resetLoadBalanceGroup" %}", "{{csrf_token}}", 'POST', 
+                            {remoteController: sessionStorage.getItem("remoteController"), loadBalanceGroup:loadBalanceGroup})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getLoadBalanceGroupEnvs();
+            blinkSuccess();
+        } 
+        getInstantMessages(webpage='envs');             
+    }
+</script> 
+{% endblock extra_js %}

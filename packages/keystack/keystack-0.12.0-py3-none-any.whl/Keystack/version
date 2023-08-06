@@ -1,0 +1,54 @@
+---
+keystackVersion: 0.12.0
+
+New features: None
+
+Bug fixes: None
+
+Enhancements:
+   - setupKeystack is added as part of the keystack.whl install. 
+   - Keystack docker is installable from docker hub
+   - setupKeystack.py is enhanced to handle docker hub install and no internet connection installs
+
+Rework: None
+
+   
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+
+
+
+   
+ 
+   
+
+
+
+
+         

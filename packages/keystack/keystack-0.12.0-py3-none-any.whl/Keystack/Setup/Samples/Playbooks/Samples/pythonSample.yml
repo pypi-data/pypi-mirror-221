@@ -1,0 +1,87 @@
+---
+# Parameter values inside globalSettings applies to all stages/modules
+# However, you could over write the param values in each stage and module
+globalSettings:
+   loginCredentialKey: None
+   trackResults: False
+   abortModuleFailure: False
+   abortStageFailure: True
+   verifyFailurePatterns: ['Failed']
+   env: None
+   loadBalanceGroup: None
+
+   # Add additional test report details to the test report header. 
+   # This will show the keys and values. Create as many as you like with a dash.
+   # reportHeadingAdditions:
+   #    - key: 'valueString'
+
+stages:
+    Bringup:
+        enable: True
+        runModulesInParallel: False
+        modules:
+            - /Modules/Demo:
+                enable: True
+                playlist:
+                    - /Modules/Demo/Samples/Bringups
+
+    # Run python scripts with Keystack Env integration. 
+    # This allows your Python scripts to consume env parameter values inside Python scripts.
+    # And in your scripts, instead of using print, use logInfo(), logFailed(), logWarning(), logError()
+    DynamicVariableSample:
+        enable: True 
+        modules:
+            - /Modules/Demo:
+                enable: True
+                env: Samples/pythonSample
+
+                # Pass in variable values to scripts to digest.
+                # Look at pythonSample.py script for sample on getting this variables
+                variables:
+                   serverIp: 10.10.10.1
+                   serverName: qa
+                   server: sanity
+
+                playlist:
+                    - /Modules/Demo/Samples/BridgeEnvParams/dynamicVariableSample.yml
+
+    Test:
+        enable: True
+        runModulesInParallel: False
+        modules:
+            - /Modules/Demo:
+                enable: True
+                env: Samples/pythonSample
+
+                #playlistExclusions:
+                #    - Example. a list of folders and files to exclude
+
+                playlist:
+                    - /Modules/Demo/Samples/Testcases/bgp.yml
+                    - /Modules/Demo/Samples/Testcases/ospf.yml
+                    - /Modules/Demo/Samples/Testcases/isis.yml
+                    - /Modules/Demo/Samples/Testcases/bashScript.yml
+                    - /Modules/Demo/Samples/Testcases/standalonePython.yml
+
+                outerLoop: 1
+                innerLoop:
+                    allTestcases: 1
+                    folders:
+                        - /Modules/Demo/Samples/Testcases: 0
+                    #testcases:
+
+                dependencies:
+                    /Modules/Demo/Samples/Testcases/isis.yml:
+                        enable: False
+                        dependOnCases:
+                            - /Modules/Demo/Samples/Testcases/bgp.yml
+
+    Teardown:
+        enable: True
+        runModulesInParallel: False
+        teardownOnFailure: True
+        modules:
+            - /Modules/Demo:
+                enable: True 
+                playlist:
+                    - /Modules/Demo/Samples/Teardowns

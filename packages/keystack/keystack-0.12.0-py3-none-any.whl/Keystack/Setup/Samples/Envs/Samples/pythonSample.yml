@@ -1,0 +1,12 @@
+---
+# Can this env be used in parallel with other Modules
+# Default=True
+parallelUsage: True
+
+server1: 192.168.28.6
+username: admin
+password: admin
+
+licenseServerIp: 10.10.10.1
+licenseServerUser: admin
+licenseServerPassword: admin

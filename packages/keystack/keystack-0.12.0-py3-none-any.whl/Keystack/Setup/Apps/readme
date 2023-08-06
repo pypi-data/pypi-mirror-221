@@ -1,0 +1,17 @@
+- Every module folder that you create must have a plugin module
+  to run your module.
+
+- Each plugin module must have the prefix "plugin_" in front of your Module name.
+
+- The plugin module file name must be spelled exactly how you spelled your
+  Module's folder.  If you rename your Module's folder, you must rename
+  the plugin module.
+
+- The main app will call the plugin module and pass in the main self object 
+  so the plugin module has access to all the envParams such as all the env IP addresses,
+  playbook details and testcase details
+
+- The plugin_CustomPythonScripts.py module runs plain vanilla Python scripts.
+  This is the only plugin that will not have access to envParams because
+  plain vanilla Python scripts has no code logics to take in the self object.
+  
