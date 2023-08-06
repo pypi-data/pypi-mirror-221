@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: audioshake_job_manager
+Version: 0.0.4
+Summary: AudioShake job manager
+Author-email: Sylvester Okonkwo <sylvester@audioshake.ai>
+Requires-Python: >=3.9

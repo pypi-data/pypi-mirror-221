@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audioshake_job_manager"
+authors = [
+    {name = "Sylvester Okonkwo", email = "sylvester@audioshake.ai"},
+]
+description = "AudioShake job manager"
+requires-python = ">=3.9"
+version = "0.0.4"
+dependencies = [
+    "boto3"
+]
+
+[tool.setuptools]
+packages = ["audioshake_job_manager"]
