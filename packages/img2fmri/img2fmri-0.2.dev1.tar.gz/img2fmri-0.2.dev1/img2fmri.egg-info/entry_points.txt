@@ -1,0 +1,2 @@
+[console_scripts]
+img2fmri = img2fmri.predict:_CLI_interface
