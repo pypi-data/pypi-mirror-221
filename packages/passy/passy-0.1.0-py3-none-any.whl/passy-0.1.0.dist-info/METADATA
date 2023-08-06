@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: passy
+Version: 0.1.0
+Summary: Logins made simple
+Author-email: Ben Brady <benbradybusiness@gmail.com>
+Requires-Python: >=3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Dist: passlib[argon2]~=1.7.4
+Requires-Dist: pyotp~=2.8.0
+Requires-Dist: typing_extensions>=4.5.0
+Project-URL: Source, https://github.com/Ben-Brady/passy
