@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tcman
+Version: 0.0.1
+Summary: Tor Circuits Manager
+Home-page: https://github.com/amateur80lvl/tcman
+Author: amateur80lvl
+Author-email: amateur80lvl@gmail.com
+Keywords: tor,onion,controller,asyncio
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tor Circuits Manager
+
+This package provides a set of classes to construct circuit manager
+that matches your taste.
+
+Use it in conjunction with [mintc](https://github.com/amateur80lvl/mintc).
+
+How to:
+
+```python
+
+    import asyncio
+    from mintc import TorController
+    from tcman import *
+
+    class MyCircuitsManager(
+        CircuitsManagerBase,
+        RoundRobinManager,
+        PromiscuousPathBuilder,
+        Logger
+    ):
+        pass
+
+    async def main():
+        async with TorController('127.0.0.1:9051') as tc:
+            await tc.authenticate('password')
+            async with MyCircuitsManager(tc, num_hops=2, max_circuits=500) as tcm:
+                await tcm.run()
+
+    asyncio.run(main())
+```
+
+Mind exceptions and re-run when shit happens.
+
