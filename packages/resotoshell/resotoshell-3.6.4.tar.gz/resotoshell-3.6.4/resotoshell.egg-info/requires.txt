@@ -1,0 +1,5 @@
+resotolib==3.6.4
+prompt-toolkit
+rich
+resotoclient
+aiohttp[speedups]
