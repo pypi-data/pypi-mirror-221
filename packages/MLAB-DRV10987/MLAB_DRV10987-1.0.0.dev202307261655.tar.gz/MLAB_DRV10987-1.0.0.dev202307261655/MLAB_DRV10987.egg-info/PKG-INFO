@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: MLAB-DRV10987
+Version: 1.0.0.dev202307261655
+Summary: A Python module for controlling BLDC motors using the DRV10987V01 MLAB module.
+Home-page: https://www.mlab.cz/module/DRV10987V01
+Author: Roman Dvorak
+Author-email: romandvorak@mlab.cz
+License: MIT
