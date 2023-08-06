@@ -1,0 +1,7 @@
+README.md
+setup.py
+IDEAfactortest.egg-info/PKG-INFO
+IDEAfactortest.egg-info/SOURCES.txt
+IDEAfactortest.egg-info/dependency_links.txt
+IDEAfactortest.egg-info/requires.txt
+IDEAfactortest.egg-info/top_level.txt
