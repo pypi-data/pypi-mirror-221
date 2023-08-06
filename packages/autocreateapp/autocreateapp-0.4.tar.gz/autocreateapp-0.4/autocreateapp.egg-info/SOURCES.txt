@@ -1,0 +1,10 @@
+README.md
+setup.py
+autocreateapp/__init__.py
+autocreateapp/create_project.py
+autocreateapp.egg-info/PKG-INFO
+autocreateapp.egg-info/SOURCES.txt
+autocreateapp.egg-info/dependency_links.txt
+autocreateapp.egg-info/entry_points.txt
+autocreateapp.egg-info/requires.txt
+autocreateapp.egg-info/top_level.txt
