@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sitTools
+Version: 0.0.8
+Summary: Useful function tools for SIT project use.
+Home-page: https://github.com/sit-sys/sitTools
+Author: Andy Yang
+Author-email: andy.yang@twsit.com
+License: MIT
+Download-URL: https://pypi.org/project/sitTools/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: configparser
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: dev
+
+## README
+
+### sitTools
+###### 適用 Python 版本
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sitTools)](https://pypi.python.org/pypi/sitTools/)
+
+Useful tools module for S.I.T. project use.
+本公司勝和科技 ( Success Integration Technology ) 內部專案常用函式集
+
+### Installation ( 安裝套件 )
+```bash
+pip install sitTools
+```
+
+### Dependencies ( 相依套件 )
+- numpy
+- pandas
+- configparser
+
+### Module & Function
+
+#### gTools
+General using tool functions.
+常用工具函式
+
+#### cTools
+Crawler tool functions
+網路爬蟲相關工具函式
+
+#### sTools
+Security tool function
+安全相關工具函式
+
