@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mcqgen
+Version: 0.1.1
+Summary: Generate Multiple Choice Questions, Choices and Correct Answer in JSON Format
+Author: Abhilash Mhaisne
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mcqgen
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)](https://www.python.org/downloads/)
+
+Generate MCQs with options and correct answers in JSON Format.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install mcqgen
+```
+Make sure you have OpenAI key stored in environment variable `OPENAI_API_KEY`
