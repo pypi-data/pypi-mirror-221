@@ -1,0 +1,15 @@
+comsar/__init__.py,sha256=SfA2vdPAiTZNUb8SolVAyi80uSyOsttn43FgEZtvUQY,84
+comsar/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comsar/data/scales.csv,sha256=dCkIYiiIZupMLoYNVX9vdDLdZdBxQ8Vfz3fj2lMfSzg,61731
+comsar/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comsar/tracks/__init__.py,sha256=epV7w27HwDub3bgitfoIOrdhztUDs3MW3UwkgJUrJDQ,64
+comsar/tracks/_form.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comsar/tracks/_pitch.py,sha256=RjqMH-h1F4m8wTyv576-IdIb7xPuC_xDe1ZqSWxyVJs,19436
+comsar/tracks/_rhythm.py,sha256=Pmo-L7i85CxvyvmZYNyK66N4nBjFgBBwYpXTAZSd5yU,1121
+comsar/tracks/_timbre.py,sha256=KMvKfi2zgCjBE3pc0HmtYm5FzRGM0iEqrsP619dufqI,7269
+comsar/tracks/models.py,sha256=CwKDy4wVCj6S05objVaNQzRPxPlgKS5SoFtzfqyXFwQ,1891
+comsar/tracks/utilities.py,sha256=nJpkm-4LMppvZQb4UOZPlKAn2bHm_j81Jcx8hD1aU3U,2672
+comsar-0.0.4rc1.dist-info/LICENSE,sha256=F_xD1DpCQksZS0qDb-oEvQ3PKZCWrQPEnT0DkeUfMNU,1521
+comsar-0.0.4rc1.dist-info/METADATA,sha256=yXy9tqnKnwKWE9PIt9xYIi4ymAEHPFlhe3-w9SyaCcY,1210
+comsar-0.0.4rc1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+comsar-0.0.4rc1.dist-info/RECORD,,
