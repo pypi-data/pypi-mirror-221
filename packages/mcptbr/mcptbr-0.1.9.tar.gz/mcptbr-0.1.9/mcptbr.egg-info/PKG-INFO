@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mcptbr
+Version: 0.1.9
+Summary: Biblioteca para manipular o Minecraft através do python.
+Author: Lucas Pereira
+Author-email: lucasthe2@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# mcptbr
+
+
+mcptbr é uma pequena biblioteca que permite o usuário a manipular blocos do Minecraft com python.
+
+## Para quem serve?
+Material criado para os alunos do curso de programação em python no Minecraft.
+
+Observação: Versão em português de outras bibliotecas já existentes.
+
+
+
+## Instalação
+Vá ao CMD e digite pip install mcptbr.
+
+
+
+## Exemplo de uso
+```
+from mcptbr.model import *
+
+
+print(pegarPosicaoJogador())
+```
