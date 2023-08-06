@@ -1,0 +1,17 @@
+telemetry_router/__init__.py,sha256=E7kFa6MNEIf7XVznfCUgEFUCIWbVCKV2PPDY-FGdGLA,850
+telemetry_router/_version.py,sha256=yGrEcqB3m6PgkTJH6eLGMGieCCvK26DEsbiGkKUxrsM,171
+telemetry_router/application.py,sha256=DNualDFJV6cGHob6hOBKL562fKnuVXwDPIMdiqGRZ9w,1449
+telemetry_router/handlers.py,sha256=D00_IYnDhTbrynF9-Q9D9tmU4SdDuNZTgA7BPa-mvic,2975
+telemetry_router-0.1.9.data/data/etc/jupyter/jupyter_notebook_config.d/telemetry_router.json,sha256=hJB6nVyWl04aDvOm4DPOm_rhMg_KCnByO7kTjCcKO5o,93
+telemetry_router-0.1.9.data/data/etc/jupyter/jupyter_server_config.d/telemetry_router.json,sha256=ulvw-hNOh87aTDIlfPNmXxr4R0AcVQOAGrtyqBzUqIo,91
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/package.json,sha256=IdE1MQGMLzHZAfcxDlOqCjPRJtSBYQEFmfid9XbiCR8,5694
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/static/747.3ba83e0acd2b381f34b2.js,sha256=O6g-Cs0rOB80srlNdcm2PewJTcLG4IG-jq9DvVYw618,4012
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/static/763.7fc2a1794f2943f4acb5.js,sha256=f8KheU8pQ_SstTOz1-e2zc0eVATU9A0OrTFCJadmTRM,1658
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/static/remoteEntry.07a29c704af1bfd3164a.js,sha256=B6KccErxv9MWSt6Fpe1B2R9_MGjljmywneekgXQLvHk,6498
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/static/style.js,sha256=WLITWKeKzQtDsdUMWoUG4wGHmSvY6quR7mCxN8IZQTI,159
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+telemetry_router-0.1.9.data/data/share/jupyter/labextensions/telemetry-router/install.json,sha256=zmQMoC6bQi8APtPsOw00NdDCf_71QvoG4lYWRuQ-3pE,193
+telemetry_router-0.1.9.dist-info/METADATA,sha256=_Cszyk5jOMq2hLVjJeqfKvL_7-oLkvFsWqJ5HJcgYoc,5946
+telemetry_router-0.1.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+telemetry_router-0.1.9.dist-info/licenses/LICENSE,sha256=i6Km9qspP7mhRC-BOq24QutrmKbne_aZVETpw0aR9YI,1516
+telemetry_router-0.1.9.dist-info/RECORD,,
