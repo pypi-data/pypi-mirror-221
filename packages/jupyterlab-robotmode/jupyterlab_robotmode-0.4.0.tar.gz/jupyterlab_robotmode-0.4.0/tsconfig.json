@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfigbase",
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"]
+}
