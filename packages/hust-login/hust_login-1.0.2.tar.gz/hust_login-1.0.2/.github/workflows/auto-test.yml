@@ -1,0 +1,30 @@
+name: Automated Testing of Interface Availability
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 14 * * 1' # run on every Monday 14:00
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+
+    steps:
+      - name: Set up python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install hust_login
+      
+      - name: Test module
+        run: |
+          python -m hust_login --autotest -U ${{ secrets.Uid }} -P ${{ secrets.Pwd }}
+          
