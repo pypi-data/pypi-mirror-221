@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mfam-math
+Version: 1.0
+Summary: A small math library
+Home-page: http://github.com/yourusername/mathlib
+Author: Manuel Marinho
+Author-email: mfamarinho@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+

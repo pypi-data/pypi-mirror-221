@@ -1,0 +1,1 @@
+from .math_operat import somar, multiplicar, subtrair, dividir
