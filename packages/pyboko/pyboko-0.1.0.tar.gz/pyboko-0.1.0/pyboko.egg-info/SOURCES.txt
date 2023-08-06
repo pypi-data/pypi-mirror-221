@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyboko.egg-info/PKG-INFO
+pyboko.egg-info/SOURCES.txt
+pyboko.egg-info/dependency_links.txt
+pyboko.egg-info/requires.txt
+pyboko.egg-info/top_level.txt
