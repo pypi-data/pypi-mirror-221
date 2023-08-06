@@ -1,0 +1,6 @@
+README.md
+setup.py
+dakoaaddada.egg-info/PKG-INFO
+dakoaaddada.egg-info/SOURCES.txt
+dakoaaddada.egg-info/dependency_links.txt
+dakoaaddada.egg-info/top_level.txt
