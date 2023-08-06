@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: khoj-assistant
+Version: 0.9.1.dev24
+Summary: An AI personal assistant for your Digital Brain
+Project-URL: Homepage, https://github.com/khoj-ai/khoj#readme
+Project-URL: Issues, https://github.com/khoj-ai/khoj/issues
+Project-URL: Discussions, https://github.com/khoj-ai/khoj/discussions
+Project-URL: Releases, https://github.com/khoj-ai/khoj/releases
+Author: Debanjum Singh Solanky, Saba Imran
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Keywords: AI,NLP,images,markdown,org-mode,pdf,productivity,search,semantic-search
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8
+Requires-Dist: aiohttp==3.8.4
+Requires-Dist: bs4>=0.0.1
+Requires-Dist: dateparser==1.1.1
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: fastapi==0.77.1
+Requires-Dist: gpt4all>=1.0.7
+Requires-Dist: jinja2==3.1.2
+Requires-Dist: langchain>=0.0.187
+Requires-Dist: openai>=0.27.0
+Requires-Dist: pillow==9.3.0
+Requires-Dist: pydantic>=1.10.10
+Requires-Dist: pypdf>=3.9.0
+Requires-Dist: pyside6>=6.5.1
+Requires-Dist: pyyaml==6.0
+Requires-Dist: requests>=2.26.0
+Requires-Dist: rich>=13.3.1
+Requires-Dist: schedule==1.1.0
+Requires-Dist: sentence-transformers==2.2.2
+Requires-Dist: tenacity>=8.2.2
+Requires-Dist: tiktoken>=0.3.0
+Requires-Dist: torch>=2.0.1
+Requires-Dist: uvicorn==0.17.6
+Provides-Extra: dev
+Requires-Dist: black>=23.1.0; extra == 'dev'
+Requires-Dist: khoj-assistant[test]; extra == 'dev'
+Requires-Dist: mypy>=1.0.1; extra == 'dev'
+Requires-Dist: pre-commit>=3.0.4; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: factory-boy>=3.2.1; extra == 'test'
+Requires-Dist: freezegun>=1.2.0; extra == 'test'
+Requires-Dist: pytest>=7.1.2; extra == 'test'
+Requires-Dist: trio>=0.22.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+<p align="center"><img src="src/khoj/interface/web/assets/icons/khoj-logo-sideways.svg" width="330" alt="Khoj Logo"></p>
+
+[![test](https://github.com/khoj-ai/khoj/actions/workflows/test.yml/badge.svg)](https://github.com/khoj-ai/khoj/actions/workflows/test.yml)
+[![dockerize](https://github.com/khoj-ai/khoj/actions/workflows/dockerize.yml/badge.svg)](https://github.com/khoj-ai/khoj/pkgs/container/khoj)
+[![pypi](https://github.com/khoj-ai/khoj/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/khoj-assistant/)
+
+> An AI personal assistant for your digital brain
+
+Our goal with Khoj is to make something that can live on your desktop and give you a privacy-first, open-source, and extensible way to search and chat with your digital brain.
+
+| Install | Get on the Cloud | Get Involved |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| [See the docs](https://khoj-ai.github.io/khoj/)| [Visit the website](https://khoj.dev)| [Join the community](https://discord.gg/BDgyabRM6e)|
