@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Ibp2py.egg-info/PKG-INFO
+Ibp2py.egg-info/SOURCES.txt
+Ibp2py.egg-info/dependency_links.txt
+Ibp2py.egg-info/requires.txt
+Ibp2py.egg-info/top_level.txt
