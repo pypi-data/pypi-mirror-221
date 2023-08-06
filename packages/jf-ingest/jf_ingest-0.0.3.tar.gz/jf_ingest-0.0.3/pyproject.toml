@@ -1,0 +1,38 @@
+[project]
+name = "jf_ingest"
+version = "0.0.3"
+readme = "README.md"
+description = "library used for ingesting jira data"
+authors = [
+    { name = "jellyfish-oss", email = "oss@jellyfish.co" },
+]
+dependencies = [
+    "jira >= 2.0.0, < 2.1",
+    "requests-mock==1.11.0",
+]
+requires-python = ">=3.10"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/Jellyfish-AI/jf_ingest"
+
+[tool.pdm]
+source = [
+    { url = "https://pypi.org/simple", verify_ssl = true, name = "pypi" },
+]
+
+[tool.pdm.build]
+excludes = [
+    "**/.pytest_cache/**",
+]
+
+[tool.pdm.dev-dependencies]
+dev = []
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
