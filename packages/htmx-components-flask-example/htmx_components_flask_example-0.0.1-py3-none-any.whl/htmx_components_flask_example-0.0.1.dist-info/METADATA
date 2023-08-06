@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: htmx-components-flask-example
+Version: 0.0.1
+Summary: An example Flask application using HTMX Components Flask
+Author: Neil McGuigan
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask (==2.3.2)
+Requires-Dist: flask-sqlalchemy (==3.0.5)
+Requires-Dist: flask-wtf[email] (==1.1.1)
+Requires-Dist: htmx-components-flask
+
+# htmx-components-flask-example
