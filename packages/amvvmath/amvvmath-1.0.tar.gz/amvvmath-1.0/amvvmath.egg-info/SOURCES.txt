@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+amvvmath/__init__.py
+amvvmath/operations_math.py
+amvvmath.egg-info/PKG-INFO
+amvvmath.egg-info/SOURCES.txt
+amvvmath.egg-info/dependency_links.txt
+amvvmath.egg-info/top_level.txt

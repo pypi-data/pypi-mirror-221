@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: amvvmath
+Version: 1.0
+Summary: A small math library
+Home-page: http://github.com/banavids/mathlib
+Author: Angelo Veiga
+Author-email: angelo_veiga@live.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
