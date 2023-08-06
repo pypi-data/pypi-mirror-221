@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/illumiphysics/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aae8fa80-28c3-4c63-89d4-0f34be376496" name="Changes" comment="reworked audio.">
+      <change beforePath="$PROJECT_DIR$/illumigator/data/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/illumigator/data/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illumigator/data/levels/community/levels.json" beforeDir="false" afterPath="$PROJECT_DIR$/illumigator/data/levels/community/levels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="temp-branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="09m72scr" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SHfFyf63e3jihnZ3ieUbYgbWmT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Performant Prog/IllumiGator/illumigator/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\assets" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data\levels\system" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data\levels\community" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\assets" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data\levels\system" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data\levels\community" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data\levels" />
+      <recent name="C:\Performant Prog\IllumiGator\illumigator\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.IlllumiGator">
+    <configuration name="IlllumiGator" type="PythonConfigurationType" factoryName="Python">
+      <module name="IllumiGator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Performant Prog\IllumiGator\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (IllumiGator)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illumigator" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illumigator/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IllumiGator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Lib/site-packages/illumigator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Lib/site-packages/illumigator/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IllumiGator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illumigator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illumigator/menus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.menus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aae8fa80-28c3-4c63-89d4-0f34be376496" name="Changes" comment="" />
+      <created>1688808326932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688808326932</updated>
+      <workItem from="1688808329700" duration="237000" />
+      <workItem from="1688885682035" duration="708000" />
+      <workItem from="1688969441706" duration="6660000" />
+      <workItem from="1688985771827" duration="390000" />
+      <workItem from="1689034206508" duration="15166000" />
+      <workItem from="1689064552457" duration="754000" />
+      <workItem from="1689066288300" duration="145000" />
+      <workItem from="1689066918378" duration="1273000" />
+      <workItem from="1689140798018" duration="8986000" />
+      <workItem from="1689165398123" duration="8803000" />
+      <workItem from="1689174535968" duration="95000" />
+      <workItem from="1689174920866" duration="114000" />
+      <workItem from="1689175249320" duration="607000" />
+      <workItem from="1689206533091" duration="13181000" />
+      <workItem from="1689321059602" duration="10731000" />
+      <workItem from="1689331959854" duration="138000" />
+      <workItem from="1689341457931" duration="496000" />
+      <workItem from="1689438137344" duration="284000" />
+      <workItem from="1689493376895" duration="6866000" />
+      <workItem from="1689500446138" duration="38000" />
+      <workItem from="1689500613750" duration="112000" />
+      <workItem from="1689501502001" duration="10845000" />
+      <workItem from="1689592544372" duration="617000" />
+      <workItem from="1689638599703" duration="7298000" />
+      <workItem from="1689646013111" duration="748000" />
+      <workItem from="1689658927900" duration="137000" />
+      <workItem from="1689746186349" duration="9920000" />
+      <workItem from="1689756207786" duration="65000" />
+      <workItem from="1689756305802" duration="53000" />
+      <workItem from="1689757863646" duration="641000" />
+      <workItem from="1689762908561" duration="2293000" />
+      <workItem from="1689824012021" duration="1256000" />
+      <workItem from="1689833524131" duration="10870000" />
+      <workItem from="1689857727978" duration="2480000" />
+      <workItem from="1689954387083" duration="1338000" />
+      <workItem from="1689993264449" duration="5274000" />
+      <workItem from="1690001639232" duration="2908000" />
+      <workItem from="1690004809841" duration="479000" />
+      <workItem from="1690022184366" duration="3361000" />
+      <workItem from="1690041453543" duration="1202000" />
+      <workItem from="1690042777551" duration="1534000" />
+      <workItem from="1690044340355" duration="10000" />
+      <workItem from="1690081147884" duration="3411000" />
+      <workItem from="1690105242236" duration="597000" />
+      <workItem from="1690120429996" duration="597000" />
+      <workItem from="1690154019093" duration="1011000" />
+      <workItem from="1690155110327" duration="270000" />
+      <workItem from="1690164822672" duration="25798000" />
+      <workItem from="1690249868461" duration="2070000" />
+      <workItem from="1690296670394" duration="5521000" />
+      <workItem from="1690338391821" duration="16254000" />
+    </task>
+    <task id="LOCAL-00042" summary="fixed minor level loading bugs">
+      <created>1689645260150</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689645260150</updated>
+    </task>
+    <task id="LOCAL-00043" summary="removed rust">
+      <created>1689658967659</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1689658967659</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added json metadata file for system levels">
+      <created>1689749670587</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1689749670587</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added official and community level selector to game">
+      <created>1689749702653</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1689749702653</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added option to main menu for official level selector">
+      <created>1689749739680</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689749739680</updated>
+    </task>
+    <task id="LOCAL-00047" summary="refactored get_community_metadata to generic equivalent. refactored load_data addon path.">
+      <created>1689749780526</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689749780526</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added code to handle official level selector.">
+      <created>1689749806997</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689749806997</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added for testing. (CREATE A REAL LEVEL)">
+      <created>1689755397295</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755397295</updated>
+    </task>
+    <task id="LOCAL-00050" summary="pleased pycharm gods.">
+      <created>1689755417984</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755417984</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added functionality for continue. added final win menu. refactored level resetting.">
+      <created>1689755471991</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755471991</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added 2nd level to metadata file">
+      <created>1689755524747</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755524747</updated>
+    </task>
+    <task id="LOCAL-00053" summary="reset config file">
+      <created>1689755560514</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755560514</updated>
+    </task>
+    <task id="LOCAL-00054" summary="restart in pause menu now returns to game state.">
+      <created>1689755845606</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689755845606</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fixed audio bug and added effects to audio menu">
+      <created>1689758473401</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1689758473402</updated>
+    </task>
+    <task id="LOCAL-00056" summary="load levels outside of level selector.">
+      <created>1689824626496</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1689824626496</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added community win menu. fixed restart level bug.">
+      <created>1689836243184</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1689836243184</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added button to open level community level directory">
+      <created>1689839069929</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1689839069929</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fixed menu bugs">
+      <created>1689842649202</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1689842649202</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fixed more menu bugs">
+      <created>1689955638653</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1689955638654</updated>
+    </task>
+    <task id="LOCAL-00061" summary="removed background from main. load new space background in level.">
+      <created>1689994906908</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1689994906908</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added new overlay menu sprite.">
+      <created>1689994935085</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1689994935085</updated>
+    </task>
+    <task id="LOCAL-00063" summary="added planets to levels">
+      <created>1689997654357</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1689997654357</updated>
+    </task>
+    <task id="LOCAL-00064" summary="moved audio code to update">
+      <created>1690002748551</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1690002748551</updated>
+    </task>
+    <task id="LOCAL-00065" summary="audio menu now live updates music volume with slider">
+      <created>1690004300075</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1690004300075</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fixed level metadata file. fixed number of light rays.">
+      <created>1690037145774</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1690037145775</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added sun as light source.">
+      <created>1690037648100</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1690037648100</updated>
+    </task>
+    <task id="LOCAL-00068" summary="applied lens sprite to lenses.">
+      <created>1690038150997</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1690038150997</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fixed audio crunching in audio menu.">
+      <created>1690042150658</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1690042150659</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fixed audio crunching in audio menu.">
+      <created>1690042348442</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1690042348442</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fixed quit to menu crash bug. added music to pause and audio menu.">
+      <created>1690043708907</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1690043708907</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fixed audio slider bug.">
+      <created>1690081933316</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1690081933317</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fixed audio bugs.">
+      <created>1690083985074</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1690083985074</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added timeout before death screen">
+      <created>1690165016282</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1690165016283</updated>
+    </task>
+    <task id="LOCAL-00075" summary="changed exploded planet sprite names">
+      <created>1690169726098</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1690169726098</updated>
+    </task>
+    <task id="LOCAL-00076" summary="added planet explosion sprite">
+      <created>1690171601571</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1690171601571</updated>
+    </task>
+    <task id="LOCAL-00077" summary="made mars more orangerer.">
+      <created>1690172138521</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1690172138521</updated>
+    </task>
+    <task id="LOCAL-00078" summary="created best community level ever!!!!">
+      <created>1690175321289</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1690175321289</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fixed mirror rotation bug">
+      <created>1690176617449</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1690176617449</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fixed idle gator bug.">
+      <created>1690184453602</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1690184453602</updated>
+    </task>
+    <task id="LOCAL-00081" summary="removed debug prints. added music back.">
+      <created>1690185670707</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1690185670707</updated>
+    </task>
+    <task id="LOCAL-00082" summary="removed audio dampen.">
+      <created>1690194485823</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1690194485823</updated>
+    </task>
+    <task id="LOCAL-00083" summary="rescaled menu audio">
+      <created>1690195237070</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1690195237070</updated>
+    </task>
+    <task id="LOCAL-00084" summary="added sound effects to level selectors.">
+      <created>1690276445384</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1690276445385</updated>
+    </task>
+    <task id="LOCAL-00085" summary="removed debug and printing. set mouse visibility to false on full screen">
+      <created>1690339298130</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1690339298130</updated>
+    </task>
+    <task id="LOCAL-00086" summary="added audio fixes.">
+      <created>1690355643867</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1690355643867</updated>
+    </task>
+    <task id="LOCAL-00087" summary="casted passed volumes to floats.">
+      <created>1690356175086</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356175086</updated>
+    </task>
+    <task id="LOCAL-00088" summary="added &gt; 0 condition to sound in entity.py">
+      <created>1690356386481</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356386481</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added streaming to long music files.">
+      <created>1690357187725</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1690357187725</updated>
+    </task>
+    <task id="LOCAL-00090" summary="reworked audio.">
+      <created>1690361878315</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1690361878315</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="audio menu now live updates music volume with slider" />
+    <MESSAGE value="fixed level metadata file. fixed number of light rays." />
+    <MESSAGE value="added sun as light source." />
+    <MESSAGE value="applied lens sprite to lenses." />
+    <MESSAGE value="fixed audio crunching in audio menu." />
+    <MESSAGE value="fixed quit to menu crash bug. added music to pause and audio menu." />
+    <MESSAGE value="fixed audio slider bug." />
+    <MESSAGE value="fixed audio bugs." />
+    <MESSAGE value="added timeout before death screen" />
+    <MESSAGE value="changed exploded planet sprite names" />
+    <MESSAGE value="added planet explosion sprite" />
+    <MESSAGE value="made mars more orangerer." />
+    <MESSAGE value="created best community level ever!!!!" />
+    <MESSAGE value="fixed mirror rotation bug" />
+    <MESSAGE value="fixed idle gator bug." />
+    <MESSAGE value="removed debug prints. added music back." />
+    <MESSAGE value="removed audio dampen." />
+    <MESSAGE value="rescaled menu audio" />
+    <MESSAGE value="added sound effects to level selectors." />
+    <MESSAGE value="removed debug and printing. set mouse visibility to false on full screen" />
+    <MESSAGE value="added audio fixes." />
+    <MESSAGE value="casted passed volumes to floats." />
+    <MESSAGE value="added &gt; 0 condition to sound in entity.py" />
+    <MESSAGE value="added streaming to long music files." />
+    <MESSAGE value="reworked audio." />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked audio." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IllumiGator$menus.coverage" NAME="menus Coverage Results" MODIFIED="1689145880126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/illumigator" />
+    <SUITE FILE_PATH="coverage/IllumiGator$IlllumiGator.coverage" NAME="IlllumiGator Coverage Results" MODIFIED="1690363560854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/illumigator" />
+    <SUITE FILE_PATH="coverage/IllumiGator$main.coverage" NAME="main Coverage Results" MODIFIED="1689954469794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/illumigator" />
+  </component>
+</project>

@@ -1,0 +1,167 @@
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[build-system]\r\nrequires = [\"hatchling\"]\r\nbuild-backend = \"hatchling.build\"\r\n\r\n[project]\r\nname = \"illumigator\"\r\nversion = \"0.0.11\"\r\nauthors = [\r\n    { name=\"Richard Sorkin\", email=\"r.sorkin@ufl.edu\" },\r\n    { name=\"Tomas Mejia\", email=\"tomas.mejia@ufl.edu\" },\r\n    { name=\"Amber Handal\", email=\"amberhandal@ufl.edu\" },\r\n    { name=\"Elton Li\", email=\"eltonli@ufl.edu\" },\r\n    { name=\"Dakota Cappel\", email=\"dakota.cappel@ufl.edu\"}\r\n]\r\ndescription = \"2D Light-Based Puzzle Game\"\r\nreadme = \"README.md\"\r\nrequires-python = \">=3.10\"\r\nclassifiers = [\r\n    \"Programming Language :: Python :: 3\",\r\n    \"License :: OSI Approved :: MIT License\",\r\n    \"Operating System :: OS Independent\",\r\n]\r\ndependencies = [\r\n    \"arcade\",\r\n    \"numpy\",\r\n    \"screeninfo\",\r\n    \"pydantic\"\r\n]\r\n\r\n[project.urls]\r\n\"Homepage\" = \"https://github.com/EltonLi2000/IllumiGator\"\r\n\"Bug Tracker\" = \"https://github.com/EltonLi2000/IllumiGator/issues\"\r\n\r\n[project.scripts]\r\nillumigator = \"illumigator.main:main\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision 9fb11c0e94204540ceccb699f60d9bbede3e65c5)
++++ b/pyproject.toml	(date 1690357398295)
+@@ -4,7 +4,7 @@
+ 
+ [project]
+ name = "illumigator"
+-version = "0.0.11"
++version = "0.0.13"
+ authors = [
+     { name="Richard Sorkin", email="r.sorkin@ufl.edu" },
+     { name="Tomas Mejia", email="tomas.mejia@ufl.edu" },
+Index: illumigator/data/config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"current_level\": 1, \"volume\": {\"master\": 0.5, \"music\": 0.5, \"effects\": 0.5}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/config.json b/illumigator/data/config.json
+--- a/illumigator/data/config.json	(revision 9fb11c0e94204540ceccb699f60d9bbede3e65c5)
++++ b/illumigator/data/config.json	(date 1690361815915)
+@@ -1,1 +1,1 @@
+-{"current_level": 1, "volume": {"master": 0.5, "music": 0.5, "effects": 0.5}}
+\ No newline at end of file
++{"current_level": 3, "volume": {"master": 0.5, "music": 0.5000000000000002, "effects": 0.5000000000000002}}
+\ No newline at end of file
+Index: illumigator/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import time\r\n\r\nimport arcade\r\n\r\nfrom illumigator import entity, level, menus, util, level_selector\r\n\r\n\r\nclass GameObject(arcade.Window):\r\n    def __init__(self):\r\n        super().__init__(util.WORLD_WIDTH, util.WORLD_HEIGHT, util.WINDOW_TITLE, resizable=True, antialiasing=True)\r\n        self.set_mouse_visible(not self.fullscreen)\r\n        self.enemy = None\r\n        self.character = None\r\n        self.current_level = None\r\n        self.menu_sound = None\r\n        self.background_music = None\r\n        self.menu_music = None\r\n        self.pause_music = None\r\n        self.menu_player = None\r\n        self.bgm_player = None\r\n        self.pause_player = None\r\n\r\n        # ========================= Window =========================\r\n        arcade.set_background_color(arcade.color.BLACK)\r\n        self.set_update_rate(1 / util.FRAME_RATE)\r\n\r\n        # ========================= Menus =========================\r\n        self.main_menu = None\r\n        self.win_menu = None\r\n        self.lose_menu = None\r\n        self.options_menu = None\r\n        self.game_menu = None\r\n        self.controls_menu = None\r\n        self.audio_menu = None\r\n        self.official_selector_menu = None\r\n        self.community_selector_menu = None\r\n        self.final_win_menu = None\r\n        self.community_win_menu = None\r\n\r\n        # ========================= Settings =========================\r\n        self.settings = util.load_data(\"config.json\")\r\n        self.master_volume = self.settings[\"volume\"][\"master\"]\r\n        self.music_volume = self.settings[\"volume\"][\"music\"]\r\n        self.effects_volume = self.settings[\"volume\"][\"effects\"]\r\n\r\n        # ========================= State =========================\r\n        self.game_state = None\r\n        self.official_level_count = util.load_data(\"levels.json\", True, True)[\"level_count\"]\r\n        self.official_level_index = self.settings[\"current_level\"]\r\n        self.current_level_path = \"level_\" + str(self.official_level_index) + \".json\"\r\n        self.official_level_status = True\r\n\r\n    def setup(self):\r\n        self.game_state = \"menu\"\r\n        self.character = entity.Character(walking_volume=self.effects_volume*self.master_volume)\r\n        self.enemy = entity.Enemy()\r\n\r\n        self.current_level = level.load_level(util.load_data(self.current_level_path, True), self.character, self.enemy)\r\n\r\n        # ========================= Sounds =========================\r\n        self.menu_sound = util.load_sound(\"retro_blip.wav\")\r\n        self.background_music = util.load_sound(\"ocean-of-ice.wav\", streaming=True)\r\n        self.menu_music = util.load_sound(\"Hina_Fallen_leaves.wav\", streaming=True)\r\n        self.pause_music = util.load_sound(\"Hina_Fallen_leaves.wav\", streaming=True)\r\n\r\n        # ========================= Fonts =========================\r\n        arcade.text_pyglet.load_font(util.ENVIRON_ASSETS_PATH + \"PressStart2P-Regular.ttf\")\r\n        arcade.text_pyglet.load_font(util.ENVIRON_ASSETS_PATH + \"AtlantisInternational.ttf\")\r\n\r\n        # ========================= Menus =========================\r\n        self.main_menu = menus.MainMenu()\r\n        self.game_menu = menus.GenericMenu(\"PAUSED\", (\"RESUME\", \"RESTART\", \"OPTIONS\", \"QUIT TO MENU\"), overlay=True)\r\n        self.win_menu = menus.GenericMenu(\"LEVEL COMPLETED\", (\"CONTINUE\", \"RETRY\", \"QUIT TO MENU\"))\r\n        self.final_win_menu = menus.GenericMenu(\"YOU WIN\", (\"RETRY\", \"QUIT TO MENU\"))\r\n        self.lose_menu = menus.GenericMenu(\"YOU DIED\", (\"RETRY\", \"QUIT TO MENU\"))\r\n        self.options_menu = menus.GenericMenu(\"OPTIONS\", (\"RETURN\", \"CONTROLS\", \"AUDIO\", \"FULLSCREEN\"))\r\n        self.controls_menu = menus.ControlsMenu()\r\n        self.audio_menu = menus.AudioMenu((\"MASTER\", \"MUSIC\", \"EFFECTS\"),\r\n                                          (self.master_volume, self.music_volume, self.effects_volume))\r\n        self.official_selector_menu = level_selector.LevelSelector()\r\n        self.community_selector_menu = level_selector.LevelSelector(is_community=True)\r\n        self.community_win_menu = menus.GenericMenu(\"YOU WIN\", (\"RETRY\", \"QUIT TO MENU\"))\r\n\r\n    # def reload(self):\r\n\r\n    def on_update(self, delta_time):\r\n        # STATE MACHINE FOR UPDATING LEVEL\r\n        if self.game_state == \"game\":\r\n            if self.character.update(self.current_level, self.effects_volume*self.master_volume, self.enemy) is False:\r\n                self.game_state = \"game_over\"\r\n\r\n            self.enemy.update(self.current_level, self.character)\r\n            self.current_level.update(self.character, self.enemy)\r\n            if any(light_receiver.charge >= util.RECEIVER_THRESHOLD for light_receiver in self.current_level.light_receiver_list):\r\n                time.sleep(0.5)\r\n                if not self.official_level_status:\r\n                    self.game_state = \"community_win\"\r\n                    self.official_level_status = False\r\n                elif self.official_level_index == self.official_level_count:\r\n                    self.official_level_status = True\r\n                    self.current_level_path = \"level_\" + str(self.official_level_index) + \".json\"\r\n                    self.game_state = \"final_win\"\r\n                else:\r\n                    self.official_level_index += 1\r\n                    self.official_level_status = True\r\n                    self.current_level_path = \"level_\" + str(self.official_level_index) + \".json\"\r\n                    self.game_state = \"win\"\r\n\r\n                self.current_level = level.load_level(\r\n                    util.load_data(self.current_level_path, True, self.official_level_status),\r\n                    self.character,\r\n                    self.enemy)\r\n\r\n            if self.character.status == \"dead\":\r\n                # Show dead animations\r\n                self.character.left_character_loader.dead = True\r\n                self.character.right_character_loader.dead = True\r\n                self.enemy.state = \"player_dead\"\r\n                # self.game_state = \"game_over\"\r\n\r\n        elif self.game_state == \"audio\":\r\n            self.audio_menu.update()\r\n\r\n        # STATE MACHINE FOR UPDATING AUDIO PLAYER\r\n        scaled_music_volume = self.music_volume * self.master_volume\r\n\r\n        if self.game_state == \"menu\":\r\n            if self.pause_player is not None:\r\n                self.pause_player.pause()\r\n            if self.bgm_player is not None:\r\n                self.bgm_player.pause()\r\n            if self.menu_player is None and scaled_music_volume > 0:\r\n                self.menu_player = arcade.play_sound(self.menu_music, float(scaled_music_volume * 0.5), looping=True)\r\n            else:\r\n                if scaled_music_volume > 0:\r\n                    self.menu_player.volume = float(scaled_music_volume) * 0.5\r\n                    self.menu_player.play()\r\n\r\n        elif self.game_state == \"game\":\r\n            if self.pause_player is not None:\r\n                self.pause_player.pause()\r\n            if self.menu_player is not None:\r\n                self.menu_player.pause()\r\n            if self.bgm_player is None and scaled_music_volume > 0:\r\n                self.bgm_player = arcade.play_sound(self.background_music, float(scaled_music_volume), looping=True)\r\n            else:\r\n                if scaled_music_volume > 0:\r\n                    self.bgm_player.volume = float(scaled_music_volume)\r\n                    self.bgm_player.play()\r\n\r\n        if self.game_state == \"paused\" or self.game_state == \"audio\":\r\n            if self.bgm_player is not None:\r\n                self.bgm_player.pause()\r\n            if self.pause_player is None and scaled_music_volume > 0:\r\n                self.pause_player = arcade.play_sound(self.pause_music, float(scaled_music_volume) * 0.5, looping=True)\r\n            else:\r\n                if scaled_music_volume > 0:\r\n                    self.pause_player.volume = float(scaled_music_volume) * 0.5\r\n                    self.pause_player.play()\r\n\r\n        if self.game_state == \"game_over\" or self.game_state == \"final_win\" or self.game_state == \"win\"\\\r\n                or self.game_state == \"community_win\":\r\n            if self.bgm_player is not None:\r\n                self.bgm_player.pause()\r\n\r\n    def on_draw(self):\r\n        self.clear()\r\n\r\n        if self.game_state == \"menu\":\r\n            self.main_menu.draw()\r\n\r\n        elif self.game_state == \"game\":\r\n            self.current_level.draw()\r\n            self.character.draw()\r\n            self.enemy.draw()\r\n\r\n        elif self.game_state == \"paused\":\r\n            self.current_level.draw()\r\n            self.character.draw()\r\n            self.enemy.draw()\r\n            self.game_menu.draw()\r\n\r\n        elif self.game_state == \"win\":\r\n            self.win_menu.draw()\r\n\r\n        elif self.game_state == \"game_over\":\r\n            self.lose_menu.draw()\r\n\r\n        elif self.game_state == \"options\":\r\n            self.options_menu.draw()\r\n\r\n        elif self.game_state == \"video\":\r\n            self.video_menu.draw()\r\n\r\n        elif self.game_state == \"controls\":\r\n            self.controls_menu.draw()\r\n\r\n        elif self.game_state == \"audio\":\r\n            self.master_volume = self.audio_menu.slider_list[0].pos\r\n            self.music_volume = self.audio_menu.slider_list[1].pos\r\n            self.effects_volume = self.audio_menu.slider_list[2].pos\r\n            self.audio_menu.draw()\r\n\r\n        elif self.game_state == \"official_level_select\":\r\n            self.official_selector_menu.draw()\r\n\r\n        elif self.game_state == \"community_level_select\":\r\n            self.community_selector_menu.draw()\r\n\r\n        elif self.game_state == \"final_win\":\r\n            self.final_win_menu.draw()\r\n\r\n        elif self.game_state == \"community_win\":\r\n            self.community_win_menu.draw()\r\n    \r\n    def unidle(self):\r\n        self.character.last_movement_timestamp = time.time()\r\n        self.character.left_character_loader.idle = False\r\n        self.character.right_character_loader.idle = False\r\n\r\n    def on_key_press(self, key, key_modifiers):\r\n        if key == arcade.key.Q:\r\n            self.character.rotation_dir += 1\r\n        if key == arcade.key.E:\r\n            self.character.rotation_dir -= 1\r\n        valid_menu_press = key == arcade.key.UP or key == arcade.key.DOWN or key == arcade.key.LEFT \\\r\n                           or key == arcade.key.RIGHT or key == arcade.key.W or key == arcade.key.A \\\r\n                           or key == arcade.key.S or key == arcade.key.D or key == arcade.key.ENTER \\\r\n                           or key == arcade.key.ESCAPE\r\n        game_paused = self.game_state == \"paused\" or self.game_state == \"win\" or self.game_state == \"options\" \\\r\n                      or self.game_state == \"audio\" or self.game_state == \"final_win\" \\\r\n                      or self.game_state == \"official_level_select\" or self.game_state == \"community_level_select\"\r\n        if game_paused and valid_menu_press:\r\n            if self.effects_volume * self.master_volume > 0.0:\r\n                arcade.play_sound(self.menu_sound, float(self.effects_volume * self.master_volume))\r\n\r\n        if key == arcade.key.F11:\r\n            self.set_fullscreen(not self.fullscreen)\r\n            self.set_mouse_visible(not self.fullscreen)\r\n\r\n        if self.game_state == \"menu\":\r\n            if key == arcade.key.ENTER:\r\n                self.unidle()\r\n                self.game_state = \"game\"\r\n            if key == arcade.key.ESCAPE:\r\n                self.on_close()\r\n            if key == arcade.key.O:\r\n                self.game_state = \"official_level_select\"\r\n            if key == arcade.key.C:\r\n                self.game_state = \"community_level_select\"\r\n\r\n        elif self.game_state == \"game\":\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"paused\"\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                self.character.up = True\r\n            if key == arcade.key.A or key == arcade.key.LEFT:\r\n                self.character.left = True\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                self.character.down = True\r\n            if key == arcade.key.D or key == arcade.key.RIGHT:\r\n                self.character.right = True\r\n\r\n        elif self.game_state == \"paused\":\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"game\"\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                self.game_menu.increment_selection()\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                self.game_menu.decrement_selection()\r\n            if key == arcade.key.ENTER:\r\n                if self.game_menu.selection == 0:\r\n                    self.game_state = \"game\"\r\n                elif self.game_menu.selection == 1:\r\n                    self.reset_level()\r\n                    self.game_state = \"game\"\r\n                elif self.game_menu.selection == 2:\r\n                    self.game_state = \"options\"\r\n                elif self.game_menu.selection == 3:\r\n                    if self.bgm_player is not None:\r\n                        self.bgm_player.seek(0.0)\r\n                    if self.pause_player is not None:\r\n                        self.pause_player.seek(0.0)\r\n                    self.reset_level()\r\n                    self.game_state = \"menu\"\r\n\r\n        elif self.game_state == \"win\" or self.game_state == \"final_win\":\r\n            win_screen = {\"win\": self.win_menu,\r\n                          \"final_win\": self.final_win_menu}\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                win_screen[self.game_state].increment_selection()\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                win_screen[self.game_state].decrement_selection()\r\n            if key == arcade.key.ENTER and (self.game_state == \"win\" or self.game_state == \"final_win\"):\r\n                selection = win_screen[self.game_state].selection\r\n                if self.game_state == \"win\":\r\n                    if selection == 0:\r\n                        self.game_state = \"game\"\r\n                    elif selection == 1:\r\n                        self.official_level_index -= 1\r\n                        self.current_level_path = \"level_\" + str(self.official_level_index) + \".json\"\r\n                        self.reset_level()\r\n                        self.game_state = \"game\"\r\n                    elif selection == 2:\r\n                        if self.bgm_player is not None:\r\n                            self.bgm_player.seek(0.0)\r\n                        self.game_state = \"menu\"\r\n                elif self.game_state == \"final_win\":\r\n                    if selection == 0:\r\n                        self.reset_level()\r\n                        self.game_state = \"game\"\r\n                    elif selection == 1:\r\n                        if self.bgm_player is not None:\r\n                            self.bgm_player.seek(0.0)\r\n                        self.game_state = \"menu\"\r\n\r\n        elif self.game_state == \"game_over\" or self.game_state == \"community_win\":\r\n            menu = {\"game_over\": self.lose_menu,\r\n                    \"community_win\": self.community_win_menu}\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                menu[self.game_state].increment_selection()\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                menu[self.game_state].decrement_selection()\r\n            if key == arcade.key.ENTER:\r\n                if menu[self.game_state].selection == 0:\r\n                    self.reset_level()\r\n                    self.game_state = \"game\"\r\n                elif menu[self.game_state].selection == 1:\r\n                    if self.bgm_player is not None:\r\n                        self.bgm_player.seek(0.0)\r\n                    self.reset_level()\r\n                    self.game_state = \"menu\"\r\n\r\n        elif self.game_state == \"options\":\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"paused\"\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                self.options_menu.increment_selection()\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                self.options_menu.decrement_selection()\r\n            if key == arcade.key.ENTER:\r\n                if self.options_menu.selection == 0:\r\n                    self.game_state = \"paused\"\r\n                elif self.options_menu.selection == 1:\r\n                    self.game_state = \"controls\"\r\n                elif self.options_menu.selection == 2:\r\n                    self.game_state = \"audio\"\r\n                elif self.options_menu.selection == 3:\r\n                    self.set_fullscreen(not self.fullscreen)\r\n                    self.set_mouse_visible(not self.fullscreen)\r\n\r\n        elif self.game_state == \"controls\":\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"options\"\r\n\r\n        elif self.game_state == \"audio\":\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"options\"\r\n            if key == arcade.key.LEFT:\r\n                self.audio_menu.slider_list[self.audio_menu.selection].left = True\r\n            if key == arcade.key.RIGHT:\r\n                self.audio_menu.slider_list[self.audio_menu.selection].right = True\r\n            if key == arcade.key.UP:\r\n                self.audio_menu.slider_list[self.audio_menu.selection].left = False\r\n                self.audio_menu.slider_list[self.audio_menu.selection].right = False\r\n                self.audio_menu.decrement_selection()\r\n            if key == arcade.key.DOWN:\r\n                self.audio_menu.slider_list[self.audio_menu.selection].left = False\r\n                self.audio_menu.slider_list[self.audio_menu.selection].right = False\r\n                self.audio_menu.increment_selection()\r\n\r\n        if self.game_state == \"community_level_select\" or self.game_state == \"official_level_select\":\r\n            level_selector = {\"community_level_select\": self.community_selector_menu,\r\n                              \"official_level_select\": self.official_selector_menu}\r\n\r\n            if key == arcade.key.D or key == arcade.key.RIGHT:\r\n                level_selector[self.game_state].selection += 1\r\n            if key == arcade.key.A or key == arcade.key.LEFT:\r\n                level_selector[self.game_state].selection -= 1\r\n            if key == arcade.key.W or key == arcade.key.UP:\r\n                level_selector[self.game_state].selection -= 5\r\n            if key == arcade.key.S or key == arcade.key.DOWN:\r\n                level_selector[self.game_state].selection += 5\r\n            if key == arcade.key.R and self.game_state == \"community_level_select\":\r\n                util.update_community_metadata()\r\n                level_selector[self.game_state].update()\r\n            if key == arcade.key.F and self.game_state == \"community_level_select\":\r\n                try:\r\n                    util.opendir(util.ENVIRON_DATA_PATH + \"levels/community\")\r\n                except FileNotFoundError:\r\n                    util.opendir(util.VENV_DATA_PATH + \"levels/community\")\r\n            if key == arcade.key.ESCAPE:\r\n                self.game_state = \"menu\"\r\n            if key == arcade.key.ENTER:\r\n                self.current_level_path = level_selector[self.game_state].get_selection()\r\n                self.official_level_status = True if self.game_state == \"official_level_select\" else False\r\n                self.current_level = level.load_level(\r\n                    util.load_data(self.current_level_path, True, self.official_level_status),\r\n                    self.character,\r\n                    self.enemy)\r\n                if self.game_state == \"official_level_select\":\r\n                    self.official_level_index = level_selector[self.game_state].selection + 1\r\n                self.game_state = \"menu\"\r\n\r\n    def on_key_release(self, key, key_modifiers):\r\n        if key == arcade.key.W or key == arcade.key.UP:\r\n            self.character.up = False\r\n        if key == arcade.key.A or key == arcade.key.LEFT:\r\n            self.character.left = False\r\n        if key == arcade.key.S or key == arcade.key.DOWN:\r\n            self.character.down = False\r\n        if key == arcade.key.D or key == arcade.key.RIGHT:\r\n            self.character.right = False\r\n\r\n        if key == arcade.key.Q:\r\n            self.character.rotation_dir -= 1\r\n        if key == arcade.key.E:\r\n            self.character.rotation_dir += 1\r\n\r\n        if key == arcade.key.LEFT:\r\n            self.audio_menu.slider_list[self.audio_menu.selection].left = False\r\n        if key == arcade.key.RIGHT:\r\n            self.audio_menu.slider_list[self.audio_menu.selection].right = False\r\n\r\n    def on_resize(self, width: float, height: float):\r\n        min_ratio = min(width / util.WORLD_WIDTH, height / util.WORLD_HEIGHT)\r\n        window_width = width / min_ratio\r\n        window_height = height / min_ratio\r\n        width_difference = (window_width - util.WORLD_WIDTH) / 2\r\n        height_difference = (window_height - util.WORLD_HEIGHT) / 2\r\n        arcade.set_viewport(-width_difference, util.WORLD_WIDTH + width_difference, -height_difference, util.WORLD_HEIGHT +\r\n                            height_difference)\r\n\r\n    def on_close(self):\r\n        self.settings[\"volume\"][\"master\"] = self.master_volume\r\n        self.settings[\"volume\"][\"music\"] = self.music_volume\r\n        self.settings[\"volume\"][\"effects\"] = self.effects_volume\r\n        self.settings[\"current_level\"] = self.official_level_index\r\n        util.write_data(\"config.json\", self.settings)\r\n        arcade.close_window()\r\n\r\n    def reset_level(self):\r\n        self.enemy.state = \"asleep\"\r\n        self.unidle()\r\n\r\n        # Create New character model\r\n        self.character = entity.Character(walking_volume=self.effects_volume)\r\n        \r\n        self.current_level = level.load_level(util.load_data(\r\n            self.current_level_path, True, self.official_level_status), self.character, self.enemy)\r\n        self.game_state = \"game\"\r\n\r\n\r\ndef main():\r\n    window = GameObject()\r\n    window.setup()\r\n    arcade.run()\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/main.py b/illumigator/main.py
+--- a/illumigator/main.py	(revision 9fb11c0e94204540ceccb699f60d9bbede3e65c5)
++++ b/illumigator/main.py	(date 1690361745843)
+@@ -15,10 +15,8 @@
+         self.menu_sound = None
+         self.background_music = None
+         self.menu_music = None
+-        self.pause_music = None
+         self.menu_player = None
+         self.bgm_player = None
+-        self.pause_player = None
+ 
+         # ========================= Window =========================
+         arcade.set_background_color(arcade.color.BLACK)
+@@ -61,7 +59,6 @@
+         self.menu_sound = util.load_sound("retro_blip.wav")
+         self.background_music = util.load_sound("ocean-of-ice.wav", streaming=True)
+         self.menu_music = util.load_sound("Hina_Fallen_leaves.wav", streaming=True)
+-        self.pause_music = util.load_sound("Hina_Fallen_leaves.wav", streaming=True)
+ 
+         # ========================= Fonts =========================
+         arcade.text_pyglet.load_font(util.ENVIRON_ASSETS_PATH + "PressStart2P-Regular.ttf")
+@@ -124,44 +121,24 @@
+         # STATE MACHINE FOR UPDATING AUDIO PLAYER
+         scaled_music_volume = self.music_volume * self.master_volume
+ 
+-        if self.game_state == "menu":
+-            if self.pause_player is not None:
+-                self.pause_player.pause()
++        if self.game_state == "menu" or self.game_state == "paused" or self.game_state == "audio":
+             if self.bgm_player is not None:
+-                self.bgm_player.pause()
++                self.bgm_player = arcade.stop_sound(self.bgm_player)
+             if self.menu_player is None and scaled_music_volume > 0:
+                 self.menu_player = arcade.play_sound(self.menu_music, float(scaled_music_volume * 0.5), looping=True)
+-            else:
+-                if scaled_music_volume > 0:
+-                    self.menu_player.volume = float(scaled_music_volume) * 0.5
+-                    self.menu_player.play()
++            elif self.menu_player is not None and scaled_music_volume > 0:
++                self.menu_player.volume = float(scaled_music_volume * 0.5)
+ 
+-        elif self.game_state == "game":
+-            if self.pause_player is not None:
+-                self.pause_player.pause()
++        if self.game_state == "game":
+             if self.menu_player is not None:
+-                self.menu_player.pause()
++                self.menu_player = arcade.stop_sound(self.menu_player)
+             if self.bgm_player is None and scaled_music_volume > 0:
+                 self.bgm_player = arcade.play_sound(self.background_music, float(scaled_music_volume), looping=True)
+-            else:
+-                if scaled_music_volume > 0:
+-                    self.bgm_player.volume = float(scaled_music_volume)
+-                    self.bgm_player.play()
+-
+-        if self.game_state == "paused" or self.game_state == "audio":
+-            if self.bgm_player is not None:
+-                self.bgm_player.pause()
+-            if self.pause_player is None and scaled_music_volume > 0:
+-                self.pause_player = arcade.play_sound(self.pause_music, float(scaled_music_volume) * 0.5, looping=True)
+-            else:
+-                if scaled_music_volume > 0:
+-                    self.pause_player.volume = float(scaled_music_volume) * 0.5
+-                    self.pause_player.play()
+ 
+         if self.game_state == "game_over" or self.game_state == "final_win" or self.game_state == "win"\
+                 or self.game_state == "community_win":
+             if self.bgm_player is not None:
+-                self.bgm_player.pause()
++                self.bgm_player = arcade.stop_sound(self.bgm_player)
+ 
+     def on_draw(self):
+         self.clear()
+@@ -277,10 +254,6 @@
+                 elif self.game_menu.selection == 2:
+                     self.game_state = "options"
+                 elif self.game_menu.selection == 3:
+-                    if self.bgm_player is not None:
+-                        self.bgm_player.seek(0.0)
+-                    if self.pause_player is not None:
+-                        self.pause_player.seek(0.0)
+                     self.reset_level()
+                     self.game_state = "menu"
+ 
+@@ -302,16 +275,12 @@
+                         self.reset_level()
+                         self.game_state = "game"
+                     elif selection == 2:
+-                        if self.bgm_player is not None:
+-                            self.bgm_player.seek(0.0)
+                         self.game_state = "menu"
+                 elif self.game_state == "final_win":
+                     if selection == 0:
+                         self.reset_level()
+                         self.game_state = "game"
+                     elif selection == 1:
+-                        if self.bgm_player is not None:
+-                            self.bgm_player.seek(0.0)
+                         self.game_state = "menu"
+ 
+         elif self.game_state == "game_over" or self.game_state == "community_win":
+@@ -326,8 +295,6 @@
+                     self.reset_level()
+                     self.game_state = "game"
+                 elif menu[self.game_state].selection == 1:
+-                    if self.bgm_player is not None:
+-                        self.bgm_player.seek(0.0)
+                     self.reset_level()
+                     self.game_state = "menu"
+ 
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level_test.json\": {\"date_modified\": 1690180773.0669935, \"level_name\": \"Custom Test Level\", \"planet_name\": \"earth\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	(revision 9fb11c0e94204540ceccb699f60d9bbede3e65c5)
++++ b/illumigator/data/levels/community/levels.json	(date 1690361784836)
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level_test.json": {"date_modified": 1690180773.0669935, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
++{"levels": {"custom_level_test.json": {"date_modified": 1690175258.1521873, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
