@@ -1,0 +1,6 @@
+[console_scripts]
+add_nums = pythonator_123.amazing_function:main
+brainregbt = btpytools.brainreg_bt:main
+compressRawData = btpytools.compressRawData:main
+summariseAcqs = btpytools.summariseAcquisitions:main
+transferToServer = btpytools.transferToServer:main
