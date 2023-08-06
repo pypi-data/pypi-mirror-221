@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fftx
+Version: 0.1.1
+Summary: A Python front end to access the high performance capabilities of the FFTX Project
+Home-page: https://github.com/spiral-software/python-package-fftx
+Author: SpiralGen Inc.
+Author-email: Patrick.Broderick@spiralgen.com
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/spiral-software/python-package-fftx
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+This Python package provides NumPy/CuPy-compatible access to the high performance multi-platform code generation capabilities of the FFTX Project.  The package provides a single API for several FFTs, along with some convolution-like transforms, that run on either CPUs or GPUs (NVIDIA and AMD) and supports single and double precision and both C (row-major) and Fortran (column-major) arrays.  The API uses the dimensions, datatype, ordering, and location of an array to determine which variant of a transform to invoke, simplifying application code intended for multiple target environments.
+
