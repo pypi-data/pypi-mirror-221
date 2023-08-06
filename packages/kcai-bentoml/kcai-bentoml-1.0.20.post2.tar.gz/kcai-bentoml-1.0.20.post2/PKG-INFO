@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: kcai-bentoml
+Version: 1.0.20.post2
+Summary: BentoML: The Unified Model Serving Framework
+Author-email: BentoML Team <contact@bentoml.com>
+License: Apache-2.0
+Project-URL: Documentation, https://docs.bentoml.org/en/latest/
+Project-URL: Bug Reports, https://github.com/bentoml/BentoML/issues
+Project-URL: BentoML Community Slack, https://bit.ly/2N5IpbB
+Project-URL: BentoML Official Blog, https://modelserving.com
+Project-URL: BentoML Twitter, https://twitter.com/bentomlai
+Keywords: MLOps,AI,BentoML,Model Serving,Model Deployment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: aws
+Provides-Extra: io
+Provides-Extra: io-file
+Provides-Extra: io-json
+Provides-Extra: io-image
+Provides-Extra: io-pandas
+Provides-Extra: triton
+Provides-Extra: grpc
+Provides-Extra: grpc-reflection
+Provides-Extra: grpc-channelz
+Provides-Extra: tracing
+Provides-Extra: tracing-jaeger
+Provides-Extra: tracing-zipkin
+Provides-Extra: tracing-otlp
+Provides-Extra: monitor-otlp
+License-File: LICENSE
+
+test customize
