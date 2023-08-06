@@ -1,0 +1,9 @@
+quantops/__init__.py,sha256=Rtib0BqIS7ELVDRZ50nnx7WSgypInFOfZvp1IYq5tN0,42
+quantops/core.py,sha256=NeVJyMQoNkzGIX6ESSziJqBkpyPx8dsCghln2w0eAsQ,22009
+quantops/generate.py,sha256=uXr6joUrTeKkLVgLDpruvNKyT0iq2oDCQA7JDZ2faiU,154
+quantops/parser.py,sha256=_sA2ZFv686bovaIMGgWQjwjTUUA05-yNKKF1tpoxceo,9729
+quantops/registry.toml,sha256=wF_yJ3jReE6qPfa1Ie_RHrApeMwMb8CK1r9g9OvLUUY,8211
+quantops-0.3.0.dist-info/METADATA,sha256=9FNPMDTlxvE94M85Jda2OufPrD5ve_nkymzCGJHBo1s,298
+quantops-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+quantops-0.3.0.dist-info/top_level.txt,sha256=XYTTMwfddF2ismt6kX5WB2TVIX6vrlTQ9u_KPps4cig,9
+quantops-0.3.0.dist-info/RECORD,,
