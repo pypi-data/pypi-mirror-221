@@ -1,0 +1,12 @@
+connector.py,sha256=TDyRAvYRWCf2CdGbHoFrizT7KatXZM0N6-mGViVatVg,13702
+sync.py,sha256=FC7IMRCSM_nI_b7r4Y49plj1VUePl04H6-r9jQRKNIY,1877
+metrapy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metrapy/connector.py,sha256=PkSJo5GPJkmb79DVHlx8M3ofpYvUf4S3DYmtRdGQmRo,13885
+metrapy/defaults.py,sha256=9Ijl7MgaxL5TKQ9o9KDmkjpX8C7jhxZqjJtFmxqKNgA,205
+metrapy/maps.py,sha256=zC3vfMRsSmANX7kJWzz-Y_IhrH5RlZk-kgENJx_Mk3Y,2414
+metrapy/sync.py,sha256=FC7IMRCSM_nI_b7r4Y49plj1VUePl04H6-r9jQRKNIY,1877
+metrapy/utils.py,sha256=I_Y5oop220r0qIf6PrxjlBEjVyl6ARScADXEpLVPCNg,654
+metrapy-0.1.5.dist-info/METADATA,sha256=hWbYMAD0CfZMmdCLNtk1iQeXh_XPnzXgE68ETrSrxlg,2698
+metrapy-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metrapy-0.1.5.dist-info/top_level.txt,sha256=ingmASBeQbTeIao9uljpqgb6iX0tvWhDpJ2xxhOi8WQ,23
+metrapy-0.1.5.dist-info/RECORD,,
