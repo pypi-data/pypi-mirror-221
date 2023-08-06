@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: shz-geo
+Version: 0.0.1
+Summary: Personal support tools in the development of geospatial projects
+Author: Eliseu Brito
+Author-email: eliseubrito776@gmail.com
+License: MIT License
+Keywords: shz geo shz_geo shzgeo
+Description-Content-Type: text/markdown
+License-File: LICENSE
