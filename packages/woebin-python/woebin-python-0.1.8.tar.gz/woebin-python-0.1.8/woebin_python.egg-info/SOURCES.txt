@@ -1,0 +1,9 @@
+README.md
+setup.py
+target/release/woebin.dll
+woebin/__init__.py
+woebin/version.py
+woebin_python.egg-info/PKG-INFO
+woebin_python.egg-info/SOURCES.txt
+woebin_python.egg-info/dependency_links.txt
+woebin_python.egg-info/top_level.txt
