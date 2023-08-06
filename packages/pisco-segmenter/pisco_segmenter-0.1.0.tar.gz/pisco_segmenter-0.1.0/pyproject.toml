@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pisco-segmenter"
+version = "0.1.0"
+description = "image processing and segmentation for pisco plankton imaging system"
+authors = ["Veit Dausmann & Tim Kalsberger <vdausmann@geomar.de>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pisco_segmenter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0.74"
+torch = "^2.0.1"
+numpy = "^1.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
