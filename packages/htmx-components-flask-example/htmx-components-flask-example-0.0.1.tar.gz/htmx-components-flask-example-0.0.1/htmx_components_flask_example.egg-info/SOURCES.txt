@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+app.py
+form.py
+pyproject.toml
+.vscode/settings.json
+htmx_components_flask_example.egg-info/PKG-INFO
+htmx_components_flask_example.egg-info/SOURCES.txt
+htmx_components_flask_example.egg-info/dependency_links.txt
+htmx_components_flask_example.egg-info/requires.txt
+htmx_components_flask_example.egg-info/top_level.txt
+instance/northwind.db
+templates/base.html
+templates/form.html
+templates/index.html
+templates/viewgrid.html

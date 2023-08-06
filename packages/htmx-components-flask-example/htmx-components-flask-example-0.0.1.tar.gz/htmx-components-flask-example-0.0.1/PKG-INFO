@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: htmx-components-flask-example
+Version: 0.0.1
+Summary: An example Flask application using HTMX Components Flask
+Author: Neil McGuigan
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# htmx-components-flask-example
