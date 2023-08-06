@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: transnormerllm
+Version: 0.0.1.dev0
+Summary: transnormerllm
+Home-page: UNKNOWN
+Author: Shadow Walker
+License: UNKNOWN
+Keywords: transnormerllm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+UNKNOWN
+
