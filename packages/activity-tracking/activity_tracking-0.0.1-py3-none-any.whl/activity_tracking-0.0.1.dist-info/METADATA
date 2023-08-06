@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: activity-tracking
+Version: 0.0.1
+Summary: Utility functions for desktop activity tracking
+Home-page: https://github.com/elpachongco/activity-tracking-lib
+License: BSD-3-Clause 
+Keywords: desktop
+Author: elpachongco
+Author-email: earlsiachongco@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/elpachongco/activity-tracking-lib
+Description-Content-Type: text/markdown
+
+# activity tracking library
+
+This library contains utility functions for recording desktop activity on windows and linux
+
+I created this for my productivity tool [Activity Monitor](https://github.com/elpachongco/activity-monitor)
+
+## Features 
+- Cross platform [windows, linux(ubuntu, X window system)]
+
+## Functions 
+
+- Get foreground window name, process, pid
+- is user active
+
+
