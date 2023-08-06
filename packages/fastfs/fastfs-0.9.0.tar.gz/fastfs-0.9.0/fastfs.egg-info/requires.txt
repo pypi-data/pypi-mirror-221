@@ -1,0 +1,14 @@
+
+[PyYAML]
+PyYAML>=3.11
+
+[full]
+pandas>=0.20.0
+h5py>=2.5.0
+PyYAML>=3.11
+
+[h5py]
+h5py>=2.5.0
+
+[pandas]
+pandas>=0.20.0
