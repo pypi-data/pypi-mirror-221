@@ -1,0 +1,14 @@
+{
+    "services": {
+        "effect_pulse": {
+            "fields": {
+                "rgb_color": {
+                    "name": "RGB colour"
+                }
+            }
+        },
+        "set_state": {
+            "description": "Sets a colour/brightness and possibly turn the light on/off."
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u00dchendamine nurjus",
+            "unknown": "Ootamatu t\u00f5rge"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "air_quality": {
+                "name": "\u00d5hu kvaliteet"
+            },
+            "air_quality_category": {
+                "name": "\u00d5hukvaliteedi kategooria"
+            },
+            "day_pollution_level": {
+                "state": {
+                    "level1": "Tase 1",
+                    "level2": "Tase 2",
+                    "level3": "Tase 3",
+                    "level4": "Tase 4"
+                }
+            },
+            "extract_air_temperature": {
+                "name": "V\u00e4ljat\u00f5mbe\u00f5hu temperatuur"
+            },
+            "filter_change": {
+                "name": "Filtri vahetus"
+            },
+            "manual_level": {
+                "name": "K\u00e4sitsi tase",
+                "state": {
+                    "breeze": "Tuul",
+                    "holiday": "Puhkusere\u017eiim",
+                    "level1": "Tase 1",
+                    "level2": "Tase 2",
+                    "level3": "Tase 3",
+                    "level4": "Tase 4",
+                    "off": "V\u00e4ljas"
+                }
+            },
+            "night_pollution_level": {
+                "name": "\u00d6ine saastatuse tase",
+                "state": {
+                    "level1": "Tase 1",
+                    "level2": "Tase 2",
+                    "level3": "Tase 3",
+                    "level4": "Tase 4"
+                }
+            },
+            "outdoor_air_temperature": {
+                "name": "V\u00e4lis\u00f5hu temperatuur"
+            },
+            "start_day_time": {
+                "name": "Alusta p\u00e4evast aega"
+            },
+            "start_night_time": {
+                "name": "Alusta \u00f6ist aega"
+            },
+            "total_airflow_in": {
+                "name": "Kogu \u00f5huvool sisse"
+            },
+            "total_airflow_out": {
+                "name": "Kogu \u00f5huvool v\u00e4lja"
+            },
+            "ventilation_level": {
+                "name": "Ventilatsiooni tase",
+                "state": {
+                    "breeze": "Tuul",
+                    "holiday": "Puhkusere\u017eiim",
+                    "level1": "Tase 1",
+                    "level2": "Tase 2",
+                    "level3": "Tase 3",
+                    "level4": "Tase 4",
+                    "off": "V\u00e4ljas"
+                }
+            }
+        }
+    }
+}

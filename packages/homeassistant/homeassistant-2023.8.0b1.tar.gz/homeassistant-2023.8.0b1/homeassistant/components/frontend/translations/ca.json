@@ -1,0 +1,26 @@
+{
+    "selector": {
+        "mode": {
+            "options": {
+                "dark": "Fosc",
+                "light": "Clar"
+            }
+        }
+    },
+    "services": {
+        "reload_themes": {
+            "name": "Torna a carregar els temes"
+        },
+        "set_theme": {
+            "fields": {
+                "mode": {
+                    "name": "Mode"
+                },
+                "name": {
+                    "description": "Nom del tema.",
+                    "name": "Tema"
+                }
+            }
+        }
+    }
+}

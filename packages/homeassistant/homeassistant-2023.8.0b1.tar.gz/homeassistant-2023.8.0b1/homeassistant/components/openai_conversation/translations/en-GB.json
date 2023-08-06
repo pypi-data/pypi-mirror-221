@@ -1,0 +1,7 @@
+{
+    "services": {
+        "generate_image": {
+            "name": "Generate image"
+        }
+    }
+}

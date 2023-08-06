@@ -1,0 +1,12 @@
+{
+    "selector": {
+        "level": {
+            "options": {
+                "critical": "Critico",
+                "debug": "Debug",
+                "error": "Errore",
+                "fatal": "Fatale"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Il dispositivo \u00e8 gi\u00e0 configurato",
+            "cannot_connect": "Impossibile connettersi al cloud Eight Sleep: {error}"
+        },
+        "error": {
+            "cannot_connect": "Impossibile connettersi al cloud Eight Sleep: {error}"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Password",
+                    "username": "Nome utente"
+                }
+            }
+        }
+    },
+    "services": {
+        "heat_set": {
+            "fields": {
+                "duration": {
+                    "description": "Durata del riscaldamento/raffreddamento al livello desiderato in secondi."
+                },
+                "target": {
+                    "description": "Livello di raffreddamento/riscaldamento desiderato da -100 a 100.",
+                    "name": "Obiettivo"
+                }
+            }
+        }
+    }
+}

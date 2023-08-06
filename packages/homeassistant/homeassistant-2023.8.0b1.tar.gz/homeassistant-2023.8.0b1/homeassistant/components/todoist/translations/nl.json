@@ -1,0 +1,13 @@
+{
+    "services": {
+        "new_task": {
+            "fields": {
+                "content": {
+                    "description": "Naam van de taak.",
+                    "name": "Inhoud"
+                }
+            },
+            "name": "Nieuwe taak"
+        }
+    }
+}
