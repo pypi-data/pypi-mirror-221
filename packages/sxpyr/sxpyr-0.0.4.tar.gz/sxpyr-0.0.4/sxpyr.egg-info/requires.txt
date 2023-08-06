@@ -1,0 +1,11 @@
+
+[cli]
+clifn
+
+[fuzz]
+python-afl
+clifn
+
+[test]
+pytest
+clifn
