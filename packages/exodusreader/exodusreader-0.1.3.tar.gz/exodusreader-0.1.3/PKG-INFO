@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: exodusreader
+Version: 0.1.3
+Summary: Reader for exodus files
+Home-page: https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader
+License: BSD license
+Keywords: exodusReader
+Author: Jan-Timo Hesse
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: netCDF4
+Requires-Dist: numpy
+Requires-Dist: tomlkit
+Project-URL: Repository, https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2022 German Aerospace Center (DLR)
+
+SPDX-License-Identifier: MIT
+-->
+# exodusReader
+
+
+[![pipeline status](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/badges/main/pipeline.svg)](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/-/commits/main)
+[![coverage report](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/badges/main/coverage.svg)](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/-/commits/main)
+[![License](https://img.shields.io/badge/License-BSD-blue.svg)](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/-/blob/main/LICENSE)
+
+
+Reader for exodus files
+
+## Todos to setup project
+- in gitlab activate CI/CD (settings→general→visibility→CI/CD)
+- create token for pypi (todo: more text)
+- adapt coverage percentage
+
+## Features
+
+
+* Free software: BSD license
+
+
+* [Documentation](https://fa_sw.pages.gitlab.dlr.de/peridynamik/exodusreader)
+
+- TODO: describe features
+
+
+## Installation
+
+### Installation from source
+Get exodusreader source from
+
+> https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader.git
+
+and add the /src folder to pythonpath in the environment variables
+
+### Installation as python package
+Install it from [the gitlab packacke registry](https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader/-/packages)
+
+You can download the latest artifact (*.whl) and install it using
+
+
+> cd exodusreader
+> python setup.py install exodusreader<version>.whl
+
+
+### Test the installation
+In python execute:
+
+> import exodusreader
+
+### Developers
+
+Developers may also install the pre-commit hook.
+
+**Precommit**
+1. install the pre-commit
+   > pip install pre-commit
+   or
+   > conda isntall pre-commit
+2. In the exodusreader folder
+   > pre-commit install
+
+This enables the pre-commit hooks defined in _.pre-commit-config.yaml_
+and eases your commits and successful pipline runs.
+
+## Usage
+
+## Contributing to _exodusreader_
+
+We welcome your contribution!
+
+If you want to provide a code change, please:
+
+* Create a fork of the GitLab project.
+* Develop the feature/patch
+* Provide a merge request.
+
+> If it is the first time that you contribute, please add yourself to the list
+> of contributors below.
+
+
+## Citing
+
+No citing required
+
+## License
+
+
+
+* Free software: BSD license
+* Documentation: https://exodusreader.readthedocs.io.
+
+
+
+
+
+## Change Log
+
+see [changelog](changelog.md)
+
+## CI Pipeline and Jobs for Developers
+
+If you encounter any failed job on the pipeline you can run them locally for more information.
+(prerequisite: have _make_ and _poetry_ installed [e.g. conda install make poetry])
+
+See all availabe make targets used for the ci-jobs
+
+> make list
+
+Find the target with matching names and execute them locally e.g.:
+> make test
+
+If **check-formatting** fails, run the following to fix issues.
+> make formatting
+
+If **check-license-metadata** fails, run
+> make check-license-metadata
+
+identify the corresponding filename and run the following (include the filename in $filename)
+> poetry run reuse addheader --copyright="German Aerospace Center (DLR)" --license="MIT" $filename
+
+## Authors
+
+[Jan-Timo Hesse](mailto:Jan-Timo.Hesse@dlr.de)
+

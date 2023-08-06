@@ -1,0 +1,6 @@
+
+exodusreader
+============
+
+.. automodule:: exodusreader
+   :members:

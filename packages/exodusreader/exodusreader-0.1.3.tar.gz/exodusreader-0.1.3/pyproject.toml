@@ -1,0 +1,76 @@
+# SPDX-FileCopyrightText: 2022 German Aerospace Center (DLR)
+#
+# SPDX-License-Identifier: MIT
+
+[tool.poetry]
+name = "exodusreader"
+version = "0.1.3"
+description = "Reader for exodus files"
+license = "BSD license"
+authors = ["Jan-Timo Hesse"]
+readme = "README.md"
+packages = [
+    {include = "exodusreader", from = "src"},
+]
+include = ["README.md", "changelog.md", "LICENSE", "doc", "*.rst", "conf.py", "Makefile"]
+repository = "https://gitlab.dlr.de/fa_sw/peridynamik/exodusreader"
+keywords = ["exodusReader"]
+
+[tool.poetry.scripts]
+#sample-calculator = "sample_calculator.main:cmd_main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "*"
+netCDF4 = "*"
+tomlkit = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+flake8 = "*"
+black = "*"
+isort = "*"
+bandit = "*"
+Sphinx = "*"
+sphinx_rtd_theme = "*"
+sphinxcontrib-bibtex = "*"
+sphinxcontrib-blockdiag = "*"
+pre-commit = "*"
+importlib-metadata = "*"
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.html]
+directory = "build/htmlcov"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | doc
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.isort]
+line_length = 120
+skip = "doc"
+profile = 'black'
