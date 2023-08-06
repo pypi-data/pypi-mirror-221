@@ -1,0 +1,6 @@
+spacy_ngram/__init__.py,sha256=_3j-8LZo4hYnLBx6elCA7B61_uGCTSDXdq6TtpS7l30,44
+spacy_ngram/ngram_component.py,sha256=1v9D68CCd4NpoWLbo1YASsdn5pgBt0wMirvyq-KU61s,3863
+spacy_ngram-0.0.3.dist-info/LICENSE,sha256=cafYRnsxuQpv8E1I456byTi2DKgVb8jv3bRHh7r3524,1126
+spacy_ngram-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+spacy_ngram-0.0.3.dist-info/METADATA,sha256=TgZvuqHXXg9s1PlI6L57bjm5gVCL9h08OLUmA0hQfu8,6267
+spacy_ngram-0.0.3.dist-info/RECORD,,
