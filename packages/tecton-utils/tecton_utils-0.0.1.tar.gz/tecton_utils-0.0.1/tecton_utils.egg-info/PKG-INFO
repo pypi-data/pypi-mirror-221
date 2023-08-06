@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tecton-utils
+Version: 0.0.1
+Summary: [private preview] Utils for Tecton
+Home-page: https://tecton.ai
+Author: Tecton
+License: Apache License 2.0
+Requires-Python: >=3.7
