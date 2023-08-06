@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: sn-test
+Version: 1.0.5
+Summary: shuainan test
+Home-page: https://github.com/me/myproject
+Author: shuainan
+Author-email: 15294627382@163.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+#### GET https://dma-api.defi.wiki/redoc
+
+请求参数:
+
+| 参数名称 | 是否必须 | 类型   | 描述                            | 默认值 | 取值范围                                                     |
+| -------- | -------- | ------ | ------------------------------- | ------ | ------------------------------------------------------------ |
+| symbol   | true     | string | 交易对                          |        | btcbitcny, bchbtc, eoseth ...                                |
+| types    | false    | string | 查询的订单类型组合，使用','分割 | 全部   | buy-market：市价买, sell-market：市价卖, buy-limit：限价买, sell-limit：限价卖 |
+| states   | true     | string | 查询的订单状态组合，使用','分割 |        | new ：新订单, part_filled ：部分成交                         |
+| from     | false    | string | 查询起始 ID （订单ID）          |        | 配合direct 使用                                              |
+| direct   | false    | string | 查询方向                        | next   | prev 向前，next 向后                                         |
+| size     | false    | string | 查询记录大小                    | 50     | 最多一次查询50条数据                                         |
+| time     | true     | string | 当前时间戳                      |        |                                                              |
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+GET https://dma-api.defi.wiki/redoc
+```
+
+响应数据:
+
+| 参数名称    | 是否必须 | 数据类型 | 描述           | 取值范围                                                     |
+| ----------- | -------- | -------- | -------------- | ------------------------------------------------------------ |
+| id          | true     | string   | 订单id         |                                                              |
+| user_id     | true     | long     | 账户 ID        |                                                              |
+| volume      | true     | string   | 订单数量       |                                                              |
+| deal_volume | false    | string   | 成交数量       |                                                              |
+| deal_money  | true     | string   | 已成交金额     |                                                              |
+| fee         | true     | string   | 手续费         |                                                              |
+| price       | true     | string   | 限价单挂单价格 |                                                              |
+| status      | false    | string   | 订单状态       | 0 或 1 ：新订单, 3 ：部分成交                                |
+| type        | true     | string   | 订单类型       | buy-market：市价买, sell-market：市价卖, buy-limit：限价买, sell-limit：限价卖 |
+| source      | true     | string   | 订单来源       | api                                                          |
+| symbol      | true     | string   | 交易对         | btcbitcny, eoseth, ethbtc ...                                |
+| ctime       | true     | string   | 订单创建时间   | 时间倒序                                                     |
+| mtime       | true     | string   | 最后成交时间   |                                                              |
+
+响应例子:
+
+```
+{
+    "code": "0",
+    "msg": "suc",
+    "data": [
+          {
+            "symbol": "ethbtc",
+            "fee": "0.00100000",
+            "avg_price": "0.07231094",
+            "source": 1,
+            "type": "buy-limit",
+            "mtime": 1524823324000,
+            "volume": "1.000",
+            "user_id": 10278,
+            "price": "0.07231094",
+            "ctime": 1524823301000,
+            "deal_volume": "1.00000000",
+            "id": 5228948,
+            "deal_money": "0.07231094",
+            "status": 2
+        },
+        ...
+    ]
+}
+```
