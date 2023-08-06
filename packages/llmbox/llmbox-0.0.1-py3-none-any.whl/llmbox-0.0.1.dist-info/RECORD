@@ -1,0 +1,9 @@
+llmbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmbox/llms/__init__.py,sha256=vtdnvj5m-4g1KT-Lb2ZneovRuIJ_GPWcQWfY_MRcTeA,40
+llmbox/llms/base.py,sha256=ei9tCPU2VOmP7FylMLdNENJ_5kBM2lI0bRR7t5GyDe0,249
+llmbox/llms/claude2.py,sha256=BFmhl5oJiqQpQtQgJfBM4ozKBLIQx3v1PrGPGpNc3J0,571
+llmbox-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llmbox-0.0.1.dist-info/METADATA,sha256=RdyV227ydzZmtXU37v3Sa-5ALSjDH-uWu7tNWE_By9k,2841
+llmbox-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+llmbox-0.0.1.dist-info/top_level.txt,sha256=pAq9W29DfCXw-gJMlDJb-Hfvqd0FK7tAjMzwjxHjLXU,7
+llmbox-0.0.1.dist-info/RECORD,,
