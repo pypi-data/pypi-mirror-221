@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "argvsucks"
+version = "0.230725.6"
+description = ""
+authors = ["davips <dpsabc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "argvsucks", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+black = "^23.3.0"
+pdoc3 = "^0.10.0"
+autoreadme = "^0.2302.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
