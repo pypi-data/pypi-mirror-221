@@ -1,0 +1,58 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gitease"
+version = "0.0.10"
+description = "A tool to simplfy git operations"
+readme = "README.md"
+packages = [{ include = "gitease" }]
+authors = ["Yonatan Alexander <yonatan@xethub.com>"]
+keywords = [
+    "ai",
+    "llm",
+    "openai",
+    "developer-tools",
+    "git",
+    "nlp",
+]
+license = "BSD-3-Clause"
+maintainers = ["XetHub <contact@xethub.com>"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Filesystems",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+openai = "^0.27.8"
+typer = "^0.9.0"
+rich = "^13.4.2"
+langchain = "^0.0.242"
+gitpython = "^3.1.32"
+tiktoken = "^0.4.0"
+pyperclip = "^1.8.2"
+
+[project.urls]
+Homepage = "https://xethub.com/xdssio/gitease"
+
+
+[tool.poetry.scripts]
+ge = "gitease.cli:cli"
