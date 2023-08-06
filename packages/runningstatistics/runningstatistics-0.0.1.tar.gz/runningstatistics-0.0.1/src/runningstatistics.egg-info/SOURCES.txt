@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/runningstatistics/__init__.py
+src/runningstatistics/statstracker.py
+src/runningstatistics.egg-info/PKG-INFO
+src/runningstatistics.egg-info/SOURCES.txt
+src/runningstatistics.egg-info/dependency_links.txt
+src/runningstatistics.egg-info/top_level.txt
