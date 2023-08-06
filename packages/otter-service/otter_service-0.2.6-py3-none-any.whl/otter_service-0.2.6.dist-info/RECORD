@@ -1,0 +1,14 @@
+otter_service/__init__.py,sha256=Oz5HbwHMyE87nmwV80AZzpkJPf-wBg7eDuJr_BXZkhU,22
+otter_service/access_sops_keys.py,sha256=2f3vszsF6LojCmt3AmInyZvIoGrWnjNlu9mVOXmWvcY,2149
+otter_service/firestore-test.py,sha256=DsWFm0uus4oit_Tufu1S1A_YRjR3aaAC6EMFmf7VPUs,1025
+otter_service/grade_assignment.py,sha256=IUploTYSS_9rIsdq5EFOB8usNOWaV8zsvIjJ0pFhl70,5332
+otter_service/otter_nb.py,sha256=VevMY3XWJC16Wy7AS6UGdY2bNJux7X5t4mFZRQVssoY,19654
+otter_service/util.py,sha256=9doC4pGrc5gMzQTBgU5yt0whVgw3Oznxop17zBRxp_8,516
+otter_service/secrets/gh_key.yaml,sha256=HHFLKyPMuMM91bc4E91-QtbxIbZzN11rHVYibzMwoVo,1043
+otter_service/secrets/gke_key.yaml,sha256=NZmD3cnf9bnySIil2FPmT_ft77i7jYjh7arYD8miUGY,1229
+otter_service-0.2.6.dist-info/LICENSE,sha256=3cDbVFAJ1vsGCAq_0KwvqIVDs8vpJvEDQQ0fEmCv4NU,1498
+otter_service-0.2.6.dist-info/METADATA,sha256=gifFRuS0LxyhPCaiU-xO1km_eeS_oqO-W7uK1YWHiJI,9235
+otter_service-0.2.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+otter_service-0.2.6.dist-info/entry_points.txt,sha256=lGAEDcGgnwOw2Lg3yNtIqFej3fibwAp3TkK5_xecjf8,62
+otter_service-0.2.6.dist-info/top_level.txt,sha256=NLF0b5aawvYSHmPH0ijF2HgSHVIy2DSBjOhrikclNJI,14
+otter_service-0.2.6.dist-info/RECORD,,
