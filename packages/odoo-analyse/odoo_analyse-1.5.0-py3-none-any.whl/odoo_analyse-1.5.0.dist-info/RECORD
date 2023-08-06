@@ -1,0 +1,16 @@
+odoo_analyse/__init__.py,sha256=NF9sKgXuan2cylg275r2hX05_Xf3xTCuf3jcIf5jaQw,469
+odoo_analyse/__main__.py,sha256=0mvS4gZWJAlvfKe9onG8gW2Gz4XmVxlN3gdnW2DXKY0,9770
+odoo_analyse/field.py,sha256=x9_P6aRQARafsIudAxONkX2ZxhYbiFsM1RYQh3NesEc,562
+odoo_analyse/function.py,sha256=TM0dyo-gXae4bPouSqN-57rihYZBvv7toBWeekkvEAI,1015
+odoo_analyse/js_module.py,sha256=rryHc0bXi1vU67Xi0t9mThh-CAqe897OeJjY1mLVszU,4838
+odoo_analyse/model.py,sha256=7RLk68TsbIgX9rimQUxRjZCQHZykKNsymDcgov9WMvg,5216
+odoo_analyse/module.py,sha256=tAg0_SybXlLebw-CBZSD81P3PlEiIBtKP62UpYJ4bIc,16689
+odoo_analyse/odoo.py,sha256=gIYVnvWNty1UjNFRj-Q1Zq-DJoX3P5nIEh4SWXYRtOY,20525
+odoo_analyse/record.py,sha256=t96rSQwA0pYtxl-8me8YtHUh4Yhb4gEjk-mV1hLs7bM,4447
+odoo_analyse/utils.py,sha256=Ocj9_Xd9VuqOAbg7vGhiAwafCOkvgOJmZdQdO-LPSpg,4847
+odoo_analyse-1.5.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+odoo_analyse-1.5.0.dist-info/METADATA,sha256=JZdFzIar6O1urOSvedtVxHoJlxi7fRFwocq6Oyp1eMA,4645
+odoo_analyse-1.5.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+odoo_analyse-1.5.0.dist-info/entry_points.txt,sha256=QMtODzbgHi_VkpPeK0D5mtkl-hKP1gNQscNZvbLkL54,60
+odoo_analyse-1.5.0.dist-info/top_level.txt,sha256=nL37jfHbvTAEHLOfXYTnjC_Fa36VIT-AMW0qUQwanQg,13
+odoo_analyse-1.5.0.dist-info/RECORD,,
