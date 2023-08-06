@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: durkinza.cdk-networkfirewall-l2
+Version: 0.0.1
+Summary: Experimental L2 constructs for the aws-networkfirewall
+Home-page: https://github.com/durkinza/cdk-networkfirewall-l2#readme
+Author: durkinza<8985088+durkinza@users.noreply.github.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/durkinza/cdk-networkfirewall-l2.git
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib (<3.0.0,>=2.79.0)
+Requires-Dist: constructs (<11.0.0,>=10.0.5)
+Requires-Dist: jsii (<2.0.0,>=1.85.0)
+Requires-Dist: publication (>=0.0.3)
+Requires-Dist: typeguard (~=2.13.3)
+
+<div align="center">
+    <h1> AWS CDK Network Firewall L2 </h1>
+This repo holds some experimental L2 constructs for the
+
+[AWS-CDK](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_networkfirewall-readme.html)
+<br/>
+<br/>
+
+</div>---
