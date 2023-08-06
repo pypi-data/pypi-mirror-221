@@ -1,0 +1,86 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wikidata-dl"
+description = "Download data from Wikidata based on input SPARQL query."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "Ramiro Gómez", email = "code@ramiro.org" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "httpx",
+  "python-dateutil",
+  "wptools",
+]
+dynamic = ["version"]
+keywords = [
+  "cli",
+  "command line",
+  "dl",
+  "download",
+  "sparql",
+  "wikidata",
+]
+
+[project.scripts]
+wikidata-dl = "wikidata_dl.cli:main"
+
+[project.urls]
+Documentation = "https://github.com/yaph/wikidata-dl#readme"
+Issues = "https://github.com/yaph/wikidata-dl/issues"
+Source = "https://github.com/yaph/wikidata-dl"
+
+[tool.hatch.version]
+path = "wikidata_dl/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "flake8",
+  "ipdb",
+  "mypy",
+  "pytest",
+  "pytest-cov",
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ["39", "310", "311"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "wikidata_dl/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "wikidata_dl",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/.github",
+]
