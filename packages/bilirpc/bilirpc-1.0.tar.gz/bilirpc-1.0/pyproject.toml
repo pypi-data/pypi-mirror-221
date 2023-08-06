@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bilirpc"
+version = "1.0"
+description = "B站grpc请求2"
+authors = ["Polyisoprene <lzxder@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+grpcio = "^1.56.2"
+grpcio-tools = "^1.56.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
