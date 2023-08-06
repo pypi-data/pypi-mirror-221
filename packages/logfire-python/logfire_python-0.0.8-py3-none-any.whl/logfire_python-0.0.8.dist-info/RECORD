@@ -1,0 +1,13 @@
+logfire/__init__.py,sha256=I0o3b2qFv0XHwCGvf4B8WhVplJDKb7KfWWb5BpCzHE4,251
+logfire/compat.py,sha256=KbZmcmDpj_vbMotp16pADPwJ1FkEHGDNjKbOfCy-c10,141
+logfire/flusher.py,sha256=qWgYbbeGA4QOcJgjztALvn3lTYC_6odE7U-M6q1n908,2998
+logfire/formatter.py,sha256=RIkxB4HVId8I81mb_s9ZD6M9-oPjh0Jy5czd-43bbXQ,968
+logfire/frame.py,sha256=DtLjz1EW1ghR1WqzXpJMu67VbeVqh0UBzJhi7Uq5RkA,2759
+logfire/handler.py,sha256=7pwDQG97I4nyHoQ669_6-rGJUy06fx1AdgbgckrvvMg,2612
+logfire/helpers.py,sha256=047EY0duyOXQJDysGmoO5LXJJOIf-n30372OH3QnCmA,1156
+logfire/uploader.py,sha256=ksRqn2QDUNJMVgVx8Q6A_HKXixYs0vL3dthc6WpMEM4,588
+logfire_python-0.0.8.dist-info/LICENSE.md,sha256=Pe8-bNVOCi-nPydLCQprjB5B6sBfZKRPMtGnqRKJV4w,735
+logfire_python-0.0.8.dist-info/METADATA,sha256=3Gg4EJoYC3bHhvtsWeU0z7udYeV5a_-Jit7DBKlb-p4,4050
+logfire_python-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logfire_python-0.0.8.dist-info/top_level.txt,sha256=2-HdiKgjTrLMcz4RGZUgzl5uLLLCNd8DdPhEceKGpdY,8
+logfire_python-0.0.8.dist-info/RECORD,,
