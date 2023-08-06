@@ -1,0 +1,11 @@
+world-5.1.1.dist-info/METADATA,sha256=9lQ1lh9PdeFhU9Yfdu2Lwagt-VNQsUYxd1WEWF8KKaY,2772
+world-5.1.1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+world-5.1.1.dist-info/entry_points.txt,sha256=X9hdjb_l58hCRAydACyVqB8Cb2zclmXX20yGgf_myc0,47
+world-5.1.1.dist-info/licenses/LICENSE,sha256=8EmLIZQmG7xN6Y-ph2oTUKuC7eyVBNMTJTpSmmR-KLA,556
+world/__init__.py,sha256=Xb6u6nja8Dwk5gmGAeZfgkqiw5O2DeF2z8a17mdjJAE,22
+world/__main__.py,sha256=ndfQWpJ4ReI52mI_JRPrmCqry8szjDOlUF9Rwrb2QfA,3064
+world/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+world/data/codes.pck,sha256=1MP3tRgvBSK5R2ueg48wYOliw24-96A8ocJt_CQ8Mww,12505
+world/database.py,sha256=UQv7Ay_kY3yUYh8bKKd7NXsk5EYRGAcCLhMqoKD_yvs,4741
+world/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+world-5.1.1.dist-info/RECORD,,
