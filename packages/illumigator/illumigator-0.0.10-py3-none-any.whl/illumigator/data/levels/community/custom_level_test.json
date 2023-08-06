@@ -1,0 +1,23 @@
+{
+  "level_name": "Custom Test Level",
+  "planet": "earth",
+  "level_data": {
+    "mirror_coordinate_list": [],
+    "wall_coordinate_list": [
+      [340, 540, 1, 5, 0],
+      [400, 540, 2, 1, 0],
+      [460, 540, 1, 5, 0],
+      [580, 540, 1, 5, 0]
+    ],
+    "light_receiver_coordinate_list": [
+      [140, 200, 0]
+    ],
+    "light_source_coordinate_list": [
+      [140, 60, 1.57079632679]
+    ],
+    "animated_wall_coordinate_list": [],
+    "lens_coordinate_list": [],
+    "character_coordinates": [140, 120, 0],
+    "enemy_coordinates": [-10, -10, 0]
+  }
+}
