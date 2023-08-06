@@ -1,0 +1,3 @@
+[console_scripts]
+poc-my-ci=poc_my_ci.main:main
+
