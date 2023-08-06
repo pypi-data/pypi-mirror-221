@@ -1,0 +1,9 @@
+CACHE_SIZE = 256
+
+NAMED_REGEX = r':[\w|\d]*'
+
+MYSQL, POSTGRESQL, UNKNOW = 'MySQL', 'PostgreSQL', 'Unknow'
+
+PYMYSQL, MYSQL_CONNECTOR, PSYCOPG2 = 'pymysql', 'mysql.connector', 'psycopg2'
+
+DRIVERS = {PYMYSQL: MYSQL, MYSQL_CONNECTOR: MYSQL, PSYCOPG2: POSTGRESQL}
