@@ -1,0 +1,36 @@
+# Simple Music Tools (SMT)
+
+Simple Music Tools (SMT) is a collection of simple tools for music analysis, built with Python.
+
+## Installation
+
+Clone this repository to your local machine and install with pip:
+
+```bash
+git clone https://github.com/yyygggg2/smt.git
+cd smt
+pip install smt
+
+```
+
+## Usage
+
+Here is an example of how to use SMT:
+
+```python
+from smt import intervals
+
+# Calculate the top note from a given note and interval
+result = intervals.get_top_note('c', 'major third')
+
+print(result)  # Prints: 'e'
+
+```
+
+## Contributing
+
+We appreciate and welcome any contributions! Please fork the repository and create a Pull Request with your changes.
+
+## License
+
+This project is licensed under the terms of the Apache 2.0 license.

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+simple_music_tools.egg-info/PKG-INFO
+simple_music_tools.egg-info/SOURCES.txt
+simple_music_tools.egg-info/dependency_links.txt
+simple_music_tools.egg-info/top_level.txt
