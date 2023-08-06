@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: s1280247-learn2
+Version: 2023.7.27
+Summary: This ssoftware is being developd in the Python Class, University of Aizu.
+Home-page: https://github.com/s1280247/s1280247_learn.git
+Author: Tsubasa Yamauchi
+Author-email: s1280247@u-aizu.ac.jp
+License: GPLv3
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: plotly
+Provides-Extra: all
+Requires-Dist: cupy ; extra == 'all'
+Requires-Dist: pycuda ; extra == 'all'
+Requires-Dist: pyspark ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Requires-Dist: build ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: gpu
+Requires-Dist: cupy ; extra == 'gpu'
+Requires-Dist: pycuda ; extra == 'gpu'
+Provides-Extra: spark
+Requires-Dist: pyspark ; extra == 'spark'
+
+# s1280247_learn
+ This is ex14 in the Python class.
+ 
+# DEMO
+ 
+ 
+# Features
+ 
+ 
+# Requirement
+ 
+ 
+# Installation
+ 
+ 
+# Note
+
+ 
+# Author
+ 
+* Tsubasa Yamauchi
+* s1280247@u-aizu.ac.jp
+ 
+# License
