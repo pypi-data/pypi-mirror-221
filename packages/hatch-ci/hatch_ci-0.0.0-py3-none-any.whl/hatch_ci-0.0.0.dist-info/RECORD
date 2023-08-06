@@ -1,0 +1,13 @@
+hatch_ci/__about__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+hatch_ci/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+hatch_ci/__main__.py,sha256=SZc4LWMlZGrVrIJvfVBp92mOaDaJ9J4Y84h94EcM-9s,2049
+hatch_ci/build_hook.py,sha256=g-9eb8yJJmOnAB2FTh8gAu4o79E_PedOdbt8Is6UAZc,825
+hatch_ci/common.py,sha256=AhA6fWrPjmtLYxZ2hs6MZ5wNIy4qyjXM9FUQ4IGXccY,19
+hatch_ci/hooks.py,sha256=QsSE4BRArWAFs0pNE_tDsnGAhMYZpmasoDeed6mw3iM,165
+hatch_ci/metadata_hook.py,sha256=m5H66juWfJTHcIBGLbB9uD5PQWBUitesWL38IhxkcDw,1555
+hatch_ci/version_hook.py,sha256=4Fcr-v2OkQyaCWpzK2X6Zcshbnagi0a2B5UYQJCaRdU,3481
+hatch_ci-0.0.0.dist-info/METADATA,sha256=gK2uH06iLSkKHZjS1d7D-kr8jHHS8gtoYp3Jj3N6Re0,7919
+hatch_ci-0.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_ci-0.0.0.dist-info/entry_points.txt,sha256=YiyG5yO8Z3qV8ThDQscy4WGeEHwOy_6v9Rv2XXC4oWQ,81
+hatch_ci-0.0.0.dist-info/licenses/LICENSE.txt,sha256=OrV4luhxnNIGMMf7y-UEZ1meoayeUqURk56wLJOr2HQ,1106
+hatch_ci-0.0.0.dist-info/RECORD,,
