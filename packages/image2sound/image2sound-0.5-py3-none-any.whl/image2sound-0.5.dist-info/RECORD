@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/dimension_calc.py,sha256=3becWrvVXMcjr37Z1LZH4kMJG5Q9hfQcJkq9idROcRQ,300
+src/main.py,sha256=AaZ9nNboQI2op03Dm4zc05bKFjQrfmuDhso46OmQUi8,1222
+src/sound_image.py,sha256=4cEmUJmb57nvdlsfeXZ4elSDdJlgcrrnmC2G5HlA7X4,4189
+src/tone_array.py,sha256=t_VYmE342qa0zEeNFFNk8czlQP31JIrp3-ZHDwQHA0I,6250
+image2sound-0.5.dist-info/METADATA,sha256=CtasYiN_sJP_0BZic0QW8itn4FDQ-NcIzmFQkss8uJA,2136
+image2sound-0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+image2sound-0.5.dist-info/licenses/LICENSE,sha256=2KbMMavBa2dIx6IfIWEfWh7DP2fSLKI9faHBm5VJa-4,34020
+image2sound-0.5.dist-info/RECORD,,
