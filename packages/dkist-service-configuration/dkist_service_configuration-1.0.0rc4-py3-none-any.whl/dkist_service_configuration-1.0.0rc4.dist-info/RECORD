@@ -1,0 +1,11 @@
+dkist_service_configuration/__init__.py,sha256=YMy6fT64cC8-duaTN1DksKBmeBEV8-zcB8Oogm7fliQ,200
+dkist_service_configuration/logging.py,sha256=d8XfytdRPq_OIJ8n5PQDm8ZsjDbnd5O3xB8YfFmbx8k,1688
+dkist_service_configuration/settings.py,sha256=KieDoO8sjHJLxQ2wbYanN90G7vGbz9ODH-4t5t8rWvg,1916
+dkist_service_configuration/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkist_service_configuration/tests/test_logging.py,sha256=ijowbQsHfh8781ZalslxfbYph_PRumIE10D1rDjsr0U,239
+dkist_service_configuration/tests/test_settings.py,sha256=BphPAmSydJrAHebt_nMVJqDJDZ4lpP7SnSj9GigyVDk,1333
+dkist_service_configuration-1.0.0rc4.dist-info/LICENSE,sha256=_ozkdNXQyan7N48u3YKadigAFoygGu6z6tWRvvCJoVk,1063
+dkist_service_configuration-1.0.0rc4.dist-info/METADATA,sha256=mR_jMqOiTd-xQVH-Ay5U7S_slxPdn-08ONig9v5k7Yw,1234
+dkist_service_configuration-1.0.0rc4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dkist_service_configuration-1.0.0rc4.dist-info/top_level.txt,sha256=xosmCHAZnlPgSbFZ3_iySoR5NGldSnQZrhwjyzQU8AY,28
+dkist_service_configuration-1.0.0rc4.dist-info/RECORD,,
