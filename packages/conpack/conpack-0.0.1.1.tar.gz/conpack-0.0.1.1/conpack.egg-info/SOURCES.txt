@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+conpack.egg-info/PKG-INFO
+conpack.egg-info/SOURCES.txt
+conpack.egg-info/dependency_links.txt
+conpack.egg-info/top_level.txt
