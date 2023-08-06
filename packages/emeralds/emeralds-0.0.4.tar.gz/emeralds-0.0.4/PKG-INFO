@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: emeralds
+Version: 0.0.4
+Summary: A testing package for learning PyPi.
+Home-page: https://github.com/jasondrawdy/emeralds
+Author: Jason Drawdy
+Author-email: <40871836+jasondrawdy@users.noreply.github.com>
+Project-URL: Documentation, https://emeralds.readthedocs.io/en/latest/
+Keywords: emeralds,test,package
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# Emeralds
+A small libary for testing package uploads
