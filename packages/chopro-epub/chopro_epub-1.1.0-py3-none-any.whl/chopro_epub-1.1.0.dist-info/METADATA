@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chopro-epub
+Version: 1.1.0
+Summary: Tool to build EPUB songbooks from lists of ChordPro files
+Author: Paul Ferrand
+Author-email: paul@ferrand.cc
+Project-URL: homepage, https://github.com/paulfd/chordpro-epub
+Project-URL: documentation, https://github.com/paulfd/chordpro-epub
+Project-URL: repository, https://github.com/paulfd/chordpro-epub
+Project-URL: changelog, https://github.com/paulfd/chordpro-epub
+Requires-Python: >=3.8
+License-File: LICENSE.md
+Requires-Dist: pyparsing
+Requires-Dist: ebooklib
+Requires-Dist: typer
+Requires-Dist: importlib-resources (>=1.1.0) ; python_version < "3.9"
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
