@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: CXRunner
+Version: 1.0.6
+Summary: Modern style test report based on unittest framework.
+Home-page: https://github.com/saasaa831/CXRunner/
+Author: saasaa831
+Author-email: saasaa@gm.com
+License: Apache 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+Requires-Dist: jinja2 (>=3.1.2)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: poetry-core (>=1.0.0)
+
+Modern style test report based on unittest framework.
