@@ -1,0 +1,12 @@
+setuptools_github/__init__.py,sha256=VwyxPxYjlaAyegpW3HcWyO67FvP592R_11X2hceVHQg,132
+setuptools_github/checks.py,sha256=VcMMGdeOVtueRanshGpFANOPSIXMzZJK0TLl4cOGjWY,5867
+setuptools_github/cli.py,sha256=1V6p6r2oVfY4fe_s8ccW4gpI1C-qIj-mmo2MlbQ6QnA,4057
+setuptools_github/scm.py,sha256=MyIdCgNFjhUl-RPSomMNmv-h7oBl2f_Lz6gGqEP4uvM,2762
+setuptools_github/script.py,sha256=lIjcShwX9BO8zdY-6jRAKD-SD1NSrJPX0P6-nNEy5I0,2495
+setuptools_github/tools.py,sha256=O6SQfc7Sl7JYOzUqyJH5-280MePc47OlvDJQ37DcOTU,8072
+setuptools_github-0.3.0b59.dist-info/LICENSE,sha256=QUYIt1AieJUv6TEOa9fN_-h2E6uF4WCqCgvLvuvYdJs,1315
+setuptools_github-0.3.0b59.dist-info/METADATA,sha256=q4OsFE7TbkbzH5_1D9ulNVUuXipQRxDTemcw8Mmh51E,8913
+setuptools_github-0.3.0b59.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+setuptools_github-0.3.0b59.dist-info/entry_points.txt,sha256=5X087vDL9Rkr57tZNnVnyCw1gn7sBF0ezq7EBwhVniE,68
+setuptools_github-0.3.0b59.dist-info/top_level.txt,sha256=wa3Gj5XHndtXCqel7dnlpUHu1GOPDyn1dNbORncT6pw,18
+setuptools_github-0.3.0b59.dist-info/RECORD,,
