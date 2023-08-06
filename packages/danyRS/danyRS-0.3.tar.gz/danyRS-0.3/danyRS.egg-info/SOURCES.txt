@@ -1,0 +1,8 @@
+setup.py
+danyRS.egg-info/PKG-INFO
+danyRS.egg-info/SOURCES.txt
+danyRS.egg-info/dependency_links.txt
+danyRS.egg-info/not-zip-safe
+danyRS.egg-info/top_level.txt
+danyRs/__init__.py
+danyRs/in_info.py
