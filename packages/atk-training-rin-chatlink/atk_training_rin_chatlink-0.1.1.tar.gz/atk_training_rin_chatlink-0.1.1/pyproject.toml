@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "atk-training-rin-chatlink"
+version = "0.1.1"
+description = "Get URLs from a Google Space"
+authors = ["nxceurin <e20cse376@bennett.edu.in>"]
+readme = "README.md"
+packages = [{include = "atk_training_rin_chatlink"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0.1"
+
+[tool.poetry.scripts]
+atk-training-rin-chatlink = "atk_training_rin_chatlink.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
