@@ -1,0 +1,11 @@
+README.rst
+setup.py
+nicecall/__init__.py
+nicecall/buffer.py
+nicecall/filters.py
+nicecall/logger.py
+nicecall/process.py
+nicecall.egg-info/PKG-INFO
+nicecall.egg-info/SOURCES.txt
+nicecall.egg-info/dependency_links.txt
+nicecall.egg-info/top_level.txt

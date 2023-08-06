@@ -1,0 +1,194 @@
+Metadata-Version: 1.0
+Name: nicecall
+Version: 1.0.1
+Summary: A library which provides a slightly more convinient way to launch processes, compared to Python's subprocess module.
+Home-page: http://go.pelicandd.com/n/python-niceprocess
+Author: Arseni Mourzenko
+Author-email: arseni.mourzenko@pelicandd.com
+License: MIT
+Description: nicecall library
+        ================
+        
+        While
+        ```subprocess`` <https://docs.python.org/3/library/subprocess.html>`__
+        is great, it may not be the easiest library to use. This is the reason I
+        created ``nicecall``: it allows to do simple tasks with processes very
+        easy.
+        
+        Note that ``nicecall`` is not a substitute to ``subprocess``, because
+        much of ``subprocess`` functionality doesn't exist. For instance, one
+        can't use ``stdin`` or pipes with ``nicecall``. The goal is not to
+        replace ``subprocess``, but only to provide an easy way to do the most
+        common tasks.
+        
+        How to use the library
+        ----------------------
+        
+        *Make sure you also check `the
+        tests <http://source.pelicandd.com/codebase/nicecall/tests/>`__ which
+        give a few examples of how to use the library.*
+        
+        Fluent interface
+        ~~~~~~~~~~~~~~~~
+        
+        The library uses method chaining, which allows to add logic on the fly
+        before actually launching the process. Methods such as ``on_stdout``,
+        ``ignore``, etc. create a copy of the object, modify this copy, and
+        return it to the caller. This makes it possible to reuse base objects in
+        multiple locations in your code, reducing code duplication.
+        
+        Exit code
+        ~~~~~~~~~
+        
+        Let's start by executing a task:
+        
+        ::
+        
+            result = nicecall.Process(["touch", "/tmp/hello"]).execute()
+        
+        The ``result`` contains the exit code, which makes it possible to
+        determine whether the process terminated successfully. Below, the value
+        of ``result`` is expected to be zero. You may also make it fail:
+        
+        ::
+        
+            result = nicecall.Process(["touch", "/tmp/a/b/c/d"]).execute()
+        
+        The ``result`` should now be ``1`` if you don't have ``/tmp/a/b/c``
+        directory.
+        
+        ``stdout`` and ``stderr``
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        One can also perform a bunch of actions on ``stdout`` and ``stderr``.
+        Let's display ``stdout`` in terminal:
+        
+        ::
+        
+            nicecall.Process(["echo", "a\nb\nc"]).on_stdout(print).execute()
+        
+        The output should be:
+        
+        ::
+        
+            a
+            b
+            c
+        
+        If you're *absolutely sure* that the process will be fast and produce a
+        small amount of ``stdout`` or ``stderr``, you can ask the library to
+        buffer the contents in order to process them later:
+        
+        ::
+        
+            stdout_buffer = nicecall.Buffer()
+            nicecall.Process(["echo", "a\nb"]).on_stdout(stdout_buffer.store).execute()
+        
+        Now you can access the content either as a list:
+        
+        ::
+        
+            >>> print(stdout_buffer.lines)
+            ['a', 'b']
+        
+        or as a string with newlines:
+        
+        ::
+        
+            >>> stdout_buffer.contents
+            a
+            b
+        
+        Logging
+        ~~~~~~~
+        
+        A common thing, at least in my case, is to log ``stdout`` or ``stderr``
+        to syslog. With ``nicecall``, it's easy:
+        
+        ::
+        
+            # Initialize logging.
+            log_handler = logging.handlers.SysLogHandler(address="/dev/log")
+            formatter = logging.Formatter("demo: [%(levelname)s] %(message)s")
+            log_handler.setFormatter(formatter)
+            log_handler.setLevel(logging.DEBUG)
+        
+            demo_logger = logging.getLogger("demo")
+            demo_logger.setLevel(logging.DEBUG)
+            demo_logger.addHandler(log_handler)
+        
+            ...
+        
+            # Log stdout.
+            logger = nicecall.StdoutLogger("test")
+            nicecall.Process(["echo", "a\nb"]).on_stdout(logger.log).execute()
+        
+        Note that ``nicecall.StdoutLogger`` can be initialized with either the
+        name of the logger, or the instance of the logger itself.
+        
+        The library itself logs calls (INFO level) and call failures (WARNING
+        level) through the logger named ``nicecall.process``.
+        
+        Filtering
+        ~~~~~~~~~
+        
+        Sometimes, you don't want to process specific content such as empty
+        lines or whitespace. This is what filters are about:
+        
+        ::
+        
+            nicecall \
+                .Process(["echo", "a\n\nb"]) \
+                .ignore(nicecall.filters.whitespace) \
+                .on_stdout(print) \
+                execute()
+        
+        Here, ``a`` and ``b`` will be displayed in terminal; however, the empty
+        line will be ignored. The reverse is called ``keep``. Both ``keep`` and
+        ``ignore`` accept any function which takes a string as a parameter and
+        returns a boolean. For instance, this will print only ``stderr`` content
+        longer than ten characters:
+        
+        ::
+        
+            nicecall \
+                .Process(["echo", "a\n\nb"]) \
+                .keep(lambda line: len(line) > 10) \
+                .on_stderr(print) \
+                execute()
+        
+        Multiple ``keep`` and ``ignore`` methods can be combined. The output
+        will keep the lines which match *all* predicates from ``keep``\ s and
+        *none* from ``ignore``\ s.
+        
+        Filters apply to both ``stdout`` and ``stderr``; there is no way to
+        apply them to only one of the streams.
+        
+        Compatibility
+        -------------
+        
+        The library was written for Python 3 under Linux. I haven't tested it
+        neither with Python 2, nor under Windows.
+        
+        Reliability
+        -----------
+        
+        While I used Test Driven Development when creating this library and
+        logically have a 100% branch coverage, I don't know neither Python, nor
+        ``subprocess`` well enough to be sure that the library can be used
+        reliably in production. Use at own risk.
+        
+        Contributing
+        ------------
+        
+        If you want to contribute, contact me at arseni.mourzenko@pelicandd.com.
+        You'll be able to contribute to the project using the `official SVN
+        repository <http://source.pelicandd.com/codebase/nicecall/>`__. If you
+        find it more convinient to clone the source to GitHub, you can do that
+        too.
+        
+        The source code of the library and the corresponding documentation are
+        covered by the `MIT License <https://opensource.org/licenses/MIT>`__.
+        
+Keywords: system subprocess process
+Platform: UNKNOWN
