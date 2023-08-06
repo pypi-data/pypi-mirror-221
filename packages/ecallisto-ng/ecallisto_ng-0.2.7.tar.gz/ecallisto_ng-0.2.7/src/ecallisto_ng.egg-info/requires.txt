@@ -1,0 +1,17 @@
+numpy>=1.21.6
+pandas>=2.0.0
+plotly
+requests
+scikit-image>=0.20.0
+pyarrow
+
+[dev]
+black
+isort
+twine
+build
+
+[nb]
+nbformat
+ipython
+ipykernel
