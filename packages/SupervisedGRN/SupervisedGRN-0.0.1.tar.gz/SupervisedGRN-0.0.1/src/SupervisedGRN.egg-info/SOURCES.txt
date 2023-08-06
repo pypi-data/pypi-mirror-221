@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/SupervisedGRN/__init__.py
+src/SupervisedGRN/ann.py
+src/SupervisedGRN/cnn.py
+src/SupervisedGRN/data.py
+src/SupervisedGRN/hybrid.py
+src/SupervisedGRN/ml.py
+src/SupervisedGRN.egg-info/PKG-INFO
+src/SupervisedGRN.egg-info/SOURCES.txt
+src/SupervisedGRN.egg-info/dependency_links.txt
+src/SupervisedGRN.egg-info/requires.txt
+src/SupervisedGRN.egg-info/top_level.txt
