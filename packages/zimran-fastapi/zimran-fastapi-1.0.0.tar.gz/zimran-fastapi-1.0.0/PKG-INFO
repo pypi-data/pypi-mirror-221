@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zimran-fastapi
+Version: 1.0.0
+Summary: Preconfigured FastAPI application
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+## Installation
+
+```bash
+pip install zimran-fastapi
+```
+
+## Usage
+
+```python
+from zimran.fastapi import create_app
+
+app = create_app()
+```
