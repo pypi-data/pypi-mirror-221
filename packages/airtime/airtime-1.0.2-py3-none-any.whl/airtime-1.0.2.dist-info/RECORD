@@ -1,0 +1,11 @@
+airtime/__init__.py,sha256=45bmmC3I8_Thm7iBVbUaf1CmmbBK0eS2HeYdhtuwupc,104
+airtime/teams_analyzer.py,sha256=kRespO4DpWLUYe7vsSoorE7vY21Jf2VY-sGHB-AZ_xo,3309
+airtime/zoom_analyzer.py,sha256=8T_hfg_G0p_FHlIjxCig3ptGAkap6AdYLd1A7lZ8FOM,3085
+airtime/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airtime/tests/test_teams_analyzer.py,sha256=3DNVLl-2JvDchOqC3Hx9vEypQ6RlTwYrTK3_IQsJJ0I,3449
+airtime/tests/test_zoom_analyzer.py,sha256=YLW4IQt4cb53osSl6S8_4kwxJvSr8fJbyAjS1YOWwHo,3327
+airtime-1.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+airtime-1.0.2.dist-info/METADATA,sha256=GlEoeNd2pmF5Svyf43FTtXlluqOvc1PYH2s_HPg2ngk,4754
+airtime-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+airtime-1.0.2.dist-info/top_level.txt,sha256=ZKioRmSs0GnY5DRFgRvvNWWH_LfdXK_wiWFEpZY5aL8,8
+airtime-1.0.2.dist-info/RECORD,,
