@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+json_html/__init__.py
+json_html/cmd.py
+json_html/parser.py
+json_html.egg-info/PKG-INFO
+json_html.egg-info/SOURCES.txt
+json_html.egg-info/dependency_links.txt
+json_html.egg-info/entry_points.txt
+json_html.egg-info/requires.txt
+json_html.egg-info/top_level.txt
