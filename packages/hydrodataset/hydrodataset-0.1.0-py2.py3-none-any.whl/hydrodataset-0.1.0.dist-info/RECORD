@@ -1,0 +1,17 @@
+hydrodataset/__init__.py,sha256=0cuQjSTreR7-x8JxXls5Qz0HlXzoF6_yK1Xxbi3lMN8,2106
+hydrodataset/camels.py,sha256=070PrZWqacA15JLimwgOTS1x7eLeS9hi-d2SHS91oQ0,61052
+hydrodataset/caravan.py,sha256=Y1ndytYZd6qW9FhKMOps38WZNYVSGwEPkg8XKbD3RlA,9490
+hydrodataset/grdc.py,sha256=9Lic0TmIngpjVn_v0KQ5d6B1Sxs6SK1QV7XeqVGihco,12823
+hydrodataset/hydro_dataset.py,sha256=HRpMWN1H3Ys_ueksCW38Hi_Jojt7YT2urhszpN05XBw,2530
+hydrodataset/hydro_utils.py,sha256=zJwtNxp_PxEQmV2mPtobyAR9mIaUGRfhQbeIlEnEeGo,2345
+hydrodataset/hysets.py,sha256=PVwzP6ZL4PY6hvz74ldAkt-HU03V2WhyVE5YdPssitM,5239
+hydrodataset/lamah.py,sha256=YynqV6EhkyGvagn5U_vWnNkusDD3CgEApfpd8HtBAOM,14604
+hydrodataset/mopex.py,sha256=kPKVpKpv2Rtjm8mE3IP0DAlwqN5N-sx-L9K-6Subv64,13929
+hydrodataset/multi_datasets.py,sha256=KWAm10BKsjXtsaj7bL5GcyAS3w82p-jZRC4Q5r5YTaI,39072
+hydrodataset-0.1.0.dist-info/AUTHORS.rst,sha256=ww9g04YK1IoBWiQANxwr2IST_fYYswxsTTo_8HUTfGE,161
+hydrodataset-0.1.0.dist-info/LICENSE,sha256=jda7Iig-hJ-7zSWX8q4FYw9hqiq9ll7HGFce-2YCH-U,1071
+hydrodataset-0.1.0.dist-info/METADATA,sha256=ClBdRN87_PO0HnpkVVyDQereirm0Z4kKPcurNzentbI,8336
+hydrodataset-0.1.0.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+hydrodataset-0.1.0.dist-info/dependency_links.txt,sha256=6BDwubD2Bf5GRIprHrvcywL28ZKd1JOBdeN7PcpmVaE,41
+hydrodataset-0.1.0.dist-info/top_level.txt,sha256=z3LurBGofYP6Y4DhfTuifbuRsHsqwQEERztanIB6mHM,13
+hydrodataset-0.1.0.dist-info/RECORD,,
