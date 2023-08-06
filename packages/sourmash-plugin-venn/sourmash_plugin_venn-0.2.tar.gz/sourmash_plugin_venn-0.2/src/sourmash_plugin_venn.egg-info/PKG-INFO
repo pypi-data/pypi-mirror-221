@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sourmash-plugin-venn
+Version: 0.2
+Summary: sourmash plugin to build venn diagrams.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sourmash_plugin_venn: generate a simple Venn diagram for two sourmash sketches
+
+Generate Venn diagrams showing overlaps between two
+[sourmash sketches](https://sourmash.readthedocs.io/) of DNA or
+protein sequences:
+
+![simple Venn diagram](doc/simple.png)
+
+## Execution
+
+```
+sourmash scripts venn a.sig b.sig -o a-v-b.png
+```
+
+## Installation
+
+```
+pip install sourmash_plugin_venn
+```
