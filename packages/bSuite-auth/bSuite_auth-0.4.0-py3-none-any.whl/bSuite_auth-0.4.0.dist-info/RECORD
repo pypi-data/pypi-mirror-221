@@ -1,0 +1,9 @@
+bSuite/auth/__init__.py,sha256=ahp2mZu_mWbdbQbetfX341fLuWx3Bz9TeFjXnXLuoJc,137
+bSuite/auth/client.py,sha256=EzBkXeKzfjAkQmTInmcfA6SmMiqnlXQwz4V9zYL1NMs,6394
+bSuite/auth/etc.py,sha256=Z9jz2jiH9s4mzFKGfAnNWRWuAsTsEoAW_eSI5lt4boI,527
+bSuite/auth/middleware.py,sha256=oTNnNP1s88SLslbnwsluiWKFK9CSomTPXXS26jXVOS8,3473
+bSuite_auth-0.4.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bSuite_auth-0.4.0.dist-info/METADATA,sha256=CQIk1hciCJzapkBanY9Q_Zbs-zcA3xLnrjP22v9-46w,41230
+bSuite_auth-0.4.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+bSuite_auth-0.4.0.dist-info/top_level.txt,sha256=OV9vSz6JqP7KRQPhKluxwsGXCbTifpASglUj8nJ8rJ8,7
+bSuite_auth-0.4.0.dist-info/RECORD,,
