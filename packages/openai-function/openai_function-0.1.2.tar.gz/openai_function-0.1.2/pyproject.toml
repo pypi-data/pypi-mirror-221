@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "openai-function"
+version = "0.1.2"
+description = ""
+authors = ["Oscar Bahamonde <oscarmartinbahamondemunoz@gmail.com>"]
+readme = "README.md"
+packages = [{include = "openai_function"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.8"
+pydantic = {extras = ["dotenv"], version = "1.10.11"}
+rich = "^13.4.2"
+aiohttp = "^3.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
