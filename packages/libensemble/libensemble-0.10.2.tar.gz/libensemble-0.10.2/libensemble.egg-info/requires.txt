@@ -1,0 +1,12 @@
+numpy
+psutil
+pydantic<2
+tomli
+pyyaml
+
+[docs]
+autodoc_pydantic
+sphinx
+sphinx_design
+sphinx_rtd_theme
+sphinxcontrib.bibtex
