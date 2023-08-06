@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easy-email-builder
+Version: 1.0
+Summary: Simple interface for sending emails with the builder design pattern with different services.
+Author: Ryan Schreiber
+Author-email: ryanschreiber86@gmail.com
+Project-URL: Documentation, https://github.com/ryan-schreiber/email-builder/
+Project-URL: Source, https://github.com/ryan-schreiber/email-builder/
+Project-URL: Tracker, https://github.com/ryan-schreiber/email-builder/issues
+Keywords: email emails builder smtp gmail ses aws
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# email-builder
+Simple interface for sending emails with the builder design pattern with different services.
