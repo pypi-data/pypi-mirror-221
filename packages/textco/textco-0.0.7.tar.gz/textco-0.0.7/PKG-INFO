@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: textco
+Version: 0.0.7
+Summary: TEXT analytsis COpilot
+Home-page: UNKNOWN
+Author: Dr Anna Sung and Prof Kelvin Leong
+Author-email: <k.leong@chester.ac.uk>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+
+This Python package will help you to analyse text
+
