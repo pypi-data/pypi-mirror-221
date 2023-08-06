@@ -1,0 +1,12 @@
+aws_obp_1/__init__.py,sha256=ixeYVNy7aGtwm4ozT9qgcVfst_N7cWAZOA6lN9e2keA,6263
+aws_obp_1/auto_scaling.py,sha256=22JmbdvLWi7cnd4SfbCA2ZvlUZYE1qSZ7TICevawMZM,6203
+aws_obp_1/ec2.py,sha256=JJWjX_1WhLAv-lP42riS1-a6E5oJpVCJ7EfgFaOqCbA,5991
+aws_obp_1/lambda_fn.py,sha256=O3cp11heoYlV8XUiNlMx55XrcUgt-bUebcfGA8GRgrc,2478
+aws_obp_1/lb.py,sha256=tEXuzr1_LTujAOXmsFYusnVRFPUMlKKIwrycMMrf8wo,13805
+aws_obp_1/rds.py,sha256=MGPkGSNirkggJVgaVvpIdOzvQp4WwqhYNNTUdN92gpc,1831
+aws_obp_1/s3.py,sha256=pnhtmii0ZfVPq9GTyI3uZCVQxkjozNRkgXnwbI67V4c,4895
+aws_obp_1/utils.py,sha256=m2CYoWYS2S6GRuyTQiJDvHwGoGase9sjhhtNEgsGqes,8969
+aws_obp_1-0.0.3.dist-info/METADATA,sha256=ck1p-nuZBAxkkyYTsdAvoAK2AQ4qC1spPiflYFROBCU,370
+aws_obp_1-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aws_obp_1-0.0.3.dist-info/top_level.txt,sha256=p9MESwsmRVTjg6xt47QoafA0Zv9ODlZWOmn9v5VZy-4,10
+aws_obp_1-0.0.3.dist-info/RECORD,,
