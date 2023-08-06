@@ -1,0 +1,13 @@
+LICENSE.txt
+setup.cfg
+setup.py
+ayaka/__init__.py
+ayaka/__main__.py
+ayaka/ayaka.py
+ayaka/lib.py
+ayaka_kemono.egg-info/PKG-INFO
+ayaka_kemono.egg-info/SOURCES.txt
+ayaka_kemono.egg-info/dependency_links.txt
+ayaka_kemono.egg-info/entry_points.txt
+ayaka_kemono.egg-info/requires.txt
+ayaka_kemono.egg-info/top_level.txt
