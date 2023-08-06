@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+imagedetection/__init__.py
+robotframework_imagedetection.egg-info/PKG-INFO
+robotframework_imagedetection.egg-info/SOURCES.txt
+robotframework_imagedetection.egg-info/dependency_links.txt
+robotframework_imagedetection.egg-info/requires.txt
+robotframework_imagedetection.egg-info/top_level.txt
