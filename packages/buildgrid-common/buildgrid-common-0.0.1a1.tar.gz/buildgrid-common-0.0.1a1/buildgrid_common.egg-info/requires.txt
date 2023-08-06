@@ -1,0 +1,12 @@
+grpcio>=1.33.2
+protobuf
+
+[dev]
+pytest
+pytest-cov
+mypy
+mypy-protobuf
+grpc-stubs
+isort
+black
+flake8
