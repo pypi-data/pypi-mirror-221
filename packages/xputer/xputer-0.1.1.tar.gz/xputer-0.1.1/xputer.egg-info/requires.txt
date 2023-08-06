@@ -1,0 +1,14 @@
+IPython
+joblib
+matplotlib
+nimfa
+numpy
+optuna
+pandas
+scikit-learn
+torch
+tqdm
+xgboost
+
+[gui]
+PyQt5
