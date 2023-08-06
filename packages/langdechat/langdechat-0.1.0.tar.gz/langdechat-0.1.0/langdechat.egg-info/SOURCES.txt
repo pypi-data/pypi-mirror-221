@@ -1,0 +1,9 @@
+README.md
+setup.py
+langdechat/__init__.py
+langdechat/module1.py
+langdechat.egg-info/PKG-INFO
+langdechat.egg-info/SOURCES.txt
+langdechat.egg-info/dependency_links.txt
+langdechat.egg-info/requires.txt
+langdechat.egg-info/top_level.txt
