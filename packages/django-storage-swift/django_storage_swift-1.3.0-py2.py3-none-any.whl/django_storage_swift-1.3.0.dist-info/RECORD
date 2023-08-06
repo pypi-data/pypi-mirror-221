@@ -1,0 +1,7 @@
+swift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swift/storage.py,sha256=IXWK70AcPAP0_tpdI2JXkm4489jzNPuifIHDLcDELDU,17316
+django_storage_swift-1.3.0.dist-info/LICENSE.txt,sha256=bDkIbHLfEs4VMoKm3CbOzen1f2ljU4mjHgTiAB2xR90,1069
+django_storage_swift-1.3.0.dist-info/METADATA,sha256=ATjsvmaLBetYG_-z7pX9YzInIJZApn4P7FarvTreRhs,22067
+django_storage_swift-1.3.0.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+django_storage_swift-1.3.0.dist-info/top_level.txt,sha256=nVzNOToyzq0MM7JtrpalfOaPV9UIfm_lXhHX0duhVps,6
+django_storage_swift-1.3.0.dist-info/RECORD,,
