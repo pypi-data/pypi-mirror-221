@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/ignorepy/__init__.py
+src/ignorepy/__main__.py
+src/ignorepy/genignore.py
+src/ignorepy.egg-info/PKG-INFO
+src/ignorepy.egg-info/SOURCES.txt
+src/ignorepy.egg-info/dependency_links.txt
+src/ignorepy.egg-info/entry_points.txt
+src/ignorepy.egg-info/requires.txt
+src/ignorepy.egg-info/top_level.txt
