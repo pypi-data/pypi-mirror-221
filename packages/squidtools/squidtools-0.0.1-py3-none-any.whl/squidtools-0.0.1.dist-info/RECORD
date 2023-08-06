@@ -1,0 +1,17 @@
+data-wrangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data-wrangler/gpt-utils.py,sha256=fF0uxAcqo1tWQga36jt9E95JAgLza9mMyLZuc9b9ByE,2457
+data-wrangler/label-topic-copy.py,sha256=p-oA7ORaU-YybdKmVGv4ptmbbZYoFFZf-kCsB5Zs1R8,5084
+data-wrangler/label-topic.py,sha256=fF0uxAcqo1tWQga36jt9E95JAgLza9mMyLZuc9b9ByE,2457
+data_wrangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_wrangler/gpt_utils.py,sha256=IYYYHMhW7F_nnMzXTprKISGQRNqlxpekDfgkMD0viUc,2458
+data_wrangler/label-topic-copy.py,sha256=p-oA7ORaU-YybdKmVGv4ptmbbZYoFFZf-kCsB5Zs1R8,5084
+data_wrangler/proquest.py,sha256=M4oWIUr3boHjaXr1mBdkfWmknAgMoi3zNokeQKhB_BM,1027
+data_wrangler/robust_task.py,sha256=5hLDObJtYhOGx9oYKgv7ss_sgU_rNdA-8bJelbBfwhk,1806
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/gpt_utils.py,sha256=IYYYHMhW7F_nnMzXTprKISGQRNqlxpekDfgkMD0viUc,2458
+src/proquest.py,sha256=M4oWIUr3boHjaXr1mBdkfWmknAgMoi3zNokeQKhB_BM,1027
+src/robust_task.py,sha256=5hLDObJtYhOGx9oYKgv7ss_sgU_rNdA-8bJelbBfwhk,1806
+squidtools-0.0.1.dist-info/METADATA,sha256=lbJOvXJyAhtqoOM9mbCGr01ErqEpD94mTpbMhDu3Pso,261
+squidtools-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+squidtools-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+squidtools-0.0.1.dist-info/RECORD,,
