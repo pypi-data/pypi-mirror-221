@@ -1,0 +1,28 @@
+font.family: serif
+font.serif: CMU Serif
+font.weight: normal
+text.usetex: True
+
+font.size: 10
+xtick.labelsize: 10
+ytick.labelsize: 10
+axes.labelsize: 10
+legend.fontsize: 10
+axes.titlesize: medium
+
+legend.fancybox: True
+legend.frameon: True
+legend.framealpha: 0.8
+
+axes.linewidth: 1
+lines.linewidth: 1
+lines.markersize: 5
+
+image.cmap: magma
+savefig.dpi: 300
+#savefig.transparent: True
+savefig.format: png
+
+# MST columnwidth is 236.68436pt = 3.28728277778in
+# default aspect ratio is golden ratio
+figure.figsize: 3.28728277778, 2.0316524873

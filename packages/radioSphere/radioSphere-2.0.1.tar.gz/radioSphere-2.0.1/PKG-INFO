@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: radioSphere
+Version: 2.0.1
+Summary: Software for the Practical Analysis of Materials
+Author-email: Edward Andò <edward.ando@epfl.ch>, Benjy Marks <benjy.marks@sydney.edu.au>
+Maintainer-email: Edward Andò <edward.ando@epfl.ch>, Benjy Marks <benjy.marks@sydney.edu.au>
+License: GPLv3
+Project-URL: Blog, https://medium.com/@RadioSphere
+Project-URL: Repository, https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere
+Keywords: reconstruction,deconvolution,spheres,image analysis,synthetic images
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE.md
+
+# Welcome to radioSphere
+
+[![license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere/-/blob/main/LICENSE.md)
+[![pipeline status](https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere/badges/main/pipeline.svg)](https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere/-/pipelines)
+[![pypi](https://badge.fury.io/py/radioSphere.svg)](https://pypi.org/project/radioSphere/)
+
+[Join the chat room for support here.](https://matrix.to/#/#radioSphere:matrix.org)
+
+This project contains a series of tools for the analysis of divergent radiographs containing spherical particles, in particular to measure 3D positions from *a single radiograph* like this one:
+
+![Sample Radiograph](https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere/-/raw/main/figures/nano/sample.jpg "Radiography of a small collection of same-size spheres")
+
+The reconstruction technique proposed is a two-step approach:
+
+  - **Step 1**: is a technique called `tomopack` which is an FFT-based pattern matching approach.
+  It uses a template image, or "structuring element" that we call ψ to pick out spheres.
+  Since the size of ψ needs to be very close to the correct size, this allows us to distinguish different sized projections of spheres.
+
+  - **Step 2**: Position optimisation: Starting from a guess of particle positions, the projection is computed and compared to the measured projection. Particle positions are modified iteratively in order to minimise the difference between computed projection and measured one.
+
+Geometry in `radioSphere` is everything: the coordinate systems defined are as follows:
+
+![Geometry](figures/projectedCoords_v2.png "Coordinate Systems")
+
+See the [online documentation](https://ttk.gricad-pages.univ-grenoble-alpes.fr/radioSphere/) to learn about the functions.
+
+## Contributors
+
+The technique has been developed by Edward Andò (EPFL), [Benjy Marks](http://www.benjymarks.com/), and Stéphane Roux (CNRS) and published in [Measurement Science and Technology](https://doi.org/10.1088/1361-6501/abfbfe).
+
+The technique has been developed thanks to UGA Tec21 funding further by Olga Stamati (ESRF), resulting in a publication in [The Journal of Multiphase Flow](https://doi.org/10.1016/j.ijmultiphaseflow.2023.104406), and by Leonard Turpin (Diamond).
+
+The numba projector was contributed by [Youssef Haouchat](https://github.com/HaouchatY) (EPFL),which is faster than the original C code and allows us to distribute the package on pypi, thanks!
+
+
+## Notes on the repository
+
+ - `src/radioSphere`: this folder contains the core functions of radioSphere:
+
+    - `detectSpheres`: functions related to `tomopack` (Step 1)
+
+    - `optimisePositions`: functions related to the optimiser (Step 2)
+
+    - `projectSphere`: The tools to create projections (units mm)
+
+ - `tests`: contains tests to test the functionality of what is in tools
+
+ - `examples` and `paper/figureScripts`: examples of the use of `radioSphere` on both synthetic and experimental data
+
+ - `data`: where the presented experimental and synthetic data is stored to run the examples
+
+ - `figures`: figures for paper and this website
+
+ - `paper`: will contain final sources to the paper
+
+ - `presentations`: sources for presentations given about this topic
+
+## Installing radioSphere
+
+### For users:
+`pip install radioSphere`
+
+
+### For developers:
+Please clone this repository once checked out, activate your virtual environment, and then:
+`pip install -e ".[dev]"`
+
+run the tests to make sure everything is OK:
+`pytest`
+
+
