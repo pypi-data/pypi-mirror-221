@@ -1,0 +1,13 @@
+our1314/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/cv/mouseselect.py,sha256=AvWyb_jwuNAbnOlhjlhM1K-THotZv97HPCFwoe5RU1c,1240
+our1314/cv/templatematch.py,sha256=iz8O2n42S7Z6c6RdlgNFCTcE1S2HN_qHHzVWo7uuDoE,1407
+our1314/myutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/myutils/exportsd.py,sha256=TQI7w-dz__lorXL-jMlkJ5Ib14GSlGSLoc2I3_tcVu4,1430
+our1314/myutils/importsd.py,sha256=WkiAQpC3p3e3qory1tpNlXDqkA4TilssW2wbPAdck18,2370
+our1314/myutils/myutils.py,sha256=Vdc_tOSNAN3m_xhZr1YRC_IBOFdY_E7OaePdstIoGbU,5732
+our1314-0.1.8.dist-info/LICENSE,sha256=-NLjGGyXk44yr3T3rY9Hffy52F2Ie3dzDztqRa7jFDo,1082
+our1314-0.1.8.dist-info/METADATA,sha256=Diopf-LcW1FFk9Wz33E7DWkerOgafC4FlDu1I9pfdGI,265
+our1314-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+our1314-0.1.8.dist-info/top_level.txt,sha256=BNWlwCPcF01ErkTQlQoDFg4A96dFPsKojuFoAu_af-A,8
+our1314-0.1.8.dist-info/RECORD,,
