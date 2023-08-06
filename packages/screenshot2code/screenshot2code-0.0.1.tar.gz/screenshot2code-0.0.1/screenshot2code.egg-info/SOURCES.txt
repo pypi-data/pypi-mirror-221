@@ -1,0 +1,8 @@
+setup.py
+screenshot2code/__init__.py
+screenshot2code/hello.py
+screenshot2code.egg-info/PKG-INFO
+screenshot2code.egg-info/SOURCES.txt
+screenshot2code.egg-info/dependency_links.txt
+screenshot2code.egg-info/requires.txt
+screenshot2code.egg-info/top_level.txt

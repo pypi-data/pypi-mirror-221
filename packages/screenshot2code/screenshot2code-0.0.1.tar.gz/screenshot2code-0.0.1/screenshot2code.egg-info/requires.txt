@@ -1,0 +1,6 @@
+shutil
+typing
+pandas
+pytesseract
+guesslang
+PIL
