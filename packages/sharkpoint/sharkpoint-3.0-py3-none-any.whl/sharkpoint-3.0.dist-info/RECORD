@@ -1,0 +1,8 @@
+sharkpoint/__init__.py,sha256=iktn9a_FhVaVvMSU5Bwb69IKd9n0dUaO3ksCpDpcxqM,502
+sharkpoint/sharepoint.py,sha256=r0zgUoqqqLDuep3VGO3Sn2bGyb5FI_Iwlbes-LMSwWI,4276
+sharkpoint/sharepoint_file.py,sha256=0PpMCi-3-X87LQthALXeLRPexdfh7HWv0O7JL1cTF8E,9283
+sharkpoint/sharepoint_site.py,sha256=MTW5KjMHZszpB-GgRhb1LSi25FRKM-WgX8C5wxfp2Co,12825
+sharkpoint-3.0.dist-info/LICENSE,sha256=v05bkKoNJi4fGXuyRyl8SXyGzJYob8oxo8iXOelOpvs,1059
+sharkpoint-3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sharkpoint-3.0.dist-info/METADATA,sha256=fxSz8N5uqWH2rZLRDes5BUZp8EVrQVb9zT0q8xJ-te0,1153
+sharkpoint-3.0.dist-info/RECORD,,
