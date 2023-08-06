@@ -1,0 +1,14 @@
+pyvidplayer2/__init__.py,sha256=8VH7oyo3EGiZG_ID-kO2Y9ftC19JYepshN5RlASFEQE,636
+pyvidplayer2/parallel_video.py,sha256=8jU43hXKr7uYvGuWlBAfVwXgDXMAQ0G7b3q6CrFY6Qg,4625
+pyvidplayer2/post_processing.py,sha256=dqaZaN4KjE6Sf32UNSqH_rMmq8-Uu_3-PTwxKbAa0U4,1341
+pyvidplayer2/subtitles.py,sha256=moZbk2xtnjp2p3LoZKQEGN13p-EwGX4zjcvSoK_Wz4Q,2232
+pyvidplayer2/video.py,sha256=RKq7S9rPbkte0RZTEj0tiAps6ZoFTwTQILL9vCgU3YY,8460
+pyvidplayer2/video_collection.py,sha256=BWQfuLFMv2qFJlcq_LG9gdYPtXNwHRyOeUe2b-woLjg,1752
+pyvidplayer2/video_player.py,sha256=AX5GkyWLLPkILJCHm-dTo2RETGWHrDMZDKRm_XAGRek,9404
+pyvidplayer2/video_pyglet.py,sha256=t6szEINiS9g9_mYoWMMr9ZHMOzZ8SJKVBZvxilqgp6E,1531
+pyvidplayer2/video_tkinter.py,sha256=C05NW2upvKILAfY85GdAOZrKarZ4Z8q-tnRSv4phL8Y,1511
+pyvidplayer2-0.9.0.dist-info/LICENSE,sha256=4ZDpJTbp6ieyqWEMIRAmbQ6QeReUCWTNtKB1tfG6F18,1085
+pyvidplayer2-0.9.0.dist-info/METADATA,sha256=-o6z0UoEd2Y917tAA-Iqp75aIq8FDBDPb5h57MfD1Pg,2616
+pyvidplayer2-0.9.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyvidplayer2-0.9.0.dist-info/top_level.txt,sha256=qeGTj5l8TCql5ijA7joQQlxbY2l5HACozoC4PDoG3tM,13
+pyvidplayer2-0.9.0.dist-info/RECORD,,
