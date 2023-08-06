@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aioskd
+Version: 0.0.4
+Summary: Tool for execute async background tasks
+Author: Artem Sydorenko
+Author-email: kradworkmail@gmail.com
+Keywords: background tasks asyncio async
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+
+# aioschedule
+Tool that perform async background tasks
