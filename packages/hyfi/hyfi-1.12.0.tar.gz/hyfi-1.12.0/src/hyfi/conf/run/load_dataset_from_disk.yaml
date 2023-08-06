@@ -1,0 +1,5 @@
+_target_: hyfi.pipe.datasets.load_dataset_from_disk
+dataset_path: null
+num_heads: 1
+num_tails: 1
+verbose: false
