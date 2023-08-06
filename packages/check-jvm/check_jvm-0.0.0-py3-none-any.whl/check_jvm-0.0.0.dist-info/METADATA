@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: check-jvm
+Version: 0.0.0
+Summary: 
+License: MIT
+Keywords: oracle jvm,jvm checker
+Author: Dániel Hagyárossy
+Author-email: daniel@hagyarossy.hu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
+# TechFlurry Controller
+
+![build-status](https://img.shields.io/github/workflow/status/atraides/techflurry-controller/Build%20Pipeline/main?logo=GitHub)
+
+## Author Information
+
+Daniel Hagyárossy <[d.hagyarossy@sapstar.eu](mailto:d.hagyarossy@sapstar.eu)> \
+
+## Copyright
+
+Copyright (c) 2023 All rights reserved.
+
