@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/file_to_df/__init__.py
+src/file_to_df/file_to_df_fn.py
+src/file_to_df.egg-info/PKG-INFO
+src/file_to_df.egg-info/SOURCES.txt
+src/file_to_df.egg-info/dependency_links.txt
+src/file_to_df.egg-info/top_level.txt
