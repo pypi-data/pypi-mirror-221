@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: gs_sql
+Version: 0.0
+Summary: Ability to use SQL sources when working with GoogleSheetAPI
+Author-email: bondareff7@gmail.com

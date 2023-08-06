@@ -1,0 +1,17 @@
+setup.cfg
+setup.py
+gs_sql/BaseData.py
+gs_sql/Exceptions.py
+gs_sql/__init__.py
+gs_sql/authorization.py
+gs_sql/configuration.py
+gs_sql/data_difinition.py
+gs_sql/data_manipulation.py
+gs_sql/dataclasses.py
+gs_sql/sheetsql.py
+gs_sql/sql_parser.py
+gs_sql.egg-info/PKG-INFO
+gs_sql.egg-info/SOURCES.txt
+gs_sql.egg-info/dependency_links.txt
+gs_sql.egg-info/not-zip-safe
+gs_sql.egg-info/top_level.txt
