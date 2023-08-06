@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: s1290080-learn
+Version: 1.0.1
+Requires-Python: >=3.5
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: pami
+
