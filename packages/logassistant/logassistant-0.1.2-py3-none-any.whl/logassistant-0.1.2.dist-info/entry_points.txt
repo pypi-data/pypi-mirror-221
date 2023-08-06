@@ -1,0 +1,2 @@
+[console_scripts]
+log_assist_script = main:main
