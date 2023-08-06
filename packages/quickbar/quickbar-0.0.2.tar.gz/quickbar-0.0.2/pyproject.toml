@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "quickbar"
+version = "0.0.2"
+description = "A small python package to make rich progress bars as easy as 1,2,3."
+authors = ["volt-france <arno.veletanlic@volteuropa.org>"]
+readme = "README.md"
+homepage="https://github.com/arnos-stuff/quickbar"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.4.2"
+typer = "^0.9.0"
+
+[tool.poetry.scripts]
+quickbar = "quickbar.__main__:app"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
