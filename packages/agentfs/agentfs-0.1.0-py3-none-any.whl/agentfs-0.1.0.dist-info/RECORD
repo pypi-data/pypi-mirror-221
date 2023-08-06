@@ -1,0 +1,9 @@
+agentfs/__init__.py,sha256=gxT2t-tqkV00grksETcoUYEOdDBml4HIg6r5mgBvP7s,351
+agentfs/constants.py,sha256=H1ePxvz1iUQi3XJ3evkWTdjmQIZ-XA71vEbOsVjuJnc,38
+agentfs/files.py,sha256=dWWl95iDi9JZ6ni2k_9hw2L2kRbAAzW2foGCs7LtF4c,1145
+agentfs/server.py,sha256=_WVTLwAloc8TsXzmMF3l6calumypR0cFYluDhnmBq3Y,1889
+agentfs-0.1.0.dist-info/LICENSE,sha256=27jsz0mFpX12HOCriY24qaoKox2959iM6pQOTWAe_Rc,1126
+agentfs-0.1.0.dist-info/METADATA,sha256=BaJHQzQgSxVU91x_MuMWTFRLgKEuGroX09myXP-8Gb4,4889
+agentfs-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+agentfs-0.1.0.dist-info/top_level.txt,sha256=PYg8l-9P_nuKOT5yJe4jm71JURhTupIJa2c3GThLqVE,8
+agentfs-0.1.0.dist-info/RECORD,,
