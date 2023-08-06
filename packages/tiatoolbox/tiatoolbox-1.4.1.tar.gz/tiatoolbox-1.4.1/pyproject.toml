@@ -1,0 +1,53 @@
+[tool.pytest.ini_options]
+  collect_ignore = ["setup.py", "benchmark/"]
+
+[tool.black]
+  exclude = '''
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | docs
+    | data
+    | setup.py
+  )/
+  '''
+  include = '\.pyi?$'
+  line-length = 88
+  target-version = ['py37', 'py38', 'py39', 'py310']
+
+
+[tool.coverage.run]
+  branch = true
+  source = ['tiatoolbox']
+  omit = ['tests/*', 'tiatoolbox/__main__.py', '*/utils/env_detection.py']
+
+[tool.coverage.report]
+  exclude_lines = [
+    'if self.debug:',
+    'pragma: no cover',
+    'raise NotImplementedError',
+    'if __name__ == .__main__.:',
+  ]
+  ignore_errors = true
+  omit = ['tests/*', 'tiatoolbox/__main__.py', '*/utils/env_detection.py']
+
+[tool.isort]
+  profile = "black"
+  multi_line_output = 3
+  line_length = 88
+  filter_files = "True"
+  skip = [".gitignore", "benchmarks/*"]
+
+[build-system]
+  requires = ["setuptools"]
+  build-backend = "setuptools.build_meta"
+
+[tool.distutils.bdist_wheel]
+  universal = true
