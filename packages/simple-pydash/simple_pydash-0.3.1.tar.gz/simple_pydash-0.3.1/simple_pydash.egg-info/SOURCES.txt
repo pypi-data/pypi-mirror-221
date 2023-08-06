@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_pydash/model.py
+simple_pydash/server.py
+simple_pydash.egg-info/PKG-INFO
+simple_pydash.egg-info/SOURCES.txt
+simple_pydash.egg-info/dependency_links.txt
+simple_pydash.egg-info/requires.txt
+simple_pydash.egg-info/top_level.txt
