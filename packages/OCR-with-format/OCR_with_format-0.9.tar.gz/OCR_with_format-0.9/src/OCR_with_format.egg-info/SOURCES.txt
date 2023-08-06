@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/OCR_with_format/__init__.py
+src/OCR_with_format/__main__.py
+src/OCR_with_format.egg-info/PKG-INFO
+src/OCR_with_format.egg-info/SOURCES.txt
+src/OCR_with_format.egg-info/dependency_links.txt
+src/OCR_with_format.egg-info/entry_points.txt
+src/OCR_with_format.egg-info/requires.txt
+src/OCR_with_format.egg-info/top_level.txt
