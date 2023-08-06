@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mesh-database-client
+Version: 1.3
+Summary: Conects to mesh install database
+Author: Andy Baumgar & Andrew Dickinson
+Author-email: support@nycmesh.net
