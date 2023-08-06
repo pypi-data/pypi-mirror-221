@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: gdrive-bot
+Version: 1.0.0
+Summary: upload files to gdrive with access token
+Home-page: https://github.com/jakbin/g-bot
+Author: Jak Bin
+Author-email: jakbin4747@gmail.com
+Project-URL: Bug Tracker, https://github.com/jakbin/g-bot/issues
+Keywords: gdrive,g-bot,gdrive-api,gdrive-api-bot,gdrive-file-upload,gdrive-upload
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: tqdm
+
+# g-bot
+
+Upload files to your Telegram channel or group with your telegram bot
+
+ ![GitHub Contributors](https://img.shields.io/github/contributors/jakbin/g-bot)
+ ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jakbin/g-bot)
+ ![GitHub last commit](https://img.shields.io/github/last-commit/jakbin/g-bot)
+ ![Python 3.6](https://img.shields.io/badge/python-3.6-yellow.svg)
+
+
+## Features
+- Progress bar
+- You can change file name before upload on telegram
+
+Note : Bot can upload only 50 MB file (with default telegram bot api server url)
+
+
+## Installation
+
+```sh
+pip3 install -U https://github.com/jakbin/g-bot/archive/main.zip
+```
+
+## Usage 
+```sh
+g-bot setup               # setup your telegram credentials
+g-bot reset               # reset to default your telegram credentials
+g-bot test                # test telegram bot token
+g-bot getid               # get chat id of your connected group or channel
+g-bot up {file_name} -c file_caption       # upload Telegram channel or group
+g-bot d {url} -c caption                   # download and file to your server
+```
+
+# API
+
+The anonfile-upload client is also usable through an API (for test integration, automation, etc)
+
+### g_bot.main.test_token(bot_token)
+
+```py
+from g_bot.main import test_token
+
+test_token(bot_token)   # bot_token type str
+```
+
+### g_bot.main.uploadd_file(bot_token, chat_id, file_name, caption)
+
+```py
+from g_bot.main import uploadd_file
+
+uploadd_file(bot_token, chat_id, file_name, caption)    # all arguments must be str
+```
+
+### g_bot.main.download(url:str, bot_token:str, chat_id:str, caption:str=None)
+
+```py
+from g_bot.main import download
+
+download(url, bot_token, chat_id, caption)    # all arguments must be str
+```
