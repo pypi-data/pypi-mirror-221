@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+stdflow.egg-info/PKG-INFO
+stdflow.egg-info/SOURCES.txt
+stdflow.egg-info/dependency_links.txt
+stdflow.egg-info/requires.txt
+stdflow.egg-info/top_level.txt
