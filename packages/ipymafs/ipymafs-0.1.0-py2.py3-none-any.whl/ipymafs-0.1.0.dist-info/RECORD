@@ -1,0 +1,11 @@
+ipymafs/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+ipymafs/__init__.py,sha256=mL8ps0BbhvevJ6DsQ2Pjlj_nS4rmMacGjlREfuGHGqA,593
+ipymafs/bezier.css,sha256=iV5n3rXmVxW0TTApteejAf_s93kY47YHsXKrVwjIG2o,1903
+ipymafs/bezier.js,sha256=sMzx9QVZJ6bBh-vWlR2lF4tkP8eR-RykBDFvzAUPgQI,476500
+ipymafs/ellipse.css,sha256=iV5n3rXmVxW0TTApteejAf_s93kY47YHsXKrVwjIG2o,1903
+ipymafs/ellipse.js,sha256=QH9G-lKOK0chFjNtmDHoKTGngB8AnI-GjTX-5QrdIiM,470957
+ipymafs/line.css,sha256=iV5n3rXmVxW0TTApteejAf_s93kY47YHsXKrVwjIG2o,1903
+ipymafs/line.js,sha256=38u0QvklpGK48W0Tgymv5Mkj7Evs0T1mQjS_QZZMtf0,471397
+ipymafs-0.1.0.dist-info/METADATA,sha256=XZLTtCTER4ZRAhd1Q7jATg_T-Ql92_6ZmtxpPk5pglI,618
+ipymafs-0.1.0.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+ipymafs-0.1.0.dist-info/RECORD,,
