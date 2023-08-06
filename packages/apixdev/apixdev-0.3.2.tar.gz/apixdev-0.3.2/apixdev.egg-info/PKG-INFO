@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apixdev
+Version: 0.3.2
+Summary: ApiX CLI
+Home-page: https://github.com/apikcloud/apix-cli
+Author: Aurelien ROY
+Author-email: roy.aurelien@gmail.com
+License: MIT
+Keywords: docker odoo development
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
