@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "mkdocs-labeled-user-defined-values"
+version = "1.0.0"
+authors = [
+  { name="Alban MAZEROLLES", email="amazerol_dev@yahoo.com" },
+]
+description = "An enhanced version of mkdocs-user-defined-values. Keywords can now be categorized."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/amazerol/mkdocs-labeled-user-defined-values"
+"Bug Tracker" = "https://github.com/amazerol/mkdocs-labeled-user-defined-values/issues"
