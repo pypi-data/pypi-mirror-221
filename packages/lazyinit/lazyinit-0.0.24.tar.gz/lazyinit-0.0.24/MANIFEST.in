@@ -1,0 +1,2 @@
+include lazyinit/*.txt
+include lazyinit/*.conf
