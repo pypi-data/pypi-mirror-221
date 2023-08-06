@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: common_bidso
+Version: 0.0.4
+Summary: Common functionality to share among different services in bidso
+Author: Bidso Dev
