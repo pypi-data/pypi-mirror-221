@@ -1,0 +1,4 @@
+include LICENSE
+include requirements.txt
+include README.md
+include social_collage/example_images/*.jpg
