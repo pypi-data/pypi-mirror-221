@@ -1,0 +1,8 @@
+setup.py
+pkglib35/__init__.py
+pkglib35/mod_a.py
+pkglib35/mod_b.py
+pkglib35.egg-info/PKG-INFO
+pkglib35.egg-info/SOURCES.txt
+pkglib35.egg-info/dependency_links.txt
+pkglib35.egg-info/top_level.txt
