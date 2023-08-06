@@ -1,0 +1,13 @@
+xgorn_api/__init__.py,sha256=Btg3HPato0_VHt9sigsdXRZbTonOBkQlhh7311__ESk,1162
+xgorn_api/api.py,sha256=t9pLOxIJ1QyqFf2ks0B4CuvfZWwRh3u0MNI_NOTXyrI,2174
+xgorn_api/features/__init__.py,sha256=QHVTgn8KnUDoqGWIgAgKhWERLvp1apUcphkWqXz3cdA,1245
+xgorn_api/features/ai.py,sha256=D3KsjVoQ241cuHfo29t26oqUSX5L5bNBBthMu_jjpAA,1410
+xgorn_api/features/bypass.py,sha256=DTmRJmFbE6v8p_DVXT2vMRO2R9fRlxYSjQ2VMEm5VSE,1439
+xgorn_api/features/music.py,sha256=sCPvK26AMhFZdcb6ONDPCdSrheSq2NG7W1JL2eg1J20,1325
+xgorn_api/features/scrape.py,sha256=jQbtqORsyA-SkKZ6e5AUlIeiP0aEDenZugqny-Bnynk,3660
+xgorn_api/features/translate.py,sha256=QwrNhF6vRiYRdecW49aqD1dbQdrPg3t4qrk0hlSMPW8,1541
+xgorn_api-1.0.5.dist-info/LICENSE,sha256=7LTkzwNz_OU_b8M0SiAtMzvf51Zw87Miqpj_t-0rZNg,1063
+xgorn_api-1.0.5.dist-info/METADATA,sha256=WVkyYkovon-r06uuYzsJCwPdPcW6eBuMzBGFl-Ahae4,2053
+xgorn_api-1.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xgorn_api-1.0.5.dist-info/top_level.txt,sha256=trkpydfJQ3c3MhejwhSolH89bir_QUiAf82bOJ7ZitY,10
+xgorn_api-1.0.5.dist-info/RECORD,,
