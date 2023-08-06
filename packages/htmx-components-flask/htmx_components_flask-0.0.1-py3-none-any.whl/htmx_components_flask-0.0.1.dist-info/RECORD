@@ -1,0 +1,12 @@
+htmx_components_flask/__init__.py,sha256=nckDowjKoE0TuH0YpXr15hotOLPs6kUrv54EvLWdxXE,1087
+htmx_components_flask/templates/htmx_components_flask/pager.html,sha256=F3nNdV56SLlqnUtEXyLpW96YjnUV11qvWsa6Thdt8kA,1048
+htmx_components_flask/templates/htmx_components_flask/sortlink.html,sha256=YSzW9aEltuUpyUx64FVpuhzkvaQiSuEAiiQAU8J6F10,380
+htmx_components_flask/templates/htmx_components_flask/viewgrid.html,sha256=pKH2luwzoSUQW1nmFmEGqaGwUInazMniI70IuuzntoY,2969
+htmx_components_flask/templates/htmx_components_flask/form/description.html,sha256=Q1-d7TTcwN5WEZxM8EBVlTEmjp5QwoC8nOI7cGYAG0Q,89
+htmx_components_flask/templates/htmx_components_flask/form/errors.html,sha256=eq38GHtT1ScGM28ohp2-E7FWU5mN3k7AMUFA2m5wUKs,92
+htmx_components_flask/templates/htmx_components_flask/form/horizontal.html,sha256=buR9uCLAoPhN_e_Tp4BsKl61874O3g8yg6YrWNDZ74g,2674
+htmx_components_flask-0.0.1.dist-info/LICENSE,sha256=NuWaRfoFn2d3soUlcoCuqCnyX5954RBhDPUyfGp8qqk,1070
+htmx_components_flask-0.0.1.dist-info/METADATA,sha256=brkaoMf2sASrAsCV97WhJxZq1j2q7QaQPhxje_eykYo,359
+htmx_components_flask-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+htmx_components_flask-0.0.1.dist-info/top_level.txt,sha256=Aem2_l-Ts-Ywkv0NRrIPO1FlnnD-GHQChy-NNY547m0,22
+htmx_components_flask-0.0.1.dist-info/RECORD,,
