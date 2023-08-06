@@ -1,0 +1,29 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"Canutillo ISD (071907)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"El Paso ISD (071902)",8
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"Fabens ISD (071903)",12
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"Ft Hancock ISD (115901)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"San Elizario ISD (071904)",30
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"Socorro ISD (071909)",64
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",100,"Ysleta ISD (071905)",19
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",200,"","."
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",100,"Transfers In From",300,"","."
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",6
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"El Paso Academy (071804)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"El Paso ISD (071902)",63
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Fabens ISD (071903)",23
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",55
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"La Vega ISD (161906)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Paso Del Norte Academy Charter Dis (071803)",7
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"San Elizario ISD (071904)",26
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Socorro ISD (071909)",170
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Tornillo ISD (071908)",-9999999
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Vista Del Futuro Charter School (071809)",5
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",100,"Ysleta ISD (071905)",210
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",200,"","."
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",200,"Total Transfers Out",577
+"2011-12",19,"Region XIX El Paso","Clint ISD (071901)",200,"Transfers Out To",300,"","."
+

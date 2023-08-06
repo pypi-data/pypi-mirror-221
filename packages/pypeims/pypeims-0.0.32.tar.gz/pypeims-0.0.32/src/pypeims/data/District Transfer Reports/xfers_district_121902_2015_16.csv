@@ -1,0 +1,15 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",100,"Transfers In From",100,"Jasper ISD (121904)",66
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",100,"Transfers In From",100,"West Sabine ISD (202905)",5
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",100,"Transfers In From",200,,"."
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",100,"Transfers In From",200,"Total Transfers In",71
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",100,"Transfers In From",300,,"."
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",100,"Broaddus ISD (203902)",-9999999
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",100,"Jasper ISD (121904)",10
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",100,"Warren ISD (229904)",-9999999
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",100,"West Sabine ISD (202905)",14
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",200,,"."
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",200,"Total Transfers Out",32
+"2015-16",05,"Region V Beaumont","Brookeland ISD (121902)",200,"Transfers Out To",300,,"."
+

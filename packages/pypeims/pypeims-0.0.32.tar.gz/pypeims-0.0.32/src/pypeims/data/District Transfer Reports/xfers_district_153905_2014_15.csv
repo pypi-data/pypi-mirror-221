@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Brownfield ISD (223901)",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Frenship ISD (152907)",22
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Lubbock ISD (152901)",35
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",96
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Meadow ISD (223902)",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Slaton ISD (152903)",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Tahoka ISD (153904)",7
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",100,"Wilson ISD (153907)",6
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",200,"","."
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",200,"Total Transfers In",172
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",100,"Transfers In From",300,"","."
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",100,"Lubbock ISD (152901)",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",100,"Lubbock-Cooper ISD (152906)",7
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",100,"Meadow ISD (223902)",6
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",200,"","."
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2014-15",17,"Region XVII Lubbock","New Home ISD (153905)",200,"Transfers Out To",300,"","."
+

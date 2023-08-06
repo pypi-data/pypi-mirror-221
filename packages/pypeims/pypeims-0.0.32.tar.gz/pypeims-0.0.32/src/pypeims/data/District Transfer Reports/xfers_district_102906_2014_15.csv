@@ -1,0 +1,19 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",100,"Carthage ISD (183902)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",100,"Marshall ISD (102902)",18
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",100,"Waskom ISD (102903)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",200,"","."
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",100,"Transfers In From",300,"","."
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Carthage ISD (183902)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Hallsville ISD (102904)",5
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Longview ISD (092903)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Marshall ISD (102902)",5
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Panola Charter School (183801)",5
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",100,"Waskom ISD (102903)",10
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",200,"","."
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",200,"Total Transfers Out",32
+"2014-15",07,"Region VII Kilgore","Elysian Fields ISD (102906)",200,"Transfers Out To",300,"","."
+

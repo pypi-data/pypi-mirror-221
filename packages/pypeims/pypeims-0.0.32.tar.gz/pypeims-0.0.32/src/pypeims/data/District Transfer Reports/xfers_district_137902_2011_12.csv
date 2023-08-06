@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",100,"Alice ISD (125901)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",100,"Kingsville ISD (137901)",118
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",100,"Riviera ISD (137903)",7
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",200,"","."
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",100,"Transfers In From",300,"","."
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Bishop CISD (178902)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Driscoll ISD (178905)",19
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",9
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Kenedy County Wide CSD (131001)",6
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Kingsville ISD (137901)",87
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Riviera ISD (137903)",103
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Santa Gertrudis ISD (137904)",56
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",100,"Tuloso-Midway ISD (178912)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",200,"","."
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",200,"Total Transfers Out",286
+"2011-12",02,"Region II Corpus Christi","Ricardo ISD (137902)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,30 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"AMARILLO ISD  -  188901",12
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"BUSHLAND ISD  -  188904",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"CHANNING ISD  -  103901",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"DIMMITT ISD  -  035901",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"DUMAS ISD  -  171901",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"HIGHLAND PARK ISD  -  188903",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"PERRYTON ISD  -  179901",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",100,"VEGA ISD  -  180902",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",200,,"."
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",30
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",100,"Transfers In From",300,,"."
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",200,"Transfers Out To",100,"JEFFERSON ISD  -  155901",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",200,"Transfers Out To",100,"VEGA ISD  -  180902",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",200,"Transfers Out To",200,,"."
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",-999
+"2022-2023",16,"REGION XVI AMARILLO","BOYS RANCH ISD  -  180901","Traditional ISD/CSD",200,"Transfers Out To",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

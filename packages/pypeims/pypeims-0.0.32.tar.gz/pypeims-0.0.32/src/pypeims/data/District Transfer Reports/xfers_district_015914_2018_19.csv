@@ -1,0 +1,52 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Alamo Heights ISD (015901)",13
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Boerne ISD (130901)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",34
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",142
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Lackland ISD (015913)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",131
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",33
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Randolph Field ISD (015906)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",16
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",40
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",438
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",16
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",41
+"2018-2019",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

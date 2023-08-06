@@ -1,0 +1,19 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Idalou ISD (152910)",6
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Jefferson ISD (155901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Lubbock ISD (152901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Petersburg ISD (095904)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Roosevelt ISD (152908)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",100,"Slaton ISD (152903)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",200,"","."
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",200,"Total Transfers In",14
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",100,"Transfers In From",300,"","."
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",100,"Idalou ISD (152910)",21
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",100,"Lubbock ISD (152901)",5
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",100,"Petersburg ISD (095904)",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",100,"Ralls ISD (054903)",5
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",100,"Roosevelt ISD (152908)",6
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",200,"","."
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",17,"Region XVII Lubbock","Lorenzo ISD (054902)",200,"Transfers Out To",300,"","."
+

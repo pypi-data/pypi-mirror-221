@@ -1,0 +1,82 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Austin ISD (227901)",49
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Bastrop ISD (011901)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Burnet CISD (027903)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Elgin ISD (011902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Georgetown ISD (246904)",45
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Hutto ISD (246906)",65
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Jarrell ISD (246907)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Lago Vista ISD (227912)",5
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Leander ISD (246913)",140
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Liberty Hill ISD (246908)",7
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Manor ISD (227907)",7
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Pflugerville ISD (227904)",124
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",100,"Taylor ISD (246911)",13
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",200,"","."
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",200,"Total Transfers In",463
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",100,"Transfers In From",300,"","."
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"American Youthworks Charter School (227801)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Austin Discovery School (227821)",13
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Austin ISD (227901)",100
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Axtell ISD (161918)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Belton ISD (014903)",50
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Brenham ISD (239901)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Cedars International Academy (227817)",11
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Chaparral Star Academy (227814)",149
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Dallas ISD (057905)",5
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Del Valle ISD (227910)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Eanes ISD (227909)",9
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Elgin ISD (011902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Florence ISD (246902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Georgetown ISD (246904)",21
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",649
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Hays CISD (105906)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Hutto ISD (246906)",50
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Idea Public Schools (108807)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Jarrell ISD (246907)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",7
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",91
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Killeen ISD (014906)",11
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Kipp Austin Public Schools Inc (227820)",33
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"La Grange ISD (075902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Lake Travis ISD (227913)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Lamar CISD (079901)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Leander ISD (246913)",127
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Liberty Hill ISD (246908)",8
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Lockhart ISD (028902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Lone Oak ISD (116906)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Manor ISD (227907)",8
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Meridian World School LLC (246801)",667
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"NYOS Charter School (227804)",125
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Northwest ISD (061911)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Orenda Charter School (014804)",510
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Pflugerville ISD (227904)",86
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Premier High Schools (072801)",108
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Priority Charter Schools (014803)",7
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Southside ISD (015917)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Taylor ISD (246911)",8
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Texarkana ISD (019907)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",102
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Texas Empowerment Academy (227805)",11
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"The East Austin College Prep Acade (227824)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Thorndale ISD (166905)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"University Of Texas Elementary Cha (227819)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",27
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"Wayside Schools (227803)",7
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",100,"West ISD (161916)",-9999999
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",200,"","."
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",200,"Total Transfers Out",3053
+"2013-14",13,"Region XIII Austin","Round Rock ISD (246909)",200,"Transfers Out To",300,"","."
+

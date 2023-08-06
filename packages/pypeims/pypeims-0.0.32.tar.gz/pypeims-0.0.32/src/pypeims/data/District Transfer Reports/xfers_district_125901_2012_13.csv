@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"Agua Dulce ISD (178901)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"Ben Bolt-Palito Blanco ISD (125902)",5
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"Bishop CISD (178902)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"Calallen ISD (178903)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",100,"San Diego ISD (066902)",9
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",200,"","."
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",200,"Total Transfers In",21
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",100,"Transfers In From",300,"","."
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Agua Dulce ISD (178901)",56
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Banquete ISD (178913)",5
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Ben Bolt-Palito Blanco ISD (125902)",16
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Bishop CISD (178902)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",5
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Orange Grove ISD (125903)",39
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Ricardo ISD (137902)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"San Diego ISD (066902)",15
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Santa Gertrudis ISD (137904)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",11
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",200,"","."
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",200,"Total Transfers Out",158
+"2012-13",02,"Region II Corpus Christi","Alice ISD (125901)",200,"Transfers Out To",300,"","."
+

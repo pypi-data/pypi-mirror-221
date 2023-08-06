@@ -1,0 +1,753 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Abilene ISD (221901)",39
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Academy ISD (014901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alamo Heights ISD (015901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alba-Golden ISD (250906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",134
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Aledo ISD (184907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alice ISD (125901)",17
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alief ISD (101903)",69
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Allen ISD (043901)",22
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alpine ISD (022901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alto ISD (037901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvarado ISD (126901)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvin ISD (020901)",64
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Amarillo ISD (188901)",56
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anahuac ISD (036901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anderson-Shiro CISD (093901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Andrews ISD (002901)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Angleton ISD (020902)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",23
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anson ISD (127901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anthony ISD (071906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Anton ISD (110901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Aransas County ISD (004901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Aransas Pass ISD (205901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Argyle ISD (061910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",144
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Athens ISD (107901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Atlanta ISD (034901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Aubrey ISD (061907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",104
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Avalon ISD (070901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Avery ISD (194902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Avinger ISD (034902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Axtell ISD (161918)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",31
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ballinger ISD (200901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bandera ISD (010902)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bangs ISD (025901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Banquete ISD (178913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Barbers Hill ISD (036902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bartlett ISD (014902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bay City ISD (158901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Beaumont ISD (123910)",40
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Beckville ISD (183901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Beeville ISD (013901)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bells ISD (091901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bellville ISD (008901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Belton ISD (014903)",16
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ben Bolt-Palito Blanco ISD (125902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Big Sandy ISD (187901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Big Sandy ISD (230901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Big Spring ISD (114901)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bishop CISD (178902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Blanco ISD (016902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Blooming Grove ISD (175902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Blue Ridge ISD (043917)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Blum ISD (109913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Boerne ISD (130901)",22
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Boles ISD (116916)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Boling ISD (241901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bonham ISD (074903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Borden County ISD (017901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Borger ISD (117901)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bosqueville ISD (161923)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bovina ISD (185901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bowie ISD (169901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Boyd ISD (249902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brackett ISD (136901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brady ISD (160901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brazos ISD (008903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brazosport ISD (020905)",34
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Breckenridge ISD (215901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brenham ISD (239901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bridge City ISD (181901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bridgeport ISD (249903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Broaddus ISD (203902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brock ISD (184909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brooks County ISD (024901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownfield ISD (223901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsboro ISD (107902)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsville ISD (031901)",25
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownwood ISD (025902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bruceville-Eddy ISD (161919)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",42
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Buffalo ISD (145901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bullard ISD (212902)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Buna ISD (121903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burkburnett ISD (243901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burkeville ISD (176901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burleson ISD (126902)",36
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burnet CISD (027903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burton ISD (239903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bynum ISD (109902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Caddo Mills ISD (116901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Calallen ISD (178903)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Caldwell ISD (026901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Calhoun County ISD (029901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Callisburg ISD (049905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cameron ISD (166901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Campbell ISD (116910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Canadian ISD (106901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Canton ISD (234902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Canutillo ISD (071907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Canyon ISD (191901)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Carlisle ISD (201913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrizo Springs CISD (064903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Carroll ISD (220919)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrollton-Farmers Branch ISD (057903)",33
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Carthage ISD (183902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Castleberry ISD (220917)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",34
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Celina ISD (043903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Center ISD (210901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Center Point ISD (133901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Centerville ISD (145902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Central Heights ISD (174908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Central ISD (003907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Channelview ISD (101905)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (212909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chico ISD (249904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Childress ISD (038901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chillicothe ISD (099902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chilton ISD (073901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"China Spring ISD (161920)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chisum ISD (139905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"City View ISD (243906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clarendon ISD (065901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clarksville ISD (194904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clear Creek ISD (084910)",72
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleburne ISD (126903)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleveland ISD (146901)",41
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clifton ISD (018901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clint ISD (071901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Clyde CISD (030902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Coahoma ISD (114902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Coldspring-Oakhurst CISD (204901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Coleman ISD (042901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"College Station ISD (021901)",28
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Colmesneil ISD (229901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Colorado ISD (168901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Columbia-Brazoria ISD (020907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Columbus ISD (045902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",54
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Comanche ISD (047901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Comfort ISD (130902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Commerce ISD (116903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Como-Pickton CISD (112908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Connally ISD (161921)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",104
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cooper ISD (060902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Coppell ISD (057922)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Copperas Cove ISD (050910)",49
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Corpus Christi ISD (178904)",104
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Corsicana ISD (175903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cotulla ISD (142901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crandall ISD (129901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crane ISD (052901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crawford ISD (161901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crockett ISD (113901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crosby ISD (101906)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crosbyton CISD (054901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cross Plains ISD (030901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cross Roads ISD (107904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",59
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crystal City ISD (254901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cuero ISD (062901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cumby ISD (112905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cushing ISD (174902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",173
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Daingerfield-Lone Star ISD (172902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dalhart ISD (056901)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",344
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dawson ISD (175904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dayton ISD (146902)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Decatur ISD (249905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Deer Park ISD (101908)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dekalb ISD (019901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dell City ISD (115903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Denison ISD (091903)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",81
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Denver City ISD (251901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",41
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Devine ISD (163901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dew ISD (081906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Deweyville ISD (176903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Diboll ISD (003905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dickinson ISD (084901)",28
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dilley ISD (082902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Donna ISD (108902)",16
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Douglass ISD (174911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dripping Springs ISD (105904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dublin ISD (072902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",31
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",53
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Pass ISD (159901)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eanes ISD (227909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Early ISD (025909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",35
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"East Chambers ISD (036903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eastland ISD (067903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector County ISD (068901)",145
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector ISD (074905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Edcouch-Elsa ISD (108903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eden CISD (048901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (015905)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (234903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Edinburg CISD (108904)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Edna ISD (120901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"El Campo ISD (241903)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"El Paso ISD (071902)",110
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Electra ISD (243902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Elgin ISD (011902)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Elkhart ISD (001903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Elysian Fields ISD (102906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eula ISD (030906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Eustace ISD (107905)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Everman ISD (220904)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fabens ISD (071903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fairfield ISD (081902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Farmersville ISD (043904)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ferris ISD (070905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Flatonia ISD (075901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Florence ISD (246902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Flour Bluff ISD (178914)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Floydada ISD (077901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",47
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",173
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Stockton ISD (186902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",175
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Franklin ISD (198903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frankston ISD (001904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fredericksburg ISD (086901)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frenship ISD (152907)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Friendswood ISD (084911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",81
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frost ISD (175905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ft Hancock ISD (115901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ft Sam Houston ISD (015914)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gainesville ISD (049901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Galveston ISD (084902)",21
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ganado ISD (120902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",85
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Garrison ISD (174903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gatesville ISD (050902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gause ISD (166902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"George West ISD (149901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Georgetown ISD (246904)",33
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Giddings ISD (144901)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gilmer ISD (230902)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gladewater ISD (092901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Glen Rose ISD (213901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Godley ISD (126911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Goldthwaite ISD (167901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Goliad ISD (088902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gonzales ISD (089901)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Goodrich ISD (187903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Goose Creek CISD (101911)",53
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gorman ISD (067904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Graham ISD (252901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Granbury ISD (111901)",25
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",41
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Saline ISD (234904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grandview ISD (126904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grape Creek ISD (226907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapeland ISD (113902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenville ISD (116905)",17
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenwood ISD (165902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Gregory-Portland ISD (205902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Groesbeck ISD (147902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Groveton ISD (228901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hale Center ISD (095903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hallettsville ISD (143901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hamilton ISD (097902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hamlin Collegiate ISD (127903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hamshire-Fannett ISD (123914)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Happy ISD (219901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hardin ISD (146904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hardin-Jefferson ISD (100905)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harleton ISD (102905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",19
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harmony ISD (230905)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harper ISD (086902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Harts Bluff ISD (225907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hawkins ISD (250902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",46
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hearne ISD (198905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hemphill ISD (202903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hempstead ISD (237902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Henderson ISD (201902)",19
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Henrietta ISD (039902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hereford ISD (059901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hico ISD (097903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hidalgo ISD (108905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Highland Park ISD (057911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Highland Park ISD (188903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hillsboro ISD (109904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hitchcock ISD (084908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hondo ISD (163904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hooks ISD (019902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",308
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Howe ISD (091905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hubbard ISD (109905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Huckabay ISD (072908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hudson ISD (003902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Huffman ISD (101925)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hughes Springs ISD (034903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hull-Daisetta ISD (146905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",59
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hunt ISD (133902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntington ISD (003904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntsville ISD (236902)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hurst-Euless-Bedford ISD (220916)",50
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hutto ISD (246906)",33
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Idalou ISD (152910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Industrial ISD (120905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ingleside ISD (205903)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ingram ISD (133904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Iola ISD (093903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Iowa Park CISD (243903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Iraan-Sheffield ISD (186903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",40
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Italy ISD (070907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Itasca ISD (109907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jacksboro ISD (119902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jacksonville ISD (037904)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jarrell ISD (246907)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jasper ISD (121904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jefferson ISD (155901)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jim Hogg County ISD (124901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jim Ned CISD (221911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Joshua ISD (126905)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Jourdanton ISD (007902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",106
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Junction ISD (134901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Karnack ISD (102901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Karnes City ISD (128901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Katy ISD (101914)",100
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kaufman ISD (129903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Keene ISD (126906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",55
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kemp ISD (129904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kennard ISD (113906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kennedale ISD (220914)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kerens ISD (175907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kermit ISD (248901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kerrville ISD (133903)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kilgore ISD (092902)",31
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Killeen ISD (014906)",252
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kingsville ISD (137901)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kirbyville CISD (121905)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",79
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Klondike ISD (058905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Knippa ISD (232901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Knox City-O'Brien CISD (138902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kopperl ISD (018907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kountze ISD (100903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Krum ISD (061905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Feria ISD (031905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Grange ISD (075902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Joya ISD (108912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Porte ISD (101916)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vega ISD (161906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",20
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lackland ISD (015913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lago Vista ISD (227912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Dallas ISD (061912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Travis ISD (227913)",23
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Worth ISD (220910)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lamar CISD (079901)",56
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lamesa ISD (058906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lampasas ISD (141901)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Laneville ISD (201903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lapoynor ISD (107910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Laredo ISD (240901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Leander ISD (246913)",94
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Leon ISD (145911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Leonard ISD (074909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Levelland ISD (110902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",50
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty Hill ISD (246908)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty ISD (146906)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty-Eylau ISD (019908)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lindale ISD (212903)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Linden-Kildare CISD (034905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Cypress-Mauriceville CISD (181908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",21
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Littlefield ISD (140904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Livingston ISD (187907)",49
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Llano ISD (150901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockney ISD (077902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lometa ISD (141902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lone Oak ISD (116906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Longview ISD (092903)",180
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lorena ISD (161907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Los Fresnos CISD (031906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Louise ISD (241906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lovejoy ISD (043919)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lubbock ISD (152901)",47
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lufkin ISD (003903)",31
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Luling ISD (028903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lumberton ISD (100907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lytle ISD (007904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mabank ISD (129905)",25
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Madisonville CISD (154901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Magnolia ISD (170906)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Malakoff ISD (107906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",26
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",70
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marathon ISD (022902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marble Falls ISD (027904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marfa ISD (189901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marion ISD (094904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marlin ISD (073903)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Marshall ISD (102902)",154
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mason ISD (157901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mathis ISD (205904)",25
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Maypearl ISD (070915)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"McAllen ISD (108906)",27
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"McGregor ISD (161909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",54
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"McMullen County ISD (162904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",19
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Melissa ISD (043908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mercedes ISD (108907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Merkel ISD (221904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",82
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mexia ISD (147903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midland ISD (165901)",80
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midway ISD (039905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midway ISD (161903)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Milano ISD (166903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mildred ISD (175910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Milford ISD (070909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Millsap ISD (184904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineola ISD (250903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineral Wells ISD (182903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mission CISD (108908)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Monahans-Wickett-Pyote ISD (238902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Monte Alto ISD (108915)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Montgomery ISD (170903)",17
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Moody ISD (161910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Morgan ISD (018903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Moulton ISD (143902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mount Enterprise ISD (201907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mount Pleasant ISD (225902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mount Vernon ISD (080901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Muleshoe ISD (009901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mullin ISD (167902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Nacogdoches ISD (174904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Natalia ISD (163903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Navarro ISD (094903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Navasota ISD (093904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Nederland ISD (123905)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Needville ISD (079906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Boston ISD (019905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",32
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",35
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Deal ISD (152902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Diana ISD (230906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Summerfield ISD (037908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Waverly ISD (236901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Newcastle ISD (252902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Newton ISD (176902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Nixon-Smiley CISD (089903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Nocona ISD (169902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",138
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"North Hopkins ISD (112906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"North Lamar ISD (139911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"North Zulch ISD (154903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",200
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (244905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Northwest ISD (061911)",68
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Nursery ISD (235904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Odem-Edroy ISD (205905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Oglesby ISD (050904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Olney ISD (252903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Onalaska ISD (187910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Orange Grove ISD (125903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Orangefield ISD (181905)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ore City ISD (230903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Overton ISD (201908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Palacios ISD (158905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Palestine ISD (001907)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Palmer ISD (070910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pampa ISD (090904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Panther Creek CISD (042905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Paradise ISD (249906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Paris ISD (139909)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pasadena ISD (101917)",63
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pearland ISD (020908)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pearsall ISD (082903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Peaster ISD (184908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pecos-Barstow-Toyah ISD (195901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Perrin-Whitt CISD (119903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Petersburg ISD (095904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pettus ISD (013903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pewitt CISD (172905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",42
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pine Tree ISD (092904)",33
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pittsburg ISD (032902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Plains ISD (251902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Plainview ISD (095905)",22
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",68
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pleasant Grove ISD (019912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pleasanton ISD (007905)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Point Isabel ISD (031909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ponder ISD (061906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Poolville ISD (184901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Port Aransas ISD (178908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Port Arthur ISD (123907)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Port Neches-Groves ISD (123908)",21
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Poteet ISD (007906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Pottsboro ISD (091913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Prairie Lea ISD (028906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Prairiland ISD (139912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Presidio ISD (189902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Progreso ISD (108910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Queen City ISD (034907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Quinlan ISD (116908)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Quitman ISD (250904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rains ISD (190903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Randolph Field ISD (015906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ranger ISD (067907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rankin ISD (231902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Raymondville ISD (245903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Lick ISD (019911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Redwater ISD (019906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ricardo ISD (137902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rice CISD (045903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rice ISD (175911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Richards ISD (093905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",43
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rio Grande City CISD (214901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rio Hondo ISD (031911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rio Vista ISD (126907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"River Road ISD (188902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Riviera ISD (137903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Robert Lee ISD (041902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Robinson ISD (161922)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Robstown ISD (178909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockdale ISD (166904)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",37
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rogers ISD (014907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Roma ISD (214903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Roosevelt ISD (152908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rosebud-Lott ISD (073905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",67
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Royal ISD (237905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Royse City ISD (199902)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Runge ISD (128903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rusk ISD (037907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"S And S CISD (091914)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sabinal ISD (232902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sabine ISD (092906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Salado ISD (014908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Angelo ISD (226903)",29
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",87
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Augustine ISD (203901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Benito CISD (031912)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Diego ISD (066902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Elizario ISD (071904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Felipe-Del Rio CISD (233901)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"San Marcos CISD (105902)",23
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sanger ISD (061908)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Anna ISD (042903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Fe ISD (084909)",28
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Gertrudis ISD (137904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Rosa ISD (031914)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Santo ISD (182904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Savoy ISD (074911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",45
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Schleicher ISD (207901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Schulenburg ISD (075903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Seagraves ISD (083901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sealy ISD (008902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Seminole ISD (083903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Shallowater ISD (152909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Shamrock ISD (242902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sharyland ISD (108911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Shelbyville ISD (210903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sheldon ISD (101924)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Shepherd ISD (204904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sherman ISD (091906)",22
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Shiner ISD (143903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sidney ISD (047905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Silsbee ISD (100904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sinton ISD (205906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Skidmore-Tynan ISD (013905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Slaton ISD (152903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Slocum ISD (001909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Smyer ISD (110906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Snook ISD (026903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Snyder ISD (208902)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Socorro ISD (071909)",58
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Somerset ISD (015909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sonora ISD (218901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"South San Antonio ISD (015908)",21
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Splendora ISD (170907)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring Branch ISD (101920)",29
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring Hill ISD (092907)",12
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",107
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Springlake-Earth ISD (140907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Springtown ISD (184902)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Spurger ISD (229905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Stafford MSD (079910)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Stamford ISD (127906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Stephenville ISD (072903)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sterling City ISD (216901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Stockdale ISD (247906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Stratford ISD (211902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sulphur Springs ISD (112901)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sunnyvale ISD (057919)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sunray ISD (171902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sweeny ISD (020906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sweetwater ISD (177902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Taft ISD (205907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tarkington ISD (146907)",28
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tatum ISD (201910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Taylor ISD (246911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Teague ISD (081904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",32
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tenaha ISD (210904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Terrell ISD (129906)",15
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Texarkana ISD (019907)",17
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Texas City ISD (084906)",64
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Three Rivers ISD (149902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tidehaven ISD (158902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Timpson ISD (210905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tolar ISD (111903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tom Bean ISD (091918)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tomball ISD (101921)",23
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Trenton ISD (074912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Trinidad ISD (107907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Trinity ISD (228903)",11
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Troup ISD (212904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Troy ISD (014910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tulia ISD (219903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tuloso-Midway ISD (178912)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Union Grove ISD (230908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Union Hill ISD (230904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"United ISD (240903)",25
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Utopia ISD (232904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Uvalde CISD (232903)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Valentine ISD (122902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley Mills ISD (018904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley View ISD (049903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley View ISD (108916)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Van Alstyne ISD (091908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Van ISD (234906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Venus ISD (126908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Vernon ISD (244903)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Victoria ISD (235902)",55
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Vidor ISD (181907)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waco ISD (161914)",42
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waller ISD (237904)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Warren ISD (229904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waskom ISD (102903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",17
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Weatherford ISD (184903)",24
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Weslaco ISD (108913)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"West Hardin County CISD (100908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"West ISD (161916)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"West Orange-Cove CISD (181906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"West Oso ISD (178915)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"West Sabine ISD (202905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Westwood ISD (001908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wharton ISD (241904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"White Oak ISD (092908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"White Settlement ISD (220920)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",18
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitesboro ISD (091909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitewright ISD (091910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitney ISD (109911)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",37
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Willis ISD (170904)",21
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wills Point ISD (234907)",13
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wimberley ISD (105905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Winnsboro ISD (250907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Winona ISD (212910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Winters ISD (200904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Woden ISD (174906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wolfe City ISD (116909)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Woodsboro ISD (196902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Woodville ISD (229903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wortham ISD (081905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (043914)",22
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (221912)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Yantis ISD (250905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Yoakum ISD (062903)",14
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Yorktown ISD (062904)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",41
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",100,"Zapata County ISD (253901)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",10755
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Texas Charter Schools (092801)",28
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harleton ISD (102905)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kilgore ISD (092902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Longview ISD (092903)",98
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Diana ISD (230906)",10
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ore City ISD (230903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Panola Charter School (183801)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pine Tree ISD (092904)",32
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring Hill ISD (092907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tatum ISD (201910)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"UT Tyler University Academy (212804)",30
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Union Grove ISD (230908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waskom ISD (102903)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",100,"White Oak ISD (092908)",-999
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",245
+"2020-2021",07,"Region VII Kilgore","Hallsville ISD (102904)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

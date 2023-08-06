@@ -1,0 +1,32 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Callisburg ISD (049905)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Era ISD (049906)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Forestburg ISD (169910)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Gainesville ISD (049901)",85
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Muenster ISD (049902)",16
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Sherman ISD (091906)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Sivells Bend ISD (049909)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitesboro ISD (091909)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",129
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Era ISD (049906)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Muenster ISD (049902)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valley View ISD (049903)",-999
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",11
+"2018-2019",11,"Region XI Fort Worth","Lindsay ISD (049907)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

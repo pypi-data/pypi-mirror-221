@@ -1,0 +1,15 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",100,"Transfers In From",100,"Hamlin ISD (127903)",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",100,"Transfers In From",100,"Rule ISD (104903)",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",100,"Transfers In From",200,"","."
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",100,"Transfers In From",300,"","."
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",100,"Guthrie CSD (135001)",6
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",100,"Haskell CISD (104901)",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",100,"Jayton-Girard ISD (132902)",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",100,"Rule ISD (104903)",6
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",200,"","."
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",14,"Region XIV Abilene","Aspermont ISD (217901)",200,"Transfers Out To",300,"","."
+

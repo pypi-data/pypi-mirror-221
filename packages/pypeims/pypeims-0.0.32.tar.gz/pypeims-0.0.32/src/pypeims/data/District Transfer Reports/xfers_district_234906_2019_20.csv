@@ -1,0 +1,53 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Alba-Golden ISD (250906)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Athens ISD (107901)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsboro ISD (107902)",10
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Canton ISD (234902)",24
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Saline ISD (234904)",17
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Henderson ISD (201902)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lindale ISD (212903)",59
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Martins Mill ISD (234905)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineola ISD (250903)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Palestine ISD (001907)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Quitman ISD (250904)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Troup ISD (212904)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",11
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",100,"Wills Point ISD (234907)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",146
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Athens ISD (107901)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",20
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brownsboro ISD (107902)",36
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canton ISD (234902)",13
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cumberland Academy (212801)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fruitvale ISD (234909)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Saline ISD (234904)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lindale ISD (212903)",13
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Martins Mill ISD (234905)",29
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mineola ISD (250903)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Murchison ISD (107908)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ranch Academy (234801)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tyler ISD (212905)",-999
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",149
+"2019-2020",07,"Region VII Kilgore","Van ISD (234906)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

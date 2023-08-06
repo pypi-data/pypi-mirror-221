@@ -1,0 +1,88 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",14
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Burnet CISD (027903)",15
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Copperas Cove ISD (050910)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Florence ISD (246902)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Georgetown ISD (246904)",36
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Jarrell ISD (246907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Lago Vista ISD (227912)",12
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Travis ISD (227913)",10
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Lampasas ISD (141901)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty Hill ISD (246908)",59
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty ISD (146906)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Llano ISD (150901)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Marble Falls ISD (027904)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",25
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",101
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Union Hill ISD (230904)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Victoria ISD (235902)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",294
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Achieve Public Schools (227825)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Discovery School (227821)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",42
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnet CISD (027903)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedars International Academy (227817)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chaparral Star Academy (227814)",43
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Copperas Cove ISD (050910)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Del Valle ISD (227910)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dripping Springs ISD (105904)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eanes ISD (227909)",15
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Florence ISD (246902)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Georgetown ISD (246904)",14
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goodwater Montessori School (246802)",52
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",19
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",54
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",300
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jarrell ISD (246907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Killeen ISD (014906)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lago Vista ISD (227912)",22
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Travis ISD (227913)",18
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lampasas ISD (141901)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Liberty Hill ISD (246908)",72
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marble Falls ISD (027904)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Meridian World School LLC (246801)",175
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"NYOS Charter School (227804)",13
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Orenda Charter School (014804)",59
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pflugerville ISD (227904)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",16
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Priority Charter Schools (014803)",152
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Round Rock ISD (246909)",171
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring Branch ISD (101920)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",527
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Empowerment Academy (227805)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas Elementary Cha (227819)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valor Public Schools (227829)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wayside Schools (227803)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",100,"West ISD (161916)",-999
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1860
+"2019-2020",13,"Region XIII Austin","Leander ISD (246913)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

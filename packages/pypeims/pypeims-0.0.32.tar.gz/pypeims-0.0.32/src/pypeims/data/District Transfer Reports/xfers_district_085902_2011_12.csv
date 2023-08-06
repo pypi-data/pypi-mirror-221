@@ -1,0 +1,22 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Borden County ISD (017901)",6
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Frenship ISD (152907)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Lubbock ISD (152901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Slaton ISD (152903)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Southland ISD (085903)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Spur ISD (063903)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",100,"Tahoka ISD (153904)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",200,"","."
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",200,"Total Transfers In",20
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",100,"Transfers In From",300,"","."
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"Borden County ISD (017901)",45
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"Frenship ISD (152907)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",22
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",100,"Southland ISD (085903)",33
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",200,"","."
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",17,"Region XVII Lubbock","Post ISD (085902)",200,"Transfers Out To",300,"","."
+

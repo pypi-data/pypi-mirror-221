@@ -1,0 +1,25 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"College Station ISD (021901)",8
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Gruver ISD (098901)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Iola ISD (093903)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Madisonville CISD (154901)",7
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Montgomery ISD (170903)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Navasota ISD (093904)",132
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",100,"Richards ISD (093905)",17
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",200,"","."
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",200,"Total Transfers In",170
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",100,"Transfers In From",300,"","."
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"College Station ISD (021901)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Conroe ISD (170902)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Huntsville ISD (236902)",7
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Iola ISD (093903)",11
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Madisonville CISD (154901)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Magnolia ISD (170906)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Montgomery ISD (170903)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Navasota ISD (093904)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Richards ISD (093905)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",100,"Tomball ISD (101921)",-9999999
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",200,"","."
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",200,"Total Transfers Out",33
+"2012-13",06,"Region VI Huntsville","Anderson-Shiro CISD (093901)",200,"Transfers Out To",300,"","."
+

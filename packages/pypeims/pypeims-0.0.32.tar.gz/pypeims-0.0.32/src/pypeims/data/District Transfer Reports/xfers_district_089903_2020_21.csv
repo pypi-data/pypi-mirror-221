@@ -1,0 +1,41 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector County ISD (068901)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Gonzales ISD (089901)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Karnes City ISD (128901)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Luling ISD (028903)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",100,"Stockdale ISD (247906)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",24
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Falls City ISD (128904)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gonzales ISD (089901)",25
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Luling ISD (028903)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nordheim ISD (062902)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pleasanton ISD (007905)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prairie Lea ISD (028906)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Stockdale ISD (247906)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sweet Home ISD (143905)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",38
+"2020-2021",13,"Region XIII Austin","Nixon-Smiley CISD (089903)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

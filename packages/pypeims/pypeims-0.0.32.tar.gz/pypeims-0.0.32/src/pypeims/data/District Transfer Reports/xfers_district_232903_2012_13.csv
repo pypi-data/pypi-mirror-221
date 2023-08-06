@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",100,"La Pryor ISD (254902)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",200,"","."
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",300,"","."
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Big Springs Charter School (193801)",9
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"D'Hanis ISD (163902)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Harlandale ISD (015904)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Kerrville ISD (133903)",8
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Knippa ISD (232901)",155
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"La Pryor ISD (254902)",18
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Leakey ISD (193902)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Meadowland Charter School (130801)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Nueces Canyon CISD (069902)",6
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Sabinal ISD (232902)",7
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",200,"","."
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",200,"Total Transfers Out",217
+"2012-13",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",300,"","."
+

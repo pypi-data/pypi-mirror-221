@@ -1,0 +1,15 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",100,"Transfers In From",100,"Chireno ISD (174901)",-9999999
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",100,"Transfers In From",100,"Nacogdoches ISD (174904)",5
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",100,"Transfers In From",200,"","."
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",100,"Transfers In From",300,"","."
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",100,"Alto ISD (037901)",7
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",100,"Central ISD (003907)",6
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",100,"Lufkin ISD (003903)",6
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",100,"Pineywoods Community Academy (003801)",-9999999
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",100,"Rusk ISD (037907)",-9999999
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",200,"","."
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2012-13",07,"Region VII Kilgore","Wells ISD (037909)",200,"Transfers Out To",300,"","."
+

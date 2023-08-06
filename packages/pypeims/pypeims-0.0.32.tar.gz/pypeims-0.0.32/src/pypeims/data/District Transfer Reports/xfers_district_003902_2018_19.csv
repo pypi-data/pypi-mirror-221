@@ -1,0 +1,50 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Apple Springs ISD (228905)",11
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Centerville ISD (228904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Central ISD (003907)",40
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Corrigan-Camden ISD (187904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Diboll ISD (003905)",30
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Etoile ISD (174910)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Groveton ISD (228901)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntington ISD (003904)",15
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntsville ISD (236902)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Kennard ISD (113906)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Lufkin ISD (003903)",247
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Nacogdoches ISD (174904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",100,"Zavalla ISD (003906)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",367
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alto ISD (037901)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Apple Springs ISD (228905)",11
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beaumont ISD (123910)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Centerville ISD (228904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Central ISD (003907)",15
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chester ISD (229906)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Diboll ISD (003905)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Groveton ISD (228901)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Huntington ISD (003904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lufkin ISD (003903)",34
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nacogdoches ISD (174904)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pineywoods Community Academy (003801)",39
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sherman ISD (091906)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wells ISD (037909)",-999
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",133
+"2018-2019",07,"Region VII Kilgore","Hudson ISD (003902)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

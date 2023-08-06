@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Aransas County ISD (004901)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Aransas Pass ISD (205901)",32
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Coldspring-Oakhurst CISD (204901)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Gregory-Portland ISD (205902)",13
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Refugio ISD (196903)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Sinton ISD (205906)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",100,"Taft ISD (205907)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",200,"","."
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",200,"Total Transfers In",53
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",100,"Transfers In From",300,"","."
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Aransas County ISD (004901)",5
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Aransas Pass ISD (205901)",16
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Gregory-Portland ISD (205902)",26
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Port Aransas ISD (178908)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Richard Milburn Alter High School (178804)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"School Of Science And Technology C (178809)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Sinton ISD (205906)",13
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",100,"Taft ISD (205907)",-9999999
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",200,"","."
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",200,"Total Transfers Out",66
+"2011-12",02,"Region II Corpus Christi","Ingleside ISD (205903)",200,"Transfers Out To",300,"","."
+

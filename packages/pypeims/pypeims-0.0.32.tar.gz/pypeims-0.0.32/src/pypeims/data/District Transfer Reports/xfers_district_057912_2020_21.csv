@@ -1,0 +1,103 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",70
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrollton-Farmers Branch ISD (057903)",35
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",10
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Coppell ISD (057922)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",81
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",22
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Ferris ISD (070905)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",15
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",102
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Hurst-Euless-Bedford ISD (220916)",37
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Worth ISD (220910)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",15
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",23
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Milford ISD (070909)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",461
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy For Academic Excellence (057814)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brazos River Charter School (213801)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeway Preparatory Academy (057851)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carroll ISD (220919)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",174
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cityscape Schools (057841)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",12
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",133
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Fort Worth Montessori Academy (220811)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gateway Charter Academy (057831)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",129
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",590
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",40
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",311
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",14
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",31
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",23
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jean Massieu Academy (057819)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keller ISD (220907)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",12
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",304
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pegasus School Of Liberal Arts And (057802)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",70
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"St Anthony School (057836)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",93
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",13
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",14
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",689
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",1697
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Westlake Academy Charter School (220810)",-999
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",152
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",4600
+"2020-2021",10,"Region X Richardson","Irving ISD (057912)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

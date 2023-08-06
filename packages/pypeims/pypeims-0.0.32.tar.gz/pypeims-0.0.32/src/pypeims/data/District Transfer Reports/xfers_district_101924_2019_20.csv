@@ -1,0 +1,66 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",13
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Channelview ISD (101905)",23
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Crosby ISD (101906)",13
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Deer Park ISD (101908)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",24
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Goose Creek CISD (101911)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",35
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Huffman ISD (101925)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",42
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"La Porte ISD (101916)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Pasadena ISD (101917)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",188
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",12
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beatrice Mayes Institute Charter S (101847)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beta Academy (101870)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Channelview ISD (101905)",26
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crosby ISD (101906)",12
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Deer Park ISD (101908)",22
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Bend ISD (079907)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Galena Park ISD (101910)",202
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goose Creek CISD (101911)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",13
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston Gateway Academy Inc (101828)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",34
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Huffman ISD (101925)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Humble ISD (101913)",32
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",168
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pasadena ISD (101917)",15
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Houston State University Chart (236802)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ser-Ninos Charter School (101802)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring ISD (101919)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Rhodes School (101861)",102
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Varnett Public School (101814)",11
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yes Prep Public Schools Inc (101845)",26
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",711
+"2019-2020",04,"Region IV Houston","Sheldon ISD (101924)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

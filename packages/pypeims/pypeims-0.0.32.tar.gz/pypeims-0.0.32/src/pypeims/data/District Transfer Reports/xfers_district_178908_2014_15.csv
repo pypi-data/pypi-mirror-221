@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",100,"Aransas County ISD (004901)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",100,"Aransas Pass ISD (205901)",17
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",100,"Flour Bluff ISD (178914)",7
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",100,"Ingleside ISD (205903)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",200,"","."
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",200,"Total Transfers In",30
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",100,"Transfers In From",300,"","."
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",100,"Flour Bluff ISD (178914)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",100,"Por Vida Academy (015801)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",100,"Seashore Charter Schools (178808)",5
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",200,"","."
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",200,"Total Transfers Out",11
+"2014-15",02,"Region II Corpus Christi","Port Aransas ISD (178908)",200,"Transfers Out To",300,"","."
+

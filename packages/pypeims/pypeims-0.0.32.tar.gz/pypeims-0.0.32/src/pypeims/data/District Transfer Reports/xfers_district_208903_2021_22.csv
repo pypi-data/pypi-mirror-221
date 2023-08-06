@@ -1,0 +1,27 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",100,"BORDEN COUNTY ISD  -  017901",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",100,"COLORADO ISD  -  168901",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",100,"HERMLEIGH ISD  -  208901",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",100,"SNYDER ISD  -  208902",127
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",200,,"."
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",141
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",100,"Transfers In From",300,,"."
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",100,"BORDEN COUNTY ISD  -  017901",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",100,"SNYDER ISD  -  208902",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",100,"WESTBROOK ISD  -  168903",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",200,,"."
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",-999
+"2021-2022",14,"REGION XIV ABILENE","IRA ISD  -  208903","Traditional ISD/CSD",200,"Transfers Out To",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

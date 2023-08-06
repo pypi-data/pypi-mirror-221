@@ -1,0 +1,39 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Bangs ISD (025901)",28
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Blanket ISD (025904)",35
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Brookesmith ISD (025908)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownwood ISD (025902)",210
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Comanche ISD (047901)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Evant ISD (050901)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"May ISD (025905)",21
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Anna ISD (042903)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Sidney ISD (047905)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",100,"Zephyr ISD (025906)",17
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",326
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bangs ISD (025901)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blanket ISD (025904)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brookesmith ISD (025908)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brownwood ISD (025902)",71
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"May ISD (025905)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mullin ISD (167902)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trent ISD (221905)",-999
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Zephyr ISD (025906)",44
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",143
+"2018-2019",15,"Region XV San Angelo","Early ISD (025909)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

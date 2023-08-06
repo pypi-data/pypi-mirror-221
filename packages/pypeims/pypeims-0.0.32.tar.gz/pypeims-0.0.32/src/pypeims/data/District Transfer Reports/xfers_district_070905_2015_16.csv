@@ -1,0 +1,37 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Cedar Hill ISD (057904)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Corsicana ISD (175903)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Dallas ISD (057905)",107
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Desoto ISD (057906)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Ennis ISD (070903)",13
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Forney ISD (129902)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Lancaster ISD (057913)",6
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Midlothian ISD (070908)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Palmer ISD (070910)",5
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Red Oak ISD (070911)",14
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",100,"Waxahachie ISD (070912)",7
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",200,,"."
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",100,"Transfers In From",300,,"."
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"A W Brown-Fellowship Leadership Ac (057816)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Advantage Academy (057806)",7
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Desoto ISD (057906)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Ennis ISD (070903)",6
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Irving ISD (057912)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Life School (057807)",43
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Maypearl ISD (070915)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Nova Academy (057809)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Palmer ISD (070910)",14
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Red Oak ISD (070911)",48
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Uplift Education (057803)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Village Tech Schools (057847)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",100,"Waxahachie ISD (070912)",-9999999
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",200,,"."
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",200,"Total Transfers Out",142
+"2015-16",10,"Region X Richardson","Ferris ISD (070905)",200,"Transfers Out To",300,,"."
+

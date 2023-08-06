@@ -1,0 +1,43 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"La Grange ISD (075902)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Luling ISD (028903)",22
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Nixon-Smiley CISD (089903)",17
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Shiner ISD (143903)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",100,"Waelder ISD (089905)",35
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",87
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cuero ISD (062901)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ingram ISD (133904)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lockhart ISD (028902)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Luling ISD (028903)",26
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Moulton ISD (143902)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nixon-Smiley CISD (089903)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Runge ISD (128903)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shiner ISD (143903)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waelder ISD (089905)",-999
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",59
+"2018-2019",13,"Region XIII Austin","Gonzales ISD (089901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

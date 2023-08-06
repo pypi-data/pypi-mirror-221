@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",100,"Comanche ISD (047901)",40
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",100,"De Leon ISD (047902)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",100,"Early ISD (025909)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",100,"Gorman ISD (067904)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",100,"Priddy ISD (167904)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",200,"","."
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",200,"Total Transfers In",46
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",100,"Transfers In From",300,"","."
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",100,"Comanche ISD (047901)",27
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",100,"Rising Star ISD (067908)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",200,"","."
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2013-14",14,"Region XIV Abilene","Sidney ISD (047905)",200,"Transfers Out To",300,"","."
+

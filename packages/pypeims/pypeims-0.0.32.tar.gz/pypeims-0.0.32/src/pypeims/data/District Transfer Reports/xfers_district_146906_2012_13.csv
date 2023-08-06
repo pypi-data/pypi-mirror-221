@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Beaumont ISD (123910)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Crosby ISD (101906)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Dayton ISD (146902)",31
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Devers ISD (146903)",23
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Hardin ISD (146904)",65
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Hull-Daisetta ISD (146905)",37
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"Humble ISD (101913)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",100,"West Hardin County CISD (100908)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",200,"","."
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",100,"Transfers In From",300,"","."
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Beaumont ISD (123910)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Dayton ISD (146902)",14
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Devers ISD (146903)",40
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Hardin ISD (146904)",35
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Hardin-Jefferson ISD (100905)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Hull-Daisetta ISD (146905)",10
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Humble ISD (101913)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"New Caney ISD (170908)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Premier High Schools (072801)",19
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Tarkington ISD (146907)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",6
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",100,"West Hardin County CISD (100908)",-9999999
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",200,"","."
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",200,"Total Transfers Out",135
+"2012-13",04,"Region IV Houston","Liberty ISD (146906)",200,"Transfers Out To",300,"","."
+

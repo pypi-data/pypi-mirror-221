@@ -1,0 +1,16 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",100,"Caldwell ISD (026901)",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",100,"Giddings ISD (144901)",9
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",100,"Somerville ISD (026902)",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",200,,"."
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",100,"Transfers In From",300,,"."
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",100,"Burton ISD (239903)",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",100,"Caldwell ISD (026901)",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",100,"College Station ISD (021901)",-9999999
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",100,"Giddings ISD (144901)",15
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",100,"Lexington ISD (144902)",5
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",200,,"."
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",200,"Total Transfers Out",26
+"2015-16",13,"Region XIII Austin","Dime Box ISD (144903)",200,"Transfers Out To",300,,"."
+

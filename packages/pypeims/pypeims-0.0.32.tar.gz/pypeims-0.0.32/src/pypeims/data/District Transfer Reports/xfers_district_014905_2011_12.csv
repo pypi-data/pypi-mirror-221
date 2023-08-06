@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Academy ISD (014901)",25
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Bartlett ISD (014902)",43
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Belton ISD (014903)",16
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Granger ISD (246905)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Hutto ISD (246906)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Rockdale ISD (166904)",6
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Rogers ISD (014907)",8
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Salado ISD (014908)",8
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Taylor ISD (246911)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Temple ISD (014909)",10
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",100,"Thrall ISD (246912)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",200,"","."
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",200,"Total Transfers In",122
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",100,"Transfers In From",300,"","."
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Academy ISD (014901)",10
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Bartlett ISD (014902)",5
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Granger ISD (246905)",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Rogers ISD (014907)",13
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Salado ISD (014908)",5
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",100,"Temple ISD (014909)",5
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",200,"","."
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",12,"Region XII Waco","Holland ISD (014905)",200,"Transfers Out To",300,"","."
+

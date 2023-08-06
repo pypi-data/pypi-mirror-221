@@ -1,0 +1,16 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",100,"Transfers In From",100,"Big Spring ISD (114901)",170
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",100,"Transfers In From",100,"Forsan ISD (114904)",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",100,"Transfers In From",200,"","."
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",100,"Transfers In From",300,"","."
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"Big Spring ISD (114901)",25
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"Borden County ISD (017901)",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"Forsan ISD (114904)",5
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",100,"Westbrook ISD (168903)",-9999999
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",200,"","."
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",200,"Total Transfers Out",38
+"2011-12",18,"Region XVIII Midland","Coahoma ISD (114902)",200,"Transfers Out To",300,"","."
+

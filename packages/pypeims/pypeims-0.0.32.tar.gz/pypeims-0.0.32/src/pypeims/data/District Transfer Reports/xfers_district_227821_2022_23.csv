@@ -1,0 +1,27 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"AUSTIN ISD  -  227901",166
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"BASTROP ISD  -  011901",11
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"DEL VALLE ISD  -  227910",58
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"ELGIN ISD  -  011902",10
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"HAYS CISD  -  105906",-999
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"LEANDER ISD  -  246913",-999
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"MANOR ISD  -  227907",45
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"PFLUGERVILLE ISD  -  227904",22
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"ROUND ROCK ISD  -  246909",12
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",100,"WIMBERLEY ISD  -  105905",-999
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",332
+"2022-2023",13,"REGION XIII AUSTIN","AUSTIN DISCOVERY SCHOOL  -  227821","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

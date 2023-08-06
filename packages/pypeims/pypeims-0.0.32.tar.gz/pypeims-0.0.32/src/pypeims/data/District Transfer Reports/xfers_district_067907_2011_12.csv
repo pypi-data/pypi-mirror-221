@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Abilene ISD (221901)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Baird ISD (030903)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Bridgeport ISD (249903)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Cisco ISD (067902)",6
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"De Leon ISD (047902)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Eastland ISD (067903)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",100,"Gordon ISD (182901)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",200,"","."
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",200,"Total Transfers In",16
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",100,"Transfers In From",300,"","."
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Abilene ISD (221901)",6
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Cisco ISD (067902)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Eastland ISD (067903)",37
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Gordon ISD (182901)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Gorman ISD (067904)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",100,"Strawn ISD (182905)",-9999999
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",200,"","."
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",200,"Total Transfers Out",51
+"2011-12",14,"Region XIV Abilene","Ranger ISD (067907)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,93 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",72
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",192
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",98
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",37
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",16
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",14
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",10
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Venus ISD (126908)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",464
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",106
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"A+ Academy (057829)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy For Academic Excellence (057814)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy Of Dallas (057810)",11
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",23
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alvarado ISD (126901)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",10
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",105
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",27
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",67
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gateway Charter Academy (057831)",19
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",177
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",16
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",64
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",74
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",17
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Academia De Estrellas (057839)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lancaster ISD (057913)",10
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",492
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",33
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Maypearl ISD (070915)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midlothian ISD (070908)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",525
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy (057809)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy Southeast (057827)",32
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pegasus School Of Liberal Arts And (057802)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",13
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",12
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",19
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Environmental Academy (057849)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",107
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",163
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Village Tech Schools (057847)",626
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",15
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",10
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",2873
+"2018-2019",10,"Region X Richardson","Cedar Hill ISD (057904)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

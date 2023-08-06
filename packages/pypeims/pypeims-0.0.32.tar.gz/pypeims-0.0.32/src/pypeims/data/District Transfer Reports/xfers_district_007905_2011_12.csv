@@ -1,0 +1,39 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Charlotte ISD (007901)",8
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Devine ISD (163901)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"East Central ISD (015911)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Floresville ISD (247901)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"George West ISD (149901)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Jourdanton ISD (007902)",48
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Judson ISD (015916)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"North East ISD (015910)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Poteet ISD (007906)",36
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Somerset ISD (015909)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",100,"Southside ISD (015917)",17
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",200,"","."
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",200,"Total Transfers In",124
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",100,"Transfers In From",300,"","."
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Charlotte ISD (007901)",6
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Floresville ISD (247901)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Harlandale ISD (015904)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",206
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",5
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"McMullen County ISD (162904)",15
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Mexia ISD (147903)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Por Vida Academy (015801)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Poteet ISD (007906)",53
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Poth ISD (247904)",7
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Somerset ISD (015909)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Southwest ISD (015912)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",6
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"Three Rivers ISD (149902)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-9999999
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",200,"","."
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",200,"Total Transfers Out",318
+"2011-12",20,"Region XX San Antonio","Pleasanton ISD (007905)",200,"Transfers Out To",300,"","."
+

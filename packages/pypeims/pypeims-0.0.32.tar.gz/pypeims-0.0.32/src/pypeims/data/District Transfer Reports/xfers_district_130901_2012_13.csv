@@ -1,0 +1,42 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Bandera ISD (010902)",9
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Blanco ISD (016902)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Center Point ISD (133901)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Comal ISD (046902)",6
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Comfort ISD (130902)",22
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"East Central ISD (015911)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Kerrville ISD (133903)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Klein ISD (101915)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"North East ISD (015910)",5
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"Northside ISD (015915)",36
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",100,"San Antonio ISD (015907)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",200,"","."
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",100,"Transfers In From",300,"","."
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Bandera ISD (010902)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Center Point ISD (133901)",5
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Comal ISD (046902)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Comfort ISD (130902)",9
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Idea Public Schools (108807)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Kerrville ISD (133903)",5
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Kipp San Antonio (015826)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Levelland ISD (110902)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Meadowland Charter School (130801)",108
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Mexia ISD (147903)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"North East ISD (015910)",12
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Northside ISD (015915)",6
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"San Antonio School For Inquiry & C (015820)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Southwest ISD (015912)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",15
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-9999999
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",200,"","."
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",200,"Total Transfers Out",186
+"2012-13",20,"Region XX San Antonio","Boerne ISD (130901)",200,"Transfers Out To",300,"","."
+

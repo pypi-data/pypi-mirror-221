@@ -1,0 +1,69 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Anthony ISD (071906)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Canutillo ISD (071907)",43
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Clint ISD (071901)",334
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Eastland ISD (067903)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"El Paso ISD (071902)",1393
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Fabens ISD (071903)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",10
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hardin-Jefferson ISD (100905)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Johnson City ISD (016901)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Elizario ISD (071904)",44
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Schleicher ISD (207901)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Simms ISD (019909)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Socorro ISD (071909)",3405
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Tornillo ISD (071908)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",5265
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",20
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canutillo ISD (071907)",11
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clint ISD (071901)",21
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Academy (071804)",125
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso ISD (071902)",1011
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Leadership Academy (071810)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fabens ISD (071903)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",15
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",790
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",106
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Fe Preparatory School (071807)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lindale ISD (212903)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Paso Del Norte Academy Charter Dis (071803)",42
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",64
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Elizario ISD (071904)",17
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Socorro ISD (071909)",194
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tornillo ISD (071908)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vista Del Futuro Charter School (071809)",43
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",2501
+"2018-2019",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

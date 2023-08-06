@@ -1,0 +1,67 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",14
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Coupland ISD (246914)",23
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Giddings ISD (144901)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Lago Vista ISD (227912)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Lexington ISD (144902)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",42
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"McDade ISD (011905)",31
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Taylor ISD (246911)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",100,"Thrall ISD (246912)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",144
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy ISD (014901)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Achieve Public Schools (227825)",24
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Discovery School (227821)",16
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",40
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bastrop ISD (011901)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedars International Academy (227817)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chaparral Star Academy (227814)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coupland ISD (246914)",48
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Del Valle ISD (227910)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",20
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hutto ISD (246906)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",27
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",59
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lexington ISD (144902)",19
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",94
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"McDade ISD (011905)",72
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montessori For All (227826)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"NYOS Charter School (227804)",15
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pflugerville ISD (227904)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Public Schools (227824)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Round Rock ISD (246909)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Smithville ISD (011904)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Taylor ISD (246911)",13
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Empowerment Academy (227805)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Thorndale ISD (166905)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Thrall ISD (246912)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wayside Schools (227803)",-999
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",529
+"2019-2020",13,"Region XIII Austin","Elgin ISD (011902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

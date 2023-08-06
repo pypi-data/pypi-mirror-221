@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Austin ISD (227901)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Belton ISD (014903)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Evant ISD (050901)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Gatesville ISD (050902)",5
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Killeen ISD (014906)",118
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Lampasas ISD (141901)",80
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",100,"Temple ISD (014909)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",200,,"."
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",200,"Total Transfers In",210
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",100,"Transfers In From",300,,"."
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Belton ISD (014903)",5
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Burnet CISD (027903)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Evant ISD (050901)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Florence ISD (246902)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Gatesville ISD (050902)",6
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Killeen ISD (014906)",131
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Lampasas ISD (141901)",27
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Mart ISD (161908)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"McGregor ISD (161909)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Premier High Schools (072801)",9
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Priority Charter Schools (014803)",141
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",12
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",200,,"."
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",200,"Total Transfers Out",345
+"2015-16",12,"Region XII Waco","Copperas Cove ISD (050910)",200,"Transfers Out To",300,,"."
+

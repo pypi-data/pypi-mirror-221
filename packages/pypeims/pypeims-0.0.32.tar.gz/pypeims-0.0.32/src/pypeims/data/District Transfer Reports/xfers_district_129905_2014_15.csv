@@ -1,0 +1,47 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Athens ISD (107901)",7
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Canton ISD (234902)",15
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Crandall ISD (129901)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Ennis ISD (070903)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Eustace ISD (107905)",17
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Forney ISD (129902)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Irving ISD (057912)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Kaufman ISD (129903)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Kemp ISD (129904)",53
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Kerens ISD (175907)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Malakoff ISD (107906)",11
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Martins Mill ISD (234905)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Mesquite ISD (057914)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Murchison ISD (107908)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Rice ISD (175911)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Scurry-Rosser ISD (129910)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Trinidad ISD (107907)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Van ISD (234906)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Waxahachie ISD (070912)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Wills Point ISD (234907)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",100,"Wylie ISD (043914)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",200,"","."
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",200,"Total Transfers In",128
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",100,"Transfers In From",300,"","."
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Athens ISD (107901)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Brownsboro ISD (107902)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Canton ISD (234902)",9
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Eustace ISD (107905)",114
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Grand Saline ISD (234904)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Kaufman ISD (129903)",7
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Kemp ISD (129904)",9
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Levelland ISD (110902)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Malakoff ISD (107906)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Martins Mill ISD (234905)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Quinlan ISD (116908)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Ranch Academy (234801)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Terrell ISD (129906)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",8
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",100,"Wills Point ISD (234907)",-9999999
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",200,"","."
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",200,"Total Transfers Out",166
+"2014-15",10,"Region X Richardson","Mabank ISD (129905)",200,"Transfers Out To",300,"","."
+

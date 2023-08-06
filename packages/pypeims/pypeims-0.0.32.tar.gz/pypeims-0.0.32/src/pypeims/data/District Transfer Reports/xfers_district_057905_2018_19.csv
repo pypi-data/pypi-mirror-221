@@ -1,0 +1,186 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Abilene ISD (221901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvarado ISD (126901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Amarillo ISD (188901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",16
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Carroll ISD (220919)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrollton-Farmers Branch ISD (057903)",167
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",105
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Coppell ISD (057922)",19
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Crandall ISD (129901)",20
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",177
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",287
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector County ISD (068901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (234903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Everman ISD (220904)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ferris ISD (070905)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",28
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",15
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",106
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",40
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Highland Park ISD (057911)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hurst-Euless-Bedford ISD (220916)",10
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",61
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Jasper ISD (121904)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Kaufman ISD (129903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Dallas ISD (061912)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",135
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Leonard ISD (074909)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",16
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lovejoy ISD (043919)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lufkin ISD (003903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Marlin ISD (073903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Maypearl ISD (070915)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",329
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Northwest ISD (061911)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",48
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ponder ISD (061906)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",11
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",265
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Royse City ISD (199902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Silsbee ISD (100904)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Springtown ISD (184902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Sunnyvale ISD (057919)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Terrell ISD (129906)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Wills Point ISD (234907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (043914)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",1979
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",1365
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"A+ Academy (057829)",1318
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy For Academic Excellence (057814)",490
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy Of Dallas (057810)",439
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",413
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",16
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aubrey ISD (061907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeway Preparatory Academy (057851)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",306
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",72
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cityscape Schools (057841)",779
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Corsicana ISD (175903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crandall ISD (129901)",19
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Denton ISD (061901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",62
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",252
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Fort Worth Montessori Academy (220811)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",84
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Everman ISD (220904)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",131
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ferris ISD (070905)",135
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Forney ISD (129902)",19
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",10
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",51
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gateway Charter Academy (057831)",628
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gladewater ISD (092901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",1154
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",301
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",11
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",40
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Greenville ISD (116905)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",122
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",1477
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",353
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspired Vision Academy (057830)",1284
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",572
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",77
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jean Massieu Academy (057819)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kaufman ISD (129903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keller ISD (220907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kemp ISD (129904)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",2562
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Academia De Estrellas (057839)",1031
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lancaster ISD (057913)",224
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",833
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",1919
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lumin Education (057805)",256
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",15
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Maypearl ISD (070915)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",45
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mexia ISD (147903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midlothian ISD (070908)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",153
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy (057809)",116
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy Southeast (057827)",542
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pegasus School Of Liberal Arts And (057802)",633
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",172
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",21
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",67
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",90
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",47
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rockwall ISD (199901)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",32
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"St Anthony School (057836)",280
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",1811
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",841
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",1940
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Environmental Academy (057849)",285
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",215
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",44
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",9130
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vernon ISD (244903)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Victoria ISD (235902)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Village Tech Schools (057847)",55
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",2247
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",123
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wylie ISD (043914)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ysleta ISD (071905)",-999
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",37819
+"2018-2019",10,"Region X Richardson","Dallas ISD (057905)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",100,"New Home ISD (153905)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",100,"Slaton ISD (152903)",17
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",100,"Southland ISD (085903)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",200,,"."
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",200,"Total Transfers In",26
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",100,"Transfers In From",300,,"."
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Frenship ISD (152907)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Lubbock ISD (152901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Lubbock-Cooper ISD (152906)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"New Home ISD (153905)",9
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Roosevelt ISD (152908)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Slaton ISD (152903)",9
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Southland ISD (085903)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",100,"Tahoka ISD (153904)",5
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",200,,"."
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",200,"Total Transfers Out",35
+"2015-16",17,"Region XVII Lubbock","Wilson ISD (153907)",200,"Transfers Out To",300,,"."
+

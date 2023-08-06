@@ -1,0 +1,21 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Center Point ISD (133901)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Comfort ISD (130902)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Doss Consolidated CSD (086024)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Fredericksburg ISD (086901)",7
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Hunt ISD (133902)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Ingram ISD (133904)",21
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Kerrville ISD (133903)",46
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Kountze ISD (100903)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",200,"","."
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",200,"Total Transfers In",84
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",300,"","."
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Divide ISD (133905)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Fredericksburg ISD (086901)",11
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Ingram ISD (133904)",8
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Kerrville ISD (133903)",16
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",200,"","."
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",300,"","."
+

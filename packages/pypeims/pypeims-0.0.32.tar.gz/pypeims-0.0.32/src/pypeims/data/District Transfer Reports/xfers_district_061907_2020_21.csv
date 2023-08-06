@@ -1,0 +1,56 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Collinsville ISD (091902)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",146
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Krum ISD (061905)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",12
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Pilot Point ISD (061903)",25
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Sanger ISD (061908)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Tioga ISD (091907)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitesboro ISD (091909)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",210
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Argyle ISD (061910)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Collinsville ISD (091902)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Denton ISD (061901)",46
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",14
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Krum ISD (061905)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Dallas ISD (061912)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leadership Prep School (061804)",11
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Little Elm ISD (061914)",14
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Melissa ISD (043908)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"North Texas Collegiate Academy (061802)",10
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pilot Point ISD (061903)",14
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prosper ISD (043912)",12
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",18
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tioga ISD (091907)",45
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",225
+"2020-2021",11,"Region XI Fort Worth","Aubrey ISD (061907)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

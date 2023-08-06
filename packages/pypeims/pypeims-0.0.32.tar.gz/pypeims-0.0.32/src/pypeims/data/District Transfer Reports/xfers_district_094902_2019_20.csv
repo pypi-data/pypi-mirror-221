@@ -1,0 +1,69 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",48
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",109
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Marion ISD (094904)",28
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Navarro ISD (094903)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",29
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",45
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",296
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",13
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comal ISD (046902)",42
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Devine ISD (163901)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",11
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (015905)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",45
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",43
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",36
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Heritage Academy (015815)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",71
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Judson ISD (015916)",57
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Vernia ISD (247903)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marion ISD (094904)",17
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Braunfels ISD (046901)",13
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",19
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",17
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Randolph Field ISD (015906)",472
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",27
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Marcos CISD (105902)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",24
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",328
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1283
+"2019-2020",20,"Region XX San Antonio","Schertz-Cibolo-U City ISD (094902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

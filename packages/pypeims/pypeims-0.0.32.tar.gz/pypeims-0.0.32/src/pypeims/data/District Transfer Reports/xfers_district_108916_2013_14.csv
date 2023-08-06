@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Donna ISD (108902)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Edinburg CISD (108904)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Hidalgo ISD (108905)",7
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"La Joya ISD (108912)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"McAllen ISD (108906)",26
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Mission CISD (108908)",11
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",50
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Sharyland ISD (108911)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",100,"Weslaco ISD (108913)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",200,"","."
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",200,"Total Transfers In",108
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",100,"Transfers In From",300,"","."
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Edinburg CISD (108904)",6
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Hidalgo ISD (108905)",352
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",24
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Idea Public Schools (108807)",188
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Ignite Public Schools And Communit (108801)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"La Joya ISD (108912)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"McAllen ISD (108906)",16
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Mission CISD (108908)",-9999999
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Pharr-San Juan-Alamo ISD (108909)",60
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Premier High Schools (072801)",15
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",100,"Vanguard Academy (108808)",59
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",200,"","."
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",200,"Total Transfers Out",732
+"2013-14",01,"Region I Edinburg","Valley View ISD (108916)",200,"Transfers Out To",300,"","."
+

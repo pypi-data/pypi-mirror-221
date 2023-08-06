@@ -1,0 +1,14 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",100,"Transfers In From",100,"Llano ISD (150901)",10
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",100,"Transfers In From",100,"San Saba ISD (206901)",6
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",100,"Transfers In From",200,,"."
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",100,"Transfers In From",200,"Total Transfers In",16
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",100,"Transfers In From",300,,"."
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",100,"Llano ISD (150901)",-9999999
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",100,"San Saba ISD (206901)",-9999999
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",200,,"."
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",200,"Total Transfers Out",9
+"2015-16",15,"Region XV San Angelo","Cherokee ISD (206903)",200,"Transfers Out To",300,,"."
+

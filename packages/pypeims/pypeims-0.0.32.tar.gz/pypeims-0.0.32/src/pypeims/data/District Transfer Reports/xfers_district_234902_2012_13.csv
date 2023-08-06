@@ -1,0 +1,41 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Athens ISD (107901)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Brownsboro ISD (107902)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Edgewood ISD (234903)",18
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Fruitvale ISD (234909)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Grand Saline ISD (234904)",13
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Hurst-Euless-Bedford ISD (220916)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Kaufman ISD (129903)",5
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Kemp ISD (129904)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Mabank ISD (129905)",11
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Malakoff ISD (107906)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Martins Mill ISD (234905)",31
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Mineola ISD (250903)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Rains ISD (190903)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Scurry-Rosser ISD (129910)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Terrell ISD (129906)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Van ISD (234906)",6
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",100,"Wills Point ISD (234907)",10
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",200,"","."
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",200,"Total Transfers In",108
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",100,"Transfers In From",300,"","."
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Brownsboro ISD (107902)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Edgewood ISD (234903)",8
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Eustace ISD (107905)",12
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Fruitvale ISD (234909)",13
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Grand Saline ISD (234904)",6
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Kaufman ISD (129903)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Lindale ISD (212903)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Mabank ISD (129905)",15
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Martins Mill ISD (234905)",20
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Murchison ISD (107908)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Ranch Academy (234801)",7
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Van ISD (234906)",10
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",100,"Wills Point ISD (234907)",9
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",200,"","."
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",200,"Total Transfers Out",110
+"2012-13",10,"Region X Richardson","Canton ISD (234902)",200,"Transfers Out To",300,"","."
+

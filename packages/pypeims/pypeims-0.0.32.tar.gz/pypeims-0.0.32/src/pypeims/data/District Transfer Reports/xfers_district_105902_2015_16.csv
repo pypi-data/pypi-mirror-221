@@ -1,0 +1,38 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Hays CISD (105906)",20
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Lockhart ISD (028902)",8
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Navarro ISD (094903)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Prairie Lea ISD (028906)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Seguin ISD (094901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Wimberley ISD (105905)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",200,,"."
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",200,"Total Transfers In",38
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",300,,"."
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Bastrop ISD (011901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Beta Academy (101870)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Comal ISD (046902)",10
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Dripping Springs ISD (105904)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Eanes ISD (227909)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Gonzales ISD (089901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Hays CISD (105906)",28
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",9
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",28
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Ki Charter Academy (105803)",173
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Lockhart ISD (028902)",19
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Navarro ISD (094903)",10
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"New Braunfels ISD (046901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Premier High Schools (072801)",8
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Seguin ISD (094901)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Southwest School (101838)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",5
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Texas Preparatory School (105802)",102
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"The Excel Center (227828)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Waelder ISD (089905)",-9999999
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Wimberley ISD (105905)",176
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",200,,"."
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",200,"Total Transfers Out",587
+"2015-16",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",300,,"."
+

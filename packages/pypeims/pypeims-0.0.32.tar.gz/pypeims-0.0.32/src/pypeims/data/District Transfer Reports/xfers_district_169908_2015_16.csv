@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Alvord ISD (249901)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Bowie ISD (169901)",55
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Forestburg ISD (169910)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Gold Burg ISD (169906)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Nocona ISD (169902)",22
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",100,"Saint Jo ISD (169911)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",200,,"."
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",200,"Total Transfers In",87
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",100,"Transfers In From",300,,"."
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Bowie ISD (169901)",15
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Forestburg ISD (169910)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Gold Burg ISD (169906)",13
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Nocona ISD (169902)",9
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Prairie Valley ISD (169909)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",100,"Saint Jo ISD (169911)",-9999999
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",200,,"."
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",200,"Total Transfers Out",43
+"2015-16",09,"Region IX Wichita Falls","Montague ISD (169908)",200,"Transfers Out To",300,,"."
+

@@ -1,0 +1,39 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Bland ISD (116915)",5
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Boles ISD (116916)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Campbell ISD (116910)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Commerce ISD (116903)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Community ISD (043918)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Garland ISD (057909)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Greenville ISD (116905)",67
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Lone Oak ISD (116906)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Miller Grove ISD (112907)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Quinlan ISD (116908)",20
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Rockwall ISD (199901)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Royse City ISD (199902)",10
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Wills Point ISD (234907)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",100,"Wylie ISD (043914)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",200,"","."
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",200,"Total Transfers In",119
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",100,"Transfers In From",300,"","."
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Bland ISD (116915)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Boles ISD (116916)",8
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Celeste ISD (116902)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Commerce ISD (116903)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Community ISD (043918)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Cumby ISD (112905)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Farmersville ISD (043904)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Greenville ISD (116905)",17
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Mesquite ISD (057914)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Phoenix Charter School (116801)",7
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Princeton ISD (043911)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Quinlan ISD (116908)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Rockwall ISD (199901)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Royse City ISD (199902)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Shekinah Radiance Academy (015819)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",200,"","."
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",200,"Total Transfers Out",57
+"2011-12",10,"Region X Richardson","Caddo Mills ISD (116901)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,25 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"Breckenridge ISD (215901)",5
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"Cisco ISD (067902)",23
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"Cross Plains ISD (030901)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"De Leon ISD (047902)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"Gorman ISD (067904)",10
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",100,"Ranger ISD (067907)",37
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",200,"","."
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",100,"Transfers In From",300,"","."
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Abilene ISD (221901)",8
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Arlington ISD (220901)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Cisco ISD (067902)",22
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Cross Plains ISD (030901)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Gorman ISD (067904)",28
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Moran ISD (209902)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Ranger ISD (067907)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Rising Star ISD (067908)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Stephenville ISD (072903)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Strawn ISD (182905)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",200,"","."
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",200,"Total Transfers Out",75
+"2011-12",14,"Region XIV Abilene","Eastland ISD (067903)",200,"Transfers Out To",300,"","."
+

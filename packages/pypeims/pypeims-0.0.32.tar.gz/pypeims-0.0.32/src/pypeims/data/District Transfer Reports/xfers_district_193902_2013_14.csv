@@ -1,0 +1,16 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",100,"Divide ISD (133905)",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",100,"Kerrville ISD (133903)",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",100,"Sabinal ISD (232902)",19
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",100,"Utopia ISD (232904)",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",100,"Uvalde CISD (232903)",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",200,"","."
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",200,"Total Transfers In",25
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",100,"Transfers In From",300,"","."
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",100,"Big Springs Charter School (193801)",88
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",100,"Rocksprings ISD (069901)",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",100,"Utopia ISD (232904)",17
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",200,"","."
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2013-14",20,"Region XX San Antonio","Leakey ISD (193902)",200,"Transfers Out To",300,"","."
+

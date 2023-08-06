@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Boerne ISD (130901)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Divide ISD (133905)",9
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Harper ISD (086902)",5
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Hunt ISD (133902)",46
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Kerrville ISD (133903)",84
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",200,,"."
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",300,,"."
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Big Springs Charter School (193801)",70
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Center Point ISD (133901)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Comfort ISD (130902)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Divide ISD (133905)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Harper ISD (086902)",17
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Hunt ISD (133902)",22
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Kerrville ISD (133903)",136
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Leakey ISD (193902)",-9999999
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",30
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",200,,"."
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",200,"Total Transfers Out",283
+"2015-16",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",300,,"."
+

@@ -1,0 +1,21 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Chisum ISD (139905)",-9999999
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Clarksville ISD (194904)",-9999999
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Detroit ISD (194905)",17
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Mount Pleasant ISD (225902)",-9999999
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"North Lamar ISD (139911)",98
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Paris ISD (139909)",38
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",100,"Rivercrest ISD (194903)",14
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",200,,"."
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",200,"Total Transfers In",172
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",100,"Transfers In From",300,,"."
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"Chisum ISD (139905)",12
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"Detroit ISD (194905)",22
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"Mount Pleasant ISD (225902)",-9999999
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"North Lamar ISD (139911)",34
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"Paris ISD (139909)",31
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",100,"Rivercrest ISD (194903)",8
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",200,,"."
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2015-16",08,"Region VIII Mt Pleasant","Prairiland ISD (139912)",200,"Transfers Out To",300,,"."
+

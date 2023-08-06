@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Blum ISD (109913)",25
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Cleburne ISD (126903)",10
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Grandview ISD (126904)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Hillsboro ISD (109904)",27
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Itasca ISD (109907)",24
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Rio Vista ISD (126907)",8
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",100,"Whitney ISD (109911)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",200,,"."
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",100,"Transfers In From",300,,"."
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Alvarado ISD (126901)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Blum ISD (109913)",7
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Brazos River Charter School (213801)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Cleburne ISD (126903)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Grandview ISD (126904)",13
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Hillsboro ISD (109904)",-9999999
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Itasca ISD (109907)",5
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",100,"Rio Vista ISD (126907)",8
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",200,,"."
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",200,"Total Transfers Out",43
+"2015-16",12,"Region XII Waco","Covington ISD (109903)",200,"Transfers Out To",300,,"."
+

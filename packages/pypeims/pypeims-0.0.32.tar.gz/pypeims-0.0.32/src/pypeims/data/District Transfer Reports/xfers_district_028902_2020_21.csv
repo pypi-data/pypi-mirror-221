@@ -1,0 +1,58 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Gonzales ISD (089901)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",22
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Luling ISD (028903)",48
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Navarro ISD (094903)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"New Diana ISD (230906)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"Prairie Lea ISD (028906)",26
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",100,"San Marcos CISD (105902)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",133
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Achieve Public Schools (227825)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Discovery School (227821)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",35
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bastrop ISD (011901)",26
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cuero ISD (062901)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Del Valle ISD (227910)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eanes ISD (227909)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",11
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hays CISD (105906)",17
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",60
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",25
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Luling ISD (028903)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prairie Lea ISD (028906)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Public Schools (227824)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Marcos CISD (105902)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Smithville ISD (011904)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",108
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Charter School (046802)",153
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wayside Schools (227803)",37
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wimberley ISD (105905)",-999
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",537
+"2020-2021",13,"Region XIII Austin","Lockhart ISD (028902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

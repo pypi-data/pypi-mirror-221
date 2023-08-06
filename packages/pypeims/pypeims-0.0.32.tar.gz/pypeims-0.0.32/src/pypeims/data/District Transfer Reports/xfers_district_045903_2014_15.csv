@@ -1,0 +1,25 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Brazos ISD (008903)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Brenham ISD (239901)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Burnet CISD (027903)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Columbus ISD (045902)",14
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"East Bernard ISD (241902)",8
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"El Campo ISD (241903)",7
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Hallettsville ISD (143901)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Stafford MSD (079910)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",100,"Wharton ISD (241904)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",200,"","."
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",200,"Total Transfers In",38
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",100,"Transfers In From",300,"","."
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Brazos ISD (008903)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Columbus ISD (045902)",28
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"East Bernard ISD (241902)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"El Campo ISD (241903)",7
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Ennis ISD (070903)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Hallettsville ISD (143901)",5
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",100,"Weimar ISD (045905)",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",200,"","."
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2014-15",03,"Region III Victoria","Rice CISD (045903)",200,"Transfers Out To",300,"","."
+

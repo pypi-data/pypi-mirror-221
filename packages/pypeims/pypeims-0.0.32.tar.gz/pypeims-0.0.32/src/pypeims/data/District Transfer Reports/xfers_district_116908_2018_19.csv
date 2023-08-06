@@ -1,0 +1,50 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Boles ISD (116916)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Caddo Mills ISD (116901)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenville ISD (116905)",24
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Lone Oak ISD (116906)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Rains ISD (190903)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Royse City ISD (199902)",16
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Terrell ISD (129906)",24
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",100,"Wills Point ISD (234907)",12
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",101
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bland ISD (116915)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boles ISD (116916)",221
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Caddo Mills ISD (116901)",24
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Commerce ISD (116903)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",18
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Forney ISD (129902)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Greenville ISD (116905)",11
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kaufman ISD (129903)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lone Oak ISD (116906)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rockwall ISD (199901)",12
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Royse City ISD (199902)",21
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Saltillo ISD (112909)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wills Point ISD (234907)",13
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",347
+"2018-2019",10,"Region X Richardson","Quinlan ISD (116908)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

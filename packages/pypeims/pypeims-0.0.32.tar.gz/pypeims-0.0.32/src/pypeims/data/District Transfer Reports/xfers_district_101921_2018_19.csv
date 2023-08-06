@@ -1,0 +1,62 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",35
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",88
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntsville ISD (236902)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Iola ISD (093903)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",262
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Livingston ISD (187907)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Magnolia ISD (170906)",104
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Montgomery ISD (170903)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Navasota ISD (093904)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Richards ISD (093905)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",53
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",100,"Waller ISD (237904)",25
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",590
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brenham ISD (239901)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comquest Academy (101842)",18
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",15
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cypress-Fairbanks ISD (101907)",85
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",19
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Klein ISD (101915)",41
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Magnolia ISD (170906)",25
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montgomery ISD (170903)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Caney ISD (170908)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",11
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Houston State University Chart (236802)",10
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring ISD (101919)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",28
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Rhodes School (101861)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waller ISD (237904)",-999
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",284
+"2018-2019",04,"Region IV Houston","Tomball ISD (101921)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

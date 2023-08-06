@@ -1,0 +1,88 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",46
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",11
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",11
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",12
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Katy ISD (101914)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",17
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Sheldon ISD (101924)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",100,"Tomball ISD (101921)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",111
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",254
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alief ISD (101903)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Amigos Por Vida-Friends For Life P (101819)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arrow Academy (021805)",149
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beatrice Mayes Institute Charter S (101847)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bellville ISD (008901)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Channelview ISD (101905)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleveland ISD (146901)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comquest Academy (101842)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",83
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crosby ISD (101906)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cypress-Fairbanks ISD (101907)",55
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",156
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Galena Park ISD (101910)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"George I Sanchez Charter (101804)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",60
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",547
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Science - Housto (101862)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston Heights High School (101821)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",115
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Humble ISD (101913)",34
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",118
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Klein ISD (101915)",127
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy School Of Sport Sciences (101874)",227
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Magnolia ISD (170906)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montgomery ISD (170903)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Caney ISD (170908)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Waverly ISD (236901)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pasadena ISD (101917)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",75
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promise Community School (101853)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",99
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Houston State University Chart (236802)",62
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",106
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sheldon ISD (101924)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest School (101838)",40
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Splendora ISD (170907)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring Branch ISD (101920)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",374
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Serenity Academy (170801)",16
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Lawson Academy (101864)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Rhodes School (101861)",58
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Varnett Public School (101814)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tomball ISD (101921)",53
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Two Dimensions Preparatory Academy (101840)",149
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Houston Charter Scho (101807)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Willis ISD (170904)",-999
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yes Prep Public Schools Inc (101845)",31
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3080
+"2018-2019",04,"Region IV Houston","Spring ISD (101919)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

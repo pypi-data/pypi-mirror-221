@@ -1,0 +1,39 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Bridgeport ISD (249903)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryson ISD (119901)",13
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Graford ISD (182902)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Graham ISD (252901)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Perrin-Whitt CISD (119903)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",100,"Windthorst ISD (005904)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",35
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Archer City ISD (005901)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeport ISD (249903)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryson ISD (119901)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Decatur ISD (249905)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Era ISD (049906)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Graham ISD (252901)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midway ISD (039905)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Perrin-Whitt CISD (119903)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weatherford ISD (184903)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Windthorst ISD (005904)",-999
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",44
+"2019-2020",09,"Region IX Wichita Falls","Jacksboro ISD (119902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

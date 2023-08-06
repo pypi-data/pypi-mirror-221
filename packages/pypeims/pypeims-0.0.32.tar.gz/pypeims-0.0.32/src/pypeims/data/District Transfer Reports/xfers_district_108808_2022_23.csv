@@ -1,0 +1,34 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"DONNA ISD  -  108902",854
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"EDCOUCH-ELSA ISD  -  108903",24
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"EDINBURG CISD  -  108904",1394
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"HARLINGEN CISD  -  031903",-999
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"HIDALGO ISD  -  108905",24
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"LA JOYA ISD  -  108912",37
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"LA VILLA ISD  -  108914",-999
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"MCALLEN ISD  -  108906",407
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"MERCEDES ISD  -  108907",17
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"MISSION CISD  -  108908",63
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"MONTE ALTO ISD  -  108915",-999
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"PHARR-SAN JUAN-ALAMO ISD  -  108909",2719
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"PROGRESO ISD  -  108910",10
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"SAN BENITO CISD  -  031912",-999
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"SHARYLAND ISD  -  108911",83
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"VALLEY VIEW ISD  -  108916",206
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",100,"WESLACO ISD  -  108913",100
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",5950
+"2022-2023",01,"REGION I EDINBURG","VANGUARD ACADEMY  -  108808","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

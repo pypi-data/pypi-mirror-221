@@ -1,0 +1,40 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"Edcouch-Elsa ISD (108903)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"La Feria ISD (031905)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"Lyford CISD (245902)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",100,"Progreso ISD (108910)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Donna ISD (108902)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edcouch-Elsa ISD (108903)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlingen CISD (031903)",54
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",11
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",12
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Feria ISD (031905)",15
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lyford CISD (245902)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pharr-San Juan-Alamo ISD (108909)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Progreso ISD (108910)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"South Texas ISD (031916)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-Rio Gr (108804)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weslaco ISD (108913)",-999
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",121
+"2019-2020",01,"Region I Edinburg","Santa Rosa ISD (031914)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

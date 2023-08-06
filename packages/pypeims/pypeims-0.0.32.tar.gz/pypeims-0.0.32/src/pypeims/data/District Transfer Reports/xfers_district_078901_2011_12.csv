@@ -1,0 +1,14 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",100,"Transfers In From",100,"Paducah ISD (051901)",-9999999
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",100,"Transfers In From",100,"Vernon ISD (244903)",8
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",100,"Transfers In From",200,"","."
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",100,"Transfers In From",300,"","."
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",100,"Northside ISD (244905)",-9999999
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",100,"Quanah ISD (099903)",-9999999
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",100,"Vernon ISD (244903)",8
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",200,"","."
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",200,"Total Transfers Out",15
+"2011-12",09,"Region IX Wichita Falls","Crowell ISD (078901)",200,"Transfers Out To",300,"","."
+

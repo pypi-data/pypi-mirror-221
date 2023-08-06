@@ -1,0 +1,43 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Columbus ISD (045902)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Fayetteville ISD (075906)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Flatonia ISD (075901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Giddings ISD (144901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Top-Carmine ISD (075908)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Schulenburg ISD (075903)",20
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",100,"Weimar ISD (045905)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",68
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Columbus ISD (045902)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fayetteville ISD (075906)",44
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Flatonia ISD (075901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Giddings ISD (144901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gonzales ISD (089901)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Round Top-Carmine ISD (075908)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Schulenburg ISD (075903)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Smithville ISD (011904)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weimar ISD (045905)",-999
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",75
+"2018-2019",13,"Region XIII Austin","La Grange ISD (075902)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

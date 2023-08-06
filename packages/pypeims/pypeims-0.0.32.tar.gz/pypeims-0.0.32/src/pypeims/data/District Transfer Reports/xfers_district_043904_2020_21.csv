@@ -1,0 +1,64 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Allen ISD (043901)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bland ISD (116915)",11
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Blue Ridge ISD (043917)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bonham ISD (074903)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Caddo Mills ISD (116901)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Celeste ISD (116902)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Commerce ISD (116903)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Community ISD (043918)",12
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenville ISD (116905)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",10
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",100,"Sherman ISD (091906)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",61
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bland ISD (116915)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",19
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Caddo Mills ISD (116901)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Campbell ISD (116910)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Celeste ISD (116902)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Commerce ISD (116903)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Community ISD (043918)",26
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Greenville ISD (116905)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",14
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leonard ISD (074909)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",53
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Royse City ISD (199902)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wylie ISD (043914)",-999
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",166
+"2020-2021",10,"Region X Richardson","Farmersville ISD (043904)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

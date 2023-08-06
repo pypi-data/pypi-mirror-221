@@ -1,0 +1,22 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",100,"Amarillo ISD (188901)",7
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",100,"Canyon ISD (191901)",25
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",100,"Clarendon ISD (065901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",100,"Groom ISD (033901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",100,"Panhandle ISD (033902)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",200,"","."
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",200,"Total Transfers In",39
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",100,"Transfers In From",300,"","."
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Amarillo ISD (188901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Clarendon ISD (065901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Groom ISD (033901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Happy ISD (219901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Highland Park ISD (188903)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Panhandle ISD (033902)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"River Road ISD (188902)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",200,"","."
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",200,"Total Transfers Out",19
+"2012-13",16,"Region XVI Amarillo","Claude ISD (006902)",200,"Transfers Out To",300,"","."
+

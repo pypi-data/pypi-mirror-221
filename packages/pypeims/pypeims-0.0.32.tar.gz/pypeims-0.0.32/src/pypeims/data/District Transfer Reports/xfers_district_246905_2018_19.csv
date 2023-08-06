@@ -1,0 +1,37 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bartlett ISD (014902)",16
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Georgetown ISD (246904)",12
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Holland ISD (014905)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hutto ISD (246906)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Jarrell ISD (246907)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Taylor ISD (246911)",23
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Thorndale ISD (166905)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",100,"Thrall ISD (246912)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",63
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bartlett ISD (014902)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Georgetown ISD (246904)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goodwater Montessori School (246802)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Holland ISD (014905)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hutto ISD (246906)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jarrell ISD (246907)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Orenda Charter School (014804)",12
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Taylor ISD (246911)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Thrall ISD (246912)",-999
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",54
+"2018-2019",13,"Region XIII Austin","Granger ISD (246905)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

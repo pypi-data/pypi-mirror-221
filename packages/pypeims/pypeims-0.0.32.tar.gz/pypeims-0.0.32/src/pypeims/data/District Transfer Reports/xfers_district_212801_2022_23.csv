@@ -1,0 +1,47 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"ARP ISD  -  212901",27
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"ATHENS ISD  -  107901",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"BIG SANDY ISD  -  230901",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"BROWNSBORO ISD  -  107902",20
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"BULLARD ISD  -  212902",41
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"CHAPEL HILL ISD  -  212909",86
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"CHAPEL HILL ISD  -  225906",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"FRANKSTON ISD  -  001904",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"GILMER ISD  -  230902",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"GLADEWATER ISD  -  092901",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"HALLSVILLE ISD  -  102904",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"HAWKINS ISD  -  250902",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"HENDERSON ISD  -  201902",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"JACKSONVILLE ISD  -  037904",16
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"KILGORE ISD  -  092902",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"LEVERETTS CHAPEL ISD  -  201904",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"LINDALE ISD  -  212903",31
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"NEW SUMMERFIELD ISD  -  037908",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"OVERTON ISD  -  201908",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"QUITMAN ISD  -  250904",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"RUSK ISD  -  037907",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"SABINE ISD  -  092906",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"SPRING HILL ISD  -  092907",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"TATUM ISD  -  201910",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"TROUP ISD  -  212904",12
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"TYLER ISD  -  212905",1467
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"VAN ISD  -  234906",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"WHITEHOUSE ISD  -  212906",270
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"WINNSBORO ISD  -  250907",-999
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",100,"WINONA ISD  -  212910",28
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",2037
+"2022-2023",07,"REGION VII KILGORE","CUMBERLAND ACADEMY  -  212801","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

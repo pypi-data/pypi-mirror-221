@@ -1,0 +1,46 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (225906)",56
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Commerce ISD (116903)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Como-Pickton CISD (112908)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Daingerfield-Lone Star ISD (172902)",12
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Dekalb ISD (019901)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Gilmer ISD (230902)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Harts Bluff ISD (225907)",165
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Hughes Springs ISD (034903)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Mount Vernon ISD (080901)",15
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Pewitt CISD (172905)",16
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Pittsburg ISD (032902)",32
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Prairiland ISD (139912)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Rivercrest ISD (194903)",13
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",100,"Saltillo ISD (112909)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",323
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chapel Hill ISD (225906)",183
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Daingerfield-Lone Star ISD (172902)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harts Bluff ISD (225907)",183
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hughes Springs ISD (034903)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mount Vernon ISD (080901)",30
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Boston ISD (019905)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pewitt CISD (172905)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pittsburg ISD (032902)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prairiland ISD (139912)",-999
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rivercrest ISD (194903)",22
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",446
+"2018-2019",08,"Region VIII Mt Pleasant","Mount Pleasant ISD (225902)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

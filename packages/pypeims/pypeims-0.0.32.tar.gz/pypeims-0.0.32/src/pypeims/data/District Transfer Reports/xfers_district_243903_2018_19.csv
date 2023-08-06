@@ -1,0 +1,34 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",100,"Burkburnett ISD (243901)",21
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",100,"City View ISD (243906)",18
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",100,"Electra ISD (243902)",14
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",100,"Holliday ISD (005902)",10
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",78
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",141
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Archer City ISD (005901)",-999
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bowie ISD (169901)",-999
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burkburnett ISD (243901)",12
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"City View ISD (243906)",24
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Electra ISD (243902)",-999
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Holliday ISD (005902)",26
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wichita Falls ISD (243905)",21
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",95
+"2018-2019",09,"Region IX Wichita Falls","Iowa Park CISD (243903)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

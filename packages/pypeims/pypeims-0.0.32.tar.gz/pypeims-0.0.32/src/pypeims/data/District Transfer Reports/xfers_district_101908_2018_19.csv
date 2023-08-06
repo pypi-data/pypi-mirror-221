@@ -1,0 +1,65 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvin ISD (020901)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Anahuac ISD (036901)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Barbers Hill ISD (036902)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Channelview ISD (101905)",29
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Clear Creek ISD (084910)",62
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Crosby ISD (101906)",11
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Dayton ISD (146902)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Dickinson ISD (084901)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",22
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Goose Creek CISD (101911)",30
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",66
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"La Porte ISD (101916)",1008
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Pasadena ISD (101917)",1129
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Pearland ISD (020908)",13
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Fe ISD (084909)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Sheldon ISD (101924)",21
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",100,"Texas City ISD (084906)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",2418
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Barbers Hill ISD (036902)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beta Academy (101870)",18
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Channelview ISD (101905)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clear Creek ISD (084910)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dickinson ISD (084901)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Galena Park ISD (101910)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goose Creek CISD (101911)",10
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston Heights High School (101821)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",11
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Humble ISD (101913)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Porte ISD (101916)",69
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lamar CISD (079901)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pasadena ISD (101917)",112
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pearland ISD (020908)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest School (101838)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring Branch ISD (101920)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",38
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Houston Charter Scho (101807)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yes Prep Public Schools Inc (101845)",-999
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",307
+"2018-2019",04,"Region IV Houston","Deer Park ISD (101908)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

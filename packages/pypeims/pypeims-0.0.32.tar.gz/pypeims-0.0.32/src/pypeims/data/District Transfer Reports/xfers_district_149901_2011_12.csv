@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Alice ISD (125901)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Beeville ISD (013901)",7
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Mathis ISD (205904)",8
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"McMullen County ISD (162904)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Pawnee ISD (013902)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"San Diego ISD (066902)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Skidmore-Tynan ISD (013905)",7
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Three Rivers ISD (149902)",41
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"Tuloso-Midway ISD (178912)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",100,"White Settlement ISD (220920)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",200,"","."
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",200,"Total Transfers In",75
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",100,"Transfers In From",300,"","."
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Calallen ISD (178903)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Mathis ISD (205904)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"McMullen County ISD (162904)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Orange Grove ISD (125903)",22
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Pleasanton ISD (007905)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"San Benito CISD (031912)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Sinton ISD (205906)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Skidmore-Tynan ISD (013905)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Southwest School (101838)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"St Mary's Academy Charter School (013801)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",100,"Three Rivers ISD (149902)",40
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",200,"","."
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",200,"Total Transfers Out",78
+"2011-12",02,"Region II Corpus Christi","George West ISD (149901)",200,"Transfers Out To",300,"","."
+

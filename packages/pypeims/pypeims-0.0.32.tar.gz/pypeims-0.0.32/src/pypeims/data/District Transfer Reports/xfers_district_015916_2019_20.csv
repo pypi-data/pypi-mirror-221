@@ -1,0 +1,90 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"College Station ISD (021901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",25
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Saline ISD (234904)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Marion ISD (094904)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Navarro ISD (094903)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",70
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Randolph Field ISD (015906)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",14
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",57
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",210
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",13
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",42
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bexar County Academy (015809)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",43
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comal ISD (046902)",22
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Compass Rose Academy (015838)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",22
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (015905)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eleanor Kolitz Hebrew Language Aca (015836)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Floresville ISD (247901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",157
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",162
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",136
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",83
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",172
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Heritage Academy (015815)",94
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",1299
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",111
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",49
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lackland ISD (015913)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marion ISD (094904)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Braunfels ISD (046901)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Frontiers Public Schools Inc (015805)",33
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",126
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Positive Solutions Charter School (015814)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",64
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Randolph Field ISD (015906)",337
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",278
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Marcos CISD (105902)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",109
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",59
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",311
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Somerset ISD (015909)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",53
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",13
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",179
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",4048
+"2019-2020",20,"Region XX San Antonio","Judson ISD (015916)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

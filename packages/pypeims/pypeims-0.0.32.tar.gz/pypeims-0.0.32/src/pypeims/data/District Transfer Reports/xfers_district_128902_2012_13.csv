@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Beeville ISD (013901)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Karnes City ISD (128901)",16
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Navarro ISD (094903)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Pettus ISD (013903)",7
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Runge ISD (128903)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",100,"Seguin ISD (094901)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",200,"","."
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",200,"Total Transfers In",29
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",100,"Transfers In From",300,"","."
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Beeville ISD (013901)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Falls City ISD (128904)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Karnes City ISD (128901)",121
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Pawnee ISD (013902)",35
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Pettus ISD (013903)",11
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Poth ISD (247904)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Runge ISD (128903)",5
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",200,"","."
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",200,"Total Transfers Out",186
+"2012-13",03,"Region III Victoria","Kenedy ISD (128902)",200,"Transfers Out To",300,"","."
+

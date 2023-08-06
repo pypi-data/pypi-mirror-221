@@ -1,0 +1,42 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bruceville-Eddy ISD (161919)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"China Spring ISD (161920)",12
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Clifton ISD (018901)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gatesville ISD (050902)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lorena ISD (161907)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"McGregor ISD (161909)",23
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Midway ISD (161903)",37
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Moody ISD (161910)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Oglesby ISD (050904)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Robinson ISD (161922)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley Mills ISD (018904)",14
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",100,"Waco ISD (161914)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",108
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bosqueville ISD (161923)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clifton ISD (018901)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gatesville ISD (050902)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"McGregor ISD (161909)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midway ISD (161903)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rapoport Academy Public School (161802)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Robinson ISD (161922)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valley Mills ISD (018904)",-999
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",27
+"2019-2020",12,"Region XII Waco","Crawford ISD (161901)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

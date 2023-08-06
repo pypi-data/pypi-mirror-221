@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",100,"Beaumont ISD (123910)",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",100,"Buna ISD (121903)",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",100,"Little Cypress-Mauriceville CISD (181908)",27
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",100,"Vidor ISD (181907)",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",100,"West Orange-Cove CISD (181906)",12
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",200,"","."
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",200,"Total Transfers In",45
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",100,"Transfers In From",300,"","."
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",100,"Buna ISD (121903)",40
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",100,"Evadale ISD (121906)",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",100,"Little Cypress-Mauriceville CISD (181908)",7
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",100,"Vidor ISD (181907)",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",200,"","."
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",05,"Region V Beaumont","Deweyville ISD (176903)",200,"Transfers Out To",300,"","."
+

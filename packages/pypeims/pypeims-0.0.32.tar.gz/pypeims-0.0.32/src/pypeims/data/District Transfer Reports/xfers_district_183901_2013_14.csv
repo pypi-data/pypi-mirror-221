@@ -1,0 +1,18 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Carthage ISD (183902)",112
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Hallsville ISD (102904)",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Henderson ISD (201902)",20
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Longview ISD (092903)",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Marshall ISD (102902)",9
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",100,"Tatum ISD (201910)",11
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",200,"","."
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",100,"Transfers In From",300,"","."
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",100,"Carthage ISD (183902)",20
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",100,"Panola Charter School (183801)",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",100,"Tatum ISD (201910)",17
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",200,"","."
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2013-14",07,"Region VII Kilgore","Beckville ISD (183901)",200,"Transfers Out To",300,"","."
+

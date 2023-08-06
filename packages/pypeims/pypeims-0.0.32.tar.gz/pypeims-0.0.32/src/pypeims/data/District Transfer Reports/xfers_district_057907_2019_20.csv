@@ -1,0 +1,94 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",15
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",98
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Crandall ISD (129901)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",317
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",78
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",21
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Joshua ISD (126905)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",34
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Leander ISD (246913)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Marshall ISD (102902)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",10
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Rice ISD (175911)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Venus ISD (126908)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",607
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",212
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy Of Dallas (057810)",13
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",158
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",18
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeway Preparatory Academy (057851)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",184
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cityscape Schools (057841)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crandall ISD (129901)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crowley ISD (220912)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",343
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",25
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Forney ISD (129902)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gateway Charter Academy (057831)",20
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",61
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",288
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",23
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",307
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",51
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",14
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",114
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Academia De Estrellas (057839)",44
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lancaster ISD (057913)",19
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",310
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midlothian ISD (070908)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",203
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy Southeast (057827)",16
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pegasus School Of Liberal Arts And (057802)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sherman ISD (091906)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",23
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",34
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",47
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",251
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",262
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Village Tech Schools (057847)",376
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",42
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",-999
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",55
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3585
+"2019-2020",10,"Region X Richardson","Duncanville ISD (057907)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

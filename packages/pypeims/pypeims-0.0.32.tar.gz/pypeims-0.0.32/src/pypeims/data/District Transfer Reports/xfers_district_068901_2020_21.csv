@@ -1,0 +1,51 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",100,"Andrews ISD (002901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",100,"Big Spring ISD (114901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",100,"Crane ISD (052901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Stockton ISD (186902)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",100,"Midland ISD (165901)",218
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",232
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Andrews ISD (002901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Buena Vista ISD (186901)",15
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coahoma ISD (114902)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Compass Academy Charter School (068802)",1255
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crane ISD (052901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",145
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",498
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lubbock ISD (152901)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mexia ISD (147903)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midland ISD (165901)",20
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nixon-Smiley CISD (089903)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",71
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",403
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sherman ISD (091906)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",10
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",30
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Leadership Public Schools (226801)",15
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"UTPB Stem Academy (068803)",726
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ysleta ISD (071905)",-999
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3223
+"2020-2021",18,"Region XVIII Midland","Ector County ISD (068901)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

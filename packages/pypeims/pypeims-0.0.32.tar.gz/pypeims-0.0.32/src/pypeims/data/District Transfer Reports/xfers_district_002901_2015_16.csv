@@ -1,0 +1,15 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",100,"Transfers In From",100,"Klondike ISD (058905)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",100,"Transfers In From",100,"Ysleta ISD (071905)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",100,"Transfers In From",200,,"."
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",100,"Transfers In From",300,,"."
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",100,"Midland ISD (165901)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",100,"Premier High Schools (072801)",5
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",100,"Seminole ISD (083903)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",200,,"."
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",200,"Total Transfers Out",15
+"2015-16",18,"Region XVIII Midland","Andrews ISD (002901)",200,"Transfers Out To",300,,"."
+

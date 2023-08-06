@@ -1,0 +1,28 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"CEDAR HILL ISD  -  057904",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"DALLAS ISD  -  057905",917
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"DESOTO ISD  -  057906",11
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"DUNCANVILLE ISD  -  057907",55
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"FORNEY ISD  -  129902",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"GRAND PRAIRIE ISD  -  057910",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"IRVING ISD  -  057912",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"LANCASTER ISD  -  057913",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"LEWISVILLE ISD  -  061902",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"MESQUITE ISD  -  057914",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",100,"RED OAK ISD  -  070911",-999
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",1001
+"2022-2023",10,"REGION X RICHARDSON","LA ACADEMIA DE ESTRELLAS  -  057839","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

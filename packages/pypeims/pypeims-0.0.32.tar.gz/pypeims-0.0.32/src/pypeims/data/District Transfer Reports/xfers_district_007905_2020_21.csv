@@ -1,0 +1,59 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Charlotte ISD (007901)",11
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ft Sam Houston ISD (015914)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hondo ISD (163904)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Jourdanton ISD (007902)",43
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Kerrville ISD (133903)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Nixon-Smiley CISD (089903)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Pearsall ISD (082903)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Poteet ISD (007906)",30
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Robstown ISD (178909)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Somerset ISD (015909)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",20
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",121
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Charlotte ISD (007901)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Falls City ISD (128904)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Floresville ISD (247901)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",12
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",19
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jourdanton ISD (007902)",155
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"McMullen County ISD (162904)",53
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Poteet ISD (007906)",10
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Poth ISD (247904)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Somerset ISD (015909)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",299
+"2020-2021",20,"Region XX San Antonio","Pleasanton ISD (007905)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

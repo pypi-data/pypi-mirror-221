@@ -1,0 +1,67 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvarado ISD (126901)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",11
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Burleson ISD (126902)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",31
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",34
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Granbury ISD (111901)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Hillsboro ISD (109904)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Joshua ISD (126905)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Kennedale ISD (220914)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",98
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",18
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burleson ISD (126902)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Castleberry ISD (220917)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chapel Hill Academy (220815)",25
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleburne ISD (126903)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Fort Worth Montessori Academy (220811)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",16
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",76
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",18
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",42
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Joshua ISD (126905)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",10
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Leadership (226801)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas School Of The Arts (220814)",13
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",67
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",116
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"White Settlement ISD (220920)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",486
+"2018-2019",11,"Region XI Fort Worth","Everman ISD (220904)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

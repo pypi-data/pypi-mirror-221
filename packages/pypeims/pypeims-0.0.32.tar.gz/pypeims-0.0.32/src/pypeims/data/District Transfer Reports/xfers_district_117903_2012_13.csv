@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",100,"Transfers In From",100,"Borger ISD (117901)",10
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",100,"Transfers In From",100,"Plemons-Stinnett-Phillips CISD (117904)",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",100,"Transfers In From",200,"","."
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",100,"Transfers In From",300,"","."
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"Amarillo ISD (188901)",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"Borger ISD (117901)",37
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"Panhandle ISD (033902)",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"Plemons-Stinnett-Phillips CISD (117904)",7
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"Spring Creek ISD (117907)",6
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",100,"West ISD (161916)",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",200,"","."
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2012-13",16,"Region XVI Amarillo","Sanford-Fritch ISD (117903)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,125 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Aransas County ISD (004901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bandera ISD (010902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",58
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Brenham ISD (239901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownwood ISD (025902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Burnet CISD (027903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",732
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Dripping Springs ISD (105904)",17
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Eanes ISD (227909)",18
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Elgin ISD (011902)",40
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Georgetown ISD (246904)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Goldthwaite ISD (167901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",261
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hutto ISD (246906)",14
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Jarrell ISD (246907)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Jim Hogg County ISD (124901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Johnson City ISD (016901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Kerrville ISD (133903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Killeen ISD (014906)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vega ISD (161906)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Travis ISD (227913)",15
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Laredo ISD (240901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Leander ISD (246913)",42
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty Hill ISD (246908)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",44
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Madisonville CISD (154901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",375
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Newton ISD (176902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",397
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Prairie Lea ISD (028906)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",192
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"San Angelo ISD (226903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"San Marcos CISD (105902)",11
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Schulenburg ISD (075903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sealy ISD (008902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sulphur Springs ISD (112901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Taylor ISD (246911)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Teague ISD (081904)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Thorndale ISD (166905)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Waco ISD (161914)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Weatherford ISD (184903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",100,"Willis ISD (170904)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",2290
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Achieve Public Schools (227825)",1464
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Discovery School (227821)",256
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bastrop ISD (011901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedars International Academy (227817)",359
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Center Point ISD (133901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chaparral Star Academy (227814)",60
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Del Valle ISD (227910)",41
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dripping Springs ISD (105904)",55
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eanes ISD (227909)",435
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Elgin ISD (011902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",11
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",65
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",2164
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hays CISD (105906)",30
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hutto ISD (246906)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",3127
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Johnson City ISD (016901)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",81
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",3253
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Grange ISD (075902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Travis ISD (227913)",32
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leander ISD (246913)",14
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lockhart ISD (028902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",153
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Meridian World School LLC (246801)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montessori For All (227826)",372
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"NYOS Charter School (227804)",342
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pflugerville ISD (227904)",47
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",217
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Public Schools (227824)",398
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Round Rock ISD (246909)",41
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Marcos CISD (105902)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",323
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",98
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Empowerment Academy (227805)",223
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Preparatory School (105802)",86
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",288
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Thrall ISD (246912)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",18
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas Elementary Cha (227819)",249
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",155
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valor Public Schools (227829)",382
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wayside Schools (227803)",1557
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wimberley ISD (105905)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ysleta ISD (071905)",-999
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",16440
+"2019-2020",13,"Region XIII Austin","Austin ISD (227901)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

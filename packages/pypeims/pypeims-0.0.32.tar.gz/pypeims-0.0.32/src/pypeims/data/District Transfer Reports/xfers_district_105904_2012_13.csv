@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Austin ISD (227901)",24
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Denton ISD (061901)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Hays CISD (105906)",8
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Johnson City ISD (016901)",11
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Lake Travis ISD (227913)",6
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Leander ISD (246913)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"San Marcos CISD (105902)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",100,"Wimberley ISD (105905)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",200,"","."
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",200,"Total Transfers In",56
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",100,"Transfers In From",300,"","."
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Center Point ISD (133901)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Eanes ISD (227909)",9
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Hays CISD (105906)",5
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Johnson City ISD (016901)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",36
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Kerrville ISD (133903)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Lake Travis ISD (227913)",14
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Marble Falls ISD (027904)",-9999999
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Premier High Schools (072801)",5
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",15
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",39
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",100,"Wimberley ISD (105905)",6
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",200,"","."
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",200,"Total Transfers Out",138
+"2012-13",13,"Region XIII Austin","Dripping Springs ISD (105904)",200,"Transfers Out To",300,"","."
+

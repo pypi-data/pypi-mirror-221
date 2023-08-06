@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Brazos ISD (008903)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",5
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Hempstead ISD (237902)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Katy ISD (101914)",18
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Lamar CISD (079901)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Sealy ISD (008902)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",100,"Waller ISD (237904)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",200,,"."
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",200,"Total Transfers In",35
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",100,"Transfers In From",300,,"."
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Aldine ISD (101902)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Alief ISD (101903)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Aristoi Classical Academy (101803)",27
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Bellville ISD (008901)",22
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Calvin Nelms Charter Schools (101837)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Cypress-Fairbanks ISD (101907)",6
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Harmony School Of Science - Housto (101862)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Hempstead ISD (237902)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Katy ISD (101914)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Lamar CISD (079901)",5
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Sealy ISD (008902)",5
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",100,"Waller ISD (237904)",8
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",200,,"."
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",200,"Total Transfers Out",91
+"2015-16",04,"Region IV Houston","Royal ISD (237905)",200,"Transfers Out To",300,,"."
+

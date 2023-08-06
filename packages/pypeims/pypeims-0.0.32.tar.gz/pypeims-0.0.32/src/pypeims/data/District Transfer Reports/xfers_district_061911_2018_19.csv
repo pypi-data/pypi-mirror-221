@@ -1,0 +1,117 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvord ISD (249901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Argyle ISD (061910)",17
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",14
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Bowie ISD (169901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Boyd ISD (249902)",12
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Carroll ISD (220919)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Central Heights ISD (174908)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Chico ISD (249904)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Chilton ISD (073901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleburne ISD (126903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Comanche ISD (047901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Decatur ISD (249905)",44
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",26
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",117
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector County ISD (068901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (015905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"El Campo ISD (241903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"El Paso ISD (071902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Hurst-Euless-Bedford ISD (220916)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",124
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Krum ISD (061905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Worth ISD (220910)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Laredo ISD (240901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",12
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Marion ISD (094904)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Marshall ISD (102902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Midland ISD (165901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Mission CISD (108908)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Paradise ISD (249906)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Ponder ISD (061906)",11
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Springtown ISD (184902)",10
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"White Settlement ISD (220920)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitney ISD (109911)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",467
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alvord ISD (249901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Argyle ISD (061910)",34
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",22
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boyd ISD (249902)",79
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brazos River Charter School (213801)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeport ISD (249903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carroll ISD (220919)",177
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Castleberry ISD (220917)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chapel Hill Academy (220815)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Decatur ISD (249905)",35
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Denton ISD (061901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",51
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Fort Worth Montessori Academy (220811)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",38
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",22
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",465
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keller ISD (220907)",190
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Dallas ISD (061912)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Worth ISD (220910)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lamar CISD (079901)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",18
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Paradise ISD (249906)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ponder ISD (061906)",27
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sanger ISD (061908)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Springtown ISD (184902)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",32
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Westlake Academy Charter School (220810)",143
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"White Settlement ISD (220920)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1440
+"2018-2019",11,"Region XI Fort Worth","Northwest ISD (061911)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

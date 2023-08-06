@@ -1,0 +1,55 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Canton ISD (234902)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Crandall ISD (129901)",19
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Kemp ISD (129904)",13
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Mabank ISD (129905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Quinlan ISD (116908)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Scurry-Rosser ISD (129910)",12
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",100,"Terrell ISD (129906)",21
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",97
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"A+ Academy (057829)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alvarado ISD (126901)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canton ISD (234902)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crandall ISD (129901)",18
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (234903)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eustace ISD (107905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Forney ISD (129902)",17
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fruitvale ISD (234909)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Godley ISD (126911)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Greenville ISD (116905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspired Vision Academy (057830)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kemp ISD (129904)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mabank ISD (129905)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",36
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",-999
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",127
+"2018-2019",10,"Region X Richardson","Kaufman ISD (129903)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

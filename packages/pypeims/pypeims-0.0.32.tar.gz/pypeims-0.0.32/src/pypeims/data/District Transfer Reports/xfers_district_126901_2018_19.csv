@@ -1,0 +1,75 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Burleson ISD (126902)",19
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleburne ISD (126903)",27
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Glen Rose ISD (213901)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Grandview ISD (126904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hillsboro ISD (109904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Joshua ISD (126905)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Kaufman ISD (129903)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Keene ISD (126906)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",100,"Venus ISD (126908)",23
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",102
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"A+ Academy (057829)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brazos River Charter School (213801)",11
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burleson ISD (126902)",17
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Castleberry ISD (220917)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleburne ISD (126903)",22
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Covington ISD (109903)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Everman ISD (220904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frost ISD (175905)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Glen Rose ISD (213901)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Godley ISD (126911)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grandview ISD (126904)",11
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hillsboro ISD (109904)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Itasca ISD (109907)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Joshua ISD (126905)",10
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kauffman Leadership Academy (126801)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keene ISD (126906)",23
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",28
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midlothian ISD (070908)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rio Vista ISD (126907)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas School Of The Arts (220814)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Venus ISD (126908)",15
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weatherford ISD (184903)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",206
+"2018-2019",11,"Region XI Fort Worth","Alvarado ISD (126901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

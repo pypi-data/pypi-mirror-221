@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",100,"Amarillo ISD (188901)",168
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",100,"Bushland ISD (188904)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",100,"Hereford ISD (059901)",5
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",100,"River Road ISD (188902)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",200,"","."
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",100,"Transfers In From",300,"","."
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Adrian ISD (180903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Amarillo ISD (188901)",435
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Boys Ranch ISD (180901)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Bushland ISD (188904)",72
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Claude ISD (006902)",28
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Happy ISD (219901)",37
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Highland Park ISD (188903)",25
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Kerrville ISD (133903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Kress ISD (219905)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Levelland ISD (110902)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Plainview ISD (095905)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Richard Milburn Academy (Amarillo) (188801)",40
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"River Road ISD (188902)",6
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",37
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Tulia ISD (219903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",100,"Wildorado ISD (180904)",-9999999
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",200,"","."
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",200,"Total Transfers Out",700
+"2011-12",16,"Region XVI Amarillo","Canyon ISD (191901)",200,"Transfers Out To",300,"","."
+

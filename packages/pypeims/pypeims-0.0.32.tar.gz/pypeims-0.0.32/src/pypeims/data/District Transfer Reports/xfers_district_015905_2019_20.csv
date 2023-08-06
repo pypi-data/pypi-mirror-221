@@ -1,0 +1,71 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Anson ISD (127901)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",11
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lackland ISD (015913)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",10
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",75
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",73
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"South San Antonio ISD (015908)",18
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",219
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bexar County Academy (015809)",67
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",129
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Compass Rose Academy (015838)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",17
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",10
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",16
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",59
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",984
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",270
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",691
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Vernia ISD (247903)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lighthouse Charter School (015825)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Medina Valley ISD (163908)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Natalia ISD (163903)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Frontiers Public Schools Inc (015805)",12
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Por Vida Academy (015801)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Positive Solutions Charter School (015814)",12
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",344
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",17
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"South San Antonio ISD (015908)",16
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",11
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",83
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",36
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",2857
+"2019-2020",20,"Region XX San Antonio","Edgewood ISD (015905)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

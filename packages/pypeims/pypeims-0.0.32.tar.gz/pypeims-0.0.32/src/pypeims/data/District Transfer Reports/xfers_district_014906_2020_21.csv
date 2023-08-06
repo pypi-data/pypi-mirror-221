@@ -1,0 +1,84 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Academy ISD (014901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bastrop ISD (011901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Belton ISD (014903)",46
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bonham ISD (074903)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Buckholts ISD (166907)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Copperas Cove ISD (050910)",137
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Evant ISD (050901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Florence ISD (246902)",15
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Gatesville ISD (050902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Georgetown ISD (246904)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Holland ISD (014905)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Jarrell ISD (246907)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lampasas ISD (141901)",26
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Leander ISD (246913)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Liberty Hill ISD (246908)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Salado ISD (014908)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",268
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy ISD (014901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Belton ISD (014903)",146
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Copperas Cove ISD (050910)",75
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dripping Springs ISD (105904)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Elgin ISD (011902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Florence ISD (246902)",120
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Georgetown ISD (246904)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",252
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",33
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",20
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jarrell ISD (246907)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lampasas ISD (141901)",11
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leander ISD (246913)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"London ISD (178906)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Meridian World School LLC (246801)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Orenda Charter School (014804)",64
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pflugerville ISD (227904)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",15
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Priority Charter Schools (014803)",126
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",160
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Salado ISD (014908)",64
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tekoa Academy Of Accelerated Studi (123803)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Temple ISD (014909)",17
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",14
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",25
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Troy ISD (014910)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Victoria ISD (235902)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waco ISD (161914)",-999
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1204
+"2020-2021",12,"Region XII Waco","Killeen ISD (014906)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

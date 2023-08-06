@@ -1,0 +1,54 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",11
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Brock ISD (184909)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Burleson ISD (126902)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Castleberry ISD (220917)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",27
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Joshua ISD (126905)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Worth ISD (220910)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Lipan ISD (111902)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Millsap ISD (184904)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Peaster ISD (184908)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"Weatherford ISD (184903)",49
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",100,"White Settlement ISD (220920)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",132
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burleson ISD (126902)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crosstimbers Academy (184801)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",18
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Godley ISD (126911)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",25
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kennedale ISD (220914)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Peaster ISD (184908)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas School Of The Arts (220814)",-999
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weatherford ISD (184903)",29
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",100,"White Settlement ISD (220920)",13
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",127
+"2018-2019",11,"Region XI Fort Worth","Aledo ISD (184907)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

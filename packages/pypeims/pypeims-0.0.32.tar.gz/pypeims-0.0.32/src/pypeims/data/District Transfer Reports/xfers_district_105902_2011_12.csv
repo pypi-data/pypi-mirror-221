@@ -1,0 +1,40 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Comal ISD (046902)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Hays CISD (105906)",41
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Judson ISD (015916)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Lockhart ISD (028902)",11
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Luling ISD (028903)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Navarro ISD (094903)",7
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"New Braunfels ISD (046901)",6
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Prairie Lea ISD (028906)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Seguin ISD (094901)",9
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",100,"Wimberley ISD (105905)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",200,"","."
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",200,"Total Transfers In",87
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",100,"Transfers In From",300,"","."
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Center Point ISD (133901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Comal ISD (046902)",5
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Elgin ISD (011902)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Flatonia ISD (075901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Hays CISD (105906)",39
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",398
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Judson ISD (015916)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",31
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Levelland ISD (110902)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Lockhart ISD (028902)",20
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Lubbock ISD (152901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Luling ISD (028903)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Navarro ISD (094903)",11
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"New Braunfels ISD (046901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Prairie Lea ISD (028906)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Seguin ISD (094901)",-9999999
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",10
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Texas Preparatory School (105802)",129
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",5
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",100,"Wimberley ISD (105905)",87
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",200,"","."
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",200,"Total Transfers Out",758
+"2011-12",13,"Region XIII Austin","San Marcos CISD (105902)",200,"Transfers Out To",300,"","."
+

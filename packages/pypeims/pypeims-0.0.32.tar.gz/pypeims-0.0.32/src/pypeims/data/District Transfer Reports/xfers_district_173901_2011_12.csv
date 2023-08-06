@@ -1,0 +1,13 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",100,"Transfers In From",100,"Patton Springs ISD (063906)",-9999999
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",100,"Transfers In From",100,"Turkey-Quitaque ISD (096905)",-9999999
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",100,"Transfers In From",200,"","."
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",100,"Transfers In From",300,"","."
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",100,"Floydada ISD (077901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",100,"Patton Springs ISD (063906)",22
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",100,"Turkey-Quitaque ISD (096905)",9
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",200,"","."
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",17,"Region XVII Lubbock","Motley County ISD (173901)",200,"Transfers Out To",300,"","."
+

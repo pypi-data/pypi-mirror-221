@@ -1,0 +1,30 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bandera ISD (010902)",21
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",100,"Comfort ISD (130902)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",100,"Kerrville ISD (133903)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",100,"Utopia ISD (232904)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",28
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bandera ISD (010902)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kerrville ISD (133903)",-999
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",22
+"2018-2019",20,"Region XX San Antonio","Medina ISD (010901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

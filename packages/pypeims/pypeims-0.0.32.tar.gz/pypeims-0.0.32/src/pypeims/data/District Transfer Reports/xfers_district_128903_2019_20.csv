@@ -1,0 +1,32 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",100,"Falls City ISD (128904)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",100,"Gonzales ISD (089901)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",100,"Karnes City ISD (128901)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",100,"Kenedy ISD (128902)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cuero ISD (062901)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goliad ISD (088902)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",10
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kenedy ISD (128902)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Meyersville ISD (062906)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nordheim ISD (062902)",18
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pawnee ISD (013902)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yorktown ISD (062904)",-999
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",45
+"2019-2020",03,"Region III Victoria","Runge ISD (128903)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

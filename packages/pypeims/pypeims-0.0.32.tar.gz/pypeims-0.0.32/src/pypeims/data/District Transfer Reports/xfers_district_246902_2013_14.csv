@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Burnet CISD (027903)",33
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Georgetown ISD (246904)",15
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Haskell CISD (104901)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Jarrell ISD (246907)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Killeen ISD (014906)",94
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Lampasas ISD (141901)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Liberty Hill ISD (246908)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Pasadena ISD (101917)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Round Rock ISD (246909)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",100,"Salado ISD (014908)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",200,"","."
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",200,"Total Transfers In",157
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",100,"Transfers In From",300,"","."
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Georgetown ISD (246904)",17
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Jarrell ISD (246907)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Killeen ISD (014906)",15
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Leander ISD (246913)",5
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Liberty Hill ISD (246908)",55
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Meridian World School LLC (246801)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Orenda Charter School (014804)",7
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Priority Charter Schools (014803)",-9999999
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Salado ISD (014908)",7
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",6
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",200,"","."
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",200,"Total Transfers Out",124
+"2013-14",13,"Region XIII Austin","Florence ISD (246902)",200,"Transfers Out To",300,"","."
+

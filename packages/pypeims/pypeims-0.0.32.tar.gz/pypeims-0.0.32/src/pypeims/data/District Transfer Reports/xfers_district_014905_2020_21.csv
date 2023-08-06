@@ -1,0 +1,38 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Academy ISD (014901)",41
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bartlett ISD (014902)",42
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Belton ISD (014903)",22
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Granger ISD (246905)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hutto ISD (246906)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockdale ISD (166904)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Rogers ISD (014907)",10
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Salado ISD (014908)",20
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Taylor ISD (246911)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",10
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",100,"Thrall ISD (246912)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",156
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy ISD (014901)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aristoi Classical Academy (101803)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goodwater Montessori School (246802)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jarrell ISD (246907)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Killeen ISD (014906)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rogers ISD (014907)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Salado ISD (014908)",-999
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",23
+"2020-2021",12,"Region XII Waco","Holland ISD (014905)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

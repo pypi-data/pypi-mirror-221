@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Alvin ISD (020901)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Brazosport ISD (020905)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"El Campo ISD (241903)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Matagorda ISD (158904)",18
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Palacios ISD (158905)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Sweeny ISD (020906)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Tidehaven ISD (158902)",20
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Van Vleck ISD (158906)",17
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",100,"Wharton ISD (241904)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",200,"","."
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",200,"Total Transfers In",67
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",100,"Transfers In From",300,"","."
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Boling ISD (241901)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Columbia-Brazoria ISD (020907)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"El Campo ISD (241903)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Matagorda ISD (158904)",81
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Palacios ISD (158905)",12
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Tidehaven ISD (158902)",49
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Van Vleck ISD (158906)",135
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"Victoria ISD (235902)",31
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",100,"West ISD (161916)",-9999999
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",200,"","."
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",200,"Total Transfers Out",326
+"2011-12",03,"Region III Victoria","Bay City ISD (158901)",200,"Transfers Out To",300,"","."
+

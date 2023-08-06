@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",100,"La Pryor ISD (254902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",200,"","."
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",100,"Transfers In From",300,"","."
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Big Springs Charter School (193801)",27
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"D'Hanis ISD (163902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Harlandale ISD (015904)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Hondo ISD (163904)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Kerrville ISD (133903)",8
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Knippa ISD (232901)",201
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"La Pryor ISD (254902)",21
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Leakey ISD (193902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Meadowland Charter School (130801)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Northwest ISD (061911)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Nueces Canyon CISD (069902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Sabinal ISD (232902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",7
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",200,"","."
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",200,"Total Transfers Out",284
+"2013-14",20,"Region XX San Antonio","Uvalde CISD (232903)",200,"Transfers Out To",300,"","."
+
