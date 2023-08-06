@@ -1,0 +1,20 @@
+# VRF default settings and attributes
+#
+# Also supported on csr, eos, frr, iosv, nxos
+#
+supported_on: [ routeros, dellos10, vyos, cumulus_nvue, srlinux, cumulus, sros, routeros7, vmx, vsrx, arubacx, vptx, none ]
+config_after: [ vlan, ospf, isis, bgp, mpls ]
+transform_after: [ vlan, bgp ]
+as: 65000
+attributes:
+  global:
+    as: asn
+    loopback: bool
+  node:
+    as:
+    loopback:
+  link: id
+  interface: id
+  extra:
+    global: [ vrfs ]
+    node: [ vrfs ]
