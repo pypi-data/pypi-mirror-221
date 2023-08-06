@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ldas.iiif.egg-info/PKG-INFO
+ldas.iiif.egg-info/SOURCES.txt
+ldas.iiif.egg-info/dependency_links.txt
+ldas.iiif.egg-info/entry_points.txt
+ldas.iiif.egg-info/not-zip-safe
+ldas.iiif.egg-info/requires.txt
+ldas.iiif.egg-info/top_level.txt
