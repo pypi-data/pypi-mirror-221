@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gislib
+Version: 0.0.1
+Summary: A tool for GIS operations in python
+Home-page: https://github.com/iamsaswata/
+Author: Saswata Nandi
+Author-email: iamsaswata@yahoo.com
+License: MIT
+Keywords: GIS,India,data,hydrology,remote-sensing,climate,cclimate change,water resources
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: six
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: urllib3
+Requires-Dist: scipy
+Requires-Dist: xarray
+Requires-Dist: requests
+
+# gislib
+
+
+This is a python package for GIS operations in Python.
+
+## Installation
+
+> pip install gislib
+ 
+ or
+
+> conda install -c iamsaswata gislib
+
+or 
+
+> pip install git+https://github.com/iamsaswata/gislib.git
+
+
+## License
+
+gislib is available under the [MIT](https://opensource.org/licenses/MIT) license.
