@@ -1,0 +1,8 @@
+include LICENSE
+include requirements.txt
+include README.md
+include social_collage/example_images/00.jpg
+include social_collage/example_images/01.jpg
+include social_collage/example_images/02.jpg
+include social_collage/example_images/03.jpg
+include social_collage/example_images/04.jpg

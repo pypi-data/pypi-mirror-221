@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: social_collage
+Version: 0.9.2
+Summary: Create image collages in social networks style
+Home-page: https://github.com/meequz/social_collage
+Author: Mikhail Varantsou
+Author-email: meequz@gmail.com
+License: MIT
+Keywords: collage
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# social_collage
+

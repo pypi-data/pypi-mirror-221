@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+social_collage/__init__.py
+social_collage/example.py
+social_collage.egg-info/PKG-INFO
+social_collage.egg-info/SOURCES.txt
+social_collage.egg-info/dependency_links.txt
+social_collage.egg-info/requires.txt
+social_collage.egg-info/top_level.txt
+social_collage/example_images/00.jpg
+social_collage/example_images/01.jpg
+social_collage/example_images/02.jpg
+social_collage/example_images/03.jpg
+social_collage/example_images/04.jpg
