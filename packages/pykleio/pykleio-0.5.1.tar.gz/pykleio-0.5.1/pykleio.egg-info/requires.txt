@@ -1,0 +1,6 @@
+numpy
+zarr
+fsspec
+deprecation
+numcodecs
+GitPython
