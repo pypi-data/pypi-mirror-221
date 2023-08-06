@@ -1,0 +1,10 @@
+cloudio/__init__.py,sha256=76n4Ir0tUx-uCkvXK3u-jsWTx_SyyP-OAmv3Nf9OXp4,304
+cloudio/glue/__init__.py,sha256=B19sjGvZcJYK7ZajiaxJU3fIHMO2duoePoNv7YLAtk4,679
+cloudio/glue/cloudio_attribute.py,sha256=mjNwm8MVfSFdkP480c0Dq5KRaJQ330EXgq3Ju0KV5jk,3804
+cloudio/glue/model_to_cloud_connector.py,sha256=OycD7Mk1qldN4Getq9tAPOO14FBCvOjo8a05ZSpauI0,20216
+cloudio/glue/version.py,sha256=AOWVGusRmsxQxmfY_9-vGnfcAOjmSDsVX4Ztju3zino,228
+cloudio_glue_python-1.0.3.dist-info/LICENSE,sha256=tggN86djvJyL25wNdK1-bQRTVeQzV-TuBC4b0-Ftsik,1136
+cloudio_glue_python-1.0.3.dist-info/METADATA,sha256=QAtbx2rupLx2CJq7GxmVWFK9EYu4Mdb4zV7Ntzb8fIU,6017
+cloudio_glue_python-1.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cloudio_glue_python-1.0.3.dist-info/top_level.txt,sha256=0v34UkP2o1zBJZFAZUNwnyNv82liDPcy7y_xD09rPU8,8
+cloudio_glue_python-1.0.3.dist-info/RECORD,,
