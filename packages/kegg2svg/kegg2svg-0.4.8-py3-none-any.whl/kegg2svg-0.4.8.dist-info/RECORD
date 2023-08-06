@@ -1,0 +1,9 @@
+kegg2svg/__init__.py,sha256=OLBHfPOxuE4E3A2e85T3SCrJfCNjhRGWMizP4_eQXO0,30
+kegg2svg/cli.py,sha256=mSD76TpFUbMv0mUO37KdNKxJMXNCtmynxj0Ral7QVAc,540
+kegg2svg/colors.csv,sha256=LQLGE0shc_Q-ky4dTE-ONm-MEl2Y4UyMx1copY9JMDg,406609
+kegg2svg/kegg2svg.py,sha256=81TJqyllV5WUru1y2kmXmcAKQrx9TFDR7LsqmqDgfPM,7871
+kegg2svg-0.4.8.dist-info/METADATA,sha256=pixyvoUVhvmBLSXOZ2KnRXkFSmPnlXbZttogYJ3dIT8,1082
+kegg2svg-0.4.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+kegg2svg-0.4.8.dist-info/entry_points.txt,sha256=UIgsGrUiupTxZ1FoTnKAGawUlMdCOM4bF33cVQQb5zc,46
+kegg2svg-0.4.8.dist-info/top_level.txt,sha256=R4MUhM7bCLogfuluHNW6SK4X9HDncHZ4wqpH8kxA7yw,9
+kegg2svg-0.4.8.dist-info/RECORD,,

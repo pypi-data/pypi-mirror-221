@@ -1,0 +1,2 @@
+[console_scripts]
+kegg2svg = kegg2svg.cli:cli

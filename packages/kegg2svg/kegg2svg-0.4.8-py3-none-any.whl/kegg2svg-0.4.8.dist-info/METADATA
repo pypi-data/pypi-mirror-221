@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kegg2svg
+Version: 0.4.8
+Summary: Draw svg from KEGG Map and augment it with quant data
+Home-page: https://github.com/computational-ms/kegg2svg
+Author: Christian Fufezan
+Author-email: christian@fufezan.net
+License: Apache 2
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Dist: drawSvg (~=2.2.0)
+Requires-Dist: click
+Requires-Dist: loguru
+
+tba
