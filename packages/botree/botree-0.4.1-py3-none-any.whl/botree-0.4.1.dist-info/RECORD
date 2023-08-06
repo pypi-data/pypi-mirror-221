@@ -1,0 +1,10 @@
+botree-0.4.1.dist-info/METADATA,sha256=UUo_C_IOimMGYcq_BgrIh6SUo60ckbaCuqjYpJRUNZo,1786
+botree-0.4.1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+botree-0.4.1.dist-info/licenses/LICENSE,sha256=B0Oqn5ec6dU_K2sIQGEhWpBqnXS68rhFZgVWSF40MbY,1068
+botree/__init__.py,sha256=4Y2B_WzulHyHuNMRnQ_4Sdurds8M3oWSUaoyQ8cAwEM,361
+botree/core.py,sha256=pcwejZhpSg0EJz3rDQceTyF6K8Z9-JbBwppfBDz1Ucw,1747
+botree/cost_explorer.py,sha256=d-qo3uj0a7Hnpez-L5wWiNFgM02WTXmsYRw0l3vQBAs,2103
+botree/logs.py,sha256=aTzkOMms4u1pVJnC2NpNJ_TNsdmsrgg2ZT9U6psHeC0,1926
+botree/s3.py,sha256=-npZw8FnAL42_gMuXuvMSxmfQUIq86GTrIskROxUCOo,5656
+botree/secrets_manager.py,sha256=TsXeRmI5PMSOXTfMqlpe9sLp68ZXASfz_g-eP3lAdyk,6276
+botree-0.4.1.dist-info/RECORD,,
