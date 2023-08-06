@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+veekshithcompexam.egg-info/PKG-INFO
+veekshithcompexam.egg-info/SOURCES.txt
+veekshithcompexam.egg-info/dependency_links.txt
+veekshithcompexam.egg-info/requires.txt
+veekshithcompexam.egg-info/top_level.txt
