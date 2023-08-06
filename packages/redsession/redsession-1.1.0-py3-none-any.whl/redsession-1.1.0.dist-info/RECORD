@@ -1,0 +1,9 @@
+redsession/__init__.py,sha256=UIka7tHvzjO_gGe_kw6c43Z-hyLprYJ43qQwgc_oBHg,137
+redsession/middleware.py,sha256=X_kb4j2-Nf_l7mMIhQxD6Ht18F0vEYnUSa5wEOgBxV4,6268
+redsession/backend/__init__.py,sha256=tw10dANjsuw8e8zKwPt2UAszqc5UekExjszFfy8-Noo,151
+redsession/backend/base.py,sha256=jeEMvKYuShD2C8hzgEWpMzzZDIo7n9NrdDnp9m6efrw,2080
+redsession/backend/redis.py,sha256=Ts8TXzq8uDnZZck-9GhKcrNYHSQF1fcOaWT9tvrCrBY,1054
+redsession-1.1.0.dist-info/METADATA,sha256=jU9QWNIahuFob7V5Dv7hW7b9XP7GSiMpBH3GMKajYSY,2356
+redsession-1.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+redsession-1.1.0.dist-info/licenses/LICENSE.md,sha256=GSOrOS01c5UpJbQMGDTE6aXctJQG41OcoDzneZyM43I,1068
+redsession-1.1.0.dist-info/RECORD,,
