@@ -1,0 +1,11 @@
+usolitaire/__init__.py,sha256=GiSh0bij_YrAKcVdZdxHpSuYalwMCWGfD9AZ2BSzywI,119
+usolitaire/app.py,sha256=qENDNMMzHe1QtI_TFMcQ32_3JXnjPiCiw7bjPVfZlRk,12253
+usolitaire/card_render.py,sha256=Ozm2XWILoYnUhkIXic_9k94Qi6pqq0DuIMtfGplT7qQ,2052
+usolitaire/game.py,sha256=UnhHZjj0kulHhosZC-57NNiYGMRWQA5tuhY0SlF9zcU,8662
+usolitaire/textual_ui.py,sha256=8FofKw9nq_Wcge-vCmyE2Q8yI77ixrRXRohkHyX6iHg,7543
+usolitaire-1.0.0.dist-info/LICENSE,sha256=IqwcoNDWDKIMOoU6tUKPTqnBr-Fbh3lFMIpQFHG-h4k,1074
+usolitaire-1.0.0.dist-info/METADATA,sha256=rBFvZSHYe_Ls77L4MmVmVA4xPoF0axqgTt_uvi_BqFI,1936
+usolitaire-1.0.0.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+usolitaire-1.0.0.dist-info/entry_points.txt,sha256=s0QGaSH8RRlON-dk2ZCO3X1YHxImeguWvM1elkY1uu0,51
+usolitaire-1.0.0.dist-info/top_level.txt,sha256=NKUyI42XlO2Zz9YxM-iZOoORw10B4s3i5iFS2z3UJlg,11
+usolitaire-1.0.0.dist-info/RECORD,,
