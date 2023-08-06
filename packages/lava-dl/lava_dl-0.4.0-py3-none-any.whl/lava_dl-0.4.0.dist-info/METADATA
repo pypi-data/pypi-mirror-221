@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lava-dl
+Version: 0.4.0
+Summary: A library of deep learning tools, which consists of lava.lib.dl.slayer and lava.lib.dl.netx for training and deployment of event-based deep neural networks on traditional as well as neuromorphic backends. Lava-DL is part of Lava Framework
+Home-page: https://lava-nc.org/
+License: (BSD-3-Clause)
+Keywords: neuromorphic,ai,artificial intelligence,neural models,spiking neural networks,deep learning
+Author: Intel's Neuromorphic Computing Lab and the open source community
+Author-email: lava@intel.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: lava-nc (==0.8.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: ninja (>=1.10.2.3,<2.0.0.0)
+Requires-Dist: numpy (>=1.24.4,<2.0.0)
+Requires-Dist: pillow (>=9.2.0,<10.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Requires-Dist: torch (>=1.13.1,<2.0.0)
+Requires-Dist: torchvision (>=0.14.0,<0.15.0)
+Requires-Dist: unittest2 (>=1.1.0,<2.0.0)
+Project-URL: Discussions, https://github.com/lava-nc/lava-dl/discussions
+Project-URL: Frequently Asked Questions, https://github.com/lava-nc/lava-dl/wiki/Frequently-Asked-Questions-(FAQ)
+Project-URL: Issue and Bug Tracker, https://github.com/lava-nc/lava-dl/issues
+Project-URL: Questions and Answers, https://github.com/lava-nc/lava-dl/discussions/categories/q-a
+Project-URL: Repository, https://github.com/lava-nc/lava-dl
