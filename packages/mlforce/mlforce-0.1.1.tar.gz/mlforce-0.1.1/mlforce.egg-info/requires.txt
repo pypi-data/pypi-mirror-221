@@ -1,0 +1,10 @@
+numpy>=1.24.0
+pandas>=1.5.3
+scipy>=1.10.0
+torch>=2.0.0
+
+[data]
+
+[dev]
+pytest>=6.0.0
+sphinx>=4.0.0
