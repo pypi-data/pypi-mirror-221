@@ -1,0 +1,13 @@
+izi18n/__init__.py,sha256=opzml_q-uZ1m6QyhVEcgXSBGQsTh1bZFe4MaXEI5joM,299
+izi18n/core.py,sha256=xYjA7luyXHByGLuu8BpZLrH_CeLnSjLpwlxV3L6Tdb4,2634
+izi18n/i18n.py,sha256=0MDvPF4X39So0aYVW8D3Egp5sAV0sZh-BmcZidGklTA,4363
+izi18n/utils.py,sha256=kJCXWHTm9zlF5KSDY3XZAfMmqqgKWLVGOVJMJPsz8Ic,2255
+izi18n/__pycache__/__init__.cpython-37.pyc,sha256=DTZQk78OgpD44Kas1DxiOgURIN5eDLPBsIFVLR-JkiM,413
+izi18n/__pycache__/core.cpython-37.pyc,sha256=RKtMkeZGFOfHqY71AGTuZ2u2QVrIG6DmHEyxGnPL8z0,2973
+izi18n/__pycache__/i18n.cpython-37.pyc,sha256=43thVUct0RPZ61QRLo1VIU54yxK-l6M1kCMePB7sSqM,3744
+izi18n/__pycache__/utils.cpython-37.pyc,sha256=T2JhNUkK3SYqFL4SZmrNw7OMdfmV2PXuQfc8N65_EF4,2151
+izi18n-1.0.0.dist-info/LICENSE,sha256=i00jtzw1d7ck8wMLovgnOSUE6hiC5hDhJVZ-E0Pp-k8,1495
+izi18n-1.0.0.dist-info/METADATA,sha256=iOUTv0ZcPrtBOLRDw__bXEyBB0uYskE1jMQrljT52EE,3309
+izi18n-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+izi18n-1.0.0.dist-info/top_level.txt,sha256=RWXHmnCMqhxqyyIco28w1aBt3W1SyV5o7udw6zO_IZs,7
+izi18n-1.0.0.dist-info/RECORD,,
