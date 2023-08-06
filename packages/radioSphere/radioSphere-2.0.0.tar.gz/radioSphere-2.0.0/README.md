@@ -1,0 +1,87 @@
+Welcome to radioSphere
+=======================
+
+[Join the chat room for support here.](https://matrix.to/#/#radioSphere:matrix.org)
+
+This project contains a series of tools for the analysis of divergent radiographs containing spherical particles, in particular to measure 3D positions from *a single radiograph* like this one:
+
+![Sample Radiograph](figures/nano/sample.jpg "Radiography of a small collection of same-size spheres")
+
+`radioSphere` is mostly a collection of python libraries (currently bound with a bit of C for the projector).
+
+The technique has been developed by Edward Andò (CNRS), [Benjy Marks](http://www.benjymarks.com/), and Stéphane Roux (CNRS), there is a paper under review in Measurement Science and Technology at the moment.
+
+The technique proposed is a two-step approach:
+
+  - **Step 1**: is a technique called `tomopack` which is an FFT-based pattern matching approach.
+  It uses a template image, or "structuring element" that we call ψ to pick out spheres.
+  Since the size of ψ needs to be very close to the correct size, this allows us to distinguish different sized projections of spheres.
+
+  - **Step 2**: Position optimisation: Starting from a guess of particle positions, the projection is computed and compared to the measured projection. Particle positions are modified iteratively in order to minimise the difference between computed projection and measured one.
+
+Geometry in `radioSphere` is everything: the coordinate systems defined are as follows:
+
+![Geometry](figures/projectedCoords_v2.png "Coordinate Systems")
+
+Notes on the repository
+------------------------
+
+ - `src/radioSphere`: this folder contains the core functions of radioSphere:
+
+    - `detectSpheres`: functions related to `tomopack` (Step 1)
+
+    - `optimisePositions`: functions related to the optimiser (Step 2)
+
+    - `projectSphere`: The tools to create projections (units mm)
+
+ - `tests`: contains tests to test the functionality of what is in tools
+
+ - `examples` and `paper/figureScripts`: examples of the use of `radioSphere` on both synthetic and experimental data
+
+ - `data`: where the presented experimental and synthetic data is stored to run the examples
+
+ - `figures`: figures for paper and this website
+
+ - `paper`: will contain final sources to the paper
+
+ - `presentations`: sources for presentations given about this topic
+
+
+Todo next in Sydney
+---------------------
+
+ - Separate analysis of Benjy's 25mm and 14mm experiments
+ - Attempt to measure transformation matrix between two source-detector setups (is same SSD assumed)
+ - Attempt a two-source-detector optimisation that should elimiate X-drection error
+ - Evaluate attenuation difference between 25 and 14mm particles
+ - Attempt a mix of 25 and 14mm, by eyeballing it, they should separate nicely (no overlap), for each angle separately
+    - Does the residual need to be computed with a different attenuation curve for each one?
+ - Attemps a non-separatable mix using both source informations + non-overlapping together
+
+Todo next in the Alps
+----------------------
+ - Do a physical ψ-scan with about 1/20 particle diameter steps
+ - Don't forget the calibration sphere
+ - No need to do a noise-scan, but a sample rotation (in a cylindrical holder) would be good
+ - Attempt to measure L vs I/I0 directly on a tomopack reconstruction
+   -> Recognise 3D positions from tomopack-scan
+      - assemble ψ-scan
+      - run ψ-scan on the centred ψ-image to get fXseries and compute characteristic template for one particle
+      - chop this off on detector and in X-direction and save this as a convolution kernel
+      - run ψ-scan on real pack of spheres to get fXseries, and run kernel on it
+      - threshold centres, that's your 3D reconstruction!
+   -> compute P (in mm) and plot, for (every?) pixel on the detector P vs I/I0
+   -> Fit attenuation (hopefully a nice line) and look at fitting residuals on the detector
+   -> do optimisation in greylevels to avoid ln(I/I0)
+   -> party
+
+Installing radioSphere
+-----------------------
+
+Please clone this repository once checked out, activate your virtual environment, and then:
+`pip install .`
+
+run the tests to make sure everything is OK:
+`pytest tests/`
+or
+`python setup.py test`

@@ -1,0 +1,106 @@
+[project]
+name = "radioSphere"
+# If you bump this, remember to say what changed at the bottom of README.md
+version = "2.0.0"
+description = "Software for the Practical Analysis of Materials"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "GPLv3"}
+keywords = [
+    "reconstruction",
+    "deconvolution",
+    "spheres",
+    "image analysis",
+    "synthetic images",
+]
+authors = [
+  { name = "Edward Andò", email = "edward.ando@epfl.ch"},
+  { name = "Benjy Marks", email = "benjy.marks@sydney.edu.au"},
+]
+maintainers = [
+  { name = "Edward Andò", email = "edward.ando@epfl.ch"},
+  { name = "Benjy Marks", email = "benjy.marks@sydney.edu.au"},
+]
+
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "ipython",
+    "tifffile",
+    "matplotlib",
+    "progressbar2",
+    "notebook",
+    "json5",
+    "numba"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "nbsphinx",
+    "numpydoc",
+    "black",
+    #"pip-tools",
+    #"docutils>=0.16",
+    #"Jinja2>=3.0.3", # fix jinja version to avoid https://github.com/readthedocs/readthedocs.org/issues/9038
+    #"pre-commit",
+    #"pip-tools",
+]
+test = [
+    "pytest-cov",
+]
+
+[project.urls]
+Blog = "https://medium.com/@RadioSphere"
+Repository = "https://gricad-gitlab.univ-grenoble-alpes.fr/ttk/radioSphere"
+
+[project.scripts]
+calibrateManyParticles = "radioSphere.scripts.calibrateManyParticles:main"
+calibrateSingleParticle = "radioSphere.scripts.calibrateSingleParticle:main"
+findParticles = "radioSphere.scripts.findParticles:main"
+optimiseParticles = "radioSphere.scripts.optimiseParticles:main"
+#generate_particles_with_shells = "radioSphere.scripts.generate_particles_with_shells:main"
+
+
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+radioSphere = ["*.mplstyle"]
+
+
+[build-system]
+requires = [
+    #"twine>=3.4.1",
+    "setuptools >= 40.6.0",
+    #"wheel",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+
+#[tool.pytest.ini_options]
+#addopts = "--cov --cov-report html --cov-report term-missing"
