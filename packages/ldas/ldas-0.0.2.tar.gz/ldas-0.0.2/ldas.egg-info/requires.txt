@@ -1,0 +1,6 @@
+svg.path
+numpy
+opencv-python
+svgwrite
+
+[dev]
