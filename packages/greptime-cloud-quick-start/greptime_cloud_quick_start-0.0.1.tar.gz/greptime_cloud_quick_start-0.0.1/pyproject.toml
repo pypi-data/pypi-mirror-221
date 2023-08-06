@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "greptime-cloud-quick-start"
+version = "0.0.1"
+authors = [
+  { name="CUI YIRAN", email="cuiyiran3@gmail.com" },
+]
+description = "A quick start demo for GreptimeCloud"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GreptimeCloudStarters/quick-start-python"
+"Bug Tracker" = "https://github.com/GreptimeCloudStarters/quick-start-python/issues"
