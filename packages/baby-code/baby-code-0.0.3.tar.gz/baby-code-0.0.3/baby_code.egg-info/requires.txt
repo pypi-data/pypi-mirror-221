@@ -1,0 +1,4 @@
+Flask
+langchain
+llama-cpp-python
+flask_cors
