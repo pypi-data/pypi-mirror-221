@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sqlite5/SQLite4.py
+sqlite5/__init__.py
+sqlite5.egg-info/PKG-INFO
+sqlite5.egg-info/SOURCES.txt
+sqlite5.egg-info/dependency_links.txt
+sqlite5.egg-info/top_level.txt
