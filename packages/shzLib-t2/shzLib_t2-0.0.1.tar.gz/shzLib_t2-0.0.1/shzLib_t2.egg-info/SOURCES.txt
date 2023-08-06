@@ -1,0 +1,8 @@
+README.md
+setup.py
+shzLib_t2/__init__.py
+shzLib_t2.egg-info/PKG-INFO
+shzLib_t2.egg-info/SOURCES.txt
+shzLib_t2.egg-info/dependency_links.txt
+shzLib_t2.egg-info/requires.txt
+shzLib_t2.egg-info/top_level.txt
