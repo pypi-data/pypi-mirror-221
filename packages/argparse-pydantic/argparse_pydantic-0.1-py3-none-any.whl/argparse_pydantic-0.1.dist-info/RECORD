@@ -1,0 +1,10 @@
+argparse_pydantic/__init__.py,sha256=niVnLa8Kp1_DrzqQvXHaoiAj1b3UXCD7PxKVk1gOSw8,139
+argparse_pydantic/core.py,sha256=7rs1tzjyXidtCIwUkKwQLTtSTghTv1sRmbRr5VP28XY,5110
+argparse_pydantic/helpers.py,sha256=8_aCqGO9-z2K1PZuda72DeNOrvQRouS9kk7jbUduXaI,1284
+argparse_pydantic/test_tools.py,sha256=8yDofzb3aneQmHOMoD9L8lJ4O8-y6f2tx3SHFesxGMs,3240
+argparse_pydantic/version.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+argparse_pydantic-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+argparse_pydantic-0.1.dist-info/METADATA,sha256=hOW_Y5dvOKVm1OVnfGy3lDAXtJpoLUaliAJoE5JzJ9w,826
+argparse_pydantic-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+argparse_pydantic-0.1.dist-info/top_level.txt,sha256=YUtXj4YB0Z7WPaydfZmY7HczNWN1XrlH9ufhlbdLWEc,18
+argparse_pydantic-0.1.dist-info/RECORD,,
