@@ -1,0 +1,12 @@
+django_silly_stripe/__init__.py,sha256=kPF1EQM_oXapcAeOCTV5jUHkqpg77oveN5z58_F7Yn8,52
+django_silly_stripe/admin.py,sha256=IqO6aQmZTDxivVxG0Ky-V35Exb8AG1dfr_qRFwV8QLg,1973
+django_silly_stripe/conf.py,sha256=JkObtrQrKvmQU6ZPQIEEedG5YByD_a810UrANThuIDA,1048
+django_silly_stripe/helpers.py,sha256=PVzb0NaMXqk9D1wD2_rM3ju_GnS8JAoAxmSZ41mK7Ko,822
+django_silly_stripe/models.py,sha256=d9K0yC__v9zbMKQp1L_MOrCCZGA2PPZFyrTJeCjHEq0,3428
+django_silly_stripe/urls.py,sha256=K9Tau8cgJLED8eUjZePyQyf8MEcXGYo4s4Zx39k027M,2203
+django_silly_stripe/views.py,sha256=6VGE_p4gJfza77rPM8tV45d34ybpaqLA2awzsgX-I-w,9395
+django_silly_stripe-1.0.0.dist-info/LICENSE.md,sha256=p6WN6_tTaU0GZzZhGSQ93wDfzoT5wAkELRgqahLCVho,1072
+django_silly_stripe-1.0.0.dist-info/METADATA,sha256=n0JX3LGGczTqqQDuKWW8akrEQkM2oxCB5alU5SOQ6PE,3273
+django_silly_stripe-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_silly_stripe-1.0.0.dist-info/top_level.txt,sha256=A7nZoaflmiBusGKVCPx_9rTQ6ZyRusNUA0B2u3-VGaY,20
+django_silly_stripe-1.0.0.dist-info/RECORD,,
