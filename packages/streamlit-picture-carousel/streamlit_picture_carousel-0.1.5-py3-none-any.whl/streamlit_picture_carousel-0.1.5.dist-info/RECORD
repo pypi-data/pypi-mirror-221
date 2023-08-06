@@ -1,0 +1,13 @@
+st_picture_carousel/__init__.py,sha256=y4QMu584x6hBVksyczWTEMA_tX9KCAU-UdNmj60jKO4,1484
+st_picture_carousel/frontend/index.html,sha256=qKMrBbg1aYKA000SsZbsP34GHmoGKHPlZ2J8_SZdpCo,774
+st_picture_carousel/frontend/main.js,sha256=KevT5gZ-ZB4k6Xr-xKxN21KJDV-qLAWb2dsR2xHhuNM,1668
+st_picture_carousel/frontend/streamlit-component-lib.js,sha256=LdsY3Moj3IPUPtagiMaoPl31OabzgeZw6v5_iEqf6xY,1121
+st_picture_carousel/frontend/style.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+st_picture_carousel/frontend/carousel/carousel.css,sha256=jWLEXs5nHy_H52XT6QZAYI_WnvyKkj0lll9EvHSl7wY,2265
+st_picture_carousel/frontend/carousel/carousel.html,sha256=IiH6y8sc38OJxBz6hy2FnrciTNZn7odg37KiyaXKyoc,973
+st_picture_carousel/frontend/carousel/carousel.js,sha256=o6B7P0dx07GVMFEya9HyQcCuShoc0NScg7fbZQzLLKs,1748
+streamlit_picture_carousel-0.1.5.dist-info/LICENSE,sha256=SV8DOjbjZeu8X1zG2eHT_00czGLAoNGk2-BcctNEZWA,1548
+streamlit_picture_carousel-0.1.5.dist-info/METADATA,sha256=g0nG9brBnmy2afGfey-ub9mz2qJi70lt9cC4rCIzmQo,610
+streamlit_picture_carousel-0.1.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+streamlit_picture_carousel-0.1.5.dist-info/top_level.txt,sha256=7tTlCqcjsMynVW3Sb_Co4ZAHDNA5xB4-e1KWSHpmcrQ,20
+streamlit_picture_carousel-0.1.5.dist-info/RECORD,,
