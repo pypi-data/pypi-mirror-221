@@ -1,0 +1,12 @@
+dask_deltatable/__init__.py,sha256=icRYGps8nyzOBQf7zuQbyAiaFzog4kMYDDu_EQzZ1Jw,192
+dask_deltatable/_schema.py,sha256=8WAdyYxNFnISogMq8zLIosqgFdCzMOhawA62O26QfJM,13508
+dask_deltatable/core.py,sha256=vpJeUqN1CQwELWdTlsTUTnmxBnkOUDLl-71K9MwHnAg,8717
+dask_deltatable/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dask_deltatable/types.py,sha256=Ut4mELkd0JJjri7GV-jcQyZJ3_C-0w7R04zVKko8x-A,153
+dask_deltatable/utils.py,sha256=oqHpilCBQ5b64eVLsOBk3ge3Y2Jk8j6Pp90JDA0ZGvw,1824
+dask_deltatable/write.py,sha256=-WCPTrsSaobdax0BdjYEUMzZnQZZ44ANMpcY-YYHIWg,11988
+dask_deltatable-0.3.1.dist-info/LICENSE,sha256=dKmgDx-EQ2br8eLVGZRWrW5OAxCGN_Fgpf2Cv3WB0Ck,1517
+dask_deltatable-0.3.1.dist-info/METADATA,sha256=5FocI-4l0J93gFRR-hJ7TD9I2FKQBc0uzX-8INZzhVU,3267
+dask_deltatable-0.3.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dask_deltatable-0.3.1.dist-info/top_level.txt,sha256=tgQIkvZK6prt95AymrTM5LD39raNVvwF_LQJrUpU6Sc,16
+dask_deltatable-0.3.1.dist-info/RECORD,,
