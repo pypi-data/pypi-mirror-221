@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "genmo"
+version = "0.0.1a1"
+description = ""
+authors = ["Genmo Inc and contributors <hi@genmo.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

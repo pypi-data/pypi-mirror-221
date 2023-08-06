@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: genmo
+Version: 0.0.1a1
+Summary: 
+Author: Genmo Inc and contributors
+Author-email: hi@genmo.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
