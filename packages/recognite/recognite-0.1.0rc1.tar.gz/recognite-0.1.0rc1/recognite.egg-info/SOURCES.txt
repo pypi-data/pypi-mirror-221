@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+recognite.egg-info/PKG-INFO
+recognite.egg-info/SOURCES.txt
+recognite.egg-info/dependency_links.txt
+recognite.egg-info/not-zip-safe
+recognite.egg-info/requires.txt
+recognite.egg-info/top_level.txt
