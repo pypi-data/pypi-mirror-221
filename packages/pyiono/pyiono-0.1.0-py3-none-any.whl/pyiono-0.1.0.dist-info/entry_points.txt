@@ -1,0 +1,2 @@
+[console_scripts]
+pyiono = pyiono.__main__:main
