@@ -1,0 +1,181 @@
+Metadata-Version: 2.1
+Name: svcs
+Version: 23.5.0
+Summary: A Lightweight Service Locator for Python
+Project-URL: Changelog, https://github.com/hynek/svcs/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://github.com/hynek/svcs/blob/main/README.md
+Project-URL: Source, https://github.com/hynek/svcs
+Project-URL: Funding, https://github.com/sponsors/hynek
+Author-email: Hynek Schlawack <hs@ox.cx>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: dependency injection
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: attrs
+Provides-Extra: dev
+Requires-Dist: flask; extra == 'dev'
+Requires-Dist: svcs[tests,typing]; extra == 'dev'
+Requires-Dist: tox>4; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-asyncio; extra == 'tests'
+Requires-Dist: sybil; extra == 'tests'
+Provides-Extra: typing
+Requires-Dist: flask; extra == 'typing'
+Requires-Dist: mypy>=1.4; extra == 'typing'
+Description-Content-Type: text/markdown
+
+
+
+<p align="center">
+  <a href="https://github.com/hynek/svcs/">
+    <img src="https://raw.githubusercontent.com/hynek/svcs/main/docs/_static/logo.svg" width="20%" alt="svcs" />
+  </a>
+</p>
+
+
+# *svcs*: A Lightweight Service Locator for Python
+
+> **Warning**
+> ☠️ Not ready yet! ☠️
+>
+> This project is only public to [gather feedback](https://github.com/hynek/svcs/discussions), and everything can and will change until the project is proclaimed stable.
+>
+> Currently only [**Flask** support](#flask) is production-ready, but API details can still change.
+>
+> At this point, it's unclear whether this project will become a "proper Hynek project".
+> I will keep using it for my work projects, but whether this will grow beyond my personal needs depends on community interest.
+
+*svcs* (pronounced *services*) is a [service locator](https://en.wikipedia.org/wiki/Service_locator_pattern) for Python.
+It provides you with a central place to register factories for types/interfaces and then imperatively request instances of those types with **automatic cleanup** and **health checks**.
+
+---
+
+**This allows you to configure and manage all your resources in *one central place* and access them in a *consistent* way.**
+
+---
+
+In practice that means that at runtime, you say "*Give me a database connection*!", and *svcs* will give you whatever you've configured it to return when asked for a database connection.
+This can be an actual database connection or it can be a mock object for testing.
+All of this happens *within* your application – service locators are **not** related to service discovery.
+
+If you like the [*Dependency Inversion Principle*](https://en.wikipedia.org/wiki/Dependency_inversion_principle) (aka "*program against interfaces, not implementations*"), you would register concrete factories for abstract interfaces; in Python usually a [`Protocol`](https://docs.python.org/3/library/typing.html#typing.Protocol) or an [Abstract Base Class](https://docs.python.org/3.11/library/abc.html).
+
+That:
+
+- unifies **acquisition** and **cleanups** of resources,
+- simplifies **testing**,
+- and allows for **easy health** checks across *all* resources.
+
+No global mutable state is necessary – but possible for extra comfort.
+
+The goal is to minimize your business code to:
+
+```python
+def view(request):
+    db = request.services.get(Database)
+    api = request.services.get(WebAPIClient)
+```
+
+or even:
+
+```python
+def view():
+    db = services.get(Database)
+    api = services.get(WebAPIClient)
+```
+
+The latter already works with [Flask](#flask).
+
+You set it up like this:
+
+<!--
+; skip: next
+-->
+
+```python
+import atexit
+
+from sqlalchemy import Connection, create_engine
+
+...
+
+engine = create_engine("postgresql://localhost")
+
+def engine_factory():
+    with engine.connect() as conn:
+        yield conn
+
+registry = svcs.Registry()
+registry.register_factory(
+    Connection, engine_factory, on_registry_close=engine.dispose
+)
+
+@atexit.register
+def cleanup():
+    registry.close()  # calls engine.dispose()
+```
+
+The generator-based setup and cleanup may remind you of [Pytest fixtures](https://docs.pytest.org/en/stable/explanation/fixtures.html).
+The hooks that are defined as `on_registry_close` are called when you call `Registry.close()` – e.g. when your application is shutting down.
+
+*svcs* comes with **full async** support via a-prefixed methods (i.e. `aget()` instead of `get()`, et cetera).
+
+
+## Is this Dependency Injection!?
+
+No.
+
+Unlike [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection), which passes your dependencies as arguments, you actively ask a service locator for them. This usually requires less opaque magic since nothing meddles with your function/method definitions. But you can use, e.g., your web framework's injection capabilities to inject the locator object into your views and benefit from *svcs*'s upsides without giving up some of DI's ones.
+
+The active acquisition of resources by calling `get()` when you *know* for sure you're going to need it avoids the conundrum of either having to pass a factory (e.g., a connection pool – which also puts the onus of cleanup on you) or eagerly creating resources that you never use:
+
+<!--
+; skip: next
+-->
+```python
+def view(request):
+    if request.form.valid():
+        # Form is valid; only NOW get a DB connection
+        # and pass it into your business logic.
+        return handle_form_data(
+            request.services.get(Database),
+            form.data,
+        )
+
+    raise InvalidFormError()
+```
+
+The main downside is that it's impossible to verify whether all required dependencies have been configured without running the code.
+
+---
+
+For now, please refer to the [GitHub README](https://github.com/hynek/svcs/blob/main/README.md) for latest documentation.
+
+
+## Release Information
+
+### Added
+
+- Registered factory/value clean up!
+  It is now possible to register an `on_registry_close` hook that is called once the `Registry`'s `(a)close()` method is called.
+
+
+---
+
+[→ Full Changelog](https://github.com/hynek/svcs/blob/main/CHANGELOG.md)
+
+
+## Credits
+
+*svcs* is written by [Hynek Schlawack](https://hynek.me/) and distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+The development is kindly supported by my employer [Variomedia AG](https://www.variomedia.de/) and all my amazing [GitHub Sponsors](https://github.com/sponsors/hynek).
