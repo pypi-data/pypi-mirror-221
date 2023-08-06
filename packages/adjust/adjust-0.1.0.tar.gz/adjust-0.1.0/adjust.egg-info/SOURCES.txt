@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+adjust/__init__.py
+adjust/__version__.py
+adjust.egg-info/PKG-INFO
+adjust.egg-info/SOURCES.txt
+adjust.egg-info/dependency_links.txt
+adjust.egg-info/not-zip-safe
+adjust.egg-info/top_level.txt
