@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: localreplitdb
+Version: 0.0.1
+Summary: JSON file-backed DB emuulating replit db's API
+License: ISC
+Author: Dev380
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: replit (>=3.3,<4.0)
+Requires-Dist: tinydb (>=4.8,<5.0)
+Description-Content-Type: text/markdown
+
+# Local Replit DB
+
+Replit DB but as a local file because I can't be bothered to use a real DB when migrating off replit. Backed by TinyDB.
+
+Default db is a file in current working directory.
+
