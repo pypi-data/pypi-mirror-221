@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pgmuvi
+Version: 0.1.0rc4
+Summary: A python package to interpret multiwavelength astronomical timeseries with GPs
+Home-page: https://github.com/icsm/pgmuvi
+Author: Peter Scicluna, Kathryn Jones, Stefan Waterval
+Author-email: Peter Scicluna <peter.scicluna@eso.org>, Kathryn Jones <kathryn.jones@unibe.ch>, Stefan Waterval <sw4445@nyu.edu>, Sundar Srinivasan <s.srinivasan@irya.unam.mx>, Diego Alejandro Vasquez-Torres <d.vasquez@irya.unam.mx>, Sara Jamal <jamal@mpia.de>
+License: GPL
+Project-URL: Homepage, https://github.com/icsm/pgmuvi
+Project-URL: Bug Tracker, https://github.com/icsm/pgmuvi/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pgmuvi
+Python gaussian processes for multiwavelength variability inference
+
+pgmuvi is based on GPyTorch and intended for us in infering the properties of astronomical sources with multiwavelength variability. It uses spectral-mixture kernels to learn an approximation of the PSD of the variability, which have been shown to be very effective for pattern discovery (see https://arxiv.org/pdf/1302.4245.pdf). 

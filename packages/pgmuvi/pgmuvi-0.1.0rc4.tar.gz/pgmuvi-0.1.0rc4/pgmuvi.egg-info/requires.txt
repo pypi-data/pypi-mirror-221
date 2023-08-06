@@ -1,0 +1,9 @@
+numpy
+matplotlib
+seaborn
+torch
+gpytorch
+pyro-ppl
+arviz
+xarray
+tqdm
