@@ -1,0 +1,3 @@
+[console_scripts]
+poc-my-tool-one=poc_my_tool_one.main:main
+

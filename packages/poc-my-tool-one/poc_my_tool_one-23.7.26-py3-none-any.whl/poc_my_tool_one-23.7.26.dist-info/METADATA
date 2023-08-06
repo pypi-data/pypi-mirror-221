@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: poc-my-tool-one
+Version: 23.7.26
+Summary: Project description bla bla bla bla bla.....
+Home-page: https://github.com/userName/poc-my-tool-one
+Author: Author Name
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: poc-my-common-library (>=23.7.26,<24.0.0)
+Requires-Dist: poc-my-common-library-two (>=23.7.26,<24.0.0)
+Project-URL: Documentation, https://github.com/userName/poc-my-tool-one
+Project-URL: Repository, https://github.com/userName/poc-my-tool-one
+Description-Content-Type: text/markdown
+
+
