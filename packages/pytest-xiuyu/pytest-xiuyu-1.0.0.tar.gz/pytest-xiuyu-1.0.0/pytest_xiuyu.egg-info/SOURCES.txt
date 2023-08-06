@@ -1,0 +1,12 @@
+README.md
+setup.py
+ManualPytestPlugin/__init__.py
+ManualPytestPlugin/conftest.py
+ManualPytestPlugin/testcases/__init__.py
+ManualPytestPlugin/testcases/test_demo01.py
+ManualPytestPlugin/testcases/test_demo02.py
+pytest_xiuyu.egg-info/PKG-INFO
+pytest_xiuyu.egg-info/SOURCES.txt
+pytest_xiuyu.egg-info/dependency_links.txt
+pytest_xiuyu.egg-info/entry_points.txt
+pytest_xiuyu.egg-info/top_level.txt
