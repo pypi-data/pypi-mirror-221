@@ -1,0 +1,2 @@
+[console_scripts]
+lj_version = version.command.case:cli
