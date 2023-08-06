@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rljitai
+Version: 0.0.3
+Summary: rljitai
+Home-page: https://github.com/reml-lab/rl_jitai_simulation/
+Author: REML Lab developer
+Author-email: remllabdeveloper@gmail.com
+License: MIT
+Keywords: mHealth machine-learning reinforcement-learning jitai
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: System :: Distributed Computing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+RL for JITAI optimization using simulated environments
