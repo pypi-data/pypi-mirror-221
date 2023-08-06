@@ -1,0 +1,9 @@
+setup.py
+xpack/__init__.py
+xpack/ocr.py
+xpack/pth.py
+xpack/utils.py
+xpack.egg-info/PKG-INFO
+xpack.egg-info/SOURCES.txt
+xpack.egg-info/dependency_links.txt
+xpack.egg-info/top_level.txt
