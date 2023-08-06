@@ -1,0 +1,11 @@
+ShanHeuniversity/__init__.py,sha256=zA0d-xG73wuktYWaQwHSRZOV8r5CnhbosNNyA0F_cxs,20
+ShanHeuniversity/MobAI/__init__.py,sha256=GZQTLojTSd-gE9PpNGmlPDtejr6GmLM1cRMJ_WgxqCg,21
+ShanHeuniversity/MobAI/webapi/ApiData.py,sha256=sm3coy6jtlrUH9tr5qrnKxuZ8loPl2ak6VoTYbXP6SA,1370
+ShanHeuniversity/MobAI/webapi/__init__.py,sha256=4g3XMLpdtNz1ybUUReBuTvFBblDrLiqS3hDAQ7zBYYo,57
+ShanHeuniversity/MobAI/webapi/api.py,sha256=tjtlPeF1MJWPajfnmkI2kQ25kjMrhnTjutun9Q_Fk5k,1885
+ShanHeuniversity/MobAI/webapi/common.py,sha256=B5HiRCaGdZKDs35eLSANSAsGtnzgnY6KXTE9o3WDSBY,448
+ShanHeuniversity/MobAI/webapi/error.py,sha256=YRKV4LxTYSLA6pVd9cTKw3-d4bGUC32uQN4C5Wghasc,216
+ShanHeuniversity-0.1.1.dist-info/METADATA,sha256=RlZg_vAJjyTi1yTUjiL7UCGqLQ7cJ6zHGsqGDQIcx4Y,4753
+ShanHeuniversity-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ShanHeuniversity-0.1.1.dist-info/top_level.txt,sha256=jSWkxI04qbXHMRCZ_2IAB0u67WXHiu_eBYINZzk48x0,17
+ShanHeuniversity-0.1.1.dist-info/RECORD,,
