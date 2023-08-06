@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+SmilesEnumeration.egg-info/PKG-INFO
+SmilesEnumeration.egg-info/SOURCES.txt
+SmilesEnumeration.egg-info/dependency_links.txt
+SmilesEnumeration.egg-info/top_level.txt
