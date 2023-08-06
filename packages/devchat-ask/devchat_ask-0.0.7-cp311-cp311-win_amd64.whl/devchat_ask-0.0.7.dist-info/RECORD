@@ -1,0 +1,12 @@
+chat/evaluation/qa/data/dataset/devlake_qa_examples.json,sha256=mQTqkWB2fAPRaHgAwgp5aBu0FV6-zcdJqrUjie5AqyA,25922
+chat/evaluation/qa/data/dataset/devlake_test_set_mini.json,sha256=igEZRfiK8v9Z9MmxQm7G6-4OvQ69NknEOSF-woIS7mc,12351
+chat/evaluation/qa/data/dataset/langchain_test_set.json,sha256=H9CHJOl_sNOa2IrYvrpwuTxdj-PeSO5gUW0KuYy5vb0,18301
+chat/evaluation/qa/data/dataset/mock.json,sha256=n2waCahd7MckdQlAHw-RrRuBz3RWFlXleCYX4PJy2L4,880
+chat/evaluation/qa/README.md,sha256=N-peuJx0y0W-9GqauoPzvP9sgcpGSZakSJkn5GF5yIE,571
+chat/evaluation/retrieval/data/code_search_net_eval/README.md,sha256=9nAuEH3EIZxG-NN4JVo4_4UQHOnUek4UuLEem-Nb67M,5117
+chat/evaluation/retrieval/data/code_search_net_eval/scores.csv,sha256=35oq7otVdovfLVEQoCHg2O2i0hzLXad-az0WRtDrvHU,407954
+chat/evaluation/retrieval/data/code_search_net_eval/snippets.zip,sha256=orimUFKFMGairWsUt29cfRIyGF1JKhhlajr5D2tOPWk,1179453
+chat/README.md,sha256=jIq_MNqI3oJFAs4XK-na_ucxeGXG_XPAxBwiC02EiRw,64
+devchat_ask-0.0.7.dist-info/METADATA,sha256=9oG9n9qqJmSPkMhds9EOtccRlWf_5kDGELeRre0rL-M,704
+devchat_ask-0.0.7.dist-info/WHEEL,sha256=HWscs3yOKFYW5qMGWiZd7gHNxWFJTJIM1zmy39sTAmA,98
+devchat_ask-0.0.7.dist-info/RECORD,,
