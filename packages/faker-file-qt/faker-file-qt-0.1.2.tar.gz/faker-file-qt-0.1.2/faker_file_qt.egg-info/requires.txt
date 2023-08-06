@@ -1,0 +1,14 @@
+Faker
+faker-file[common]
+QDarkStyle
+PyQt5
+Pillow<=9.5.0
+
+[dev]
+black
+detect-secrets
+doc8
+ipython
+isort
+ruff
+twine
