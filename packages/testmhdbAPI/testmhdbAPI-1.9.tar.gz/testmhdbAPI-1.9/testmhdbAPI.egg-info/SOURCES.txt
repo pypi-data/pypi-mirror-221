@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+libmachbaseAPI.so
+setup.py
+testmhdbAPI/__init__.py
+testmhdbAPI/libmachbaseAPI.so
+testmhdbAPI/machbaseAPI.py
+testmhdbAPI.egg-info/PKG-INFO
+testmhdbAPI.egg-info/SOURCES.txt
+testmhdbAPI.egg-info/dependency_links.txt
+testmhdbAPI.egg-info/top_level.txt
