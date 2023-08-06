@@ -1,0 +1,8 @@
+seppmail_converter/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+seppmail_converter/crawler.py,sha256=fOBgyZK55LOvn-ycxGSCLLy9Lbc7STfJsq3HDiZSeeI,310
+seppmail_converter/exceptions.py,sha256=XLpWj3e-cdYSw_PsUs-ELugSleCRrxyKDgysh7iRgEI,133
+seppmail_converter/main.py,sha256=jatvhDoHkLxNBEx7_QupTFsHG7rjZsHlg4JxOI9H3bE,5336
+seppmail_converter-1.0.0.dist-info/METADATA,sha256=yM4-7krhuQYY5d-lMfSWeFnzk0FyP-BEMC6YxZyJzTY,1714
+seppmail_converter-1.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+seppmail_converter-1.0.0.dist-info/entry_points.txt,sha256=Y-it2Qt_FB4tpBKLcggwVnn3fotiBlnVj01RbSPZ-wo,68
+seppmail_converter-1.0.0.dist-info/RECORD,,
