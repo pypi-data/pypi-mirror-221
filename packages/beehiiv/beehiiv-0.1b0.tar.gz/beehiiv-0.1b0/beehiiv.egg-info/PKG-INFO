@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: beehiiv
+Version: 0.1b0
+Summary: Python wrapper for the BeeHiiv API
+Home-page: https://github.com/abrihter/beehiiv
+Download-URL: https://github.com/abrihter/beehiiv/archive/refs/tags/v0.1b.tar.gz
+Author: abrihter
+Author-email: 
+License: MIT
+Keywords: BEEHIIV,API,WRAPPER
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# beehiiv
+Python wrapper for BeeHiiv API
