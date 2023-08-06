@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: tidychef
+Version: 0.1.1
+Summary: Python framework for transforming tabulated data with visual relationships into tidy data
+Home-page: https://github.com/mikeAdamss/tidychef
+License: Apache 2.0
+Author: mikeAdamss
+Author-email: mikelovesbooks@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cachecontrol (>=0.13.1,<0.14.0)
+Requires-Dist: filelock (>=3.12.2,<4.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: validators (>=0.20.0,<0.21.0)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/mikeAdamss/tidychef
+Description-Content-Type: text/markdown
+
+# Tidychef
+
+![Tests](https://github.com/mikeAdamss/tidychef/actions/workflows/tests.yml/badge.svg)
+![The test coverage for tidychef is 100%](./jupyterbook/images/coverage-100.svg)
+![Static Badge](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20-blue)
+
+Tidychef is a python framework to enable “data extraction for humans” via simple python beginner friendly "recipes". It aims at allowing users to easily transform tabulated data sources that use visual relationships (human readable only data) into simple machine readable "tidy data" in a repeatable way.
+
+i.e: it allows you to reliably turn something that looks like this: 
+
+![](./jupyterbook/images/bands-before.png)
+
+into something that looks like this:
+
+![](./jupyterbook/images/bands-after.png)
+_Note: image cropped for reasons of practicality._
+
+Tidychef is **designed to allow even novice python users or analysts to quickly become productive** but also has an advanced feature set and is designed to be readily and easily extended (adding new source of tabulated data, your own use case specific methods and filters and domain specific validation etc are all possible and documented in detail).
+
+In depth training material, examples and technical documentation [can be found here](https://mikeadamss.github.io/tidychef/intro.html#).
+
+## Installation
+
+```
+pip install tidychef
+```
+
+## Acknowlagements
+
+Tidychef is directly inspired by the python package [databaker](https://github.com/sensiblecodeio/databaker) created by [The Sensible Code Company](https://sensiblecode.io/) in partnership with the United Kingdoms [Office For National Statistics](https://www.ons.gov.uk/).
+
+While I liked [databaker](https://github.com/sensiblecodeio/databaker) and successfully worked with it on multiple ETL projects over the course of almost a decade, this software should be considered the culmination of that work and the lessons learned from that time.
