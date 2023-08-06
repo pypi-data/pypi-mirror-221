@@ -1,0 +1,2 @@
+[console_scripts]
+opencopilot = sdk.cli:app
