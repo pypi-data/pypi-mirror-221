@@ -1,0 +1,5 @@
+celery
+gevent
+sentry-sdk
+simplejson
+tesla-ce-client>=0.0.3
