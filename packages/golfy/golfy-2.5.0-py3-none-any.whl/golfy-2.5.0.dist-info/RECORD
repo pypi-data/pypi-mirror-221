@@ -1,0 +1,17 @@
+golfy/__init__.py,sha256=cMS5a0pmvJWUDpOMay6S3F_xVNooa1XXpqpyuMsWnzM,1001
+golfy/deconvolution.py,sha256=YhJduFiZkLZXtW086g0Z_Wn4NF6MPp_SG7d4C7SHTmE,8161
+golfy/design.py,sha256=2cKmmyFp7vo9nIhhZhqqN5irPZGwMwvhrcjuEryGT8w,5061
+golfy/evaluation.py,sha256=L9zEwJdMkrO6K1L5tJBIwX9x-UR0FYUi7vCG4eTVduw,2549
+golfy/initialization.py,sha256=be0z_-G7SWjbf-03TeXxsIX7bpzbn7xeKYL1nRsL1qU,19478
+golfy/main.py,sha256=DnBR6bY0tdDRctwDQx99XvuN7T_neSb-90qTN0ixQ_s,9826
+golfy/merging.py,sha256=78f3MVXfZ-pOxfMmZsq0XJ4SWqZXZs-pThYO8uLvqEc,6800
+golfy/optimization.py,sha256=Fo-jr5LmC9DD-MowfaygDoKJF4ERfOzcEUYjBUQKbqc,11264
+golfy/simulation.py,sha256=EcbDoqJSTeLJxqoZZ6GMY9bZ3T97IjOMHaBOVILl1cc,3912
+golfy/types.py,sha256=jrCO5vYg2Wv0jlfYQrdOFqcNvkppYJGT0NMzDMj-0PQ,322
+golfy/util.py,sha256=BuN8mcK6aoMniRhOb5J52L4qrv1GQUrkwQu7Lo5E0os,1149
+golfy/validity.py,sha256=XhKV-o1izK_5OysTCiOzsGy0g12E8UvLOLyd5FdlovI,3622
+golfy-2.5.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+golfy-2.5.0.dist-info/METADATA,sha256=UbkYTbAFcYDMMNAFep7YVSprsU8NjnV0H31JgfF5upI,5242
+golfy-2.5.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+golfy-2.5.0.dist-info/top_level.txt,sha256=OjqqoZw8wAoc0iySUD4s4A_N2qJWgeAIsTZN1RyYo3c,6
+golfy-2.5.0.dist-info/RECORD,,
