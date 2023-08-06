@@ -1,0 +1,47 @@
+can初始化配置:
+  仲裁域:
+  - 500kbps 80%
+  - 自定义
+  - 1Mbps 80%
+  - 250kbps 80%
+  - 125kbps 80%
+  - 100kbps 80%
+  - 50kbps 80%
+  - 800kbps 80%
+  协议:
+    同星:
+    - flexray
+    - can
+    - canfd
+    周立功:
+    - can
+    - canfd
+  数据域:
+  - 2Mbps 80%
+  - 4Mbps 80%
+  - 5Mbps 75%
+  - 1Mbps 80%
+  - 800kbps 80%
+  - 500kbps 80%
+  - 250kbps 80%
+  - 125kbps 80%
+  - 100kbps 80%
+  自定义波特率: 500Kbps(85%),2.0Mbps(80%),(20,00000520,00000106)
+  通道:
+  - '0'
+  - '1'
+log:
+  log_extension: .log
+  log_level: info
+功能模块配置:
+  功能按键: 功能按键
+  告警: Warning
+  固定显示: FixedDisplay
+  指示灯: TT
+  智能驾驶: ADAS
+  燃油: Gauge
+  自定义: 自定义
+  行车电脑: TripComputer
+  语音告警: Chime
+文件配置:
+  用例文件名: casefile.csv
