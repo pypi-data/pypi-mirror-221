@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dominx"
+description = "An open-source library for game development."
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.7"
+license = {text = "LICENSE.txt"}
+authors = [{name = "Zenthm", email = "zenthm.dev@gmail.com"}]
+keywords = ["python", "game"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Games/Entertainment",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Video",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://dominx.readthedocs.io/en/latest"
+Documentation = "https://dominx.readthedocs.io/en/latest"
+Download = "https://pypi.org/project/dominx"
+Source = "https://github.com/zenthm/dominx"
+Tracker = "https://github.com/zenthm/dominx/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "dominx.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
