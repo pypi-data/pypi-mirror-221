@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: langbear
+Version: 0.0.1
+Summary: AI prompt management platform.
+Project-URL: Homepage, https://langbear.runbear.io
+Project-URL: Bug Tracker, https://github.com/runbear-io/langbear-python/issues
+Author-email: Runbear <contact@runbear.io>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# LangBear
+
+LangBear is an AI prompt management platform. Designed to enhance the agility and efficacy of AI applications, LangBear allows for on-the-fly editing and deployment of prompts to production. Beyond the management, it offers an array of features to elevate prompt quality, including localization, monitoring, ratings, and A/B testing capabilities.
+
