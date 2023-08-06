@@ -1,0 +1,13 @@
+ecallisto_ng/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecallisto_ng/data_fetching/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecallisto_ng/data_fetching/get_data.py,sha256=9GZf799onboGcPlJJUNMKEqfd2tzjrXdqfse7igIsxo,9301
+ecallisto_ng/data_fetching/get_information.py,sha256=pWzB-kCJpvX1AbDcwPnLA6B_t2HSePvLXmoe5xnKXEc,4680
+ecallisto_ng/data_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecallisto_ng/data_processing/utils.py,sha256=M7pS2jBjOrQgBY5t5QkNJLzOYjf30E0Pr9h5TrR34_Q,5694
+ecallisto_ng/plotting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecallisto_ng/plotting/utils.py,sha256=YxoOwxDUJ2d5uhNi4PQDpQF_6mLkWORQYm5vt3BcuI8,3025
+ecallisto_ng-0.2.6.dist-info/LICENSE,sha256=nFiotfyOT6cIid2ovzDL8fNfU7lMEZ72MkZACxPDWZU,1083
+ecallisto_ng-0.2.6.dist-info/METADATA,sha256=n83SrpQm3KX4-_32JYydRuLEJ35kcUYG5LHimHG53_k,4008
+ecallisto_ng-0.2.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ecallisto_ng-0.2.6.dist-info/top_level.txt,sha256=91-JXdFQLU6d_CdtFX72H9Y1er7fdQsSt4wU3Hh9ibA,13
+ecallisto_ng-0.2.6.dist-info/RECORD,,
