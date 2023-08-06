@@ -1,0 +1,11 @@
+click
+httpx
+sqlite-utils
+
+[test]
+pytest
+pytest-asyncio
+pytest-httpx
+cogapp
+pytest-mock
+datasette>=1.0a2
