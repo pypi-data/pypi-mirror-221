@@ -1,0 +1,8 @@
+echoss_image_utils/__init__.py,sha256=c09bJk-UcR-FYo_Up5PgnRuHVgOgCJvh-PzPeS7zwYs,29
+echoss_image_utils/img_dataset_split.py,sha256=fRiLmb1Dxdo3yBqnohHEzlzhd_owvq2QzxBVOMbua1k,15077
+echoss_image_utils/labelme2yolo.py,sha256=JXDM8Fva-PYcC9Yz5MBVEzdTNbKjVgAnMiTyceuSXrw,20055
+echoss_image_utils/labelme2yolo_polygon.py,sha256=0wDkmeD5FVnbqiZ1BBjtyILsDBufoL8h8Ys7--OHP5Y,11159
+echoss_image_utils-0.0.1.dist-info/METADATA,sha256=qWe7gmzEivstFhBvE1DwOVLrbCC4TaYkAXbrXSZA8hk,3495
+echoss_image_utils-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+echoss_image_utils-0.0.1.dist-info/top_level.txt,sha256=lpBMVHxN3MvVY1qlemMM24SASHiMllDY8e-Wm3di60A,19
+echoss_image_utils-0.0.1.dist-info/RECORD,,
