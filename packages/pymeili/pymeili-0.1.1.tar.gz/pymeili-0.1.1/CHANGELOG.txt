@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.0.1 (25/07/2023)
+- First Release
+
+0.0.2 (25/07/2023)
+- Add Font Packages
+
+0.0.10 (25/07/2023)
+- Fix Some Problems
+
+0.1.1 (26/07/2023)
+- Add Subplot Function
