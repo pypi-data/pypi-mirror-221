@@ -1,0 +1,11 @@
+click
+dask
+gcsfs
+netcdf4
+numpy
+scipy
+xarray
+zarr
+
+[test]
+pytest
