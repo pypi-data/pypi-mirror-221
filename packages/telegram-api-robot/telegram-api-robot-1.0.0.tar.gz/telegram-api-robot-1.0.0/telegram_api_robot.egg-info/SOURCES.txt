@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+package/__init__.py
+package/main.py
+telegram_api_robot.egg-info/PKG-INFO
+telegram_api_robot.egg-info/SOURCES.txt
+telegram_api_robot.egg-info/dependency_links.txt
+telegram_api_robot.egg-info/requires.txt
+telegram_api_robot.egg-info/top_level.txt
