@@ -1,0 +1,7 @@
+README.md
+setup.py
+hgcal_swamp.egg-info/PKG-INFO
+hgcal_swamp.egg-info/SOURCES.txt
+hgcal_swamp.egg-info/dependency_links.txt
+hgcal_swamp.egg-info/requires.txt
+hgcal_swamp.egg-info/top_level.txt
