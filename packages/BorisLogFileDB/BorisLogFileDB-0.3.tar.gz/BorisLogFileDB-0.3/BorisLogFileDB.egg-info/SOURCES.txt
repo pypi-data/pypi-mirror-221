@@ -1,0 +1,12 @@
+setup.py
+BorisLogFileDB/__init__.py
+BorisLogFileDB/file_process.py
+BorisLogFileDB/folder_file_process.py
+BorisLogFileDB/folder_process.py
+BorisLogFileDB/log_process.py
+BorisLogFileDB/logger.py
+BorisLogFileDB/mysql_connect.py
+BorisLogFileDB.egg-info/PKG-INFO
+BorisLogFileDB.egg-info/SOURCES.txt
+BorisLogFileDB.egg-info/dependency_links.txt
+BorisLogFileDB.egg-info/top_level.txt
