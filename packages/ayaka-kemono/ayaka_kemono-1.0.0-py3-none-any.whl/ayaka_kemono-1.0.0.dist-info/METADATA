@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ayaka-kemono
+Version: 1.0.0
+Summary: Pixiv Fanbox Downloader from Kemono.party
+Home-page: https://github.com/joshjms/ayaka
+Author: Joshua James
+Author-email: joshjms1607@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+

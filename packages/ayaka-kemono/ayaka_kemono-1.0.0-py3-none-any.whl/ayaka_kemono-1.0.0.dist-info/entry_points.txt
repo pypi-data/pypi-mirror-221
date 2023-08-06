@@ -1,0 +1,2 @@
+[console_scripts]
+ayaka = ayaka.ayaka:main

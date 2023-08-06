@@ -1,0 +1,11 @@
+ayaka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ayaka/__main__.py,sha256=Lnyw7rzEpJiYUv14gsSzhuhj86flqT-5FUseait3jc0,33
+ayaka/ayaka.py,sha256=dVkxMf6Kezwq6tNbfGsLDHe603rA1itc8CsEJp-oQX4,642
+ayaka/lib.py,sha256=JBKKBIkL0iq9Vd_LHiXIAZAl8OZASzb0wdn6ZQka0s4,2564
+ayaka/main.py,sha256=MSvRYT9tU6dHwtYLDZ7PyJxgvzZPGcVUQASOpek6_V8,579
+ayaka_kemono-1.0.0.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+ayaka_kemono-1.0.0.dist-info/METADATA,sha256=pTtdK3X1PbknrCrYNy6fHvaEECN1hp3UMgmO7Rzj5t0,300
+ayaka_kemono-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ayaka_kemono-1.0.0.dist-info/entry_points.txt,sha256=yBknl475bPxYVawPULaH5K9kkcBc9o_MILSwovT8DEA,43
+ayaka_kemono-1.0.0.dist-info/top_level.txt,sha256=xlXH2pSx_iDDDpPCl9I73TWEqE99jbWVaflCvvhmrvo,6
+ayaka_kemono-1.0.0.dist-info/RECORD,,
