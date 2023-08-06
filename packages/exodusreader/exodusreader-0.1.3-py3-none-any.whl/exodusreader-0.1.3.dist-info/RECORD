@@ -1,0 +1,11 @@
+LICENSE,sha256=y7LxTeHadm-1Poocy9wU1zCWLQCJ-e1jwA8j2vCTarQ,2599
+Makefile,sha256=nB6dh9Cy34sb6ibC9kReiufKaO4uPunrQCi4Oa5elGg,1947
+README.md,sha256=ED4AiXRktXOo5GiIYfevs4uBTMTTaZTLlIFYD6dHDwI,3122
+changelog.md,sha256=1_FCzgqtz3xn9fI7nxWhbLYaTSNrbTd2o5qOiojZgTE,392
+exodusreader/__init__.py,sha256=moGGmMGaLjrMUk-S1APU_pZIS7qMULn1GFhDPbEpDU8,1505
+exodusreader/exodusreader.py,sha256=MIPdcKhldeU9V8lPAZwXKDMX1kw70zcefEsH22HLqrk,14182
+exodusreader-0.1.3.dist-info/LICENSE,sha256=y7LxTeHadm-1Poocy9wU1zCWLQCJ-e1jwA8j2vCTarQ,2599
+exodusreader-0.1.3.dist-info/METADATA,sha256=_g0p5A_pKnQ0GuANkfCHADMZet_8my_5B3mCSgBMIDg,3906
+exodusreader-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+exodusreader-0.1.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exodusreader-0.1.3.dist-info/RECORD,,
