@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: piet
+Version: 0.1.0
+Summary: A tool to store images in DNA
+Author-email: Tang Ziya <tcztzy@gmail.Com>
+Requires-Python: >=3.10
+Requires-Dist: largestinteriorrectangle>=0.2.0
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: opencv-python>=4.8.0.74
+Requires-Dist: reedsolo>=1.7.0
+Requires-Dist: scikit-image>=0.21.0
+Requires-Dist: scipy>=1.10.1
+Description-Content-Type: text/markdown
+
+# dna-painter
+
+Describe your project here.
