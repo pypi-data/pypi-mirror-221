@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "DestinyNet"
+version = "0.1.0"
+description = "This is a code to predict cell's fate"
+authors = ["Songtao Jiang <songtao.22@intl.zju.edu.com>"]
+packages = [{include = "DestinyNet"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+anndata = "0.9.2"
+cospar = "0.2.1"
+matplotlib = "3.7.1"
+numpy = "1.22.3"
+pandas = "1.4.4"
+scanpy = "1.9.3"
+scikit-learn = "1.1.2"
+torch = "2.0.1"
+tqdm = "4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
