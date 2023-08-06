@@ -1,0 +1,32 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Bangs ISD (025901)",19
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Blanket ISD (025904)",35
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Bluff Dale ISD (072904)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Brookesmith ISD (025908)",5
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Brownwood ISD (025902)",163
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Comanche ISD (047901)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"De Leon ISD (047902)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Gustine ISD (047903)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"May ISD (025905)",15
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Richland Springs ISD (206902)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Santa Anna ISD (042903)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Sidney ISD (047905)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",100,"Zephyr ISD (025906)",26
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",200,,"."
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",200,"Total Transfers In",279
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",100,"Transfers In From",300,,"."
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Bangs ISD (025901)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Blanket ISD (025904)",6
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Brookesmith ISD (025908)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Brownwood ISD (025902)",54
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"May ISD (025905)",7
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Mullin ISD (167902)",7
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Premier High Schools (072801)",18
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Sidney ISD (047905)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",100,"Zephyr ISD (025906)",30
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",200,,"."
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",200,"Total Transfers Out",129
+"2015-16",15,"Region XV San Angelo","Early ISD (025909)",200,"Transfers Out To",300,,"."
+

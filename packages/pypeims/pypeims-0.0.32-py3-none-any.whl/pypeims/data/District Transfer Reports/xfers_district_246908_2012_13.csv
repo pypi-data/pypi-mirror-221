@@ -1,0 +1,32 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Burnet CISD (027903)",88
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Florence ISD (246902)",55
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Georgetown ISD (246904)",44
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Lago Vista ISD (227912)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Leander ISD (246913)",126
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",100,"Round Rock ISD (246909)",7
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",200,"","."
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",100,"Transfers In From",300,"","."
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Belton ISD (014903)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Burnet CISD (027903)",8
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Florence ISD (246902)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Georgetown ISD (246904)",5
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Hutto ISD (246906)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Killeen ISD (014906)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Lago Vista ISD (227912)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Leander ISD (246913)",29
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Meridian World School LLC (246801)",14
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Orenda Charter School (014804)",8
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Pflugerville ISD (227904)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Priority Charter Schools (014803)",-9999999
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Round Rock ISD (246909)",8
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",8
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",437
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",200,"","."
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",200,"Total Transfers Out",536
+"2012-13",13,"Region XIII Austin","Liberty Hill ISD (246908)",200,"Transfers Out To",300,"","."
+

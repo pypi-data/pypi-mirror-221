@@ -1,0 +1,33 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"GILMER ISD  -  230902",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"GLADEWATER ISD  -  092901",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"HALLSVILLE ISD  -  102904",33
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"HARLETON ISD  -  102905",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"HARMONY ISD  -  230905",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"KILGORE ISD  -  092902",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"LONGVIEW ISD  -  092903",47
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"MARSHALL ISD  -  102902",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"NEW DIANA ISD  -  230906",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"ORE CITY ISD  -  230903",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"PINE TREE ISD  -  092904",19
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"SABINE ISD  -  092906",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"SPRING HILL ISD  -  092907",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"TATUM ISD  -  201910",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"UNION GROVE ISD  -  230908",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",100,"WHITE OAK ISD  -  092908",-999
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",136
+"2022-2023",07,"REGION VII KILGORE","EAST TEXAS CHARTER SCHOOLS  -  092801","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

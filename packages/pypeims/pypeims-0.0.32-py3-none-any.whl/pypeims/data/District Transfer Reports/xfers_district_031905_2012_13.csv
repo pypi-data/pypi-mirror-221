@@ -1,0 +1,32 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",100,"Harlingen CISD (031903)",46
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",100,"Mercedes ISD (108907)",11
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",100,"Santa Maria ISD (031913)",15
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",100,"Santa Rosa ISD (031914)",9
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",100,"Weslaco ISD (108913)",8
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",200,"","."
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",200,"Total Transfers In",89
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",100,"Transfers In From",300,"","."
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Donna ISD (108902)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Harlingen CISD (031903)",60
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Idea Public Schools (108807)",27
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Ignite Public Schools And Communit (108801)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",14
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Lasara ISD (245901)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Mercedes ISD (108907)",22
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",19
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Progreso ISD (108910)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Raymondville ISD (245903)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Rio Hondo ISD (031911)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"San Benito CISD (031912)",6
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Santa Rosa ISD (031914)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",100,"Weslaco ISD (108913)",11
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",200,"","."
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",200,"Total Transfers Out",186
+"2012-13",01,"Region I Edinburg","La Feria ISD (031905)",200,"Transfers Out To",300,"","."
+

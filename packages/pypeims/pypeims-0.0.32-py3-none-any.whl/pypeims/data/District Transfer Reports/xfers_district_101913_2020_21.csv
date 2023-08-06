@@ -1,0 +1,105 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",60
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Alief ISD (101903)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Beaumont ISD (123910)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Channelview ISD (101905)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Clear Creek ISD (084910)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleveland ISD (146901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Coldspring-Oakhurst CISD (204901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Crosby ISD (101906)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Dayton ISD (146902)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Goose Creek CISD (101911)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",40
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Huffman ISD (101925)",17
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Montgomery ISD (170903)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",129
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Sheldon ISD (101924)",39
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Shepherd ISD (204904)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Splendora ISD (170907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",34
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",367
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",88
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aristoi Classical Academy (101803)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arrow Academy (021805)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Barbers Hill ISD (036902)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beatrice Mayes Institute Charter S (101847)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beta Academy (101870)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brazosport ISD (020905)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brenham ISD (239901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Channelview ISD (101905)",17
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clear Creek ISD (084910)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleveland ISD (146901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Conroe ISD (170902)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crosby ISD (101906)",18
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cypress-Fairbanks ISD (101907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dayton ISD (146902)",11
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Deer Park ISD (101908)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Etoile Academy Charter School (101872)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Galena Park ISD (101910)",91
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goose Creek CISD (101911)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",59
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",20
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",57
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Huffman ISD (101925)",32
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",20
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",110
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Klein ISD (101915)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Porte ISD (101916)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lamar CISD (079901)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy School Of Sport Sciences (101874)",21
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Liberty ISD (146906)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lumberton ISD (100907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montgomery ISD (170903)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Caney ISD (170908)",83
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pasadena ISD (101917)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",25
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promise Community School (101853)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Houston State University Chart (236802)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",23
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sheldon ISD (101924)",58
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shepherd ISD (204904)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest School (101838)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Splendora ISD (170907)",10
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring Branch ISD (101920)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring ISD (101919)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Stafford MSD (079910)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Step Charter School (101859)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tarkington ISD (146907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",195
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Rhodes School (101861)",106
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tomball ISD (101921)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Houston Charter Scho (101807)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yes Prep Public Schools Inc (101845)",29
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1231
+"2020-2021",04,"Region IV Houston","Humble ISD (101913)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

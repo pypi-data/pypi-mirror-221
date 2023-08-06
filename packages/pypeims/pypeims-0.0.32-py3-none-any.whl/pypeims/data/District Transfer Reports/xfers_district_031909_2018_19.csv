@@ -1,0 +1,33 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsville ISD (031901)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",100,"Los Fresnos CISD (031906)",42
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",65
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brownsville ISD (031901)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlingen CISD (031903)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",26
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Los Fresnos CISD (031906)",17
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Benito CISD (031912)",-999
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",70
+"2018-2019",01,"Region I Edinburg","Point Isabel ISD (031909)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

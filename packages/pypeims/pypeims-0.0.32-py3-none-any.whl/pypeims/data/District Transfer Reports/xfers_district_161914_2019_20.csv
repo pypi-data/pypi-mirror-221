@@ -1,0 +1,82 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Axtell ISD (161918)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Belton ISD (014903)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Bosqueville ISD (161923)",11
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Bruceville-Eddy ISD (161919)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Chilton ISD (073901)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"China Spring ISD (161920)",27
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Connally ISD (161921)",50
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Corsicana ISD (175903)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Groesbeck ISD (147902)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Killeen ISD (014906)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vega ISD (161906)",41
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Lorena ISD (161907)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Marlin ISD (073903)",10
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Mart ISD (161908)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"McGregor ISD (161909)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Midway ISD (161903)",104
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Moody ISD (161910)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Riesel ISD (161912)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Robinson ISD (161922)",20
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley Mills ISD (018904)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",100,"West ISD (161916)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",298
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aquilla ISD (109912)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bosqueville ISD (161923)",44
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bruceville-Eddy ISD (161919)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chilton ISD (073901)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"China Spring ISD (161920)",14
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Connally ISD (161921)",22
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crawford ISD (161901)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gatesville ISD (050902)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gladewater ISD (092901)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsburg ISD (161924)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",23
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",973
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hillsboro ISD (109904)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Vega ISD (161906)",26
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lorena ISD (161907)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Malone ISD (109908)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mart ISD (161908)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"McGregor ISD (161909)",16
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mexia ISD (147903)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midway ISD (161903)",117
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mount Calm ISD (109910)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Oglesby ISD (050904)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Penelope ISD (109914)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",123
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rapoport Academy Public School (161802)",667
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Riesel ISD (161912)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Robinson ISD (161922)",78
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",101
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valley Mills ISD (018904)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waco Charter School (161801)",235
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",100,"West ISD (161916)",-999
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",2512
+"2019-2020",12,"Region XII Waco","Waco ISD (161914)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,24 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",100,"Gilmer ISD (230902)",8
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",100,"Gladewater ISD (092901)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",100,"Longview ISD (092903)",6
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",100,"Pine Tree ISD (092904)",17
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",200,"","."
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",100,"Transfers In From",300,"","."
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"East Texas Charter Schools (092801)",25
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Kilgore ISD (092902)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Longview ISD (092903)",49
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"New Diana ISD (230906)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Ore City ISD (230903)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Pine Tree ISD (092904)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Sabine ISD (092906)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Tatum ISD (201910)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"Union Grove ISD (230908)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",100,"White Oak ISD (092908)",-9999999
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",200,"","."
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",200,"Total Transfers Out",100
+"2011-12",07,"Region VII Kilgore","Spring Hill ISD (092907)",200,"Transfers Out To",300,"","."
+

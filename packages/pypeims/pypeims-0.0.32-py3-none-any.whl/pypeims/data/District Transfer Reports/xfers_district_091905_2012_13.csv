@@ -1,0 +1,28 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Anna ISD (043902)",7
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Bells ISD (091901)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Denison ISD (091903)",5
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Gunter ISD (091917)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Melissa ISD (043908)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Pottsboro ISD (091913)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"S And S CISD (091914)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Sherman ISD (091906)",44
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Tom Bean ISD (091918)",18
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Van Alstyne ISD (091908)",15
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",100,"Whitewright ISD (091910)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",200,"","."
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",200,"Total Transfers In",101
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",100,"Transfers In From",300,"","."
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Gunter ISD (091917)",6
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"McKinney ISD (043907)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Plano ISD (043910)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"S And S CISD (091914)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Sherman ISD (091906)",11
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Tom Bean ISD (091918)",9
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",7
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",200,"","."
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",200,"Total Transfers Out",42
+"2012-13",10,"Region X Richardson","Howe ISD (091905)",200,"Transfers Out To",300,"","."
+

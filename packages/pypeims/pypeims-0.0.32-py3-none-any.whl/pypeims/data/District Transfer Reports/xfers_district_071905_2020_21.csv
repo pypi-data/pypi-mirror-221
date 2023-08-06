@@ -1,0 +1,66 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Anthony ISD (071906)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Canutillo ISD (071907)",48
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Clint ISD (071901)",345
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Dumas ISD (171901)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ector County ISD (068901)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Edinburg CISD (108904)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"El Paso ISD (071902)",1563
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Fabens ISD (071903)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ft Hancock ISD (115901)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Galena Park ISD (101910)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Elizario ISD (071904)",42
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Socorro ISD (071909)",3602
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Temple ISD (014909)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",100,"Victoria ISD (235902)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",5627
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",67
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canutillo ISD (071907)",12
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canyon ISD (191901)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clint ISD (071901)",35
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Academy (071804)",112
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso ISD (071902)",783
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Leadership Academy (071810)",20
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fabens ISD (071903)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",41
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",957
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",371
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Fe Preparatory School (071807)",24
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",62
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Elizario ISD (071904)",11
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Socorro ISD (071909)",467
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",74
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tornillo ISD (071908)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-El Pas (071803)",41
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vista Del Futuro Charter School (071809)",26
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Willis ISD (170904)",-999
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3125
+"2020-2021",19,"Region XIX El Paso","Ysleta ISD (071905)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,28 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",100,"Borger ISD (117901)",19
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",100,"Gruver ISD (098901)",-999
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",100,"Plemons-Stinnett-Phillips CISD (117904)",10
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",100,"Spearman ISD (098904)",37
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",100,"Sunray ISD (171902)",-999
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",74
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gruver ISD (098901)",18
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plemons-Stinnett-Phillips CISD (117904)",-999
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spearman ISD (098904)",-999
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",23
+"2018-2019",16,"Region XVI Amarillo","Pringle-Morse CISD (098903)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,53 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Alto ISD (037901)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Bullard ISD (212902)",12
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (212909)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Frankston ISD (001904)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Henderson ISD (201902)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Neches ISD (001906)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"New Summerfield ISD (037908)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Rusk ISD (037907)",18
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Troup ISD (212904)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"West Rusk County Consolidated ISD (201914)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",10
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",75
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alto ISD (037901)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arp ISD (212901)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bullard ISD (212902)",20
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carlisle ISD (201913)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cumberland Academy (212801)",11
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cushing ISD (174902)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frankston ISD (001904)",12
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Longview ISD (092903)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Neches ISD (001906)",19
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Summerfield ISD (037908)",38
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Palestine ISD (001907)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rusk ISD (037907)",63
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Troup ISD (212904)",25
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tyler ISD (212905)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ut Tyler University Academy (212804)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wells ISD (037909)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Westwood ISD (001908)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitehouse ISD (212906)",-999
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",229
+"2018-2019",07,"Region VII Kilgore","Jacksonville ISD (037904)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

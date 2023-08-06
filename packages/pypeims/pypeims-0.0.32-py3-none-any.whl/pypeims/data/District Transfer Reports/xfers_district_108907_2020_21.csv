@@ -1,0 +1,54 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Donna ISD (108902)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Edcouch-Elsa ISD (108903)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Edinburg CISD (108904)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"La Feria ISD (031905)",12
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Progreso ISD (108910)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Santa Maria ISD (031913)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Sharyland ISD (108911)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",100,"Weslaco ISD (108913)",46
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",84
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Donna ISD (108902)",10
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edcouch-Elsa ISD (108903)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edinburg CISD (108904)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlingen CISD (031903)",26
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",37
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",521
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Feria ISD (031905)",39
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Villa ISD (108914)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lyford CISD (245902)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"McAllen ISD (108906)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mission CISD (108908)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pharr-San Juan-Alamo ISD (108909)",22
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Progreso ISD (108910)",12
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Raymondville ISD (245903)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Benito CISD (031912)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Santa Maria ISD (031913)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"South Texas ISD (031916)",62
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-Rio Gr (108804)",86
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vanguard Academy (108808)",-999
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weslaco ISD (108913)",198
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1050
+"2020-2021",01,"Region I Edinburg","Mercedes ISD (108907)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

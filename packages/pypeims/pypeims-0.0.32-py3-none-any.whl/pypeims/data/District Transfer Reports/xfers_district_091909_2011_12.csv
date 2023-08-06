@@ -1,0 +1,31 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Bells ISD (091901)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Callisburg ISD (049905)",25
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Collinsville ISD (091902)",15
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Gainesville ISD (049901)",17
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"S And S CISD (091914)",42
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Sherman ISD (091906)",7
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",100,"Tioga ISD (091907)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",200,"","."
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",100,"Transfers In From",300,"","."
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Aubrey ISD (061907)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Callisburg ISD (049905)",16
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Collinsville ISD (091902)",8
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Era ISD (049906)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Gainesville ISD (049901)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Gunter ISD (091917)",5
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Lindsay ISD (049907)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Pilot Point ISD (061903)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Pottsboro ISD (091913)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"S And S CISD (091914)",23
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Sherman ISD (091906)",7
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"The Legends Academy (061803)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",100,"Walnut Bend ISD (049908)",-9999999
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",200,"","."
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",200,"Total Transfers Out",79
+"2011-12",10,"Region X Richardson","Whitesboro ISD (091909)",200,"Transfers Out To",300,"","."
+

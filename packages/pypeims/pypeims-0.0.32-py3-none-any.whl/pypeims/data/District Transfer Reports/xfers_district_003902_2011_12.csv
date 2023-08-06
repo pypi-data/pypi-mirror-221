@@ -1,0 +1,27 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Apple Springs ISD (228905)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Central ISD (003907)",17
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Corrigan-Camden ISD (187904)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Diboll ISD (003905)",18
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Groveton ISD (228901)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Huntington ISD (003904)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Kennard ISD (113906)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Lufkin ISD (003903)",144
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Nacogdoches ISD (174904)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Trinity ISD (228903)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",100,"Zavalla ISD (003906)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",200,"","."
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",200,"Total Transfers In",194
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",100,"Transfers In From",300,"","."
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Amarillo ISD (188901)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Apple Springs ISD (228905)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Centerville ISD (228904)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Central ISD (003907)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Diboll ISD (003905)",-9999999
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Huntington ISD (003904)",5
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Lufkin ISD (003903)",48
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",100,"Pineywoods Community Academy (003801)",27
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",200,"","."
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",200,"Total Transfers Out",98
+"2011-12",07,"Region VII Kilgore","Hudson ISD (003902)",200,"Transfers Out To",300,"","."
+

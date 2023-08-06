@@ -1,0 +1,52 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Bonham ISD (074903)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Celina ISD (043903)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Gunter ISD (091917)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Howe ISD (091905)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Leonard ISD (074909)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Lewisville ISD (061902)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"McKinney ISD (043907)",9
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Melissa ISD (043908)",7
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Palmer ISD (070910)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Plano ISD (043910)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Pottsboro ISD (091913)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"S And S CISD (091914)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Sherman ISD (091906)",8
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Tom Bean ISD (091918)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Van Alstyne ISD (091908)",29
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",100,"Wylie ISD (043914)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",200,,"."
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",200,"Total Transfers In",78
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",100,"Transfers In From",300,,"."
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Allen ISD (043901)",7
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Axtell ISD (161918)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",7
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Celina ISD (043903)",6
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Community ISD (043918)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Denton ISD (061901)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Ector ISD (074905)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Farmersville ISD (043904)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Frisco ISD (043905)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Gunter ISD (091917)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Howe ISD (091905)",6
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",13
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Leonard ISD (074909)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Lovejoy ISD (043919)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"McKinney ISD (043907)",39
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Melissa ISD (043908)",30
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Plano ISD (043910)",8
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Premier High Schools (072801)",8
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Princeton ISD (043911)",6
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Prosper ISD (043912)",7
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Sherman ISD (091906)",7
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Tom Bean ISD (091918)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Trenton ISD (074912)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",24
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Whitewright ISD (091910)",6
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",100,"Wylie ISD (043914)",-9999999
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",200,,"."
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",200,"Total Transfers Out",203
+"2015-16",10,"Region X Richardson","Anna ISD (043902)",200,"Transfers Out To",300,,"."
+

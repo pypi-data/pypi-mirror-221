@@ -1,0 +1,18 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",100,"Andrews ISD (002901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",100,"Brownfield ISD (223901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",100,"Loop ISD (083902)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",100,"Seagraves ISD (083901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",200,,"."
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",200,"Total Transfers In",10
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",100,"Transfers In From",300,,"."
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Denver City ISD (251901)",103
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Lamesa ISD (058906)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Loop ISD (083902)",10
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Lubbock ISD (152901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",100,"Seagraves ISD (083901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",200,,"."
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2015-16",17,"Region XVII Lubbock","Seminole ISD (083903)",200,"Transfers Out To",300,,"."
+

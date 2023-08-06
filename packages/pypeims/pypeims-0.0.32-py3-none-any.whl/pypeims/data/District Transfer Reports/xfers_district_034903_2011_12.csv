@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Atlanta ISD (034901)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Avinger ISD (034902)",31
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Daingerfield-Lone Star ISD (172902)",150
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Gilmer ISD (230902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Hooks ISD (019902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Linden-Kildare CISD (034905)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Mount Pleasant ISD (225902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"New Diana ISD (230906)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Pewitt CISD (172905)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",100,"Pittsburg ISD (032902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",200,"","."
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",200,"Total Transfers In",200
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",100,"Transfers In From",300,"","."
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Avinger ISD (034902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Daingerfield-Lone Star ISD (172902)",6
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Linden-Kildare CISD (034905)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Longview ISD (092903)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Mount Pleasant ISD (225902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Pewitt CISD (172905)",5
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",100,"Pittsburg ISD (032902)",-9999999
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",200,"","."
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",200,"Total Transfers Out",19
+"2011-12",08,"Region VIII Mt Pleasant","Hughes Springs ISD (034903)",200,"Transfers Out To",300,"","."
+

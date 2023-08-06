@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Amherst ISD (140901)",26
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Levelland ISD (110902)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Littlefield ISD (140904)",47
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Morton ISD (040901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Muleshoe ISD (009901)",27
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",100,"Springlake-Earth ISD (140907)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",200,"","."
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",200,"Total Transfers In",107
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",100,"Transfers In From",300,"","."
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Amherst ISD (140901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Crosbyton CISD (054901)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Farwell ISD (185902)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Lazbuddie ISD (185904)",-9999999
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Morton ISD (040901)",7
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",100,"Muleshoe ISD (009901)",5
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",200,"","."
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",200,"Total Transfers Out",18
+"2011-12",17,"Region XVII Lubbock","Sudan ISD (140908)",200,"Transfers Out To",300,"","."
+

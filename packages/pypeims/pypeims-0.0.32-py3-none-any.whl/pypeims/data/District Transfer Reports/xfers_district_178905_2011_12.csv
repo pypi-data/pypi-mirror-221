@@ -1,0 +1,24 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Banquete ISD (178913)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Bishop CISD (178902)",14
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Calallen ISD (178903)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Corpus Christi ISD (178904)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Kingsville ISD (137901)",30
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"London ISD (178906)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Orange Grove ISD (125903)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Premont ISD (125905)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Ricardo ISD (137902)",19
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Riviera ISD (137903)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",100,"Robstown ISD (178909)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",200,"","."
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",200,"Total Transfers In",87
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",100,"Transfers In From",300,"","."
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",100,"Bishop CISD (178902)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",100,"Robstown ISD (178909)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",100,"Santa Gertrudis ISD (137904)",88
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",100,"Victoria ISD (235902)",-9999999
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",200,"","."
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",200,"Total Transfers Out",98
+"2011-12",02,"Region II Corpus Christi","Driscoll ISD (178905)",200,"Transfers Out To",300,"","."
+

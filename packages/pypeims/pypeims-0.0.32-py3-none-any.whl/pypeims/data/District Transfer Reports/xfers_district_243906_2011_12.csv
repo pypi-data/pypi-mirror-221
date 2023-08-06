@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Archer City ISD (005901)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Burkburnett ISD (243901)",17
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Byers ISD (039901)",7
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Henrietta ISD (039902)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Holliday ISD (005902)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Iowa Park CISD (243903)",32
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Vernon ISD (244903)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",100,"Wichita Falls ISD (243905)",189
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",200,"","."
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",100,"Transfers In From",300,"","."
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Axtell ISD (161918)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Bright Ideas Charter (243801)",6
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Burkburnett ISD (243901)",12
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Holliday ISD (005902)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Iowa Park CISD (243903)",29
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Plainview ISD (095905)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",100,"Wichita Falls ISD (243905)",112
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",200,"","."
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",200,"Total Transfers Out",167
+"2011-12",09,"Region IX Wichita Falls","City View ISD (243906)",200,"Transfers Out To",300,"","."
+

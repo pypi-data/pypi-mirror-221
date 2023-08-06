@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Hallsville ISD (102904)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Luling ISD (028903)",12
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Nixon-Smiley CISD (089903)",8
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Seguin ISD (094901)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Shiner ISD (143903)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Victoria ISD (235902)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Waelder ISD (089905)",16
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",100,"Yoakum ISD (062903)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",200,"","."
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",200,"Total Transfers In",43
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",100,"Transfers In From",300,"","."
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Lockhart ISD (028902)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Luling ISD (028903)",24
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Moulton ISD (143902)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Nixon-Smiley CISD (089903)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Prairie Lea ISD (028906)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Shiner ISD (143903)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Victoria ISD (235902)",7
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Waelder ISD (089905)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",100,"Yoakum ISD (062903)",-9999999
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",200,"","."
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",200,"Total Transfers Out",51
+"2012-13",13,"Region XIII Austin","Gonzales ISD (089901)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,97 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Aledo ISD (184907)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvarado ISD (126901)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bryan ISD (021902)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",27
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",69
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",14
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Frenship ISD (152907)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",50
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",13
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",198
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"A W Brown Leadership Academy (057816)",90
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Academy Of Dallas (057810)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",19
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",13
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burleson ISD (126902)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedar Hill ISD (057904)",269
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cityscape Schools (057841)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",273
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",85
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ferris ISD (070905)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gateway Charter Academy (057831)",38
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",131
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",84
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",41
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",58
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",243
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Italy ISD (070907)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",18
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Academia De Estrellas (057839)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lancaster ISD (057913)",110
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",1008
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Maypearl ISD (070915)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midlothian ISD (070908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",97
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy (057809)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nova Academy Southeast (057827)",14
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pegasus School Of Liberal Arts And (057802)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",62
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"St Anthony School (057836)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",31
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",18
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",28
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",65
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",722
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Venus ISD (126908)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Village Tech Schools (057847)",154
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",81
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",20
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"West ISD (161916)",-999
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",21
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3892
+"2020-2021",10,"Region X Richardson","Desoto ISD (057906)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

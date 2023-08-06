@@ -1,0 +1,48 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Beaumont ISD (123910)",14
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Hardin-Jefferson ISD (100905)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Kountze ISD (100903)",15
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Silsbee ISD (100904)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",100,"Vidor ISD (181907)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",42
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Beaumont ISD (123910)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bob Hope School (123807)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Buna ISD (121903)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Chambers ISD (036903)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ehrhart School (123805)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evadale ISD (121906)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hamshire-Fannett ISD (123914)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hardin-Jefferson ISD (100905)",17
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Science - Housto (101862)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kirbyville CISD (121905)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kountze ISD (100903)",32
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Livingston ISD (187907)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Orangefield ISD (181905)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Port Neches-Groves ISD (123908)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Silsbee ISD (100904)",19
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vidor ISD (181907)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Warren ISD (229904)",-999
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",130
+"2019-2020",05,"Region V Beaumont","Lumberton ISD (100907)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

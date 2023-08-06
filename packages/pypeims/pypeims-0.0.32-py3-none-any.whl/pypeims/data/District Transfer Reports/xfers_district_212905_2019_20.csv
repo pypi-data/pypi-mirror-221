@@ -1,0 +1,83 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Arp ISD (212901)",10
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsboro ISD (107902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Bullard ISD (212902)",21
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Canton ISD (234902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (212909)",62
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Elkhart ISD (001903)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Frankston ISD (001904)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Gladewater ISD (092901)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hawkins ISD (250902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Jacksonville ISD (037904)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Kilgore ISD (092902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lapoynor ISD (107910)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lindale ISD (212903)",17
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Longview ISD (092903)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Overton ISD (201908)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Quinlan ISD (116908)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Rivercrest ISD (194903)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Rusk ISD (037907)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Slocum ISD (001909)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Texarkana ISD (019907)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Troup ISD (212904)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Van ISD (234906)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Westwood ISD (001908)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",83
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",100,"Winona ISD (212910)",12
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",248
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Accelerated Intermediate Academy (101849)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arp ISD (212901)",12
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Athens ISD (107901)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Big Sandy ISD (230901)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boles ISD (116916)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brownsboro ISD (107902)",55
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bullard ISD (212902)",87
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chapel Hill ISD (212909)",117
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cross Roads ISD (107904)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cumberland Academy (212801)",1477
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frankston ISD (001904)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gladewater ISD (092901)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",20
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hawkins ISD (250902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jacksonville ISD (037904)",12
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kilgore ISD (092902)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lindale ISD (212903)",24
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Longview ISD (092903)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Malakoff ISD (107906)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Martins Mill ISD (234905)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Overton ISD (201908)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Palestine ISD (001907)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",112
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ranch Academy (234801)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sherman ISD (091906)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",409
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Charter School (046802)",11
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Troup ISD (212904)",14
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ut Tyler University Academy (212804)",163
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van ISD (234906)",11
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"West Rusk County Consolidated ISD (201914)",-999
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitehouse ISD (212906)",62
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winona ISD (212910)",35
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",2672
+"2019-2020",07,"Region VII Kilgore","Tyler ISD (212905)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

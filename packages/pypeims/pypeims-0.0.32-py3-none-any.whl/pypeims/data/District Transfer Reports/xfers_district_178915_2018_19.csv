@@ -1,0 +1,41 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Banquete ISD (178913)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Calallen ISD (178903)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Corpus Christi ISD (178904)",181
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"London ISD (178906)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Robstown ISD (178909)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Sinton ISD (205906)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",100,"Tuloso-Midway ISD (178912)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",194
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Calallen ISD (178903)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",20
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Corpus Christi Montessori School (178807)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dr M L Garza-Gonzalez Charter Scho (178801)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Flour Bluff ISD (178914)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"London ISD (178906)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mathis ISD (205904)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Por Vida Academy (015801)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Public Schools (227824)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",14
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",24
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tuloso-Midway ISD (178912)",-999
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",96
+"2018-2019",02,"Region II Corpus Christi","West Oso ISD (178915)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

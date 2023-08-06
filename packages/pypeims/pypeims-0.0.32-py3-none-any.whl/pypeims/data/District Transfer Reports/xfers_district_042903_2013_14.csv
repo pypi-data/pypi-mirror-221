@@ -1,0 +1,21 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",100,"Bangs ISD (025901)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",100,"Brownwood ISD (025902)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",100,"Coleman ISD (042901)",7
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",200,"","."
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",100,"Transfers In From",300,"","."
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Bangs ISD (025901)",7
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Brookesmith ISD (025908)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Coleman ISD (042901)",18
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Cross Plains ISD (030901)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Early ISD (025909)",6
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Mexia ISD (147903)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Olfen ISD (200906)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Panther Creek CISD (042905)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",100,"Zephyr ISD (025906)",-9999999
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",200,"","."
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",200,"Total Transfers Out",43
+"2013-14",15,"Region XV San Angelo","Santa Anna ISD (042903)",200,"Transfers Out To",300,"","."
+

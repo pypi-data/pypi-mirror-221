@@ -1,0 +1,80 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",12
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Celina ISD (043903)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Community ISD (043918)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Farmersville ISD (043904)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Ferris ISD (070905)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",36
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gunter ISD (091917)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lovejoy ISD (043919)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",91
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Melissa ISD (043908)",16
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",46
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",11
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sherman ISD (091906)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Trenton ISD (074912)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Van Alstyne ISD (091908)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitewright ISD (091910)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (043914)",33
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",293
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",26
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",20
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",13
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",18
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",208
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leadership Prep School (061804)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",10
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lone Star Language Academy (043802)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",171
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",20
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Melissa ISD (043908)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",60
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",18
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",11
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",15
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trenton ISD (074912)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trivium Academy (061805)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitewright ISD (091910)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",23
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wylie ISD (043914)",-999
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",678
+"2018-2019",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

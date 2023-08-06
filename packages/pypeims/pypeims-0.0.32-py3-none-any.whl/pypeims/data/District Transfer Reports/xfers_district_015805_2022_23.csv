@@ -1,0 +1,30 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"EAST CENTRAL ISD  -  015911",10
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"EDGEWOOD ISD  -  015905",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"HARLANDALE ISD  -  015904",26
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"JUDSON ISD  -  015916",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"NATALIA ISD  -  163903",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"NORTH EAST ISD  -  015910",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"NORTHSIDE ISD  -  015915",17
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"POTEET ISD  -  007906",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"SAN ANTONIO ISD  -  015907",52
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"SOMERSET ISD  -  015909",-999
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"SOUTH SAN ANTONIO ISD  -  015908",15
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"SOUTHSIDE ISD  -  015917",10
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",100,"SOUTHWEST ISD  -  015912",23
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",171
+"2022-2023",20,"REGION XX SAN ANTONIO","NEW FRONTIERS PUBLIC SCHOOLS INC  -  015805","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

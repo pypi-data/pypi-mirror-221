@@ -1,0 +1,27 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"Clear Creek ISD (084910)",17
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"Dickinson ISD (084901)",48
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"Galveston ISD (084902)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"Hitchcock ISD (084908)",19
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"La Marque ISD (084904)",240
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",100,"Santa Fe ISD (084909)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",200,,"."
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",100,"Transfers In From",300,,"."
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Ambassadors Preparatory Academy (084804)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Clear Creek ISD (084910)",9
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Dickinson ISD (084901)",32
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Galveston ISD (084902)",102
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Hitchcock ISD (084908)",8
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"La Marque ISD (084904)",9
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Odyssey Academy Inc (084802)",42
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Pasadena ISD (101917)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Premier High Schools (072801)",8
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Premier Learning Academy (084805)",28
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Santa Fe ISD (084909)",-9999999
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",128
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",200,,"."
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",200,"Total Transfers Out",373
+"2015-16",04,"Region IV Houston","Texas City ISD (084906)",200,"Transfers Out To",300,,"."
+

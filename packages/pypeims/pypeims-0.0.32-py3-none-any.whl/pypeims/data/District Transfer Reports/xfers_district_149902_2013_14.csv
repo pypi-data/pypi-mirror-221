@@ -1,0 +1,25 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Beeville ISD (013901)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"George West ISD (149901)",35
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Karnes City ISD (128901)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Mathis ISD (205904)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"McMullen County ISD (162904)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Pawnee ISD (013902)",6
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Pettus ISD (013903)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",100,"Pleasanton ISD (007905)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",200,"","."
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",200,"Total Transfers In",55
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",100,"Transfers In From",300,"","."
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Beeville ISD (013901)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Flatonia ISD (075901)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"George West ISD (149901)",42
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"McMullen County ISD (162904)",20
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Meadowland Charter School (130801)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"Pawnee ISD (013902)",9
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-9999999
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",200,"","."
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",200,"Total Transfers Out",81
+"2013-14",02,"Region II Corpus Christi","Three Rivers ISD (149902)",200,"Transfers Out To",300,"","."
+

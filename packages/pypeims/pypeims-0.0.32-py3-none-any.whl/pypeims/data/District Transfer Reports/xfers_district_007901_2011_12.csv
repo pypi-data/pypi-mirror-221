@@ -1,0 +1,19 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",100,"Jourdanton ISD (007902)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",100,"Northside ISD (015915)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",100,"Pleasanton ISD (007905)",6
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",100,"Poteet ISD (007906)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",200,"","."
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",100,"Transfers In From",300,"","."
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",34
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"Judson ISD (015916)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"McMullen County ISD (162904)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"New Frontiers Charter School (015805)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"Pearsall ISD (082903)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"Pleasanton ISD (007905)",8
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",200,"","."
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",200,"Total Transfers Out",50
+"2011-12",20,"Region XX San Antonio","Charlotte ISD (007901)",200,"Transfers Out To",300,"","."
+

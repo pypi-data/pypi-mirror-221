@@ -1,0 +1,36 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Ballinger ISD (200901)",46
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Eden CISD (048901)",21
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Grape Creek ISD (226907)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Miles ISD (200902)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"San Angelo ISD (226903)",68
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Veribest ISD (226908)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Wall ISD (226906)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",100,"Winters ISD (200904)",10
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",167
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coleman ISD (042901)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Miles ISD (200902)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Olfen ISD (200906)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Panther Creek CISD (042905)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Angelo ISD (226903)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Leadership (226801)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Veribest ISD (226908)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wall ISD (226906)",-999
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",31
+"2018-2019",15,"Region XV San Angelo","Paint Rock ISD (048903)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

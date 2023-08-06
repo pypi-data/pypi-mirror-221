@@ -1,0 +1,32 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",100,"Burkeville ISD (176901)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",100,"Hemphill ISD (202903)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",100,"Jasper ISD (121904)",78
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",100,"Newton ISD (176902)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",100,"West Sabine ISD (202905)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",88
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Broaddus ISD (203902)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hemphill ISD (202903)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jasper ISD (121904)",14
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Augustine ISD (203901)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",100,"West Sabine ISD (202905)",12
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",37
+"2018-2019",05,"Region V Beaumont","Brookeland ISD (121902)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

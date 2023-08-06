@@ -1,0 +1,45 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Aldine ISD (101902)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Brownsboro ISD (107902)",14
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Canton ISD (234902)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Cayuga ISD (001902)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Cross Roads ISD (107904)",18
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Eustace ISD (107905)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Frankston ISD (001904)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Jacksonville ISD (037904)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Lapoynor ISD (107910)",7
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Mabank ISD (129905)",5
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Malakoff ISD (107906)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Martins Mill ISD (234905)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Murchison ISD (107908)",9
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Palestine ISD (001907)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Tyler ISD (212905)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",100,"Van ISD (234906)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",200,"","."
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",200,"Total Transfers In",72
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",100,"Transfers In From",300,"","."
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Brownsboro ISD (107902)",26
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Canton ISD (234902)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Cayuga ISD (001902)",5
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Corsicana ISD (175903)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Cross Roads ISD (107904)",56
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Edgewood ISD (234903)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Eustace ISD (107905)",48
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Frankston ISD (001904)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Gladewater ISD (092901)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Lancaster ISD (057913)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Lapoynor ISD (107910)",16
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Mabank ISD (129905)",9
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Malakoff ISD (107906)",49
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Martins Mill ISD (234905)",52
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Murchison ISD (107908)",78
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Terrell ISD (129906)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",100,"Trinidad ISD (107907)",-9999999
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",200,"","."
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",200,"Total Transfers Out",363
+"2011-12",07,"Region VII Kilgore","Athens ISD (107901)",200,"Transfers Out To",300,"","."
+

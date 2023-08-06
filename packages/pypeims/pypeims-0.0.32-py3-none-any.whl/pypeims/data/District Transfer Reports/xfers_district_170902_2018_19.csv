@@ -1,0 +1,89 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",14
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Aledo ISD (184907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Brenham ISD (239901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Cherokee ISD (206903)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleveland ISD (146901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Coldspring-Oakhurst CISD (204901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Cypress-Fairbanks ISD (101907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Huffman ISD (101925)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",12
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Huntsville ISD (236902)",18
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",92
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Livingston ISD (187907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Magnolia ISD (170906)",105
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina ISD (010901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Montgomery ISD (170903)",36
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Navasota ISD (093904)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",15
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"New Waverly ISD (236901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Splendora ISD (170907)",14
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Spring ISD (101919)",83
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Tomball ISD (101921)",15
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Waller ISD (237904)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",100,"Willis ISD (170904)",87
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",524
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aldine ISD (101902)",15
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arrow Academy (021805)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brenham ISD (239901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleveland ISD (146901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coldspring-Oakhurst CISD (204901)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comquest Academy (101842)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cypress-Fairbanks ISD (101907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Bend ISD (079907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goodrich ISD (187903)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",47
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",17
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Humble ISD (101913)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Huntsville ISD (236902)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Klein ISD (101915)",42
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy School Of Sport Sciences (101874)",34
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Livingston ISD (187907)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Magnolia ISD (170906)",84
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Montgomery ISD (170903)",219
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Navasota ISD (093904)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Caney ISD (170908)",45
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Waverly ISD (236901)",11
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",41
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richards ISD (093905)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Houston State University Chart (236802)",113
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shepherd ISD (204904)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sherman ISD (091906)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest School (101838)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Splendora ISD (170907)",19
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Spring ISD (101919)",11
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",405
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tomball ISD (101921)",35
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waller ISD (237904)",-999
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Willis ISD (170904)",115
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1322
+"2018-2019",06,"Region VI Huntsville","Conroe ISD (170902)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

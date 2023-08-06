@@ -1,0 +1,42 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Devine ISD (163901)",34
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (015905)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Lytle ISD (007904)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Pearsall ISD (082903)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",49
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Devine ISD (163901)",12
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hondo ISD (163904)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lytle ISD (007904)",20
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Medina Valley ISD (163908)",25
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Somerset ISD (015909)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"South San Antonio ISD (015908)",-999
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",17
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",94
+"2019-2020",20,"Region XX San Antonio","Natalia ISD (163903)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

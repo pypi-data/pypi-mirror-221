@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"Borger ISD (117901)",106
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"Dumas ISD (171901)",5
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"Highland Park ISD (188903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"Pringle-Morse CISD (098903)",12
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"Sanford-Fritch ISD (117903)",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",100,"White Deer ISD (033904)",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",200,"","."
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",100,"Transfers In From",300,"","."
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",100,"Borger ISD (117901)",8
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",100,"Pringle-Morse CISD (098903)",9
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",100,"Spring Creek ISD (117907)",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",200,"","."
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",16,"Region XVI Amarillo","Plemons-Stinnett-Phillips CISD (117904)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,60 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Burleson ISD (126902)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Castleberry ISD (220917)",37
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Copperas Cove ISD (050910)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",39
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",113
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Travis ISD (227913)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Springtown ISD (184902)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"Weatherford ISD (184903)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",100,"White Settlement ISD (220920)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",219
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Aledo ISD (184907)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",14
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boyd ISD (249902)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Castleberry ISD (220917)",10
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",24
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"High Point Academy (220819)",59
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",132
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keller ISD (220907)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas School Of The Arts (220814)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"White Settlement ISD (220920)",25
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",326
+"2018-2019",11,"Region XI Fort Worth","Lake Worth ISD (220910)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

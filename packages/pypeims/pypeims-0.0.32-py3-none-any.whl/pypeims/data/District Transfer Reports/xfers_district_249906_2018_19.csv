@@ -1,0 +1,43 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Alvord ISD (249901)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Boyd ISD (249902)",18
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bridgeport ISD (249903)",157
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Chico ISD (249904)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Decatur ISD (249905)",34
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Peaster ISD (184908)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Poolville ISD (184901)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Springtown ISD (184902)",43
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",100,"Weatherford ISD (184903)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",277
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boyd ISD (249902)",12
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bridgeport ISD (249903)",23
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Decatur ISD (249905)",36
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Poolville ISD (184901)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Springtown ISD (184902)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weatherford ISD (184903)",-999
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",88
+"2018-2019",11,"Region XI Fort Worth","Paradise ISD (249906)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

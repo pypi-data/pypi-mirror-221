@@ -1,0 +1,18 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Adrian ISD (180903)",9
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Amarillo ISD (188901)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Bushland ISD (188904)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Canyon ISD (191901)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Hereford ISD (059901)",82
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",100,"Wildorado ISD (180904)",25
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",200,"","."
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",100,"Transfers In From",300,"","."
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",100,"Adrian ISD (180903)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",100,"Boys Ranch ISD (180901)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",100,"Bushland ISD (188904)",14
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",100,"Wildorado ISD (180904)",-9999999
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",200,"","."
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",200,"Total Transfers Out",21
+"2014-15",16,"Region XVI Amarillo","Vega ISD (180902)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,19 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Caldwell ISD (026901)",9
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Calvert ISD (198902)",-9999999
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Cameron ISD (166901)",9
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Gause ISD (166902)",45
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Hearne ISD (198905)",22
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",100,"Rockdale ISD (166904)",39
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",200,"","."
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",100,"Transfers In From",300,"","."
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",100,"Caldwell ISD (026901)",-9999999
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",100,"Cameron ISD (166901)",-9999999
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",100,"Gause ISD (166902)",13
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",100,"Rockdale ISD (166904)",16
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",100,"Thorndale ISD (166905)",-9999999
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",200,"","."
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",200,"Total Transfers Out",39
+"2014-15",06,"Region VI Huntsville","Milano ISD (166903)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,50 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Canutillo ISD (071907)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Clint ISD (071901)",295
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Dell City ISD (115903)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"El Paso ISD (071902)",108
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Fabens ISD (071903)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"San Elizario ISD (071904)",57
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Tornillo ISD (071908)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",337
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",811
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",47
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canutillo ISD (071907)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clint ISD (071901)",213
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Academy (071804)",59
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso ISD (071902)",533
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Leadership Academy (071810)",12
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fabens ISD (071903)",55
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",52
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",829
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",984
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Fe Preparatory School (071807)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Longview ISD (092903)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",47
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Elizario ISD (071904)",69
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",11
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tornillo ISD (071908)",13
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-El Pas (071803)",64
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vista Del Futuro Charter School (071809)",239
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ysleta ISD (071905)",3760
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",7002
+"2019-2020",19,"Region XIX El Paso","Socorro ISD (071909)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

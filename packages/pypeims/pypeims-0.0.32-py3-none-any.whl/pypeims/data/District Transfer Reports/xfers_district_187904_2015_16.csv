@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",100,"Chester ISD (229906)",11
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",100,"Groveton ISD (228901)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",100,"Kennard ISD (113906)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",100,"Leggett ISD (187906)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",100,"Lufkin ISD (003903)",5
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",200,,"."
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",200,"Total Transfers In",22
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",100,"Transfers In From",300,,"."
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Chester ISD (229906)",6
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Diboll ISD (003905)",11
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Groveton ISD (228901)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Hudson ISD (003902)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Leggett ISD (187906)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Livingston ISD (187907)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Lufkin ISD (003903)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Pineywoods Community Academy (003801)",9
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",200,,"."
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",200,"Total Transfers Out",41
+"2015-16",06,"Region VI Huntsville","Corrigan-Camden ISD (187904)",200,"Transfers Out To",300,,"."
+

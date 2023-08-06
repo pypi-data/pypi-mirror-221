@@ -1,0 +1,24 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Bangs ISD (025901)",5
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Brownwood ISD (025902)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Clyde CISD (030902)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Novice ISD (042906)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Panther Creek CISD (042905)",41
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",100,"Santa Anna ISD (042903)",17
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",200,"","."
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",200,"Total Transfers In",68
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",100,"Transfers In From",300,"","."
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Bangs ISD (025901)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Brownwood ISD (025902)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Cross Plains ISD (030901)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Panther Creek CISD (042905)",37
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"San Angelo ISD (226903)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Santa Anna ISD (042903)",13
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",100,"Zephyr ISD (025906)",-9999999
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",200,"","."
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",200,"Total Transfers Out",69
+"2012-13",15,"Region XV San Angelo","Coleman ISD (042901)",200,"Transfers Out To",300,"","."
+

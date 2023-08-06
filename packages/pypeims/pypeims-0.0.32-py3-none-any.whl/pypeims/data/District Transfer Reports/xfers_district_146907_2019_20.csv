@@ -1,0 +1,40 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Cleveland ISD (146901)",10
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Coldspring-Oakhurst CISD (204901)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Dayton ISD (146902)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Hardin ISD (146904)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Humble ISD (101913)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Shepherd ISD (204904)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"Splendora ISD (170907)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",100,"West Hardin County CISD (100908)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",36
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cleveland ISD (146901)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dayton ISD (146902)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Bend ISD (079907)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hardin ISD (146904)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Liberty ISD (146906)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Caney ISD (170908)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shepherd ISD (204904)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Splendora ISD (170907)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",28
+"2019-2020",04,"Region IV Houston","Tarkington ISD (146907)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

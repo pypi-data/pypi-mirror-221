@@ -1,0 +1,51 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Alba-Golden ISD (250906)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Brownsboro ISD (107902)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Bullard ISD (212902)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (212909)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (234903)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineola ISD (250903)",15
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Quitman ISD (250904)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",28
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Van ISD (234906)",13
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Winona ISD (212910)",21
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",92
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alba-Golden ISD (250906)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Big Sandy ISD (230901)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canton ISD (234902)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cumberland Academy (212801)",28
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Saline ISD (234904)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hawkins ISD (250902)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Martins Mill ISD (234905)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mineola ISD (250903)",17
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rains ISD (190903)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sabine ISD (092906)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tyler ISD (212905)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ut Tyler University Academy (212804)",-999
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van ISD (234906)",45
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winona ISD (212910)",10
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",145
+"2018-2019",07,"Region VII Kilgore","Lindale ISD (212903)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

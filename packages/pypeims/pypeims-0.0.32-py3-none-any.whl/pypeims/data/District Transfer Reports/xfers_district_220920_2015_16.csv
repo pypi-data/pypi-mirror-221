@@ -1,0 +1,55 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Aledo ISD (184907)",7
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Arlington ISD (220901)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Azle ISD (220915)",21
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Birdville ISD (220902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Burleson ISD (126902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Castleberry ISD (220917)",12
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Crowley ISD (220912)",11
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",32
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Fort Worth ISD (220905)",237
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Granbury ISD (111901)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Jacksboro ISD (119902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Keller ISD (220907)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Lake Worth ISD (220910)",24
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Mansfield ISD (220908)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Millsap ISD (184904)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Northwest ISD (061911)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Springtown ISD (184902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",100,"Weatherford ISD (184903)",11
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",200,,"."
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",200,"Total Transfers In",375
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",100,"Transfers In From",300,,"."
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Aledo ISD (184907)",14
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Azle ISD (220915)",6
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Birdville ISD (220902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Brock ISD (184909)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Bryan ISD (021902)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Castleberry ISD (220917)",9
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",11
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",13
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Fort Worth ISD (220905)",15
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Godley ISD (126911)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",13
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"High Point Academy (220819)",127
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Keller ISD (220907)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Lake Worth ISD (220910)",12
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Mansfield ISD (220908)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Northwest ISD (061911)",5
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Premier High Schools (072801)",12
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",5
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Springtown ISD (184902)",6
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Texans Can Academies (057804)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Texas School Of The Arts (220814)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Uplift Education (057803)",-9999999
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",100,"Weatherford ISD (184903)",7
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",200,,"."
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",200,"Total Transfers Out",291
+"2015-16",11,"Region XI Fort Worth","White Settlement ISD (220920)",200,"Transfers Out To",300,,"."
+

@@ -1,0 +1,48 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gilmer ISD (230902)",11
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gladewater ISD (092901)",17
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Harmony ISD (230905)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hawkins ISD (250902)",16
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lindale ISD (212903)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineola ISD (250903)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"New Diana ISD (230906)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Pine Tree ISD (092904)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Quitman ISD (250904)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Union Grove ISD (230908)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"White Oak ISD (092908)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",100,"Winona ISD (212910)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",65
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Chapel Hill ISD (212909)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Texas Charter Schools (092801)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gilmer ISD (230902)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gladewater ISD (092901)",16
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony ISD (230905)",10
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hawkins ISD (250902)",17
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Longview ISD (092903)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pittsburg ISD (032902)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Quitman ISD (250904)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Charter School (046802)",21
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Union Grove ISD (230908)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Union Hill ISD (230904)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ut Tyler University Academy (212804)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winona ISD (212910)",-999
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",82
+"2019-2020",07,"Region VII Kilgore","Big Sandy ISD (230901)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

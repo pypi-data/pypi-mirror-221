@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",100,"Harlingen CISD (031903)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",100,"La Feria ISD (031905)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",200,"","."
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",200,"Total Transfers In",7
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",100,"Transfers In From",300,"","."
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Donna ISD (108902)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Edinburg CISD (108904)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Harlingen CISD (031903)",12
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Idea Public Schools (108807)",7
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"La Feria ISD (031905)",9
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Lyford CISD (245902)",5
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Mercedes ISD (108907)",-9999999
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",5
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",100,"San Benito CISD (031912)",5
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",200,"","."
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",200,"Total Transfers Out",60
+"2012-13",01,"Region I Edinburg","Santa Rosa ISD (031914)",200,"Transfers Out To",300,"","."
+

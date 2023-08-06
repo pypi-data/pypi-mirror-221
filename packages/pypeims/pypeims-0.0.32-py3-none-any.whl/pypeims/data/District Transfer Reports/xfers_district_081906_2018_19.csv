@@ -1,0 +1,30 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Buffalo ISD (145901)",23
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Centerville ISD (145902)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Fairfield ISD (081902)",20
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Groesbeck ISD (147902)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mexia ISD (147903)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Oakwood ISD (145907)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",100,"Teague ISD (081904)",42
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",90
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Buffalo ISD (145901)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fairfield ISD (081902)",38
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Teague ISD (081904)",-999
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",78
+"2018-2019",12,"Region XII Waco","Dew ISD (081906)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

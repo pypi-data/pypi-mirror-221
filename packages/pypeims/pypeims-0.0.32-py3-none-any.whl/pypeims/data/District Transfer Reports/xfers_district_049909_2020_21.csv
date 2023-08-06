@@ -1,0 +1,25 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",100,"Transfers In From",100,"Gainesville ISD (049901)",24
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",24
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gainesville ISD (049901)",-999
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lindsay ISD (049907)",14
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Muenster ISD (049902)",-999
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valley View ISD (049903)",-999
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",24
+"2020-2021",11,"Region XI Fort Worth","Sivells Bend ISD (049909)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

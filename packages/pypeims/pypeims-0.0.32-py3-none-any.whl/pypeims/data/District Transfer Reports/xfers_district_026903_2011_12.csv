@@ -1,0 +1,23 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"Brenham ISD (239901)",8
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"Bryan ISD (021902)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"Caldwell ISD (026901)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"College Station ISD (021901)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"Iola ISD (093903)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",100,"Somerville ISD (026902)",23
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",200,"","."
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",200,"Total Transfers In",39
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",100,"Transfers In From",300,"","."
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Aldine ISD (101902)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Bryan ISD (021902)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Caldwell ISD (026901)",18
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"College Station ISD (021901)",5
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Mumford ISD (198906)",-9999999
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",100,"Somerville ISD (026902)",11
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",200,"","."
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",200,"Total Transfers Out",43
+"2011-12",06,"Region VI Huntsville","Snook ISD (026903)",200,"Transfers Out To",300,"","."
+

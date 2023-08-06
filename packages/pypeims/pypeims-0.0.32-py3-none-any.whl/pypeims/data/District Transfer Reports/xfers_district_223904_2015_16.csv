@@ -1,0 +1,13 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",100,"Transfers In From",100,"Brownfield ISD (223901)",131
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",100,"Transfers In From",100,"Loop ISD (083902)",5
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",100,"Transfers In From",200,,"."
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",100,"Transfers In From",200,"Total Transfers In",136
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",100,"Transfers In From",300,,"."
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",100,"Brownfield ISD (223901)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",100,"Dawson ISD (058902)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",100,"Plains ISD (251902)",-9999999
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",200,,"."
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",200,"Total Transfers Out",5
+"2015-16",17,"Region XVII Lubbock","Wellman-Union CISD (223904)",200,"Transfers Out To",300,,"."
+

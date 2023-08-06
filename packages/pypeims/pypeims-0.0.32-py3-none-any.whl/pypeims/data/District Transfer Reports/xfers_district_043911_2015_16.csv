@@ -1,0 +1,47 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Allen ISD (043901)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Anna ISD (043902)",6
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Bland ISD (116915)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Blue Ridge ISD (043917)",12
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Caddo Mills ISD (116901)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Community ISD (043918)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Farmersville ISD (043904)",23
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Frisco ISD (043905)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Greenville ISD (116905)",13
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Leonard ISD (074909)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"McKinney ISD (043907)",22
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Melissa ISD (043908)",6
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Plano ISD (043910)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Rockwall ISD (199901)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Royse City ISD (199902)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Sherman ISD (091906)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Tom Bean ISD (091918)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Van Alstyne ISD (091908)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Whitewright ISD (091910)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",100,"Wylie ISD (043914)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",200,,"."
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",200,"Total Transfers In",108
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",100,"Transfers In From",300,,"."
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Allen ISD (043901)",10
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Bland ISD (116915)",5
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Dallas ISD (057905)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Frisco ISD (043905)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Garland ISD (057909)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",8
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",27
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Lovejoy ISD (043919)",8
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"McKinney ISD (043907)",13
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Plano ISD (043910)",6
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",-9999999
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",200,,"."
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",200,"Total Transfers Out",105
+"2015-16",10,"Region X Richardson","Princeton ISD (043911)",200,"Transfers Out To",300,,"."
+

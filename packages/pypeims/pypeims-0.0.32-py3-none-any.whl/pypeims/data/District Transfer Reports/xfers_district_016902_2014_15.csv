@@ -1,0 +1,22 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",100,"Comal ISD (046902)",9
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",100,"Johnson City ISD (016901)",5
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",100,"New Braunfels ISD (046901)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",200,"","."
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",100,"Transfers In From",300,"","."
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Boerne ISD (130901)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Burnet CISD (027903)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Comal ISD (046902)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Fredericksburg ISD (086901)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Hays CISD (105906)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Johnson City ISD (016901)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",12
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Kerrville ISD (133903)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Marble Falls ISD (027904)",-9999999
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",100,"Wimberley ISD (105905)",11
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",200,"","."
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",200,"Total Transfers Out",38
+"2014-15",13,"Region XIII Austin","Blanco ISD (016902)",200,"Transfers Out To",300,"","."
+

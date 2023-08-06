@@ -1,0 +1,21 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Atlanta ISD (034901)",162
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Bloomburg ISD (034909)",26
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Liberty-Eylau ISD (019908)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Linden-Kildare CISD (034905)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Maud ISD (019903)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"McLeod ISD (034906)",5
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Redwater ISD (019906)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",100,"Texarkana ISD (019907)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",200,"","."
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",200,"Total Transfers In",204
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",100,"Transfers In From",300,"","."
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",100,"Atlanta ISD (034901)",106
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",100,"Bloomburg ISD (034909)",6
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",100,"Liberty-Eylau ISD (019908)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",100,"Red Lick ISD (019911)",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",100,"Texarkana ISD (019907)",5
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",200,"","."
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2014-15",08,"Region VIII Mt Pleasant","Queen City ISD (034907)",200,"Transfers Out To",300,"","."
+

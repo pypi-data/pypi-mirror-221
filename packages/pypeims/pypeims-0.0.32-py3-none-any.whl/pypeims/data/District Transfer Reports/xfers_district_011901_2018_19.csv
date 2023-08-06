@@ -1,0 +1,67 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Del Valle ISD (227910)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Dime Box ISD (144903)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Elgin ISD (011902)",14
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Giddings ISD (144901)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",22
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Manor ISD (227907)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"McDade ISD (011905)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Pflugerville ISD (227904)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Smithville ISD (011904)",28
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",100,"Waelder ISD (089905)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",88
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Achieve Public Schools (227825)",21
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin Discovery School (227821)",35
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Austin ISD (227901)",63
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cedars International Academy (227817)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coupland ISD (246914)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Del Valle ISD (227910)",21
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eanes ISD (227909)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Elgin ISD (011902)",12
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Giddings ISD (144901)",12
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",15
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Academy (Austin) (227816)",23
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",65
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",53
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Grange ISD (075902)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lexington ISD (144902)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lockhart ISD (028902)",15
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Luling ISD (028903)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manor ISD (227907)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"McDade ISD (011905)",16
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"NYOS Charter School (227804)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Public Schools (227824)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Round Top-Carmine ISD (075908)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Smithville ISD (011904)",40
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Taylor ISD (246911)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Empowerment Academy (227805)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (227828)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Excel Center (For Adults) (227827)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valor Public Schools (227829)",-999
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wayside Schools (227803)",41
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",489
+"2018-2019",13,"Region XIII Austin","Bastrop ISD (011901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

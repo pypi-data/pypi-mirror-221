@@ -1,0 +1,33 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"COMANCHE ISD  -  047901",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"DE LEON ISD  -  047902",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"DUBLIN ISD  -  072902",41
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"GORMAN ISD  -  067904",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"HICO ISD  -  097903",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"HUCKABAY ISD  -  072908",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"MORGAN MILL ISD  -  072910",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"RANGER ISD  -  067907",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",100,"STEPHENVILLE ISD  -  072903",32
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",200,,"."
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",88
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",100,"Transfers In From",300,,"."
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",100,"DUBLIN ISD  -  072902",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",100,"HUCKABAY ISD  -  072908",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",100,"STEPHENVILLE ISD  -  072903",29
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",100,"THREE WAY ISD  -  072901",-999
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",200,,"."
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",38
+"2022-2023",11,"REGION XI FORT WORTH","LINGLEVILLE ISD  -  072909","Traditional ISD/CSD",200,"Transfers Out To",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

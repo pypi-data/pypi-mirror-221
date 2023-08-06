@@ -1,0 +1,17 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Doss Consolidated CSD (086024)",6
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Fredericksburg ISD (086901)",10
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Ingram ISD (133904)",18
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",100,"Kerrville ISD (133903)",41
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",200,"","."
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",200,"Total Transfers In",75
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",100,"Transfers In From",300,"","."
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Divide ISD (133905)",-9999999
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Fredericksburg ISD (086901)",12
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Ingram ISD (133904)",-9999999
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",100,"Kerrville ISD (133903)",19
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",200,"","."
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2014-15",13,"Region XIII Austin","Harper ISD (086902)",200,"Transfers Out To",300,"","."
+

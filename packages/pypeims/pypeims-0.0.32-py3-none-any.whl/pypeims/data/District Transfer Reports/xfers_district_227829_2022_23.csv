@@ -1,0 +1,39 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"AUSTIN ISD  -  227901",835
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"BASTROP ISD  -  011901",20
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"COMAL ISD  -  046902",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"DEL VALLE ISD  -  227910",60
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"DRIPPING SPRINGS ISD  -  105904",39
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"EANES ISD  -  227909",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"ELGIN ISD  -  011902",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"GEORGETOWN ISD  -  246904",30
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"HAYS CISD  -  105906",537
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"HUTTO ISD  -  246906",23
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"JARRELL ISD  -  246907",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"LAKE TRAVIS ISD  -  227913",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"LEANDER ISD  -  246913",96
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"LIBERTY HILL ISD  -  246908",16
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"LOCKHART ISD  -  028902",20
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"MANOR ISD  -  227907",38
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"NEW BRAUNFELS ISD  -  046901",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"PFLUGERVILLE ISD  -  227904",174
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"ROUND ROCK ISD  -  246909",219
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"SAN MARCOS CISD  -  105902",22
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"TAYLOR ISD  -  246911",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",100,"WIMBERLEY ISD  -  105905",-999
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",2158
+"2022-2023",13,"REGION XIII AUSTIN","VALOR PUBLIC SCHOOLS  -  227829","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

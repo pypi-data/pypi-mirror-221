@@ -1,0 +1,57 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",24
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Blue Ridge ISD (043917)",13
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Bonham ISD (074903)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Farmersville ISD (043904)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Howe ISD (091905)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Leonard ISD (074909)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",46
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Tom Bean ISD (091918)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Van Alstyne ISD (091908)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitewright ISD (091910)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",110
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",16
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Anna ISD (043902)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Celeste ISD (116902)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Celina ISD (043903)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Greenville ISD (116905)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",47
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leonard ISD (074909)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",10
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",45
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trenton ISD (074912)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitewright ISD (091910)",-999
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",157
+"2018-2019",10,"Region X Richardson","Melissa ISD (043908)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

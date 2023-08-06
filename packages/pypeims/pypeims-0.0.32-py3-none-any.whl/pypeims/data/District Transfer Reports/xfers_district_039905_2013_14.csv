@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Archer City ISD (005901)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Bowie ISD (169901)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Gold Burg ISD (169906)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Henrietta ISD (039902)",22
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Jacksboro ISD (119902)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Wichita Falls ISD (243905)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",100,"Windthorst ISD (005904)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",200,"","."
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",200,"Total Transfers In",32
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",100,"Transfers In From",300,"","."
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",100,"Bellevue ISD (039904)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",100,"Bowie ISD (169901)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",100,"Henrietta ISD (039902)",8
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",100,"Jacksboro ISD (119902)",-9999999
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",100,"Windthorst ISD (005904)",22
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",200,"","."
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",200,"Total Transfers Out",35
+"2013-14",09,"Region IX Wichita Falls","Midway ISD (039905)",200,"Transfers Out To",300,"","."
+

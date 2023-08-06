@@ -1,0 +1,44 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Ezzell ISD (143906)",31
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Moulton ISD (143902)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Rice CISD (045903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Schulenburg ISD (075903)",10
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Shiner ISD (143903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sweet Home ISD (143905)",30
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Victoria ISD (235902)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Vysehrad ISD (143904)",49
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Weimar ISD (045905)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",100,"Yoakum ISD (062903)",12
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",158
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cuero ISD (062901)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edna ISD (120901)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Campo ISD (241903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ezzell ISD (143906)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Flatonia ISD (075901)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Moulton ISD (143902)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Schulenburg ISD (075903)",14
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shiner ISD (143903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sweet Home ISD (143905)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Victoria ISD (235902)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vysehrad ISD (143904)",59
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yoakum ISD (062903)",-999
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",103
+"2018-2019",03,"Region III Victoria","Hallettsville ISD (143901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

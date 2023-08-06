@@ -1,0 +1,33 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Devine ISD (163901)",8
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Medina Valley ISD (163908)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Natalia ISD (163903)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Northside ISD (015915)",7
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Somerset ISD (015909)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",100,"Southwest ISD (015912)",8
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",200,"","."
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",200,"Total Transfers In",30
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",100,"Transfers In From",300,"","."
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Brooks Academy Of Science And Engi (015830)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"City Center Health Careers (015832)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Devine ISD (163901)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Harlandale ISD (015904)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Lackland ISD (015913)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Medina Valley ISD (163908)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Natalia ISD (163903)",7
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Northside ISD (015915)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Radiance Academy Of Learning (015815)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"San Antonio School For Inquiry & C (015820)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Shekinah Radiance Academy (015819)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Somerset ISD (015909)",5
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Southwest ISD (015912)",15
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",100,"Southwest School (101838)",-9999999
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",200,"","."
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",200,"Total Transfers Out",60
+"2011-12",20,"Region XX San Antonio","Lytle ISD (007904)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,29 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"ALVIN ISD  -  020901",-999
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"CLEAR CREEK ISD  -  084910",167
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"DEER PARK ISD  -  101908",-999
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"DICKINSON ISD  -  084901",164
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"FRIENDSWOOD ISD  -  084911",-999
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"GALVESTON ISD  -  084902",554
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"GOOSE CREEK CISD  -  101911",-999
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"HITCHCOCK ISD  -  084908",145
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"LA PORTE ISD  -  101916",22
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"PASADENA ISD  -  101917",12
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"SANTA FE ISD  -  084909",48
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",100,"TEXAS CITY ISD  -  084906",453
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",1573
+"2022-2023",04,"REGION IV HOUSTON","ODYSSEY ACADEMY INC  -  084802","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

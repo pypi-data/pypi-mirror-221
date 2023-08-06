@@ -1,0 +1,20 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Bridge City ISD (181901)",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Buna ISD (121903)",30
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Kirbyville CISD (121905)",7
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Little Cypress-Mauriceville CISD (181908)",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Lumberton ISD (100907)",15
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Silsbee ISD (100904)",69
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",100,"Vidor ISD (181907)",19
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",200,"","."
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",100,"Transfers In From",300,"","."
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",100,"Buna ISD (121903)",7
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",100,"Kirbyville CISD (121905)",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",100,"Silsbee ISD (100904)",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",100,"Vidor ISD (181907)",6
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",200,"","."
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",200,"Total Transfers Out",20
+"2014-15",05,"Region V Beaumont","Evadale ISD (121906)",200,"Transfers Out To",300,"","."
+

@@ -1,0 +1,69 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Alamo Heights ISD (015901)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Edgewood ISD (015905)",9
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Floresville ISD (247901)",12
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Harlandale ISD (015904)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Judson ISD (015916)",32
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"La Vernia ISD (247903)",17
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"New Braunfels ISD (046901)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"North East ISD (015910)",24
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Northside ISD (015915)",15
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Pleasanton ISD (007905)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"San Antonio ISD (015907)",63
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"San Diego ISD (066902)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"South San Antonio ISD (015908)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Southside ISD (015917)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Southwest ISD (015912)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",100,"Spring ISD (101919)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",200,"","."
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",200,"Total Transfers In",199
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",100,"Transfers In From",300,"","."
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Basis Texas (015834)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Brooks Academy Of Science And Engi (015830)",207
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Bruceville-Eddy ISD (161919)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"City Center Health Careers (015832)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Edgewood ISD (015905)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Falls City ISD (128904)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Floresville ISD (247901)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",16
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"George Gervin Academy (015802)",27
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Great Hearts Texas (015835)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Harlandale ISD (015904)",34
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",25
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Higgs Carter King Gifted & Talente (015803)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Idea Public Schools (108807)",40
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Jubilee Academic Center (015822)",371
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Judson ISD (015916)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Kipp San Antonio (015826)",16
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"La Vernia ISD (247903)",12
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Levelland ISD (110902)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Marion ISD (094904)",5
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"New Frontiers Charter School (015805)",6
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"North East ISD (015910)",5
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Northside ISD (015915)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Pleasanton ISD (007905)",6
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Por Vida Academy (015801)",6
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Positive Solutions Charter School (015814)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Poteet ISD (007906)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Poth ISD (247904)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Randolph Field ISD (015906)",15
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"San Antonio ISD (015907)",111
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"San Antonio School For Inquiry & C (015820)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",14
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",5
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"School Of Science And Technology (015827)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Somerset ISD (015909)",5
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"South San Antonio ISD (015908)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Southside ISD (015917)",7
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Southwest ISD (015912)",5
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",13
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Stockdale ISD (247906)",-9999999
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",18
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",200,"","."
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",200,"Total Transfers Out",1011
+"2014-15",20,"Region XX San Antonio","East Central ISD (015911)",200,"Transfers Out To",300,"","."
+

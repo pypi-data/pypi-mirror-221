@@ -1,0 +1,19 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2021-2022",18,"REGION XVIII MIDLAND","WINK-LOVING ISD  -  248902","Traditional ISD/CSD",100,"Transfers In From",100,"KERMIT ISD  -  248901",61
+"2021-2022",18,"REGION XVIII MIDLAND","WINK-LOVING ISD  -  248902","Traditional ISD/CSD",100,"Transfers In From",100,"MONAHANS-WICKETT-PYOTE ISD  -  238902",19
+"2021-2022",18,"REGION XVIII MIDLAND","WINK-LOVING ISD  -  248902","Traditional ISD/CSD",100,"Transfers In From",200,,"."
+"2021-2022",18,"REGION XVIII MIDLAND","WINK-LOVING ISD  -  248902","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",80
+"2021-2022",18,"REGION XVIII MIDLAND","WINK-LOVING ISD  -  248902","Traditional ISD/CSD",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

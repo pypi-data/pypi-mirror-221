@@ -1,0 +1,32 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"AUSTIN ISD  -  227901",66
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"BURNET CISD  -  027903",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"DEL VALLE ISD  -  227910",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"EANES ISD  -  227909",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"ELGIN ISD  -  011902",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"GEORGETOWN ISD  -  246904",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"HAYS CISD  -  105906",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"HUTTO ISD  -  246906",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"JARRELL ISD  -  246907",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"LAKE TRAVIS ISD  -  227913",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"LEANDER ISD  -  246913",23
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"LEWISVILLE ISD  -  061902",-999
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"MANOR ISD  -  227907",24
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"PFLUGERVILLE ISD  -  227904",119
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",100,"ROUND ROCK ISD  -  246909",117
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",372
+"2022-2023",13,"REGION XIII AUSTIN","CHAPARRAL STAR ACADEMY  -  227814","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

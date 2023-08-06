@@ -1,0 +1,80 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",46
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Birdville ISD (220902)",83
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Carroll ISD (220919)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Crowley ISD (220912)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Eagle Mt-Saginaw ISD (220918)",16
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Worth ISD (220905)",50
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Grapevine-Colleyville ISD (220906)",35
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Hamilton ISD (097902)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Irving ISD (057912)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Keller ISD (220907)",39
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Lake Worth ISD (220910)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",308
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington Classics Academy (220802)",17
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Arlington ISD (220901)",49
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",169
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carroll ISD (220919)",25
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Cityscape Schools (057841)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",10
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eagle Mt-Saginaw ISD (220918)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Fort Worth Montessori Academy (220811)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth Academy Of Fine Arts (220809)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Fort Worth ISD (220905)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",24
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",162
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",22
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",23
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony School Of Excellence (101858)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",685
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",149
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",27
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Joshua ISD (126905)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Keller ISD (220907)",13
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Manara Academy (057844)",25
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",19
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northwest ISD (061911)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",13
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Leadership (226801)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Treetops School International (220801)",212
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ume Preparatory Academy (057845)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",11
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",78
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"West ISD (161916)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Westlake Academy Charter School (220810)",-999
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",46
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",1852
+"2018-2019",11,"Region XI Fort Worth","Hurst-Euless-Bedford ISD (220916)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

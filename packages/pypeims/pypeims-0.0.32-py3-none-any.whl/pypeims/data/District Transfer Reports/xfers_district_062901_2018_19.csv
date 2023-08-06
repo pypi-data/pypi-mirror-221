@@ -1,0 +1,46 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bloomington ISD (235901)",15
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Goliad ISD (088902)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gonzales ISD (089901)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hallettsville ISD (143901)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Meyersville ISD (062906)",64
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Nursery ISD (235904)",70
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Victoria ISD (235902)",37
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Westhoff ISD (062905)",13
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Yoakum ISD (062903)",13
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",100,"Yorktown ISD (062904)",13
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",234
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Campo ISD (241903)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Goliad ISD (088902)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Meyersville ISD (062906)",25
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Nursery ISD (235904)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Diego ISD (066902)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Shiner ISD (143903)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sweet Home ISD (143905)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Victoria ISD (235902)",39
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Westhoff ISD (062905)",32
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yoakum ISD (062903)",10
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Yorktown ISD (062904)",-999
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",127
+"2018-2019",03,"Region III Victoria","Cuero ISD (062901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

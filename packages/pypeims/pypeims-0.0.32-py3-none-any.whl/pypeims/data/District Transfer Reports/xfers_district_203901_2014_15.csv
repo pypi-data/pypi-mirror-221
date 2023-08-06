@@ -1,0 +1,21 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",100,"Broaddus ISD (203902)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",100,"Hemphill ISD (202903)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",100,"Shelbyville ISD (210903)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",200,"","."
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",100,"Transfers In From",300,"","."
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Broaddus ISD (203902)",18
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Center ISD (210901)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Chireno ISD (174901)",27
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Excelsior ISD (210906)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Hemphill ISD (202903)",6
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Joaquin ISD (210902)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Lufkin ISD (003903)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Pineywoods Community Academy (003801)",-9999999
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"Shelbyville ISD (210903)",12
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",100,"West Sabine ISD (202905)",44
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",200,"","."
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",200,"Total Transfers Out",114
+"2014-15",07,"Region VII Kilgore","San Augustine ISD (203901)",200,"Transfers Out To",300,"","."
+

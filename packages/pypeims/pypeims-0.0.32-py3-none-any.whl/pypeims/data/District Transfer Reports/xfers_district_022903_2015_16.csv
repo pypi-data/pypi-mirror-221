@@ -1,0 +1,10 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",100,"Transfers In From",100,"Terlingua CSD (022004)",10
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",100,"Transfers In From",200,,"."
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",100,"Transfers In From",200,"Total Transfers In",10
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",100,"Transfers In From",300,,"."
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",200,"Transfers Out To",100,"Terlingua CSD (022004)",-9999999
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",200,"Transfers Out To",200,,"."
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2015-16",18,"Region XVIII Midland","San Vicente ISD (022903)",200,"Transfers Out To",300,,"."
+

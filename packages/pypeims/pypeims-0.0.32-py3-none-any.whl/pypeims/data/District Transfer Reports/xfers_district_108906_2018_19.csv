@@ -1,0 +1,63 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Donna ISD (108902)",72
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Edcouch-Elsa ISD (108903)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Edinburg CISD (108904)",700
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Hidalgo ISD (108905)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Jim Hogg County ISD (124901)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"La Feria ISD (031905)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"La Joya ISD (108912)",88
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"La Villa ISD (108914)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mercedes ISD (108907)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mission CISD (108908)",174
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Pharr-San Juan-Alamo ISD (108909)",425
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Progreso ISD (108910)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Raymondville ISD (245903)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Rio Grande City CISD (214901)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Roma ISD (214903)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"San Isidro ISD (214902)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Sharyland ISD (108911)",441
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Valley View ISD (108916)",33
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",100,"Weslaco ISD (108913)",23
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",2002
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Corpus Christi ISD (178904)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Donna ISD (108902)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edcouch-Elsa ISD (108903)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edinburg CISD (108904)",121
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Excellence In Leadership Academy (108809)",22
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",16
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hidalgo ISD (108905)",131
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",383
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",2005
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Feria ISD (031905)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Joya ISD (108912)",51
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Midvalley Academy Charter District (108804)",109
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mission CISD (108908)",139
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pharr-San Juan-Alamo ISD (108909)",200
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",129
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Diego ISD (066902)",-999
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sharyland ISD (108911)",163
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",11
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valley View ISD (108916)",40
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vanguard Academy (108808)",336
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Weslaco ISD (108913)",15
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",3884
+"2018-2019",01,"Region I Edinburg","McAllen ISD (108906)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,34 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Alamo Heights ISD (015901)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Boerne ISD (130901)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Comal ISD (046902)",5
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"East Central ISD (015911)",11
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Floresville ISD (247901)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Judson ISD (015916)",211
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"La Vernia ISD (247903)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Marion ISD (094904)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"New Braunfels ISD (046901)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"North East ISD (015910)",125
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Northside ISD (015915)",31
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Randolph Field ISD (015906)",6
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"San Antonio ISD (015907)",15
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",37
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"South San Antonio ISD (015908)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",100,"Southwest ISD (015912)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",200,"","."
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",200,"Total Transfers In",455
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",100,"Transfers In From",300,"","."
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"George Gervin Academy (015802)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"North East ISD (015910)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"San Antonio ISD (015907)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Shekinah Radiance Academy (015819)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",7
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Southwest School (101838)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",-9999999
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",200,"","."
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",200,"Total Transfers Out",21
+"2012-13",20,"Region XX San Antonio","Ft Sam Houston ISD (015914)",200,"Transfers Out To",300,"","."
+

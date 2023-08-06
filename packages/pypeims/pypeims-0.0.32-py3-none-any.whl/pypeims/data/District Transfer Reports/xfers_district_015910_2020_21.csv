@@ -1,0 +1,111 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Alamo Heights ISD (015901)",14
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Bandera ISD (010902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Blanco ISD (016902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Boerne ISD (130901)",12
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Center Point ISD (133901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",79
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Comfort ISD (130902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",15
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (015905)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",157
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"La Vernia ISD (247903)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Lackland ISD (015913)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Navarro ISD (094903)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",10
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",153
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Pleasanton ISD (007905)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Poteet ISD (007906)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",88
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"San Marcos CISD (105902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",20
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Seguin ISD (094901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Somerset ISD (015909)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"South San Antonio ISD (015908)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Southside ISD (015917)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",100,"Warren ISD (229904)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",586
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",201
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bandera ISD (010902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",971
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bexar County Academy (015809)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Boerne ISD (130901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",486
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Center Point ISD (133901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comal ISD (046902)",56
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Compass Rose Academy (015838)",13
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",13
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (015905)",10
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eleanor Kolitz Hebrew Language Aca (015836)",217
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",117
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",514
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",1574
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",138
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",289
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",15
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Heritage Academy (015815)",92
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",1698
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",19
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",52
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Judson ISD (015916)",116
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",286
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lackland ISD (015913)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lighthouse Public Schools (015825)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Luling ISD (028903)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marion ISD (094904)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Medina Valley ISD (163908)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mexia ISD (147903)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Braunfels ISD (046901)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Frontiers Public Schools Inc (015805)",18
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",106
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pearsall ISD (082903)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pleasanton ISD (007905)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Por Vida Academy (015801)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Positive Solutions Charter School (015814)",12
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",118
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Academy Charter School (015839)",17
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Randolph Field ISD (015906)",46
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",499
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio Preparatory Charter Sc (015840)",24
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",52
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",175
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology (015827)",525
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"School Of Science And Technology D (015831)",43
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Somerset ISD (015909)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"South San Antonio ISD (015908)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southside ISD (015917)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest Preparatory School (015807)",118
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",19
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",13
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",74
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Gathering Place (015841)",75
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas At Austin H S (227506)",-999
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",49
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",8947
+"2020-2021",20,"Region XX San Antonio","North East ISD (015910)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,19 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Alto ISD (037901)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Crockett ISD (113901)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Elkhart ISD (001903)",23
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Grapeland ISD (113902)",37
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Palestine ISD (001907)",9
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",100,"Westwood ISD (001908)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",200,"","."
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",100,"Transfers In From",300,"","."
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",100,"Elkhart ISD (001903)",16
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",100,"Neches ISD (001906)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",100,"Palestine ISD (001907)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",100,"Rusk ISD (037907)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",100,"UT Tyler Innovation Academy (212804)",-9999999
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",200,"","."
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",200,"Total Transfers Out",23
+"2014-15",07,"Region VII Kilgore","Slocum ISD (001909)",200,"Transfers Out To",300,"","."
+

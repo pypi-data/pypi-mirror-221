@@ -1,0 +1,97 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Aldine ISD (101902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Alief ISD (101903)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Arp ISD (212901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Brookesmith ISD (025908)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Chapel Hill ISD (212909)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"College Station ISD (021901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Community ISD (043918)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Connally ISD (161921)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Devine ISD (163901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"East Central ISD (015911)",10
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Edgewood ISD (015905)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Floresville ISD (247901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Hallsville ISD (102904)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlandale ISD (015904)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Harlingen CISD (031903)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Henderson ISD (201902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Houston ISD (101912)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Judson ISD (015916)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Killeen ISD (014906)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Klein ISD (101915)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Lamar CISD (079901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Lone Oak ISD (116906)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Longview ISD (092903)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Medina Valley ISD (163908)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Mullin ISD (167902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"New Caney ISD (170908)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"North East ISD (015910)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Northside ISD (015915)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Pleasanton ISD (007905)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"San Antonio ISD (015907)",11
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Somerset ISD (015909)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"South San Antonio ISD (015908)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",100,"Willis ISD (170904)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",90
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Basis Texas (015834)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",116
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Compass Rose Academy (015838)",55
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"East Central ISD (015911)",11
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (015905)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Floresville ISD (247901)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"George Gervin Academy (015802)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Great Hearts Texas (015835)",12
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",14
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harlandale ISD (015904)",75
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (San Antonio) (015828)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Henry Ford Academy Alameda School (015833)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Heritage Academy (015815)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",349
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jourdanton ISD (007902)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jubilee Academies (015822)",45
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Judson ISD (015916)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",13
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Vernia ISD (247903)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lighthouse Public Schools (015825)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lytle ISD (007904)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Medina Valley ISD (163908)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"New Frontiers Public Schools Inc (015805)",16
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"North East ISD (015910)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Northside ISD (015915)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pleasanton ISD (007905)",20
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Por Vida Academy (015801)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Positive Solutions Charter School (015814)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Promesa Academy Charter School (015839)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Antonio ISD (015907)",80
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"South San Antonio ISD (015908)",18
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Southwest ISD (015912)",18
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",100,"The Gathering Place (015841)",-999
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",919
+"2020-2021",20,"Region XX San Antonio","Southside ISD (015917)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

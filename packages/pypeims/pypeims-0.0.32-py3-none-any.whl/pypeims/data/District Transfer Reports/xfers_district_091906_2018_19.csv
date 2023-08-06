@@ -1,0 +1,107 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Amarillo ISD (188901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Argyle ISD (061910)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Azle ISD (220915)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Beaumont ISD (123910)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bells ISD (091901)",12
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Bonham ISD (074903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Burkburnett ISD (243901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Conroe ISD (170902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Denison ISD (091903)",31
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Denton ISD (061901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Diboll ISD (003905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Dodd City ISD (074904)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Dumas ISD (171901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Fort Bend ISD (079907)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Gainesville ISD (049901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Graham ISD (252901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Hereford ISD (059901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Hooks ISD (019902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Howe ISD (091905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Hudson ISD (003902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Kountze ISD (100903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lamar CISD (079901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lubbock ISD (152901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Lufkin ISD (003903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Magnolia ISD (170906)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Marshall ISD (102902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Mineral Wells ISD (182903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Nacogdoches ISD (174904)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"North Lamar ISD (139911)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Pilot Point ISD (061903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Pleasanton ISD (007905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Pottsboro ISD (091913)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"S And S CISD (091914)",38
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Savoy ISD (074911)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Texarkana ISD (019907)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Tom Bean ISD (091918)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Van Alstyne ISD (091908)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Vernon ISD (244903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Waco ISD (161914)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitehouse ISD (212906)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitesboro ISD (091909)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",152
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Anna ISD (043902)",12
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bells ISD (091901)",28
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bonham ISD (074903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Celina ISD (043903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Central ISD (003907)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Collinsville ISD (091902)",10
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Community ISD (043918)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Denison ISD (091903)",70
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso ISD (071902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Farmersville ISD (043904)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gainesville ISD (049901)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Gunter ISD (091917)",51
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Howe ISD (091905)",77
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lewisville ISD (061902)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lindsay ISD (049907)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Little Elm ISD (061914)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pottsboro ISD (091913)",32
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prosper ISD (043912)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"S And S CISD (091914)",112
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sam Rayburn ISD (074917)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Savoy ISD (074911)",10
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tom Bean ISD (091918)",65
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",12
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vernon ISD (244903)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitesboro ISD (091909)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Whitewright ISD (091910)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wichita Falls ISD (243905)",-999
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",549
+"2018-2019",10,"Region X Richardson","Sherman ISD (091906)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

@@ -1,0 +1,25 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Brock ISD (184909)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Gordon ISD (182901)",5
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Lipan ISD (111902)",8
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Mineral Wells ISD (182903)",22
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Stephenville ISD (072903)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",100,"Weatherford ISD (184903)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",200,"","."
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",200,"Total Transfers In",41
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",100,"Transfers In From",300,"","."
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Brock ISD (184909)",6
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Gordon ISD (182901)",7
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Huckabay ISD (072908)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Lipan ISD (111902)",6
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Millsap ISD (184904)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Mineral Wells ISD (182903)",10
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Morgan Mill ISD (072910)",10
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Palo Pinto ISD (182906)",9
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Perrin-Whitt CISD (119903)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Stephenville ISD (072903)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",100,"Weatherford ISD (184903)",-9999999
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",200,"","."
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",200,"Total Transfers Out",59
+"2011-12",11,"Region XI Fort Worth","Santo ISD (182904)",200,"Transfers Out To",300,"","."
+

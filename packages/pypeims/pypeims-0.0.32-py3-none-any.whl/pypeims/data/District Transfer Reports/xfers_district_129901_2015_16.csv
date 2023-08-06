@@ -1,0 +1,38 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Dallas ISD (057905)",20
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Ennis ISD (070903)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Forney ISD (129902)",16
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Kaufman ISD (129903)",5
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Kemp ISD (129904)",8
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Lancaster ISD (057913)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Mesquite ISD (057914)",8
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Rockwall ISD (199901)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Scurry-Rosser ISD (129910)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",100,"Terrell ISD (129906)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",200,,"."
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",200,"Total Transfers In",65
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",100,"Transfers In From",300,,"."
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Boles ISD (116916)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Cityscape Schools (057841)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Dallas ISD (057905)",7
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Forney ISD (129902)",32
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Kaufman ISD (129903)",17
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Mabank ISD (129905)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Mesquite ISD (057914)",10
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Midlothian ISD (070908)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Plano ISD (043910)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Red Oak ISD (070911)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Rockwall ISD (199901)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",20
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Terrell ISD (129906)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",5
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",100,"Uplift Education (057803)",-9999999
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",200,,"."
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",200,"Total Transfers Out",115
+"2015-16",10,"Region X Richardson","Crandall ISD (129901)",200,"Transfers Out To",300,,"."
+

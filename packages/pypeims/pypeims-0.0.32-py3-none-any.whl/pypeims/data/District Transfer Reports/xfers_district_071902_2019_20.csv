@@ -1,0 +1,51 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","REPORT_DISTNAME_NUMBER_PROPCASE","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND_PROP","TRANSFERS_IN_OUT"
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Anthony ISD (071906)",36
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Canutillo ISD (071907)",956
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Clint ISD (071901)",75
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Fabens ISD (071903)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"San Elizario ISD (071904)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Socorro ISD (071909)",533
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",100,"Ysleta ISD (071905)",872
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",2484
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Anthony ISD (071906)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Brooks Academies Of Texas (015830)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Burnham Wood Charter School Distri (071801)",756
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canutillo ISD (071907)",248
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clint ISD (071901)",15
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Academy (071804)",131
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"El Paso Leadership Academy (071810)",191
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",65
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",898
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",446
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Fe Preparatory School (071807)",200
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Marshall ISD (102902)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",126
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rice CISD (045903)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Elizario ISD (071904)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Socorro ISD (071909)",108
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-El Pas (071803)",88
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vista Del Futuro Charter School (071809)",-999
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ysleta ISD (071905)",1522
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",4839
+"2019-2020",19,"Region XIX El Paso","El Paso ISD (071902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

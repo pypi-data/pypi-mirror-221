@@ -1,0 +1,92 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Cedar Hill ISD (057904)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Crandall ISD (129901)",33
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",28
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Duncanville ISD (057907)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenville ISD (116905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Kaufman ISD (129903)",14
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Mabank ISD (129905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Martins Mill ISD (234905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Quinlan ISD (116908)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",18
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Royse City ISD (199902)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Scurry-Rosser ISD (129910)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Terrell ISD (129906)",49
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Tyler ISD (212905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Wills Point ISD (234907)",17
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (043914)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",208
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Birdville ISD (220902)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Canton ISD (234902)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crandall ISD (129901)",42
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",63
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Duncanville ISD (057907)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",12
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ferris ISD (070905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",12
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Prairie ISD (057910)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grand Saline ISD (234904)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",47
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kaufman ISD (129903)",11
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Kipp Texas Public Schools (227820)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"La Academia De Estrellas (057839)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lone Oak ISD (116906)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lumin Education (057805)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Melissa ISD (043908)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",77
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Newman International Academy Of Ar (220817)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",24
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rockwall ISD (199901)",55
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Royse City ISD (199902)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"St Anthony School (057836)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",37
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",20
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",15
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Triumph Public High Schools-Laredo (240801)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Tyler ISD (212905)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",13
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Vernon ISD (244903)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wills Point ISD (234907)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",506
+"2020-2021",10,"Region X Richardson","Forney ISD (129902)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

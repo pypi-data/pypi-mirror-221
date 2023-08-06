@@ -1,0 +1,37 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"ALEDO ISD  -  184907",21
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"ALVARADO ISD  -  126901",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"ARLINGTON ISD  -  220901",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"AZLE ISD  -  220915",48
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"BIRDVILLE ISD  -  220902",14
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"BURLESON ISD  -  126902",14
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"CASTLEBERRY ISD  -  220917",30
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"CROWLEY ISD  -  220912",306
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"EAGLE MT-SAGINAW ISD  -  220918",51
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"EVERMAN ISD  -  220904",17
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"FORT WORTH ISD  -  220905",490
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"GODLEY ISD  -  126911",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"GRANBURY ISD  -  111901",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"GRANDVIEW ISD  -  126904",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"KELLER ISD  -  220907",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"LAKE WORTH ISD  -  220910",95
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"LEWISVILLE ISD  -  061902",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"SPRINGTOWN ISD  -  184902",-999
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"WEATHERFORD ISD  -  184903",14
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",100,"WHITE SETTLEMENT ISD  -  220920",278
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",1404
+"2022-2023",11,"REGION XI FORT WORTH","HIGH POINT ACADEMY  -  220819","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

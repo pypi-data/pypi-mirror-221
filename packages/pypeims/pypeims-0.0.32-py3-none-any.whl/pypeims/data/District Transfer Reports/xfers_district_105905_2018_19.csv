@@ -1,0 +1,42 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Austin ISD (227901)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Blanco ISD (016902)",17
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Comal ISD (046902)",33
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Dripping Springs ISD (105904)",15
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Hays CISD (105906)",80
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Johnson City ISD (016901)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lockhart ISD (028902)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"New Braunfels ISD (046901)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"Round Rock ISD (246909)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",100,"San Marcos CISD (105902)",186
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",346
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blanco ISD (016902)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Comal ISD (046902)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dripping Springs ISD (105904)",21
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hays CISD (105906)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Idea Public Schools (108807)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Johnson City ISD (016901)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",45
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Navarro ISD (094903)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Marcos CISD (105902)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Valor Public Schools (227829)",-999
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",90
+"2018-2019",13,"Region XIII Austin","Wimberley ISD (105905)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

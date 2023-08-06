@@ -1,0 +1,70 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Caddo Mills ISD (116901)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Canyon ISD (191901)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Community ISD (043918)",93
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Farmersville ISD (043904)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",88
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Greenville ISD (116905)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",30
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",10
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",23
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",100,"Royse City ISD (199902)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",284
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",33
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carroll ISD (220919)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Commerce ISD (116903)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Community ISD (043918)",17
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Crandall ISD (129901)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Edgewood ISD (234903)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Education Center International Aca (057833)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",38
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",75
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",53
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",38
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lumin Education (057805)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",107
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",29
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",33
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Rockwall ISD (199901)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sunnyvale ISD (057919)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texans Can Academies (057804)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",10
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trinity Basin Preparatory (057813)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",-999
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",510
+"2018-2019",10,"Region X Richardson","Wylie ISD (043914)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

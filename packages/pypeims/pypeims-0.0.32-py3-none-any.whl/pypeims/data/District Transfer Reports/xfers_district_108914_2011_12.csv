@@ -1,0 +1,30 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Covington ISD (109903)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Donna ISD (108902)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Edcouch-Elsa ISD (108903)",94
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Edinburg CISD (108904)",9
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Harlingen CISD (031903)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Lyford CISD (245902)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Mercedes ISD (108907)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Monte Alto ISD (108915)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Santa Rosa ISD (031914)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",100,"Weslaco ISD (108913)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",200,"","."
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",200,"Total Transfers In",120
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",100,"Transfers In From",300,"","."
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Donna ISD (108902)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Edcouch-Elsa ISD (108903)",6
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Edinburg CISD (108904)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Horizon Montessori Public Schools (108802)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Idea Public Schools (108807)",6
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Ignite Public Schools And Communit (108801)",5
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Lyford CISD (245902)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Mercedes ISD (108907)",7
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Monte Alto ISD (108915)",5
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Pharr-San Juan-Alamo ISD (108909)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"San Benito CISD (031912)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",100,"Weslaco ISD (108913)",-9999999
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",200,"","."
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",200,"Total Transfers Out",41
+"2011-12",01,"Region I Edinburg","La Villa ISD (108914)",200,"Transfers Out To",300,"","."
+

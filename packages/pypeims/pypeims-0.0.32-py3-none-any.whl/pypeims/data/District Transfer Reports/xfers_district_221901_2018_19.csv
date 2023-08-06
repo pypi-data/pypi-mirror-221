@@ -1,0 +1,66 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Anson ISD (127901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Baird ISD (030903)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Ballinger ISD (200901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Cisco ISD (067902)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Clyde CISD (030902)",37
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Eula ISD (030906)",13
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Haskell CISD (104901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Hawley ISD (127904)",25
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Jim Ned CISD (221911)",28
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lubbock ISD (152901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lueders-Avoca ISD (127905)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Merkel ISD (221904)",35
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"San Angelo ISD (226903)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Stamford ISD (127906)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sweetwater ISD (177902)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Trent ISD (221905)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Winters ISD (200904)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (221912)",215
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",384
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Anson ISD (127901)",20
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Axtell ISD (161918)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Baird ISD (030903)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Bryan ISD (021902)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Clyde CISD (030902)",36
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Eula ISD (030906)",35
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",19
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hawley ISD (127904)",99
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Houston ISD (101912)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Inspire Academies (015808)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Jim Ned CISD (221911)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lake Granbury Academy Charter Scho (111801)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leander ISD (246913)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lubbock ISD (152901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lueders-Avoca ISD (127905)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Merkel ISD (221904)",20
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",102
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Roscoe Collegiate ISD (177901)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"San Angelo ISD (226903)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Sweetwater ISD (177902)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas Leadership (226801)",438
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trent ISD (221905)",15
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Victoria ISD (235902)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"West ISD (161916)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winters ISD (200904)",-999
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wylie ISD (221912)",46
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",865
+"2018-2019",14,"Region XIV Abilene","Abilene ISD (221901)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

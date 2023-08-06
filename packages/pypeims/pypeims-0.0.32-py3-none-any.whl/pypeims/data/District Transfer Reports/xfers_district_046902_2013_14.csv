@@ -1,0 +1,70 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Academy ISD (014901)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Alamo Heights ISD (015901)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Blanco ISD (016902)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Comanche ISD (047901)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Hays CISD (105906)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Judson ISD (015916)",9
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Marion ISD (094904)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Navarro ISD (094903)",9
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"New Braunfels ISD (046901)",139
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"North East ISD (015910)",31
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Northside ISD (015915)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Pflugerville ISD (227904)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"San Marcos CISD (105902)",14
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Schertz-Cibolo-U City ISD (094902)",9
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Seguin ISD (094901)",14
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"South San Antonio ISD (015908)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",100,"Wimberley ISD (105905)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",200,"","."
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",200,"Total Transfers In",247
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",100,"Transfers In From",300,"","."
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Alamo Heights ISD (015901)",9
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Basis Texas (015834)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Blanco ISD (016902)",11
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Boerne ISD (130901)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Eleanor Kolitz Hebrew Language Aca (015836)",7
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Ft Sam Houston ISD (015914)",15
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Harmony Science Academy (101846)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Hays CISD (105906)",6
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Houston ISD (101912)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Hurst-Euless-Bedford ISD (220916)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Iraan-Sheffield ISD (186903)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",13
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Judson ISD (015916)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Katherine Anne Porter School (105801)",10
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Kerrville ISD (133903)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Lackland ISD (015913)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Lockhart ISD (028902)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Marion ISD (094904)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Meadowland Charter School (130801)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Mullin ISD (167902)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Navarro ISD (094903)",9
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"New Braunfels ISD (046901)",62
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"North East ISD (015910)",15
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Northside ISD (015915)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Northwest ISD (061911)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Poteet ISD (007906)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Premier High Schools (072801)",52
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Radiance Academy Of Learning (015815)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Randolph Field ISD (015906)",34
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"San Antonio ISD (015907)",11
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Schertz-Cibolo-U City ISD (094902)",40
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"School Of Excellence In Education (015806)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"School Of Science And Technology (015827)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Seguin ISD (094901)",8
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Shekinah Radiance Academy (015819)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"South San Antonio ISD (015908)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Southwest School (101838)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",38
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Trinity Charter School (046802)",184
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Tuloso-Midway ISD (178912)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",17
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"West Oso ISD (178915)",-9999999
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",100,"Wimberley ISD (105905)",27
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",200,"","."
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",200,"Total Transfers Out",608
+"2013-14",13,"Region XIII Austin","Comal ISD (046902)",200,"Transfers Out To",300,"","."
+

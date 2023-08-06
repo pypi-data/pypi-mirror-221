@@ -1,0 +1,54 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfers Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Arlington ISD (220901)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Avalon ISD (070901)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",135
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Desoto ISD (057906)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Ennis ISD (070903)",13
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Forney ISD (129902)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Grand Prairie ISD (057910)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Lancaster ISD (057913)",11
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Mansfield ISD (220908)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Midlothian ISD (070908)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Palmer ISD (070910)",11
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Red Oak ISD (070911)",17
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",100,"Waxahachie ISD (070912)",14
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",200,,0
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",222
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",100,"Transfers In From",300,,0
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"A+ Academy (057829)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Advantage Academy (057806)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Allen ISD (043901)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Desoto ISD (057906)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Ennis ISD (070903)",10
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Golden Rule Charter School (057835)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Irving ISD (057912)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",52
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Malone ISD (109908)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mansfield ISD (220908)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Mesquite ISD (057914)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Palmer ISD (070910)",11
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Red Oak ISD (070911)",30
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Scurry-Rosser ISD (129910)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Venus ISD (126908)",-999
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie ISD (070912)",14
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",200,,0
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",152
+"2018-2019",10,"Region X Richardson","Ferris ISD (070905)","Traditional ISD/CSD",200,"Transfers Out To",300,,0
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

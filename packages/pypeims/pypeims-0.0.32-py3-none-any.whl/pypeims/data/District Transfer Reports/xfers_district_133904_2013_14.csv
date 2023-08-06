@@ -1,0 +1,26 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Comfort ISD (130902)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Divide ISD (133905)",7
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Fredericksburg ISD (086901)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Harper ISD (086902)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Hunt ISD (133902)",37
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",100,"Kerrville ISD (133903)",70
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",200,"","."
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",200,"Total Transfers In",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",100,"Transfers In From",300,"","."
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Big Springs Charter School (193801)",139
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Center Point ISD (133901)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Divide ISD (133905)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Harper ISD (086902)",16
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Hunt ISD (133902)",34
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"John H Wood Jr Public Charter Dist (015808)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Kerrville ISD (133903)",130
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"McKinney ISD (043907)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Northwest ISD (061911)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",100,"University Of Texas University Cha (227806)",105
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",200,"","."
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",200,"Total Transfers Out",433
+"2013-14",20,"Region XX San Antonio","Ingram ISD (133904)",200,"Transfers Out To",300,"","."
+

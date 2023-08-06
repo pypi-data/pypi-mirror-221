@@ -1,0 +1,32 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"AXTELL ISD  -  161918",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"BOSQUEVILLE ISD  -  161923",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"CHINA SPRING ISD  -  161920",19
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"CONNALLY ISD  -  161921",45
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"CRAWFORD ISD  -  161901",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"GHOLSON ISD  -  161925",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"LA VEGA ISD  -  161906",72
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"LORENA ISD  -  161907",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"MART ISD  -  161908",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"MIDWAY ISD  -  161903",30
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"MOODY ISD  -  161910",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"RIESEL ISD  -  161912",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"ROBINSON ISD  -  161922",10
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"WACO ISD  -  161914",662
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",100,"WEST ISD  -  161916",-999
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",200,,"."
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",200,"Total Transfers In",859
+"2022-2023",12,"REGION XII WACO","RAPOPORT ACADEMY PUBLIC SCHOOL  -  161802","Open Enrollment Charter",100,"Transfers In From",300,,"."
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

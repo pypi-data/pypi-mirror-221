@@ -1,0 +1,13 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",100,"Transfers In From",100,"Carrizo Springs CISD (064903)",5
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",100,"Transfers In From",200,"","."
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",100,"Transfers In From",200,"Total Transfers In",5
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",100,"Transfers In From",300,"","."
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",100,"Carrizo Springs CISD (064903)",11
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",100,"Jourdanton ISD (007902)",11
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",100,"La Pryor ISD (254902)",8
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",-9999999
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",200,"","."
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2011-12",20,"Region XX San Antonio","Crystal City ISD (254901)",200,"Transfers Out To",300,"","."
+

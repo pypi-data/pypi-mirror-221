@@ -1,0 +1,27 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Bonham ISD (074903)",13
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Denison ISD (091903)",21
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Ector ISD (074905)",6
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Howe ISD (091905)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Sam Rayburn ISD (074917)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Savoy ISD (074911)",29
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Sherman ISD (091906)",22
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",100,"Tom Bean ISD (091918)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",200,"","."
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",200,"Total Transfers In",97
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",100,"Transfers In From",300,"","."
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Denison ISD (091903)",8
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Greenville ISD (116905)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Gunter ISD (091917)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Howe ISD (091905)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Melissa ISD (043908)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"S And S CISD (091914)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Savoy ISD (074911)",17
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Sherman ISD (091906)",10
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Tom Bean ISD (091918)",5
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",100,"Whitewright ISD (091910)",11
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",200,"","."
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",200,"Total Transfers Out",-9999999
+"2013-14",10,"Region X Richardson","Bells ISD (091901)",200,"Transfers Out To",300,"","."
+

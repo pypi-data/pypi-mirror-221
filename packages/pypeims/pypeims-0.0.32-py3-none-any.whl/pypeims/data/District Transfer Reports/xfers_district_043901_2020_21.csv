@@ -1,0 +1,87 @@
+T E X A S  E D U C A T I O N  A G E N C Y
+
+District Level Transfer Report
+
+PEIMS Student Transfer Report
+
+"YEAR","REPORT_REGION","REPORT_REGION_NAME","REPORT_DISTNAME_NUMBER","REPORT_CHARTER_STATUS","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","DISTNAME_NUMBER_RES_ATTEND","TRANSFERS_IN_OUT"
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Anna ISD (043902)",14
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Aubrey ISD (061907)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Bells ISD (091901)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Celeste ISD (116902)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Celina ISD (043903)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Dallas ISD (057905)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Farmersville ISD (043904)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Ferris ISD (070905)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Frisco ISD (043905)",37
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Garland ISD (057909)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Gunter ISD (091917)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lewisville ISD (061902)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Little Elm ISD (061914)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Lovejoy ISD (043919)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"McKinney ISD (043907)",103
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Melissa ISD (043908)",17
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Plano ISD (043910)",46
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Princeton ISD (043911)",16
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Prosper ISD (043912)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Richardson ISD (057916)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Rockwall ISD (199901)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Sherman ISD (091906)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Southwest ISD (015912)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Whitewright ISD (091910)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (043914)",30
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",100,"Wylie ISD (221912)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",200,,
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",200,"Total Transfers In",315
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",100,"Transfers In From",300,,
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Blue Ridge ISD (043917)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carroll ISD (220919)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Carrollton-Farmers Branch ISD (057903)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Coppell ISD (057922)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Dallas ISD (057905)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Evolution Academy Charter School (057834)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Farmersville ISD (043904)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Frisco ISD (043905)",24
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Garland ISD (057909)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",27
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Hallsville ISD (102904)",22
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Harmony Science Acad (Waco) (161807)",25
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Imagine International Academy Of N (043801)",179
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"International Leadership Of Texas (057848)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Karnes City ISD (128901)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Leadership Prep School (061804)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Legacy Preparatory (057846)",12
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Life School (057807)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lone Star Language Academy (043802)",10
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Lovejoy ISD (043919)",125
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"McKinney ISD (043907)",33
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Melissa ISD (043908)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Pioneer Technology & Arts Academy (057850)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Plano ISD (043910)",70
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Premier High Schools (072801)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Princeton ISD (043911)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Prosper ISD (043912)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richardson ISD (057916)",12
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Richland Collegiate High School (057840)",13
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"S And S CISD (091914)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Terrell ISD (129906)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texarkana ISD (019907)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",17
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trenton ISD (074912)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Trivium Academy (061805)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Universal Academy (057808)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Uplift Education (057803)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Van Alstyne ISD (091908)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Waxahachie Faith Family Academy (070801)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Winfree Academy Charter Schools (057828)",11
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",100,"Wylie ISD (043914)",-999
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",200,,
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",200,"Total Transfers Out",657
+"2020-2021",10,"Region X Richardson","Allen ISD (043901)","Traditional ISD/CSD",200,"Transfers Out To",300,,
+
+ -999 indicates counts or percentages are not available (i.e. masked) to comply with the Family Educational Rights and Privacy Act (FERPA).
+
+Masked numbers are typically small although larger numbers may be masked to prevent imputation.
+
+The REPORT_NUMBER column and the LINE_GROUP_NUMBER column are added to assist sorting and filtering of rows in the file.
+

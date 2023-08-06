@@ -1,0 +1,22 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Crockett ISD (113901)",6
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Elkhart ISD (001903)",6
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Kennard ISD (113906)",8
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Latexo ISD (113905)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Palestine ISD (001907)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",100,"Slocum ISD (001909)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",200,"","."
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",200,"Total Transfers In",28
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",100,"Transfers In From",300,"","."
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Crockett ISD (113901)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Douglass ISD (174911)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Elkhart ISD (001903)",10
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Honors Academy (057825)",5
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Kennard ISD (113906)",-9999999
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Latexo ISD (113905)",31
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Slocum ISD (001909)",31
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",22
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",200,"","."
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",200,"Total Transfers Out",106
+"2011-12",06,"Region VI Huntsville","Grapeland ISD (113902)",200,"Transfers Out To",300,"","."
+

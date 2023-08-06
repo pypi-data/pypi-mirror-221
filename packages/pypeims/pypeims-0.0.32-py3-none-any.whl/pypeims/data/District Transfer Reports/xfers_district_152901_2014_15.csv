@@ -1,0 +1,77 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Abernathy ISD (095901)",7
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Anton ISD (110901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Brownfield ISD (223901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Cotton Center ISD (095902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Crosbyton CISD (054901)",5
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Dalhart ISD (056901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Ector County ISD (068901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Floydada ISD (077901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Frenship ISD (152907)",646
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Hale Center ISD (095903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Idalou ISD (152910)",16
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Levelland ISD (110902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Littlefield ISD (140904)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Lorenzo ISD (054902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",441
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"New Deal ISD (152902)",34
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"New Home ISD (153905)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Petersburg ISD (095904)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Plainview ISD (095905)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Ralls ISD (054903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"River Road ISD (188902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Roosevelt ISD (152908)",37
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Ropes ISD (110905)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Shallowater ISD (152909)",14
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Slaton ISD (152903)",35
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Smyer ISD (110906)",13
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Tahoka ISD (153904)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Whiteface CISD (040902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",100,"Wilson ISD (153907)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",200,"","."
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",200,"Total Transfers In",1281
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",100,"Transfers In From",300,"","."
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Abernathy ISD (095901)",9
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Abilene ISD (221901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Austin ISD (227901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Brownfield ISD (223901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Bruceville-Eddy ISD (161919)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Crosbyton CISD (054901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Floydada ISD (077901)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Frenship ISD (152907)",495
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Grapevine-Colleyville ISD (220906)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Hale Center ISD (095903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Harmony Science Acad (El Paso) (071806)",322
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Idalou ISD (152910)",26
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Levelland ISD (110902)",9
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Littlefield ISD (140904)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Lone Oak ISD (116906)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Lorenzo ISD (054902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Lubbock-Cooper ISD (152906)",260
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Meadow ISD (223902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Mullin ISD (167902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"New Deal ISD (152902)",85
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"New Home ISD (153905)",35
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"O'Donnell ISD (153903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Orenda Charter School (014804)",45
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Plainview ISD (095905)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Post ISD (085902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Premier High Schools (072801)",90
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Richard Milburn Alter High School (014801)",158
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Rise Academy (152802)",257
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Roosevelt ISD (152908)",49
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Ropes ISD (110905)",11
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Shallowater ISD (152909)",61
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Sherman ISD (091906)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Slaton ISD (152903)",27
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Smyer ISD (110906)",7
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"South Plains Academy Charter Distr (152803)",180
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Southland ISD (085903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Tahoka ISD (153904)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Texas College Preparatory Academie (221801)",31
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Vernon ISD (244903)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",100,"Whiteface CISD (040902)",-9999999
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",200,"","."
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",200,"Total Transfers Out",2195
+"2014-15",17,"Region XVII Lubbock","Lubbock ISD (152901)",200,"Transfers Out To",300,"","."
+

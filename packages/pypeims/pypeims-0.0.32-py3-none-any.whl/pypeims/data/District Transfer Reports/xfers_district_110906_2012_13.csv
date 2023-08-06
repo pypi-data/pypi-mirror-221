@@ -1,0 +1,24 @@
+"YEAR","REPORT_REGION","REPORT_REGION_NAME_PROP","report_distname_number_propcase","REPORT_NUMBER","REPORT_TYPE","LINE_GROUP_NUMBER","distname_number_res_attend_prop","TRANSFERS_IN_OUT"
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Anton ISD (110901)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Frenship ISD (152907)",31
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Levelland ISD (110902)",31
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Lubbock ISD (152901)",7
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Lubbock-Cooper ISD (152906)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Ropes ISD (110905)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",100,"Shallowater ISD (152909)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",200,"","."
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",200,"Total Transfers In",80
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",100,"Transfers In From",300,"","."
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Frenship ISD (152907)",8
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Levelland ISD (110902)",10
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Lubbock ISD (152901)",13
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Lubbock-Cooper ISD (152906)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Meadow ISD (223902)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"New Deal ISD (152902)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Premier High Schools (072801)",-9999999
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Ropes ISD (110905)",5
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",100,"Shallowater ISD (152909)",6
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",200,"","."
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",200,"Total Transfers Out",48
+"2012-13",17,"Region XVII Lubbock","Smyer ISD (110906)",200,"Transfers Out To",300,"","."
+
