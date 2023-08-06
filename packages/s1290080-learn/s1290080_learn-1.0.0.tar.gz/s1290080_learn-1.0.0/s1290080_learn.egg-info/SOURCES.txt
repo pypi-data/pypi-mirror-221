@@ -1,0 +1,12 @@
+LICENSE.txt
+setup.py
+s1290080_learn/__init__.py
+s1290080_learn.egg-info/PKG-INFO
+s1290080_learn.egg-info/SOURCES.txt
+s1290080_learn.egg-info/dependency_links.txt
+s1290080_learn.egg-info/requires.txt
+s1290080_learn.egg-info/top_level.txt
+s1290080_learn/statistics/__init__.py
+s1290080_learn/statistics/frequenciesOfItems.py
+s1290080_learn/visualization/__init__.py
+s1290080_learn/visualization/heatMapItemsFrequencies.py
