@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+readDataFile/readDataFile.egg-info/PKG-INFO
+readDataFile/readDataFile.egg-info/SOURCES.txt
+readDataFile/readDataFile.egg-info/dependency_links.txt
+readDataFile/readDataFile.egg-info/top_level.txt
