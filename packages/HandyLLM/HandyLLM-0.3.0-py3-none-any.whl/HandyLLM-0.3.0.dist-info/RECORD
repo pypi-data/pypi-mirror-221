@@ -1,0 +1,9 @@
+handyllm/__init__.py,sha256=kOLVuwu3qqF69YQEkVdCoFZBJmNYsAsd472xFsazCuo,126
+handyllm/endpoint_manager.py,sha256=y2IcFwbrkrgolv7gJaTMCrtHzEXIF0gGUZ28L301pqI,2730
+handyllm/openai_api.py,sha256=2Nq-gbJ4bYmNdzEN167lnlJfL5BZBR5BfUjNWuBo9jU,17200
+handyllm/prompt_converter.py,sha256=FzIEswy0BcaSv_EJtRT7k5S6qI-x4Q4tOp3in98u3xI,2643
+handyllm/utils.py,sha256=eCUhRVW8m9k-ZB2ExayQ-OzTpDM4dODfk3ZXoWFpEvk,839
+HandyLLM-0.3.0.dist-info/METADATA,sha256=TuJEHrPV59IlGvyTHrZab4QU3qV4h-2SGzJhEHg0Hck,4314
+HandyLLM-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+HandyLLM-0.3.0.dist-info/top_level.txt,sha256=ZihGWgkGbM-uIShE5qWfskaJc-i42VUsm6auB-0aYeU,9
+HandyLLM-0.3.0.dist-info/RECORD,,
