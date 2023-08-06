@@ -1,0 +1,5 @@
+scipy
+phonemizer
+sounddevice
+onnxruntime
+huggingface-hub
