@@ -1,0 +1,6 @@
+format: jb-book
+parts:
+- caption: sandbox chapter
+  chapters:
+  - file: sandbox-nb
+root: 0-00-intro-nb
