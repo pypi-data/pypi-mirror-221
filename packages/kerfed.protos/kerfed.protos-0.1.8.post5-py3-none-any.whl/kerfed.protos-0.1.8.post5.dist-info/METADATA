@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: kerfed.protos
+Version: 0.1.8.post5
+Summary: Built Python bindings for the Kerfed Proto messages.
+License: proprietary
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: trimesh ; extra == 'tests'
+Provides-Extra: typed
+Requires-Dist: mypy ; extra == 'typed'
+Requires-Dist: grpc-stubs ; extra == 'typed'
+Requires-Dist: types-protobuf ; extra == 'typed'
+
+# proto
+
+Contains unbuilt proto files which can be built into various and sundry packages.
+
+## Quick Start
+
+Build some or all of the libraries:
+
+```bash
+bazel build //:protos  # build all targets
+bazel build //:go
+bazel build //:py
+bazel build //:js   # builds js-web and js-node
+```
+
+Build documentation:
+
+```bash
+bazel build //:doc
+cat bazel-bin/doc/doc.html
+```
+
+Run linter:
+
+```bash
+bazel run //:lint
+```
+
+Login to use the remote cache:
+
+```bash
+gcloud auth login [username]@kerfed.com
+```
