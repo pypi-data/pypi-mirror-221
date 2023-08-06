@@ -1,0 +1,3 @@
+[console_scripts]
+dec_ansi_parser=dec_ansi_parser.formatter:main
+
