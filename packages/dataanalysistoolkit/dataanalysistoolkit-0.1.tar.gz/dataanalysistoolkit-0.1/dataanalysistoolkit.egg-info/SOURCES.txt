@@ -1,0 +1,14 @@
+License
+README.md
+setup.py
+dataanalysistoolkit.egg-info/PKG-INFO
+dataanalysistoolkit.egg-info/SOURCES.txt
+dataanalysistoolkit.egg-info/dependency_links.txt
+dataanalysistoolkit.egg-info/top_level.txt
+src/__init__.py
+src/data_analyzer.py
+src/make_data/__init__.py
+src/make_data/generate_data.py
+src/make_data/make_test.py
+tests/__init__.py
+tests/test_data_analyzer.py
