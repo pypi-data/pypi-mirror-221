@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "nb-cli-plugin-littlepaimon"
+version = "1.0.3"
+description = "Nonebot Cli plugin for LittlePaimon"
+authors = ["CMHopeSunshine <277073121@qq.com>"]
+keywords = ["nonebot2", "nb-cli"]
+homepage = "https://github.com/CMHopeSunshine/nb-cli-plugin-littlepaimon"
+readme = "README.md"
+license = "AGPL"
+
+[[tool.poetry.source]]
+name = "aliyun"
+priority = "default"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nb-cli = "^1.0.2"
+py-cpuinfo = "^9.0.0"
+rich = "^13.3.1"
+
+[tool.poetry.dev-dependencies]
+ruff = "^0.0.277"
+black = "^23.7.0"
+pre-commit = "^3.1.0"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+extend-exclude = '''
+'''
+skip-string-normalization = true
+target-version = ["py38", "py39", "py310", "py311"]
+
+[tool.ruff]
+select = [
+    "E", "W", # pycodestyle
+    "F",      # pyflakes
+    "UP",     # pyupgrade
+    "N",      # pep8-naming
+    "I",      # isort
+    "PYI",    # flask8-pyi
+    "Q",      # flake8-quotes
+    "PTH",    # flake8-use-pathlib
+    "RET",    # flake8-return
+    "RSE",    # flake8-raise
+    "T20",    # flake8-print
+    "PIE",    # flake8-pie
+    "SIM",    # flake8-simplify
+    "ISC",    # flake8-implicit-str-concat
+    "C4",     # flake8-comprehensions
+    "COM",    # flake8-commas
+    "A",      # flake8-builtins
+    "B",      # flake8-bugbear
+    "ASYNC"   # flake8-async
+]
+ignore = ["E402", "B008", "F403", "F405", "B005", "N818"]
+line-length = 88
+target-version = "py38"
+ignore-init-module-imports = true
+
+
+[tool.ruff.flake8-builtins]
+builtins-ignorelist = ["id", "type", "format"]
+
+[tool.ruff.isort]
+force-sort-within-sections = true
+extra-standard-library = ["typing_extensions"]
+force-wrap-aliases = true
+combine-as-imports = true
+order-by-type = false
+relative-imports-order = "closest-to-furthest"
+section-order = ["future", "standard-library", "first-party", "local-folder", "third-party"]
+
+[tool.ruff.pycodestyle]
+ignore-overlong-task-comments = true
+max-doc-length = 120
+
+[tool.poetry.plugins.nb]
+paimon = "nb_cli_plugin_littlepaimon.plugin:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
