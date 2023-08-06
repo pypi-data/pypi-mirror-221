@@ -1,0 +1,6 @@
+typing_extensions
+pydantic
+pyyaml
+packaging
+pygments>=2.14.0
+argcomplete
