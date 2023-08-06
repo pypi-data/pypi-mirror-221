@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: adt-decorators
+Version: 0.2.3
+Summary: Algebraic Data Types via Class Decorators
+Home-page: https://github.com/m0rphism/adt-decorators
+Author: Hannes Saffrich
+Author-email: saffrich@informatik.uni-freiburg.de
+License: BSD 2-clause
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[//]: # (INSTALL_BEGIN)
+## Installation
+
+The package is on [PyPI](https://pypi.org/project/adt-decorators/)
+and [github](https://github.com/m0rphism/adt-decorators)
+and can be installed via
+```bash
+pip install adt-decorators
+```
+[//]: # (INSTALL_END)
