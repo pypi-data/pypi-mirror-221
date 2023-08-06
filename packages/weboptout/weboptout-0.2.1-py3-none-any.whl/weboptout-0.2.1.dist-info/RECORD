@@ -1,0 +1,13 @@
+data/tos.jsonl,sha256=otdzubuVK1W30162lrPl9zVWNyn0ETVruEWoEL5T-pI,7628
+weboptout/__init__.py,sha256=99OKOHY1sTam-VDB9eOK8iOr8vZMkLxEVQC1xY3OW_o,183
+weboptout/client.py,sha256=bkP0_z3p3a2NV-4AefhDKwkgtWj2IRZDsqMi4XGkopw,1228
+weboptout/config.py,sha256=jP8o4yz4c2gATynvRRkutHfSbh2bMcIufq-qGELIQyQ,1421
+weboptout/html.py,sha256=zmXPWarewpvzsU6qRqmxHcLAEYjcnN0AzsJApYyKM_o,3418
+weboptout/http.py,sha256=WLW-0XGAafGQ5Jmdjygbg-37-1U005RI2Z5NLN-l7uM,8030
+weboptout/types.py,sha256=JApgbyU5o1ZhHfvHlTHVodvqa74Iq-fLytLOw9gU-vo,1537
+weboptout/utils.py,sha256=1XHFdQiwKYzFqgYsu8XCAVCv7VdkijCNYesRciTSywU,6987
+weboptout/web.py,sha256=OyvPeYYWK3WuFlfnesaqGz2eGyaYWqoF3aZOIWirAMg,1690
+weboptout-0.2.1.dist-info/LICENSE,sha256=vZ33noJgBLUx49vf80yhnFDmhP2uxds8_KIX0LP-uKM,5003
+weboptout-0.2.1.dist-info/METADATA,sha256=xSylk9JAJyFQIYQiAhrtF7qJDgXnPo5rj-anKr0VRkQ,927
+weboptout-0.2.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+weboptout-0.2.1.dist-info/RECORD,,
