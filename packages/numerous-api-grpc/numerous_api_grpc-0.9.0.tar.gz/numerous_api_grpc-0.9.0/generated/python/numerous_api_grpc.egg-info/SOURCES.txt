@@ -1,0 +1,10 @@
+setup.py
+generated/python/__init__.py
+generated/python/health_pb2.py
+generated/python/health_pb2_grpc.py
+generated/python/spm_pb2.py
+generated/python/spm_pb2_grpc.py
+generated/python/numerous_api_grpc.egg-info/PKG-INFO
+generated/python/numerous_api_grpc.egg-info/SOURCES.txt
+generated/python/numerous_api_grpc.egg-info/dependency_links.txt
+generated/python/numerous_api_grpc.egg-info/top_level.txt

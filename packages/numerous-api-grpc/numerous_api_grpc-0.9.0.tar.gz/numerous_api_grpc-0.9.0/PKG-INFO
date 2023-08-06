@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: numerous_api_grpc
+Version: 0.9.0
+Summary: Numerous Data Port gRPC generated Python module
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
