@@ -1,0 +1,3 @@
+textual==0.13
+httpx
+pyperclip
