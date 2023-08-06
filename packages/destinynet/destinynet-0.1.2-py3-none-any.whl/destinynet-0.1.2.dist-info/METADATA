@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: destinynet
+Version: 0.1.2
+Summary: This is a code to predict cell's fate
+Author: Songtao Jiang
+Author-email: songtao.22@intl.zju.edu.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: anndata (==0.9.2)
+Requires-Dist: cospar (==0.2.1)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: pandas (==1.4.4)
+Requires-Dist: scanpy (==1.9.3)
+Requires-Dist: scikit-learn (==1.1.2)
+Requires-Dist: torch (==2.0.1)
+Requires-Dist: tqdm (==4.65.0)
