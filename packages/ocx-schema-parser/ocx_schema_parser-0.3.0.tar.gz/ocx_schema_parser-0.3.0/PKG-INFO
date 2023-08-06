@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ocx-schema-parser
+Version: 0.3.0
+Summary: 
+Home-page: https://github.com/OCXStandard/ocx-schema-parser
+Author: ocastrup
+Author-email: ole.christain.astrup@dnv.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: inflection
+Requires-Dist: ocx (==3.0.0a0)
+Requires-Dist: pyspellchecker
+Requires-Dist: xsdata (==23.6)
+Description-Content-Type: text/markdown
+
+# ocx-schema-parser
+Python module for parsing an OCX schema.
+
