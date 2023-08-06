@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: foundation-model-tool
+Version: 0.0.8
+Summary: Package to use Foundation Models in Prompt Flow
+Author: Matthew DeGuzman
+Author-email: t-madeguzman@microsoft.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Foundation Model Tool
+
+This is a simple tool that allows users to use Foundation Models in Prompt Flow.
