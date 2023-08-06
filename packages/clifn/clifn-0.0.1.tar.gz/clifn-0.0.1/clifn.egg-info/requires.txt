@@ -1,0 +1,9 @@
+docopt
+terminaltables
+
+[dev]
+pytest-cov
+wheel
+
+[test]
+pytest
