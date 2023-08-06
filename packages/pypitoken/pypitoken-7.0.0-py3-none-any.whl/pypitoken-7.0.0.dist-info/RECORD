@@ -1,0 +1,8 @@
+pypitoken/__init__.py,sha256=KJBu3jtGovnSwYXGf5DzurX5zXAsqCbDyMQaLFXvjns,872
+pypitoken/exceptions.py,sha256=1XZ0EhOH0COB13FW4PsTxLHRqLQLyokl9RhePy4IMEk,1194
+pypitoken/restrictions.py,sha256=99cZMfgj6wvMM_p-jtbBTm_HgALbGVemowMGBWzDXeQ,21094
+pypitoken/token.py,sha256=1UwD1tKJz9wzegHH8GTRooC85b925ylb_6LHLkAlyJw,13836
+pypitoken-7.0.0.dist-info/LICENSE.rst,sha256=gbeF84Esfo_DPDcKzUOJIEEAuJI1wZOBwv9Q6K7NjO0,1072
+pypitoken-7.0.0.dist-info/METADATA,sha256=xSvC4JvnjgpJyxVYOoR-PwwINR2_j9M2wB7KrLNp6AM,5152
+pypitoken-7.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pypitoken-7.0.0.dist-info/RECORD,,
