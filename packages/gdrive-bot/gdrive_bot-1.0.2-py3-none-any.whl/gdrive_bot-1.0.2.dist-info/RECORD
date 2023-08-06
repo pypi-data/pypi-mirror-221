@@ -1,0 +1,10 @@
+g_bot/__init__.py,sha256=Y3LSfRioSl2xch70pq_ULlvyECXyEtN3krVaWeGyaxk,22
+g_bot/cli.py,sha256=83pn-aweywyI1sZqUfULVMYG3VbEJzp1tuMC-Wpb44I,1920
+g_bot/config.ini,sha256=AE77TZygwBk73SK-f_XKKOMjJnmnJXna4xXkXEe0LbA,68
+g_bot/main.py,sha256=Q2QIxylDXH7RBFRkBmqm3i7qtiS4vrJr5zaKGFVohe0,6439
+gdrive_bot-1.0.2.dist-info/LICENSE,sha256=FZS6Irk3j4oEeg2gqkm72mWWiQf-NkKcqC_6dgE5JlI,1064
+gdrive_bot-1.0.2.dist-info/METADATA,sha256=Td4BQ-2U3AOdarRG3eBhVUiHCWv_R6kuxaJbzH2TCsM,1449
+gdrive_bot-1.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gdrive_bot-1.0.2.dist-info/entry_points.txt,sha256=HFOqmBxDrpETW8zsSNBsUYk_Z5Jl7VjlxH1So5HPl1c,41
+gdrive_bot-1.0.2.dist-info/top_level.txt,sha256=SL2B8nDFCT2jvwBhrE6AIE21v1NVC24gKkIejRcDfGo,6
+gdrive_bot-1.0.2.dist-info/RECORD,,
