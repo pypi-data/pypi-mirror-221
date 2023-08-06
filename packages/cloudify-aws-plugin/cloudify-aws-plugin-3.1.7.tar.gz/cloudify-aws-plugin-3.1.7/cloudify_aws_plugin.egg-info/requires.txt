@@ -1,0 +1,10 @@
+boto3
+cloudify-common>=4.5
+cloudify-utilities-plugins-sdk>=0.0.119
+botocore
+pycryptodome==3.9.7
+deepdiff==6.3.1
+datetime
+pytz==2022.2.1
+urllib3==1.26.16
+requests-toolbelt==0.9.1
