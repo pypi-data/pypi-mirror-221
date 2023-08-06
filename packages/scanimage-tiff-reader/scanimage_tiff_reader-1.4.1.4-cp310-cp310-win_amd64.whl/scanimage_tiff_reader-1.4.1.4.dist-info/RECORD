@@ -1,0 +1,13 @@
+ScanImageTiffReader/__init__.py,sha256=4ZEkqbHHqTa3tfLin292wPBM8yX6wr4TqCyZloWZ0L0,13401
+ScanImageTiffReader/external/README.md,sha256=I1_hmKCXfjkNt8iop28RFgXat_uK8mTMUTP1ka_T_ZY,708
+ScanImageTiffReader/external/__init__.py,sha256=lMXvlq0cyVASyIS4UAD7VaHE5YHTjF1_HZ8YxLswh3k,1190
+ScanImageTiffReader/external/ScanImageTiffReader-1.4.1-Darwin/lib/libScanImageTiffReaderAPI.so,sha256=HMdFRFpZcrr9rkgIa8qzbHudpdUw1k_rY7NffXOAiYg,379788
+ScanImageTiffReader/external/ScanImageTiffReader-1.4.1-Darwin-arm64/lib/libScanImageTiffReaderAPI.so,sha256=W2_ZaBwX8e_yszg-endVdMXo_LvflXrpcGT-7MVnJQA,645241
+ScanImageTiffReader/external/ScanImageTiffReader-1.4.1-Linux/lib/libScanImageTiffReaderAPI.so,sha256=ucdpjX6Qwb-RGlYZDHcBrzzJL5DMejRI0j-PiVTwHtg,2409728
+ScanImageTiffReader/external/ScanImageTiffReader-1.4.1-win64/lib/ScanImageTiffReaderAPI.dll,sha256=AysWqvQr4JkcVZju3WnX1-7cMtNKxPaa0PXkAnGXLeU,538112
+scanimage_tiff_reader-1.4.1.4.dist-info/LICENSE,sha256=ZHrAykUofBCP2xqsNmMzxvCE5E4LpInPKXnA_WIM0Zk,570
+scanimage_tiff_reader-1.4.1.4.dist-info/METADATA,sha256=CIjjCB0z7AqfTwAl9PkpRlfcMBs1pH7lcx8uBSeYYc8,3801
+scanimage_tiff_reader-1.4.1.4.dist-info/WHEEL,sha256=Ecbb0_kZJtemD7-rR3Duaz_lzr9_iQAuZ4hgpmUiXjg,102
+scanimage_tiff_reader-1.4.1.4.dist-info/entry_points.txt,sha256=SSSclNu4VGMfp6Wx8SsaESRufTsnh8BfZT-mJgMMOJ0,69
+scanimage_tiff_reader-1.4.1.4.dist-info/top_level.txt,sha256=4rvTkL-5OgSlEdpC667OVFXeTMVyD9wF46oyyqyIUec,20
+scanimage_tiff_reader-1.4.1.4.dist-info/RECORD,,
