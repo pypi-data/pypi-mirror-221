@@ -1,0 +1,2 @@
+[console_scripts]
+atl = atl.cli:main
