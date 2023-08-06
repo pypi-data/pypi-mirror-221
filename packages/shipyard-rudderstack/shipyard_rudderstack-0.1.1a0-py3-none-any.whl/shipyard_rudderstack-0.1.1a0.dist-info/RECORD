@@ -1,0 +1,7 @@
+shipyard_rudderstack/__init__.py,sha256=zyhI4kY0X0jEJYDjjJpn5yPzXU_zmqrcRe8iv796pFg,43
+shipyard_rudderstack/cli/authtest.py,sha256=fqhfgaXMgQZSQseCB3jjUqQJJUPRadPwXqVUOOvktWg,279
+shipyard_rudderstack/cli/trigger_sync_cli.py,sha256=bAajW0paubPMIegL-fIaCZO80LZh_WKTPaq-7OL6Z1g,2872
+shipyard_rudderstack/rudderstack.py,sha256=f3_JYuNbsNckqnF9e9z9psaYggCXHqzjfEKAgrjgq4w,5677
+shipyard_rudderstack-0.1.1a0.dist-info/METADATA,sha256=tD32tV904zYIcX4QYJR_-NHL97KPN0XyegZ1yjyCtJg,1316
+shipyard_rudderstack-0.1.1a0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_rudderstack-0.1.1a0.dist-info/RECORD,,
