@@ -1,0 +1,5 @@
+hspylib
+pyperclip
+emoji
+urllib3
+setuptools
