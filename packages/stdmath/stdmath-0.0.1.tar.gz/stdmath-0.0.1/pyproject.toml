@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stdmath"
+version = "0.0.1"
+authors = [
+  { name="Rather Not Say", email="author@example.com" },
+]
+description = "A Better Library For Complex Mathematics Based on OOP"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
