@@ -1,0 +1,42 @@
+{% extends 'webstack/base.html' %}
+{% load static %}
+
+{% block title %}导航网站{% endblock %}
+
+{% block meta %}
+    <link rel="shortcut icon" href="{% static 'webstack/assets/images/favicon.png' %}">
+    <meta name="keywords" content="网址导航">
+    <meta name="description" content="常用网址导航聚合站">
+{% endblock %}
+
+{% block top-file %}{% endblock %}
+
+{% block logo %}
+    <div class="logo">
+        <a href="#" class="logo-expanded">
+            <img src="{% static 'webstack/assets/images/logo@2x.png' %}" width="100%" alt=""/>
+        </a>
+        <a href="#" class="logo-collapsed">
+            <img src="{% static 'webstack/assets/images/logo-collapsed@2x.png' %}" width="40" alt=""/>
+        </a>
+    </div>
+{% endblock %}
+
+{% block navbar-list %}
+    <li style="min-height: 75px;"><a href="/">首页</a></li>
+{% endblock %}
+
+{% block main-menu %}{% endblock %}
+
+{% block footer %}
+    <div class="footer-text">
+        &copy; 2023
+        <a href="https://github.com/Hopetree/django-webstack" target="_blank">
+            <strong>django-webstack</strong>
+        </a>
+        design by
+        <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank">
+            <strong>WebStack</strong>
+        </a>
+    </div>
+{% endblock %}
