@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: MiPaquetePublicable
+Version: 0.0.0
+Summary: Descripción del paquete
+Home-page: https://github.com/JorgeCardona/recursos/Publicar Paquetes PyPI
+Author: Jorge Cardona
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MÃ³dulo de CÃ¡lculos MatemÃ¡ticos Elementales
+
+Este mÃ³dulo proporciona diversas funciones para realizar cÃ¡lculos matemÃ¡ticos elementales, incluyendo operaciones de suma, resta, multiplicaciÃ³n, divisiÃ³n decimal y divisiÃ³n entera.
+
+## Uso
+
+Para utilizar este mÃ³dulo, simplemente importa la clase `CalculosMatematicosElementales` desde `elementales` y llama a los mÃ©todos estÃ¡ticos correspondientes.
+
+```python
+# from elementales.funciones_basicas import CalculosMatematicosElementales
+from funciones_basicas import CalculosMatematicosElementales
+
+# Ejemplo de uso del mÃ©todo de suma
+resultado_suma = CalculosMatematicosElementales.suma(2, 3)
+print(resultado_suma)  # Salida: El resultado de la SUMA 2.0 + 3.0 es 5.0
+
+# Ejemplo de uso del mÃ©todo de resta
+resultado_resta = CalculosMatematicosElementales.resta(10, 5)
+print(resultado_resta)  # Salida: El resultado de la RESTA 10.0 - 5.0 es 5.0
+
+# Ejemplo de uso del mÃ©todo de multiplicaciÃ³n
+resultado_multiplicacion = CalculosMatematicosElementales.multiplicacion(4, 3)
+print(resultado_multiplicacion)  # Salida: El resultado de la MULTIPLICACION 4.0 * 3.0 es 12.0
+
+# Ejemplo de uso del mÃ©todo de divisiÃ³n decimal
+resultado_division_decimal = CalculosMatematicosElementales.division_decimal(10, 3)
+print(resultado_division_decimal)  # Salida: El resultado de la DIVISIÃ“N DECIMAL 10.0 / 3.0 es 3.3333333333333335
+
+# Ejemplo de uso del mÃ©todo de divisiÃ³n entera
+resultado_division_entera = CalculosMatematicosElementales.division_entera(10, 3)
+print(resultado_division_entera)  # Salida: El resultado de la DIVISIÃ“N ENTERA 10 // 3 es 3
+```
+
+## MÃ©todos disponibles
+
+A continuaciÃ³n se enumeran los mÃ©todos disponibles en la clase `CalculosMatematicosElementales`:
+
+- `suma(x: float, y: float) -> float`: Realiza la suma de dos nÃºmeros.
+
+- `resta(x: float, y: float) -> float`: Realiza la resta de dos nÃºmeros.
+
+- `multiplicacion(x: float, y: float) -> float`: Realiza la multiplicaciÃ³n de dos nÃºmeros.
+
+- `division_decimal(x: float, y: float) -> float`: Realiza la divisiÃ³n decimal de dos nÃºmeros.
+
+- `division_entera(x: int, y: int) -> int`: Realiza la divisiÃ³n entera de dos nÃºmeros.
+
+## Notas
+
+- Recuerda que para utilizar este mÃ³dulo, asegÃºrate de tener instalado Python.
+
+- Los mÃ©todos `suma`, `resta`, `multiplicacion`, `division_decimal` y `division_entera` funcionan con nÃºmeros reales.
+
+- La divisiÃ³n decimal puede producir resultados con una precisiÃ³n limitada en nÃºmeros decimales repetitivos.
+
+# MÃ³dulo de CÃ¡lculos MatemÃ¡ticos Compuestos Avanzados
+
+Este mÃ³dulo proporciona diversas funciones para realizar cÃ¡lculos matemÃ¡ticos compuestos avanzados, incluyendo operaciones de potencia, raÃ­z cuadrada, logaritmo, piso, techo, factorial y multiplicaciÃ³n de nÃºmeros imaginarios.
+
+## Uso
+
+Para utilizar este mÃ³dulo, simplemente importa la clase `CalculosMatematicosCompuestos` desde `compuestos` y llama a los mÃ©todos estÃ¡ticos correspondientes.
+
+```python
+# from compuestos.funciones_avanzadas import CalculosMatematicosCompuestos
+from funciones_avanzadas import CalculosMatematicosCompuestos
+
+# Ejemplo de uso del mÃ©todo de potencia
+resultado_potencia = CalculosMatematicosCompuestos.potencia(2, 3)
+print(resultado_potencia)  # Salida: El resultado de la POTENCIA 2 elevado a 3 es 8
+
+# Ejemplo de uso del mÃ©todo de raiz cuadrada
+resultado_raiz = CalculosMatematicosCompuestos.raiz_cuadrada(9, 16)
+print(resultado_raiz)  # Salida: El resultado de la raiz cuadrada del valor absoluto de 9 + 16 es 5.0
+
+# Ejemplo de uso del mÃ©todo de logaritmo
+resultado_logaritmo = CalculosMatematicosCompuestos.logaritmo(10, 100)
+print(resultado_logaritmo)  # Salida: El logaritmo del valor absoluto de 10 en base 100 es 0.5
+
+# Ejemplo de uso del mÃ©todo de piso
+resultado_piso = CalculosMatematicosCompuestos.piso(7, 2)
+print(resultado_piso)  # Salida: El piso de 7 dividido 2 es 3
+
+# Ejemplo de uso del mÃ©todo de techo
+resultado_techo = CalculosMatematicosCompuestos.techo(7, 2)
+print(resultado_techo)  # Salida: El techo de 7 dividido 2 es 4
+
+# Ejemplo de uso del mÃ©todo de factorial
+resultado_factorial = CalculosMatematicosCompuestos.factorial(5)
+print(resultado_factorial)  # Salida: El factorial de 5 es 120
+
+# Ejemplo de uso del mÃ©todo de multiplicaciÃ³n de nÃºmeros imaginarios
+resultado_imaginarios = CalculosMatematicosCompuestos.imaginarios(2j, 3j)
+print(resultado_imaginarios)  # Salida: La multiplicaciÃ³n del nÃºmero imaginario 2j con el nÃºmero imaginario 3j es -6
+```
+
+## MÃ©todos disponibles
+
+A continuaciÃ³n se enumeran los mÃ©todos disponibles en la clase `CalculosMatematicosCompuestos`:
+
+- `potencia(x: float, y: float) -> float`: Calcula la potencia de x elevado a y.
+
+- `raiz_cuadrada(x: float, y: float) -> float`: Calcula la raiz cuadrada del valor absoluto de (x + y).
+
+- `logaritmo(x: float, y: float) -> float`: Calcula el logaritmo del valor absoluto de x en base y.
+
+- `piso(x: float, y: float) -> int`: Calcula el piso de la divisiÃ³n de x entre y.
+
+- `techo(x: float, y: float) -> int`: Calcula el techo de la divisiÃ³n de x entre y.
+
+- `factorial(n: int) -> int`: Calcula el factorial de un nÃºmero entero no negativo n.
+
+- `imaginarios(x: complex, y: complex) -> complex`: Calcula la multiplicaciÃ³n de dos nÃºmeros imaginarios x e y.
+
+## Notas
+
+- Recuerda que para utilizar este mÃ³dulo, asegÃºrate de tener instalado Python y el mÃ³dulo math.
+
+- Si el mÃ©todo `factorial` es llamado con un nÃºmero entero negativo, se lanzarÃ¡ una excepciÃ³n `ValueError`.
+
+- Los mÃ©todos `piso` y `techo` devuelven resultados como enteros.
+
+- El mÃ©todo `imaginarios` opera con nÃºmeros imaginarios utilizando el operador `*`.
+
+- Si deseas mÃ¡s detalles sobre cada mÃ©todo, consulta la documentaciÃ³n en el cÃ³digo fuente.
+
+- Para ejecutar las pruebas unitarias, puedes utilizar el framework `unittest` o `pytest` y verificar que cada mÃ©todo funcione correctamente.
