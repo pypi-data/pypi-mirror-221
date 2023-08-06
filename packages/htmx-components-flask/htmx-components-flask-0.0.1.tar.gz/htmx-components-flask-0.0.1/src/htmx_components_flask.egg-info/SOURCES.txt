@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.vscode/settings.json
+src/htmx_components_flask/__init__.py
+src/htmx_components_flask.egg-info/PKG-INFO
+src/htmx_components_flask.egg-info/SOURCES.txt
+src/htmx_components_flask.egg-info/dependency_links.txt
+src/htmx_components_flask.egg-info/requires.txt
+src/htmx_components_flask.egg-info/top_level.txt
+src/htmx_components_flask/templates/htmx_components_flask/pager.html
+src/htmx_components_flask/templates/htmx_components_flask/sortlink.html
+src/htmx_components_flask/templates/htmx_components_flask/viewgrid.html
+src/htmx_components_flask/templates/htmx_components_flask/form/description.html
+src/htmx_components_flask/templates/htmx_components_flask/form/errors.html
+src/htmx_components_flask/templates/htmx_components_flask/form/horizontal.html

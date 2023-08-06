@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: htmx-components-flask
+Version: 0.0.1
+Summary: HTMX Components for Flask
+Author: Neil McGuigan
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# htmx-components-flask
+Dynamic Flask User Interface Components using HTMX
