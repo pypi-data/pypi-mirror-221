@@ -1,0 +1,255 @@
+Metadata-Version: 2.1
+Name: olympix-test-generator
+Version: 1.2.2
+Summary: Used to auto-generate unit tests for smart contracts using the Forge framework.
+Home-page: https://github.com/olympix/olympix-test-generator
+Author: Evan Fenster
+Author-email: evan@olympix.ai
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: blessed (==1.20.0)
+Requires-Dist: certifi (==2023.5.7)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: inquirer (==3.1.3)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: readchar (==4.0.5)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==2.0.4)
+Requires-Dist: wcwidth (==0.2.6)
+
+# Olympix Test Generator
+
+Olympix Test Generator is a Python-based utility tool to streamline the process of generating unit tests for Solidity smart contracts. These unit tests are tailored to be compatible with [Foundry](https://book.getfoundry.sh/), a specialized tool for writing unit tests in Solidity.
+
+## Prerequisites
+
+- Python 3.7 or later
+- Solidity 0.8.0 or later
+
+## Installation
+
+Install the Olympix Test Generator through pip:
+
+```bash
+pip install olympix-test-generator
+```
+
+## Configuration
+
+Prior to running the script, you'll need to set the `OLYMPIX_API_KEY` environment variable in your system.
+
+For Unix or Linux:
+
+```bash
+export OLYMPIX_API_KEY=your-api-key
+```
+
+For Windows:
+
+```cmd
+setx OLYMPIX_API_KEY "your-api-key"
+```
+
+## Usage
+
+Olympix Test Generator offers a command-line interface for creating tests.
+
+Initiate the test generation process with:
+
+```bash
+olympix generate
+```
+
+Upon executing the command, the tool will guide you through the steps required to generate the test. 
+
+A test contract will be created either in the same directory as the chosen smart contract, or in an adjacent test folder, should one exist. Existing files will remain unaffected. The generated tests are also displayed on the console. 
+
+For optimal results, generate tests for one function at a time. 
+
+Sure, here's an improved version of the section:
+
+## Example - Contract and Generated Tests
+
+In this section, we provide two examples of how the Olympix Test Generator works with different contracts: a smaller contract, `Counter.sol`, and a larger contract, `MyToken.sol`.
+
+### Example 1: Counter.sol
+
+The `Counter.sol` contract is a simple contract that counts a number. The associated `Counter.t.sol` test contract is generated using our tool. All tests pass with 100% code coverage.
+
+#### Counter.sol
+```solidity
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
+
+contract Counter {
+    uint256 public number;
+
+    function setNumber(uint256 newNumber) public {
+        number = newNumber;
+    }
+
+    function increment() public {
+        number++;
+    }
+}
+```
+
+#### Generated Test: Counter.t.sol
+```solidity
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
+
+import {Counter} from "../src/Counter.sol";
+import "forge-std/Test.sol";
+
+contract CounterTest is Test {
+    Counter counter;
+
+    function setUp() public {
+        counter = new Counter();
+    }
+
+    function test_initialNumber() public {
+        assertEq(counter.number(), 0);
+    }
+
+    function test_setNumber() public {
+        counter.setNumber(5);
+        assertEq(counter.number(), 5);
+    }
+
+    function test_increment() public {
+        counter.increment();
+        assertEq(counter.number(), 1);
+    }
+}
+```
+
+### Example 2: MyToken.sol
+
+`MyToken.sol` is a more complex contract that implements a basic ERC20 token. Due to its complexity, we generate tests specifically for the `approve` function, resulting in the `MyTokenApprove.t.sol` test contract. We recommend this approach—generating tests for individual functions—for larger, more complex contracts.
+
+#### MyToken.sol
+```solidity
+// SPDX-License-Identifier: MIT
+//pragma solidity >=0.4.22 <0.9.0;
+pragma solidity 0.8.2;
+
+contract MyToken {
+    // Mapping from account addresses to current balance.
+    mapping(address => uint256) private _balances;
+
+    // Mapping from account addresses to a mapping of spender addresses to an amount of allowance.
+    mapping(address => mapping(address => uint256)) private _allowances;
+
+    // Name of the token
+    string private _name;
+
+    // Symbol of the token
+    string private _symbol;
+
+    // Total of the token supply
+    uint256 private _totalSupply;
+
+    constructor(string memory name_, string memory symbol_, uint256 totalSupply_) {
+        _name = name_;
+        _symbol = symbol_;
+        _totalSupply = totalSupply_;
+        _balances[msg.sender] = totalSupply_;
+    }
+
+    function name() public view returns(string memory) {
+        return _name;
+    }
+
+    function symbol() public view returns(string memory) {
+        return _symbol;
+    }
+
+    function totalSupply() public view returns(uint256) {
+        return _totalSupply;
+    }
+
+    function balanceOf(address account) public view returns(uint256) {
+        return _balances[account];
+    }
+
+    function transfer(address recipient, uint256 amount) public returns(bool) {
+        require(recipient != address(0), "ERC20: transfer to the zero address");
+        require(_balances[msg.sender] >= amount, "ERC20: transfer amount exceeds balance");
+
+        _balances[msg.sender] -= amount;
+        _balances[recipient] += amount;
+
+        emit Transfer(msg.sender, recipient, amount);
+        return true;
+    }
+
+    function approve(address spender, uint256 amount) public returns(bool) {
+        require(spender != address(0), "ERC20: approve to the zero address");
+
+        _allowances[msg.sender][spender] = amount;
+        
+        emit Approval(msg.sender, spender, amount);
+        return true;
+    }
+
+    function allowance(address owner, address spender) public view returns(uint256) {
+        return _allowances[owner][spender];
+    }
+
+    function transferFrom(address sender, address recipient, uint256 amount) public returns(bool) {
+        require(sender != address(0), "ERC20: transfer from the zero address");
+        require(recipient != address(0), "ERC20: transfer to the zero address");
+        require(_balances[sender] >= amount, "ERC20: transfer amount exceeds balance");
+        require(_allowances[sender][msg.sender] >= amount, "ERC20: transfer amount exceeds allowance");
+
+        _balances[sender] -= amount;
+        _balances[recipient] += amount;
+        _allowances[sender][msg.sender] -= amount;
+
+        emit Transfer(sender, recipient, amount);
+        return true;
+    }
+
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+}
+```
+
+#### Generated Test: MyTokenApprove.t.sol
+```solidity
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
+
+import {MyToken} from "../src/MyToken.sol";
+import "forge-std/Test.sol";
+
+contract MyTokenTest is Test {
+    MyToken myToken;
+    address spender;
+
+    function setUp() public {
+        myToken = new MyToken("My Token", "MTK", 1000000);
+        spender = address(0x123);
+    }
+
+    function test_approve() public {
+        uint256 amount = 500;
+        bool success = myToken.approve(spender, amount);
+        assert(success);
+
+        uint256 allowance = myToken.allowance(address(this), spender);
+        assertEq(allowance, amount, "Allowance does not match approved amount");
+    }
+}
+```
+
+In both cases, the Olympix Test Generator produces compact and efficient test contracts, which can help you ensure the reliability and security of your Solidity contracts.
