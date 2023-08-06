@@ -1,0 +1,10 @@
+openpibo_models/__init__.py,sha256=Oj_HRHt-YYm-CtObWSe-Vpe3iQcMo9qGpwpWUPm8-8I,151
+openpibo_models/models/KDL.ttf,sha256=WlHerlI3Q12aC8DMbMMGGakUspgB-JVpjP2srcrQbpQ,723640
+openpibo_models/models/dialog.csv,sha256=xKWtbkpOAmTaonsYqVGkOefr3yW3V8QQVUBFNyE7rxU,341687
+openpibo_models/models/dialog_en.csv,sha256=8LohQ3kfIYK9iHVXYPSIllKxx35R8TxLS_vx44N_vi0,322654
+openpibo_models/models/motion_db.json,sha256=ghkZxZNz4qYGextM3DAan5Qn1zWTCwy58XRobGbYhA4,74794
+openpibo_models/models/sample_db.json,sha256=1-VHmjGWAhWj-v4SvjzfZTh4gQ-zuFXm-rg8pXtTLWE,199
+openpibo_models-0.4.7.dist-info/METADATA,sha256=udKs4j-7k3Uhe0c2e34NgEvRRVZFYDmAoamfB4fetqQ,754
+openpibo_models-0.4.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+openpibo_models-0.4.7.dist-info/top_level.txt,sha256=jkQdmigTCSVoDX2rfy0pL2Z0IGkXuSb-E602q6Zbvus,16
+openpibo_models-0.4.7.dist-info/RECORD,,
