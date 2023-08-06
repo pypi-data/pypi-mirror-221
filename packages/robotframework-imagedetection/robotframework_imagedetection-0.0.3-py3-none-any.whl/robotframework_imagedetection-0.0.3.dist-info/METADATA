@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: robotframework-imagedetection
+Version: 0.0.3
+Summary: Image detection for Robot-Framework
+Home-page: https://github.com/Alpha-Centauri-00/robotframework-imagedetection
+Author: M.Kherki(Alpha-Centauri-00)
+Author-email: alpha_Centauri@posteo.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Framework :: Robot Framework
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (==1.4.0)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: cachetools (==5.3.1)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: flatbuffers (==23.5.26)
+Requires-Dist: gast (==0.4.0)
+Requires-Dist: google-auth (==2.22.0)
+Requires-Dist: google-auth-oauthlib (==1.0.0)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grpcio (==1.56.2)
+Requires-Dist: h5py (==3.9.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: keras (==2.13.1)
+Requires-Dist: libclang (==16.0.6)
+Requires-Dist: Markdown (==3.4.3)
+Requires-Dist: MarkupSafe (==2.1.3)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: opencv-python (==4.8.0.74)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: Pillow (==10.0.0)
+Requires-Dist: protobuf (==4.23.4)
+Requires-Dist: pyasn1 (==0.5.0)
+Requires-Dist: pyasn1-modules (==0.3.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: scipy (==1.11.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tensorboard (==2.13.0)
+Requires-Dist: tensorboard-data-server (==0.7.1)
+Requires-Dist: tensorflow (==2.13.0)
+Requires-Dist: tensorflow-estimator (==2.13.0)
+Requires-Dist: tensorflow-intel (==2.13.0)
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.31.0)
+Requires-Dist: termcolor (==2.3.0)
+Requires-Dist: typing-extensions (==4.5.0)
+Requires-Dist: urllib3 (==1.26.16)
+Requires-Dist: Werkzeug (==2.3.6)
+Requires-Dist: wrapt (==1.15.0)
+
+
+Supercharge your Robot Framework automation with our advanced image detection package. Seamlessly integrate machine learning capabilities to train datasets and efficiently detect images in your tests.
+
+Key Features:
+- Utilize the power of machine learning for image detection tasks
+- Train custom datasets to improve accuracy and recognition
+- Simplify Robot Framework test automation with enhanced image recognition
+
+Take your Robot Framework tests to the next level with our image detection package.
+
+# robotframework-objectdetection
+<br/>
+
+[My Awesome Wiki](../../wiki)
+
+[TODO...]
