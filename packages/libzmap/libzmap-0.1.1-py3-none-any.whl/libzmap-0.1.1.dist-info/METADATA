@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: libzmap
+Version: 0.1.1
+Summary: libzmap
+Home-page: UNKNOWN
+Author: Mo Kareem
+Author-email: mokareem39@gmail.com
+License: UNKNOWN
+Keywords: live IP,find IP,Check live IP,python tutorial zmap,Mo Kareem
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+ZMap is a free and open-source security scanner that was developed as a faster alternative to nmap. ZMap was designed for information security.
+
+
