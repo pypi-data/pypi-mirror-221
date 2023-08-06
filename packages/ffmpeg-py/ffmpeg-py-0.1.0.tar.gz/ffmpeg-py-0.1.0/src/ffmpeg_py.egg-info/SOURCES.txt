@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/_version.py
+src/FFmpeg/__init__.py
+src/FFmpeg/ffmpeg.py
+src/FFmpeg/ffmpegCommandBuilder.py
+src/ffmpeg_py.egg-info/PKG-INFO
+src/ffmpeg_py.egg-info/SOURCES.txt
+src/ffmpeg_py.egg-info/dependency_links.txt
+src/ffmpeg_py.egg-info/top_level.txt
