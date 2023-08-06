@@ -1,0 +1,12 @@
+chopro_epub/__init__.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+chopro_epub/chopro-epub.css,sha256=zX2QkQnAbZ354IaEawIf0XlbtOaJsKZJmKMaHkofX8o,654
+chopro_epub/parser.py,sha256=zvxVsznx5vndavf2ENoe8pKr_4Eqi231-UecNDtb2GQ,7382
+chopro_epub/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chopro_epub/cli/epub.py,sha256=XU4NTphBhftXt8i9A66Ybndk5glFT0jnKV5ewJkobHE,4987
+chopro_epub/cli/html.py,sha256=vU_i0EDmfBJXHqqyS_AUqEzYyLrEYVa7WRSFLAHht0c,3004
+chopro_epub-1.1.1.dist-info/LICENSE.md,sha256=55_wRKXIOomgVaW0tG82zoHaD4DlU_eD-6TumpCrU1w,1065
+chopro_epub-1.1.1.dist-info/METADATA,sha256=C8B1fgMKvpsoPf_QyL0undH7ORomfwz70FItiiTHmPc,3008
+chopro_epub-1.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+chopro_epub-1.1.1.dist-info/entry_points.txt,sha256=UdRcQkOwdSQtYcmcQtqV0_xxbf-xHD8qq08sUtfZCAQ,98
+chopro_epub-1.1.1.dist-info/top_level.txt,sha256=B4ky-mth7ivQmSJs41iePi96xi2bGyb10tLDnO59zLs,12
+chopro_epub-1.1.1.dist-info/RECORD,,
