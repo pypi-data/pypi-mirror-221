@@ -1,0 +1,12 @@
+
+[:python_version < "3.10"]
+importlib-metadata>=4.4
+
+[docs]
+mkdocs>=1.0
+mkdocs-nature>=0.4
+mdx_gh_links>=0.2
+
+[testing]
+coverage
+pyyaml
