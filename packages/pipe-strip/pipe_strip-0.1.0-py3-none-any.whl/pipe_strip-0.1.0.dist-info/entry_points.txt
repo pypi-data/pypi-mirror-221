@@ -1,0 +1,2 @@
+[console_scripts]
+pipe-strip = pipe_strip.pipe_strip:main
