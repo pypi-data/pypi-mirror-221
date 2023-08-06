@@ -1,0 +1,12 @@
+README.md
+setup.py
+mlforce/__init__.py
+mlforce/datasets.py
+mlforce/digitrecognizer.py
+mlforce/mlperceptron.py
+mlforce/mlsolutions.py
+mlforce.egg-info/PKG-INFO
+mlforce.egg-info/SOURCES.txt
+mlforce.egg-info/dependency_links.txt
+mlforce.egg-info/requires.txt
+mlforce.egg-info/top_level.txt
