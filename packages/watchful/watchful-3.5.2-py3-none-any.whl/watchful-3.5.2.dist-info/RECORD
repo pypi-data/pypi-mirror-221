@@ -1,0 +1,12 @@
+watchful/__about__.py,sha256=d6XfsxFCRdZMWnKQLyzV9_83RGjGManyy9wOue-oumM,68
+watchful/__init__.py,sha256=Ktzy9DXPK2ePZGOJ0pXsPdEHFnoAk8D9IUDXppyWNgI,2083
+watchful/attributes.py,sha256=InGepu_tuLsVPmh0fhwHAQZ04tC54re4D7c6QQ3g85c,40216
+watchful/client.py,sha256=le9tWX7F4uz_wZ8Z8rrZnAfM1IF4p67t9Jr8MX3jSEk,48875
+watchful/client2.py,sha256=eeuNkQLWket_Nfn_Z2mj2uyFb1QwHZwym4JEgK0dQEk,17219
+watchful/enrich.py,sha256=MW11CWbaSrvT-KCcuBA4H1NxiCgz7XyX09W3gTGAjYA,16002
+watchful/enricher.py,sha256=M4jWXAD8QpEmcdqbtZVsOthMRUnZ_BGkAYorIdbf6EQ,6666
+watchful/types.py,sha256=rCfu9GNT5XK_hK0nx26ZLJ2RNgLY1A_BuI7GMYEnSoU,280
+watchful-3.5.2.dist-info/METADATA,sha256=f75S3axNj2n31h5AJldF2qdwGC-mjxLSMW0uo_xEzXA,6852
+watchful-3.5.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+watchful-3.5.2.dist-info/licenses/LICENSE,sha256=eMPYShgTs-SP15VQzJ_B05JtqGcbc8pLy7WY0Ukiehw,1075
+watchful-3.5.2.dist-info/RECORD,,
