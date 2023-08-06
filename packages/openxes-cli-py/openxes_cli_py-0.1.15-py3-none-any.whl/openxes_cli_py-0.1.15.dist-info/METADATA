@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: openxes-cli-py
+Version: 0.1.15
+Summary: 
+Author: Ihar Suvorau
+Author-email: ihar.suvorau@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# OpenXES CLI
+
+![OpenXES-CLI](https://github.com/AutomatedProcessImprovement/openxes-cli-py/actions/workflows/build.yaml/badge.svg)
+![version](https://img.shields.io/github/v/tag/AutomatedProcessImprovement/openxes-cli-py)
+
+These are Python bindings for the [OpenXES-CLI](https://github.com/AutomatedProcessImprovement/openxes-cli) application. It allows you to convert XES files to CSV files and vice
+versa from your Python code.
+
+## Installation
+
+The package requires **Python 3.9+**. You can install it from PyPI: 
+
+
+```shell
+pip install openxes-cli-py
+```
+
+## Releases
+
+You can browse compiled releases which include the underlying jar file in the [Releases](https://github.com/AutomatedProcessImprovement/openxes-cli-py/releases)
+section.
+

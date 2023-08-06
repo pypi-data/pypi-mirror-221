@@ -1,0 +1,6 @@
+lib/openxes-cli.jar,sha256=C3v3dV7VSd5IJXvKXrro5Ux2non3R6dOv3Tfl4UHntc,3719770
+openxes_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openxes_cli/lib.py,sha256=E4zZ0D6LTm10hKjQXMdArEpPpJmEBKGDGkpSSf7B7vw,2482
+openxes_cli_py-0.1.15.dist-info/METADATA,sha256=IpY3_FRyIGNzMAdGzlg-zRRgUXKbYLhtge8fLShlOFI,1141
+openxes_cli_py-0.1.15.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+openxes_cli_py-0.1.15.dist-info/RECORD,,
