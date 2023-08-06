@@ -1,0 +1,4 @@
+[console_scripts]
+ccwm=webhook_manager.cli:app
+circleci-webhook-manager=webhook_manager.cli:app
+
