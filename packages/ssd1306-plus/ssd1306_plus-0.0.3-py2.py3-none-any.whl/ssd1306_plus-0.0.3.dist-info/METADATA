@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ssd1306_plus
+Version: 0.0.3
+Summary: Augments the SSD1306_I2C MicroPython library with high-level functions
+Author-email: Code Cadets <codecadets@cgs.act.edu.au>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Description-Content-Type: text/markdown
+
+# SSD1306_PLUS
+
+For MicroPython only.
+
+Added `draw_sprite` function to ssd1306_I2C library 
+
+```python
+from machine import I2C
+i2c = I2C(0,sda=Pin(0), scl=Pin(1), freq=400000)
+oled = SSD1306_PLUS(128, 64, i2c)
+
+star = '''
+.#.
+#.#
+.#.
+'''
+
+oled.draw_sprite(star, 0, 0, '#', '.')
+# Sprite string, (x, y) of top left corner, white-colour character, black-colour character
+# Any non-newline character in the sprite that is not either of the colour characters will be ignored (i.e. 'transparent').
+```
