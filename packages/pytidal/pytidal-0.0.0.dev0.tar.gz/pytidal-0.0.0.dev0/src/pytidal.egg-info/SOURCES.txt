@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pytidal.egg-info/PKG-INFO
+src/pytidal.egg-info/SOURCES.txt
+src/pytidal.egg-info/dependency_links.txt
+src/pytidal.egg-info/top_level.txt
+src/tidal/__init__.py
