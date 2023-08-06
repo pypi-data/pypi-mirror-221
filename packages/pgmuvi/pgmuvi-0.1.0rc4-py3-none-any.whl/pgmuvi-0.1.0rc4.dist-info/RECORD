@@ -1,0 +1,10 @@
+pgmuvi/__init__.py,sha256=Wr8NDSNecjA82a3EKvFT6Q8R38ktfxp7JMlakXYql6M,447
+pgmuvi/gps.py,sha256=4K3Mx886Djl3MwcjT_F6iv-0ht2YiWJf4pvSlkInKqQ,22676
+pgmuvi/lightcurve.py,sha256=WciPqv7oC9KfxNyvhw94j5-hkpOv6TA6wuAY6JJ83CQ,93120
+pgmuvi/test_script.py,sha256=asoiOa26H-Gbs_o1H7xvKPoaud9dupBGqN8OyOohbN4,16941
+pgmuvi/trainers.py,sha256=Gs5io9sdMxZLs4WVmdSz5I-E7aZG51LeXiS72opFrL4,8145
+pgmuvi-0.1.0rc4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pgmuvi-0.1.0rc4.dist-info/METADATA,sha256=IPVsiDK84wAiD_ZdmfRz69SH0Rf-Atc3tyRSEMiC10Q,1625
+pgmuvi-0.1.0rc4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pgmuvi-0.1.0rc4.dist-info/top_level.txt,sha256=QLXJtadbVY6Jadr_6XFW6WLtbOyQ5cqM4HJwmLoFePk,7
+pgmuvi-0.1.0rc4.dist-info/RECORD,,
