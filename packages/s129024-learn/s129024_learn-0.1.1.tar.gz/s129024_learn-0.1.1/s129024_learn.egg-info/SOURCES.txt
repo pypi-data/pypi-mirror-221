@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+s1290224_learn/__init__.py
+s1290224_learn/statistics/__init__.py
+s1290224_learn/statistics/frequenciesOfItems.py
+s1290224_learn/visualization/__init__.py
+s1290224_learn/visualization/heatMapItemsFrequencies.py
+s129024_learn.egg-info/PKG-INFO
+s129024_learn.egg-info/SOURCES.txt
+s129024_learn.egg-info/dependency_links.txt
+s129024_learn.egg-info/requires.txt
+s129024_learn.egg-info/top_level.txt

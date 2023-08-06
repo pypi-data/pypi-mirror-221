@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: s129024-learn
+Version: 0.1.1
+Summary: This software is being developed at the University of Aizu, Aizu-Wakamatsu, Fukushima, Japan
+Home-page: https://github.com/s1290224/s1290224_learn.git
+Author: Yuga Hanyu
+Author-email: s1290224@u-aizu.ac.jp
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: gpu
+Provides-Extra: spark
+License-File: LICENSE.txt
+
+# s1290224_learn
+Repository for Data Science Class
+
+
