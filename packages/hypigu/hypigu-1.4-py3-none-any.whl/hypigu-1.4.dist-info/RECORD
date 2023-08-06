@@ -1,0 +1,14 @@
+hypigu/__init__.py,sha256=uqLbtS4sTAbZpcNp6A63VU3tSDhVKKw9Fc3iMBRnl68,569
+hypigu/src/Braid.py,sha256=mG20o5HSo7PNPvPqSLjTnHtSftwug2mkyY0Xd2UE_CM,4776
+hypigu/src/Constructors.py,sha256=WvazohTOGZZXs2e7ZTC9IQf4OFXXrwOO2V2-R1wb4zk,10183
+hypigu/src/Database.py,sha256=TBcnsaV3vEANYxbkbEbpPAcR8PFUu34KhR9em5hqvwE,3790
+hypigu/src/GenFunctions.py,sha256=Zok7kQcotOklYr4LAu6bqWSYtNN5k6ypNg-zh88j7R8,17002
+hypigu/src/Globals.py,sha256=WPqRsEOlfBzwAKS80iJ9rDNsyb-gKv0lvNdce1RtuQA,318
+hypigu/src/LatticeFlats.py,sha256=VYl5qGYaY2rWWW5S5O6ZYEKuaNxc3Y3Gb7VO_LA4NgQ,21402
+hypigu/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypigu/src/init_data.py,sha256=I2LILpO1i-XMJVpNnz16-b2QszM9qZi8BfXqFwrkX9I,48931
+hypigu-1.4.dist-info/LICENSE,sha256=HbRV7WDCK-qjQHYzXi1A7jhkAamYSLDG7McMPjV1cdI,1097
+hypigu-1.4.dist-info/METADATA,sha256=_K7WcrX-q4ZM6oMzvzsyf3UZM07MbO4NXoZGW7euCK0,2634
+hypigu-1.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+hypigu-1.4.dist-info/top_level.txt,sha256=V2Sblf2nXcD4qbG77C6zCAjcAMgbzypafOnOdNUmFBM,7
+hypigu-1.4.dist-info/RECORD,,
