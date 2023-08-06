@@ -1,0 +1,12 @@
+README.md
+setup.py
+SimpleRegressor/__init__.py
+SimpleRegressor/functions.py
+SimpleRegressor.egg-info/PKG-INFO
+SimpleRegressor.egg-info/SOURCES.txt
+SimpleRegressor.egg-info/dependency_links.txt
+SimpleRegressor.egg-info/top_level.txt
+SimpleRegressor/encoders/__init__.py
+SimpleRegressor/encoders/encoder_dict.pkl
+SimpleRegressor/pre_trained_models/__init__.py
+SimpleRegressor/pre_trained_models/regressor.pkl
