@@ -1,0 +1,8 @@
+gscrew/__init__.py,sha256=2plzdEEb24FLjE2I2XyBBcJEPYWHccNL4SgtLC_6erg,22
+gscrew/geometric_algebra.py,sha256=2hqQ_FE1BHA-Hcjwq6se_iKCvV5XVcZxcCeWAOgKilM,20760
+gscrew/screw.py,sha256=EPck5YvUAuP4fJSYz_4bQ-k9wEKORWxNSOQyZZ2BoG0,8114
+gscrew-1.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gscrew-1.0.3.dist-info/METADATA,sha256=bVbQWV3CGAQ-dS-3S3jUT1T3n8ognbqZpWYVEpLyxT0,2836
+gscrew-1.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gscrew-1.0.3.dist-info/top_level.txt,sha256=0q4Q-NRtT_AUtSoh01Kb8IH41T_6VSY6ky_fRsG7BcA,7
+gscrew-1.0.3.dist-info/RECORD,,
