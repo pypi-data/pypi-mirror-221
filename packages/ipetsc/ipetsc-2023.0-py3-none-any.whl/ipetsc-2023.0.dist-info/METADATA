@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ipetsc
+Version: 2023.0
+Summary: An Experimental Installation Management Solution for PETSc.
+Home-page: https://github.com/iydon/iPETSc
+License: BSD-2-Clause
+Keywords: PETSc
+Author: Iydon Liang
+Author-email: liangiydon@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: iydon[full] (>=2023.4,<2024.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Project-URL: Bug Tracker, https://github.com/iydon/iPETSc/issues
+Project-URL: Repository, https://github.com/iydon/iPETSc
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://github.com/iydon/iPETSc">
+    🟢🟩🟩🟩🟩<br />
+    🟥🟥🟥🟥🟥<br />
+    🟪🟪🟪🟪🟪<br />
+    🟧🟧🟧🟧🟧<br />
+    🟦🟦🟦🟦🟦<br />
+  </a>
+
+  <h3 align="center">iPETSc</h3>
+
+  <p align="center">
+    An Experimental Installation Management Solution for PETSc.
+  </p>
+</div>
+

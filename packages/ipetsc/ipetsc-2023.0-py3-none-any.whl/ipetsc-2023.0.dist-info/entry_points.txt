@@ -1,0 +1,3 @@
+[console_scripts]
+ipetsc=ipetsc.__main__:main
+
