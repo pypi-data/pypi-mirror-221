@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bootstrapper/__init__.py
+bootstrapper/bootstrapper.py
+bootstrapper/data/.gitignore
+bootstrapper/data/Makefile
+bootstrapper/data/README.md
+python_docs_bootstrapper.egg-info/PKG-INFO
+python_docs_bootstrapper.egg-info/SOURCES.txt
+python_docs_bootstrapper.egg-info/dependency_links.txt
+python_docs_bootstrapper.egg-info/entry_points.txt
+python_docs_bootstrapper.egg-info/requires.txt
+python_docs_bootstrapper.egg-info/top_level.txt
