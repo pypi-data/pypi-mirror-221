@@ -1,0 +1,677 @@
+date                  facility       log content
+------------------------------------------------------------------------
+2022/01/01 06:13:53   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:12:56   WIRELESS      wl1 (2.4GHz): Detect interference(51per) [with Non-802.11] on channel 4.
+2022/01/01 06:12:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:11:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:10:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:09:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:09:30   WIRELESS      wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 4.
+2022/01/01 06:08:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:07:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:06:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:05:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:05:25   WIRELESS      wl1 (2.4GHz): Detect interference(52per) [with Non-802.11] on channel 4.
+2022/01/01 06:04:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:04:23   ADT           Accept regist Error!!
+2022/01/01 06:04:23   ADT           Subscribe callback(accept_regist)
+2022/01/01 06:04:22   ADT           publish: request_regist
+2022/01/01 06:04:21   ADT           Subscribing(unpaired)...
+2022/01/01 06:03:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:02:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 06:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 06:01:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 06:01:22   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Switch Channel 4 / 20 MHz
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 4 / 20 MHz
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(55per) on channel 10.
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(54per) on channel 9.
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 8.
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 7.
+2022/01/01 06:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(57per) on channel 1.
+2022/01/01 06:01:18   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/01/01 06:01:18   WIRELESS      wl0 (5GHz): Detect interference(75per) on channel 128.
+2022/01/01 06:01:18   WIRELESS      wl0 (5GHz): Detect interference(75per) on channel 124.
+2022/01/01 06:01:18   WIRELESS      wl0 (5GHz): Detect interference(75per) on channel 120.
+2022/01/01 06:01:18   WIRELESS      wl0 (5GHz): Detect interference(75per) on channel 116.
+2022/01/01 06:00:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 06:00:47   DHCPC         add resolve
+2022/01/01 06:00:47   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2022/01/01 06:00:47   DHCPC         Info : DHCPSNAME =
+2022/01/01 06:00:47   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2022/01/01 06:00:47   DHCPC         Info : DHCPCHADDR = C4:3C:EA:CC:07:E0
+2022/01/01 06:00:47   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2022/01/01 06:00:47   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2022/01/01 06:00:47   DHCPC         Info : DHCPSID = 192.168.17.1
+2022/01/01 06:00:47   DHCPC         Info : DNS[2] = 8.8.8.8
+2022/01/01 06:00:47   DHCPC         Info : DNS[1] = 192.168.16.1
+2022/01/01 06:00:47   DHCPC         Info : Default Gateway = 192.168.17.1
+2022/01/01 06:00:47   DHCPC         Info : Subnet Mask = 255.255.255.0
+2022/01/01 06:00:47   DHCPC         Info : IP Address = 192.168.17.101
+2022/01/01 06:00:47   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2022/01/01 06:00:47   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.101 to 192.168.17.1
+2022/01/01 05:59:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:59:49   WIRELESS      wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 13.
+2022/01/01 05:58:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:57:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:56:52   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:55:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:54:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:53:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:52:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:51:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:50:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:49:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:49:50   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 13.
+2022/01/01 05:48:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:47:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:46:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:45:55   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 13.
+2022/01/01 05:45:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:44:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:43:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:42:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:42:50   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 13.
+2022/01/01 05:41:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:40:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:39:51   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:39:01   WIRELESS      wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 13.
+2022/01/01 05:38:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:37:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:37:17   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 13.
+2022/01/01 05:36:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:35:55   WIRELESS      wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 13.
+2022/01/01 05:35:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:34:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:33:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:32:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:32:23   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 13.
+2022/01/01 05:31:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:30:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:29:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:29:17   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 13.
+2022/01/01 05:28:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:27:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:27:49   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 13.
+2022/01/01 05:26:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:26:09   WIRELESS      wl1 (2.4GHz): Detect interference(53per) [with Non-802.11] on channel 13.
+2022/01/01 05:25:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:24:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:23:50   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:23:49   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 05:22:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:22:11   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 05:21:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:20:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:19:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:19:10   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 13.
+2022/01/01 05:18:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:18:49   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 13.
+2022/01/01 05:17:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:16:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:15:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:15:49   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 13.
+2022/01/01 05:14:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:13:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:12:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:11:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:11:19   WIRELESS      wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 13.
+2022/01/01 05:10:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:09:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:08:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:08:17   WIRELESS      wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2022/01/01 05:07:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:06:49   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:05:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:05:15   WIRELESS      wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 13.
+2022/01/01 05:04:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:03:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:02:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 05:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 05:01:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 05:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(65per) on channel 10.
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(52per) on channel 9.
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(56per) on channel 8.
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(53per) [with Non-802.11] on channel 3.
+2022/01/01 05:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(62per) on channel 1.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(66per) on channel 144.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(66per) on channel 140.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(66per) on channel 136.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(66per) on channel 132.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 128.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 124.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 120.
+2022/01/01 05:01:14   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 116.
+2022/01/01 05:00:50   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 05:00:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:59:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:59:48   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 04:58:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:57:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:56:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:56:40   WIRELESS      wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2022/01/01 04:55:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:54:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:53:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:52:53   WIRELESS      wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 13.
+2022/01/01 04:52:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:51:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:50:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:49:48   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:48:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:48:15   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 13.
+2022/01/01 04:47:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:46:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:45:50   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 13.
+2022/01/01 04:45:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:44:58   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 13.
+2022/01/01 04:44:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:43:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:42:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:41:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:41:46   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 13.
+2022/01/01 04:40:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:39:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:38:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:38:45   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 13.
+2022/01/01 04:37:49   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 13.
+2022/01/01 04:37:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:36:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:35:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:35:30   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 04:34:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:33:47   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:32:50   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 13.
+2022/01/01 04:32:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:32:18   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 04:31:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:30:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:29:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:29:07   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 04:28:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:27:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:27:19   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 13.
+2022/01/01 04:26:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:25:56   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 13.
+2022/01/01 04:25:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:24:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:23:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:22:49   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 04:22:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:21:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:20:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:19:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:19:16   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 13.
+2022/01/01 04:18:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:17:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:16:46   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:15:50   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 13.
+2022/01/01 04:15:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:14:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:13:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:12:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:12:02   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 04:11:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:10:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:09:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:08:50   WIRELESS      wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 13.
+2022/01/01 04:08:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:07:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:06:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:05:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:04:49   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 13.
+2022/01/01 04:04:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:03:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:02:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 04:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 04:01:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 04:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 04:01:25   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2022/01/01 04:01:25   WIRELESS      wl1 (2.4GHz): Detect interference(65per) on channel 10.
+2022/01/01 04:01:25   WIRELESS      wl1 (2.4GHz): Detect interference(52per) on channel 9.
+2022/01/01 04:01:25   WIRELESS      wl1 (2.4GHz): Detect interference(56per) on channel 8.
+2022/01/01 04:01:25   WIRELESS      wl1 (2.4GHz): Detect interference(53per) [with Non-802.11] on channel 3.
+2022/01/01 04:01:24   WIRELESS      wl1 (2.4GHz): Detect interference(62per) on channel 1.
+2022/01/01 04:01:19   WIRELESS      wl0 (5GHz): Start sending beacon
+2022/01/01 04:01:19   WIRELESS      wl0 (5GHz): Switch Channel 64 / 80 MHz
+2022/01/01 04:01:18   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/01/01 04:01:18   WIRELESS      wl0 (5GHz): Detect interference(54per) on channel 128.
+2022/01/01 04:01:18   WIRELESS      wl0 (5GHz): Detect interference(54per) on channel 124.
+2022/01/01 04:01:18   WIRELESS      wl0 (5GHz): Detect interference(54per) on channel 120.
+2022/01/01 04:01:18   WIRELESS      wl0 (5GHz): Detect interference(54per) on channel 116.
+2022/01/01 04:00:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:59:45   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:58:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:57:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:56:49   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 03:56:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:55:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:54:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:53:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:52:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:51:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:51:24   WIRELESS      wl1 (2.4GHz): Detect interference(52per) [with Non-802.11] on channel 13.
+2022/01/01 03:50:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:49:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:48:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:47:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:46:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:45:58   WIRELESS      wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2022/01/01 03:45:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:44:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:43:44   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:42:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:41:50   WIRELESS      wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 13.
+2022/01/01 03:41:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:40:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:39:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:38:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:37:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:36:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:35:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:34:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:33:50   WIRELESS      wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 13.
+2022/01/01 03:33:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:32:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:31:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:30:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:29:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:28:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:27:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:27:12   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 03:26:43   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:25:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:24:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:23:46   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 13.
+2022/01/01 03:23:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:22:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:21:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:20:50   WIRELESS      wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2022/01/01 03:20:44   WIRELESS      wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 13.
+2022/01/01 03:20:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:19:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:18:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:17:42   WIRELESS      wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 13.
+2022/01/01 03:17:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:16:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:15:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:14:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:13:48   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 13.
+2022/01/01 03:13:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:12:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:11:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:10:42   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 13.
+2022/01/01 03:10:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:10:17   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 13.
+2022/01/01 03:09:42   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:08:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:07:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:07:41   WIRELESS      wl1 (2.4GHz): Detect interference(51per) [with Non-802.11] on channel 13.
+2022/01/01 03:06:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:06:39   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 03:05:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:04:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:04:36   WIRELESS      wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 13.
+2022/01/01 03:03:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:02:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 03:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 03:01:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 03:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 03:01:24   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2022/01/01 03:01:24   WIRELESS      wl1 (2.4GHz): Switch Channel 13 / 20 MHz
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(51per) on channel 13.
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 12.
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(88per) on channel 11.
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 9.
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 8.
+2022/01/01 03:01:23   WIRELESS      wl1 (2.4GHz): Detect interference(59per) on channel 1.
+2022/01/01 03:01:19   WIRELESS      wl3 (5GHz): Switch Channel 52 / 80 MHz
+2022/01/01 03:01:18   WIRELESS      wl0 (5GHz): Start sending beacon
+2022/01/01 03:01:17   WIRELESS      wl0 (5GHz): Switch Channel 40 / 80 MHz
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 40 / 80 MHz
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(50per) on channel 144.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(50per) on channel 140.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(50per) on channel 136.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(50per) on channel 132.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(73per) on channel 128.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(73per) on channel 124.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(73per) on channel 120.
+2022/01/01 03:01:16   WIRELESS      wl0 (5GHz): Detect interference(73per) on channel 116.
+2022/01/01 03:00:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:59:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:58:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:57:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:56:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:55:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:54:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:53:41   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:52:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:51:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:50:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:49:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:48:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:48:02   WIRELESS      wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2022/01/01 02:47:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:46:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:45:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:44:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:43:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:42:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:41:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:40:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:39:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:38:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:37:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:36:40   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:35:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:34:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:33:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:32:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:31:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:30:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:29:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:28:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:27:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:26:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:25:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:24:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:23:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:22:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:21:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:20:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:19:39   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:18:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:17:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:16:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:15:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:14:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:13:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:12:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:11:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:10:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:09:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:08:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:07:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:06:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:05:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:04:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:03:38   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:02:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 02:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 02:01:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 02:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 02:01:23   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2022/01/01 02:01:23   WIRELESS      wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 12.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(73per) on channel 10.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 9.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 8.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 7.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 4.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(77per) on channel 3.
+2022/01/01 02:01:22   WIRELESS      wl1 (2.4GHz): Detect interference(74per) on channel 1.
+2022/01/01 02:01:10   WIRELESS      wl3 (5GHz): Switch Channel 52 / 80 MHz
+2022/01/01 02:01:08   WIRELESS      wl0 (5GHz): Start sending beacon
+2022/01/01 02:01:08   WIRELESS      wl0 (5GHz): Switch Channel 36 / 80 MHz
+2022/01/01 02:01:07   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 36 / 80 MHz
+2022/01/01 02:01:07   WIRELESS      wl0 (5GHz): Detect interference(77per) on channel 128.
+2022/01/01 02:01:07   WIRELESS      wl0 (5GHz): Detect interference(77per) on channel 124.
+2022/01/01 02:01:07   WIRELESS      wl0 (5GHz): Detect interference(77per) on channel 120.
+2022/01/01 02:01:07   WIRELESS      wl0 (5GHz): Detect interference(77per) on channel 116.
+2022/01/01 02:00:42   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 11.
+2022/01/01 02:00:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:59:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:58:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:57:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:57:26   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 11.
+2022/01/01 01:56:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:55:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:54:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:54:09   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 11.
+2022/01/01 01:53:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:52:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:51:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:50:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:49:49   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 11.
+2022/01/01 01:49:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:48:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:47:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:46:37   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:45:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:45:11   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 11.
+2022/01/01 01:44:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:43:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:42:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:41:53   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 11.
+2022/01/01 01:41:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:40:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:40:36   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 11.
+2022/01/01 01:39:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:38:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:38:21   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 11.
+2022/01/01 01:37:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:36:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:36:06   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 11.
+2022/01/01 01:35:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:35:04   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 11.
+2022/01/01 01:34:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:33:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:32:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:31:47   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 11.
+2022/01/01 01:31:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:30:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:29:36   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:28:50   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 11.
+2022/01/01 01:28:45   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 11.
+2022/01/01 01:28:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:27:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:26:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:25:50   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 11.
+2022/01/01 01:25:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:24:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:23:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:22:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:21:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:20:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:19:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:18:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:17:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:16:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:15:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:14:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:13:35   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:12:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:11:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:10:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:09:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:08:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:07:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:06:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:05:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:04:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:03:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:02:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:02:31   WIRELESS      wl0.1 (5GHz): Encryption Key Renewing
+2022/01/01 01:02:30   WIRELESS      wl0.0 (5GHz): Encryption Key Renewing
+2022/01/01 01:01:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 01:01:28   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2022/01/01 01:01:22   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2022/01/01 01:01:22   WIRELESS      wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 13.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 12.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(69per) on channel 11.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 10.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 9.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 8.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 3.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(56per) on channel 2.
+2022/01/01 01:01:21   WIRELESS      wl1 (2.4GHz): Detect interference(76per) on channel 1.
+2022/01/01 01:01:10   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/01/01 01:01:10   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 112.
+2022/01/01 01:01:10   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 108.
+2022/01/01 01:01:10   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 104.
+2022/01/01 01:01:10   WIRELESS      wl0 (5GHz): Detect interference(70per) on channel 100.
+2022/01/01 01:00:51   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 01:00:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:59:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:58:37   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 13.
+2022/01/01 00:58:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:57:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:56:34   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:56:07   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 13.
+2022/01/01 00:55:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:55:31   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 00:54:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:53:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:52:45   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 00:52:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:52:30   WIRELESS      wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 13.
+2022/01/01 00:51:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:50:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:49:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:49:30   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 00:48:59   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2022/01/01 00:48:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:47:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:46:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:46:04   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 13.
+2022/01/01 00:45:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:44:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:43:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:42:56   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 00:42:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:41:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:40:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:39:49   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 00:39:33   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:38:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:37:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:36:48   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2022/01/01 00:36:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:35:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:34:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:33:42   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 13.
+2022/01/01 00:33:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:32:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:31:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:30:37   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2022/01/01 00:30:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:29:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:28:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:27:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:27:24   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 13.
+2022/01/01 00:26:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:25:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:24:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:23:32   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:23:05   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 13.
+2022/01/01 00:22:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:21:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:20:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:19:59   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 13.
+2022/01/01 00:19:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:18:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:17:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:16:58   WIRELESS      wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 13.
+2022/01/01 00:16:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:15:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:14:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:13:56   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 13.
+2022/01/01 00:13:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:12:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:11:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:10:50   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 13.
+2022/01/01 00:10:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:09:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:08:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:07:49   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2022/01/01 00:07:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:06:31   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:05:30   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:04:48   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 13.
+2022/01/01 00:04:30   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:04:18   ADT           Accept regist Error!!
+2022/01/01 00:04:18   ADT           Subscribe callback(accept_regist)
+2022/01/01 00:04:17   ADT           publish: request_regist
+2022/01/01 00:04:16   ADT           Subscribing(unpaired)...
+2022/01/01 00:04:10   ADT           Start device registration process.
+2022/01/01 00:04:10   ADT           Finished checking the network. hosType=2
+2022/01/01 00:04:10   ADT           Start checking the network. hosType=2
+2022/01/01 00:04:08   ADT           First connect Success.
+2022/01/01 00:04:08   ADT           Subscribing(unpaired)...
+2022/01/01 00:04:02   ADT           Error: topicSubAcceptRegist
+2022/01/01 00:04:02   ADT           Subscribing(unpaired)...
+2022/01/01 00:03:55   ADT           Finished checking the network. hosType=2
+2022/01/01 00:03:55   ADT           Start checking the network. hosType=2
+2022/01/01 00:03:55   ADT           Certificate acquisition process Success.
+2022/01/01 00:03:54   ADT           Start certificate acquisition process.
+2022/01/01 00:03:54   ADT           Finished checking the network. hosType=1
+2022/01/01 00:03:53   ADT           Start checking the network. hosType=1
+2022/01/01 00:03:53   ADT           No copied zip file from non-volatile area.
+2022/01/01 00:03:53   ADT           No copied zip file from non-volatile area.
+2022/01/01 00:03:50   ADT           Not a proxy connection.
+2022/01/01 00:03:50   ADT           Host: Production
+2022/01/01 00:03:50   ADT           saveConfTimeoutMs    : 10000
+2022/01/01 00:03:50   ADT           keepaliveIntervalSec : 120
+2022/01/01 00:03:50   ADT           === Start kikiNavi monitoring process.
+2022/01/01 00:03:30   NTP           NTPserver not response : 172.20.110.18
+2022/01/01 00:02:31   WIRELESS      wl0 (5GHz): Start sending beacon
+2022/01/01 00:02:30   WIRELESS      wl0 (5GHz): Start sending beacon
+2022/01/01 00:01:30   NTP           hostname=172.20.110.18  cycle_time=86400
+2022/01/01 00:01:30   NTP           start ntpclient
+2022/01/01 00:01:30   WIRELESS      wl3 (5GHz): Switch Channel 52 / 80 MHz
+2022/01/01 00:01:28   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2022/01/01 00:01:28   WIRELESS      wl1 (2.4GHz): Switch Channel 13 / 20 MHz
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 12.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 9.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 8.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 4.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 3.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 2.
+2022/01/01 00:01:19   WIRELESS      wl1 (2.4GHz): Detect interference(94per) on channel 1.
+2022/01/01 00:01:07   WIRELESS      wl0 (5GHz): Switch Channel 64 / 80 MHz
+2022/01/01 00:00:58   WIRELESS      wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/01/01 00:00:58   WIRELESS      wl0 (5GHz): Detect interference(53per) on channel 112.
+2022/01/01 00:00:58   WIRELESS      wl0 (5GHz): Detect interference(53per) on channel 108.
+2022/01/01 00:00:58   WIRELESS      wl0 (5GHz): Detect interference(53per) on channel 104.
+2022/01/01 00:00:58   WIRELESS      wl0 (5GHz): Detect interference(53per) on channel 100.
+2022/01/01 00:00:47   DHCPC         add resolve
+2022/01/01 00:00:47   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2022/01/01 00:00:47   DHCPC         Info : DHCPSNAME =
+2022/01/01 00:00:47   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2022/01/01 00:00:47   DHCPC         Info : DHCPCHADDR = C4:3C:EA:CC:07:E0
+2022/01/01 00:00:47   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2022/01/01 00:00:47   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2022/01/01 00:00:47   DHCPC         Info : DHCPSID = 192.168.17.1
+2022/01/01 00:00:47   DHCPC         Info : DNS[2] = 8.8.8.8
+2022/01/01 00:00:47   DHCPC         Info : DNS[1] = 192.168.16.1
+2022/01/01 00:00:47   DHCPC         Info : Default Gateway = 192.168.17.1
+2022/01/01 00:00:47   DHCPC         Info : Subnet Mask = 255.255.255.0
+2022/01/01 00:00:47   DHCPC         Info : IP Address = 192.168.17.101
+2022/01/01 00:00:47   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2022/01/01 00:00:47   DHCPC         broadcasting DHCP_REQUEST for 192.168.17.101
+2022/01/01 00:00:45   DHCPC         DHCP_OFFER received from  (192.168.17.1)
+2022/01/01 00:00:45   DHCPC         broadcasting second DHCP_DISCOVER
+2022/01/01 00:00:40   ADT           Startup Remote Management Service
+2022/01/01 00:00:40   ADT           Start USB watcher for Remote access config.
+2022/01/01 00:00:40   ADT           Startup Buffalo Admin Tools Daemon Ver.3.0.0
+2022/01/01 00:00:39   ADT           SNMP Daemon Start
+2022/01/01 00:00:17   DHCPC         Request: broadcasting DHCP_DISCOVER
+2022/01/01 00:00:08   WIRED         et0: link up(1000 Mbps Full duplex)
+2022/01/01 00:00:02   BOOT          Power supply: PoE(802.3at)
+2022/01/01 00:00:02   BOOT          WAPM-AX8R Ver.1.27 (R4.01/B2016.01-1.11)
