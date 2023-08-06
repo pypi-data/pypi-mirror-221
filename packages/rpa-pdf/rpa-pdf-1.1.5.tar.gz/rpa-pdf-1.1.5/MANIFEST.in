@@ -1,0 +1,11 @@
+# MANIFEST.in
+
+include fonts/*.ttf
+include exec/docto.exe
+include exec/emailconverter.jar
+include exec/EmailConverterConsole.exe
+include exec/sumatra.exe
+include exec/wkhtmltox
+recursive-include exec/wkhtmltox/bin/*
+recursive-include exec/wkhtmltox/include/*
+recursive-include exec/wkhtmltox/include/wkhtmltox/*
