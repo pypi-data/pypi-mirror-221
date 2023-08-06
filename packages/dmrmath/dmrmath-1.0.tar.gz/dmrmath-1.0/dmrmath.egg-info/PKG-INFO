@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dmrmath
+Version: 1.0
+Summary: A small math library
+Home-page: http://github.com/yourusername/mathlib
+Author: Daniel Rodrigues
+Author-email: danielrodrigues.ps3@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt

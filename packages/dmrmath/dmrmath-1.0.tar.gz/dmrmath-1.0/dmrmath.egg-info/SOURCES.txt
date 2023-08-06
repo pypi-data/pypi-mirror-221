@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+dmrmath/__init__.py
+dmrmath/operations_math.py
+dmrmath.egg-info/PKG-INFO
+dmrmath.egg-info/SOURCES.txt
+dmrmath.egg-info/dependency_links.txt
+dmrmath.egg-info/top_level.txt
