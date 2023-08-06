@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: kafkaproducerself
+Version: 0.0.5
+Summary: produce events to kafka
+Home-page: UNKNOWN
+Author: Abhishek Borana
+Author-email: tracer.domanik@fixedfor.com
+License: MIT
+Keywords: kafka
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+KafkaProducerSelf
+KafkaProducerSelf is a Python library that offers general functions to interact with Kafka producers and publish events using them. Additionally, it includes a health check feature to ensure the connection is live and working properly.
+
+
+Installation
+To install KafkaProducerSelf, simply use pip:
+
+
+Functionality:
+
+The library provides three main functions:
+
+1. health_check
+Accepts a URL as a parameter.
+Returns a tuple:
+True/False: Indicates whether the connection is active or not.
+String: Success or failure message.
+
+
+2. connect_to_kafka_producer
+Accepts a URL as a parameter.
+Returns a tuple:
+True/False: Indicates the status of the producer (whether connected or not).
+Obj/String: The producer object if connected successfully; otherwise, an error message.
+
+
+3. push_event_to_kafka
+Accepts eventData, topicName, and producer as parameters.
+Returns a tuple:
+True/False: Indicates if the message was successfully published or not.
+String: Success or failure message.
+
+Note:
+Make sure you have a running Kafka broker accessible at the specified URL before using this library. For any issues or questions, please refer to the documentation or contact the library maintainers.
+
+Change log
+==========
+
+
+0.0.1 (27/07/2023)
+------------------
+- First Release
+
