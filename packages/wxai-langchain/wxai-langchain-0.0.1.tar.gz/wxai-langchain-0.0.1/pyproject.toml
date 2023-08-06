@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel>=0.40.0", "setuptools_scm[toml]>=7.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wxai-langchain"
+version = "0.0.1"
+authors = [
+  {name="Cong Nguyen", email="cong.nguyen@au1.ibm.com"}
+]
+keywords = ["watsonx.ai", "wxai", "langchain"]
+description = "wxai-langchain enables the use of IBM watsonx.ai in LangChain projects. This is not supported by IBM."
+readme = "README.md"
+dependencies = [
+    "urllib3<2", # https://github.com/psf/requests/issues/6432
+    "requests>=2.31.0",
+    "pydantic<=1.10.10",
+    "langchain>=0.0.200",
+    "ibm_cloud_sdk_core>=3.16.7",
+    "aiohttp>=3.8.4"
+]
+requires-python = ">=3.9"
+
+[options]
+package_dir=[
+  "src"
+]
+
+[options.packages.find]
+where=[
+  "src/genai"
+]
