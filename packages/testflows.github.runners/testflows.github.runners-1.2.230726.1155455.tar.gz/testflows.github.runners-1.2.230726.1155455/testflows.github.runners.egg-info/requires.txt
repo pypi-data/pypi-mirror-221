@@ -1,0 +1,4 @@
+PyGithub==1.59.0
+hcloud==1.25.0
+
+[dev]
