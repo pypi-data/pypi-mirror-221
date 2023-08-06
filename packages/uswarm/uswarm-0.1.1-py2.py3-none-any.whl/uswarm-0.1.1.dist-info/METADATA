@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: uswarm
+Version: 0.1.1
+Summary: U-Swarm
+Home-page: https://github.com/asterio.gonzalez/uswarm
+Author: Asterio
+Author-email: asterio@protonmail.com
+Keywords: uswarm
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: async-timeout
+Requires-Dist: codenamize
+Requires-Dist: compressedlogger
+Requires-Dist: pandas
+Requires-Dist: python-datemath
+Requires-Dist: selenium
+Requires-Dist: tk
+Requires-Dist: black
+Requires-Dist: openpyxl
+Requires-Dist: glom
+
+======
+uswarm
+======
+
+
+
+
+.. image:: https://pyup.io/repos/github/asterio.gonzalez/uswarm/shield.svg
+     :target: https://pyup.io/repos/github/asterio.gonzalez/uswarm/
+     :alt: Updates
+
+
+
+U-Swarm
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-10-25)
+------------------
+
+* First release on PyPI.
