@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ml-logwriter
+Version: 0.1
+Summary: A ML logger package
+Home-page: https://github.com/pedrohrafael/ml-logwriter
+Author: Pedro H Rafael
+Author-email: pedro.rodrigues.rafael@gmail.com
+License: MIT
+License-File: LICENSE
+
