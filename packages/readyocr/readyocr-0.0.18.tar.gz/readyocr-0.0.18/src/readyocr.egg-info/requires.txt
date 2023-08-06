@@ -1,0 +1,15 @@
+numpy
+typing-extensions
+Pillow
+pdf2image
+pdfminer.six
+
+[all]
+amazon-textract-textractor
+google-cloud-documentai
+
+[documentai]
+google-cloud-documentai
+
+[textract]
+amazon-textract-textractor
