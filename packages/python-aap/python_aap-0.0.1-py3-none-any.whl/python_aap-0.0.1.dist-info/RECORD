@@ -1,0 +1,8 @@
+src/aap/__init__.py,sha256=GsnUAiO0M2c9dX9SmIk2MmwqBwPvsZjtG-fTRnRiWCk,261
+src/aap/base.py,sha256=zZ0TcT-PFMj9uaP6fBp4JWubjIu_byONI-Q6ghI-Fik,5010
+src/aap/endpoints.py,sha256=GHeBNUniOiGEzU1x_3ZE1eDgJTD6NR5Seg-KNbLVArE,2992
+src/aap/mixins.py,sha256=35GIqxIzSMMgnKywiB6x-PzE_qKvgf6Wq-Dj8rRGOSI,1704
+python_aap-0.0.1.dist-info/METADATA,sha256=5ajNJS_egaexK5Fbl56761rF5TltuIzaNBlzQ1afgd0,6788
+python_aap-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+python_aap-0.0.1.dist-info/licenses/LICENSE,sha256=2P3Y8HtQv1dLdLzeNEUeIT2AVXhty5-L9D2dCR1pZMM,18020
+python_aap-0.0.1.dist-info/RECORD,,
