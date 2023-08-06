@@ -1,0 +1,12 @@
+kaiju_db/__init__.py,sha256=sN9E1RDeZEKB9nKNTDI_kId0ukHfMcrIpZau_nQOSNs,184
+kaiju_db/functions.py,sha256=JUHNd5uYbEtziTsihE-iPctYraUC-S3pfC2mo3EmtPo,3740
+kaiju_db/services.py,sha256=rBrxnw_KqNVP0ilVWmQiYDa-czZS51BTe4y9SG0tAcc,61457
+kaiju_db/types.py,sha256=0ORvc2CaCcKUNibTR5o9EI5DOFQjM_uDg5S58aF8MyU,453
+kaiju_db/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaiju_db/tests/fixtures.py,sha256=XtkmjBFFPbcBdUWNJBiGanrHjrPQW1yYzoC61sxxzD4,3292
+kaiju_db/tests/test_db.py,sha256=bVpj8sTiANdtet2hoiRefZbf3mAsGzkw0s4RbBF0pAg,4846
+kaiju_db-2.1.8.dist-info/LICENSE,sha256=XIlN2qA8UqpBDA-PteoYP4hTU0qBW0G9PRB__khO2zc,610
+kaiju_db-2.1.8.dist-info/METADATA,sha256=d6EGkMhjC0DEZ3MEZvEuU9Eq6kRFOUqBHUmNBdtCCvA,3259
+kaiju_db-2.1.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+kaiju_db-2.1.8.dist-info/top_level.txt,sha256=-jcfPgSkIz8rxFCPp_XIg5g9tVsDmBd1wdxayb_mkNU,9
+kaiju_db-2.1.8.dist-info/RECORD,,
