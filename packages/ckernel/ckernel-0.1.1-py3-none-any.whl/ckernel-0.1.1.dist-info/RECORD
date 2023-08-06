@@ -1,0 +1,13 @@
+ckernel/__init__.py,sha256=SsvvraW8bXuTpceasdH0GB6XzydkLSjUU8QXKuP6WyU,546
+ckernel/__main__.py,sha256=iShFqGcN6Ev2T7_WuX_kCvo6TlI8iSuWjCnM9eXw2Ko,82
+ckernel/async_kernel.py,sha256=63xXPMRNl8aypzWMgTOA0gfg66yNleMPz2Xg4JSvErY,1310
+ckernel/autocompile_kernel.py,sha256=E-VyLfhQd2ZuhV6gME6SZoC30SA2luEyifXkCduazpk,6661
+ckernel/base_kernel.py,sha256=_FohzHnQYfhP1eyNAU69q5r95Td6W3IaNYdaOLd74z8,1681
+ckernel/main.py,sha256=H67f7Qph-jmDL1DjxjC01N0Pv25cO22gRjkDCrrrADc,5039
+ckernel/util.py,sha256=QcWSKmZ_mdanOYlpCncFtnxJaZ7i16bXiy0_7eQsdzE,2367
+ckernel-0.1.1.dist-info/LICENSE,sha256=JCb8IvL_O-WS_Ns0ugbQTXhJzWK5ExYAmqB3dOqdpx8,1496
+ckernel-0.1.1.dist-info/METADATA,sha256=TJCdLMjTeuQnezb87fZkNfV39-9KxoxWRRnk5lgL5nU,4107
+ckernel-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ckernel-0.1.1.dist-info/entry_points.txt,sha256=2tvrq78DXhRzdEStPt4h7r8mkEhOedhOCbTJd3LneEY,46
+ckernel-0.1.1.dist-info/top_level.txt,sha256=upL9wcDkgM2fKOZYOmxYJFbAch-DEf8jZpTR3rtdOFk,8
+ckernel-0.1.1.dist-info/RECORD,,
