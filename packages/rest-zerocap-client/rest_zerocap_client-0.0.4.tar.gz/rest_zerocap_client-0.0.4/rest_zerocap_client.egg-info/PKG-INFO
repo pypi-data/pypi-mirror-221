@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rest-zerocap-client
+Version: 0.0.4
+Summary: Order Operation
+Home-page: 
+Author: Tkon
+Author-email: 1741226849@qq.com
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+install order
+::
+
+    pip install rest-zerocap-client -i  https://www.pypi.org/simple/
+
+
+demo
+::
+
+    from rest_client.zerpcap_rest_client import ZerocapRestClient
+
+    api_key = ""
+
+    secret = ""
+
+    client = ZerocapRestClient(api_key, secret)
+
+    result = client.create_order(symbol, side, type, amount, price, client_order_id, note, third_identity_id)
+
+    result = client.fetch_order(id, note, third_identity_id)
+
+    result = client.fetch_orders(symbol, since, limit, note, third_identity_id)
+
+
