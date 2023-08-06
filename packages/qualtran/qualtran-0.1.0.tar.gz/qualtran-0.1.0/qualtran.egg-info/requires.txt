@@ -1,0 +1,7 @@
+cirq-core==1.2.0
+cirq-ft==1.2.0
+pydot
+ipython
+quimb
+opt_einsum
+autoray

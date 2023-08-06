@@ -1,0 +1,11 @@
+cirq-core==1.2.0
+cirq-ft==1.2.0
+
+# drawing
+pydot
+ipython
+
+# quimb and its tensor dependencies
+quimb
+opt_einsum
+autoray
