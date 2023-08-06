@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chiku
+Version: 0.0.13
+Summary: A Python package for polynomial approximation of arbitrary functions.
+Author-email: Devharsh Trivedi <devharsh@live.in>
+Project-URL: Homepage, https://com.puter.tips/
+Project-URL: Docs, https://com.puter.tips/
+Project-URL: Bug Tracker, https://com.puter.tips/
+Project-URL: repository, https://com.puter.tips/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# chiku
+Polynomial function approximation library in Python.
