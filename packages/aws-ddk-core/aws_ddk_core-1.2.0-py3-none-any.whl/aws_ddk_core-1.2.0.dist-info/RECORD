@@ -1,0 +1,10 @@
+aws_ddk_core/__init__.py,sha256=U85omnZ0dRusMfmqejWGmZrQ6WyezvPzeYhL_j94q0Q,702039
+aws_ddk_core/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_ddk_core/_jsii/__init__.py,sha256=TjzX0kGUci-_Sb5rymKLLJ5WkrXeyk8ZB0MccWUl_4M,573
+aws_ddk_core/_jsii/aws-ddk-core@1.2.0.jsii.tgz,sha256=-GqJlJ1BDHI7BrUauMcGM4qJgNYXeCIi9RCWduf4G50,5077929
+aws_ddk_core-1.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_ddk_core-1.2.0.dist-info/METADATA,sha256=lf_EULsMuqZqJC2WGotYPq99trDbjUBMcVtHXyb_30s,6960
+aws_ddk_core-1.2.0.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+aws_ddk_core-1.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aws_ddk_core-1.2.0.dist-info/top_level.txt,sha256=B6eqRB0soKGJcwRraTup4JRfzx1V3ySFFtSg7DsMs7s,13
+aws_ddk_core-1.2.0.dist-info/RECORD,,
