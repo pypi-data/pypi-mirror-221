@@ -1,0 +1,4 @@
+geopandas
+shapely>1
+topojson
+simplification
