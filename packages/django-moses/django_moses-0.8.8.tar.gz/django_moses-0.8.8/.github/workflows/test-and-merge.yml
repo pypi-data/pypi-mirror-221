@@ -1,0 +1,34 @@
+name: Test and merge
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  build-test-push:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:latest
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: abcxyz123
+          POSTGRES_DB: moses_test
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+      - name: Run image
+        uses: abatilo/actions-poetry@v2
+      - name: Test
+        run: poetry install && poetry run pytest
+      - name: Merge dev -> main
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          from_branch: dev
+          target_branch: main
+          github_token: ${{ github.token }}
