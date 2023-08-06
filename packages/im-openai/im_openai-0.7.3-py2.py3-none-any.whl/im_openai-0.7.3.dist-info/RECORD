@@ -1,0 +1,14 @@
+im_openai/__init__.py,sha256=Yr8LbtcIzHeb0-B-VC_Ix3JkSuTOv_TFcZ5MrUnUjHI,255
+im_openai/client.py,sha256=JxiInkw-385BhC7cqllm18rark8MXPvVv-jBgWsNDw8,5671
+im_openai/patch.py,sha256=ct-TQB4Et2yx08onzomf8Uxx0GPd0RWhrEzpEINIyvc,4003
+im_openai/template.py,sha256=ykWlEVdXjvxc6OSWRYqQ8OGUV3q3B1j0Cc7MMgt3csQ,423
+im_openai/langchain/__init__.py,sha256=tGSCSAnxzhDy-6g37W0NAhJfz9pzRHPsD6G2CQBmGmk,210
+im_openai/langchain/callbacks.py,sha256=xjn0EbeszSslErmv99b0rl-xp-13zkxN2ny97N4EHYA,17280
+im_openai/langchain/patch.py,sha256=nlqzyMAY_2FthlUU4PLfezkcuwO8SJ584PmErZgcxcs,3039
+im_openai/langchain/util.py,sha256=sLuf6l5RUma3vTSr_Bu3UF4rC_NzO95eQrb3w9siMGE,7888
+im_openai-0.7.3.dist-info/AUTHORS.rst,sha256=r0__E7QLfi4bUDKUn1eJSpWNQ5oPjyA3JTW2HgcFPVE,150
+im_openai-0.7.3.dist-info/LICENSE,sha256=9y4XbUG1dP6tIdvOrPK8oYoSn_ICMpISpFppZtKslY8,1069
+im_openai-0.7.3.dist-info/METADATA,sha256=eFmnccrhDNlgxwx_iWrmozHMJzXgZlg96lY3QNzJxVE,6621
+im_openai-0.7.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+im_openai-0.7.3.dist-info/top_level.txt,sha256=wDuNgFei0P3nBB8rnxuDa5-7OJ1zgCNIBpO2oFbi6IE,10
+im_openai-0.7.3.dist-info/RECORD,,
