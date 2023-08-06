@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: manic-xai
+Version: 0.1.1
+Summary: Genetic Algorithm for Generating Metacounterfactual Explanations
+Author: Craig Pirie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
