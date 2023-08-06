@@ -1,0 +1,4 @@
+[console_scripts]
+smallest-eigenvalue=cli.smallest_eigenvalue:main
+weather-fire=cli.weather_fire:main
+
