@@ -1,0 +1,5 @@
+[console_scripts]
+parse_xsv=parse_xsv:parse_cli
+parse_xsv_showcase=parse_xsv.showcase:parse_showcase
+xsv_sample_gen=parse_xsv.sample_gen:generate_sample_data
+
