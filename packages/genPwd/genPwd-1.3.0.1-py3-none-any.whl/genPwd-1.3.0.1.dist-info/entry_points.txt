@@ -1,0 +1,2 @@
+[console_scripts]
+generate_password = GenPwd.generate_password:main
