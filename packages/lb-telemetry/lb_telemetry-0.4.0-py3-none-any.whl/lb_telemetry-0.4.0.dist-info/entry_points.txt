@@ -1,0 +1,2 @@
+[console_scripts]
+lb-telemetry = lb_telemetry:lb_telemetry
