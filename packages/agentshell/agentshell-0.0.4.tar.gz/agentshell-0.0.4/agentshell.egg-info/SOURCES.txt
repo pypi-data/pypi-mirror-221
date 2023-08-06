@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+agentshell/__init__.py
+agentshell/action.py
+agentshell/main.py
+agentshell.egg-info/PKG-INFO
+agentshell.egg-info/SOURCES.txt
+agentshell.egg-info/dependency_links.txt
+agentshell.egg-info/requires.txt
+agentshell.egg-info/top_level.txt
