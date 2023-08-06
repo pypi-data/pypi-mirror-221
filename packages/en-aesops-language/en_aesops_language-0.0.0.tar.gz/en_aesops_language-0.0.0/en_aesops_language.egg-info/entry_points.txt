@@ -1,0 +1,2 @@
+[spacy_models]
+en_aesops_language = en_aesops_language

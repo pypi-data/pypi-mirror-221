@@ -1,0 +1,9 @@
+{
+  "labels":[
+    "English",
+    "Sheng",
+    "Other"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

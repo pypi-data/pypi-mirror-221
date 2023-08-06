@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: en-aesops-language
+Version: 0.0.0
+Home-page: 
+Author: 
+Author-email: 
+
+| Feature | Description |
+| --- | --- |
+| **Name** | `en_aesops_language` |
+| **Version** | `0.0.0` |
+| **spaCy** | `>=3.5.4,<3.6.0` |
+| **Default Pipeline** | `textcat` |
+| **Components** | `textcat` |
+| **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
+| **Sources** | n/a |
+| **License** | n/a |
+| **Author** | [n/a]() |
+
+### Label Scheme
+
+<details>
+
+<summary>View label scheme (3 labels for 1 components)</summary>
+
+| Component | Labels |
+| --- | --- |
+| **`textcat`** | `English`, `Sheng`, `Other` |
+
+</details>
+
+### Accuracy
+
+| Type | Score |
+| --- | --- |
+| `CATS_SCORE` | 68.36 |
+| `CATS_MICRO_P` | 86.32 |
+| `CATS_MICRO_R` | 86.32 |
+| `CATS_MICRO_F` | 86.32 |
+| `CATS_MACRO_P` | 83.79 |
+| `CATS_MACRO_R` | 61.39 |
+| `CATS_MACRO_F` | 68.36 |
+| `CATS_MACRO_AUC` | 88.91 |
+| `TEXTCAT_LOSS` | 521.50 |
