@@ -1,0 +1,10 @@
+logdna/VERSION,sha256=0AZJKZUV0HLRWSbX9mFtDi5x7R9pQO-5nhwJM3TP0Zk,8
+logdna/__init__.py,sha256=4xuprWGTBPCpWXqAtSoHbsCzOFaGM15-Zt5SxD4OvmI,273
+logdna/configs.py,sha256=RkzVKf8Mgtm_5H0mEOopoQLhMyYcmqhbpaAjb6z9org,624
+logdna/logdna.py,sha256=gjjlxsorrb6hUB72jz6afLHJ7cvjkXghsAotWKQD_AQ,14898
+logdna/utils.py,sha256=LTy9fOidJv__bze_ThHOaGu1zAlLQFHnMferXoPdwhA,1294
+logdna-1.18.10.dist-info/LICENSE,sha256=ESXdcDbF5Tuf7ax3koOlCEz3l3kXJU520XCLowZWKHk,1073
+logdna-1.18.10.dist-info/METADATA,sha256=oO_Y3GMJACpPJDWUeB4zlodB4C9p5ldPad3Nb3hbUO8,17472
+logdna-1.18.10.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+logdna-1.18.10.dist-info/top_level.txt,sha256=5lGgaH3EprWRDs8CX8FfbSUNwXzv_BctuSjT5XdhUec,7
+logdna-1.18.10.dist-info/RECORD,,
