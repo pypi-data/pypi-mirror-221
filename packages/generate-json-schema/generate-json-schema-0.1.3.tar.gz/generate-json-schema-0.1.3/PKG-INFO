@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: generate-json-schema
+Version: 0.1.3
+Summary: Json Schema Generator
+Home-page: https://github.com/fernandotoledomoreira/json-schema-generator
+Author: Fernando Toledo Moreira
+Author-email: fernandotoledomoreira@gmail.com
+Keywords: json schema generator development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+
+Installation
+============
+
+To install the Json Schema Generator, use pip:
+
+.. code-block:: bash
+
+    pip install generate-json-schema
+
+Usage
+=====
+
+To use the Json Schema Generator, import the module and utilize the function `generate_json_schema`:
+
+.. code-block:: python
+
+    # Use the path of the directory already within your project
+    from json_schema_converter.generate_schema import generate_json_schema
+    schema = generate_json_schema("/pytests/schemas/teste.json")

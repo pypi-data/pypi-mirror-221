@@ -1,0 +1,8 @@
+README.rst
+setup.py
+generate_json_schema.egg-info/PKG-INFO
+generate_json_schema.egg-info/SOURCES.txt
+generate_json_schema.egg-info/dependency_links.txt
+generate_json_schema.egg-info/top_level.txt
+src/__init__.py
+src/generate_schema.py
