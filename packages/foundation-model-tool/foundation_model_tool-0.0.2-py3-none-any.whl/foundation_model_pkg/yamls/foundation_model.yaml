@@ -1,0 +1,26 @@
+foundation_model_pkg.tools.foundation_model.FoundationModel.foundation_model:
+  inputs:
+    prompt:
+      type:
+        - PromptTemplate
+    connection:
+      type:
+        - CustomConnection
+    api:
+      enum:
+        - chat
+        - completion
+      type:
+        - string
+    model_kwargs:
+      default: "{}"
+      type:
+        - object
+  name: Foundation Model
+  description: Tool to use Azure Foundation Models
+  module: foundation_model_pkg.tools.foundation_model
+  class_name: FoundationModel
+  function: foundation_model
+  stage: test
+  type: python
+  is_builtin: true
