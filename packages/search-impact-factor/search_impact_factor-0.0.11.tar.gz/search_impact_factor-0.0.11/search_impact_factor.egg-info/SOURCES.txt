@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+search_impact_factor/2022_JCR_IF.csv
+search_impact_factor/2023_JCR_IF.csv
+search_impact_factor/__init__.py
+search_impact_factor/search_impact_factor.py
+search_impact_factor.egg-info/PKG-INFO
+search_impact_factor.egg-info/SOURCES.txt
+search_impact_factor.egg-info/dependency_links.txt
+search_impact_factor.egg-info/requires.txt
+search_impact_factor.egg-info/top_level.txt
