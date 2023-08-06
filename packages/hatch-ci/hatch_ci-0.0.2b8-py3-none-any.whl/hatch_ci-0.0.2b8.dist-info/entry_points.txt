@@ -1,0 +1,5 @@
+[console_scripts]
+hatch-ci = hatch_ci:__main__.main
+
+[hatch]
+ci = hatch_ci.hooks
