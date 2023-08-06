@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+stdflow/__init__.py
+stdflow/config.py
+stdflow/metadata.py
+stdflow/path.py
+stdflow/step.py
+stdflow.egg-info/PKG-INFO
+stdflow.egg-info/SOURCES.txt
+stdflow.egg-info/dependency_links.txt
+stdflow.egg-info/requires.txt
+stdflow.egg-info/top_level.txt
+stdflow/loaders/__init__.py
+stdflow/loaders/csv.py
+stdflow/utils/__init__.py
