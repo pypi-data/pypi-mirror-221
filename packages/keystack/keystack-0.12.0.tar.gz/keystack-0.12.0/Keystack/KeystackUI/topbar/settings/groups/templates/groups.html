@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+        <div style="display:inline-block; padding-left:2px; margin-top:1px">
+            <a href="#" data-toggle="modal" data-target="#createGroupModal">Create</a>&emsp;
+            <a href="#" onclick="deleteGroupButton()">Delete</a>&emsp;
+            <div id="deleteGroupStatus" style="float:right; display:online-block"></div>
+        </div>
+    </nav>
+
+    <div class="row mt-3">
+        <!-- <table id="sessionsTable" class="table table-sm table-fixed tableFixHead tableMessages mt-1"> -->
+        <table id="sessionsTable" class="table tableFixHead2">
+          <thead>
+            <tr>
+              <th scope="col">Select</th>
+              <th scope="col">Groups</th>
+              <!-- <th scope="col">Allows</th> -->
+            </tr>
+          </thead>
+    
+          <tbody id="tableData"></tbody>
+        </table>
+      </div>
+    </div>
+</div>
+
+<div class="modal" id="createGroupModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:65%; height:600px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Create Group</h5>
+                <div id="groupStatus"></div>
+            </div>
+
+            <div class="modal-body" id="modalShowGroups">
+                <div style="margin-top:10px; display:flex; flex-direction: row; justify-content:left; align-items: center">
+                    <label for='createGroupId' style="color:black; margin-left:20px; margin-top:10px;">New Group Name:</label>&emsp; <input type="text" class="form-control" id="createGroupId" value="" placeholder="" style="width:300px"/>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modifyButton" style="float:right; margin:5px;" onclick="createGroup()" class="btn btn-sm btn-danger">
+                    Create
+                </button>
+
+                <button type="button" class="btn btn-primary" data-dismiss="modal"  onclick="resetInputBox()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    var selectedGroupsArray = new Array();
+
+    document.addEventListener("DOMContentLoaded", function() {
+        getGroups();
+        getInstantMessages(webpage='groups');
+        getServerTime();
+    })
+
+    function getSelectedSessions() {
+        // Collect all the selected checkboxes and delete them all in one shot
+        var checkboxArray = document.querySelectorAll('input[name=groupsCheckboxes]:checked');
+        
+        for (let x=0; x < checkboxArray.length; x++) {
+            let group = checkboxArray[x].getAttribute('group');
+            selectedGroupsArray.push(group)
+    
+            // Uncheck the checkbox because getGroups() will not refresh 
+            // the page if any delete group checkbox is checked
+            checkboxArray[x].checked = false;
+        }
+    }
+
+    async function getGroups() {
+        console.log('getGroups()')
+        const data = await postData("{% url "getGroups" %}", "{{csrf_token}}", "POST",
+                                        {remoteController: sessionStorage.getItem("remoteController"), })
+        console.log(`tableData: ${data.tableData}`)
+        document.querySelector('#tableData').innerHTML = data.tableData;
+    }
+
+    async function createGroup() {
+        let group = document.querySelector('#createGroupId').value;
+        console.log(`createGroup: ${group}`)
+        const data = await postData("{% url "createGroup" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), 'group': group})
+        console.log(`create Group: ${data.status}`)
+
+        if (data.status == "success") {
+            status = `<div style='color:green'>Successfully created group: ${group}</div>`
+        } else {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+        }
+       
+        document.querySelector('#createGroupId').value = '';
+        document.querySelector("#groupStatus").innerHTML = status;
+        getGroups();
+    }
+
+    async function deleteGroupButton() {
+        getSelectedSessions();
+        const data = await postData("{% url "deleteGroups" %}", "{{csrf_token}}", 'DELETE', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), 'groups': selectedGroupsArray});
+        console.log(`delete Group: ${data.status} ${data.errorMsg}`)
+
+        if (data.status == "success") {
+            status = `<div style='color:green'>Successfully deleted group: ${selectedGroupsArray}</div>`
+        } else {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+        }
+
+        document.querySelector("#deleteGroupStatus").innerHTML = status;
+        getGroups();
+    }
+
+    function resetInputBox() {
+        document.querySelector("#groupStatus").innerHTML = '';
+    }
+
+</script>
+{% endblock extra_js %}

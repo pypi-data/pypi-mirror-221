@@ -1,0 +1,642 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/envLoadBalance.css" %} rel="stylesheet" type="text/css">
+{% endblock extra_css %}
+
+{% block content %}
+<div class="container-fluid">
+    <div id='selectedEnvGroupToView' group={{selectedEnvGroupToView}}></div>
+
+    <!-- <nav class="navbar navbar-expand-sm topbar fixed-top" style="position:fixed; padding-left:240px; top:50px; width:100%; height:35px; z-index:9; background:#eee; color:black; font-size:15px"> -->
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+        <div class="insertInlineBlock marginTop5px">
+            <a href="#" data-toggle="modal" data-target="#createEnvModal">Create Env</a>&emsp;&emsp;
+            <a href="#" id="deleteSetupButton">Delete Env</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#deleteEnvGroupModal">Delete Env Group</a>
+
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="insertInlineBlock paddingLeft2px marginTop5px">
+            <input class="col-2 form-control" type="search" id="filterSetup" onkeyup="filterSetup()" placeholder="Filter Setup" />&emsp;
+            <div id="reserveStatus" class="floatRight"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- <table id="envTable" class="mt-2 table table-sm table-bordered table-fixed tableFixHead tableMessages"> -->
+        <table id="envTable" class="tableFixHead2"> 
+            <thead>
+                <tr>
+                    <th scope="col">Delete</th>
+                    <th scope="col">View / Edit</th>
+                    <th scope="col">Envs (Testbeds)</th>
+                    <th scope="col">LoadBalance Grp</th>
+                    <th scope="col">ParallelUsage</th>
+                    <th scope="col">Available</th>
+                    <th scope="col">Reservation Mgmt</th>
+                    <th scope="col">Reserve</th>
+                    <th scope="col">ReleaseCurrentUser</th>
+                    <th scope="col">ResetEnv</th>
+                </tr>
+            </thead>
+            <tbody id="setupTableData"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="createEnvModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="createEnvContents" aria-hidden="true">
+
+    <!-- modal-dialog-scrollable|modal-dialog-centered modal-lg -->
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:65%; height:700px; overflow:auto; color:black">
+        <div class="modal-content">
+ 
+            <div class="modal-header">
+                <div class="floatLeft insertInlineBlock">
+                    <h5 class="modal-title textBlue">Create Env</h5>
+                </div>
+                <div id="createEnvStatus" class="floatRight marginRight10px"></div>
+            </div>
+
+            <div class="row modal-body">
+                <textarea id="insertEnvTemplate" name="" cols="123" rows="20"></textarea><br><br>
+            </div>
+
+            <div class="modal-footer">
+                <div style="display:inline-block;">
+                    <input type="text" id="newEnv" class="form-control floatRight" placeholder="New Env name" />
+                    <input type="text" id="envGroup" class="form-control floatRight" placeholder="Optional: Env Group: Could be nested by /using/slashes" />
+
+                    <button id="createEnvButton" class="btn btn-sm btn-primary floatRight margin5px" onclick="createEnv()">
+                        Create Env
+                    </button>
+
+                    <button class="btn btn-sm btn-danger floatRight margin5px" type="submit" name="" value="" id="closeCreateEnvTextAreaId"
+                        onclick="closeCreateEnv()" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="viewEditEnvModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:65%; height:650px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <div class="insertInlineBlock floatLeft">
+                    <h5 class="modal-title" id="currentOpenedFile"></h5>
+                </div>
+                <div id="modifyEnvStatus" class="floatRight"></div>
+            </div>
+
+            <div class="row modal-body" id="insertFileContents"></div>
+
+            <div class="modal-footer">
+                <!-- Click this button calls modifyFile(). modifyFile() will getElementById('textarea') to get the text -->
+			    <button id="modifyButton" class="btn btn-sm btn-primary floatRight margin5px" onclick="modifyFile()">
+                    Modify File
+                </button>
+
+                <button type="submit" name="" value="" id="textAreaButton"
+                onclick="closeText()" class="btn btn-sm btn-danger floatRight margin5px" data-bs-dismiss="modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="activeUsersModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="activeUsers" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:95%; height:700px; overflow:auto; color:black">
+        <div class="modal-content">
+ 
+            <div class="modal-header">
+                <div class="floatLeft insertInlineBlock">
+                    <h5 class="modal-title textBlue" id="userMgmt">Env:</h5>
+                    <div id="releaseStatus"></div>
+                </div>
+            </div>
+
+            <div class="row modal-body">
+                <div style="display:inline-block; width:50%; height:600px; float:left;">
+                    <h6 class="modal-title textBlue floatLeft">Active-Users</h6>
+
+                    <button id="removeFromActiveUsersButton" class="btn btn-sm btn-outline-primary floatRight marginLeft10px margin5px marginBottom10px">
+                        Release Active User
+                    </button>
+
+                    <div id="insertActiveUsers"></div>
+                </div>
+
+                <div style="display:inline-block; width:50%; height:600px; float:right;">
+                    <h6 class="modal-title textBlue floatLeft">Wait-List</h6>
+
+                    <button id="removeFromWaitListButton" class="btn btn-sm btn-outline-primary floatRight marginLeft10px marginBottom10px">
+                        Remove From WaitList
+                    </button>
+
+                    <div id="insertWaitList"></div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="floatRight margin5px btn btn-sm btn-danger" type="submit" id="closeActiveUsers" data-bs-dismiss="modal" onclick="closeReleaseActiveUsers()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deleteEnvGroupModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:65%; height:650px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <div class="insertInlineBlock floatLeft">
+                    <h5 class="modal-title">Delete Env Group</h5>
+                </div>
+            </div>
+
+            <div class="row modal-body" id="insertDeleteEnvGroup"></div>
+
+            <div class="modal-footer">
+                <!-- Click this button calls modifyFile(). modifyFile() will getElementById('textarea') to get the text -->
+			    <button id="modifyButton" class="btn btn-sm btn-primary floatRight margin5px" onclick="deleteEnvGroups()">
+                    Delete
+                </button>
+
+                <button type="submit" name="" value="" id="textAreaButton"
+                onclick="closeDeleteEnvGroups()" class="btn btn-sm btn-danger floatRight margin5px" data-dismiss="modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    var refreshPageInterval = 5000;
+    var env = null;
+    var selectAllEnvGroupsToDeleteIsChecked = false;
+
+    // Unhide messages
+    /*
+    let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+    if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+        hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+    }
+    */ 
+
+    setInterval(() => {
+        if (document.readyState === "complete") {
+            getSetupTableData();
+            getInstantMessages(webpage='envs');
+        }
+    }, 5000
+    );
+
+    document.addEventListener("DOMContentLoaded", function() { 
+        var remoteController = sessionStorage.getItem("remoteController");       
+        getSetupTableData();
+        getEnvGroupsForDelete();
+        getInstantMessages(webpage='envs');
+        getServerTime();
+    })
+
+    async function getEnvGroupsForDelete() {
+        let response = await postData("{% url "envGroupsTableForDelete" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController")});
+        if (response.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector("#insertDeleteEnvGroup").innerHTML = response.envGroupsHtml;
+        }
+    }
+
+    async function getSetupTableData() {
+        // Verify if any checkbox is checked. If yes, don't update the tableData
+        var checkboxListener = document.querySelectorAll('input[name=envCheckboxes]:checked');
+        if (checkboxListener.length > 0) {
+            return
+         }
+
+        let selectedEnvGroupToView = document.querySelector('#selectedEnvGroupToView').getAttribute('group');
+        console.log(`getSetupTableData: selectedEnvGroupToView: ${selectedEnvGroupToView}`);
+        const data = await postData("{% url "getEnvTableData" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController"),
+                                                                                              envGroup:selectedEnvGroupToView})
+
+        document.querySelector('#setupTableData').innerHTML = data.tableData
+        document.querySelector('#topbarTitlePage').innerHTML = `Env Mgmt&emsp;|&emsp;Group: ${selectedEnvGroupToView}` 
+        sortTable(tableId="#envTable", columnIndex=1); 
+    }
+
+    // Get all delete-env checkboxes
+    let deleteSetupButton = document.querySelector('#deleteSetupButton')
+    let deleteEnvList = new Array(); 
+
+    deleteSetupButton.addEventListener('click', event => {
+        console.log('deleteSetupButton clicked')
+
+        let envCheckboxes = document.querySelectorAll('input[name="envCheckboxes"]:checked');
+        envCheckboxes.forEach((checkbox) => {
+            console.log(`Delete Env clicked: ${checkbox.value}`)
+            deleteEnvList.push(checkbox.value);
+            checkbox.checked = false;
+        })
+        deleteEnvs(deleteEnvList);
+    })
+
+    async function deleteEnvs(envList) {
+        console.log(`deleteEnvs(): ${envList}`);
+        data = await postData("{% url "deleteEnvs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController"),
+                                                                                   envs: envList});
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            window.location.reload();
+            blinkSuccess();
+        }
+
+        getInstantMessages(webpage='envs');
+    }
+
+    function disableEnvGroupCheckboxes(object) {
+        // SelectAll checkbox is checked.  Comes in here.
+        // If checked, disabled all env checkboxes in the group. 
+        // If unchecked, enable all env checkboxes in the group.
+        
+        let isChecked = object.checked;
+        if (isChecked) {
+            selectAllEnvGroupsToDeleteIsChecked = true;
+        } else {
+            selectAllEnvGroupsToDeleteIsChecked = false;
+        }
+
+        let checkboxes = document.querySelectorAll(`input[name="deleteEnvGroups"]`);
+        for (let x = 0; x < checkboxes.length; x++) {
+            if (isChecked) {
+                checkboxes[x].checked = false;
+                checkboxes[x].disabled = true;
+            } else {
+                checkboxes[x].checked = false;
+                checkboxes[x].disabled = false;
+            }
+        }
+    }
+
+    function getSelectedEnvGroupsToDelete() {
+        // Collect all the selected checkboxes and delete them all in one shot
+        var checkboxArray = document.querySelectorAll('input[name=deleteEnvGroups]:checked');
+        var envGroupsToDelete = [];
+
+        for (let x=0; x < checkboxArray.length; x++) {
+            let envGroupFullPath = checkboxArray[x].getAttribute('value');
+            envGroupsToDelete.push(envGroupFullPath);
+        }
+        return envGroupsToDelete;
+    }
+
+    async function deleteEnvGroups() {
+        if (selectAllEnvGroupsToDeleteIsChecked) {
+            var selectAll = true;
+            var selectedEnvGroups = [];
+        } else {
+            var selectAll = false;
+            selectAllEnvGroupsToDeleteIsChecked = false;
+            var selectedEnvGroups = getSelectedEnvGroupsToDelete();
+        }
+
+        const response = await postData("{% url "deleteEnvGroups" %}", "{{csrf_token}}", 'POST', 
+                    {remoteController: sessionStorage.getItem("remoteController"), selectedEnvGroups:selectedEnvGroups, selectAll:selectAll});
+
+        getInstantMessages(webpage='envs');	
+        if (response.status == 'success') {
+            blinkSuccess();
+            getEnvGroupsForDelete();
+        } else {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';  
+        }
+        
+        closeDeleteEnvGroups();
+    }
+
+    function closeDeleteEnvGroups() {
+        selectAllEnvGroupsToDeleteIsChecked = false;
+
+        let checkboxes = document.querySelectorAll(`input[name="deleteEnvGroups"]`);
+        for (let x = 0; x < checkboxes.length; x++) {
+            checkboxes[x].checked = false;
+            checkboxes[x].disabled = false;
+        }
+        document.querySelector('input[name=deleteAllEnvGroups]').checked = false;
+    }
+
+    async function getFileContents(filePath) {
+        try {
+            console.log('getFileContents(): filePath: ' + filePath.value)
+
+            // getFileContents calls sidebar/views
+            const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController"), 
+                                                                                                  filePath: filePath.value})
+            console.log('envs getFileContents(): returned data: ' + data.fileContents)
+            
+            // Text area. Set the name attr with the module preferences file path.
+            document.querySelector("#insertFileContents").innerHTML =
+            '<textarea id="textareaId" name=' + data.fullPath + ' cols="123" rows="25">' +
+            data.fileContents + '</textarea><br><br>'
+            
+            let toggle = document.querySelector("#insertFileContents")
+            // Toggle to show text 
+            //toggle.style.display = toggle.style.display == "block" ? "none" : "block";
+            // toggle.style.display = toggle.style.display == "block";
+            toggle.style.display = "block";
+            
+            document.querySelector("#currentOpenedFile").innerHTML = '<h7>' + 'Envs:&emsp;' + data.fullPath.split("/Envs/").slice(1) + '</h7>'
+            document.querySelector('#modifyButton').style.display = "block"
+            document.querySelector('#textAreaButton').style.display = "block"
+        } catch (error) {
+            console.log("Envs getFileContents() error: " + error)
+        }
+        getInstantMessages(webpage='envs');	  
+    }
+
+    async function modifyFile() {
+        /* Modify existing env */
+
+        try {
+            let textarea = document.querySelector('#textareaId').value
+            let filePath = document.querySelector('#textareaId').name
+
+            const data = await postData("{% url "modifyFile" %}", "{{csrf_token}}", "POST", {remoteController: sessionStorage.getItem("remoteController"),
+                                                                                             textarea: textarea, filePath: filePath})
+            console.log('modifyFile(): success')
+
+            if (data.status == "success") {
+                status = `<div style='color:green'>Successfully modified Env file</div>`
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+                //document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            }
+
+            document.querySelector("#modifyEnvStatus").innerHTML = status
+
+        } catch (error) {    
+            console.log("modifyFile() error: " + error)
+        }
+        getInstantMessages(webpage='envs');
+    }
+
+    function closeText() {
+        /* Close the opened Env file */ 
+
+        let toggle = document.querySelector("#textareaId")
+        toggle.value = ''
+
+        // Toggle to hide buttons
+        //toggle.style.display = toggle.style.display == "none" ? "block" : "none";
+        document.querySelector("#insertFileContents").style.display = "none";
+        document.querySelector('#modifyButton').style.display = "none";
+        document.querySelector('#textAreaButton').style.display = "none";
+        document.querySelector("#currentOpenedFile").innerHTML = "";
+        document.querySelector("#modifyEnvStatus").innerHTML = "";
+    }
+
+    async function createEnv() {
+        /* Create actual playbook */
+
+        try {
+            let textArea = document.querySelector('#insertEnvTemplate').value;
+            newEnv = document.querySelector('#newEnv').value;
+            envGroup = document.querySelector('#envGroup').value;
+
+            if (textArea == "") {
+                alert('Creating a new Env must have contents')
+                return
+            }
+
+            console.log(`createEnv(): newEnv=${newEnv}`)
+            const data = await postData("{% url "createEnv" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"),
+                                                 textArea: textArea, newEnv: newEnv, envGroup:envGroup})
+
+            if (data.status == "success") {
+                document.querySelector("#createEnvStatus").innerHTML = '';
+
+                // Close the BS modal
+                document.querySelector('#createEnvModal').style.display = "none";
+                document.querySelector('.modal-backdrop').remove();
+
+                blinkSuccess();
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+                document.querySelector("#createEnvStatus").innerHTML = status;
+                //document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            }
+
+        } catch (error) {    
+            console.log("createEnv() error: " + error)
+        }
+
+        //getSetupTableData();
+        window.location.reload();
+        getInstantMessages(webpage='envs');
+    }
+
+    function closeCreateEnv() {
+        document.querySelector("#newEnv").value = "";
+        document.querySelector('#envGroup').value = "";
+        document.querySelector("#createEnvStatus").innerHTML = "";
+        document.querySelector("#insertEnvTemplate").value = "";
+        console.log('closeCreateEnv()')
+    }
+
+    function filterSetup() {
+        // Call search in commons.js
+        moduleFilter = document.querySelector('#filterSetup').value
+        search(searchInputId="#filterSetup", tableId='#setupTableData', columnIndex=2)
+    }
+
+    async function waitList(obj) {
+        // User clicked on waitList link
+        env = obj.getAttribute('env');
+        console.log(`waitList: ${env}`)
+        const data = await postData("{% url "envWaitList" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        document.querySelector('#insertWaitList').innerHTML = data.tableData;
+    }
+
+    async function getWaitList(env) {
+        /* Used internally only by removeFromWaitList for refreshing the modal table data immediately */
+        console.log(`getWaitList: ${env}`)
+        const data = await postData("{% url "envWaitList" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        document.querySelector('#insertWaitList').innerHTML = data.tableData;
+    }
+
+    async function activeUsersList(obj) {
+        // User clicked on activeUserList link
+
+        env = obj.getAttribute('env');
+        console.log(`get env active users: ${env}`)
+
+        const data = await postData("{% url "getActiveUsersList" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        document.querySelector('#insertActiveUsers').innerHTML = data.tableData;
+        document.querySelector('#userMgmt').innerHTML = `Env: &ensp;${env}`
+        getWaitList(env);
+    }
+
+    async function getActiveUsersList(env) {
+        console.log(`get env active list: ${env}`)
+        const data = await postData("{% url "getActiveUsersList" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        document.querySelector('#insertActiveUsers').innerHTML = data.tableData;
+    }
+
+    async function reserveEnv(obj) {
+        env = obj.getAttribute('env');
+        console.log(`reserveEnv: ${env}`);
+
+        const data = await postData("{% url "reserveEnv" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        getSetupTableData();
+        getInstantMessages(webpage='envs');
+
+        if (data.status == "failed") {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        }
+    }
+
+    async function releaseEnv(obj) {
+        /* Release an individual env when an env goes into holdEnvsIfFailed */
+
+        env = obj.getAttribute('env');
+        overallSummaryFile = obj.getAttribute('overallSummaryFile');
+        console.log(`releaseEnv: ${env}`);
+
+        const data = await postData("{% url "releaseEnv" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"),
+                                                 env: env, 
+                                                 overallSummaryFile:overallSummaryFile})
+        getSetupTableData();
+        getInstantMessages(webpage='envs');
+
+        if (data.status == "failed") {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        }
+        document.querySelector("#releaseEnvStatus").innerHTML = status
+    }
+
+    async function resetEnv(obj) {
+        env = obj.getAttribute('env');
+        console.log(`resetEnv: ${env}`);
+
+        const data = await postData("{% url "resetEnv" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), env: env})
+        //getSetupTableData();
+        //getInstantMessages(webpage='envs');
+
+        if (data.status == "failed") {
+            getInstantMessages(webpage='envs');
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            blinkSuccess();
+        }
+
+        window.location.reload();
+    }
+
+    // Get all remove checkboxes from remove wait-list
+    let removeFromWaitListButton = document.querySelector('#removeFromWaitListButton');
+    let removeFromWaitListArray = new Array(); 
+    
+    removeFromWaitListButton.addEventListener('click', event => {
+        console.log('removeFromWaitListButton clicked')
+
+        let removeFromWaitListCheckboxes = document.querySelectorAll('input[name="envWaitListCheckboxes"]:checked');
+        removeFromWaitListCheckboxes.forEach((checkbox) => {
+            var env =       checkbox.getAttribute("env");
+            var sessionId = checkbox.getAttribute("sessionId");
+            var user =      checkbox.getAttribute("user");
+            var stage =     checkbox.getAttribute("stage");
+            var module =    checkbox.getAttribute("module");
+
+            console.log(`Remove from env wait-list clicked: ${env} ${checkbox.getAttribute("sessionId")}`)
+            removeFromWaitListArray.push({env:env, user:user, sessionId:sessionId, stage:stage, module:module});
+        });
+
+        removeEnvFromWaitList(env, removeFromWaitListArray);
+    })
+
+    async function removeEnvFromWaitList(env, removeList) {
+        // checkboxes: envWaitListCheckboxes
+        console.log(`removeEnvFromWaitList(): ${removeList}`);
+        let data = await postData("{% url "removeEnvFromWaitList" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 env:env, removeList: removeList})
+
+        // Get the env from global var
+        getWaitList(env);
+        getActiveUsersList(env);
+        getInstantMessages(webpage='envs');
+    }
+
+    // Get all remove checkboxes from activeUsers
+    let removeActiveUsersButton = document.querySelector('#removeFromActiveUsersButton');
+    let removeFromActiveUsersArray = new Array(); 
+    
+    removeActiveUsersButton.addEventListener('click', event => {
+        console.log('removeActiveUsersButton clicked')
+
+        let removeFromActiveUsersCheckboxes = document.querySelectorAll('input[name="envActiveUsersCheckboxes"]:checked');
+        removeFromActiveUsersCheckboxes.forEach((checkbox) => {
+            var env = checkbox.getAttribute("env");
+            var sessionId = checkbox.getAttribute("sessionId");
+            var overallSummaryFile = checkbox.getAttribute("overallSummaryFile");
+            var stage = checkbox.getAttribute("stage");
+            var module = checkbox.getAttribute("module");
+            console.log(`Remove from InUsedBy clicked: ${env} ${checkbox.getAttribute("sessionId")}`);
+            removeFromActiveUsersArray.push({env:checkbox.getAttribute("env"), sessionId:checkbox.getAttribute("sessionId"),
+                                             overallSummaryFile:checkbox.getAttribute("overallSummaryFile"), 
+                                             stage:checkbox.getAttribute("stage"), 
+                                             module:checkbox.getAttribute("module")});
+        })
+        removeEnvFromActiveUsersList(env, removeFromActiveUsersArray);
+    })
+
+    async function removeEnvFromActiveUsersList(env, removeList) {
+        console.log(`removeEnvFromActiveUsersList(): ${removeList}`);
+        let data = await postData("{% url "removeEnvFromActiveUsersList" %}", "{{csrf_token}}", 'POST', 
+                                                    {remoteController: sessionStorage.getItem("remoteController"),
+                                                     env:env, removeList: removeList})
+
+        if (data.status == "failed") {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            document.querySelector("#releaseStatus").innerHTML = status;
+        }
+
+        // Get the env from global var
+        getActiveUsersList(env);
+        getWaitList(env);
+        getInstantMessages(webpage='envs');
+    }  
+    
+    async function closeReleaseActiveUsers() {
+        document.querySelector("#releaseStatus").innerHTML = '';
+        window.location.reload();
+    }
+
+</script> 
+{% endblock extra_js %}

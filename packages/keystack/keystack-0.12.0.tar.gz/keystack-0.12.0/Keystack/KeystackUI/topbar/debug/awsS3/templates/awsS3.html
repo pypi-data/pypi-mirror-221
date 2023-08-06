@@ -1,0 +1,411 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/testResultsTreeView.css" %} rel="stylesheet" type="text/css">
+{% endblock extra_css%}
+
+{% block content %}
+
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+        <div class="insertInlineBlock marginTop5px">
+            <a href="#" onclick="getAwsS3Uploads()">Aws S3 Uploads</a>&emsp;&emsp;
+            <a href="#" onclick="deleteSelected()">Delete Selected</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#deleteAllModal">Delete All Uploads</a>&emsp;&emsp;
+            <a href="#" onclick="enableAwsS3DebugLogs()">EnableAwsS3Debug</a>&emsp;&emsp;
+            <a href="#" onclick="GetAwsS3Logs()">KeystackAwsS3Logs</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#clearAwsS3LogsModal">ClearAwsS3Logs</a>&emsp;&emsp;
+            <!-- <a href="#" onclick="GetPipelineAwsS3LogFiles()">PipelineAwsS3Logs</a>&emsp;&emsp; -->
+        </div>
+        <div><button class='btn btn-sm btn-danger blink' id="insertDisableAwsS3DebugLogs" onclick="disableAwsS3DebugLogs()"></button></div>
+    </nav>
+
+    <div id="insertContents" style="height:800px;"></div>
+</div>
+
+<div class="modal" id="openFileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="modifyFile" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">AWS S3 Upload File:&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row" id="insertFileContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="closeText()" >Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="clearAwsS3LogsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="clearAwsS3LogsModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Clear AWS S3 Logs&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to clear the AWS S3 logs?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="clearAwsS3Logs()">Clear</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deleteAllModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="deleteAll" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="fileRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Delete all AWS S3 test result uploads&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to delete all AWS S3 test result uploads?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="deleteAll()">Delete All</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    var nestedFolderCounter = 0;
+    // Default 100.  User defined in setFilesPerPage()
+    var resultsPerPage = 100;
+
+    var sessionsInterval = 10000;
+    var intervalId = 0;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        getAwsS3Uploads();
+        getServerTime();
+        getInstantMessages(webpage='debug');
+
+        isAwsS3ServiceRunning();
+        isAwsS3DebugEnabled();
+
+        setInterval(() => {
+            isAwsS3ServiceRunning();
+        }, 5000);
+    })
+
+    async function getAwsS3Uploads(object=null) {
+        /* object is page buttons onclick */
+        isCurrrentlyInAwsS3UploadPage = true;
+
+        // Blank out the page
+        document.querySelector('#insertContents').innerHTML = '';
+        let pageIndexRange = [];
+        let getPageNumber = 1;
+
+        if (object == null) {
+            // Default getting up to 25 test results per page
+            pageIndexRange.push(`0:${resultsPerPage}`);
+        } else {
+            // Uesr selected a page number that contains a range of file indexes. Ex: 101-200.
+            getPageNumber = object.getAttribute("getPageNumber");
+            pageIndexRange.push(object.getAttribute("pageIndexRange"));
+        }
+
+        // pageIndexRange = 0:100
+        const splitIndexRange = pageIndexRange[0];
+        const startingIndex =  Number(splitIndexRange.split(":")[0]);
+        const total = parseInt(startingIndex) + parseInt(resultsPerPage);
+
+        let data = await postData("{% url "getAwsS3Uploads" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"),
+                                         pageIndexRange:pageIndexRange, getPageNumber:getPageNumber,
+                                         resultsPerPage:Number(resultsPerPage)})
+
+        document.querySelector('#insertContents').innerHTML += data.pages;
+
+        // This must sit here after getTestResultPages() in order to work.
+        // This code goes in conjuntion with testResultsTreeView.css for expanding the nested tree view
+        await addListeners(caretName="caret2");
+
+        if (intervalId == 0) {
+            intervalId = setInterval(getAwsS3Uploads, sessionsInterval)
+        }
+    }
+
+    function addListeners(caretName="caret2") {
+        // caret2
+        window[caretName] = document.getElementsByClassName(caretName);
+
+        for (x= 0; x < window[caretName].length; x++) {
+            window[caretName][x].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");            
+            });
+        }
+    }
+
+    function getSelectedCheckboxes() {
+        // Collect all the selected checkboxes and delete them all in one shot
+        var checkboxArray = document.querySelectorAll('input[name=awsS3UploadsCheckbox]:checked');
+        
+        let selectedS3Uploads = new Array();
+
+        for (let x=0; x < checkboxArray.length; x++) {
+            let testResultsPath = checkboxArray[x].getAttribute('value');
+            selectedS3Uploads.push(testResultsPath)
+    
+            // Uncheck the checkbox because getSessionIds() will not refresh 
+            // the page is any deleteSessionId checkbox is checked
+            checkboxArray[x].checked = false;
+        }
+
+        return selectedS3Uploads;
+    }
+
+    async function getFileContents(object) {
+        try {
+            let filePath = object.getAttribute('filePath');
+            console.log(`fileMgmt.getFileContents(): filePath: ${filePath}`)
+            document.querySelector("#openFileModal");
+
+            const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), filePath: filePath})
+
+            if (data.status == "failed") {
+                errorMsg = `<div style='color:red'>Failed: ${data.errorMsg}</div>`;
+                document.querySelector("#modifyFileStatus").innerHTML = errorMsg;
+            } else {
+                // Text area. Set the name attr with the module preferences file path.
+                document.querySelector("#insertFileContents").innerHTML = `<textarea id="textareaId" name=${data.fullPath} cols="123" rows="30">${data.fileContents}</textarea><br><br>`;
+
+                let toggle = document.querySelector("#insertFileContents");
+                // Toggle to show text 
+                // toggle.style.display = toggle.style.display == "block" ? "none" : "block";
+                // toggle.style.display = toggle.style.display == "block";
+                toggle.style.display = "block";                
+                document.querySelector("#currentOpenedFile").innerHTML = '<h7>' + data.fullPath + '</h7>';
+            }
+        } catch (error) {
+            console.log("fileMgmt.getFileContents() error: " + error);
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        }
+    }
+
+    function closeText() {
+        // Toggle to hide buttons
+        document.querySelector("#insertFileContents").style.display = "none";
+
+        let toggle = document.querySelector("#textareaId");
+        if (toggle.value) {
+            // User attempting to open a non text file, the textarea is not created.
+            // Come in here only if textarea exists
+            toggle.value = ''
+        }
+    }
+
+    function closeModal(id) {
+        document.querySelector(id).style.display = 'none';
+    }
+
+    function setFilesPerPage(event) {
+        resultsPerPage = event.options[event.selectedIndex].value;
+        getAwsS3Uploads();
+    }
+
+    async function deleteSelected() {
+        let deleteSelectedCheckboxes = getSelectedCheckboxes();
+        const data = await postData("{% url "deleteAwsS3Uploads" %}", "{{csrf_token}}", 'POST', 
+              {remoteController: sessionStorage.getItem("remoteController"), selectedFiles: deleteSelectedCheckboxes, deleteAll:false})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getAwsS3Uploads();
+        }
+        getInstantMessages(webpage='debug');
+        blinkSuccess();
+    }
+
+    async function deleteAll() {
+        const data = await postData("{% url "deleteAwsS3Uploads" %}", "{{csrf_token}}", 'POST', 
+              {remoteController: sessionStorage.getItem("remoteController"), selectedFiles:null, deleteAll: true})
+        
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            getAwsS3Uploads();
+            blinkSuccess();
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function restartAwsS3Service() {
+        const data = await postData("{% url "restartAwsS3Service" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            blinkSuccess();
+            isAwsS3ServiceRunning();
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function stopAwsS3Service() {
+        const data = await postData("{% url "stopAwsS3Service" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            isAwsS3ServiceRunning();
+            blinkSuccess();
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function isAwsS3ServiceRunning() {
+        const data = await postData("{% url "isAwsS3ServiceRunning" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            let isAwsS3ServiceRunning = data.isAwsS3ServiceRunning;
+
+            if (isAwsS3ServiceRunning) {
+                //alert(`AWS S3 Service is running`)
+                document.querySelector("#topbarTitlePage").innerHTML = `AWS S3 service is running&ensp;&ensp;&ensp;<button class="btn btn-sm btn-outline-success" onclick="stopAwsS3Service()">Stop</button>&ensp;&ensp;<button class="btn btn-sm btn-outline-success" onclick="restartAwsS3Service()">Restart</button>`;
+            } else {
+                //alert(`AWS S3 Service is not running`)
+                document.querySelector("#topbarTitlePage").innerHTML = `AWS S3 service is not running&ensp;&ensp;&ensp;<button class="btn btn-sm btn-outline-success" onclick="restartAwsS3Service()">Start</button>`;
+            }
+        }
+    }
+
+    async function GetAwsS3Logs() {
+        isCurrrentlyInAwsS3UploadPage = false;
+        const data = await postData("{% url "getAwsS3Logs" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector("#insertContents").innerHTML = data.awsS3Logs;
+
+            if (intervalId) {
+                // Stop refreshing the aws s3 upload page while viewing the log page
+                clearInterval(intervalId);
+                // Hard set the intervalId to 0 to make sure it's 0
+                intervalId = 0;
+            }
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function clearAwsS3Logs() {
+        const data = await postData("{% url "clearAwsS3Logs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            closeModal("#clearAwsS3LogsModal");
+            blinkSuccess();
+            GetAwsS3Logs();
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function enableAwsS3DebugLogs() {
+        const data = await getData("{% url "enableAwsS3DebugLogs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            blinkSuccess();
+            document.querySelector("#insertDisableAwsS3DebugLogs").innerHTML = 'Disable AWS S3 Debug';
+            document.querySelector("#insertDisableAwsS3DebugLogs").style.display = 'block';
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function disableAwsS3DebugLogs() {
+        const data = await getData("{% url "disableAwsS3DebugLogs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            blinkSuccess();
+            document.querySelector("#insertDisableAwsS3DebugLogs").innerHTML = '';
+            document.querySelector("#insertDisableAwsS3DebugLogs").style.display = 'none';
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function isAwsS3DebugEnabled() {
+        const data = await getData("{% url "isAwsS3DebugEnabled" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            if (data.isAwsS3DebugEnabled) {
+                document.querySelector("#insertDisableAwsS3DebugLogs").innerHTML = 'Disable AWS S3 Debug';
+                document.querySelector("#insertDisableAwsS3DebugLogs").style.display = 'block';
+            } else {
+                document.querySelector("#insertDisableAwsS3DebugLogs").innerHTML = '';
+                document.querySelector("#insertDisableAwsS3DebugLogs").style.display = 'none';
+            }
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function GetPipelineAwsS3LogFiles() {
+        const data = await postData("{% url "getPipelineAwsS3LogFiles" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController")})
+
+        if (data.status == "failed") {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            if (intervalId) {
+                // Stop refreshing the aws s3 upload page while viewing the log page
+                clearInterval(intervalId);
+                // Hard set the intervalId to 0 to make sure it's 0
+                intervalId = 0;
+            }
+            blinkSuccess();
+            document.querySelector("#insertContents").innerHTML = data.dropdownFileMenu;
+        }
+        getInstantMessages(webpage='debug');
+    }
+
+    async function showPipelineAwsS3Logs() {
+
+    }
+</script>
+{% endblock extra_js %}

@@ -1,0 +1,333 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/playbooks.css" %} rel="stylesheet" type="text/css">
+{% endblock extra_css %}
+
+<!-- Stop the sidebar from scrolling with the main content, add the styles-->
+<!-- <div style="overlfow:auto; height:0px"> -->
+{% block content %}
+<div class="container-fluid">
+    <div id='selectedPlaybookGroupToView' group={{selectedPlaybookGroupToView}}></div>
+
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+        <div class="playbookNavbarInline">
+            <a href="#" data-toggle="modal" data-target="#createPlaybookModal" onclick="getPlaybookTemplate()">Create Playbook</a>&emsp;&emsp;
+            <a href="#" data-toggle="modal" data-target="#deletePlaybookModal">Delete Playbook</a>&emsp;&emsp;
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="insertInlineBlock paddingLeft2px marginTop5px">
+        <!-- <div class="row btn-group-sm align-item-start marginTop50px"> -->
+        <input class="col-2 form-control" type="search" id="searchForPlaybook" onkeyup="searchForPlaybook()" placeholder="Filter Playbook" title="Type in a name">&emsp;
+        </div>
+    </div>
+
+    <!-- table-responsive -->
+    <div class="row"> 
+        <table class="tableFixHead2" id="playbookTable"> 
+            <thead>
+              <tr>
+                <th scope="col">Delete</th>
+                <th scope="col">View / Edit</th>
+                <th scope="col">Playbooks</th>
+              </tr>
+            </thead>
+
+            <tbody class="scrollableDiv" id="tableData"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="createPlaybookModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="createPlaybookContents" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable createPlaybookModalStyle">
+        <div class="modal-content">
+ 
+            <div class="modal-header">
+                <h5 class="modal-title modalHeaderTextColor">Create Playbook</h5>
+                <div id="createPlaybookStatus"></div>
+            </div>
+
+            <div class="row modal-body">
+                <textarea id="insertPlaybookTemplate" cols="123" rows="25"></textarea><br><br>
+            </div>
+
+            <div class="modal-footer">
+                <div class="insertInlineBlock">
+                    <input type="text" id="newPlaybook" class="form-control floatRight" placeholder="New playbook name" />
+                    <input type="text" id="playbookGroup" class="form-control floatRight" placeholder="Optional: Playbook Group: Could be nested by /using/slashes" />
+
+                    <button id="createPlaybookButton" class="btn btn-sm btn-primary floatRight margin5px"
+                        onclick="createPlaybook()">
+                            Create Playbook
+                    </button>
+
+                    <button type="submit" name="" value="" id="closeCreatePlaybookTextAreaId"
+                        onclick="closeCreatePlaybook()" class="btn btn-sm btn-danger floatRight margin5px" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="viewEditPlaybookModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable viewEditPlaybook">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <!-- <h5 class="modal-title" id="playbookContents">Playbook</h5> -->
+                <h5 class="modal-title" id="currentOpenedFile"></h5>
+                <div id="modifyPlaybookStatus"></div>
+            </div>
+
+            <div class="row modal-body" id="insertFileContents"></div>
+
+            <div class="modal-footer">
+                <!-- Click this button calls modifyFile(). modifyFile() will getElementById('textarea') to get the text -->
+			    <button id="modifyButton" onclick="modifyFile()"
+                class="btn btn-sm btn-primary floatRight margin5px">
+                    Modify File
+                </button>
+
+                <button type="submit" name="" value="" id="textAreaButton"
+                onclick="closeText()" class="btn btn-sm btn-danger floatRight margin5px" data-bs-dismiss="modal">
+                    Close
+                </button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="deletePlaybookModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="deletePlaybook" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:30%; height:300px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<h5 class="modal-title" id="editFile">Delete playbooks&ensp;</h5>
+				<div id="deletePlaybooksStatus"></div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row">&ensp;&ensp;Are you sure that you want to delete playbooks?</div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" onclick="deletePlaybooks()">Delete</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="closeText()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+{% block extra_js %}
+<script>
+    var newPlaybookName = '';
+    var newPlaybookTextArea = '';
+    var suiteName = '';
+    var playbookGroup = '';
+    var stage = '';
+    var selectedModule = '';
+    var setupFile = '';
+    var selectedTestcases = [];
+
+    // Unhide messages
+    /*
+    let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+    if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+        hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+    }
+    */
+
+    // Fill table data onload
+    document.addEventListener("DOMContentLoaded", function() {
+        getTableData();
+        getInstantMessages(webpage='playbooks');
+        getServerTime();
+    })
+
+    // Don't close the dropdown-menu when clicking inside
+    document.querySelector('#doNotClose').addEventListener('click', function(event) {
+        event.stopPropagation();
+    })
+
+    async function deletePlaybooks(playbookList=null) {
+        let deletePlaybooks = [];
+        let playbookCheckboxes = document.querySelectorAll('input[name="playbookCheckboxes"]:checked');
+        playbookCheckboxes.forEach((checkbox) => {
+            console.log(`Delete playbook clicked: ${checkbox.value}`)
+            deletePlaybooks.push(checkbox.value);
+        })
+
+        console.log(`playbook template.deletePlaybooks(): ${deletePlaybooks}`);
+        data = await postData("{% url "deletePlaybooks" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), 
+                                             deletePlaybooks: deletePlaybooks});
+
+        if (data.status == "success") {
+            status = `<div style='color:green'>Successfully deleted playbooks</div>`
+        } else {
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+        }
+       
+        document.querySelector("#deletePlaybooksStatus").innerHTML = status;
+    }
+
+    async function getFileContents(filePath) {
+        try {
+            console.log('getFileContents(): filePath: ' + filePath.value)
+
+            // getFileContents calls sidebar/views
+            const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 filePath: filePath.value})
+            
+            // Text area. Set the name attr with the module preferences file path.
+            document.querySelector("#insertFileContents").innerHTML =
+            '<textarea id="textareaId" name=' + data.fullPath + ' cols="123" rows="25">' +
+            data.fileContents + '</textarea><br><br>';
+            
+            let toggle = document.querySelector("#insertFileContents")
+            // Toggle to show text 
+            //toggle.style.display = toggle.style.display == "block" ? "none" : "block";
+            // toggle.style.display = toggle.style.display == "block";
+            toggle.style.display = "block";
+            
+            document.querySelector("#currentOpenedFile").innerHTML = '<h7>' + 'Playbook:&emsp;' + data.fullPath.split("/Playbooks/").slice(1) + '</h7>'
+            document.querySelector('#modifyButton').style.display = "block"
+            document.querySelector('#textAreaButton').style.display = "block"
+
+        } catch (error) {
+            console.log("playbook getFileContents() error: " + error)
+            status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            document.querySelector("#modifyPlaybookStatus").innerHTML = status;
+        }
+
+        getInstantMessages(webpage='playbooks');	  
+    }
+
+    async function modifyFile() {
+        /* Modify existing playbook */
+
+        try {
+            let textarea = document.querySelector('#textareaId').value
+            let filePath = document.querySelector('#textareaId').name
+
+            const data = await postData("{% url "modifyFile" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 textarea: textarea, filePath: filePath})
+
+            if (data.status == "success") {
+                status = `<div style='color:green'>Successfully modified Playbook</div>`
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            }
+           
+            document.querySelector("#modifyPlaybookStatus").innerHTML = status;
+
+        } catch (error) {    
+            console.log("modifyFile() error: " + error)
+        }
+        getInstantMessages(webpage='playbooks');
+    }
+
+    function closeText() {
+        /* Close the opened Playbook */ 
+
+        try {
+            document.querySelector("#textareaId").value = '';
+        } catch (error) {
+
+        }
+
+        // Toggle to hide buttons
+        //toggle.style.display = toggle.style.display == "none" ? "block" : "none";
+        document.querySelector("#insertFileContents").style.display = "none";
+        document.querySelector('#modifyButton').style.display = "none";
+        document.querySelector('#textAreaButton').style.display = "none";
+        document.querySelector("#currentOpenedFile").innerHTML = "";
+        document.querySelector("#modifyPlaybookStatus").innerHTML = "";
+        document.querySelector("#deletePlaybooksStatus").innerHTML = "";
+
+        var checkboxes = document.querySelectorAll('input[type="playbookCheckboxes"]')
+        for (var x=0; x < checkboxes.length; x++) {
+            checkboxes[x].checked = false;
+        }
+
+        getTableData();
+        getInstantMessages(webpage='playbooks');
+    }
+
+    async function getPlaybookTemplate() {
+        console.log('getPlaybookTemplate()')
+        const data = await postData("{% url "getPlaybookTemplate" %}", "{{csrf_token}}", "POST", 
+                                            {remoteController: sessionStorage.getItem("remoteController")})
+        document.querySelector("#insertPlaybookTemplate").value = data.playbookTemplate
+    }
+
+    async function createPlaybook() {
+        /* Create actual playbook */
+
+        try {
+            let textArea = document.querySelector('#insertPlaybookTemplate').value;
+            newPlaybook = document.querySelector('#newPlaybook').value;
+            playbookGroup = document.querySelector('#playbookGroup').value;
+
+            console.log(`createPlaybook(): newPlaybook=${newPlaybook}`)
+
+            const data = await postData("{% url "createPlaybook" %}", "{{csrf_token}}", "POST", 
+                        {remoteController: sessionStorage.getItem("remoteController"), textArea: textArea, 
+                         newPlaybook: newPlaybook, playbookGroup:playbookGroup})
+
+            if (data.status == "success") {
+                status = `<div style='color:green'>Successfully created Playbook</div>`
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+            }
+
+            document.querySelector("#createPlaybookStatus").innerHTML = status
+
+            console.log('createPlaybook(): success')
+        } catch (error) {    
+            console.log("createPlaybook() error: " + error)
+        }
+        getTableData();
+        getInstantMessages(webpage='playbooks');
+    }
+
+    function closeCreatePlaybook() {
+        //getPlaybookTemplate();
+        document.querySelector("#newPlaybook").value = '';
+        document.querySelector('#playbookGroup').value = '';
+        document.querySelector("#createPlaybookStatus").innerHTML = '';
+        document.querySelector("#insertPlaybookTemplate").value = '';
+        console.log('closeCreatePlaybook()')
+    }
+
+    async function getTableData() {
+        let selectedPlaybookGroupToView = document.querySelector('#selectedPlaybookGroupToView').getAttribute('group');
+        console.log(`selectedPlaybookGroupToView: ${selectedPlaybookGroupToView}`);
+
+        const data = await postData("{% url "getPlaybooks" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), 
+                                             playbookGroup:selectedPlaybookGroupToView})
+
+        document.querySelector('#tableData').innerHTML = data.tableData
+        document.querySelector('#topbarTitlePage').innerHTML = `Playbooks&emsp;|&emsp;Group: ${selectedPlaybookGroupToView}` 
+        sortTable(tableId="#playbookTable", columnIndex=1);    
+    }
+
+    function searchForPlaybook() {
+        // Call search in commons.js
+        search(searchInputId="#searchForPlaybook", tableId='#playbookTable', columnIndex=2)
+    }
+
+</script> 
+{% endblock extra_js %}

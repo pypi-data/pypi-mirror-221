@@ -1,0 +1,37 @@
+# 1> setup.py copies all required files to be packaged to folder Keystack
+# 2> This MANIFEST file will take what's in this local folder /PackageKeystack/Keystack folder for packaging
+
+global-exclude __pycache__
+global-exclude *.pyc
+
+include Keystack/LICENSE
+include Keystack/keystackUtilities.py
+include Keystack/EnvMgmt.py
+include Keystack/keystack.py
+include Keystack/commonLib.py
+include Keystack/parseParams.py
+include Keystack/globalVars.py
+include Keystack/version
+include Keystack/db.py
+include Keystack/__init__.py
+
+recursive-include Keystack/KeystackUI *
+recursive-include Keystack/Services *
+recursive-include Keystack/Setup *
+
+#recursive-include Keystack/Setup *
+#recursive-include Keystack/Setup/Samples *
+#recursive-include Keystack/Setup/Samples/Envs *
+#recursive-include Keystack/Setup/Samples/Playbooks *
+#recursive-include Keystack/Setup/Samples/Docker *
+#recursive-include Keystack/Setup/Samples/Modules/LoadCore *
+#recursive-include Keystack/Setup/Samples/Modules/CustomPythonScripts *
+#recursive-include Keystack/AirMosaic *
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Downloaded Swagger-UI from Github:
+https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/installation.md
+
+Edited: /dist/swagger-initializer.js
+       url: "/api/v1/restAPI/docs",
+
+Originally from:
+   <script src="https://unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@3/swagger-ui.css">
+
+<script>
+
+    // schema-swagger-ui | restAPI
+    const ui = SwaggerUIBundle({
+        url: "{% url 'schema-swagger-ui' %}",
+        dom_id: '#swagger-ui',
+        presets: [
+            SwaggerUIBundle.presets.apis,
+            SwaggerUIBundle.SwaggerUIStandalonePreset
+        ],
+        layout: "BaseLayout",
+        requestInterceptor: (request) => {
+            request.headers['X-CSRFToken'] = "{{ csrf_token }}"
+            return request;
+        }
+    })
+</script> 

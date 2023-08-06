@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<style>
+    /* frontendmentor.io */
+
+    .grid {
+        //height: 100vh;
+        display:grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 700px;
+        grid-template-areas:
+            "sidebar main";
+        grid-gap: 0.2rem;
+    }
+
+    #sidebarMenu {
+        grid-area: sidebar;
+        border-radius: 0px;
+    }
+
+    main {
+        grid-area: main;
+        background: green;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 2fr;
+            grid-template-areas:
+                "main"
+                "sidebar"
+        }
+    }
+
+</style>
+{% endblock extra_css%}
+
+{% block extra_style %}
+<style>
+    .section-content .keystackSidebar li .submenu { 
+        list-style: none; 
+        margin: 0; 
+        padding: 0; 
+        padding-left: 1rem; 
+        padding-right: 1rem;
+    }
+
+    .section-content .keystackSidebar .nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--bs-dark);
+        line-height: .1;
+    }
+
+    .keystackSidebar .nav-link:hover {
+        color: var(--bs-primary);
+    }
+
+</style>
+{% endblock extra_style %}
+
+{% block content %}
+<div class="container-fluid">
+    Coming soon!
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    getServerTime();
+
+    document.addEventListener("DOMContentLoaded", function(){
+        document.querySelectorAll('.keystackSidebar .nav-link').forEach(function(element){
+            element.addEventListener('click', function (e) {
+                let nextEl = element.nextElementSibling;
+                let parentEl  = element.parentElement;	
+
+                if(nextEl) {
+                    e.preventDefault();	
+                    let mycollapse = new bootstrap.Collapse(nextEl);
+
+                    if(nextEl.classList.contains('show')){
+                        mycollapse.hide();
+                    } else {
+                        mycollapse.show();
+                        // find other submenus with class=show
+                        var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
+                        // if it exists, then close all of them
+                        if(opened_submenu){
+                            new bootstrap.Collapse(opened_submenu);
+                        }
+                    }
+                }
+            });
+        })
+    }); 
+    // DOMContentLoaded  end
+</script>
+{% endblock extra_js %}

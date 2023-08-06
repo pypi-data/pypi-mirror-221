@@ -1,0 +1,435 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<style>
+    .hideCard {
+        display: none; 
+    }
+
+    .hideModifyUserCard {
+        display: none;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- <nav class="navbar navbar-expand-sm topbar fixed-top" style="position:fixed; padding-left:240px; top:50px; width:100%; height:35px; z-index:9; background:#eee; color:black; font-size:15px"> -->
+    <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+        <div style="display:inline-block; margin-top:5px">
+            <a href="#" onclick="toggleCard(cardId='#hideCard', classname='hideCard')">Create User</a>&emsp;         
+        </div>
+    </nav>
+
+    <div class='card mt-5 hideCard' id='hideCard'>
+        <div class="card-header" style="background-color: #081aa8; color:white;">
+            Create New User
+        </div>
+
+        <div class="card-body">
+            
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <label for='fullName' class='col-form-label'>Full Name:</label>
+                </div>
+                <div class="col-auto">
+                    <input type='text' id='fullName' class='form-control'>
+                </div>
+
+                <div class="col-auto">
+                    <label for='loginName' class='col-form-label'>Login Name:</label>   
+                </div>
+
+                <div class="col-auto" style="display:flex; flex-direction:row; justify-content:center; align-items: center">
+                    <input type='text' id='loginName' class='form-control' />
+                </div>
+
+                <div class="col-auto" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                    <label for='password' class='col-form-label'>Password:</label>&emsp;
+                    <input type='password' id='password' class="form-control"  /> &ensp;
+                    <span class="fa-solid fa-eye" onclick="viewPassword()"></span>
+                </div>
+            </div>
+     
+            <div class="row align-items-center mt-3">
+                <div class="col-auto">
+                    <label for='email' class='col-form-label'>Email:</label>
+                </div>
+                <div class="col-auto">
+                    <input type='text' id='email' class='form-control'>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div style="display:inline-block">
+                    <div class="pl-2 form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id='admin' name='userRole' value="admin">
+                        <label for='admin' class='form-check-label'>Admin</label>
+                    </div>
+
+                    <div class="pl-2 form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id='manager' name='userRole' value="admin">
+                        <label for='manager' class='form-check-label'>Manager</label>
+                    </div>
+
+                    <div class="pl-2 form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id='engineer' name='userRole' value="engineer">
+                        <label for='engineer' class='form-check-label'>Engineer</label>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- card-body -->
+
+        <div class="card-footer text-center" style="background-color: #081aa8">
+            <button type="button" class="btn btn-sm btn-primary ml-2 col-1" color:white" onclick="clearFields()">Clear Fields</button>
+            <button type="button" class="btn btn-sm btn-primary ml-2 col-1" onclick="closeForm()">Close Form</button>
+            <button type="button" class="btn btn-sm btn-primary ml-2 col-1" onclick="addUser()">Add User</button>
+        </div>
+    </div>
+    <!-- Create user card -->
+
+    <div class='card mt-5 hideModifyUserCard' id='hideModifyUserCard'>
+        <div class="card-header" id='modifyUserCardHeader' style="background-color: #081aa8; color:white;">
+            Modify User:&ensp; 
+        </div>
+
+        <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <label for='loginName' class='col-form-label'>Login Name:</label>
+                </div>
+                <div class="col-auto">
+                    <input type='text' id='modifyLoginName' class='form-control' placeholder=''>
+                </div>
+
+                <div class="col-auto">
+                    <label for='password' class='col-form-label'>Password:</label>
+                </div>
+                <div class="col-auto" style="display:flex; flex-direction:row; justify-content:center; align-items:center">
+                    <input type='password' id='modifyPassword' class='form-control' placeholder=''>&ensp;
+                    <span class="fa-solid fa-eye" onclick="viewPassword()"></span>
+                </div>
+            
+                <div class="col-auto">
+                    <label for='email' class='col-form-label'>Email:</label>
+                </div>
+                <div class="col-3">
+                    <input type='text' id='modifyEmail' class='form-control' placeholder=''>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="pl-2 form-check form-check-inline" style="inline:block">
+                    <input class="form-check-input" type="radio" id='modifyAdmin' name='modifyUserRole' value="admin">
+                    <label for='modifyAdmin' class='form-check-label'>Admin</label>
+                </div>
+
+                <div class="pl-2 form-check form-check-inline" style="inline:block">
+                    <input class="form-check-input" type="radio" id='modifyManager' name='modifyUserRole' value="manager">
+                    <label for='modifyManager' class='form-check-label'>Manager</label>
+                </div>
+
+                <div class="pl-2 form-check form-check-inline" style="inline:block">
+                    <input class="form-check-input" type="radio" id='modifyEngineer' name='modifyUserRole' value="engineer">
+                    <label for='modifyEngineer' class='form-check-label'>Engineer</label>
+                </div>
+            </div>
+
+        </div> <!-- card-body -->
+
+        <!-- Footer  id="hideCardFooter" -->
+        <div class="card-footer text-center" style="background-color: #081aa8">
+            <button type="button" class="btn btn-sm btn-primary ml-2 col-1" onclick="closeModifyUserForm()">Close Form</button>
+            <button type="button" class="btn btn-sm btn-primary ml-2 col-1" onclick="modifyUser()">Modify User</button>
+        </div>
+    </div>
+    <!-- Modify user card -->
+
+    <div class="row mt-5">
+        <input class="col-2 form-control" type="search" id="searchForUser" onkeyup="searchForUser()" placeholder="Search for user" title="Type in a name">&emsp;
+    </div>
+
+    <div class='row mt-3'>
+        <!-- <table class="table table-sm table-bordered table-fixed tableFixHead tableMessages" id="userAccountTableData"> -->
+        <table class="table tableFixHead2" id="userAccountTableData"> 
+            <thead>
+                <tr>
+                    <th scope="col">Delete</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">LoginName</th>
+                    <th scope="col">User Role</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">API-Key</th>
+                </tr>
+            </thead>
+        
+            <tbody id="tableData"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="apiKeyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="apiKey" aria-hidden="true"">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:50%; height: 400px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="archiveResults">API-Key</h5>
+            </div>
+
+            <div class="modal-body">
+                <div class='row mt-1' id="insertApiKey" style="margin-left:10px; display:inline-block">
+                </div>
+
+                <div id="getUser" user=""></div>
+
+                <div class='row mt-5 col-3'>
+                    <button type="button" style="margin-left:10px" class="btn btn-sm btn-outline-primary" onclick="regenerateApiKey()">Regenerate API-Key</button>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+    var fullName = '';
+    var loginName = '';
+    var password = '';
+    var email = '';
+    var userRole = '';
+    var modifyFullName = '';
+
+    /*
+    let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+    if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+        hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+    }
+    */
+
+    document.addEventListener("DOMContentLoaded", function() {        
+        getTableData();
+        getInstantMessages(webpage='accountMgmt');
+        getServerTime();
+    })
+
+    function viewPassword() {
+        // There is an eye icon next to password input box.
+        let passwordView = ['#password', '#modifyPassword']
+
+        for (let x=0; x < passwordView.length; x++) {
+            let currentPasswordView = document.querySelector(passwordView[x])
+
+            if (currentPasswordView.type === "password") {
+                currentPasswordView.type = "text";
+            } else {
+                currentPasswordView.type = "password";
+            }
+        }
+    }
+
+    function toggleCard(cardId, classname) {
+        let div = document.querySelector(cardId);
+        if (div.classList.contains(classname)) {
+            div.classList.remove(classname);
+        } else {
+            div.classList.add(classname);
+        }
+    }
+
+    function closeForm() {
+        console.log('accountMgmt template.closeForm()')
+        clearFields();
+        toggleCard(cardId='#hideCard', className='hideCard');
+    }
+
+    function closeModifyUserForm() {
+        console.log('accountMgmt template.closeModifyUserForm()')
+        clearFields()
+        toggleCard(cardId='#hideModifyUserCard', className='hideModifyUserCard')
+
+        let modifyUserCardHeaader = document.querySelector('#modifyUserCardHeaader');
+        modifyUserCardHeader.innerHTML = 'Modify User:&ensp;'
+    }
+
+    function clearFields() {
+        console.log('accountMgmt template.clearFields()')
+        document.querySelector('#admin').checked = false;
+        document.querySelector('#manager').checked = false;
+        document.querySelector('#engineer').checked = false;
+
+        let fullName =  document.querySelector('#fullName').value = '';
+        let loginName = document.querySelector('#loginName').value = '';
+        let password =  document.querySelector('#password').value = '';
+        let email =     document.querySelector('#email').value = '';
+        modifyFullName = '';
+    }
+
+    async function addUser() {
+        // Get the radio button selection
+        let userRole =   document.querySelector('input[name="userRole"]:checked').id;
+        let fullName =   document.querySelector('#fullName').value;
+        fullName =       fullName.replace(/\b[a-z]/g, match => match.toUpperCase());
+        let loginName =  document.querySelector('#loginName').value;
+        let password =   document.querySelector('#password').value;
+        let email =      document.querySelector('#email').value;
+
+        var userFields = {"fullName":fullName, "loginName":loginName, "password":password, "email":email};
+        for (const [key, value] of Object.entries(userFields)) {
+            if (value == "") {
+                alert(`The user field cannot be empty: ${key}`)
+                return
+            }        
+        }
+
+        if (fullName.split(" ").length < 2) {
+            alert('Full name must have first and last name')
+            return
+        }
+
+        if (password.split(" ").length > 1) {
+            alert('Password cannot have spaces')
+            return
+        }
+
+        if (userRole == "") {
+            alert("Please select a user role for the new user")
+            return
+        }
+
+        console.log(`addUser(): ${fullName}, ${loginName}, ${password}, ${email}, ${userRole}`)
+        await postData("{% url "addUser" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                fullName:fullName, loginName:loginName, password:password,
+                                                email:email, userRole:userRole})
+        getTableData();
+        getInstantMessages(webpage='accountMgmt');
+    }
+
+    async function modifyUser() {
+        let userRole =   document.querySelector('input[name="modifyUserRole"]:checked').value;
+        let loginName =  document.querySelector('#modifyLoginName').value;
+        let password =   document.querySelector('#modifyPassword').value;
+        let email =      document.querySelector('#modifyEmail').value;
+        
+        console.log(`modifyUser(): ${loginName}  ${password}  ${email}  ${userRole}`)
+        const userDetails = [{'loginName':loginName}, {'password':password}, {'email':email}, {'userRole':userRole}];
+        const validModifiedFields = {};
+
+        userDetails.forEach(detail => {
+            for(const [key, value] of Object.entries(detail)) {
+                if (value) {
+                    validModifiedFields[key] = value;
+                }
+            }
+        })
+
+        console.log(`modifyUser(): username: ${modifyFullName}   loginName: ${loginName}  ${validModifiedFields}`)
+        data = await postData("{% url "modifyUserAccount" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), 
+                                         userFullName: modifyFullName, modifyFields: validModifiedFields});
+
+        if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            blinkSuccess();
+        }
+
+        modifyFullName = '';
+        getTableData();
+        getInstantMessages(webpage='accountMgmt');
+    }
+
+    async function modifyUserForm(object) {
+        /* object = the user's fullName by clicking on the user fullName */
+
+        toggleCard(cardId='#hideModifyUserCard', className='hideModifyUserCard');
+        let modifyUserCardHeaader = document.querySelector('#modifyUserCardHeaader');
+
+        modifyFullName = object.getAttribute('user');
+        modifyUserCardHeader.innerHTML = `Modify: ${modifyFullName}`
+        console.log(`modifyUserForm(): ${modifyFullName}`)
+
+        const userDetails = await postData("{% url "getUserDetails" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 fullName:modifyFullName})
+
+        var currentLoginName = document.querySelector('#modifyLoginName').setAttribute('placeholder', userDetails.loginName);
+        var currentPassword = document.querySelector('#modifyPassword').setAttribute('type', 'password');
+        var currentPassword = document.querySelector('#modifyPassword').setAttribute('placeholder', userDetails.password);
+        
+        var currentEmail = document.querySelector('#modifyEmail').setAttribute('placeholder', userDetails.email);
+        var currentUserRole = userDetails.userRole;
+
+        if (userDetails.userRole == 'admin') {
+            document.querySelector('#modifyAdmin').checked = true;
+        } else if (userDetails.userRole == 'manager') {
+            document.querySelector('#modifyManager').checked = true;
+        } else if (userDetails.userRole == 'engineer') {
+            document.querySelector('#modifyEngineer').checked = true;
+        }
+
+        getTableData();
+        getInstantMessages(webpage='accountMgmt');
+    }
+
+    async function deleteUser(object) {
+        userFullName = object.getAttribute('userFullName');
+        console.log(`deleteUser(): ${userFullName}`)
+        await postData("{% url "deleteUser" %}", "{{csrf_token}}", 'POST', 
+                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                 fullName:userFullName})
+        getTableData();
+        getInstantMessages(webpage='accountMgmt');
+    }
+
+    async function getTableData() {
+        console.log('accountMgmt getTableData()')
+        const data = await postData("{% url "getUserAccountTableData" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), })
+        document.querySelector('#tableData').innerHTML = data.tableData
+        sortTable(tableId="#userAccountTableData", columnIndex=1)
+    }
+
+    function searchForUser() {
+        // Call search in commons.js
+        search(searchInputId="#searchForUser", tableId='#userAccountTableData', columnIndex=1)
+    }
+
+    async function openApiKeyModal(obj) {
+        fullName = obj.getAttribute('user');
+        console.log(`accountMgmt getApiKey() for ${fullName}`)
+        const data = await postData("{% url "getApiKey" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), userFullName: fullName})
+        document.querySelector('#insertApiKey').innerHTML = `User: ${fullName}<br><br>API-Key: ${data.apiKey}`
+        document.querySelector('#getUser').setAttribute('user', fullName)
+
+    }
+
+    async function getPassword(obj) {
+        fullName = obj.getAttribute('user');
+        console.log(`accountMgmt getPassword() for ${fullName}`)
+        const data = await postData("{% url "getPassword" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), userFullName: fullName})
+        alert(`User: ${fullName}\nPassword: ${data.password}`)
+    }
+
+    async function regenerateApiKey(obj) {
+        fullName = document.querySelector('#getUser').getAttribute('user')
+        console.log(`accountMgmt regenerateApiKey() for ${fullName}`)
+        const data = await postData("{% url "regenerateApiKey" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), userFullName: fullName})
+        document.querySelector('#insertApiKey').innerHTML = `User: ${fullName}<br><br>API-Key: ${data.apiKey}`
+    }
+
+</script>
+{% endblock extra_js %}

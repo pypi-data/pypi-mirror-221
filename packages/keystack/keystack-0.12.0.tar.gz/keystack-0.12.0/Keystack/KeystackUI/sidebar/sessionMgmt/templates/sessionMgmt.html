@@ -1,0 +1,1422 @@
+{% extends "base.html" %}
+{% load static %}
+{% load fileMgmtTags %}
+
+{% block extra_css %}
+    <link href={% static "commons/css/sessionMgmt.css" %} rel="stylesheet" type="text/css">
+    <!-- <link href={% static "jobScheduler/vanilla-datetimerange-picker.css" %} rel="stylesheet" type="text/css"> -->
+    <link href={% static "commons/css/testResultsTreeView.css" %} rel="stylesheet" type="text/css">
+    <link href={% static "commons/css/spin.css" %} rel="stylesheet" type="text/css">
+    <link href={% static "commons/css/commons.css" %} rel="stylesheet" type="text/css">
+    <style>
+        .sessionSpinningProgress {
+            position: relative;
+            /* width: 50px; */
+            /* height: 50px; */
+            /* background-color: blue; */
+        }
+    </style>
+{% endblock extra_css%}
+
+{% block content %}
+
+<div class="container-fluid">
+  <div id='getSessionGroupToShow' group={{showGroupSessions}} view={{showGroupView}}></div>
+
+  <!-- sticky-top second-nav -->
+  <nav class="navbar navbar-expand-sm topbar fixed-top secondNavbarStyle">
+      <div class="insertInlineBlock marginTop5px">
+          <div class="dropdown insertInlineBlock">
+            <!-- <i class="fa-solid fa-binoculars text-black"></i>  -->
+            <a class="dropdown-toggle" data-toggle="dropdown" role='button' aria-haspopup=true aria-expanded=false>
+                Play Pipeline
+            </a>
+            <div id="insertPipelines"></div>
+          </div> 
+          &emsp;&emsp;
+
+          <div class="dropdown insertInlineBlock">
+              <!-- <i class="fa-solid fa-binoculars text-black"></i>  -->
+              <a class="dropdown-toggle" id="insertSelection" data-toggle="dropdown" role='button' aria-haspopup=true aria-expanded=false>
+                Select Playbook To Play
+              </a>
+
+              <ul class="dropdown-menu dropdownSizeSmall dropdownFontSize" id="selectPlaybook">
+                  <div id='insertPlaybookNames'></div>
+              </ul>
+          </div> 
+          &emsp;&emsp;
+
+          <div class="dropdown insertInlineBlock">
+            <a class="dropdown-toggle" id="testParameters" data-toggle="dropdown" role='button' aria-haspopup=true aria-expanded=false>
+                Test Parameters
+            </a>
+
+            <div class="dropdown-menu testParameterDropdownSize">
+                <div class="marginTop10px flexRowInlineBlockLeft">
+                    <label for='sessionId' class="testParameterSessionIdLabel">Session Id (Optional): </label>&emsp; 
+                    <input type="text" class="form-control width300px" id="sessionId"/><br>
+                </div>
+                <br>
+
+                <label class="modalTextColor marginLeft20px" for='insertGroups'>Put test results to a test group folder</label>
+                <div class="testParameterInsertTestGroup">
+                    Test Groups:&emsp;<div id="insertGroups"></div>
+                </div>
+                <br>
+
+                <div class="marginLeft20px">
+                    <input type="checkbox" id="runInDebugMode"/>&ensp;<label class="modalTextColor" for='runInDebugMode'>debugMode</label>: Result folder will be tagged with _debugMode and this will not be tracked<br>
+                    <input type="checkbox" id="emailResults" />&ensp;<label class="modalTextColor" for='emailResults'>emailResults</label>: Email result summary when test is completed<br>
+                    <input type="checkbox" id="awsS3Upload" />&ensp;<label class="modalTextColor" for='emailResults'>awsS3</label>: Send results to AWS S3 bucket when test is completed<br>
+                    <input type="checkbox" id="jira" />&ensp;<label class="modalTextColor" for='jira'>jira</label>: Automatically open Jira bug defect upon encountering failures<br>
+                    <input type="checkbox" id="pauseOnError" />&ensp;<label  class="modalTextColor" for='pauseOnError'>pauseOnFailure</label>: Pause the test on each failure for debugging<br>
+                    <input type="checkbox" id="holdEnvsIfFailed" />&ensp;<label class="modalTextColor" for='jira'>holdEnvsIfFailed</label>: Don't release the env if test failed for debugging<br>
+                    <input type="checkbox" id="abortTestOnFailure" />&ensp;<label class="modalTextColor" for='jira'>abortTestOnFailure</label>: Abort the test immediately on the first failure<br>
+                    <input type="checkbox" id="includeLoopTestPassedResults" />&ensp;<label class="modalTextColor" for='jira'>includeLoopTestPassedResults</label>: Include loop test results. Default=False.<br>
+                </div>
+
+                <div class="marginLeft20px">
+                    <button type="submit" class="btn btn-sm btn-danger mt-2 ml-0 mb-3 testParameterSubmitButton" onclick="resetParams()">Reset</button>
+
+                    <button type="submit" class="btn btn-sm btn-primary mt-2 ml-3 mb-3 testParameterSubmitButton" onclick="closeTestParameters()">Done</button>
+                </div>
+            </div>
+        </div> 
+        &emsp;&emsp;
+
+        <!-- <a href="#" id="managePipelines" onclick="pipelineManagerModal(this)" data-bs-toggle="modal" data-bs-target="#pipelineManagerModal">Save|View Pipelines</a>&emsp;&emsp; -->
+        <a href="#" id="managePipelines"  onclick="getUserSelectedTestParameters()" data-bs-toggle="modal" data-bs-target="#pipelineManagerModal">Save|View Pipelines</a>&emsp;&emsp;
+
+        <!-- <i class="fa-solid fa-play text-black"></i> -->
+        <a href="#" onclick="runPlaybookNow()">Play Now</a>&emsp;&emsp;
+
+        <!-- <i class="fa-regular fa-calendar-alt text-black"></i> -->
+        <!-- <a href="#" id="datetimePicker" size="24" class="textAlignCenter">Test Scheduler</a>&emsp;&emsp; -->
+        <a href="#" id="testScheduler" data-bs-toggle="modal" data-bs-target="#createJobSchedulerModal" onclick="getCronScheduler()">Scheduler</a>
+        <span class="verticalAlignTop badge badge-danger badge-counter" id='insertJobSchedulerCount'></span>&emsp;&emsp;
+      </div>
+  </nav>
+
+  <div class="row marginTop0px">
+      <div class="insertInlineBlock paddingLeft2px">
+          <a class="textBlack" href="#" onclick="deleteSessionButton()">Delete</a>&emsp;  
+          <a class="textBlack" href="#" onclick="archiveResults()">Archive Results</a>&emsp;
+          <a class="textBlack" href="#" onclick="showPipelineDetails()">Show Details</a>&emsp;
+
+            <input class="form-control filterStyle" type="search" id="filterSessionId" onkeyup="filterSessionId()" placeholder="Filter Pipeline">
+            <input class="form-control filterStyle" type="search" id="filterUser" onkeyup="filterUser()" placeholder="Filter User">
+            <input class="form-control filterStyle" type="search" id="filterPlaybook" onkeyup="filterPlaybook()" placeholder="Filter Playbook">
+            <input class="form-control filterStyle" type="search" id="filterStatus" onkeyup="filterStatus()" placeholder="Filter Status">
+
+            <!-- Can't filter results because it is a link
+            <input class="col-2 form-control" style="float:right; display:inline-block" type="search" id="filterResults" onkeyup="filterResults()" placeholder="Filter Result">&emsp;
+            -->
+
+          <!-- This brings up the websocketDemo page -->
+          <!-- <a href="{% url "websocketDemo" %}">websocket</a> -->
+      </div>
+  </div>
+
+    <!-- <table class="row table table-sm table-bordered table-fixed tableFixHead sticky" cellspacing="0"> -->
+    <!-- <table id="sessionsTable" class="table table-sm table-fixed tableFixHead mt-1" cellspacing="0">  -->
+
+   <div class="sessionSpinningProgress"></div>
+   <div class="row tableStyle">  
+        <table id="sessionsTable" class="tableFixHead2">   
+            <thead>
+                <!-- color:#66F854 style="background-color:#eee; color:black;" green: 177817   style="background-color:black; color:#66F854;" -->
+                <tr style="border-bottom: 1pt solid white;" id="pipelineDetails" class="showOverallPipelineDetails">
+                    <th colspan="12" style="background-color:black; color:yellow;" id="overallDetails"></th>
+                </tr>
+
+                <!-- <tr style="background-color:#eee; color:black;"> -->
+                <tr>
+                    <th>Select</th>
+                    <th>Users</th>
+                    <th>Pipeline ID</th>
+                    <th>Playbooks</th>
+                    <th>Stages</th>
+                    <th>Modules / Logs</th>
+                    <th>Envs</th>
+                    <th>Running</th>
+                    <th>Progress</th>
+                    <th>Status</th>
+                    <th>Result</th>
+                    <!-- <th>Logs</th> -->
+                </tr>
+            </thead>
+
+            <tbody id="tableData"></tbody>
+        </table>
+    </div>
+</div>
+<br>
+
+<div id="pipelinesPerPage"></div>
+
+<!-- Modal -->
+<div class="modal" id="testReportModalDiv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable testModal">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Test Report</h5>
+            </div>
+
+            <div class="modal-body" id="modalShowTestReport"></div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="testLogsModalDiv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="modifyFile" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable testModal">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="flexRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Logs and Artifacts:&ensp;</h5>
+					<div id="currentOpenedFile" class="marginLeft20px" style="float:left; padding-top:7px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body marginTop5px">
+				<div class="row" id="modalShowTestLogs"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="openFileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="modifyFile" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div class="flexRowInlineBlockRight">
+					<h5 class="modal-title" id="editFile">Result File:&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+            <div class="modal-body" style="margin-top:2px">
+				<div class="row" id="insertFileContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="createJobSchedulerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="createJobSchedulerModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable mediumModalSize">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title">Job Scheduler</h5> 
+                <h5 id="jobSchedulerStatus"></h5>
+            </div>
+
+            <div class="modal-body">
+                <!-- .---------------- minute (0 - 59)
+                     |  .------------- hour (0 - 23)
+                     |  |  .---------- day of month (1 - 31)
+                     |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+                     |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+                     |  |  |  |  |
+                     *  *  *  *  * 
+               -->
+               <div class="row">
+                    <h6 id="selectedPlaybook"></h6>
+               </div><br>
+
+               <div class="row">
+                    <span>** Leaving all values with  *  will run the job every minute!</span>
+               </div><br>
+
+               <div class="row">
+                    <div class="insertInlineBlock">
+                        <div class="insertInlineBlock" id="insertHour"></div>
+                        <div class="insertInlineBlock" id="insertMinute"></div>
+                        <div class="insertInlineBlock" id="insertDayOfMonth"></div>
+                        <div class="insertInlineBlock" id="insertMonth"></div>
+                        <div class="insertInlineBlock" id="insertDayOfWeek"></div>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="insertInlineBlock">
+                        <label class="modalTextColor" for="removeJobAfterRunning">Remove the scheduled job after execution</label>:&ensp;
+                        <input style="vertical-align:middle" type="checkbox" id="removeJobAfterRunning" />&emsp;
+                        <button type="button" class=" btn btn-sm btn-danger" onclick="saveScheduledJob()">Submit New Job</button>&emsp;
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button><br><br>
+                    </div>
+                </div>
+
+                <div class='row mt-2'>
+                    <div id="insertJobSchedules"></div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class=" btn btn-sm btn-danger" onclick="removeScheduledJobsButton()">Remove Scheduled Jobs</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="pipelineManagerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="pipelineManager" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable mediumModalSize">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="pipelineManager">Pipelines</h5>
+                <div id="showPipelineStatus"></div>
+            </div>
+
+            <div class="modal-body">
+                <div class='row'>
+                    <div class="flexRowInlineBlockLeft">
+                        <label for='pipelineNameId' class="testParameterSessionIdLabel">New Pipeline: </label>&emsp; 
+                        <input type="text" class="form-control width300px" id="pipelineNameId"/>&emsp; 
+                        <button type="button" class=" btn btn-sm btn-primary" onclick="savePipeline()">Save</button><br>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <span style="padding-left:125px">** Pipeline name cannot have "/" (slash)</span>
+                </div>
+                
+                <div class='row mt-4'>
+                    <div class='testParameterSessionIdLabel'>
+                        <div id="insertSelectedParameters"></div>
+                    </div>
+                </div>
+
+                <div class='row mt-4'>
+                    <div id="insertPipelineTableData"></div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class=" btn btn-sm btn-danger" onclick="deletePipeline()">Delete</button>
+                <button type="button" class="btn btn-primary" onclick="closePipelineModal()" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="showPlaybookModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="showPlaybook" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h6 class="modal-title" id="showPlaybook">Playbook:&ensp;</h6>
+                <div id="modifyPlaybookFileStatus" class="floatRight"></div>
+            </div>
+
+            <div class="modal-body">
+				<div id="insertPlaybookContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modifyButton" onclick="modifyFilePlaybook()" class="btn btn-sm btn-danger floatRight margin5px">
+                    Modify File
+                </button>
+
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="closePlaybookText()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="showEnvModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="showEnv" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<h6 class="modal-title" id="showEnv">Env:&ensp;</h6>
+                <div id="modifyEnvFileStatus" class="floatRight"></div>
+            </div>
+
+            <div class="modal-body">
+				<div id="insertEnvContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modifyButton" onclick="modifyFileEnv()" class="btn btn-sm btn-danger floatRight margin5px">
+                    Modify File
+                </button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="closeEnvText()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+
+{% block extra_js %}
+<script src="{% static 'commons/js/spin.js' %}"></script>
+
+<script>
+  var selectedPlaybook = '';
+  var playbookValues = '';
+  var selectedGroup = 'Default';
+  var selectedTestGroup = 'Default';
+  var getSessionView = 'current';
+  var refreshTableData = true;
+  var enterPageLoadTableData = true;
+  var deleteSessionsArray = new Array();
+  var archiveResultsArray = new Array();
+  var getSessionsInterval = 3000;
+  var userFilter;
+  var resultsFilter;
+  var playbookFilter;
+  var statusFilter;
+  var groupFilter;
+  var sessionIdFilter;
+  //For modifying playbook
+  var playbookPath;
+  // For modifying env
+  var envPath;
+
+  // Initiate an intervalId.  This will be set in getSessions()
+  var intervalId = null;
+
+  /*
+  let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+  if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+      hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+  }
+  */
+
+  document.addEventListener("DOMContentLoaded", function() {
+      // Do once only when entering this webpage. Instant table data refresh.
+        setInterval(() => {
+            if (document.readyState === "complete") {
+                if (enterPageLoadTableData) {
+                    getSessions();
+                    getPipelines();
+                    enterPageLoadTableData = false;
+                }
+            }
+        }, 100
+      );
+
+      showGroups();
+      GetPlaybookNamesDropdown();
+      getInstantMessages(webpage='pipelines');
+      getServerTime();
+
+      var opts = {
+        lines: 13, // The number of lines to draw
+        length: 35, // The length of each line
+        width: 5, // The line thickness
+        radius: 45, // The radius of the inner circle
+        scale: 1, // Scales overall size of the spinner
+        corners: 1, // Corner roundness (0..1)
+        speed: 1, // Rounds per second
+        rotate: 0, // The rotation offset
+        animation: 'spinner-line-fade-quick', // The CSS animation name for the lines
+        direction: 1, // 1: clockwise, -1: counterclockwise
+        color: '#000105', // CSS color or array of colors #ffffff
+        fadeColor: 'transparent', // CSS color or array of colors
+        top: '12%', // Top position relative to parent  50%   12%
+        left: '6.5%', // Left position relative to parent  50%   6.5%
+        shadow: '0 0 1px transparent', // Box-shadow for the lines
+        zIndex: 2000000000, // The z-index (defaults to 2e9)
+        //className: 'spinner', // The CSS class to assign to the spinner
+        position: 'relative', // Element positioning  absolute
+      };
+      //var target = document.querySelector('.sessionSpinningProgress');
+      //var spinner = new Spin.Spinner(opts).spin(target);
+  })
+
+  // eventListerner: dropdown-menu with id selectPlaybook. Use click eventListener to detect the user selection.
+  const dropdownSuiteSelection = document.querySelector('#selectPlaybook');
+  dropdownSuiteSelection.addEventListener('click', event => {
+      event.preventDefault();
+
+      // Get the displayed text
+      selectedPlaybook = event.target.innerText;
+      playbookValues = selectedPlaybook;
+      console.log(`playbookValues: ${playbookValues}`)
+      document.querySelector('#insertSelection').innerHTML = `Playbook: ${selectedPlaybook}`;
+  })
+
+  /*
+  // eventListerner: Use click eventListener to detect the user selection.
+  const testParameterClicked = document.querySelector('#testParameters');
+  testParameterClicked.addEventListener('click', event => {
+      event.preventDefault();
+      showGroups();
+  })
+  */
+
+
+  function showPipelineDetails() {
+      let pipelineOverallDetailsObj = document.querySelector("#pipelineDetails");
+
+      if (pipelineOverallDetailsObj.classList.contains("showOverallPipelineDetails")) {
+          pipelineOverallDetailsObj.classList.remove("showOverallPipelineDetails");
+      } else {
+          pipelineOverallDetailsObj.classList.add("showOverallPipelineDetails");
+      }
+  }
+
+  async function showGroups() {
+      // For Test Parameters: group list 
+
+      const data = await postData("{% url "showGroups" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController")});
+      console.log(`showGroups(): ${data.groups}`)
+
+      if (data.status == 'failed') {
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        document.querySelector('#insertGroups').innerHTML = data.groups;
+      }
+  }
+
+  async function GetPlaybookNamesDropdown() {
+        // For selecting which playbook to play
+
+        const data = await postData("{% url "getPlaybookNames" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController")});
+
+        if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector('#insertPlaybookNames').innerHTML = data.playbookNames;
+        }
+  }
+
+  function getSelectedSessions() {
+    // Collect all the selected checkboxes and delete them all in one shot
+    var checkboxArray = document.querySelectorAll('input[name=deleteSessionId]:checked');
+    
+    for (let x=0; x < checkboxArray.length; x++) {
+        let testResultsPath = checkboxArray[x].getAttribute('testResultsPath');
+        archiveResultsArray.push(testResultsPath)
+
+        // Uncheck the checkbox because getSessionIds() will not refresh 
+        // the page is any deleteSessionId checkbox is checked
+        checkboxArray[x].checked = false;
+    }
+  }
+
+  function closeTestParameters() {
+      document.querySelector('#testParameters').click();
+  }
+
+  async function archiveResults() {
+      console.log('Archiving Results: ' + archiveResultsArray)
+      getSelectedSessions();
+
+      let data = await postData("{% url "archiveResults" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), results:archiveResultsArray});
+      if (data.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        getSessions();
+        blinkSuccess();
+      }
+  }
+
+  function resetParams() {
+      /* Reset the test parameteres to default */
+      let sessionId = document.querySelector('#sessionId').value = '';
+      document.querySelector("#Default").checked = true;
+      let runInDebugModeCheckbox = document.querySelector('#runInDebugMode').checked = false;
+      let emailResultsCheckbox = document.querySelector('#emailResults').checked = false;
+      let awsS3UploadCheckbox = document.querySelector('#awsS3Upload').checked = false;
+      let jiraCheckbox = document.querySelector('#jira').checked = false;
+      let pauseOnErrorCheckbox = document.querySelector('#pauseOnError').checked = false;
+      let holdEnvsIfFailedCheckbox = document.querySelector('#holdEnvsIfFailed').checked = false;
+      let abortTestOnFailureCheckbox = document.querySelector('#abortTestOnFailure').checked = false;
+      let includeLoopTestPassedResultsCheckbox = document.querySelector('#includeLoopTestPassedResults').checked = false;
+
+      // Reset test group radio button to Default
+      document.querySelector('[name="group"][id="Default"]').checked = true;
+
+      // In job scheduler modal
+      let removeJobAfterRunning = document.querySelector('#removeJobAfterRunning').checked = false;
+
+      document.querySelector('#insertSelection').innerHTML = `Select a Playbook to play`;
+      playbookValues = '';
+  }
+  
+  function getSelectedTestParameters() {
+        /* All all the user selected test parameteres */
+        selectedTestParameters = {remoteController: sessionStorage.getItem("remoteController"),
+                                  playbook: playbookValues,
+                                  debug: document.querySelector('#runInDebugMode').checked,
+                                  emailResults: document.querySelector('#emailResults').checked,
+                                  awsS3: document.querySelector('#awsS3Upload').checked,
+                                  jira: document.querySelector('#jira').checked,
+                                  pauseOnError: document.querySelector('#pauseOnError').checked,
+                                  holdEnvsIfFailed: document.querySelector('#holdEnvsIfFailed').checked,
+                                  abortTestOnFailure: document.querySelector('#abortTestOnFailure').checked,
+                                  includeLoopTestPassedResults: document.querySelector('#includeLoopTestPassedResults').checked,
+                                  sessionId: sessionId.value,
+                                  group: selectedTestGroup,
+                                };
+                                    
+        return selectedTestParameters;
+  }
+
+  function setSelectedTestGroup(object) {
+      /* User selected radio button */
+      selectedTestGroup = object.getAttribute('value');
+  }
+
+  async function runPlaybookNow() {
+      /* When adding new parameters, must also add in job scheduler */
+
+      if (selectedPlaybook == '') {
+        alert('Select a Playbook to play')
+        return
+      }
+
+      console.log(`runPlaybook(): ${JSON.stringify(getSelectedTestParameters())}`);
+      let result = await postData("{% url "runPlaybook" %}", "{{csrf_token}}", 'POST', getSelectedTestParameters());
+
+      document.querySelector("#getSessionGroupToShow").setAttribute('group', selectedTestGroup);
+      //document.querySelector('[name="group"][id="Default"]').checked = true;
+
+      if (result.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else{
+        blinkSuccess();
+      }
+
+      resetParams();
+      getSessions(selectedTestGroup);
+    }
+
+    // PIPELINE MODAL:  Get pipeline table data
+    let managePipelines = document.querySelector('#managePipelines');
+    managePipelines.addEventListener('click', async event => {
+        getPipelineTableData();
+    })
+
+    async function getPipelineTableData() {
+        const data = await postData("{% url "getPipelineTableData" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController")});
+        if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector('#insertPipelineTableData').innerHTML = data.pipelineTableData;
+        }
+    }
+
+    function closePipelineModal() {
+        //document.querySelector('#pipelineManagerModal').style.display = 'none';
+        document.querySelector('#showPipelineStatus').innerHTML = '';
+        document.querySelector("#insertSelectedParameters").innerHTML = '';
+        window.location.reload();
+    }
+
+    async function getPipelines() {
+        // For dropdown menu
+        const data = await postData("{% url "getPipelinesDropdown" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController")});
+        if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } else {
+            document.querySelector('#insertPipelines').innerHTML = data.pipelines;
+        }
+    }
+
+    async function playPipeline(object) {
+        let pipeline = object.getAttribute('pipeline');
+        console.log(`playPipeline(): ${pipeline}`)
+        let data = await postData("{% url "runPlaybook" %}", "{{csrf_token}}", 'POST', 
+                {remoteController: sessionStorage.getItem("remoteController"), pipeline:pipeline});
+
+        if (data.status == 'success') {
+            // TODO: Get the test group
+            document.querySelector("#getSessionGroupToShow").setAttribute('group', data.testGroup);
+
+            // Have to include a window reload in case the session timedout, reload 
+            // takes user to login page
+            //window.location.reload();
+            getSessions(data.testGroup);
+        } else {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        }
+
+        getInstantMessages(webpage='pipelines');
+    }
+
+    function getUserSelectedTestParameters() {
+        /* These are user selecteted test parameters to show what user selected before saving.
+           Used for showing test parametered in savePipeline()
+        */ 
+        selectedTestParams = getSelectedTestParameters();
+
+        document.querySelector("#insertSelectedParameters").innerHTML = 'Selected Test Parameters:<br><br>'
+        for (let param in selectedTestParams) {
+            if (param != 'remoteController') {
+                document.querySelector("#insertSelectedParameters").innerHTML += `&emsp;&emsp; ${param}: ${selectedTestParams[param]}<br>`;
+            }
+        };
+    }
+
+    async function savePipeline() {
+        /* Save a pipeline to a name 
+           In parallel, getUserSelectedTestParameters() is called also 
+        */
+
+        let pipelineName = document.querySelector('#pipelineNameId').value;
+
+        if (pipelineName.indexOf('/') > 0) {
+            alert('Pipeline name cannot have slashes');
+            return
+        }
+
+        if (pipelineName == '') {
+            alert('You must give a name for the pipeline');
+            return
+        }
+
+        if (pipelineName.indexOf(' ') > 0) {
+            alert('Pipeline name cannot have spaces');
+            return
+        }
+
+        selectedTestParams = getSelectedTestParameters();
+
+        let result = await postData("{% url "savePipeline" %}", "{{csrf_token}}", 'POST', 
+                    Object.assign({'pipelineName':pipelineName, remoteController: sessionStorage.getItem("remoteController")}, selectedTestParams));
+
+        if (result.status == 'failed') {
+            document.querySelector('#showPipelineStatus').style.color = 'red';
+            document.querySelector('#showPipelineStatus').innerHTML = result.errorMsg;
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+
+        } else {
+            document.querySelector("#insertSelectedParameters").innerHTML = '';
+            document.querySelector('#showPipelineStatus').style.color = 'green';
+            document.querySelector('#showPipelineStatus').innerHTML = `Pipeline added: ${pipelineName}`;
+        }
+
+        document.querySelector('[name="group"][id="Default"]').checked = true;
+        resetPipeline();
+        resetParams();
+        getPipelines();
+        getPipelineTableData();
+     
+        getInstantMessages(webpage='pipelines');
+        //window.location.reload();
+    }
+
+  function resetPipeline() {
+      let pipelineNameId = document.querySelector('#pipelineNameId').value = '';
+  }
+
+  async function deletePipeline() {
+        // Collect all the selected checkboxes and delete them all in one shot
+        var pipelineCheckboxesArray = document.querySelectorAll('input[name=deletePipeline]:checked');
+        let deletePipelineArray = [];
+        
+        for (let x=0; x < pipelineCheckboxesArray.length; x++) {
+            let pipelinePath = pipelineCheckboxesArray[x].getAttribute('pipelineFullPath');
+            deletePipelineArray.push(pipelinePath)
+
+            // Uncheck the checkbox because getSessionIds() will not refresh 
+            // the page is any deleteSessionId checkbox is checked
+            pipelineCheckboxesArray[x].checked = false;
+        }
+
+        let data = await postData("{% url "deletePipelines" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), pipelines:deletePipelineArray});
+
+        if (data.status == 'success') {
+            document.querySelector('#showPipelineStatus').style.color = 'green';
+            document.querySelector('#showPipelineStatus').innerHTML = `Successfuly deleted`;
+        } else {
+            document.querySelector('#showPipelineStatus').style.color = 'red';
+            document.querySelector('#showPipelineStatus').innerHTML = `Failed to delete`;
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        }
+
+        getPipelines();
+        getPipelineTableData();
+        getInstantMessages(webpage='pipelines');
+        //window.location.reload();
+  }
+
+  async function getSessions(testGroup="Default") {
+      /* view: current | archive 
+        If archive, archive result link will pass in view=archive
+
+        sessionMgmt view needs to set the group and view because the sidebar group selection
+        comes from base.html and each group's href calls sessionMgmt view / sessionMgmt.html.
+        base and sessionMgmt are in different pages.  
+        <div id='getSessionGroupToShow' group={{showGroupSessions}} view={{showGroupView}}></div>
+      */
+      if (testGroup == "Default") {
+          selectedGroup = document.querySelector("#getSessionGroupToShow").getAttribute('group');
+      } else {
+          selectedGroup = testGroup;
+      }
+
+      // current || archive
+      getSessionView = document.querySelector("#getSessionGroupToShow").getAttribute('view');
+
+      console.log(`getSessions:  view=${getSessionView}  group=${selectedGroup}`)
+
+      if (intervalId) {
+          clearInterval(intervalId);
+      }
+
+      getJobSchedulerCount();
+
+      // Verify if any checkbox is checked. If yes, don't update the tableData
+      var checkboxListener = document.querySelectorAll('input[name=deleteSessionId]:checked');
+      if (checkboxListener.length > 0) {
+          return
+      }
+
+      let scheduledJobsCheckboxes = document.querySelectorAll('input[name=jobSchedulerMgmt]:checked');
+      if (scheduledJobsCheckboxes.length > 0) {
+          return
+      }
+
+      let data = await postData("{% url "getSessions" %}", "{{csrf_token}}", 'POST', 
+                                    {view:getSessionView, group:selectedGroup, remoteController: sessionStorage.getItem("remoteController")});
+      if (data.status == 'failed') {
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        document.querySelector('#tableData').innerHTML = data.tableData;
+        document.querySelector('#topbarTitlePage').innerHTML = `Pipelines &emsp;&emsp; | &emsp;&emsp;Test Group: ${selectedGroup}`;
+        document.querySelector('#overallDetails').innerHTML = data.overallDetails;
+      }
+
+      // Sort table by Playbooks
+      //sortTable(tableId="#tableData", columnIndex=3);
+
+      if (resultsFilter) {filterResults();}
+      if (userFilter) {filterUser();}
+      if (playbookFilter) {filterPlaybook();}
+      if (statusFilter) {filterStatus();}
+      if (groupFilter) {filterGroup();}
+      if (sessionIdFilter) {sessionIdGroup();}
+
+      // if the intervalId is not set
+      if (intervalId !== "") {
+          //intervalId = setInterval(function() {getSessions(view=getSessionView);}, getSessionsInterval);
+          //intervalId = setInterval(function() {getSessions(group=selectedGroup, view=getSessionView);}, getSessionsInterval);
+          //intervalId = setInterval(getSessions, getSessionsInterval, selectedGroup, getSessionView)
+          intervalId = setInterval(getSessions, getSessionsInterval)
+      }
+      getInstantMessages(webpage='pipelines');
+  }
+
+  async function deleteSessionButton() {
+      /*
+        Removes session from results/logs
+
+        <input type="checkbox" name="deleteSessionId" testResultsPath={moduleTestResultsPath} /> 
+      */
+
+      // Verify if user wants to also delete results from results/logs
+      // Delete the session's results from "results & logs"
+      let deleteResultsCheckbox = document.querySelector('#deleteResults');
+
+      // Collect all the selected checkboxes and delete them all in one shot
+      var checkboxArray = document.querySelectorAll('input[name=deleteSessionId]:checked');
+      
+      for (let x=0; x < checkboxArray.length; x++) {
+          let testResultsPath = checkboxArray[x].getAttribute('testResultsPath');
+          deleteSessionsArray.push({testResultsPath:testResultsPath})
+
+          // Uncheck the checkbox because getSessionIds() will not refresh 
+          // the page is any deleteSessionId checkbox is 
+          checkboxArray[x].checked = false;
+      }
+
+      data = await postData("{% url "deletePipelineSessions" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), pipelines:deleteSessionsArray});
+
+      if (data.status == 'success') {
+          blinkSuccess();
+      }
+
+      if (data.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      }
+
+      getSessions();
+  }
+
+  async function resumePausedOnError(object) {
+      let pausedOnErrorFile = object.getAttribute('pausedOnErrorFile');
+      console.log(`sessionMgmt template.resumePausedOnError(): ${pausedOnErrorFile}`)
+      let data = await postData("{% url "resumePausedOnError" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), 
+                                        pausedOnErrorFile:pausedOnErrorFile});
+      if (data.status == 'success') {
+        getSessions();
+      }
+
+      if (data.status == 'failed') {
+          getInstantMessages(webpage='pipelines');
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      }
+  }
+
+  async function terminateProcessId(object) {
+      let sessionId      = object.getAttribute('sessionId');
+      let playbook       = object.getAttribute('playbook');
+      let module         = object.getAttribute('module');
+      let processId      = object.getAttribute('processId');
+      let statusJsonFile = object.getAttribute('statusJsonFile');
+
+      console.log(`sessionMgmt.terminateProcessId(): sessionId=${sessionId} playbook=${playbook} module=${module} processId=${processId} statusFile:${statusJsonFile}`)
+
+      let data = await postData("{% url "terminateProcessId" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), sessionId:sessionId, 
+                                         playbook:playbook, module:module, processId:processId, statusJsonFile:statusJsonFile});
+
+      if (data.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        blinkSuccess();
+      }
+
+      getSessions();
+  }
+
+  async function openTestResultModal(testReportPathObj) {
+      let testReportPath = testReportPathObj.getAttribute('testReportPath');
+      console.log(`sessionMgmt.openTestResultModal(): ${testReportPath}\n`)
+      let data = await postData("{% url "getTestReport" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), testReportPath: testReportPath});
+      document.querySelector("#modalShowTestReport").innerHTML = `<pre>${data.testReportInsert}</pre>`
+  }
+
+  async function openTestLogsModal(testLogObj) {
+      let exceptionErrors = testLogObj.getAttribute('exceptionError');
+      if (exceptionErrors != "") {
+          document.querySelector("#modalShowTestLogs").innerHTML = exceptionErrors;
+      } else {
+          let testLogResultPath = testLogObj.getAttribute('testLogResultPath');
+          console.log(`\nsessionMgmt.openTestLogsModal(): ${testLogResultPath}\n`)
+          let data = await postData("{% url "getTestLogs" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), testResultPath: testLogResultPath});
+
+          if (data.status == 'failed') {
+              document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+          }
+          document.querySelector("#currentOpenedFile").innerHTML = `${data.test.split('_')[0]} &emsp;  ${data.test.split('_')[1]} &emsp;  ${data.test.split('_')[2]}`;
+          document.querySelector("#modalShowTestLogs").innerHTML = data.testLogsHtml;
+          await addListeners(caretName="caret2");
+      }
+      getInstantMessages(webpage='pipelines');
+    }  
+
+    function addListeners(caretName="caret2", newVarName='x') {
+        // caret2
+        //let toggler = document.getElementsByClassName(caretName);
+        window[caretName] = document.getElementsByClassName(caretName);
+
+        for (x= 0; x < window[caretName].length; x++) {
+            window[caretName][x].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                //this.classList.toggle("caret-down");               
+            });
+        }
+    }
+
+    async function getFileContents(object) {
+        try {
+            document.querySelector("#modalShowTestLogs");
+            let filePath = object.getAttribute('filePath');
+            console.log(`fileMgmt.getFileContents(): filePath: ${filePath}`)
+
+            const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                                {remoteController: sessionStorage.getItem("remoteController"), filePath: filePath});
+            if (data.status == 'failed') {
+                document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+            }
+
+            // Show file contents in a new tab
+            var myWindow = window.open("", '_blank');
+            myWindow.document.write(`<pre>${data.fileContents}</pre>`);
+
+        } catch (error) {
+            console.log("fileMgmt.getFileContents() error: " + error)
+            document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+        } 
+        getInstantMessages(webpage='pipelines');
+    }
+
+  async function releaseEnvOnFailure(envObj) {
+      // If test failed, envs are on hold for debugging. A Release Envs button is created and blinking.
+      let resultTimestampPath = envObj.getAttribute('resultTimestampPath');
+      let sessionId = envObj.getAttribute('sessionId');
+      let user = envObj.getAttribute('user');
+      let stage = envObj.getAttribute('stage');
+      let module = envObj.getAttribute('module');
+      let env = envObj.getAttribute('env');
+
+      console.log(`sessionMgmt.releaseEnvOnFailure: ${user} ${stage} ${module} ${env}`)
+      let data = await postData("{% url "releaseEnvOnFailure" %}", "{{csrf_token}}", 'POST', 
+                                      {remoteController: sessionStorage.getItem("remoteController"),
+                                       resultTimestampPath:resultTimestampPath, sessionId:sessionId, 
+                                       user:user, stage:stage, module:module, env:env});
+      if (data.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        blinkSuccess();
+      }
+      getSessions();
+  }
+
+  async function releaseEnv(obj) {
+      let env = obj.getAttribute('env');
+      console.log(`sessionMgmt.releaseEnv: ${env}`)
+      let data = await postData("{% url "releaseEnv" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), env: env});
+      if (data.status == 'failed') {
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        blinkSuccess();
+      }
+      getSessions();
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    document.querySelectorAll('.keystackSidebar .nav-link').forEach(function(element){
+        element.addEventListener('click', function (e) {
+            let nextEl = element.nextElementSibling;
+            let parentEl  = element.parentElement;	
+
+            if(nextEl) {
+                e.preventDefault();	
+                let mycollapse = new bootstrap.Collapse(nextEl);
+
+                if(nextEl.classList.contains('show')){
+                    mycollapse.hide();
+                } else {
+                    mycollapse.show();
+                    // find other submenus with class=show
+                    var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
+                    // if it exists, then close all of them
+                    if(opened_submenu){
+                        new bootstrap.Collapse(opened_submenu);
+                    }
+                }
+            }
+        });
+    })
+  }); 
+  // DOMContentLoaded  end
+
+
+  async function downloadSelected() {
+      // hmtl code for testResultCheckbox is created in views TestResult class
+      var cboxes = document.getElementsByName('testResultCheckBox');
+      var len = cboxes.length;
+      var selectedCheckboxArray = new Array();
+
+      for (var i=0; i<len; i++) {
+          if (cboxes[i].checked) {
+              selectedCheckboxArray.push(cboxes[i].value)
+          }
+          console.log('testResults template.downloadSelected: ' + i + (cboxes[i].checked?' checked ':' unchecked ') + cboxes[i].value);
+      }   
+      console.log(`testResults.downloadSelected: ${selectedCheckboxArray}`
+      )
+
+      const data = await postData("{% url "testResults" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController"), 
+                                         downloadTestResults: selectedCheckboxArray});
+      if (data.status == 'failed') {
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        blinkSuccess();
+      }
+      getInstantMessages(webpage='pipelines');
+  }
+
+  function filterSessionId() {
+      // Call search in commons.js
+      sessionIdFilter = document.querySelector('#filterSessionId').value
+      search(searchInputId="#filterSessionId", tableId='#tableData', columnIndex=2)
+  }
+
+  function filterResults() {
+      // Call search in commons.js
+      resultsFilter = document.querySelector('#filterResults').value
+      search(searchInputId="#filterResults", tableId='#tableData', columnIndex=10)
+  }
+  
+  function filterUser() {
+      // Call search in commons.js
+      userFilter = document.querySelector('#filterUser').value
+      search(searchInputId="#filterUser", tableId='#tableData', columnIndex=1)
+  }
+
+  function filterPlaybook() {
+      // Call search in commons.js
+      playbookFilter = document.querySelector('#filterPlaybook').value
+      search(searchInputId="#filterPlaybook", tableId='#tableData', columnIndex=3)
+  }
+
+  function filterStatus() {
+      // Call search in commons.js
+      statusFilter = document.querySelector('#filterStatus').value
+      search(searchInputId="#filterStatus", tableId='#tableData', columnIndex=9)
+  }
+
+  async function getCronScheduler() {
+    // Get dropdown selections for minute, hour, day, month and dayOfWeek
+
+    document.querySelector("#jobSchedulerStatus").innerHTML = '';
+    selectedTestParams = getSelectedTestParameters();
+    const data = await postData("{% url "getCronScheduler" %}", "{{csrf_token}}", 'POST', 
+                                        {remoteController: sessionStorage.getItem("remoteController")})
+    if (data.status == 'failed') {
+        getInstantMessages(webpage='pipelines');
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+    } else {
+        document.querySelector('#insertMinute').innerHTML = data.minute;
+        document.querySelector('#insertHour').innerHTML = data.hour;
+        document.querySelector('#insertDayOfMonth').innerHTML = data.dayOfMonth;
+        document.querySelector('#insertMonth').innerHTML = data.month;
+        document.querySelector('#insertDayOfWeek').innerHTML = data.dayOfWeek;
+
+        // split and get the last element, then get the first element which is the playbook name only
+        //let playbookName = playbookValues.split('/').pop().split('.')[0];
+        document.querySelector("#selectedPlaybook").innerHTML = `Selected playbook: ${playbookValues}`;
+        viewJobScheduler();
+    }
+  }
+
+  async function saveScheduledJob() {
+      /* Submit button to save a scheduled job */
+
+      let minute = document.querySelector("#minute").value;
+      let hour = document.querySelector("#hour").value;
+      let dayOfMonth = document.querySelector("#dayOfMonth").value;
+      let month = document.querySelector("#month").value;
+      let dayOfWeek = document.querySelector("#dayOfWeek").value;
+      let removeJobAfterRunning = document.querySelector('#removeJobAfterRunning').checked;
+
+      //let pipeline = document.querySelector("#pipelineForJobScheduler").value;
+      selectedTestParams = getSelectedTestParameters();
+
+      if (selectedTestParams.playbook == '') {
+          alert('Please select a Playbook to schedule a job')
+          return
+      }
+
+      console.log(`saveScheduledJob: minut=${minute} hour=${hour} dayOfMonth=${dayOfMonth} month=${month} dayOfWeek=${dayOfWeek}`)
+
+      const response = await postData("{% url "addJobSchedule" %}", "{{csrf_token}}", 'POST', 
+                                Object.assign({remoteController: sessionStorage.getItem("remoteController"), 
+                                               'minute':minute, 'hour':hour, 'dayOfMonth':dayOfMonth,
+                                               'month':month, 'dayOfWeek':dayOfWeek,
+                                               'removeJobAfterRunning': removeJobAfterRunning},
+                                               selectedTestParams) 
+                                               );
+      if (response.status == 'success') {
+          document.querySelector('#jobSchedulerStatus').style.color = 'green';
+          document.querySelector("#jobSchedulerStatus").innerHTML = 'Success';
+      } else {
+          document.querySelector('#jobSchedulerStatus').style.color = 'red';
+          document.querySelector("#jobSchedulerStatus").innerHTML = response.error;
+          document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      }
+
+      viewJobScheduler();
+      resetParams();
+      getSessions();
+  }
+
+  async function viewJobScheduler() {
+      const data = await postData("{% url "scheduledJobs" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")});
+
+      if (data.status == 'failed') {
+        getInstantMessages(webpage='pipelines');
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      } else {
+        document.querySelector('#insertJobSchedules').innerHTML = data.jobSchedules;
+      }
+  }
+
+  async function getJobSchedulerCount() {
+    let data = await postData("{% url "getJobSchedulerCount" %}", "{{csrf_token}}", 'POST', {remoteController: sessionStorage.getItem("remoteController")});
+
+    if (data.status == 'failed') {
+        getInstantMessages(webpage='pipelines');
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+    } else {
+        console.log(`getJobSchedulerCount(): total:${data.totalScheduledJobs}`)
+        document.querySelector('#insertJobSchedulerCount').innerHTML = data.totalScheduledJobs;
+    }
+  } 
+
+  async function removeScheduledJobsButton() {
+      /* <input type="checkbox" name="jobSchedulerMgmt" playbook={playbook} month={month} day={day} hour={hour} minute={min}/> */
+
+      // Collect all the selected checkboxes and delete them all in one shot
+      let scheduledJobsArray = document.querySelectorAll('input[name=jobSchedulerMgmt]:checked');
+      let removeScheduledJobsArray = new Array();
+
+      for (let x=0; x < scheduledJobsArray.length; x++) {
+          let playbook = scheduledJobsArray[x].getAttribute('playbook')
+          let month    = scheduledJobsArray[x].getAttribute('month');
+          let day      = scheduledJobsArray[x].getAttribute('day');
+          let hour     = scheduledJobsArray[x].getAttribute('hour');
+          let minute   = scheduledJobsArray[x].getAttribute('minute');
+          let dayOfWeek   = scheduledJobsArray[x].getAttribute('dayOfWeek');
+
+          if (minute == "*") {minute = "\\*"}
+          if (hour == "*") {hour = "\\*"}
+          if (day == "*") {day = "\\*"}
+          if (month == "*") {month = "\\*"}
+          if (dayOfWeek == "*") {dayOfWeek = "\\*"}
+
+          removeScheduledJobsArray.push({playbook:playbook, month:month, day:day, hour:hour, minute:minute, dayOfWeek:dayOfWeek})
+
+          // Uncheck the checkbox
+          scheduledJobsArray[x].checked = false;
+      }
+      
+      console.log(`removeScheduledJobs(): ${JSON.stringify(removeScheduledJobsArray)}`)
+      let data = await postData("{% url "deleteScheduledJob" %}", "{{csrf_token}}", 'POST', 
+                                   {remoteController: sessionStorage.getItem("remoteController"), 
+                                    removeScheduledJobs:removeScheduledJobsArray});
+
+      if (data.status == 'failed') {
+        getInstantMessages(webpage='pipelines');
+        document.querySelector("#flashingError").innerHTML = '<strong>Error</strong>';
+      }
+      viewJobScheduler();
+      getJobSchedulerCount();
+  }
+
+    async function modifyFilePlaybook() {
+        /* Modify existing playbook */
+        try {
+            let textarea = document.querySelector('#textareaId').value;
+            const data = await postData("{% url "modifyFile" %}", "{{csrf_token}}", "POST", 
+                                                    {remoteController: sessionStorage.getItem("remoteController"),
+                                                     textarea: textarea, filePath: playbookPath})
+
+            if (data.status == "success") {
+                status = `<div style='color:green'>Successfully modified Playbook</div>`;
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`;
+            }
+        
+            document.querySelector("#modifyPlaybookFileStatus").innerHTML = status;
+
+        } catch (error) {    
+            console.log("modifyFile() error: " + error)
+        }
+    }
+
+    async function modifyFileEnv() {
+        /* Modify existing env */
+        try {
+            let textarea = document.querySelector('#textareaId').value;
+            const data = await postData("{% url "modifyFile" %}", "{{csrf_token}}", "POST", 
+                                                {remoteController: sessionStorage.getItem("remoteController"), 
+                                                 textarea: textarea, filePath: envPath})
+
+            if (data.status == "success") {
+                status = `<div style='color:green'>Successfully modified Env</div>`;
+            } else {
+                status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`;
+            }
+        
+            document.querySelector("#modifyEnvFileStatus").innerHTML = status;
+
+        } catch (error) {    
+            console.log("modifyFile() error: " + error)
+        }
+    }
+
+  async function showPlaybook(object) {
+    playbookPath = object.getAttribute('playbookPath');
+    const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), filePath: playbookPath})
+    document.querySelector('#showPlaybook').innerHTML += playbookPath;
+    document.querySelector('#insertPlaybookContents').innerHTML = `<textarea id="textareaId"  cols="135" rows="30">${data.fileContents}</textarea><br><br>`;
+    getInstantMessages(webpage='pipelines');
+  }
+
+  async function showEnv(object) {
+    envPath = object.getAttribute('envPath');
+    const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+                                            {remoteController: sessionStorage.getItem("remoteController"), filePath: envPath})
+    document.querySelector('#showEnv').innerHTML += envPath;
+    document.querySelector('#insertEnvContents').innerHTML = `<textarea id="textareaId"  cols="135" rows="30">${data.fileContents}</textarea><br><br>`;
+    getInstantMessages(webpage='pipelines');
+  }
+
+  function closePlaybookText() {
+    document.querySelector('#insertPlaybookContents').innerHTML = '';
+    document.querySelector('#showPlaybook').innerHTML = 'Playbook:&ensp;';
+    document.querySelector('#modifyPlaybookFileStatus').innerHTML = '';
+  }
+
+  function closeEnvText() {
+    document.querySelector('#insertEnvContents').innerHTML = '';
+    document.querySelector('#showEnv').innerHTML = 'Env:&ensp;';
+    document.querySelector('#modifyEnvFileStatus').innerHTML = '';
+  }
+
+</script>
+
+<!-- 
+<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/alumuko/vanilla-datetimerange-picker@latest/dist/vanilla-datetimerange-picker.js"></script>
+<script>
+  // https://www.cssscript.com/date-range-picker-predefined-ranges/
+  // https://github.com/alumuko/vanilla-datetimerange-picker
+
+  window.addEventListener("load", function (event) {
+    var validApply = false;
+
+    var datetimeObj = new DateRangePicker('datetimePicker', {
+      // parent element
+      parentEl: document.body,
+      // The start of the initially selected date range
+      startDate: moment().startOf('day'),
+      // The end of the initially selected date range
+      endDate: moment().endOf('day'),
+      // The earliest date a user may select
+      minDate: false,
+      // The latest date a user may select
+      maxDate: false,
+      // min/max years
+      minYear: moment().subtract(100, 'year').format('YYYY'),
+      maxYear: moment().add(100, 'year').format('YYYY'),
+      // The maximum span between the selected start and end dates. 
+      // Can have any property you can add to a moment object (i.e. days, months)
+      dateLimit: false,
+      // Hide the apply and cancel buttons, and automatically apply a new date range as soon as two dates or a predefined range is selected
+      autoApply: false,
+      // Show only a single calendar to choose one date, instead of a range picker with two calendars, the start and end dates provided to your callback will be the same single date chosen
+      singleDatePicker: true,
+      // Show year and month select boxes above calendars to jump to a specific month and year
+      showDropdowns: true,
+      // Show localized week numbers at the start of each week on the calendars
+      showWeekNumbers: false,
+      // Show ISO week numbers at the start of each week on the calendars
+      showISOWeekNumbers: false,
+      // Display "Custom Range" at the end of the list of predefined ranges, when the ranges option is used. 
+      // This option will be highlighted whenever the current date range selection does not match one of the predefined ranges. 
+      // Clicking it will display the calendars to select a new range.
+      showCustomRangeLabel: false,
+      // Allow selection of dates with times, not just dates
+      timePicker: true,
+      // Use 24-hour instead of 12-hour times, removing the AM/PM selection
+      timePicker24Hour: true,
+      // Increment of the minutes selection list for times (i.e. 30 to allow only selection of times ending in 0 or 30)
+      timePickerIncrement: 1,
+      // Show seconds in the timePicker
+      timePickerSeconds: false,
+      // When enabled, the two calendars displayed will always be for two sequential months (i.e. January and February), and both will be advanced when clicking the left or right arrows above the calendars. 
+      // When disabled, the two calendars can be individually advanced and display any month/year.
+      linkedCalendars: true,
+      // Indicates whether the date range picker should automatically update the value of an 
+      // element it's attached to at initialization and when the selected dates change.
+      autoUpdateInput: true,
+      // Normally, if you use the ranges option to specify pre-defined date ranges, calendars for choosing a custom date range are not shown until the user clicks "Custom Range". When this option is set to true, the calendars for choosing a custom date range are always shown instead.
+      alwaysShowCalendars: true,
+      // Set predefined date ranges the user can select from. 
+      // Each key is the label for the range, and its value an array with two dates representing the bounds of the range
+      ranges: {},
+      // 'left'/'right'/'center'
+      // Whether the picker appears aligned to the left, to the right, or centered under the HTML element it's attached to
+      opens: 'right',
+      // string: 'down' or 'up' 
+      // Whether the picker appears below (default) or above the HTML element it's attached to
+      drops: 'down',
+      // CSS class names that will be added to all buttons in the picker
+      buttonClasses: 'btn btn-sm',
+      // CSS class string that will be added to the apply button
+      applyButtonClasses: 'btn btn-primary',
+      // CSS class string that will be added to the cancel button
+      cancelButtonClasses: 'btn btn-default',
+      // Allows you to provide localized strings for buttons and labels, customize the date display format, and change the first day of week for the calendars
+      locale: {
+        direction: 'ltr',
+        format: moment.localeData().longDateFormat('L'),
+        separator: ' - ',
+        applyLabel: 'Apply',
+        cancelLabel: 'Cancel',
+        weekLabel: 'W',
+        customRangeLabel: 'Custom Range',
+        daysOfWeek: moment.weekdaysMin(),
+        monthNames: moment.monthsShort(),
+        firstDay: moment.localeData().firstDayOfWeek()
+      },
+    }, function (start, end) {
+      // callback
+      console.log(start.format() + " - " + end.format());
+
+      if (selectedPlaybook == '' || playbookValues == '') {
+        alert('Please select a Playbook to play')
+        return
+      } else {
+        console.log(`jobScheduler date time: ${start.format()}`)
+
+        let selectedTestParams = getSelectedTestParameters();
+        delete selectedTestParams['controller'];
+        console.log(`jobScheduler: ${JSON.stringify(selectedTestParams)}`)
+
+
+        document.querySelector('#insertSelection').innerHTML = `Select a Playbook to play`
+        resetParams();
+        playbookValues = '';
+        window.location.reload();
+        getSessions();
+      }
+    })
+
+
+    // Warn user to also select a time to schedule the job
+    window.addEventListener('apply.daterangepicker', function (ev) {
+      //console.log(ev.detail.startDate.format('YYYY-MM-DD'));
+      //console.log(ev.detail.endDate.format('YYYY-MM-DD'));
+
+      //if (validApply == false) {
+      //  alert('You must set a time to schedule the Playbook')
+      //}
+
+    });
+
+    // Expand table row to show data
+    $()
+  });
+</script>
+-->
+
+{% endblock extra_js%}

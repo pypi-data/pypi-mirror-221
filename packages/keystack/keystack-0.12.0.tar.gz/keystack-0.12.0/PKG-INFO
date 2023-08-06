@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: keystack
+Version: 0.12.0
+Summary: Keystack automation framework for managing script executions
+Author: Hubert Gee
+Author-email: hubert.gee@keysight.com
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux

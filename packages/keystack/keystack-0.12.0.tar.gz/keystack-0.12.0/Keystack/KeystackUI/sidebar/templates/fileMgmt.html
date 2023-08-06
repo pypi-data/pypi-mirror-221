@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+{% load static %}
+{% load fileMgmtTags %}
+
+{% block extra_style %}
+<style>
+	ul, #menuTree {
+		list-style-type: none;
+	}
+	
+	#menuTree {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.caret {
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari 3.1+ */
+		-moz-user-select: none; /* Firefox 2+ */
+		-ms-user-select: none; /* IE 10+ */
+		user-select: none;
+	}
+	
+	.caret::before {
+		content: "\25B6";
+		color: blue;
+		display: inline-block;
+		margin-right: 6px;
+	}
+	
+	.caret-down::before {
+		-ms-transform: rotate(90deg); /* IE 9 */
+		-webkit-transform: rotate(90deg); /* Safari */'
+		transform: rotate(90deg);  
+	}
+	
+	.nested {
+		display: none;
+	}
+	
+	.active {
+		display: block;
+	}
+</style>
+{% endblock extra_style %}
+
+{% block content %}
+<!-- <div style="overlfow:auto; height:0px"> -->
+<div class="container-fluid mt-0">
+	<div id="moduleForJs" module={{module}}></div>
+	<div id="insertModuleDetails"></div>
+</div>
+
+<div class="modal" id="modifyFileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="modifyFile" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="max-width:70%; height:750px; overflow:auto; color:black">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+				<!-- <div class="card-header" style="display:inline-block"> -->
+				<div style="display:flex; flex-direction: row; justify-content:right; align-items:right">
+					<h5 class="modal-title" id="editFile">Edit File:&ensp;</h5>
+					<div id="currentOpenedFile" style="float:left; margin-left:20px; padding-top:3px;"></div>
+				</div>
+            </div>
+
+			<div id="modifyFileStatus" style="text-align:right; margin-right:25px; margin-top:10px; margin-bottom:0"></div>
+
+            <div class="modal-body" style="margin-top:2px">
+					<div class="row" id="insertFileContents"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class=" btn btn-sm btn-danger" onclick="modifyFile()">Modify File</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="closeText()" >Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+	<script>
+		/*
+		let hideInstantMessagesDiv = document.querySelector('.hideInstantMessages');
+		if (hideInstantMessagesDiv.classList.contains('hideInstantMessages')) {
+			hideInstantMessagesDiv.classList.remove('hideInstantMessages');
+		}
+		*/
+
+		// Call installMessages when opening a module page
+		document.addEventListener("DOMContentLoaded", function() {
+			// Remove the footer to show the "modify" and "close" button and stretch the main body to show more contents
+			document.querySelector("#mainBodyDiv").style.height = "60vw";
+
+			// Remove the footer because it blocks the modify/close buttons
+			//var elem = document.querySelector("#footer");
+			//elem.parentNode.removeChild(elem);
+			getInstantMessages(webpage='modules');
+			getModuleDetails();
+			getServerTime();
+		})	
+		
+		async function getModuleDetails() {
+			let module = document.querySelector('#moduleForJs').getAttribute('module');
+			//let module = object.getAttribute('data-value');
+			console.log(`getModuleDetails(): module: ${module}`)
+			const data = await postData("{% url "getModuleDetails" %}", "{{csrf_token}}", 'POST', 
+												{remoteController: sessionStorage.getItem("remoteController"), 'module': module})
+			document.querySelector('#insertModuleDetails').innerHTML = data.moduleDetails
+
+			var toggler = document.getElementsByClassName("caret");
+			var i;
+			for (i = 0; i < toggler.length; i++) {
+				toggler[i].addEventListener("click", function() {
+					this.parentElement.querySelector(".nested").classList.toggle("active");
+					this.classList.toggle("caret-down");
+				});
+			}
+		}
+
+		function closeText() {
+			// Toggle to hide buttons
+			//toggle.style.display = toggle.style.display == "none" ? "block" : "none";
+			document.querySelector("#insertFileContents").style.display = "none";
+			document.querySelector("#modifyFileStatus").innerHTML = "";
+
+			let toggle = document.querySelector("#textareaId");
+			if (toggle.value) {
+				// User attempting to open a non text file, the textarea is not created.
+				// Come in here only if textarea exists
+				toggle.value = ''
+			}
+		}
+
+		async function getFileContents(object) {
+			try {
+				document.querySelector("#modifyFileModal");
+				let filePath = object.getAttribute('filePath');
+				console.log(`fileMgmt.getFileContents(): filePath: ${filePath}`)
+
+				const data = await postData("{% url "getFileContents" %}", "{{csrf_token}}", 'POST', 
+													{remoteController: sessionStorage.getItem("remoteController"), 
+													 filePath: filePath})
+
+				if (data.status == "failed") {
+					status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+					document.querySelector("#modifyFileStatus").innerHTML = status
+				} else {
+					// Text area. Set the name attr with the module preferences file path.
+					document.getElementById("insertFileContents").innerHTML =
+					`<textarea id="textareaId" name=${data.fullPath} cols="123" rows="29">${data.fileContents}</textarea><br><br>`
+
+					let toggle = document.getElementById("insertFileContents")
+					// Toggle to show text 
+					//toggle.style.display = toggle.style.display == "block" ? "none" : "block";
+					// toggle.style.display = toggle.style.display == "block";
+					toggle.style.display = "block";
+					
+					document.getElementById("currentOpenedFile").innerHTML = '<h7>' + data.fullPath + '</h7>'
+					document.getElementById('modifyButton').style.display = "block"
+					document.getElementById('textAreaButton').style.display = "block"
+				}
+			} catch (error) {
+				console.log("fileMgmt.getFileContents() error: " + error)
+			}
+			getInstantMessages(webpage='modules');	  
+		}
+
+		async function modifyFile() {
+			try {
+				let textarea = document.getElementById('textareaId').value
+				let filePath = document.getElementById('textareaId').name
+				console.log(`fileMgmt.modifyFile(): ${filePath}`)
+
+				const data = await postData("{% url "modifyFile" %}", "{{csrf_token}}", "POST", 
+													{remoteController: sessionStorage.getItem("remoteController"), 
+													 textarea: textarea, filePath: filePath})
+
+				if (data.status == "success") {
+					status = `<div style='color:green'>Successfully modified file</div>`
+				} else {
+					status = `<div style='color:red'>Failed: ${data.errorMsg}</div>`
+				}
+	
+				document.querySelector("#modifyFileStatus").innerHTML = status
+
+			} catch (error) {    
+				console.log("fileMgmt template.modifyFile() error: " + error)
+			}
+			getInstantMessages(webpage='modules');
+		}
+	</script>
+{% endblock extra_js %}
+

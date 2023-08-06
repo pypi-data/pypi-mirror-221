@@ -1,0 +1,5 @@
+[console_scripts]
+keystack = Keystack.keystack:argParse
+restartKeystack = Keystack.Setup.setupKeystack:restart
+setupKeystack = Keystack.Setup.setupKeystack:setup
+stopKeystack = Keystack.Setup.setupKeystack:stop
