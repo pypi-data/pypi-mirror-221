@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.0.9
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: guixia.lgx@alibaba-inc.com
+author_name: guixia.lgx
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: jupyterlab-extension-theme-onedark
+project_short_description: A JupyterLab extension theme as vscode onedark
+python_name: jupyterlab_extension_theme_onedark
+repository: https://code.alibaba-inc.com/msd/jupyterlab-plugins
+test: true
+
