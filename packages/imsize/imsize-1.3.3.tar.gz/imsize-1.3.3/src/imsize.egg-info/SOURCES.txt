@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/argv.py
+src/consoleapp.py
+src/exrhdr.py
+src/imsize.py
+src/pfmhdr.py
+src/pnmhdr.py
+src/imsize.egg-info/PKG-INFO
+src/imsize.egg-info/SOURCES.txt
+src/imsize.egg-info/dependency_links.txt
+src/imsize.egg-info/entry_points.txt
+src/imsize.egg-info/requires.txt
+src/imsize.egg-info/top_level.txt
+test/test_read.py
