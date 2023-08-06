@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: samplerate2
+Version: 0.0.1
+Summary: Monolithic python wrapper for libsamplerate
+Home-page: https://github.com/fakufaku/python-samplerate2
+Author: Robin Scheibler
+Author-email: fakufaku@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# resampack
+
+This is a thin wrapper around the [libsamplerate](https://github.com/libsndfile/libsamplerate) library.
+
+The library is statically linked which I hope should resolve some portability issues of [samplerate](https://github.com/tuxu/python-samplerate/).
+Compared to [resampy](https://github.com/bmcfee/resampy), it only has minimal dependencies on numpy.
