@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysui-fastcrypto
+Version: 0.1.2
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Summary: Python wrapper for MystenLab/fastcrypto Rust crate
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst; charset=UTF-8
+Project-URL: homepage, https://github.com/FrankC01/pysui-fastcrypto
+Project-URL: repository, https://github.com/FrankC01/pysui-fastcrypto
+Project-URL: changelog, https://github.com/FrankC01/pysui-fastcrypto/blob/main/CHANGELOG.md
+
+pysui-fastcrypto
+================
+
+pysui-fastcrypto is a wrapper around MytenLab/fastcrypto. It is used by `pysui`
+
