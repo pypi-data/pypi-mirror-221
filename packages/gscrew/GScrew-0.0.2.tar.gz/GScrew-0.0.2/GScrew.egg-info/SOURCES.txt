@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+GScrew/__init__.py
+GScrew/geometric_algebra.py
+GScrew/screw.py
+GScrew.egg-info/PKG-INFO
+GScrew.egg-info/SOURCES.txt
+GScrew.egg-info/dependency_links.txt
+GScrew.egg-info/requires.txt
+GScrew.egg-info/top_level.txt
