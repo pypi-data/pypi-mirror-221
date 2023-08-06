@@ -1,0 +1,15 @@
+mattress-0.0.1.dist-info/RECORD,,
+mattress-0.0.1.dist-info/WHEEL,sha256=VMBBef_aaH47VF3GFSfyoACW4nyHj8TKcxFECdDIZYM,116
+mattress-0.0.1.dist-info/top_level.txt,sha256=Uqgm4nV8sSE1GAKHKNA3J8I8a242rPI60UFiZ_HK34g,9
+mattress-0.0.1.dist-info/LICENSE.txt,sha256=fEnQWyeoSouBUgZxkNNUUoW3reA5tYkQ4nfCCBK2N5Q,1084
+mattress-0.0.1.dist-info/METADATA,sha256=2GnqlFdb8hSds9MimgLSgfitSGh48BUIVFt0hiGO5R0,3165
+mattress/core.pypy38-pp73-darwin.so,sha256=jMKHXDHp4NlLB4YKfk7Zfx9QILAo1OMkD4Cd83Zgez8,454088
+mattress/interface.py,sha256=6zwJRSYBJ0XDo5P3TihKpDCDnwsxoaLpmXomy9tL5e8,1042
+mattress/__init__.py,sha256=BQEzWq_B7uisF4K-i5cCsRSANhl0ok7AKhvunngv6N8,622
+mattress/utils.py,sha256=J-rV3vuDRhPRZQ1ihgqPeXocY9XpL65DL8w6jNT7dkM,1009
+mattress/lib/bindings.pyx,sha256=-3zoobBxD4brMv2aBfzbBZsoyvBNPXWQQp_jOXjQaZk,3273
+mattress/lib/bindings.cpp,sha256=2rKI8Yn992Gr4T2ZkZLDPwkH8TxqeNlmfecPM3noPVU,1197121
+mattress/lib/bindings.pxd,sha256=SJLfPH3UmNhaRLAoiTydlUlqX-F4WGZe_Jz93-NnRxU,462
+mattress/lib/cpp/common.cpp,sha256=eoxDhYhBwqKhpmCv2IUwKZR57_ajTtX9PQPw2H6l-kM,539
+mattress/lib/cpp/dense.cpp,sha256=1hbvhXo5LWPw6yWkJTy8dYwMMchQyEPd9ScU6o_RpM4,458
+mattress/lib/cpp/Mattress.h,sha256=ZwOhLA979ZkLnR0A6AaQpvLU_uhUqk6lQhvcdEySXYw,729
