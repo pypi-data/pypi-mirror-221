@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dash_intersection_observer
+Version: 1.0.0
+Summary: Intersection Observer for Dash
+Author: Renaud Lainé <Enter your email (For package.json)>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE

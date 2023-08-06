@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dash_intersection_observer/DashIntersectionObserver.py
+dash_intersection_observer/__init__.py
+dash_intersection_observer/_imports_.py
+dash_intersection_observer/dash_intersection_observer.js
+dash_intersection_observer/metadata.json
+dash_intersection_observer/package-info.json
+dash_intersection_observer.egg-info/PKG-INFO
+dash_intersection_observer.egg-info/SOURCES.txt
+dash_intersection_observer.egg-info/dependency_links.txt
+dash_intersection_observer.egg-info/top_level.txt
