@@ -1,0 +1,2 @@
+[console_scripts]
+geo = geomancy.main:main_cli

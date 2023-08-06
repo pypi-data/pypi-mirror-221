@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geomancy"
+authors = [
+    {name = "Justin Lorieau"},
+]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Development Status :: 4 - Beta"
+    ]
+dynamic = ["version", "description"]
+
+[tool.setuptools]
+packages = ["geomancy"]
+
+[tool.setuptools.dynamic]
+version = {attr = "geomancy.__version__"}
+description = {file = "geomancy/__description__.txt"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "twine>=4.0",
+    "black[d]",
+    "build"
+    ]
+docs = [
+    "sphinx",
+    "sphinx-book-theme",
+    "sphinx_design>=0.4",
+    "myst-parser>=2.0",
+    "towncrier",
+]
+
+[project.scripts]
+geo = "geomancy.main:main_cli"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+
+[tool.towncrier]
+package = "geomancy"
+filename = "docs/changelog.md"
+directory = "changelog/"
+template = "changelog/changelog_template.jinja"
+start_string = "<!-- towncrier release notes start -->\n"
+underlines = ["", "", ""]
+title_format = "## [{version}](https://github.com/jlorieau/geomancy/tree/{version}) - {project_date}"
+issue_format = "[#{issue}](https://github.com/jlorieau/geomancy/issues/{issue})"
+
+    [[tool.towncrier.type]]
+    directory = "breaking"
+    name = "Breaking Changes"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "deprecation"
+    name = "Deprecations"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "feature"
+    name = "Features"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "improvement"
+    name = "Improvements"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "bugfix"
+    name = "Bug Fixes"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "docs"
+    name = "Improved Documentation"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "trivial"
+    name = "Trivial/Internal Changes"
+    showcontent = true
