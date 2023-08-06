@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytest-xiuyu
+Version: 1.0.0
+Summary: This is a pytest plugin
+Home-page: https://github.com/TonyGao2527/pytest-xiuyu
+Author: TonyGao
+Author-email: 5942527@qq.com
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+
+# 这个是项目的说明文档
+
+### 1.这个是上课演示的插件项目
+### 2.用于演示pytest插件的使用
+### 3.可以通过协程并发执行测试用例

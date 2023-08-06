@@ -1,0 +1,10 @@
+ManualPytestPlugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ManualPytestPlugin/conftest.py,sha256=Gouh9NIPmpFmsknPokN52CIuk7kHmev7Ws0PPSDjlnI,4105
+ManualPytestPlugin/testcases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ManualPytestPlugin/testcases/test_demo01.py,sha256=yqzw9-sisoei_YrN_sBak_QfyDZqoRD-DZjl7f4YaqA,203
+ManualPytestPlugin/testcases/test_demo02.py,sha256=QHaCRY2kIgDUUaZH_wEapmwQfrDCm9JKnu7jjMJUrEQ,196
+pytest_xiuyu-1.0.0.dist-info/METADATA,sha256=molXPlJH5IFbZt2mHHN85kdGX51qmJkcNL0GCjYx_ck,467
+pytest_xiuyu-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pytest_xiuyu-1.0.0.dist-info/entry_points.txt,sha256=sPF7qTgH28xLw6vsC4c_QqTQFUFCzB0KpxJAO8RShUQ,54
+pytest_xiuyu-1.0.0.dist-info/top_level.txt,sha256=9TR4mHGXW6vPo2I4o9FKVAqzoJEEv2mweKdcrt6ZjSM,19
+pytest_xiuyu-1.0.0.dist-info/RECORD,,

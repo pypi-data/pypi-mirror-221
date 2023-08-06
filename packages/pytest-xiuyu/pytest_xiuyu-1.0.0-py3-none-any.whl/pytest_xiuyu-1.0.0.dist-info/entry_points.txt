@@ -1,0 +1,2 @@
+[pytest16]
+pytest-xiuyu = ManualPytestPlugin.conftest
