@@ -1,0 +1,173 @@
+import datetime as dt
+import json
+import os
+from collections.abc import Callable
+from dataclasses import dataclass, field
+from typing import get_type_hints
+from unittest.mock import _Call, call
+
+import pytest
+from pydantic.json import pydantic_encoder
+from pytest_mock import MockerFixture
+
+from bridgeapi.base_client import BaseClient
+from bridgeapi.client import AppClient, UserClient
+from bridgeapi.models import Bank, BankCapability, BaseResponseModel, PaginatedResult, UserAuthInfo
+
+DEMO_BANK_ID = 574
+USER_UUID = "998945b4-c977-43e4-a854-d9680fa00fd5"
+ITEM_ID = 8170358
+
+
+@pytest.fixture
+def app_client():
+    return AppClient(os.environ.get("BRIDGEAPI_CLIENT_ID"), os.environ.get("BRIDGEAPI_SECRET_ID"))
+
+
+@pytest.fixture
+@pytest.mark.default_cassette("user_auth.yaml")
+@pytest.mark.vcr
+def user_auth():
+    email = "john@doe.com"
+    password = "password123"
+    client = UserClient(
+        os.environ.get("BRIDGEAPI_CLIENT_ID"),
+        os.environ.get("BRIDGEAPI_SECRET_ID"),
+        email,
+        password,
+        auto_renew=False,
+    )
+    client.renew_auth()
+    return {
+        "user_email": email,
+        "user_password": password,
+        "user_uuid": client.user_uuid,
+        "access_token": client.access_token,
+        "expires_at": dt.datetime(3000, 1, 1, tzinfo=dt.timezone.utc),
+    }
+
+
+@pytest.fixture
+def user_client(user_auth):
+    return UserClient(
+        os.environ.get("BRIDGEAPI_CLIENT_ID"),
+        os.environ.get("BRIDGEAPI_SECRET_ID"),
+        **user_auth,
+        auto_renew=False,
+    )
+
+
+@dataclass
+class CaseParameters:
+    method: Callable[..., BaseResponseModel]
+    call_args: _Call = field(default_factory=call)
+    extra_id: str | None = None
+
+    @property
+    def case_id(self) -> str:
+        if self.extra_id is None:
+            return self.method.__name__
+        else:
+            return f"{self.method.__name__}_{self.extra_id}"
+
+
+app_client_params = [
+    CaseParameters(AppClient.list_banks),
+    CaseParameters(AppClient.list_banks, call(countries="fr"), "one_country"),
+    CaseParameters(AppClient.list_banks, call(countries=["fr", "de"]), "multi_country"),
+    CaseParameters(
+        AppClient.list_banks, call(capabilities=BankCapability.BULK_PAYMENT), "one_capability"
+    ),
+    CaseParameters(
+        AppClient.list_banks,
+        call(capabilities=[BankCapability.BULK_PAYMENT, BankCapability.BULK_TRANSFER]),
+        "multi_capability",
+    ),
+    CaseParameters(AppClient.list_banks, call(limit=2), "limit"),
+    CaseParameters(AppClient.get_bank, call(bank_id=DEMO_BANK_ID)),
+    # CaseParameters(AppClient.get_bank_connectors_status),
+    CaseParameters(AppClient.list_users),
+    # CaseParameters(AppClient.get_user, call(user_uuid=USER_UUID)),
+    # CaseParameters(AppClient.create_user),
+    # CaseParameters(AppClient.delete_user),
+    # CaseParameters(AppClient.delete_all_users),
+    # CaseParameters(AppClient.authenticate_user),
+    # CaseParameters(AppClient.update_user_email),
+    # CaseParameters(AppClient.update_user_password),
+    CaseParameters(AppClient.list_categories),
+    CaseParameters(AppClient.get_category, call(category_id=1)),
+]
+app_client_param_ids = [p.case_id for p in app_client_params]
+
+
+user_client_params = [
+    CaseParameters(UserClient.get_email_validation),
+    CaseParameters(UserClient.connect_item, call(prefill_email="john@doe.com")),
+    # CaseParameters(UserClient.edit_item, call(item_id=ITEM_ID, redirect_url="https://test.com")),
+    # CaseParameters(UserClient.manage_sca_sync_item, call(item_id=ITEM_ID)),
+    CaseParameters(UserClient.validate_pro_items),
+    CaseParameters(UserClient.manage_accounts_iban),
+    CaseParameters(UserClient.list_items),
+    CaseParameters(UserClient.get_item, call(item_id=ITEM_ID)),
+    CaseParameters(UserClient.refresh_item, call(item_id=ITEM_ID)),
+    CaseParameters(UserClient.get_item_refresh_status, call(item_id=ITEM_ID)),
+    # CaseParameters(UserClient.delete_item, call(item_id=1)),
+    # CaseParameters(UserClient.list_accounts),
+    # CaseParameters(UserClient.get_account, call(item_id=1)),
+    # CaseParameters(UserClient.list_transactions),
+    # CaseParameters(UserClient.list_updated_transactions),
+    # CaseParameters(UserClient.list_account_transactions, call(account_id=1)),
+    # CaseParameters(UserClient.list_account_updated_transactions, call(account_id=1)),
+    # CaseParameters(UserClient.list_stocks),
+    # CaseParameters(UserClient.list_updated_stocks),
+    # CaseParameters(UserClient.get_stock, call(stock_id=1)),
+]
+user_client_param_ids = [p.case_id for p in user_client_params]
+
+
+@pytest.mark.vcr
+def _test_app_client(app_client: AppClient):
+    result = app_client.list_banks(countries="fr")
+    assert isinstance(result, PaginatedResult[Bank])
+    assert all(isinstance(b, Bank) for b in result.resources)
+    assert result._client is app_client
+    assert result._page_number == 0
+    assert result.response.request.method == "GET"
+    assert result.response.request.path_url == "/v2/banks?countries=fr"
+    assert result.response.json() == json.loads(result.json(exclude_unset=True))
+
+
+def json_encoder(obj):
+    if isinstance(obj, dt.datetime):
+        s = obj.astimezone(dt.timezone.utc).isoformat(sep="T", timespec="milliseconds")
+        return s.split("+")[0] + "Z"
+    return pydantic_encoder(obj)
+
+
+def check_client_api_method(
+    client: BaseClient, method: Callable[..., BaseResponseModel], call_args: _Call
+):
+    result = method(client, *call_args.args, **call_args.kwargs)
+
+    return_type = get_type_hints(method)["return"]
+    if return_type is type(None):
+        assert result is None
+        return
+
+    assert isinstance(result, return_type)
+
+    response_json = result.response.json()
+    result_json = json.loads(result.json(exclude_unset=True, encoder=json_encoder))
+    assert response_json == result_json
+
+
+@pytest.mark.vcr
+@pytest.mark.parametrize("params", app_client_params, ids=app_client_param_ids)
+def test_app_client(app_client: AppClient, params: CaseParameters):
+    check_client_api_method(app_client, params.method, params.call_args)
+
+
+@pytest.mark.vcr
+@pytest.mark.parametrize("params", user_client_params, ids=user_client_param_ids)
+def test_user_client(user_client: UserClient, params: CaseParameters):
+    check_client_api_method(user_client, params.method, params.call_args)
