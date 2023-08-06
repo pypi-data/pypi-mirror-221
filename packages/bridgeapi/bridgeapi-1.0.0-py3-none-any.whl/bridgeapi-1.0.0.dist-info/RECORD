@@ -1,0 +1,10 @@
+bridgeapi/__about__.py,sha256=QxleaIaGc61-TlLrfDw87LgNDUSh6Hv8dp3G0zqeY1k,131
+bridgeapi/__init__.py,sha256=ACtTSJbYfk8If4S2CZeZeYYsa3e2LAoaLQV0HptQ5z0,227
+bridgeapi/base_client.py,sha256=HeiLC0xEEM8B1I7wZTCIAP4Wl-irJmGd-HtO0z60Arc,1237
+bridgeapi/client.py,sha256=hTe2X2JOEnkEl3lP4j3wSO63qlXFtMFgyC4D1Cn7VH8,16085
+bridgeapi/exceptions.py,sha256=0V_7BEePewLoQsgbaG5KAZS3yly3eCX82VcvqFio7ms,1261
+bridgeapi/models.py,sha256=Se1hNV2pUDwn7x08NeCDkbSiGN-3rLBXvIcIeHt2WQY,8305
+bridgeapi-1.0.0.dist-info/METADATA,sha256=-LIax5RORSiwqwacVKeAFxAE_hzlt0kpRuGbMAkrxeY,5709
+bridgeapi-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bridgeapi-1.0.0.dist-info/licenses/LICENSE.txt,sha256=17F0Ql6-mO-ONHYFyhPYJFMN4cBGfNGp4qCmTZPO6hE,1101
+bridgeapi-1.0.0.dist-info/RECORD,,
