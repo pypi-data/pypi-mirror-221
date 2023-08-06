@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+NSlogger/__init__.py
+NSlogger.egg-info/PKG-INFO
+NSlogger.egg-info/SOURCES.txt
+NSlogger.egg-info/dependency_links.txt
+NSlogger.egg-info/top_level.txt

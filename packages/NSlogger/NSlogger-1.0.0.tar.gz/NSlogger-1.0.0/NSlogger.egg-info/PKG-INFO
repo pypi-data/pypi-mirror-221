@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: NSlogger
+Version: 1.0.0
+Summary: NSlogger is a simple logging module for Python applications. It provides an easy way to set up logging in your programs, allowing you to record and store log messages during application execution. With NSlogger, you can configure log levels, log messages to a file and the console, and customize log message formatting. It simplifies the process of logging, promotes consistent logging practices, and enhances debugging and error tracking capabilities in your Python applications.
+Home-page: UNKNOWN
+Author: Nitin Kumar Sharma
+Author-email: nitin.175sharma@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
