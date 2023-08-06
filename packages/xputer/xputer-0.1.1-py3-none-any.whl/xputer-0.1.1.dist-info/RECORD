@@ -1,0 +1,10 @@
+xputer/__init__.py,sha256=CeGDs_8QtevczNh4qtPP4ZsIkP86s6ZxgG4KLRh9wFQ,313
+xputer/__main__.py,sha256=uZxEb0woHzQoP5576bwYf7VOj5B2ypqZW9-G97e6Rz0,65
+xputer/gui.py,sha256=hyq5vDD7kzfQF3LkW5h85VKVU_e0E4UYSuEnu6i7ms0,26662
+xputer/main.py,sha256=r__hyXAsVON5vTUwA82m4XQpZBivZbj7kbUlOPvmP-w,8332
+xputer/utils.py,sha256=0lH8lPpIcZ3v1Az4ogKsBIXH8c9kJt0hOe9GXetGyww,31651
+xputer-0.1.1.dist-info/LICENSE,sha256=MTYF-6xpRekyTUglRweWtbfbwBL1I_3Bgfbm_SNOuI8,11525
+xputer-0.1.1.dist-info/METADATA,sha256=o9HiVicvxXrQyLWQ_OHAtwmNh67AVR29g5K1RF0pOCk,568
+xputer-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+xputer-0.1.1.dist-info/top_level.txt,sha256=LEoNi_kJe2weD_rZLpsdRyWcwIEkw9ZergOvM_MxVao,7
+xputer-0.1.1.dist-info/RECORD,,
