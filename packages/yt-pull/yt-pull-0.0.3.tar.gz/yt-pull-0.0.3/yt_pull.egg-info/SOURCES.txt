@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+yt_pull.egg-info/PKG-INFO
+yt_pull.egg-info/SOURCES.txt
+yt_pull.egg-info/dependency_links.txt
+yt_pull.egg-info/entry_points.txt
+yt_pull.egg-info/requires.txt
+yt_pull.egg-info/top_level.txt
+ytpull/__init__.py
