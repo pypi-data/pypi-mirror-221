@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SidraCoreApiPythonClient
+Version: 1.13.0.post261
+Summary: Sidra API
+Home-page: UNKNOWN
+Author-email: sidra@plainconcepts.com
+License: UNKNOWN
+Keywords: Swagger,Sidra API
+Platform: UNKNOWN
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.15)
+
+    Sidra API  # noqa: E501
+    
+
