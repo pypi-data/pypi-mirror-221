@@ -1,0 +1,13 @@
+smart-open
+optuna
+jieba
+matplotlib
+scikit-learn
+transformers
+fasttext
+classifiercluster
+codefast
+jiwer
+pandas
+numpy
+pytorch-lightning==1.7.7
