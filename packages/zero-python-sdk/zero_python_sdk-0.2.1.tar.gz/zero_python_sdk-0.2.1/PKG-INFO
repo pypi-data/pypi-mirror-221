@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: zero-python-sdk
+Version: 0.2.1
+Summary: zero client sdk
+Author: Misha-Otto
+Author-email: michael.zacharov@ottofeller.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-graphql-client (==0.4.3)
+Description-Content-Type: text/markdown
+
+# Zero Python SDK
+
+Python SDK for [Zero](https://tryzero.com). Provides a clear and simple interface for the secrets manager GraphQL API.
+
+## Installation
+
+```sh
+  poetry add zero-python-sdk
+```
+
+## Usage
+
+Fetch your vendor secrets by passing your `zero` token:
+
+```python
+import os
+from zero_python_sdk import zero
+
+ZERO_TOKEN = os.getenv("ZERO_TOKEN")
+
+# {'aws': {'secret': 'value', 'secret2': 'value2'}, 'googleCloud': {...}}
+print(zero(token=ZERO_TOKEN, pick=["aws", "googleCloud"], caller_name="stagingcluster").fetch())
+```
+
