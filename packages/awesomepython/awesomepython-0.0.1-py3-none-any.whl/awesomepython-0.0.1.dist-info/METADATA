@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: awesomepython
+Version: 0.0.1
+Summary: CLI for discovering hand-picked awesome Python libraries, with an emphasis on data and machine learning.
+Home-page: https://github.com/dylanhogg/awesomepython-package
+Author: Dylan Hogg
+Author-email: dylanhogg@gmail.com
+License: UNKNOWN
+Keywords: awesome,python,frameworks,packages,data,libraries,pip,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+
+# awesomepython
+
+Awesome Python CLI
+
+Coming soon...
+
+
