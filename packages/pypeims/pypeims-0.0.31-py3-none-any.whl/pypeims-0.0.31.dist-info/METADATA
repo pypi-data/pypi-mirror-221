@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pypeims
+Version: 0.0.31
+Summary: Defining classes and functions for accessing and manipulating Texas PEIMS data (including data in TAPR and statistics typically accessed through Snapshot) programmatically.
+Project-URL: Documentation, https://github.com/adpena/pypeims#readme
+Project-URL: Issues, https://github.com/adpena/pypeims/issues
+Project-URL: Source, https://github.com/adpena/pypeims
+Author-email: Alejandro Pena <adpena@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# PyPEIMS
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pypeims.svg)](https://pypi.org/project/pypeims)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pypeims.svg)](https://pypi.org/project/pypeims)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install pypeims
+```
+
+## License
+
+`pypeims` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

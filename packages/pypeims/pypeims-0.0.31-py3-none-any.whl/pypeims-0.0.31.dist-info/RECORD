@@ -1,0 +1,11 @@
+pypeims/__about__.py,sha256=hL_KMorKYQG18YnidEEhn3AyAyzXbN6kjawXQ5mXag8,129
+pypeims/__init__.py,sha256=dJJAIKucSfeJPEtSNohNuo2GgKzknFIBcDB3DVPSVpM,106
+pypeims/data/Special Education Funding Gap/SPED data request_SY2021_3.6.2023_ORIGINAL.xlsx,sha256=2RuSW4g4xqxtZHnpVpOFj5yad5gqk5neTXdko5mkJeQ,84075
+pypeims/data/Special Education Funding Gap/SPED data request_SY2022_3.14.2023_ORIGINAL.xls,sha256=P-W5VaRcK4uOcJWxNni6WLdMh_CjT-P8MBhWTNHpy50,190464
+pypeims/data/Special Education Funding Gap/SPED data request_SY2022_3.14.2023_PROCESSED.xlsx,sha256=7Zl9uZNs5P-BOkzoQBYVGIkrD1oZ3xCAa4-Fgwu1QbU,72044
+pypeims/instruments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypeims/instruments/utils.py,sha256=F3axVhmruxw86lYIcoSpeeYgcKudc7YvbQLF6DDb0DM,1678
+pypeims-0.0.31.dist-info/METADATA,sha256=BK-d9gTDpulAPMwfInn4ncHVhN5-y52oQPlO6GMRmZY,1554
+pypeims-0.0.31.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pypeims-0.0.31.dist-info/licenses/LICENSE.txt,sha256=Rq2BHN4D00VxoFwS2mPeyHDToKffOvZgd7Qf_KxuA1g,1098
+pypeims-0.0.31.dist-info/RECORD,,
