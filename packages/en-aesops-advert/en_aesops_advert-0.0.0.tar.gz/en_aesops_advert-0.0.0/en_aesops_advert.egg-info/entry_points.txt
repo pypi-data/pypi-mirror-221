@@ -1,0 +1,2 @@
+[spacy_models]
+en_aesops_advert = en_aesops_advert

@@ -1,0 +1,60 @@
+{
+  "lang":"en",
+  "name":"aesops_advert",
+  "version":"0.0.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_version":">=3.5.4,<3.6.0",
+  "spacy_git_version":"7a2833bf2",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "textcat":[
+      "Normal",
+      "Advert"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.7637156952,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.8453881885,
+    "cats_micro_r":0.8453881885,
+    "cats_micro_f":0.8453881885,
+    "cats_macro_p":0.7987797511,
+    "cats_macro_r":0.7423547513,
+    "cats_macro_f":0.7637156952,
+    "cats_macro_auc":0.8300735982,
+    "cats_f_per_type":{
+      "Normal":{
+        "p":0.8709677419,
+        "r":0.9366869037,
+        "f":0.9026326786
+      },
+      "Advert":{
+        "p":0.7265917603,
+        "r":0.5480225989,
+        "f":0.6247987118
+      }
+    },
+    "textcat_loss":4.1039879017
+  },
+  "requirements":[
+
+  ]
+}
