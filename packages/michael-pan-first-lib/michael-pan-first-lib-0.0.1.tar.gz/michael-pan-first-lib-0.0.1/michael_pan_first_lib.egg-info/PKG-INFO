@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: michael-pan-first-lib
+Version: 0.0.1
+Summary: 第一个测试库
+Home-page: https://github.com/p110120p1/Logistics
+Author: chuntong pan
+Author-email: panzhang1314@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple example package. 

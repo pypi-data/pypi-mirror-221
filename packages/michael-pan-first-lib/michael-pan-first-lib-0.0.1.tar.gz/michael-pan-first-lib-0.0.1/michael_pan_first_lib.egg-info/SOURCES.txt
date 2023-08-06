@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+michael_pan_first_lib.egg-info/PKG-INFO
+michael_pan_first_lib.egg-info/SOURCES.txt
+michael_pan_first_lib.egg-info/dependency_links.txt
+michael_pan_first_lib.egg-info/top_level.txt
