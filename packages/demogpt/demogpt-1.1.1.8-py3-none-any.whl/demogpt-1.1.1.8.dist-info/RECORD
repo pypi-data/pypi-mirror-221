@@ -1,0 +1,11 @@
+prompt_based/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prompt_based/app.py,sha256=rL8Sg_QxdJXZRHMwQl4PiFRNDM5wF5G5oPvnnUTWGCw,4175
+prompt_based/cli.py,sha256=z6mJCda-wjYiOTko82CFLmDKFLfi2Ka4kbc7LE3C-Oo,232
+prompt_based/model.py,sha256=UP5suiMDNM-DS_FLlb4ELw-Q6IhBj7VMBbk48dTTKyY,11248
+prompt_based/prompts.py,sha256=ZQrCFr5hUQaZ7QQif6L6hk8dlnCsIAoqbri8JMlgEds,6115
+prompt_based/prompts.txt,sha256=LykXDCoS47RJyV2lmyf1VASj-x3aP4g8DNP0a-Iu3VI,6169
+demogpt-1.1.1.8.dist-info/LICENSE,sha256=c6weCOz93ahv-l2qWAMHpYtbBkg2RceXaRoUw7R1_vo,1069
+demogpt-1.1.1.8.dist-info/METADATA,sha256=6ncxKgk7wbgfxlnnof24CS1knIBnqJ7oyYTTdfFXMVs,8573
+demogpt-1.1.1.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+demogpt-1.1.1.8.dist-info/entry_points.txt,sha256=G1UnVF9-VoloWOj_16qbE6cQpbmRkn-S-JiCuPaA1gM,49
+demogpt-1.1.1.8.dist-info/RECORD,,
