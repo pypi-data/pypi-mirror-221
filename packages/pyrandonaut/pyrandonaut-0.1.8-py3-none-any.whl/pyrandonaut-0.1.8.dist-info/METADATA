@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyrandonaut
+Version: 0.1.8
+Summary: Open-source quantum random coordinate generation for randonauts <3
+License: GPLv3
+Author: alicemandragora
+Author-email: openrandonaut@riseup.net
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Installation/Setup
+Requires-Dist: numpy (==1.23.1)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: randonautentropy (==1.0.2)
+Requires-Dist: scipy (==1.9.0)
+Project-URL: documentation, http://pyrandonaut.readthedocs.io/
+Project-URL: repository, https://github.com/openrandonaut/pyrandonaut
