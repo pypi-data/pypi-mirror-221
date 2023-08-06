@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+juviz/__init__.py
+juviz/assets/FZJ_Logo.svg
+juviz/assets/__init__.py
+juviz/widgets/__init__.py
+juviz/widgets/juviz_controller.py
+juviz_app.egg-info/PKG-INFO
+juviz_app.egg-info/SOURCES.txt
+juviz_app.egg-info/dependency_links.txt
+juviz_app.egg-info/requires.txt
+juviz_app.egg-info/top_level.txt
