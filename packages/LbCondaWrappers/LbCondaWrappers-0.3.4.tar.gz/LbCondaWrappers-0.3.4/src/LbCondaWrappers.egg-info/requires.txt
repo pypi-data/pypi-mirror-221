@@ -1,0 +1,5 @@
+lb_telemetry
+
+[testing]
+pytest
+pytest-cov
