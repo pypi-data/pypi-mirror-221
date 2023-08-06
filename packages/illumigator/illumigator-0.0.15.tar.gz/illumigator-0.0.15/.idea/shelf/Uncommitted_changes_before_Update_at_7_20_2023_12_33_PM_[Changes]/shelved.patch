@@ -1,0 +1,30 @@
+Index: illumigator/data/levels/community/custom_level10.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"level_name\": \"My Custom Level 2\",\r\n  \"planet\": \"mars\",\r\n  \"level_data\": {\r\n    \"mirror_coordinate_list\": [\r\n      [740, 580, 0],\r\n      [900, 180, 0]\r\n    ],\r\n    \"wall_coordinate_list\": [\r\n      [340, 540, 1, 7, 0],\r\n      [740, 180, 1, 7, 0],\r\n      [900, 540, 1, 7, 0]\r\n    ],\r\n    \"light_receiver_coordinate_list\": [\r\n      [1180, 620, 0]\r\n    ],\r\n    \"light_source_coordinate_list\": [\r\n      [140, 60, 1.57079632679]\r\n    ],\r\n    \"animated_wall_coordinate_list\": [\r\n    ]\r\n  }\r\n}\r\n
+===================================================================
+diff --git a/illumigator/data/levels/community/custom_level10.json b/illumigator/data/levels/community/custom_level10.json
+--- a/illumigator/data/levels/community/custom_level10.json	
++++ b/illumigator/data/levels/community/custom_level10.json	
+@@ -1,5 +1,5 @@
+ {
+-  "level_name": "My Custom Level 2",
++  "level_name": "FRONT",
+   "planet": "mars",
+   "level_data": {
+     "mirror_coordinate_list": [
+Index: illumigator/data/levels/community/custom_level13.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"level_name\": \"My Custom Level 2\",\r\n  \"planet\": \"mars\",\r\n  \"level_data\": {\r\n    \"mirror_coordinate_list\": [\r\n      [740, 580, 0],\r\n      [900, 180, 0]\r\n    ],\r\n    \"wall_coordinate_list\": [\r\n      [340, 540, 1, 7, 0],\r\n      [740, 180, 1, 7, 0],\r\n      [900, 540, 1, 7, 0]\r\n    ],\r\n    \"light_receiver_coordinate_list\": [\r\n      [1180, 620, 0]\r\n    ],\r\n    \"light_source_coordinate_list\": [\r\n      [140, 60, 1.57079632679]\r\n    ],\r\n    \"animated_wall_coordinate_list\": [\r\n    ]\r\n  }\r\n}\r\n
+===================================================================
+diff --git a/illumigator/data/levels/community/custom_level13.json b/illumigator/data/levels/community/custom_level13.json
+--- a/illumigator/data/levels/community/custom_level13.json	
++++ b/illumigator/data/levels/community/custom_level13.json	
+@@ -1,5 +1,5 @@
+ {
+-  "level_name": "My Custom Level 2",
++  "level_name": "THIS FILE",
+   "planet": "mars",
+   "level_data": {
+     "mirror_coordinate_list": [

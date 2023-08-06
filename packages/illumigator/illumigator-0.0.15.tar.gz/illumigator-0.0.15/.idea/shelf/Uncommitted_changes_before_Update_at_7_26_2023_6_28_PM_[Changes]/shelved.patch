@@ -1,0 +1,34 @@
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level_test.json\": {\"date_modified\": 1690180773.0669935, \"level_name\": \"Custom Test Level\", \"planet_name\": \"earth\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	(revision 768cfcec118e3d70bb13abcb6de9c3a038db6883)
++++ b/illumigator/data/levels/community/levels.json	(date 1690363613519)
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level_test.json": {"date_modified": 1690180773.0669935, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
++{"levels": {"custom_level_test.json": {"date_modified": 1690175258.1521873, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[build-system]\r\nrequires = [\"hatchling\"]\r\nbuild-backend = \"hatchling.build\"\r\n\r\n[project]\r\nname = \"illumigator\"\r\nversion = \"0.0.11\"\r\nauthors = [\r\n    { name=\"Richard Sorkin\", email=\"r.sorkin@ufl.edu\" },\r\n    { name=\"Tomas Mejia\", email=\"tomas.mejia@ufl.edu\" },\r\n    { name=\"Amber Handal\", email=\"amberhandal@ufl.edu\" },\r\n    { name=\"Elton Li\", email=\"eltonli@ufl.edu\" },\r\n    { name=\"Dakota Cappel\", email=\"dakota.cappel@ufl.edu\"}\r\n]\r\ndescription = \"2D Light-Based Puzzle Game\"\r\nreadme = \"README.md\"\r\nrequires-python = \">=3.10\"\r\nclassifiers = [\r\n    \"Programming Language :: Python :: 3\",\r\n    \"License :: OSI Approved :: MIT License\",\r\n    \"Operating System :: OS Independent\",\r\n]\r\ndependencies = [\r\n    \"arcade\",\r\n    \"numpy\",\r\n    \"screeninfo\",\r\n    \"pydantic\"\r\n]\r\n\r\n[project.urls]\r\n\"Homepage\" = \"https://github.com/EltonLi2000/IllumiGator\"\r\n\"Bug Tracker\" = \"https://github.com/EltonLi2000/IllumiGator/issues\"\r\n\r\n[project.scripts]\r\nillumigator = \"illumigator.main:main\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision 768cfcec118e3d70bb13abcb6de9c3a038db6883)
++++ b/pyproject.toml	(date 1690363613531)
+@@ -4,7 +4,7 @@
+ 
+ [project]
+ name = "illumigator"
+-version = "0.0.11"
++version = "0.0.13"
+ authors = [
+     { name="Richard Sorkin", email="r.sorkin@ufl.edu" },
+     { name="Tomas Mejia", email="tomas.mejia@ufl.edu" },
