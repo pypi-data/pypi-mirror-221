@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "barcode_distance"
+version = "0.1.1"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+name = "barcode_distance"
+
+[dependencies]
+crossbeam-channel = "0.5.4"
+env_logger = "0.8.2"
+log = "0.4.17"
+pyo3 = {version = "0.16.5", features = ["extension-module"]}
