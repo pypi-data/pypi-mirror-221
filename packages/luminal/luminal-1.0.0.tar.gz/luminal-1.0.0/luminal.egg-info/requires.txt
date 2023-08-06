@@ -1,0 +1,7 @@
+
+[dev]
+coverage
+twine
+sphinx
+sphinx-rtd-theme
+sphinx-autoapi
