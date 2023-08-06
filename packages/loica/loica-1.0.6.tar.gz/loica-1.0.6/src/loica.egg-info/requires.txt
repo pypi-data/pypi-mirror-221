@@ -1,0 +1,11 @@
+numpy
+scipy
+networkx
+pandas
+sbol3
+tyto
+tdqm
+
+[test]
+pytest<5.0.0
+pytest-cov[all]
