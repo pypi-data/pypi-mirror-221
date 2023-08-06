@@ -1,0 +1,5 @@
+setup.py
+simple_shapes.egg-info/PKG-INFO
+simple_shapes.egg-info/SOURCES.txt
+simple_shapes.egg-info/dependency_links.txt
+simple_shapes.egg-info/top_level.txt
