@@ -1,0 +1,6 @@
+setup.py
+MyMalDependency.egg-info/PKG-INFO
+MyMalDependency.egg-info/SOURCES.txt
+MyMalDependency.egg-info/dependency_links.txt
+MyMalDependency.egg-info/top_level.txt
+MyMalDependency_package/__init__.py
