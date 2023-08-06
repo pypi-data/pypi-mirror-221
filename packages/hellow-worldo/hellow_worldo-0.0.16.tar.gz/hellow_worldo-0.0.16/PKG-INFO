@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: hellow_worldo
+Version: 0.0.16
+Summary: hello world
+Home-page: UNKNOWN
+Author: RohitMishra (The Great DEV)
+Author-email: RKMDEV@DEV.com
+License: UNKNOWN
+Keywords: python,hello
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/plain
+
+My FastAPI Application
+======================
+
+Introduction
+------------
+
+My FastAPI Application is a simple web application built using FastAPI, a modern, fast, and web-based API framework for Python. The application exposes a single endpoint that returns a greeting message.
+
+Installation
+------------
+
+1. Make sure you have Python 3.7 or later installed on your system.
+
+2. Install the required dependencies by running the following command:
+
+   .. code-block:: bash
+
+      pip install fastapi uvicorn
+
+3. Clone the repository or download the source code of the application.
+
+4. Change into the project directory:
+
+   .. code-block:: bash
+
+      cd path/to/my_fastapi_app
+
+Usage
+-----
+
+To run the FastAPI application, execute the following command:
+
+.. code-block:: bash
+
+   uvicorn myapp:app --host 0.0.0.0 --port 8000
+
+The application will start running, and you can access it by navigating to ``http://localhost:8000/`` in your web browser or using an API client like curl or Postman.
+
+Endpoints
+---------
+
+- GET `/`: Returns a greeting message.
+
+API Response Example
+--------------------
+
+.. code-block:: json
+
+   {
+       "data": "Hellow Worldo.."
+   }
+
+Contributing
+------------
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository and create a new branch.
+
+2. Make your changes and write tests if applicable.
+
+3. Ensure that all tests pass by running:
+
+   .. code-block:: bash
+
+      pytest
+
+4. Commit your changes and push them to your fork.
+
+5. Create a pull request from your branch to the main repository.
+
+Support
+-------
+
+If you encounter any issues or have questions about the application, feel free to open an issue on the GitHub repository.
+
+License
+-------
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Acknowledgments
+---------------
+
+- FastAPI: https://fastapi.tiangolo.com
+- Uvicorn: https://www.uvicorn.org
+
+

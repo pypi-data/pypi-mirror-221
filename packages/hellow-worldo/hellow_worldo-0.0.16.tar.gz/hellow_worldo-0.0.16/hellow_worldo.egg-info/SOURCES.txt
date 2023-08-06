@@ -1,0 +1,8 @@
+README.rst
+setup.py
+helloCode/__init__.py
+helloCode/hello.py
+hellow_worldo.egg-info/PKG-INFO
+hellow_worldo.egg-info/SOURCES.txt
+hellow_worldo.egg-info/dependency_links.txt
+hellow_worldo.egg-info/top_level.txt
