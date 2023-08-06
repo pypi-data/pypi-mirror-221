@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: SimpleRegressor
+Version: 0.0.1
+Summary: Simple Forest model
+Home-page: https://github.com/kishorekaruppusamy/SimpleRegressor
+Download-URL: https://pypi.org/project/SimpleRegressor/
+Author: Kishore
+Author-email: kishore.k.22032002@gmail.com
+Description-Content-Type: text/markdown
+
+# SimpleRegressor
+This Repository contains a simple Regressor model to predict car price
+
+
+## [0.0.1] - 2023-07-25
+
+### Added
+- `functions.load_pickle_object()`
+- `functions.predict()`
+
+### Changed
+
+### Removed

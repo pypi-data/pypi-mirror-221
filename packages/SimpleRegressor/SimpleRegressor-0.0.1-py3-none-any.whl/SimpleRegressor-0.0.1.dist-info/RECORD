@@ -1,0 +1,10 @@
+SimpleRegressor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleRegressor/functions.py,sha256=oUnWlvInwTxBseHO7h1Fg6dHe3k5qr_tgCVIUISr-Mo,491
+SimpleRegressor/encoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleRegressor/encoders/encoder_dict.pkl,sha256=Daqw9iEeXRzKwxYMqa1ByWFtafsboOgwoW14Sgg4Cok,797
+SimpleRegressor/pre_trained_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleRegressor/pre_trained_models/regressor.pkl,sha256=dbvJWDk2X6Ac0RKcI0N7CofSZqiHB0DFVypyvsjBSSA,1272830
+SimpleRegressor-0.0.1.dist-info/METADATA,sha256=ci6DEk5-Fv52u2WvPlmS9VjpG7IXqaSFbZu8tqS4Zr0,520
+SimpleRegressor-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SimpleRegressor-0.0.1.dist-info/top_level.txt,sha256=nG_A9L89vKXMwuM5R1nEjfjpegRCxJCYOVfneLBoSYY,16
+SimpleRegressor-0.0.1.dist-info/RECORD,,
