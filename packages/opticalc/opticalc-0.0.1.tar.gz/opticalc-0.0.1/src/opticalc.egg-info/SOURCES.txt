@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/opticalc.py
+src/opticalc.egg-info/PKG-INFO
+src/opticalc.egg-info/SOURCES.txt
+src/opticalc.egg-info/dependency_links.txt
+src/opticalc.egg-info/requires.txt
+src/opticalc.egg-info/top_level.txt
