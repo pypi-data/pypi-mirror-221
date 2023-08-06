@@ -1,0 +1,9 @@
+vlclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlclient/auth.py,sha256=WIkHissaB48otSxRk5vwPcFOhPPfSOZmjPPqSOXldXY,1739
+vlclient/client.py,sha256=8Nb8x4H-EYEzMuXle8hKIByceZbKLwKGb5IG3tYWAfM,41513
+vlclient/exceptions.py,sha256=aaAA5ruqRtFSTglvc8wq9OUan7AuYFRgbaQxE_W-fc0,688
+vlclient/resources.py,sha256=5qZObGz7nKP1ARs3T9vr7ZMc1Gz4tcK-YYTN-aNljx0,563
+vlclient-1.0.1.dist-info/LICENSE,sha256=J0jIMohO2RrCbHkV97fNLvM3EnW7J42pLifLJlJ03H4,1082
+vlclient-1.0.1.dist-info/METADATA,sha256=9qAa41YLmRfFCrkzmVJ8YXtYmCxxC_yS8Z2ZJOLnuh4,1270
+vlclient-1.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+vlclient-1.0.1.dist-info/RECORD,,
