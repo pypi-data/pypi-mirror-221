@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: vecy
+Version: 0.1.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# vecy
+Vector search in rust with filtering
+
+## TODO
+
+- [x] get it to work with brute force
+- [ ] simd, brute force
+- [x] add clustring
+- [x] concurrent add clustring
+- [ ] add benchmark
+- [ ] add test
+- [ ] add filtering
+
+
+
+## Linear algebra
+
+The goal is to split the data in to a binary-tree structure where hyperplanes separate the data based upon two random points. Before we
+
+The equation of a hyper plane according(normal form):
+
+```
+n * (x - x_0) = 0 
+```
+
+x and x_0 are vectors in an N-dimensional space. The vector x represents any point on the hyperplane, and x_0 represents a specific known point on the hyperplane. n is a normal vector, which is perpendicular to the hyperplane. The direction of n gives the orientation of the hyperplane in space. The expression (x - x_0) is the vector from x_0 to x.
+
+Compute the midpoint c of a and b:
+```
+c = (a + b) / 2
+```
+
+Compute the vector d pointing from a to b:
+```
+d = b - a
+```
+
+Randomly selecting two points in an N-dimensional space, a and b described as vectors, then the hyperplane that lies perfectly between these two points will pass through the midpoint of the line segment joining a and b, and will be normal to the vector that points from a to b. In order to find this hyperplane we will take the following steps:
+
+The equation of the hyperplane that is perfectly between a and b is thus given by the following formula:
+
+```
+d * (x - c) = 0
+```
+
+where x represent any point on the hyper plane and c is he midpoint.
+
+This equation describes a hyperplane that passes through the midpoint of a and b and is perpendicular to the direction from a to b, thus it lies perfectly in between these two points.
+
+The vector d serves as the normal vector for the hyperplane, and the vector c represents a specific point on the hyperplane (the midpoint between a and b). Remember that "x" represents any point on the hyperplane.
+
+The "*" represents the dot product operation in the equation above. The equation d * (x - c) = 0 indicates that the dot product of the normal vector d and the vector from c to any point x on the hyperplane is zero, which signifies that these two vectors are orthogonal or perpendicular to each other. This is the property that defines a hyperplane.
+
+To find if a point is "above"(in the direction of the normal vector) or "below". We can check using: 
+
+
+```
+d * (x - c) > 0
+```
+
+where x is the point of interest.
+
+
+## Fearless concurrency 
+
+Modern computers are made faster due to more cores and thus to make things faster the implementation is threaded. Currently there is one thread per tree, a better solution to not create to many threads and lose performance due to CPU scheduling would potentially be to have a worker pool. This is left for a later stage. The trees are [Box](https://doc.rust-lang.org/std/boxed/struct.Box.html):ed due to that we dont know the length at compile time and thus is needs to end up on the heap to allow it to freely grow. Since they are boxed, which result in that we only have a fixed size pointer on the stack which are note allowed to be copied we utilize to use a reference counter to keep track in order to use the trees in a threading set up. [THis](https://henrybarreto.dev/box-rc-arc-and-the-relation-with-threads) is a good tutorial on it. 
+
+## Filtering support
+
+By adding metadata to each node, we can allow for more efficient filtering, metadata would also allow to indicate when we need to read from multiple nodes since the `top_k` is larger than the values in the sub nodes. 
+
+Also suggest having very large leafs, and then do linear search over each leaf. This could prove fast with super scalar cpus since. I think this is they way we will go. This will also result in that we have large enough clusters so that we can filter efficiently.
+
+Since we use concurrency this should be goooood.
+
+
+## Python virtual env
+
+```bash
+source .env/bin/activate
+```
+
+## Performance
+
+Performance is primarly evaluated through the python code using the [py-spy](https://github.com/benfred/py-spy). 
+
+## FFI for python
+
+In order to make the package available from python the [py03](https://pyo3.rs/v0.19.1/class#constructor) package is used. The rust code will be exposed through the `Trees` struct: 
+
+```rust 
+#[pyclass]
+pub struct Trees{
+    trees: Vec<Tree>,
+    all_data: Vec<Vec<f32>>
+}
+```
+
+in order to expose it to python through py03 `#[pyclass]` is added, the new function is also exposed. 
+
+```rust
+#[pymethods]
+impl Trees{
+
+    #[new]
+    pub fn new ...
+}
+```
+
+finally the python class(rust struct) has to be added to the module
+
+```rust
+#[pymodule]
+fn vecy(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
+    m.add_class::<Trees>()?;
+    Ok(())
+}
+```
+ and that is all that is needed to expose the rust code to python. 
+
+
+ It can now be imported as(after it has been built using `maturin develop`):
+
+ ```python
+ import vecy
+ ```
+
+
+### io_ring
+
+Andy pavlo talked about this, it might be cooool to check it out further!
+
+https://tylerneely.com/
+
+
+### Arrow? Should it be backed by arrow instead???
+
+
+###
+
+[Performance analyzer rust](https://blog.anp.lol/rust/2016/07/24/profiling-rust-perf-flamegraph/)
+
+
+
+### Scoped threads
+
+Blog post about this as well! Will be awesome to do! Will make a small one :) 
+
+https://itsallaboutthebit.com/arc-mutex/
+
+
+### Parallize the index job as well!
+- Send all the work to a work pool
+- Need intra index parallism to make it run fast enough. 
+
+
