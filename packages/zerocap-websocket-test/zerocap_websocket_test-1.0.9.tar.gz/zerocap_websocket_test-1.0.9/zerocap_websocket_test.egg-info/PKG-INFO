@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: zerocap-websocket-test
+Version: 1.0.9
+Summary: websocket_test
+Home-page: 
+Author: jiayu.gao
+Author-email: y18362683626@gmail.com
+License: BSD License
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+.. _pip-install-zerocap-websocket-test--i-httpswwwpypiorgsimple:
+
+pip install zerocap-websocket-test -i https://www.pypi.org/simple/
+==================================================================
+
+demo:
+
+from zerocap_websocket_test import ZerocapWebsocketTest
+
+API key and secret required
+===========================
+
+apiKey = ""
+
+apiSecret = ""
+
+websocket = ZerocapWebsocketTest(apiKey, apiSecret)
+
+Subscribe to Market data
+========================
+
+market_connect = websocket.get_market()
+
+Subscription order updates and transaction records
+==================================================
+
+orders_connect = websocket.get_orders()
+
+while True:
+
+::
+
+      # Get subscription messages
+
+      message = websocket.get_message(market_connect)
+
+      print(f"Receiving message from server: \n{message}")
+
+      if not message:
+
+          print("Connection close")
+
+          break
