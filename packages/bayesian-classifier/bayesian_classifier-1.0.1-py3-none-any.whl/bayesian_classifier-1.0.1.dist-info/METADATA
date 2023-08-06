@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bayesian-classifier
+Version: 1.0.1
+Summary: Python library for training and testing Bayesian classifiers
+Project-URL: Homepage, https://github.com/mathbarc/bayesian-classifier
+Keywords: bayesian,classifier
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: click (>=8.1.3)
+Requires-Dist: numpy (>=1.23.5)
+Provides-Extra: dev
+Requires-Dist: pylint (>=2.10) ; extra == 'dev'
+Requires-Dist: black (>=23.3.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=5.0.1) ; extra == 'docs'
+Requires-Dist: sphinx-markdown-builder ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=1.0.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest (>=7.3.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=4.0.0) ; extra == 'tests'
+
+===================
+Bayesian Classifier
+===================
+
+The bayesian classifier utilizes Bayes Theorem to implement a categorical classifier. The current package contains classes that implement both Full Bayes classifier and Naïve Bayes Classifier, providing a CLI interface as well.
+
+------------------------------------
+Runing Bayes Classifier on your data
+------------------------------------
+
+.. code-block:: bash
+
+    bayesian_classifier full_bayes train resource/iristrain3.txt --sep ","
+
+.. code-block:: bash
+
+    bayesian_classifier full_bayes test full_bayes.model resource/iristest3.txt
