@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+deforum.egg-info/PKG-INFO
+deforum.egg-info/SOURCES.txt
+deforum.egg-info/dependency_links.txt
+deforum.egg-info/top_level.txt
