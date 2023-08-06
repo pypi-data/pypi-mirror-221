@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: loica
+Version: 1.0.6
+Summary: LOICA: Logical Operators for Integrated Cell Algorithms
+Author-email: Gonzalo Vidal <g.a.vidal-pena2@ncl.ac.uk>, Timothy Rudge <tim.rudge@ncl.ac.uk>
+Maintainer-email: Gonzalo Vidal <g.a.vidal-pena2@ncl.ac.uk>
+License: MIT License
+        
+        Copyright (c) 2022 LOICA developers
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/RudgeLab/LOICA
+Project-URL: Bug Tracker, https://github.com/RudgeLab/LOICA/issues
+Keywords: loica,genetic,GDA,design,synthetic biology
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: pandas
+Requires-Dist: sbol3
+Requires-Dist: tyto
+Requires-Dist: tdqm
+Provides-Extra: test
+Requires-Dist: pytest (<5.0.0) ; extra == 'test'
+Requires-Dist: pytest-cov[all] ; extra == 'test'
+
+# LOICA
+
+Welcome to the LOICA (Logical Operators for Integrated Cell Algorithms) repository, our Python package for designing, modeling and characterizing genetic networks.
+
+<img src="https://github.com/RudgeLab/LOICA/blob/master/images/LOICA_Logo.svg#gh-light-mode-only" alt="LOICA logo" width="250"/>
+<img src="https://github.com/RudgeLab/LOICA/blob/master/images/LOICA_Logo_night.svg#gh-dark-mode-only" alt="LOICA night logo" width="250"/>
+
+
+![PyPI](https://img.shields.io/pypi/v/loica)
+[![Documentation Status](https://readthedocs.org/projects/loica/badge/?version=latest)](https://loica.readthedocs.io/en/latest/?badge=latest)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/loica)
+![PyPI - License](https://img.shields.io/pypi/l/loica)
+
+As you may have noticed, our logo features a beautiful bird—loica _[(Leistes loyca)](https://en.wikipedia.org/wiki/Long-tailed_meadowlark)_; a bird native to Chile known for its particular red chest and legendary kindness, with which we share name[.](https://youtu.be/qDL3zhB8-MM)
+
+## Reference and citation
+
+LOICA is an academic open source software for science, if you want to reference or cite it please use the following:
+
+DOI https://doi.org/10.1021/acssynbio.1c00603
+
+Get the BibTeX in [Google Scholar](https://scholar.google.com/scholar?hl=es&as_sdt=0%2C5&q=LOICA%3A+Integrating+Models+with+Data+for+Genetic+Network+Design+Automation&btnG=) 
+
+## Installation
+
+Installing LOICA is way easier than pronuncing it! 
+
+Do:
+
+`pip install loica`
+
+For more details please refer to our [Wiki](https://github.com/RudgeLab/LOICA/wiki) for installation instructions and developer guides.
+
+## LOICA allows you to:
+
+- Compile Code into DNA fragments that execute Cell Algorithms
+- Easy programation of genetic network models
+- Generation of synthetic data
+- Communicate with Flapjack
+- Use and output SBOL files
+- Use all sorts of cellular computation
+- Easy, fluid and customisable DNA design
+
+## Documentation
+
+ Please visit our documentation with API reference at Read the Docs [loica.rtfd.io](https://loica.rtfd.io)
+
+## Tutorials
+
+Now that you have LOICA installed you can familiarize yourself with the tool using the [Jupyter notebook tutorials](https://github.com/RudgeLab/LOICA/tree/master/notebooks) designed for this purpose.
+
+Run LOICA on the web without any installation! [LOICA Colab Notebook](https://drive.google.com/file/d/1xxxMS5amaTGY2Z09i5h03zMr2J2zGiwg/view?usp=sharing)
+
+You can use and modify this code by saving a copy in Drive.
