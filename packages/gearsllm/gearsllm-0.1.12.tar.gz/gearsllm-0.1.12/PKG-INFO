@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gearsllm
+Version: 0.1.12
+Summary: Lightweight library for building LLM-based control flow.
+License: MIT
+Author: Shreya Shankar
+Author-email: ss.shankar505@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: pydantic (>=1.8)
+Requires-Dist: tenacity (>=8.2.2,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Gears
+
+Gears is a lightweight framework for writing control flow with LLMs. It allows you to build complex chains of actions and conditions, and execute them in a single call. You have full control over the prompts; you just provide the text and control flow and Gears will handle the rest.
+
+TODO:
+
+- [ ] Write docs
+
