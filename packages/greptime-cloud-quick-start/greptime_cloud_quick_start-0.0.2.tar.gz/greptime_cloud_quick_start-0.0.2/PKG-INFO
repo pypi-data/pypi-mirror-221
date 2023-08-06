@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: greptime-cloud-quick-start
+Version: 0.0.2
+Summary: A quick start demo for GreptimeCloud
+Project-URL: Homepage, https://github.com/GreptimeCloudStarters/quick-start-python
+Project-URL: Bug Tracker, https://github.com/GreptimeCloudStarters/quick-start-python/issues
+Author-email: CUI YIRAN <cuiyiran3@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Introduction
+
+This is a quick start demo for [GreptimeCloud](https://greptime.cloud/). It collects the system metric data such as CPU and memory usage through Opentelemetry and sends the metrics to GreptimeCloud. You can view the metrics on the GreptimeCloud dashboard.
+
+Use the following command line to start it in Python 3.10:
+
+```shell
+pip install -r requirements.txt
+```
+
+```shell
+python app.py -host <host> -db <dbname> -u <username> -p <password>
+```
