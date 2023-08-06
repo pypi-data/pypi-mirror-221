@@ -1,0 +1,7 @@
+setup.py
+ingestor/__init__.py
+ingestor/processors.py
+ingestor_by_ckl.egg-info/PKG-INFO
+ingestor_by_ckl.egg-info/SOURCES.txt
+ingestor_by_ckl.egg-info/dependency_links.txt
+ingestor_by_ckl.egg-info/top_level.txt
