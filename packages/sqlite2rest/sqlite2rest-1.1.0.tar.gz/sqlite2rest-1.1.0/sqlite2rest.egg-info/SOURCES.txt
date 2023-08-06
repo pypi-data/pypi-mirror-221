@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+sqlite2rest/__init__.py
+sqlite2rest/__main__.py
+sqlite2rest/app.py
+sqlite2rest/database.py
+sqlite2rest/openapi.py
+sqlite2rest/routes.py
+sqlite2rest.egg-info/PKG-INFO
+sqlite2rest.egg-info/SOURCES.txt
+sqlite2rest.egg-info/dependency_links.txt
+sqlite2rest.egg-info/entry_points.txt
+sqlite2rest.egg-info/requires.txt
+sqlite2rest.egg-info/top_level.txt
+tests/test_openapi.py
+tests/test_routes.py
