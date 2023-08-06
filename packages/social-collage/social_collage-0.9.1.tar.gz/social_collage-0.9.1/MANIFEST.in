@@ -1,0 +1,8 @@
+include LICENSE
+include requirements.txt
+include README.md
+include example_images/00.jpg
+include example_images/01.jpg
+include example_images/02.jpg
+include example_images/03.jpg
+include example_images/04.jpg
