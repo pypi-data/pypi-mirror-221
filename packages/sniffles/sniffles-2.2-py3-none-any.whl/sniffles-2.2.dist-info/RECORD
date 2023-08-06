@@ -1,0 +1,17 @@
+sniffles/__init__.py,sha256=scXD3qbUDNeMBLhkP_zJ48SPLx4jJrUPgbPcyY2dpcw,190
+sniffles/cluster.py,sha256=Mrxuuo6N6amI8ozLasLRTpK5oeIJ-X36orBFfKE0usk,14161
+sniffles/config.py,sha256=MLjG3erEsflnLbqBtWiVHVhxUv7NzTRIrad1Q5Iq6BE,23091
+sniffles/consensus.py,sha256=w381yJ0DeiILOxrOxJD3fSc6QO4KCGtFFfHnDyWR47c,15172
+sniffles/leadprov.py,sha256=1ZHzeslNUhgUsJMEHQ2jynBrK4ieGqIS00vQ8rG42JE,24947
+sniffles/parallel.py,sha256=hNiCxFa_10j3mW8Xtg2RcbuUh7PsueqYScSsxc_I-Fc,15210
+sniffles/postprocessing.py,sha256=3TlhqKjBmbxVbCZTCNfIL_xRei0-FGdJE7Y_IOg4bEE,17006
+sniffles/snf.py,sha256=lsg06L6syLdLkRPdLGdZTDwFd0yAC9skLAUzYCRRGgs,5108
+sniffles/sv.py,sha256=35W9my70U-FS377XsI4C4Epq3R5xfr3vSlSPbqg6SXU,19538
+sniffles/util.py,sha256=JmjkO6tU09rrkmWrHzWcRAq3ewZzNtQoOJpGXtbxH5A,3283
+sniffles/vcf.py,sha256=P4rSm3bHBczdhHbjZX85Hn7NfZP0OeVh9nSur4ALt_8,15909
+sniffles-2.2.data/scripts/sniffles,sha256=hg2G4bfupiKK7HGUVLCfNJse32sLUvtRN9yC17GAUYY,26962
+sniffles-2.2.dist-info/LICENSE,sha256=OlHY2sz8TYvuas5_52rvaKKbaEZifwf87ctAz2BCx48,1070
+sniffles-2.2.dist-info/METADATA,sha256=IuSH-at1FUXwzAYPgXoj_rSjA3YPfwS7Zh7kiYAoYQc,4518
+sniffles-2.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sniffles-2.2.dist-info/top_level.txt,sha256=EG6lOhyRAd3ZzjAjOqAyTNdkkHA4Au4nCsmd99nG5-c,9
+sniffles-2.2.dist-info/RECORD,,
