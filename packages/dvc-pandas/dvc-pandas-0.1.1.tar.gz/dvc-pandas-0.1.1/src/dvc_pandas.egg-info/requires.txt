@@ -1,0 +1,10 @@
+GitPython
+appdirs
+dvc
+dvc-s3
+filelock
+pyarrow
+pandas
+pint-pandas
+python-snappy
+ruamel.yaml
