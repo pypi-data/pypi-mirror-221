@@ -1,0 +1,18 @@
+# PyQt
+PyQt5
+qtpy
+pyobjc-framework-Cocoa; sys_platform == "darwin"
+pyqtdarktheme
+
+# MNE-related
+mne
+mne-connectivity
+mne-qt-browser
+autoreject
+h5io
+vtk
+nibabel
+
+# Pipeline-related
+psutil
+pandas
