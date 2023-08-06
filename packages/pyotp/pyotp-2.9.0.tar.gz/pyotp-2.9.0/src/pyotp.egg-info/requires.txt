@@ -1,0 +1,6 @@
+
+[test]
+coverage
+wheel
+ruff
+mypy
