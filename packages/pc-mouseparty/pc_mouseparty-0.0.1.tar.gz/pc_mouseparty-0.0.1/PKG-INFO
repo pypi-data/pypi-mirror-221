@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pc_mouseparty
+Version: 0.0.1
+Summary: A package for all the base functions used in the Padilla-Coreano lab.
+Home-page: https://github.com/PadillaCoreanoLabGeneral/pc_mouseparty
+Author: Christopher Marais
+Author-email: padillacoreanolab@gmail.com
+License: MIT license
+Keywords: pc_mouseparty
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# pc_mouseparty
+
+
+[![image](https://img.shields.io/pypi/v/pc_mouseparty.svg)](https://pypi.python.org/pypi/pc_mouseparty)
+[![image](https://img.shields.io/conda/vn/conda-forge/pc_mouseparty.svg)](https://anaconda.org/conda-forge/pc_mouseparty)
+
+[![image](https://pyup.io/repos/github/PadillaCoreanoLabGeneral/pc_mouseparty/shield.svg)](https://pyup.io/repos/github/PadillaCoreanoLabGeneral/pc_mouseparty)
+
+
+**A package for all the base functions used in the Padilla-Coreano lab.**
+
+
+-   Free software: MIT license
+-   Documentation: https://PadillaCoreanoLabGeneral.github.io/pc_mouseparty
+    
+
+## Features
+
+-   TODO
