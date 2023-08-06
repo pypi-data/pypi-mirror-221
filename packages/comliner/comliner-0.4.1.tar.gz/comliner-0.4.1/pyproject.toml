@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "comliner"
+version = "0.4.1"
+authors = [
+  { name="Daniel Jung", email="proggy-contact@mailbox.org" },
+]
+maintainers = [
+  { name="Daniel Jung", email="proggy-contact@mailbox.org" },
+]
+description = "Command Line Interface Wrapper for Python Functions. Wrap your Python functions with a simple command line interface, so that they can be run directly from the command line, just like any shell command.  This is achieved by simply adding a decorator in front of the function and creating a small standardized executible script."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Source" = "https://github.com/proggy/comliner"
+"Homepage" = "https://github.com/proggy/comliner"
+"Bug Tracker" = "https://github.com/proggy/comliner/issues"
