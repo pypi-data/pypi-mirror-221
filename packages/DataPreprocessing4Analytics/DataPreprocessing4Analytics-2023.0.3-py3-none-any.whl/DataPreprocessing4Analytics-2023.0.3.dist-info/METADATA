@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: DataPreprocessing4Analytics
+Version: 2023.0.3
+Summary: Data Preprocessing
+Author: analytics4all4ever
+Author-email: <analytics4all4ever@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt.txt
+
+Simplifying Data Preprocessing for Data Science projects
