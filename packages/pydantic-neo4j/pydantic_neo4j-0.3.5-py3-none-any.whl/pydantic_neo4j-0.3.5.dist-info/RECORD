@@ -1,0 +1,9 @@
+pydantic_neo4j/__init__.py,sha256=2GzQORLQgGUj4SpMBQst0tgbuClca9bA2xLbXKpVPDk,869
+pydantic_neo4j/create_operations.py,sha256=6cTMvIAnzh4wnHd3Kb7GSbTWvhJHpb79kIvsEW83rJ0,5892
+pydantic_neo4j/database_operations.py,sha256=6dsBe0JhNfuzDnrC8KWjeypVOV6G10EFxmBtad3EIiM,4872
+pydantic_neo4j/graph_base_models.py,sha256=_SahC96qCB9XpfEKB5mgyQlRTcChiPuJbWWo1zyf4vA,3371
+pydantic_neo4j/match_operations.py,sha256=pHr078rHLy2BMmV3gddCBW3IcvVFLsM20W6nEQ3YbqM,10443
+pydantic_neo4j/pydantic_neo4j.py,sha256=api9WbSKhvd4ce1Tv9-2ah9KuZvbuMDV-Uc2hQpV8qI,1268
+pydantic_neo4j-0.3.5.dist-info/METADATA,sha256=YOZyIuRfbSXjEncCrTGkZlsp-kgFV5v0yCSCFYZB00c,4533
+pydantic_neo4j-0.3.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pydantic_neo4j-0.3.5.dist-info/RECORD,,
