@@ -1,0 +1,169 @@
+# TONB Merchant Backend API Python Client Library
+
+## Introduction
+
+This library provides a Python client for the TONB Merchant backend API. It allows users to interact with the API endpoints for the management of invoices, such as creating, retrieving, canceling invoices, as well as handling webhooks and retrieving invoice statistics.
+
+The library includes two dataclasses `Invoice` and `Webhook`, and a main client class `TONBApiClient`.
+
+## Installation
+
+```bash
+pip install tonb
+```
+
+## Usage
+
+First, import the API client class from the library:
+
+```python
+from tonb import TONBApiClient
+```
+
+Create an instance of the API client:
+
+```python
+api_client = TONBApiClient(base_url="<API_BASE_URL>", auth_token="<AUTH_TOKEN>", merchant_id="<MERCHANT_ID>")
+```
+
+Where:
+
+-   `<API_BASE_URL>` is the base URL of the API
+-   `<AUTH_TOKEN>` is the authentication token used for the API requests
+-   `<MERCHANT_ID>` is the ID of the merchant
+
+Now, you can use this instance to interact with the API.
+
+## Classes
+
+### Invoice
+
+This data class defines the invoice object. It represents an invoice in the system. It can be used to retrieve or manipulate invoice data.
+
+#### Attributes
+
+-   `id`: Invoice's ID (int).
+-   `status`: Status of the invoice (str).
+-   `code`: The code of the invoice (str).
+-   `amount`: Amount to be paid (str).
+-   `domain`: The domain related to the invoice (str).
+-   `order_id`: The id of the order (int).
+-   `transaction`: The transaction associated with the invoice (Optional[str]).
+-   `created_at`: The time at which the invoice was created (datetime).
+-   `updated_at`: The time at which the invoice was last updated (datetime).
+-   `user_from_id`: The user ID from which the invoice is generated (Optional[str]).
+-   `user_to_id`: The user ID to which the invoice is issued (str).
+-   `wallet_from_id`: The wallet ID from which the invoice is generated (Optional[int]).
+-   `wallet_to_id`: The wallet ID to which the invoice is issued (int).
+-   `user_from`: The user from which the invoice is generated (Optional[str]).
+-   `wallet_from`: The wallet from which the invoice is generated (Optional[str]).
+
+#### Static Methods
+
+-   `from_dict(source: dict)`: Creates an Invoice instance from a dictionary.
+
+### Webhook
+
+This data class defines the webhook object. It represents a webhook data received from the TONB API.
+
+#### Attributes
+
+-   `order_id`: The order ID related to the webhook (int).
+-   `amount`: Amount related to the webhook (int).
+-   `code`: The code related to the webhook (str).
+-   `status`: The status related to the webhook (str).
+
+#### Static Methods
+
+-   `from_dict(source: dict)`: Creates a Webhook instance from a dictionary.
+
+### TONBApiClient
+
+This class is the main client class that provides methods to interact with the TONB Merchant backend API.
+
+#### Attributes
+
+-   `base_url`: Base URL for the API (str).
+-   `timeout`: Timeout for the request (int, default is 10).
+
+#### Methods
+
+-   `create_invoice(amount: int, order_id: int)`: Creates a new invoice.
+-   `get_invoice(invoice: Union[Invoice, int])`: Retrieves an existing invoice.
+-   `get_invoices_stats()`: Retrieves statistics about invoices.
+-   `cancel_invoice(invoice: Union[Invoice, int])`: Cancels an existing invoice.
+-   `handle_request(request: Request)`: Handles a request.
+
+## Examples
+
+Below are a few examples demonstrating the usage of the TONB Merchant backend API Python client library.
+
+### Basic Operations
+
+This example shows how to create and cancel an invoice and get statistics about invoices.
+
+```python
+from tonb import TONBApiClient
+
+# Create an instance of the API client
+client = TONBApiClient(
+    "https://merchant-app-api2.tonb.io", "YOUR_API_KEY", "YOUR_MERCHANT_ID"
+)
+
+# Create an invoice with amount 1000000000 and order_id 12345
+invoice = client.create_invoice(1000000000, 12345)
+
+# Print the invoice details
+print(invoice)
+
+# Cancel the created invoice
+client.cancel_invoice(invoice)
+
+# Get and print the overall statistics about invoices
+print(client.get_invoices_stats())
+```
+
+In the above example, replace `"YOUR_API_KEY"` and `"YOUR_MERCHANT_ID"` with your actual API key and Merchant ID.
+
+### Handling Webhooks
+
+This example shows how to set up a Flask application to receive and validate webhooks using the `handle_request()` method.
+
+```python
+from flask import Flask, request, jsonify
+from tonb import TONBApiClient
+
+# Create a Flask app
+app = Flask(__name__)
+
+# Create an instance of the API client
+client = TONBApiClient(
+    "https://merchant-app-api2.tonb.io", "YOUR_API_KEY", "YOUR_MERCHANT_ID"
+)
+
+@app.route("/webhook", methods=["POST"])
+def handle_webhook():
+    try:
+        # Use the client to validate and parse the webhook data
+        data = client.handle_request(request)
+        # If the data is valid, you can continue processing it
+        print(data)
+        # This could involve updating your database, triggering other actions, etc.
+        return jsonify({"message": "Webhook received and validated successfully."}), 200
+    except ValueError:
+        # If the data is not valid, respond with an error status
+        return jsonify({"message": "Invalid webhook data."}), 400
+
+if __name__ == "__main__":
+    app.run("0.0.0.0", 80)
+```
+
+In the above example, replace `"YOUR_API_KEY"` and `"YOUR_MERCHANT_ID"` with your actual API key and Merchant ID.
+
+This application listens for POST requests at the `/webhook` endpoint. When it receives a request, it uses the `TONBApiClient.handle_request()` method to validate and parse the webhook data. If the data is valid, it returns a success message; if the data is not valid, it returns an error message.
+
+Remember to replace the IP address and port (`0.0.0.0` and `80`) in `app.run()` if needed.
+
+## Contributing
+
+We welcome contributions to this library. If you have any suggestions or issues, feel free to open an issue or submit a pull request.
