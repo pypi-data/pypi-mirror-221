@@ -1,0 +1,12 @@
+README.md
+setup.py
+CodingToolKit.egg-info/PKG-INFO
+CodingToolKit.egg-info/SOURCES.txt
+CodingToolKit.egg-info/dependency_links.txt
+CodingToolKit.egg-info/top_level.txt
+codingtoolkit/__init__.py
+codingtoolkit/flags.py
+codingtoolkit.egg-info/PKG-INFO
+codingtoolkit.egg-info/SOURCES.txt
+codingtoolkit.egg-info/dependency_links.txt
+codingtoolkit.egg-info/top_level.txt
