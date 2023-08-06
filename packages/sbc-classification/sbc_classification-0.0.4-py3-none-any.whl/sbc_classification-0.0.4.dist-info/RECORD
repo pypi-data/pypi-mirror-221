@@ -1,0 +1,10 @@
+sbc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbc/sbc_class.py,sha256=0Qjct1QOFMSKJ1II4cVEPN8hG_Xu4OqM4yOfriGAg70,4390
+sbc/util.py,sha256=u71OiocQ-qYe0EPU1GmzLRlbWswOllqlSt8N8cZJta8,3263
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_SBCclass.py,sha256=uhouDdhrnj5M6Np52kZ8wRRZKLTWebrf1HheMlhjCWY,1060
+sbc_classification-0.0.4.dist-info/LICENSE,sha256=rt4L8LfWcOjbgxacP5_Vt9nuYjKa0tRtaCCIKzwGjbU,1067
+sbc_classification-0.0.4.dist-info/METADATA,sha256=m86wG_2oFXo_stJGgRvc5uurVngSGjQya2tu80Ma0mg,2602
+sbc_classification-0.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sbc_classification-0.0.4.dist-info/top_level.txt,sha256=dCLZiF5T-2yyWCxxp_FN5Z-KVWvdE-5hhHE7qcLzuTo,10
+sbc_classification-0.0.4.dist-info/RECORD,,
