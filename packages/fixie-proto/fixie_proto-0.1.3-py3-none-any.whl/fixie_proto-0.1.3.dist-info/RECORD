@@ -1,0 +1,11 @@
+fixie_proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixie_proto/fixie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixie_proto/fixie/corpora/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixie_proto/fixie/corpora/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixie_proto/fixie/corpora/v1/common_pb2.py,sha256=lbpCvUYt2qXiSeX5Azrv_MbFNpnMCVPsr8wl44unJ28,1838
+fixie_proto/fixie/corpora/v1/common_pb2.pyi,sha256=Tm08VlbUChN4Mc871mFTNTeV7O1UZ-zoHEcbd3kU4Wk,847
+fixie_proto/fixie/corpora/v1/loader_pb2.py,sha256=UcpcBx4Zb5nSYCG_YI_72Vpat8hKspJZ6cPlDQSEaIU,3595
+fixie_proto/fixie/corpora/v1/loader_pb2.pyi,sha256=rio24zXgJtE_OqfCJb0NJNHoX8qmOi6hSa7HC-3GnBg,2219
+fixie_proto-0.1.3.dist-info/METADATA,sha256=ZZYdz837icORIInhy2NWcDL7m4XSUwfoONGo3qnYhGY,3992
+fixie_proto-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fixie_proto-0.1.3.dist-info/RECORD,,
