@@ -1,0 +1,7 @@
+setup.py
+passw/__init__.py
+passw/generate_pass.py
+passw.egg-info/PKG-INFO
+passw.egg-info/SOURCES.txt
+passw.egg-info/dependency_links.txt
+passw.egg-info/top_level.txt
