@@ -1,0 +1,3 @@
+requests
+slumber
+requests_oauthlib
