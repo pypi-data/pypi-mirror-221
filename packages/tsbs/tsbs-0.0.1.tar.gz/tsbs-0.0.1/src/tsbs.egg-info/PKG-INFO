@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tsbs
+Version: 0.0.1
+Summary: Time Series Baseline
+Author-email: Rajat Ghosh <rajat.ghosh11@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tsbs_rg
+---
+This package computes the baseline for a time series
+
+## Input
+
+Compute baseline for a time series data
+
+## Arguments:
+### Positional Arg:
+- data (array): time series data (reverse chronological)
+### Keyword Arg:
+- crit (float): critical multiplier value (default=None)
+- perc (float): critical baselining percentage (default=None)
+- false_positive_threshold (boolean): whether to use any false_positive_threshold (default=None)
+- is_low (boolean): whether anomalies for the lower thresholds are to be detected   (default=False)
+
+# usage
+
+`Baseline(data, crit, perc, false_positive_threshold=None, is_low=True).baseline()`
