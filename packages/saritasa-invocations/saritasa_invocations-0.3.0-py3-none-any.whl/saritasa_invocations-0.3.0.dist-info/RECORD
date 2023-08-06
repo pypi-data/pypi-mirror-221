@@ -1,0 +1,17 @@
+saritasa_invocations/__init__.py,sha256=BQ1gRHfOmwf0R2IOKIRuRtT9pf0snHDPU-Mzje4oj7w,297
+saritasa_invocations/alembic.py,sha256=ArzUaXUIoMSENMjR6TS7JqCHXVhe7dSjUsibZilDmok,3961
+saritasa_invocations/celery.py,sha256=0tjY5kgD8Z-LE6e1MakWLDhJ_uGoXngVFHeGhO7y59g,900
+saritasa_invocations/django.py,sha256=1ZWYrQK1l8_vRxPZcFbZRfinf2gGDneRNjuboOEu1Tg,6018
+saritasa_invocations/docker.py,sha256=ygoxorgey6MqH74XGb6o_I7P2jhktD3U-CJRxX3BgmA,5491
+saritasa_invocations/fastapi.py,sha256=YtUwaE6a1gxl_xCfzglaYn9u301wPn4hnIL-g_6BWMA,816
+saritasa_invocations/git.py,sha256=Rsx614NFhAUVOFXGE0i1gAidpti5ll2AzMkpkU9LJ3I,712
+saritasa_invocations/github_actions.py,sha256=_ZaBKA7PHAbRF0boPP8Rsrt5aO4Nr64kLRE7jCiRdds,688
+saritasa_invocations/open_api.py,sha256=YyHVEgAqNZgOdTz0SIKa_obrX_Gnwqf0ExpmUXQ5eDs,457
+saritasa_invocations/pre_commit.py,sha256=anob9Fqq_qV8mGK7JGe7sqFTRQ03IIh8R715CKluqbE,749
+saritasa_invocations/printing.py,sha256=RguLMJHQ9PX1KZ1XzitCNB89Aq9aDr4yqwaB7Z_k6Rw,753
+saritasa_invocations/python.py,sha256=2voqodtplqgfNVk2cxdKO7JWMJPGMoTW1LfPP2Rz3Tc,2849
+saritasa_invocations/system.py,sha256=38yQ3-wlernJKdiRfB4lvTSQOHv94bZesXzoT7HHeJk,1905
+saritasa_invocations-0.3.0.dist-info/LICENSE,sha256=71ud9DR10aOcX4FJOSCxFuzCYXxcNj6xWiYfE5OmbuM,1092
+saritasa_invocations-0.3.0.dist-info/METADATA,sha256=_1d68VQu1-scixRRqV2MckLeDBJu2UhQMETJWimACis,11697
+saritasa_invocations-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+saritasa_invocations-0.3.0.dist-info/RECORD,,
