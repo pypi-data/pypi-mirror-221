@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/FuncionesMatematicas/__init__.py
+src/FuncionesMatematicas.egg-info/PKG-INFO
+src/FuncionesMatematicas.egg-info/SOURCES.txt
+src/FuncionesMatematicas.egg-info/dependency_links.txt
+src/FuncionesMatematicas.egg-info/top_level.txt
+src/FuncionesMatematicas/compuestos/__init__.py
+src/FuncionesMatematicas/compuestos/funciones_avanzadas.py
+src/FuncionesMatematicas/elementales/__init__.py
+src/FuncionesMatematicas/elementales/funciones_basicas.py
