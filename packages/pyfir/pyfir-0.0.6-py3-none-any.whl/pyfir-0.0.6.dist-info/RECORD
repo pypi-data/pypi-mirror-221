@@ -1,0 +1,8 @@
+fir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fir/http.py,sha256=qC7-7IxTo3Hr2SW_rCHzABLOhihZ7ma31UH3ilGurRw,2901
+fir/wsgi.py,sha256=2aN9OFHvFa7R1iZRWHBJnCgLKRPTbN0jOjhXhUzFHqo,2677
+pyfir-0.0.6.dist-info/LICENSE,sha256=rmxUfGSKvaoY0S4mhcHrOWJumF7FAS9IFKaJrPFICH4,1072
+pyfir-0.0.6.dist-info/METADATA,sha256=O6l51QAz-dMu-k9vieLSp1E3HyCklZ47fQf3NWjNXNA,1866
+pyfir-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfir-0.0.6.dist-info/top_level.txt,sha256=QwwDL6kkWMufQWgaPW9-wP1YIDrs3B9mNyPj5O_rtGU,4
+pyfir-0.0.6.dist-info/RECORD,,
