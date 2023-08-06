@@ -1,0 +1,6 @@
+loguru
+pydantic<2.0
+
+[test]
+pytest
+pytest-cov
