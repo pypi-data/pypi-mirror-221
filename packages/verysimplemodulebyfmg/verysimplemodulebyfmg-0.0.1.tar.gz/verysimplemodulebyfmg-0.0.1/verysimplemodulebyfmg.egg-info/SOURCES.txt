@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule/__init__.py
+verysimplemodule/add.py
+verysimplemodule/substract.py
+verysimplemodule/extras/__init__.py
+verysimplemodule/extras/divide.py
+verysimplemodule/extras/multiply.py
+verysimplemodulebyfmg.egg-info/PKG-INFO
+verysimplemodulebyfmg.egg-info/SOURCES.txt
+verysimplemodulebyfmg.egg-info/dependency_links.txt
+verysimplemodulebyfmg.egg-info/top_level.txt
