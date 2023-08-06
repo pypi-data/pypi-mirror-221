@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/text2hologram/__main__.py
+src/text2hologram.egg-info/PKG-INFO
+src/text2hologram.egg-info/SOURCES.txt
+src/text2hologram.egg-info/dependency_links.txt
+src/text2hologram.egg-info/entry_points.txt
+src/text2hologram.egg-info/requires.txt
+src/text2hologram.egg-info/top_level.txt
