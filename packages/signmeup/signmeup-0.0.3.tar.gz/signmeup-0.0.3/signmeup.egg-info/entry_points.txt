@@ -1,0 +1,2 @@
+[console_scripts]
+signmeup = signmeup.cli:main
