@@ -1,0 +1,17 @@
+moildev/Moildev.py,sha256=dGqInpYDwP1Y2UsW3bHwSr2GSYi0L3bnv4Tx8no_qmE,27891
+moildev/__init__.py,sha256=JV5UKJQauE3Ne7M1mAthf0Rt1bHAQvOkmQ35a9zYt54,30
+moildev/dll/MoilCV.cp310-win_amd64.pyd,sha256=9tq6x1M20few4VClbbf83YU4tywXlSYaJ5G8LQ12-Yk,157696
+moildev/dll/MoilCV.cp36-win_amd64.pyd,sha256=eqIZha4eq1Vu0fABaJBhU0unq6CsvnfS8hvC9nzISt0,169472
+moildev/dll/MoilCV.cp37-win_amd64.pyd,sha256=CCQM_O7jD-l625pEz7q2HNchzt31MZI5KXrBkQh0TsU,169472
+moildev/dll/MoilCV.cp38-win_amd64.pyd,sha256=huc9Ow6nvv3g71CmxdqE-1QulOik2v80acYNh1cc-No,167424
+moildev/dll/MoilCV.cp39-win_amd64.pyd,sha256=P7u8aNMiIgmpKDW0NHfiP9qbZiUsnltgeK8YsKsOW3Y,167424
+moildev/dll/MoilCV.cpython-310-x86_64-linux-gnu.so,sha256=zPMM8z8t6-2mNX6u-B4U9CGxxLCZQg83SGiFv0QyHOI,238264
+moildev/dll/MoilCV.cpython-36m-x86_64-linux-gnu.so,sha256=xh2ZHF8CGKZKZrECJKFsvLtZkcq_xqr3VYWl1Vp4x24,248496
+moildev/dll/MoilCV.cpython-37m-x86_64-linux-gnu.so,sha256=UPT4ythGySIe3DwByhnxG_qzY93EDMXZW9UFOcCFALc,248584
+moildev/dll/MoilCV.cpython-38-x86_64-linux-gnu.so,sha256=44vjbwicG9uq_Pn29ZnXe_d5ExybdX0ebelqfQNhMOc,238336
+moildev/dll/MoilCV.cpython-39-x86_64-linux-gnu.so,sha256=1wA4UnJdsD6t1baAvU18e7MqDkE3_NdYF6P5hQpfHG8,246376
+moildev-4.0.0.dist-info/LICENSE,sha256=05aFwnlvgPN5ikSIk4sYQna-oHRJMNa6RyCAnGIznIo,1080
+moildev-4.0.0.dist-info/METADATA,sha256=h_pSTpO8ylaEH70Th65d7HAt7jp6eJoY3rFTO3eWRlE,6803
+moildev-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+moildev-4.0.0.dist-info/top_level.txt,sha256=s2YVdiMX9FwCkRlPqp0A6aCRT_AHYKIhBcbOF7eM_vw,8
+moildev-4.0.0.dist-info/RECORD,,
