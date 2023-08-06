@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+seqshannon/__init__.py
+seqshannon/seqshannon.py
+seqshannon.egg-info/PKG-INFO
+seqshannon.egg-info/SOURCES.txt
+seqshannon.egg-info/dependency_links.txt
+seqshannon.egg-info/entry_points.txt
+seqshannon.egg-info/requires.txt
+seqshannon.egg-info/top_level.txt
+tests/test_seqshannon.py

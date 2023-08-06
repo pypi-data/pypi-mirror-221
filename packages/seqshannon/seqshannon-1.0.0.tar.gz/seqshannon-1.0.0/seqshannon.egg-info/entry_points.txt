@@ -1,0 +1,2 @@
+[console_scripts]
+seqshannon = seqshannon.seqshannon:main
