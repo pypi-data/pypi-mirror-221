@@ -1,0 +1,10 @@
+pwdPackage/__init__.py,sha256=Eu6SSENqDgh2Rp0s7iFZWMkMTQUdxu2foPdj7z2FLu8,30
+pwdPackage/passwd.py,sha256=4CLGrnb_9klSUmM1rGou6UCkKmnYgLV5npOzrDpgtcY,3172
+pwdPackage/testing.py,sha256=uOnv3F1hlDShxxIt_c6RZ6sLmwPhaWHVblIcd-ltp28,1896
+pwdPackage/data/names.csv,sha256=jVo6eI317-nQMxtsh930B7uOvF5dQp063yNJ5YHSdL8,24
+pwdPackage/data/places.csv,sha256=c9WiGm3p9ObTRr9jlgPArQONr5fpLACtTSdb7xBJh7U,38
+pwdPackage-3.1.1.dist-info/LICENSE.txt,sha256=pFHkYJpKvsZ-Qz3Clf5NRQkiXSpxyadXJvDTuG_Fwr8,1068
+pwdPackage-3.1.1.dist-info/METADATA,sha256=vJ6pO0BsHfwt7MoazasBIkIOcRzolaF8Nxj1rOS7EIE,386
+pwdPackage-3.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pwdPackage-3.1.1.dist-info/top_level.txt,sha256=SHXexcPsiD3YdJO6cya0P7fEXpOTkg2UNdhgFnYfuDU,11
+pwdPackage-3.1.1.dist-info/RECORD,,
