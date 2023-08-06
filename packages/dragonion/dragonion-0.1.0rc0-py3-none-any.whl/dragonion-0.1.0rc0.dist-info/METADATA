@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dragonion
+Version: 0.1.0rc0
+Summary: 
+Author: BarsTiger
+Author-email: zxcbarstiger@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: cryptography (>=41.0.1,<42.0.0)
+Requires-Dist: dragonion-core (>=0.1.0,<0.2.0)
+Requires-Dist: ezzthread (>=1.0.0,<2.0.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Requires-Dist: pynacl (>=1.5.0,<2.0.0)
+Requires-Dist: pysocks (>=1.7.1,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sqlitedict (>=2.1.0,<3.0.0)
+Requires-Dist: stem (>=1.8.2,<2.0.0)
+Requires-Dist: textual (>=0.30.0,<0.31.0)
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Description-Content-Type: text/markdown
+
+# dragonion
+Most modern-looking, encrypted and functional in-console onion chat that you control! 
+
+## 📝 Note
+dragonion IS NOT a chat for everyday use. It is specific application focused on
+privacy and safety. It can contain functions, that you won't like or don't contain 
+some functions you would like to have in regular chat application. 
+You need to set up [[dragonion-server]](https://github.com/dragonionx/dragonion-server)
+by yourself or using existing server, hosted by your guild/organisation. 
+We don't provide any official servers.
+
+DRAGONION IS NOW IN EARLY DEVELOPMENT AND THERE AREN'T ANY RELEASES HERE
+
+## 📃 Credits
+- [OnionShare project](https://github.com/onionshare) - code inspiration for integrating
+application with tor
+
