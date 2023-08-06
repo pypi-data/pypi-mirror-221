@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: corpus-io
+Version: 0.0.1
+Summary: Read/write nikl corpus
+Home-page: https://github.com/re-writers/corpusIO.python
+Author: postBG
+Author-email: profile2697@gmail.com
+Project-URL: Bug Tracker, https://github.com/re-writers/corpusIO.python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# corpusIO
+
+A code for read/write nikl corpus.
