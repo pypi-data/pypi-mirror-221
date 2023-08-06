@@ -1,0 +1,10 @@
+ardoqpy/__init__.py,sha256=CLwNuhx4pBwnmWXwi6dVxfh5dpIsnmzOsGlsxxTIslw,51
+ardoqpy/ardoqpy.py,sha256=lZ5Bbv39OBoJse9xoaUAf6GMSfQTgAyxQPewZouk50s,17453
+ardoqpy/ardoqpy_sync.py,sha256=xXJ8uFFnJG5A1aKrbqPB3DM96WslWwd4G-EeqPDXFMQ,11264
+ardoqpy/test_ardoqpy.py,sha256=LS5Z15Ng8NNhiBpA-kbUgWdtarg-F0jnLsOU9RTp_ZU,1128
+ardoqpy-0.7.7.data/data/ardoqpy.cfg/ardoqpy.cfg,sha256=ewN4j0NJ2zDZXaUrfkApBLJ8NZPbTKPw3OOM_JwTYEs,304
+ardoqpy-0.7.7.dist-info/LICENSE.txt,sha256=hJIIOw053xP_kZPYDyIRXTHcRXHhM1MAFyEUYnrC2RU,1119
+ardoqpy-0.7.7.dist-info/METADATA,sha256=9uMMtJ3HYUeQGJEXGdjQ62rfMXiBsf-EG7Xhwy_4oiw,6306
+ardoqpy-0.7.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ardoqpy-0.7.7.dist-info/top_level.txt,sha256=S7erfha0HBwge-2d2pLkx-lw-JH4IAfOYv1v_hJAZYw,8
+ardoqpy-0.7.7.dist-info/RECORD,,
