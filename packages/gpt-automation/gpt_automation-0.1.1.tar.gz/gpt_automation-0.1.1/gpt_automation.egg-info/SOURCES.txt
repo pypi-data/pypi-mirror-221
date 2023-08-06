@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+gpt_automation.egg-info/PKG-INFO
+gpt_automation.egg-info/SOURCES.txt
+gpt_automation.egg-info/dependency_links.txt
+gpt_automation.egg-info/entry_points.txt
+gpt_automation.egg-info/requires.txt
+gpt_automation.egg-info/top_level.txt
+src/sample_config/black_list.txt
+src/sample_config/white_list.txt

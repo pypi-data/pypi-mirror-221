@@ -1,0 +1,7 @@
+shutil
+pyperclip
+argparse
+os
+pathlib
+fnmatch
+igittigitt
