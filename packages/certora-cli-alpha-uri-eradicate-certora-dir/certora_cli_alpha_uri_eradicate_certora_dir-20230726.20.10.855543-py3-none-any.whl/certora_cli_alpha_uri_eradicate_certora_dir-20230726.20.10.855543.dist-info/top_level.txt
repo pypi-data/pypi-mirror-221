@@ -1,0 +1,2 @@
+certora_cli
+release_bins
