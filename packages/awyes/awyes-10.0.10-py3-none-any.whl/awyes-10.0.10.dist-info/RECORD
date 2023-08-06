@@ -1,0 +1,9 @@
+awyes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awyes/awyes.py,sha256=KnN-9fLsXSz4ohpEB8XQxO1LP1tAMovjVMoiqLGtKW4,3754
+awyes/awyes_test.py,sha256=sqicwSYeKyHJPPv2mfjTTYCVoinw1dZFIUJ34Z4_exc,975
+awyes/utils.py,sha256=9uuUapMI89w2QBzr2Htbm8KnKofWFvyP5yjfSDJT-ts,628
+awyes-10.0.10.dist-info/METADATA,sha256=zhOjtRLEREeR5xjt9mwEW7z2TdFFe_KEwnAsPfQpkOc,728
+awyes-10.0.10.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+awyes-10.0.10.dist-info/entry_points.txt,sha256=8T7AizMEsgSZ8f7wgaRmafNNL7FG3SDfvdYdfTlKnKM,43
+awyes-10.0.10.dist-info/top_level.txt,sha256=rHESql2i7fQ7t7keNeuk0LBTUBNm7bqy7w5noRqQnQY,6
+awyes-10.0.10.dist-info/RECORD,,
