@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: screenshot2code
+Version: 0.0.1
+Summary: Convert your code screenshot into textual code
+Author: Seth Harding
+Author-email: seth@tokai.app
+Keywords: python,screenshot,screenshots,code,convert,computer vision,cv
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: shutil
+Requires-Dist: typing
+Requires-Dist: pandas
+Requires-Dist: pytesseract
+Requires-Dist: guesslang
+Requires-Dist: PIL
+
+Convert your code screenshot into textual, properly formatted and indented code through computer vision
