@@ -1,0 +1,13 @@
+dget/__init__.py,sha256=m5SgawQ8cK0wkAksAUi2gSqewkEaX1TkPDozJrOoZZA,45
+dget/__main__.py,sha256=9ar0EvJh2oyQtfwcCgnv4p-VmmTbhFwC2kriTX2_Zf0,3581
+dget/adduct.py,sha256=b-77ppZMVlN6mDV6pa-LKXr8ZuctTh7Dn-jRxEmMhSk,3404
+dget/convolve.py,sha256=pDrjlOqsPbn_DB9_OUX0wYAQEGSFJRPq-oUHeNJ0e1k,946
+dget/dget.py,sha256=tNFep1qVrjNBTugJjqV5_WDPeNdw0t6lOP4m5aa_PYk,17603
+dget/formula.py,sha256=e2HNJMnZSo6dBDaPB6NcgrI74b2F5Ll-CxyKziApw9w,2121
+dget/plot.py,sha256=B4hOrqNammVymZ5svxMca1h2SL6_ZOa7AbuOB0m06iw,1542
+DGet-0.23.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+DGet-0.23.dist-info/METADATA,sha256=T7Nd1F9AX28NfbGAf3OBrbwkeczLGaWnhs2HR-mM5NU,2722
+DGet-0.23.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+DGet-0.23.dist-info/entry_points.txt,sha256=qfD3qr9ifKjwg20jK0qHYqjc4y3HgAHzHzzzcMj4EXw,44
+DGet-0.23.dist-info/top_level.txt,sha256=rdHobr3Nea26YTdvqzrY0YxFqEcEleQrWV2d4gwQ1N8,5
+DGet-0.23.dist-info/RECORD,,
