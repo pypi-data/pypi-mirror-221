@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: google-drive-manager
+Version: 1.0.3
+Summary: Un gestionnaire de Google Drive
+Home-page: UNKNOWN
+Author: Guillaume LECOSSOIS
+Author-email: <guillaume.lecossois@diabeloop.fr>
+License: UNKNOWN
+Description: google-drive-manager is a library designed for interact with Google Drive
+                               in Python. With its simple API, you can manage data from various files and folders in the Diabeloop Google Drive. The list of the methods : 
+                                - get_service
+                                - connect
+                                - getSpreadSheetInfoByID
+                                - listSheets
+                                - getSheetByName
+                                - getAllValuesFromSheet
+                                - getPosDataInCol
+                                - getRowDataFromSheet
+                                - getRangeDataFromSheet
+                                - getColDataFromSheet
+                                - getRangeValueFromSheet
+                                - setColData
+                                - setRangeData
+                                - getFileByID 
+Keywords: python,google,drive
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
