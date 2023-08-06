@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+buckets/__init__.py
+buckets/delete.py
+buckets/get.py
+buckets/put.py
+buckets/server.py
+buckets.egg-info/PKG-INFO
+buckets.egg-info/SOURCES.txt
+buckets.egg-info/dependency_links.txt
+buckets.egg-info/top_level.txt
