@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: kv-deta
+Version: 0.1.11a0
+Summary: Key-Value Model for Detabase
+Home-page: https://github.com/ablaternae/kv-deta
+Author: d;)
+License: GLWTPL
+Keywords: deta,detabase,kv,key value
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deta
+Requires-Dist: more-itertools
+
+<!-- ![Lines of code](https://img.shields.io/tokei/lines/github/ablaternae/py-kv-deta) -->
+[![PyPI version](https://badge.fury.io/py/kv-deta.svg)](https://badge.fury.io/py/kv-deta)
+![Downloads](https://img.shields.io/pypi/dm/kv-deta)
+[![Statistic](https://pepy.tech/badge/kv-deta/week)](https://pepy.tech/project/kv-deta)
+<!-- [![GitHub](https://img.shields.io/github/license/ablaternae/kv-deta)](https://github.com/ablaternae/kv-deta/blob/trunk/LICENSE.md) -->
+
+# Key-Value Model for Detabase
+
+## API
+### constructor
+`class KVModel(dict)`
+
+example:
+```
+from kv_deta import KVModel 
+
+class Example(KVModel):
+  class Config:
+    deta_key = DETA_BASE_KEY
+    # or
+    deta = Deta(DETA_BASE_KEY)
+
+    table_name = "my_kv_table"	# optional
+```
+```
+kv = Example({"key":"value"})
+```
+
+### update
+```
+kv.update({"k2":42})
+```
+like for dictionary
+
+### save
+```
+kv.save()
+```
+commit __all__ data to detabase
+
+### get
+mixed dict.get(key), deta.get(key), dict.setdefault(key, default)
+```
+kv.get(key="some key"[, default="newer data"])
+```
+returns value from `deta.get(key)` or update it by `default` if deta.get() returned None 
+
+### incr, decr
+Attention! **no type checking**
+```
+kv.incr(key="integer"[, quantity=1])
+```
+returns incremental value for key in detabase:
+* value read
+* value increment
+* value put into detabase
+* return value
+if detabase have not specific key, creates it and value=quantity
+
+### 
+
+## Updates
+* `incr(key: str, quantity=1)`, `decr(key: str, quantity=1): return incr(key: str, -quantity)`
+* `get()` fix
+* `get(key, default)`
+* `save()`
+
+## License
+* It's opensource and free software, see the [LICENSE](LICENSE) for more details
+
+## similar projects
+* [csv-deta](https://pypi.org/project/csv-deta/) 
+* [sql-deta](https://pypi.org/project/sql-deta/)
+
+## TODO
+* [ ] save() refactor
+* [ ] set, get, del
+* [ ] `rename(key, new_key)`
+* [ ] `query()` get list
+* [ ] TTL
+* [x] `incr()`, `decr()`
+* [x] `get(key)`
