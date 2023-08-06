@@ -1,0 +1,10 @@
+README.md
+setup.py
+genPwd/__init__.py
+genPwd/generate_password.py
+genPwd/test_passw.py
+genPwd.egg-info/PKG-INFO
+genPwd.egg-info/SOURCES.txt
+genPwd.egg-info/dependency_links.txt
+genPwd.egg-info/entry_points.txt
+genPwd.egg-info/top_level.txt
