@@ -1,0 +1,10 @@
+pyfiglet
+simple-term-menu
+yt-dlp
+termcolor
+
+[test]
+coverage
+pytest
+pytest-cov
+mock
