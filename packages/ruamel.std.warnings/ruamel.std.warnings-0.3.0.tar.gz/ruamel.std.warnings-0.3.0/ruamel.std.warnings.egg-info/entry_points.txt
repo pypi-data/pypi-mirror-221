@@ -1,0 +1,2 @@
+[console_scripts]
+warning = ruamel.std.warning.__main__:main

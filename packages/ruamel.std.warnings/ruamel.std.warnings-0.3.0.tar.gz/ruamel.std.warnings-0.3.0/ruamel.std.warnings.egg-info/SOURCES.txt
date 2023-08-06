@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+./__init__.py
+ruamel.std.warnings.egg-info/PKG-INFO
+ruamel.std.warnings.egg-info/SOURCES.txt
+ruamel.std.warnings.egg-info/dependency_links.txt
+ruamel.std.warnings.egg-info/entry_points.txt
+ruamel.std.warnings.egg-info/not-zip-safe
+ruamel.std.warnings.egg-info/top_level.txt
