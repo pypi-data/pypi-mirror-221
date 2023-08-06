@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ab-test-source-faker
+Version: 0.0.0
+Summary: Source implementation for fake but realistic looking data.
+Home-page: UNKNOWN
+Author: Airbyte
+Author-email: evan@airbyte.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: airbyte-cdk (~=0.2)
+Requires-Dist: mimesis (==6.1.1)
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.2) ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+
+UNKNOWN
+
