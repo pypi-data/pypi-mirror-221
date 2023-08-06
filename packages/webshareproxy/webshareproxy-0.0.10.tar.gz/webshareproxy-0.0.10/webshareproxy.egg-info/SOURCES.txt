@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+webshare/__init__.py
+webshare/webshare.py
+webshare/util/__init__.py
+webshare/util/objects.py
+webshareproxy.egg-info/PKG-INFO
+webshareproxy.egg-info/SOURCES.txt
+webshareproxy.egg-info/dependency_links.txt
+webshareproxy.egg-info/top_level.txt
