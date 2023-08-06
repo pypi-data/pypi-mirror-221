@@ -1,0 +1,12 @@
+michina/checks/__init__.py,sha256=GzdrEzpJSwWkiE2HCMBEVa0Lx-OjHUoCseM-UNAEAMw,122
+michina/checks/base_check.py,sha256=W-BckfMS7i85ZBmPH08fG_RL7xdXF1wyGOofpvSonZo,648
+michina/checks/consistency/__init__.py,sha256=_zmxEtRBRojQ-5Gcr_EUnPy2EUrtImpk7x21zI6MhNo,183
+michina/checks/consistency/check.py,sha256=fgFzlCvDFmwYC1ijtq_oEWGM6c0iPkeNy9kvbUQqy20,1774
+michina/checks/consistency/prompt.py,sha256=2jQ3wN0Jjfvot_5ddMeYtTqQJnsgByl0qcE8YVnNPDY,2611
+michina/checks/tone/__init__.py,sha256=XtPUyH0iu97hwPvmwyaVZwPDqkfjj_Xs-BZDlri9VQQ,140
+michina/checks/tone/check.py,sha256=R5LHJFC6HVOKu8h9hrenDMQ-Nf_jXn2rupA37gODqUA,1419
+michina/checks/tone/prompt.py,sha256=IJBDyM9uIIKRX2uN7bdn_Bu5OKdNvreV6uJW0fypQ0k,2397
+michina/exceptions/exceptions.py,sha256=pcpH8NCaqPvQsvqVogIDdSPxx6FrjzlcOi2kDfUrVuY,310
+michina-0.2.0.dist-info/METADATA,sha256=I_e_6GF5pFroeqyfkY8HJIWvm_ZdZoBTyYbPTqSeHO4,865
+michina-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+michina-0.2.0.dist-info/RECORD,,

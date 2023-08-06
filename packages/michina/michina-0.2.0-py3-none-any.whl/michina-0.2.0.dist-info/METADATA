@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: michina
+Version: 0.2.0
+Summary: Integ test framework for LLMs.
+Home-page: https://github.com/michina-ai/michina
+Author: bkitano
+Author-email: briankitano@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: build (>=0.10.0,<0.11.0)
+Requires-Dist: langchain (>=0.0.240,<0.0.241)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Requires-Dist: xmltodict (>=0.13.0,<0.14.0)
+Project-URL: Repository, https://github.com/michina-ai/michina
+Description-Content-Type: text/markdown
+
+# Michina
+From the quechua word for "pasture".
+
+Unit testing and integration testing for LLMs.
+
+## Features
+- [openai] Can run in a Github Actions for workflow
+
+## Todo
+- Add monitoring
