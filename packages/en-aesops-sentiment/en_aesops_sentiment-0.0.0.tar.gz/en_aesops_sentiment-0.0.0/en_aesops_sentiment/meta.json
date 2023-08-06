@@ -1,0 +1,60 @@
+{
+  "lang":"en",
+  "name":"aesops_sentiment",
+  "version":"0.0.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_version":">=3.5.4,<3.6.0",
+  "spacy_git_version":"7a2833bf2",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "textcat":[
+      "Negative",
+      "Positive"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.6994868662,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.7334465195,
+    "cats_micro_r":0.7334465195,
+    "cats_micro_f":0.7334465195,
+    "cats_macro_p":0.6952077366,
+    "cats_macro_r":0.7060677014,
+    "cats_macro_f":0.6994868662,
+    "cats_macro_auc":0.7781107841,
+    "cats_f_per_type":{
+      "Negative":{
+        "p":0.567961165,
+        "r":0.6324324324,
+        "f":0.5984654731
+      },
+      "Positive":{
+        "p":0.8224543081,
+        "r":0.7797029703,
+        "f":0.8005082592
+      }
+    },
+    "textcat_loss":13.2006735951
+  },
+  "requirements":[
+
+  ]
+}

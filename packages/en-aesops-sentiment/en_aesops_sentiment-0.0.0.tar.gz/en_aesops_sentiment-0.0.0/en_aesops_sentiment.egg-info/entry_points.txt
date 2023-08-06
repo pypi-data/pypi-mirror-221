@@ -1,0 +1,2 @@
+[spacy_models]
+en_aesops_sentiment = en_aesops_sentiment

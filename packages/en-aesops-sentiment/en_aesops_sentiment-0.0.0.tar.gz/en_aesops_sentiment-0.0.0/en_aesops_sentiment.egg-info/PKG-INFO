@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: en-aesops-sentiment
+Version: 0.0.0
+Home-page: 
+Author: 
+Author-email: 
+
+| Feature | Description |
+| --- | --- |
+| **Name** | `en_aesops_sentiment` |
+| **Version** | `0.0.0` |
+| **spaCy** | `>=3.5.4,<3.6.0` |
+| **Default Pipeline** | `textcat` |
+| **Components** | `textcat` |
+| **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
+| **Sources** | n/a |
+| **License** | n/a |
+| **Author** | [n/a]() |
+
+### Label Scheme
+
+<details>
+
+<summary>View label scheme (2 labels for 1 components)</summary>
+
+| Component | Labels |
+| --- | --- |
+| **`textcat`** | `Negative`, `Positive` |
+
+</details>
+
+### Accuracy
+
+| Type | Score |
+| --- | --- |
+| `CATS_SCORE` | 69.95 |
+| `CATS_MICRO_P` | 73.34 |
+| `CATS_MICRO_R` | 73.34 |
+| `CATS_MICRO_F` | 73.34 |
+| `CATS_MACRO_P` | 69.52 |
+| `CATS_MACRO_R` | 70.61 |
+| `CATS_MACRO_F` | 69.95 |
+| `CATS_MACRO_AUC` | 77.81 |
+| `TEXTCAT_LOSS` | 1320.07 |
