@@ -1,0 +1,23 @@
+[project]
+name = "PyPEIMS"
+version = "0.0.1"
+authors = [
+  { name="Alejandro Peña", email="adpena@gmail.com" },
+]
+description = "Defining classes and functions for accessing and manipulating Texas PEIMS data (including data in TAPR and statistics typically accessed through Snapshot) programmatically."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adpena/PyPEIMS"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool]
