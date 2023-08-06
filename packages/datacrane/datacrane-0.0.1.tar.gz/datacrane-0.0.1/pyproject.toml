@@ -1,0 +1,11 @@
+[project]
+name = "datacrane"
+description = "Lift your data out of the bog"
+version = "0.0.1"
+authors = [
+    { name = "Gil Forsyth", email = "gil@forsyth.dev" }
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
