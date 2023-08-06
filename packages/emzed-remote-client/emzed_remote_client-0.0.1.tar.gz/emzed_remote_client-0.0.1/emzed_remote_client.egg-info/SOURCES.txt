@@ -1,0 +1,7 @@
+emzed_remote_client.py
+setup.py
+emzed_remote_client.egg-info/PKG-INFO
+emzed_remote_client.egg-info/SOURCES.txt
+emzed_remote_client.egg-info/dependency_links.txt
+emzed_remote_client.egg-info/requires.txt
+emzed_remote_client.egg-info/top_level.txt

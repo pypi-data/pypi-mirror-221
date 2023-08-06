@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: emzed_remote_client
+Version: 0.0.1
+Summary: client side of emzed remote execution
+Author: Uwe Schmitt
+Author-email: uwe.schmitt@id.ethz.ch
+License: https://opensource.org/licenses/MIT
+Description-Content-Type: text/markdown
