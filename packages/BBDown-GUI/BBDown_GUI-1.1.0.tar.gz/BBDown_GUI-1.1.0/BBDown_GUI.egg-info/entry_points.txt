@@ -1,0 +1,5 @@
+[console_scripts]
+BBDownGUI = BBDown_GUI.gui:main
+BBDown_GUI = BBDown_GUI.gui:main
+bbdown_gui = BBDown_GUI.gui:main
+bbdowngui = BBDown_GUI.gui:main
