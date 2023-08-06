@@ -1,0 +1,3 @@
+[console_scripts]
+ini = zheinit.init:init
+run = zheinit.run:run
