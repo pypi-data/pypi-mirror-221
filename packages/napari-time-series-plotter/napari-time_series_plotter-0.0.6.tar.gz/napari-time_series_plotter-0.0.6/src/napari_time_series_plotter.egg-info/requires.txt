@@ -1,0 +1,12 @@
+napari_matplotlib<1.0
+numpy
+pandas
+qtpy
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
