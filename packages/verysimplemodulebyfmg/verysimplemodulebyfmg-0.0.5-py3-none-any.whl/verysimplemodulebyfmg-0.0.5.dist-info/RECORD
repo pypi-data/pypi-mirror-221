@@ -1,0 +1,16 @@
+verysimplemodule/__init__.py,sha256=3ONOuHyg8wYV2musv26_3d6hgfT2Q5IMO_OZGrwoWaU,52
+verysimplemodule/add.py,sha256=hRjv-K-qIl48H6cKZlAib95fjEboQPoVMv2ciQ89mx0,34
+verysimplemodule/substract.py,sha256=h2HiJqpexqh-wofqrRGx-Mn-y610VnUBXN_95FXyqAY,46
+verysimplemodule/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+verysimplemodule/extras/divide.py,sha256=bRdZcUHg5s5DLbqXrmW3zw6NqFXTpeByolmOJa4bigM,40
+verysimplemodule/extras/multiply.py,sha256=s_APY-LeesnEEfEq5I4owME1_GCHXVb4UNtPlLyNHMw,44
+verysimplemodulebyfmg/__init__.py,sha256=AZbNOJLiLdrgfQhyDww6Y-wetqJKrIBpNKNugknxloo,53
+verysimplemodulebyfmg/add.py,sha256=hRjv-K-qIl48H6cKZlAib95fjEboQPoVMv2ciQ89mx0,34
+verysimplemodulebyfmg/substract.py,sha256=h2HiJqpexqh-wofqrRGx-Mn-y610VnUBXN_95FXyqAY,46
+verysimplemodulebyfmg/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+verysimplemodulebyfmg/extras/divide.py,sha256=bRdZcUHg5s5DLbqXrmW3zw6NqFXTpeByolmOJa4bigM,40
+verysimplemodulebyfmg/extras/multiply.py,sha256=s_APY-LeesnEEfEq5I4owME1_GCHXVb4UNtPlLyNHMw,44
+verysimplemodulebyfmg-0.0.5.dist-info/METADATA,sha256=UAgL8_e5-f6i18Vn2bocm83WR3FzS2HT9vRqil2xdSw,524
+verysimplemodulebyfmg-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+verysimplemodulebyfmg-0.0.5.dist-info/top_level.txt,sha256=eETruDRnGa6hpSbYbDxllEfSX1FewyKldxkFzQ1q2Dc,22
+verysimplemodulebyfmg-0.0.5.dist-info/RECORD,,
