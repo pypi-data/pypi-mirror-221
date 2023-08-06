@@ -1,0 +1,13 @@
+timebasedcv/__init__.py,sha256=JaFhtfUcq5H5evqb63M-Y6tTnJqK3w41-bAOLV0AtdE,460
+timebasedcv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timebasedcv/splitstate.py,sha256=o95PQIJwWv__41P9DUsiSyyi-ytBvi3D12g-3z5RGTE,4090
+timebasedcv/timebasedsplit.py,sha256=EzT9lZo2NE650h3McJE0dwrRb8chOMphkQ4ZgqjcRNw,25639
+timebasedcv/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timebasedcv/utils/_backends.py,sha256=UA32Iraw7kF2sR5OR99yFs0RiGLBTzMkLOZY0tQNWrU,1553
+timebasedcv/utils/_funcs.py,sha256=TC511ZTCvJ4DNDxws7cUzj1tPYvPUMiqyxO7K3tuZRs,1077
+timebasedcv/utils/_types.py,sha256=hqV4bTamIOdRDMwPq2M_Z3AxYAXj_itvoW5H3Ia8IFk,1711
+timebasedcv-0.0.1.dist-info/LICENSE,sha256=dvme5SVaxB8S--1OkhJXMzOrJnDhPZvCY_vys9LsoBo,1075
+timebasedcv-0.0.1.dist-info/METADATA,sha256=LK9ZeA2SvZ543I5YCtkppVLHhXU1W7xVjFLdyarwe1w,5845
+timebasedcv-0.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+timebasedcv-0.0.1.dist-info/top_level.txt,sha256=JqNtxZ2KjhrYq2rSCjGJzfmoIMICW2MuR6ksbgSwLFE,12
+timebasedcv-0.0.1.dist-info/RECORD,,
