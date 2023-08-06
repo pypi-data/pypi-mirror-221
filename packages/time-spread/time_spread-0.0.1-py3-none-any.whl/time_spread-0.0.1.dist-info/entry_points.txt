@@ -1,0 +1,2 @@
+[console_scripts]
+time-spread = cli:main
