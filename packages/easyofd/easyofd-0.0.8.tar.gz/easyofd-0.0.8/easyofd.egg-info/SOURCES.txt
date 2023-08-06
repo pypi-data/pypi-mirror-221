@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+easyofd/__init__.py
+easyofd/ofdparser.py
+easyofd.egg-info/PKG-INFO
+easyofd.egg-info/SOURCES.txt
+easyofd.egg-info/dependency_links.txt
+easyofd.egg-info/top_level.txt
+test/__init__.py
+test/test.py
