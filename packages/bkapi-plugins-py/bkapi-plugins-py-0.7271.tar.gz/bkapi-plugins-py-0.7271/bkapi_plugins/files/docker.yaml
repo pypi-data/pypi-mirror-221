@@ -1,0 +1,21 @@
+version: "3"
+services:
+  redash:
+    image: redash/redash
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "5000:5000"
+    environment:
+      REDASH_WEB_WORKERS: 4
+
+  postgres:
+    image: postgres:10-alpine
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    environment:
+        POSTGRES_PASSWORD: verystrongpassword
+
+  redis:
+    image: redis:5-alpine
