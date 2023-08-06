@@ -1,0 +1,14 @@
+simplhdl/__init__.py,sha256=CrrReN1bbGLhqH5WKyRYktAlh2Hk2o4R4HdqWUOtXcY,83
+simplhdl/__main__.py,sha256=8cUb-1DM2yTVHGXoyPLI65sqyNjG0Ih61B0iOgVWAyA,1080
+simplhdl/parser.py,sha256=O4jArSarwASif9UAuW7F3Db7i04_sHLyvLLFy94rWUo,1232
+simplhdl/plugins.py,sha256=ZNIK1BQCZWIOWjrxPDtuBbSGGLjYJooDOCXYDVSXnWQ,1051
+simplhdl/simplhdl.py,sha256=9P0fiSdi9Lhx8uTFL5cA4oWCp_HLAxykhvDtELFIh0E,746
+simplhdl/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplhdl/parsers/fusesocparser.py,sha256=N9XbgLY7fKjbQMFQ_qyuh_CZLGxmJMkVvr6p20s95gQ,778
+simplhdl/parsers/importlistparser.py,sha256=Pv5XZJrlIj09kh3yStQ4rNLMTSbUtaQT8_O-98tmoIo,535
+SimplHDL-0.0.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+SimplHDL-0.0.1.dist-info/METADATA,sha256=WvEXw7zHMKlN7S-xklAN1CRYOFf-7uTTlj8M09tuEp4,1001
+SimplHDL-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SimplHDL-0.0.1.dist-info/entry_points.txt,sha256=I6uyrqPCkNeTxUi5jyBjjxVNTkTInx1WAs_0RzknvlU,49
+SimplHDL-0.0.1.dist-info/top_level.txt,sha256=wCDhm9g5XiCWsouqp5vRhXEDUZyOAjJws84Ou899s5w,9
+SimplHDL-0.0.1.dist-info/RECORD,,
