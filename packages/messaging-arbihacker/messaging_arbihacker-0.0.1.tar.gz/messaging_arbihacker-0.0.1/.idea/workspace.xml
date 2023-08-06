@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BlackConnectSettings" lineLength="120" triggerOnReformat="true" />
+  <component name="ChangeListManager">
+    <list default="true" id="7c007aba-e1bc-4820-91eb-442561e06dac" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SkFw16lu1A6qLIHMy2wbOB7lnE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/sergey/Documents/coding/messaging_arbihacker",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "tasks",
+    "show.migrate.to.gradle.popup": "false"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c007aba-e1bc-4820-91eb-442561e06dac" name="Changes" comment="" />
+      <created>1689682906460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689682906460</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1689683018402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689683018402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change description">
+      <created>1689684825620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689684825620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update project files">
+      <created>1689685506268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689685506268</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bump version to 0.0.2">
+      <created>1689685531474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689685531474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor check_token_and_scopes to return whole payload&#10;Implement PrefixSecurity">
+      <created>1689952340009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689952340009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactor check_token_and_scopes to return whole payload&#10;Implement PrefixSecurity">
+      <created>1690296412802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690296412802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Change description" />
+    <MESSAGE value="Update project files" />
+    <MESSAGE value="Bump version to 0.0.2" />
+    <MESSAGE value="Refactor check_token_and_scopes to return whole payload&#10;Implement PrefixSecurity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor check_token_and_scopes to return whole payload&#10;Implement PrefixSecurity" />
+  </component>
+</project>
