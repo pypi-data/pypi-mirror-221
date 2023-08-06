@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: contentalchemy
+Version: 0.1.1
+Summary: 
+Author: nguyenthanhquang152
+Author-email: nguyenthanhquang.cse@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Requires-Dist: playwright (>=1.36.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+
