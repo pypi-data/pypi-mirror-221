@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: teeworlds_player_color_value_to_rgb
+Version: 1.1.0
+Summary: 吧teeworlds/ddnet中有关颜色的值转换到RGB(Convert the value of the color in teeworlds/ddnet to RGB)
+Home-page: https://github.com/XCWQW1/teeworlds_player_color_value_to_rgb
+Author: XCWQW233
+Author-email: 3539757707@qq.com
+Description-Content-Type: text/markdown
+
+# teeworlds_player_color_value_to_rgb
+
+吧teeworlds/ddnet中有关颜色的值转换到RGB(Convert the value of the color in teeworlds/ddnet to RGB)
+
+安装(install):
+ - `pip install teeworlds_player_color_value_to_rgb`
+
+使用/use:
+> 我使用了py自带的math，typing和colorsys库(I used the math,typing and colorsys libraries that come with py)
+ - ```
+   from teeworlds_player_color_value_to_rgb import value_to_rgb
+   value = 8624384
+   rgb = value_to_rgb(value)
+   print(rgb)
+   ```
+
+有什么问题请新建Issues(If you have any questions, please create a new Issues)
+
+PS：Everything in English is generated using Google Translate(一切英文使用谷歌翻译生成)
