@@ -1,0 +1,5 @@
+defaults:
+  - dataset_extract_tokens
+
+run:
+  nouns_only: true
