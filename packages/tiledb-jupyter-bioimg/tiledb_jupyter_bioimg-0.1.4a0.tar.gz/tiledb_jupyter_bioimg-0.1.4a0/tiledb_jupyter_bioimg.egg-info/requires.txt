@@ -1,0 +1,2 @@
+ipywidgets>=7
+jupyterlab>=3.5.0
