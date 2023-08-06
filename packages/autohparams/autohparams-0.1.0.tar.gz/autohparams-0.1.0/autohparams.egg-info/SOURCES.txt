@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+autohparams/__init__.py
+autohparams/auto_hparams.py
+autohparams.egg-info/PKG-INFO
+autohparams.egg-info/SOURCES.txt
+autohparams.egg-info/dependency_links.txt
+autohparams.egg-info/top_level.txt
+tests/test_auto_config.py
