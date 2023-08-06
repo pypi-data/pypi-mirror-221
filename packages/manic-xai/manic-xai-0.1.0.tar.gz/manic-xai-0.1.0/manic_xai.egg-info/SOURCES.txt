@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+manic/__init__.py
+manic/manic.py
+manic/test.py
+manic_xai.egg-info/PKG-INFO
+manic_xai.egg-info/SOURCES.txt
+manic_xai.egg-info/dependency_links.txt
+manic_xai.egg-info/requires.txt
+manic_xai.egg-info/top_level.txt
