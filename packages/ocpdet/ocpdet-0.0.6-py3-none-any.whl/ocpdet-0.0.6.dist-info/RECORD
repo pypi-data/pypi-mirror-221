@@ -1,0 +1,10 @@
+ocpdet/CUSUM.py,sha256=xLYsb-unO3GQR2jLY9_PAH_5CCY5iE78EbUFFE1DgnI,4278
+ocpdet/EWMA.py,sha256=v6OeFpTZC7MUdc_ruB-Jv1-R_KQ8XgCxBQYwSAY0IVI,4368
+ocpdet/NeuralNetwork.py,sha256=t7JZT9kP98DVGk2kFJPzIBm-2sxrR9dlwe5yapjR6r8,10591
+ocpdet/TwoSample.py,sha256=KWOCdEqo75rmNEgNLDhwGP5uCA2whgFJmxgEdrvLiMo,3508
+ocpdet/__init__.py,sha256=HFEispDcpLM0_OewNg7Ky395EJHr2s3BBOCWTT2qhaw,144
+ocpdet-0.0.6.dist-info/LICENSE,sha256=5YWE-St01jSEQjpuPaSyEPXPYHNnvgwf0yk5eMovlC0,1303
+ocpdet-0.0.6.dist-info/METADATA,sha256=cO04mBiwkHv-VgUc9Qf1fX_u--wgqEyaMSlvmB3jbUE,3034
+ocpdet-0.0.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ocpdet-0.0.6.dist-info/top_level.txt,sha256=5YbtNQu9jT7MGv2K_bmZSTNXfORKWzaReGP0nclzt0g,7
+ocpdet-0.0.6.dist-info/RECORD,,
