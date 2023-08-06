@@ -1,0 +1,14 @@
+jupyterlab_extension_theme_onedark/__init__.py,sha256=3P6t4MrT2agQrJtFpSnNBYjUjPzWYwEneBm6zq9LNtM,626
+jupyterlab_extension_theme_onedark/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/package.json,sha256=A5IgApzlFtkivD8bZTe4Sl8MwJD2k2ETIJbEPpsHI3Y,5645
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/static/568.94442a36f1c354d4f2fe.js,sha256=lEQqNvHDVNTy_qy_OERtXgqdbarLmmw8xtI4y8e6VOw,720
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/static/remoteEntry.c90f3ba965dbc5fc7050.js,sha256=yQ87qWXbxfxwUD6N7Ycy1cuyqG57NUfa7J2-_jKYGDk,6410
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/themes/jupyterlab-extension-theme-onedark/index.css,sha256=h1EhPVJWLIX7vAHpMkhMmzARc9ZiesUJwr_dCl3SVBs,15330
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/themes/jupyterlab-extension-theme-onedark/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_extension_theme_onedark-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-extension-theme-onedark/install.json,sha256=T1rATMsi9Pzf6pOBMg1jvvRLQd9SNYNtCmXCfVJmlyE,229
+jupyterlab_extension_theme_onedark-0.1.0.dist-info/METADATA,sha256=cDfWA4-paH4iXjDmNWmheDOSTB5JoehNtd0qH9OvmSw,6115
+jupyterlab_extension_theme_onedark-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_extension_theme_onedark-0.1.0.dist-info/licenses/LICENSE,sha256=3ZKAKXLlbfxIh0jDMyys5tn4IXvCrPZ85NRdsN23lrg,1518
+jupyterlab_extension_theme_onedark-0.1.0.dist-info/RECORD,,
