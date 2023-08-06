@@ -1,0 +1,6 @@
+
+src/schemawizard_package/canweather.station_events.tsv
+src/schemawizard_package/z.canweather.station_events.ddl
+src/schemawizard_package/folder_details.tsv
+src/schemawizard_package/local_sqlite_db
+src/schemawizard_package/octqueries.csv
