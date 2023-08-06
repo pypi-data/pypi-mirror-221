@@ -1,0 +1,10 @@
+VMConnect/__init__.py,sha256=sugPUE2XNBztIMbRYPgfMX9HN24YNfv1T0TXZPWzJ_c,3060
+VMConnect/cache.py,sha256=fx8KT2vtTcl4cAXaf3PW_CYbwh89ZutoT2LUx_1ljdc,7034
+VMConnect/core.py,sha256=ayDcaWTV6VKhKPfzhJ3Dok9Els5spoYWf0QW4DoU4TQ,17756
+VMConnect/exceptions.py,sha256=3lC3rVdHMR39xZwPqQnyskmTajykQqqfSa0lCf4xe7M,1652
+VMConnect-1.1.7.data/scripts/VMConnect-cli,sha256=LOoysZ8_fdQzlxmbJ41g8ezLLyizAMJ9b_WpCS5IxpM,6626
+VMConnect-1.1.7.dist-info/LICENSE,sha256=OXHpT17bfStt7w8wm-gQ0m0gY_LDwRc0sAZX0oSPMd8,1321
+VMConnect-1.1.7.dist-info/METADATA,sha256=qW3GQGleJbexoLGUaBuNzrRvVrnXMlbNBQIxmHrMhkI,6464
+VMConnect-1.1.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+VMConnect-1.1.7.dist-info/top_level.txt,sha256=q4r-LVP73xtBtRmeEBchmMoz-Wj32ntXUJ05WQWdA4E,10
+VMConnect-1.1.7.dist-info/RECORD,,
