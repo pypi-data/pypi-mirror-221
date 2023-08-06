@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ab-test-source_faker
+Version: 0.0.0
+Summary: Source implementation for fake but realistic looking data.
+Home-page: UNKNOWN
+Author: Airbyte
+Author-email: evan@airbyte.io
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
+
+UNKNOWN
+
