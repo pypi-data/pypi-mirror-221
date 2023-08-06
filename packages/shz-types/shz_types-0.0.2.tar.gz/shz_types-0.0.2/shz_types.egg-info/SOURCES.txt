@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+shz_types/__init__.py
+shz_types.egg-info/PKG-INFO
+shz_types.egg-info/SOURCES.txt
+shz_types.egg-info/dependency_links.txt
+shz_types.egg-info/requires.txt
+shz_types.egg-info/top_level.txt
+shz_types/datasets/__init__.py
+shz_types/datasets/anyDataset.py
