@@ -1,0 +1,16 @@
+fancy_formset/__init__.py,sha256=o02J812WRYuMiy30Xi4aJsRrZcBHtfCODhYImgo4PTs,106
+fancy_formset/formsets.py,sha256=M3-r9rRqeOjaddcX4d2lI_kavu7MR-ILgLsQyOkqMJs,1482
+fancy_formset/static/fancy_formset/formset.css,sha256=wgtIF4ZGZxDM8r-rAA6oV356GDdd5fmp-gp6ZGeN1b8,3762
+fancy_formset/static/fancy_formset/formset.js,sha256=aF3L-GpSjtZ00gewYbNOONAbDIMCd4eIWcwLoYfbhU4,5526
+fancy_formset/static/fancy_formset/formset.min.css,sha256=Mq7ZTyHu_aZV6opxuDjbRf91Ab-gdILqTrq7S71OHeA,3220
+fancy_formset/static/fancy_formset/formset.module.js,sha256=zACLCFUXbkYvZaU1fltmJ7LiRpUuZbJFzZd-m5DTL9U,5244
+fancy_formset/templates/fancy_formset/default.html,sha256=aIU6Weu7MBwhSmXOogxMj4mZd9pX0rUSaCdnVTAciYU,290
+fancy_formset/templates/fancy_formset/div.html,sha256=8meCNhQItCHCHnOBXNjS2KkJL0gwjeOdRax7r9eRMTY,304
+fancy_formset/templates/fancy_formset/p.html,sha256=qUe1W1N5IcXfWrK5v9734d3vvdzkZIAKqmRGZD1_NF8,300
+fancy_formset/templates/fancy_formset/table.html,sha256=zx9zPNKUhl7a6XQqOH44kzHdZlghv5QBUhOqbCG7Kxg,368
+fancy_formset/templates/fancy_formset/ul.html,sha256=iQzAZCl-FA_juzQG-95huPL1-A3XiAaETZq685chF0c,350
+django_fancy_formset-0.2.2.dist-info/LICENSE,sha256=Kec6LTu2pRICwH7IoX3xeVfQGWjw23gs-zc_Y0dXbyU,1662
+django_fancy_formset-0.2.2.dist-info/METADATA,sha256=z5QM66U-yMWySjvl_Fm17jd12q2JGpU7IOQY2hwuLXs,4857
+django_fancy_formset-0.2.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+django_fancy_formset-0.2.2.dist-info/top_level.txt,sha256=303xQoGtup7wZ7yPh69upusPAGrlXrdhkNIWeNNgDsU,14
+django_fancy_formset-0.2.2.dist-info/RECORD,,
