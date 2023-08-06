@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+datame/__init__.py
+datame/datame.py
+datame.egg-info/PKG-INFO
+datame.egg-info/SOURCES.txt
+datame.egg-info/dependency_links.txt
+datame.egg-info/requires.txt
+datame.egg-info/top_level.txt
