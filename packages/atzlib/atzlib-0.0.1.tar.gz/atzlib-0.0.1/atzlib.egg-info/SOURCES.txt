@@ -1,0 +1,8 @@
+setup.py
+atzlib/__init__.py
+atzlib/aidulib.py
+atzlib.egg-info/PKG-INFO
+atzlib.egg-info/SOURCES.txt
+atzlib.egg-info/dependency_links.txt
+atzlib.egg-info/not-zip-safe
+atzlib.egg-info/top_level.txt
