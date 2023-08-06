@@ -1,0 +1,8 @@
+setup.py
+pybuilder_docstr_coverage/__init__.py
+pybuilder_docstr_coverage.egg-info/PKG-INFO
+pybuilder_docstr_coverage.egg-info/SOURCES.txt
+pybuilder_docstr_coverage.egg-info/dependency_links.txt
+pybuilder_docstr_coverage.egg-info/namespace_packages.txt
+pybuilder_docstr_coverage.egg-info/top_level.txt
+pybuilder_docstr_coverage.egg-info/zip-safe
