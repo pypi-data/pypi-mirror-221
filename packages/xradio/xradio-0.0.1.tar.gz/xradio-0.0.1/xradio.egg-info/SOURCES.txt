@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+xradio.egg-info/PKG-INFO
+xradio.egg-info/SOURCES.txt
+xradio.egg-info/dependency_links.txt
+xradio.egg-info/requires.txt
+xradio.egg-info/top_level.txt
