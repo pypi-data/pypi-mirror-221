@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dolmensim"
+version = "2023.7a0"
+authors = [
+  { name="Nicolas Rouvé", email="nicolas.rouve@hefr.ch" },
+]
+description = "Simulation platform for dynamic systems"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	'numpy',
+#	'scipy',
+	'pandas',
+	'matplotlib'
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.forge.hefr.ch/nicolas.rouve/GitDolmen"
