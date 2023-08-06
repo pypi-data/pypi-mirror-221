@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a156f98-ee35-480a-82f1-9ad1446e2c58" name="Changes" comment="Update for PyPI packaging">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2KN3AY4bQjrvjrhckRTZtqij29l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pypi__packaging&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/home/jaerrib/repositories/image2sound&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a156f98-ee35-480a-82f1-9ad1446e2c58" name="Changes" comment="" />
+      <created>1673801069884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673801069884</updated>
+      <workItem from="1673801075770" duration="633000" />
+      <workItem from="1673911934851" duration="1154000" />
+      <workItem from="1674092619912" duration="12000" />
+      <workItem from="1674169582684" duration="3436000" />
+      <workItem from="1674313273459" duration="512000" />
+      <workItem from="1674602234092" duration="1064000" />
+      <workItem from="1674604042190" duration="588000" />
+      <workItem from="1674988350401" duration="11168000" />
+      <workItem from="1674999747199" duration="219000" />
+      <workItem from="1674999983943" duration="9603000" />
+      <workItem from="1675041178145" duration="1869000" />
+      <workItem from="1675043208382" duration="2207000" />
+      <workItem from="1675121501840" duration="4584000" />
+      <workItem from="1675217503584" duration="624000" />
+      <workItem from="1675372621373" duration="328000" />
+      <workItem from="1675373507901" duration="175000" />
+      <workItem from="1675540197508" duration="5709000" />
+      <workItem from="1675601289519" duration="10436000" />
+      <workItem from="1675612035267" duration="368000" />
+      <workItem from="1675632434293" duration="3000" />
+      <workItem from="1675633071375" duration="1936000" />
+      <workItem from="1675635027131" duration="1275000" />
+      <workItem from="1675983478013" duration="54000" />
+      <workItem from="1676718604616" duration="2054000" />
+      <workItem from="1676720681680" duration="1072000" />
+      <workItem from="1676736233027" duration="1092000" />
+      <workItem from="1676737876208" duration="698000" />
+      <workItem from="1676747877249" duration="106000" />
+      <workItem from="1677619594173" duration="3090000" />
+      <workItem from="1677628025267" duration="52000" />
+      <workItem from="1677629735915" duration="179000" />
+      <workItem from="1677711077219" duration="47000" />
+      <workItem from="1677801711873" duration="616000" />
+      <workItem from="1677802547223" duration="2286000" />
+      <workItem from="1677805280742" duration="68000" />
+      <workItem from="1678235037094" duration="1301000" />
+      <workItem from="1678408121182" duration="172000" />
+      <workItem from="1678408317747" duration="53000" />
+      <workItem from="1678744452594" duration="3399000" />
+      <workItem from="1678747956629" duration="483000" />
+      <workItem from="1678832295947" duration="626000" />
+      <workItem from="1678839983282" duration="280000" />
+      <workItem from="1679739503310" duration="565000" />
+      <workItem from="1679740092788" duration="2000" />
+      <workItem from="1679756197353" duration="811000" />
+      <workItem from="1680133355848" duration="5000" />
+      <workItem from="1680349684283" duration="239000" />
+      <workItem from="1680350151236" duration="2932000" />
+      <workItem from="1680442968818" duration="8796000" />
+      <workItem from="1680452739656" duration="599000" />
+      <workItem from="1680957862774" duration="14000" />
+      <workItem from="1684890674887" duration="875000" />
+      <workItem from="1685353005465" duration="29000" />
+      <workItem from="1685871501676" duration="6938000" />
+      <workItem from="1685879352627" duration="132000" />
+      <workItem from="1685983436473" duration="634000" />
+      <workItem from="1686067272913" duration="707000" />
+      <workItem from="1686067998496" duration="2812000" />
+      <workItem from="1686093177478" duration="1120000" />
+      <workItem from="1686094481072" duration="1024000" />
+      <workItem from="1686242633935" duration="657000" />
+      <workItem from="1686260690041" duration="6281000" />
+      <workItem from="1686270328316" duration="21000" />
+      <workItem from="1686328271720" duration="153000" />
+      <workItem from="1686613502322" duration="2572000" />
+      <workItem from="1686693125707" duration="310000" />
+      <workItem from="1686932641750" duration="184000" />
+      <workItem from="1686932910266" duration="599000" />
+      <workItem from="1687191102396" duration="800000" />
+      <workItem from="1687193340378" duration="103000" />
+      <workItem from="1687277629549" duration="208000" />
+      <workItem from="1687278596029" duration="18000" />
+      <workItem from="1687304229940" duration="205000" />
+      <workItem from="1687304598491" duration="24000" />
+      <workItem from="1687537932410" duration="66000" />
+      <workItem from="1688206764467" duration="6000" />
+      <workItem from="1690329200227" duration="231000" />
+      <workItem from="1690387616192" duration="3182000" />
+      <workItem from="1690407755894" duration="1470000" />
+      <workItem from="1690409246721" duration="5853000" />
+      <workItem from="1690416511599" duration="914000" />
+      <workItem from="1690474663152" duration="2604000" />
+      <workItem from="1690497276727" duration="328000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add initial version of utility">
+      <created>1673801630893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673801630893</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1673801643572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673801643572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Limit range of converted frequencies">
+      <created>1674172567157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674172567157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add reading of image files in subfolders">
+      <created>1674990362204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674990362205</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add creation of stereo wav files">
+      <created>1674994408962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674994408962</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modify color to frequency conversion">
+      <created>1675007588851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675007588851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add sound2image conversion script">
+      <created>1675009565203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675009565203</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Improve sound conversion">
+      <created>1675045632243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675045632243</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Separate each color as individual WAV">
+      <created>1675125481658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675125481658</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add -key as parser argument">
+      <created>1675601568137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675601568139</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement SoundImage class">
+      <created>1675604438107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675604438108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add ability to choose key&#10;- Closes #5&#10;- Closes #1">
+      <created>1675612262945</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675612262945</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add ability to choose key&#10;- Closes #2">
+      <created>1675633521802</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675633521802</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add ability to choose tempo&#10;- Closes #2">
+      <created>1675634234637</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675634234637</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix tempo related code and remove old file">
+      <created>1675635669804</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635669804</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update README.md">
+      <created>1675636006031</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675636006031</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add sound2image script back to repo">
+      <created>1676719854591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676719854591</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add more key options">
+      <created>1677619772841</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619772841</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Revert change to index range&#10;- Index range is based on the octaves in FREQ_DICT not the number of notes in a given key">
+      <created>1677619965613</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619965613</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add two pentatonic scales&#10;- Fix incorrect notes in key of D#&#10;- Modify note order in scale arrays to test if conversion process is impacted">
+      <created>1677627462989</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677627462989</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add option to run without arguments&#10;&#10;- Allow use of default parameters including test image">
+      <created>1680352945018</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680352945018</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Restructure musical keys&#10;&#10;- Start all keys with root note&#10;- Replace tuples with lists for iteration purposes&#10;- Add conversion of flats and double-sharps&#10;- Add more minor pentatonic scales&#10;- Fix incorrect scales">
+      <created>1680450223518</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680450223518</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update G minor pentatonic">
+      <created>1680450308381</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680450308381</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add major pentatonic scales">
+      <created>1680451344649</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680451344649</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Remove debug/print statements">
+      <created>1680451534457</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680451534457</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add target track length parameters">
+      <created>1685876607763</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685876607763</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add parameter details in README.md">
+      <created>1685878240897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685878240897</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add chromatic scale as a key option">
+      <created>1685983996885</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685983996885</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add stereo conversion method">
+      <created>1686069875452</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686069875452</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Make code more concise">
+      <created>1686242916026</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686242916026</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Make stereo save the default&#10;&#10;- Add --split as an optional argument to generate separate files&#10;- Fixes #10">
+      <created>1686264279098</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686264279098</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add help comments to command line flags">
+      <created>1686616063286</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686616063286</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add &quot;reveal&quot; mode">
+      <option name="closed" value="true" />
+      <created>1690414020134</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1690414020134</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Clarify parser help string">
+      <option name="closed" value="true" />
+      <created>1690414969206</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1690414969206</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update README.md with &quot;reveal&quot; mode info">
+      <option name="closed" value="true" />
+      <created>1690414986869</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1690414986869</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update for PyPI packaging">
+      <option name="closed" value="true" />
+      <created>1690477257997</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1690477257997</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add ability to choose key&#10;- Closes #5&#10;- Closes #1" />
+    <MESSAGE value="Add ability to choose key&#10;- Closes #2" />
+    <MESSAGE value="Add ability to choose tempo&#10;- Closes #2" />
+    <MESSAGE value="Fix tempo related code and remove old file" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Add sound2image script back to repo" />
+    <MESSAGE value="Add more key options" />
+    <MESSAGE value="Revert change to index range&#10;- Index range is based on the octaves in FREQ_DICT not the number of notes in a given key" />
+    <MESSAGE value="Add two pentatonic scales&#10;- Fix incorrect notes in key of D#&#10;- Modify note order in scale arrays to test if conversion process is impacted" />
+    <MESSAGE value="Add option to run without arguments&#10;&#10;- Allow use of default parameters including test image" />
+    <MESSAGE value="Restructure musical keys&#10;&#10;- Start all keys with root note&#10;- Replace tuples with lists for iteration purposes&#10;- Add conversion of flats and double-sharps&#10;- Add more minor pentatonic scales&#10;- Fix incorrect scales" />
+    <MESSAGE value="Update G minor pentatonic" />
+    <MESSAGE value="Add major pentatonic scales" />
+    <MESSAGE value="Remove debug/print statements" />
+    <MESSAGE value="Add target track length parameters" />
+    <MESSAGE value="Add parameter details in README.md" />
+    <MESSAGE value="Add chromatic scale as a key option" />
+    <MESSAGE value="Add stereo conversion method" />
+    <MESSAGE value="Make code more concise" />
+    <MESSAGE value="Make stereo save the default&#10;&#10;- Add --split as an optional argument to generate separate files&#10;- Fixes #10" />
+    <MESSAGE value="Add help comments to command line flags" />
+    <MESSAGE value="Add &quot;reveal&quot; mode" />
+    <MESSAGE value="Clarify parser help string" />
+    <MESSAGE value="Update README.md with &quot;reveal&quot; mode info" />
+    <MESSAGE value="Update for PyPI packaging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for PyPI packaging" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/image2sound$test.coverage" NAME="test Coverage Results" MODIFIED="1674173000258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image2sound$freq_dict.coverage" NAME="freq_dict Coverage Results" MODIFIED="1675608624470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image2sound$main.coverage" NAME="main Coverage Results" MODIFIED="1680352790178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image2sound$sound_image.coverage" NAME="sound_image Coverage Results" MODIFIED="1677802728671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image2sound$waviotester.coverage" NAME="waviotester Coverage Results" MODIFIED="1675007306062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image2sound$sound2image.coverage" NAME="sound2image Coverage Results" MODIFIED="1678746020801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
