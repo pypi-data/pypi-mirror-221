@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kafkaproducerself
+Version: 0.0.4
+Summary: produce events to kafka
+Home-page: UNKNOWN
+Author: Abhishek Borana
+Author-email: tracer.domanik@fixedfor.com
+License: MIT
+Keywords: kafka
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+Boiler Functions for kafka push
+
+Change log
+==========
+
+
+0.0.1 (27/07/2023)
+------------------
+- First Release
+
