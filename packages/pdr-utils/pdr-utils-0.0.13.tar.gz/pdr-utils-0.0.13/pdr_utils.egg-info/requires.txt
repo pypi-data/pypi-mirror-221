@@ -1,0 +1,10 @@
+enforce_typing
+pylint
+bumpversion
+requests
+web3
+coverage
+eth-account
+pathlib
+eth-keys
+ocean-contracts==2.0.0a2
