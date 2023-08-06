@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kiri-walkgame"
+version = "1.2.0"
+description = "a mini game to visualize the path-finding algorithm"
+authors = [ "anthony <mrchowpoor@gmail.com>" ]
+license = "MIT"
+repository = "https://github.com/kiri-chow/kiri-walkgame"
+readme = "README.md"
+
+  [[tool.poetry.packages]]
+  include = "kiri_walkgame"
+
+  [tool.poetry.dependencies]
+  python = "^3.9"
+  kiri-pathfinding = "^1.2.0"
+  pygame = "^2.5.0"
+  pypng = "^0.20220715.0"
+
+[tool.poetry.plugins.console_scripts]
+kiri_walkgame = "kiri_walkgame:main"
+
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"
