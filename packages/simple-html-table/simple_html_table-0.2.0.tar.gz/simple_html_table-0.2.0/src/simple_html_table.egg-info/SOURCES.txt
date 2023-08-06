@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+recipe/meta.yaml
+src/simple_html_table/__init__.py
+src/simple_html_table/htmltable.py
+src/simple_html_table.egg-info/PKG-INFO
+src/simple_html_table.egg-info/SOURCES.txt
+src/simple_html_table.egg-info/dependency_links.txt
+src/simple_html_table.egg-info/requires.txt
+src/simple_html_table.egg-info/top_level.txt

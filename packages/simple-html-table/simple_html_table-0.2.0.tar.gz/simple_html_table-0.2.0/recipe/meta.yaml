@@ -1,0 +1,42 @@
+{% set name = "simple_html_table" %}
+{% set version = "0.2.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
+
+requirements:
+  host:
+    - python >=3.7
+    - setuptools
+    - setuptools-scm
+    - numpy
+    - pip
+  run:
+    - python >=3.7
+    - numpy
+
+test:
+  imports:
+    - simple_html_table
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  summary: Simple way to create HTML tables with support for rowspan and colspan attributes.
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - https://github.com/gb119
