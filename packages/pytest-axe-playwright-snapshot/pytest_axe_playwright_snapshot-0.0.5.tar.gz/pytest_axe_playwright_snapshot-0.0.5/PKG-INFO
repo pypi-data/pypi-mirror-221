@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pytest-axe-playwright-snapshot
+Version: 0.0.5
+Summary: A pytest plugin that runs Axe-core on Playwright pages and takes snapshots of the results.
+Author: Pamela Fox
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Pytest
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: playwright
+Requires-Dist: axe-playwright-python
+Requires-Dist: pytest-snapshot-with-message-generator
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pytest-playwright ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Home, https://github.com/pamelafox/pytest-axe-playwright-snapshot
+Provides-Extra: dev
+
+# pytest-axe-playwright-snapshot
+
+A pytest plugin that runs Axe-core on Playwright pages and takes snapshots of the results.
+
+## Installation
+
+1. Install the plugin:
+
+    ```sh
+    python3 -m pip install pytest-axe-playwright-snapshot
+    ```
+
+2. Install Playwright browsers:
+
+    ```sh
+    python3 -m playwright install --with-deps
+    ```
+
+## Usage
+
+In your tests, use the `page` fixture from pytest-playwright along with our plugin's`axe_pytest_snapshot` fixture. Once you've navigated to a page, call `axe_pytest_snapshot` with the `page` fixture as an argument:
+
+```python
+from playwright.sync_api import Page
+
+def test_violations(page: Page, axe_pytest_snapshot):
+    page.goto("https://www.example.com")
+    axe_pytest_snapshot(page)
+```
+
+When you run a test for the first time, you must tell it explicitly to save a snapshot:
+
+```sh
+pytest --snapshot-update
+```
+
+The plugin will take a snapshot of the page and save it to a file in the `snapshots` directory. The snapshot directory will be named after the test function, and the file will be named 'violations.txt'.
+
+On subsequent runs, the plugin will compare the latest snapshot against the snapshot and report any difference in the violations.
+
