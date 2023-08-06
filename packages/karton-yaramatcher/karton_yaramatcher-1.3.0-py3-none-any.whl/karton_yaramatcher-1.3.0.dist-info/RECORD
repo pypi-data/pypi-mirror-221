@@ -1,0 +1,12 @@
+karton_yaramatcher-1.3.0-nspkg.pth,sha256=vHa-jm6pBTeInFrmnsHMg9AOeD88czzQy-6QCFbpRcM,539
+karton/yaramatcher/__init__.py,sha256=jYGYCqU2XaDpnvjrrDE3tq-oOXMRmeSanow3ceSTI04,79
+karton/yaramatcher/__main__.py,sha256=nhiwr9SWVL-dc1oVKTMuTpA793l4Ew5xl1qrLluSEYE,57
+karton/yaramatcher/__version__.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+karton/yaramatcher/yaramatcher.py,sha256=GIG78j57sH6esXPBG6FMDevz7gYUYlB2lFgafZ4BMXw,7799
+karton_yaramatcher-1.3.0.dist-info/LICENSE,sha256=o8h7hYhn7BJC_-DmrfqWwLjaR_Gbe0TZOOQJuN2ca3I,1519
+karton_yaramatcher-1.3.0.dist-info/METADATA,sha256=bkF7BKU03iJcVgxmAVE8jZjfufIZRFRko3I5dsnnbxE,1559
+karton_yaramatcher-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+karton_yaramatcher-1.3.0.dist-info/entry_points.txt,sha256=mM-Wv4TVGzR0pl4jj7UA_t-zeb5rgQ16mBL--4VBTYM,76
+karton_yaramatcher-1.3.0.dist-info/namespace_packages.txt,sha256=X8SslCPsqXDCnGZqrYYolzT3xPzJMq1r-ZQSc0jfAEA,7
+karton_yaramatcher-1.3.0.dist-info/top_level.txt,sha256=X8SslCPsqXDCnGZqrYYolzT3xPzJMq1r-ZQSc0jfAEA,7
+karton_yaramatcher-1.3.0.dist-info/RECORD,,
