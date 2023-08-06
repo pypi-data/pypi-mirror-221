@@ -1,0 +1,2 @@
+https://test.pypi.org/simple/ awz-server-api-test
+https://test.pypi.org/simple/ awz-client-api-test
