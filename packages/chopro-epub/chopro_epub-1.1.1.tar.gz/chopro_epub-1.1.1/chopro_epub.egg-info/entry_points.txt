@@ -1,0 +1,3 @@
+[console_scripts]
+chopro-epub = chopro_epub.cli.epub:main
+chopro-html = chopro_epub.cli.html:main

@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+chopro_epub/__init__.py
+chopro_epub/chopro-epub.css
+chopro_epub/parser.py
+chopro_epub.egg-info/PKG-INFO
+chopro_epub.egg-info/SOURCES.txt
+chopro_epub.egg-info/dependency_links.txt
+chopro_epub.egg-info/entry_points.txt
+chopro_epub.egg-info/requires.txt
+chopro_epub.egg-info/top_level.txt
+chopro_epub/cli/__init__.py
+chopro_epub/cli/epub.py
+chopro_epub/cli/html.py
