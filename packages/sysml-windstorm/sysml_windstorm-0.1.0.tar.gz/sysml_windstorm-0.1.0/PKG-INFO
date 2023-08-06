@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sysml-windstorm
+Version: 0.1.0
+Summary: Tool to support SysMLv2 model templating for any text based file.
+License: MIT
+Author: Christopher Cox
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: sysml2py (==0.4.1)
+Description-Content-Type: text/markdown
+
+# windstorm
+SysML 2.0 Analysis Toolset
+
