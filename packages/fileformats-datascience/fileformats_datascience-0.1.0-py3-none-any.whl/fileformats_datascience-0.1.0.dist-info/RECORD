@@ -1,0 +1,11 @@
+fileformats/datascience/__init__.py,sha256=zeynuNek7H_sp0EdiS0vLIG_jjDH9Etyp9lxCgwp5C0,224
+fileformats/datascience/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+fileformats/datascience/data.py,sha256=VrSNqNTjqYuRw8_cb8BxNBrTS0hUvjY0Y_-qPO8mgf0,1095
+fileformats/datascience/object_serialization.py,sha256=t0NtgUTyGsxoyb7kKzPmXM8F-zHHRIYMKc9vVre8SP8,494
+fileformats/datascience/scripts.py,sha256=ErtKzk6CwxTQuqXcMYvXPhQ2E8ZoVatS1ufp7TC0Cko,161
+fileformats/datascience/tests/test_data.py,sha256=koYZyUm0zSnLgi2nbdvLhCSGR2JSW_mw8ZSSSyhIIuM,1243
+fileformats/datascience/tests/test_object_serialization.py,sha256=Ud6u0WRKB9eyT_huLUQxDRHkZxW0y3W7LdK4tQwlOmc,236
+fileformats_datascience-0.1.0.dist-info/METADATA,sha256=-PloV--gvLAZ32J0g7ZddGdvaWCtPiRxuqlfc5-NjsE,18143
+fileformats_datascience-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fileformats_datascience-0.1.0.dist-info/licenses/LICENSE,sha256=s12hb9VeRlj1uxCx7NSbKwRGyTklVA7omWbTLyMhYIs,14222
+fileformats_datascience-0.1.0.dist-info/RECORD,,
