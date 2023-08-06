@@ -1,0 +1,7 @@
+airflow_notify_sns/__init__.py,sha256=PDgguxmMA_Q1MitJ2l0vaTxW0PfS-URjNjVvddQwlH4,66
+airflow_notify_sns/notify.py,sha256=NhXdTkg3OEt1Nm4OVuM-TBUFIBjyssodJlaxLWnosSo,3870
+cog_airflow_notify_sns-2.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cog_airflow_notify_sns-2.0.1.dist-info/METADATA,sha256=S-75iddHUz9yP0oNgZrX5B_OrLv9RBb9Ie5NeroREY0,2497
+cog_airflow_notify_sns-2.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cog_airflow_notify_sns-2.0.1.dist-info/top_level.txt,sha256=IPKBqA1lAW6OTGp761DS5KBCWkrjl0ZGPPQv6f-r5_Q,19
+cog_airflow_notify_sns-2.0.1.dist-info/RECORD,,
