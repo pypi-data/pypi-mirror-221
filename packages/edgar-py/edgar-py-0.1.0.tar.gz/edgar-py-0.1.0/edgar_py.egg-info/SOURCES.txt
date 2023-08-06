@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+edgar/__init__.py
+edgar/__main__.py
+edgar/cik.py
+edgar_py.egg-info/PKG-INFO
+edgar_py.egg-info/SOURCES.txt
+edgar_py.egg-info/dependency_links.txt
+edgar_py.egg-info/requires.txt
+edgar_py.egg-info/top_level.txt
