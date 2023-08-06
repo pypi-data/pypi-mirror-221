@@ -1,0 +1,10 @@
+.gitignore,sha256=oZs4UxjwotpirmJqY2ONBbUiUB_IXVVEC-wjLVrk2iw,55
+LICENSE,sha256=4sRHYHnch5V2wl-S1ZMyjJ3TKpzX-AL3tVs_dVB4oJw,1460
+MANIFEST.in,sha256=I0d7eBCUr_2W6uNA_-qkUp6HLJ-1WqGBJcT2qPS9lo8,129
+README.md,sha256=wV7vO9mMnkBq7292adLA4MIwDUcLXiU9rKs1zc49GtI,1741
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject.toml,sha256=jxislRrN4j2aOY_sjktA6zn1yGZrhriHZE9YzDEA-yE,792
+django_moses-0.8.8.dist-info/LICENSE,sha256=4sRHYHnch5V2wl-S1ZMyjJ3TKpzX-AL3tVs_dVB4oJw,1460
+django_moses-0.8.8.dist-info/METADATA,sha256=JPQ5ScsjpaJhAdD0PHL9bfCmqh9X0BDj_W4m0xEmX30,546
+django_moses-0.8.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_moses-0.8.8.dist-info/RECORD,,
