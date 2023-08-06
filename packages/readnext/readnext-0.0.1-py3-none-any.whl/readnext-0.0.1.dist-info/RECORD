@@ -1,0 +1,12 @@
+readnext/__init__.py,sha256=mU_irFS7i12nu_5S_pfDVIpleoxdirdrWEwm-7_IKXg,731
+readnext/arxiv_categories.py,sha256=00d0bEHt5ogsrvBd7iVmNDXkdMwW1ytryBWrAKbwXBg,8052
+readnext/arxiv_sync.py,sha256=SPf7YS1U_2jLCAvxril8-KmEBkn7UpV5vAxtPr7VkK8,3684
+readnext/embedding.py,sha256=C7xRRiLo1aUAbun6OaaJRsqcjZYUKzl8xeahSTjJed4,3819
+readnext/main.py,sha256=LEhrOzhsSvAPqoAp-Qu6CNhtJth9osmNa0VqS6XV1g4,3280
+readnext/personalize.py,sha256=avb6IyfgEHyKmT4IFgFhtDOb1Ti2pEYkfKk87xLWRCk,6680
+readnext-0.0.1.dist-info/LICENSE,sha256=bwz2UR6d5ohIDGIVqyODVs9_HDteqzqh0p2jMiUH3Vo,35134
+readnext-0.0.1.dist-info/METADATA,sha256=1c13TqHbQtsOM6CEpsvns_MMSrBg67q8B7jmoQ2r4Ak,14062
+readnext-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+readnext-0.0.1.dist-info/entry_points.txt,sha256=-SVoaI4hY4BQzekEszPUIndaRXKubMmYB1rqvUUjyN0,47
+readnext-0.0.1.dist-info/top_level.txt,sha256=u0Yn5r2WGf1-9S06mJPUe8w4vcLTgQB_wTPYH4Wp5O0,9
+readnext-0.0.1.dist-info/RECORD,,
