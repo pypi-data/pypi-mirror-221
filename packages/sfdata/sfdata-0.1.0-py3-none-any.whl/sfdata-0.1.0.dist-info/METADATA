@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sfdata
+Version: 0.1.0
+Summary: 
+Author: franciscobmacedo
+Author-email: franciscovcbm@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jstyleson (>=0.0.2,<0.0.3)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: more-itertools (>=10.0.0,<11.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: tablib (>=3.5.0,<4.0.0)
+Requires-Dist: xsdata (>=23.7,<24.0)
+Description-Content-Type: text/markdown
+
+# Social Finance Data Pipeline
+
+This is a package that aims to standerdise one or more datasets against a defined schema.
+It is currently in it's very early stagies.
+
+check the [wiki](https://github.com/SocialFinanceDigitalLabs/sfdata/wiki) for more details on the plan.
+
+
+## Current status
+
+Current the pipeline only works with xml files and is limited to one schema and one file.
+It's a first generic approach, that was tested against CIN and SWWF datasets.
+
+## How to run
+
+Check the [demo.py](./demo.py) file. It has 2 functions that run against the CIN and SWWF datasets present in the [samples](./samples/) directory.
+
+There's also smaller samples of those datasets.
+
+
+
+
+
+
