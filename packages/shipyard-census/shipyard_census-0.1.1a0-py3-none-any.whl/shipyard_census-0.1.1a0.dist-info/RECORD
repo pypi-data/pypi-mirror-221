@@ -1,0 +1,8 @@
+shipyard_census/__init__.py,sha256=wL29X-8MdO0m_luxqR1w5wQ0MGuCvOmdga8iwMUKn48,33
+shipyard_census/census.py,sha256=4A7ldZiu3ndo9sh4s4cxY8xwU7nDnHfCSBymsPGry5c,5965
+shipyard_census/cli/authtest.py,sha256=LZt6_p-Utxtpp-rwUIzL2tT4L3bQcURtKTi-NTbWXZE,186
+shipyard_census/cli/trigger_sync_cli.py,sha256=Houjpm8BKfw20OwRl19n90NiPCNXDgYmbfYQ0Baf8wA,2808
+shipyard_census/test/tests.py,sha256=kjawppEws-WrpF8hDDlQC6Pampfrc0YaHV0wYtCAtmg,71
+shipyard_census-0.1.1a0.dist-info/METADATA,sha256=iEBA603-VlfoF-6CgnlDX6z36ZoYux-0Mozmow-JXN4,517
+shipyard_census-0.1.1a0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_census-0.1.1a0.dist-info/RECORD,,
