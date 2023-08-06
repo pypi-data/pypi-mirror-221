@@ -1,0 +1,31 @@
+[project]
+name = "table_maker"
+version = "0.1.0" 
+description = "Create simple, tastefully-formatted strings that resemble tables"
+readme = "README.md" # Optional
+requires-python = ">=3.6"
+license = {file = "LICENSE.txt"}
+authors = [{name = "I.R. Whitt", email = "yvlcmb@protonmail.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/radtbad/table-maker"
+"Bug Reports" = "https://gitlab.com/ratbad/table-maker/issues"
+"Source" = "https://gitlab.com/ratbad/table-maker/"
+
+[tool.setuptools]
+py-modules = ["table_maker"]
+
+[project.optional-dependencies]
+test = ["coverage", "pytest"]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.disutils.bdist_wheel]
+universal = true

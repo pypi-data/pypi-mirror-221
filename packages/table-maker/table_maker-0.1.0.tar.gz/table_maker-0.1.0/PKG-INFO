@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: table_maker
+Version: 0.1.0
+Summary: Create simple, tastefully-formatted strings that resemble tables
+Author-email: "I.R. Whitt" <yvlcmb@protonmail.com>
+Project-URL: Homepage, https://gitlab.com/radtbad/table-maker
+Project-URL: Bug Reports, https://gitlab.com/ratbad/table-maker/issues
+Project-URL: Source, https://gitlab.com/ratbad/table-maker/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Table Maker
+
+
+## Description
+Make simple tables from rows and columns, with values separated into cells and the contents left-justified. 
+
+Initially designed for creating map marginalia in QGIS and ArcMap, as well as a susbtitute for the often over-engineered and clunky table wizards that are featured in word processors. 
+
+## Installation
+At some point: `pip install table_maker`
+
+## Usage
+Most basic use is to create a simple, cleanly-formatted table:
+```python
+  >>> from table_maker import make_table
+  >>> cols = ('athlete', 'time')
+  >>> rows = (('Clint', '16:04'), ('Mitch', '12:12'),('Tommy', '22:57'), ('Zach', '27:56'))
+  >>> print(make_table(cols, rows, sort_col=1))
+  +--------+--------+
+  | athlete| time   |
+  +========+========+
+  | Mitch  | 12:12  |
+  +--------+--------+
+  | Clint  | 16:04  |
+  +--------+--------+
+  | Tommy  | 22:57  |
+  +--------+--------+
+  | Zach   | 27:56  |
+  +--------+--------+
+
+```
+That's mostly it, but it does have a few simple utilities, for example, you can add some row numbers if you like:
+
+```python
+  >>> import table_maker as tm
+  >>> cols = ('u-boat', 'commissioned', 'sunk')
+  >>> rows = (
+  ...  ('u-64', '16 Dec 39', '13 Apr 40'), 
+  ...  ('u-104', '19 Aug 40', '28 Nov 40'),  
+  ...  ('u-107', '08 Oct 40', '08 Aug 44'))
+  >>> uboats = tm.insert_row_numbers(tm.make_table(cols, rows))
+  >>> print(uboats)
+      +--------------+--------------+--------------+
+      | u-boat       | commissioned | sunk         |
+      +==============+==============+==============+
+   1  | u-64         | 16 Dec 39    | 13 Apr 40    |
+      +--------------+--------------+--------------+
+   2  | u-104        | 19 Aug 40    | 28 Nov 40    |
+      +--------------+--------------+--------------+
+   3  | u-107        | 08 Oct 40    | 08 Aug 44    |
+      +--------------+--------------+--------------+
+```
+Or you can remove separators from the rows if you want a more compact table, and convert items to title case if you like: 
+```python
+>>> import table_maker as tm
+>>> cols = ('album', 'year')
+>>> rows = (('fandango!', '1975'), ('tres hombres', '1973'),('eliminator', '1983'))
+>>> x, y = tm.capitalize_inputs(cols, rows)
+>>> print(tm.remove_seps(tm.make_table(cols=x, rows=y, scaling=1.1, sort_col=1)))
++--------------+--------------+
+| Album        | Year         |
++==============+==============+
+| Tres Hombres | 1973         |
+| Fandango!    | 1975         |
+| Eliminator   | 1983         |
++--------------+--------------+
+```
+There are no utilities for selecting rows, you are better off doing that ahead of time. 
+For example let's say you want to make a table like from this string:
+```python
+>>> csv = '''first,last,GOATscore,rank
+Kareem,Abdul-Jabbar,5.600
+LeBron,James,5.511
+Michael,Jordan,5.219
+Tim,Duncan,4.273
+Bill,Russell,4.066
+Kobe,Bryant,4.021
+Wilt,Chamberlain,3.885
+Karl,Malone,3.823
+Shaquille,O'Neal,3.820
+Julius,Erving,3.502
+...
+'''
+```
+Then you only want players whose score is above 4, it's easiet to get that before creating the table:
+```python
+>>> import table_maker as tm
+>>> cols = csv.split()[0].split(',')
+>>> rows = [item.split(',') for item in csv.split('\n')[1:] if item]
+>>> above_4 = [row for row in rows if float(row[2]) > 4] 
+>>> table = tm.make_table(cols, above_4, sort_col=-1, reverse=True, scaling=1.25)
+>>> print(tm.insert_title("   the greatest of all time", tm.insert_row_numbers(table)))
+   THE GREATEST OF ALL TIME
+   +---------------+---------------+---------------+
+   | first         | last          | GOATscore     |
+   +===============+===============+===============+
+1  | Kareem        | Abdul-Jabbar  | 5.600         |
+   +---------------+---------------+---------------+
+2  | LeBron        | James         | 5.511         |
+   +---------------+---------------+---------------+
+3  | Michael       | Jordan        | 5.219         |
+   +---------------+---------------+---------------+
+4  | Tim           | Duncan        | 4.273         |
+   +---------------+---------------+---------------+
+5  | Bill          | Russell       | 4.066         |
+   +---------------+---------------+---------------+
+6  | Kobe          | Bryant        | 4.021         |
+   +---------------+---------------+---------------+
+```
+Alternatively, you could use the `transform` function to convert the table into a dictionary, which is conveniently designed to be compatible with the `pandas.DataFrame.from_dict()` method, turn it into a dataframe and process it that way.
+
