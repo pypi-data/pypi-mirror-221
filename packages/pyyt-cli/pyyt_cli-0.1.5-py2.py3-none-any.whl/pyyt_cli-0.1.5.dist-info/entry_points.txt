@@ -1,0 +1,2 @@
+[console_scripts]
+pyyt = src.pyyt:main
