@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fastfit/__init__.py
+fastfit/__version__.py
+fastfit.egg-info/PKG-INFO
+fastfit.egg-info/SOURCES.txt
+fastfit.egg-info/dependency_links.txt
+fastfit.egg-info/not-zip-safe
+fastfit.egg-info/top_level.txt
