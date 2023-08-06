@@ -1,0 +1,9 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+nrv/__init__.py
+nrv_py.egg-info/PKG-INFO
+nrv_py.egg-info/SOURCES.txt
+nrv_py.egg-info/dependency_links.txt
+nrv_py.egg-info/requires.txt
+nrv_py.egg-info/top_level.txt
