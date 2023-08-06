@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LCPDelta"
+version = "0.1.0.2"
+authors = [
+  { name="Sushanth Kolluru", email="enact.helpdesk@lcp.uk.com" },
+]
+description = "LCPDelta test package"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["LCPDelta", "Enact", "Flextrack"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "signalrcore"
+]
+[project.urls]
+"Homepage" = "https://enact.lcpdelta.com/"
