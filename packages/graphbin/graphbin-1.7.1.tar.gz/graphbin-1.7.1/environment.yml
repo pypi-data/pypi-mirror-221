@@ -1,0 +1,13 @@
+name: graphbin
+channels:
+  - bioconda
+  - conda-forge
+  - anaconda
+dependencies:
+  - python>=3.7.1
+  - cairocffi
+  - python-igraph
+  - click
+  - pip
+  - pip:
+    - cogent3
