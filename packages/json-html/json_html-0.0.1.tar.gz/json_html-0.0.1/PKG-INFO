@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: json_html
+Version: 0.0.1
+Summary: Python code that translates JSON template to HTML
+Home-page: https://github.com/AlexFlipnote/json_html.py
+Author: AlexFlipnote
+License: MIT
+License-File: LICENSE
