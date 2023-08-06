@@ -1,0 +1,12 @@
+maingopy.libs/libquadmath-252b47ab.so.0.0.0,sha256=hzQJbYAWbOhZ6aGgUOIe13gXzcR9_B64_nkMHSrl5Bg,272193
+maingopy.libs/libgfortran-20b2930b.so.5.0.0,sha256=_FWE4l3GXLJsPQwMSMljXEmZWa8K4QKCPpEq5lRuZ0g,2714697
+maingopy.libs/libmvec-2-7dce5918.28.so,sha256=7MchCWYlSP9jPmoz3MQb7il_39t-c_egxu1KzzVKS70,181969
+maingopy/__init__.py,sha256=GkTOJQVfFg9FNwoKyG2jwhE2oDhhLq6p7wy-3egUcHY,676
+maingopy/melonpy.cpython-311-x86_64-linux-gnu.so,sha256=N0nTRxg_TUTuWi3Rq41wB_wdsLwEhjDN6GdvxDFDvLY,998392
+maingopy/_maingopy.cpython-311-x86_64-linux-gnu.so,sha256=60SFSWEc7Pn9p2BV2mpr3LlXsosatOM-H0OtUTIYueI,14421281
+maingopy-0.7.1.dist-info/METADATA,sha256=u7deX-eNs3kYucq9NBhJTk7qX9LEEv3_fQ9NpHbq7EI,3485
+maingopy-0.7.1.dist-info/top_level.txt,sha256=alt1N1RINhZO7dBpd8wE3tgYCSDB-KTPVxZ-msAcJgY,9
+maingopy-0.7.1.dist-info/AUTHORS,sha256=Z7UnHha0w9kCiBhemFgOQS3d2wTJdLfldX38GnHiPMY,1358
+maingopy-0.7.1.dist-info/LICENSE,sha256=5SHb0YlvvBLehQr_MjJzRsD_RaUtx0DRQoDNWVWVYeI,94238
+maingopy-0.7.1.dist-info/RECORD,,
+maingopy-0.7.1.dist-info/WHEEL,sha256=Kh41ggVgrNWo383ZcTd2IrXJj9I_duwqyBoCIiNC_iQ,108
