@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tap-harvest
+Version: 2.1.3
+Summary: Singer.io tap for extracting data from the Harvest api
+Home-page: http://singer.io
+Author: Facet Interactive
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
