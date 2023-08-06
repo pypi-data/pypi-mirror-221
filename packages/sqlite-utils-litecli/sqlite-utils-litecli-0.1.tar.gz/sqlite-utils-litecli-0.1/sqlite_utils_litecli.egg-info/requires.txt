@@ -1,0 +1,5 @@
+sqlite-utils
+litecli
+
+[test]
+pytest
