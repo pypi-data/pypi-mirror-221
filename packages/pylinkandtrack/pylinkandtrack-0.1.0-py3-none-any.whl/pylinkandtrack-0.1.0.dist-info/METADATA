@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: pylinkandtrack
+Version: 0.1.0
+Summary: Uma interface amigável para a API de rastreamento de encomendas dos Correios desenvolvida pela Link & Track.
+License: MIT
+Author: diaszano
+Author-email: luucas.dsantos@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/Diaszano/pylinkandtrack/issues
+Project-URL: Código, https://github.com/Diaszano/pylinkandtrack
+Project-URL: Documentação, https://pylinkandtrack.readthedocs.io/en/latest/
+Description-Content-Type: text/markdown
+
+<header>
+    <div align="center">
+        <a href="https://github.com/Diaszano">
+            <img src=".github/assets/diaszano.png" alt="logo" height="300">
+        </a>
+        <h1>
+            PyLinkAndTrack
+        </h1>
+        Interface amigável da <a href="https://linketrack.com/">Link & Track</a>: simplifica rastreamento de encomendas 
+        nos Correios através de sua poderosa API.
+    </div>
+</header>
+
+[![Documentation Status](https://readthedocs.org/projects/pylinkandtrack/badge/?version=latest)](https://pylinkandtrack.readthedocs.io/en/latest/?badge=latest)
+[![CI](https://github.com/Diaszano/pylinkandtrack/actions/workflows/check.yaml/badge.svg)](https://github.com/Diaszano/pylinkandtrack/actions/workflows/check.yaml)
+[![codecov](https://codecov.io/gh/Diaszano/pylinkandtrack/branch/master/graph/badge.svg?token=VfeUJcEGI7)](https://codecov.io/gh/Diaszano/pylinkandtrack)
+[![PyPI version]()]()
+
+## Como instalar o projeto?
+
+Para a instalação do projeto recomendamos que use o `pipx` para fazer essa instalação:
+
+```bash
+pipx install pylinkandtrack
+```
+
+Embora isso seja somente uma recomenda uma recomendação! Tu também podes instalar o projeto com o gerenciador de sua 
+preferência. Como `pip`:
+
+```bash
+pip install pylinkandtrack
+```
+
+## Como usar?
+
+Este projeto se baseia nas funcionalidades oferecidas pela API do [Link&Track](https://linketrack.com/), que 
+possibilita o rastreamento de encomendas, sujeito a limites de consultas por minuto.
+
+Em nossa implementação, todas as requisições à API do [Link&Track](https://linketrack.com/) são realizadas de forma 
+assíncrona, proporcionando um desempenho otimizado em sua aplicação. Abaixo, apresentaremos como é possível realizar o 
+rastreamento de uma encomenda por meio da nossa interface:
+
+Exemplo de Rastreamento de Encomenda:
+
+```python
+from asyncio import run
+
+from linkandtrack import LinkAndTrack
+
+
+async def main() -> None:
+    # Crie o seu user e token no site do Link&Track
+    # Link: https://linketrack.com/
+    linkandtrack = LinkAndTrack(
+        user='teste',
+        token='1abcd00b2731640e886fb41a8a9671ad14'
+            + '34c599dbaa0a0de9a5aa619f29a83f',
+    )
+    result = await linkandtrack.tracker(tracking_code='LX632045407CN')
+    print(result)
+
+
+run(main())
+```
+
+E o resultado do print será como este abaixo: 
+
+```python
+result = {
+    'codigo': 'LX632045407CN',
+    'host': 'lt',
+    'eventos': [],
+    'time': 1.599,
+    'quantidade': 0,
+    'servico': 'REMESSA INTERNACIONAL',
+}
+```
+
+Desta forma, ao utilizar nossa interface, você poderá obter informações sobre o rastreamento de encomendas de maneira 
+eficiente e otimizada. Lembre-se de respeitar os limites de consultas por minuto estabelecidos pela API do 
+[Link&Track](https://linketrack.com/) para garantir o bom funcionamento do serviço.
