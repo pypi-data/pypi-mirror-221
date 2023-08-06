@@ -1,0 +1,4 @@
+[
+  "run_test.py::test_CLI",
+  "run_test.py::test_predict"
+]
