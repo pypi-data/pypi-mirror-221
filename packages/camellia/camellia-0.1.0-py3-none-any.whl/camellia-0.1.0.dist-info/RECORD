@@ -1,0 +1,12 @@
+camellia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camellia/verilog/__init__.py,sha256=aNKQWVoV7IpBHKQQTaFTB5PRygG8jF2ExMx7KU62Dy4,131
+camellia/verilog/block.py,sha256=vLAYsOFkqo46MoT0O3TVV_Veu4LLJKL1c1szilB3zzg,3297
+camellia/verilog/bundle.py,sha256=CFlY4cAR-zAYqrFd4dWEJc8mj52sqv_B6Itn-Gp_exA,12011
+camellia/verilog/exception.py,sha256=dhjftgaNIcBUW3hqPlwiHeK4wsqJbvAwqdN9WzLiy7g,1803
+camellia/verilog/instance.py,sha256=x6X0NJ4tyQKWd75_-_cNnzCc4ZKMRB_w_TCvC430dy8,2521
+camellia/verilog/module.py,sha256=QGAq0hyZ4ZHqchrzK_gNuczalBaf6dbHMtJQLvtjGBQ,3352
+camellia/verilog/rawcode.py,sha256=Bd24l-JJ1WRxGc6lsBAAakjqoJSaRzfSLS0r-yColCM,379
+camellia-0.1.0.dist-info/METADATA,sha256=OHrJc-UhXB0IcBGboa6af27__KIzyUVKN0Cx72Gce20,650
+camellia-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+camellia-0.1.0.dist-info/licenses/LICENSE,sha256=kmbna7rwgc8Tj1dulwg_ehOqf8owOJKAW1v5cN64qbA,1050
+camellia-0.1.0.dist-info/RECORD,,
