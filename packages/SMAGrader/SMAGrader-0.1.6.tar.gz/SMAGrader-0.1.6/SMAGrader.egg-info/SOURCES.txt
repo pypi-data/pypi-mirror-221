@@ -1,0 +1,8 @@
+setup.py
+SMAGrader/__init__.py
+SMAGrader/checker.py
+SMAGrader.egg-info/PKG-INFO
+SMAGrader.egg-info/SOURCES.txt
+SMAGrader.egg-info/dependency_links.txt
+SMAGrader.egg-info/requires.txt
+SMAGrader.egg-info/top_level.txt
