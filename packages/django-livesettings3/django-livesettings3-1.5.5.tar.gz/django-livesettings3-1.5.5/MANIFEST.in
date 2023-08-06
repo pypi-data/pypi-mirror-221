@@ -1,0 +1,4 @@
+recursive-include livesettings/static *
+recursive-include livesettings/templates *
+recursive-include livesettings/locale *
+recursive-include livesettings/templatetags *
