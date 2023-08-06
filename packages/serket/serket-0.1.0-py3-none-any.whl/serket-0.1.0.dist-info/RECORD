@@ -1,0 +1,10 @@
+finitediffx/__init__.py,sha256=_qaJnQPBXefg34tHE-QdpBrItmIJg9SorHgciDur2U0,1092
+finitediffx/_src/__init__.py,sha256=cfA9Ryf5MeWbJNDx5BnR13uOTr82tSYwBHLNBqdeTX8,584
+finitediffx/_src/fgrad.py,sha256=zZ9lg7kH_tZrZFBhn6tfRAQqpzLmhwiGKq7EuJTSDE8,18661
+finitediffx/_src/finite_diff.py,sha256=CgZ516Gih82s-1w8vosNHHowterij0jedgMCBDvQ718,24729
+finitediffx/_src/utils.py,sha256=KiQh_EkgmCjnlmp6WxDAI4CB_Uu1TWoaRU1wZ6E-EnI,4346
+serket-0.1.0.dist-info/LICENSE,sha256=apL6UibMhFhjSC21hvDV3iiGmSV3QUBxbI4m4eS2Uks,11341
+serket-0.1.0.dist-info/METADATA,sha256=nB8ZeCgNTOQfqCtaHk_nFufmRbNWFde-iFWFUNsVv9w,893
+serket-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+serket-0.1.0.dist-info/top_level.txt,sha256=pQabe-utOFr2IAiVirnaqO3nWL96WoKXEfl7p-6XULc,12
+serket-0.1.0.dist-info/RECORD,,
