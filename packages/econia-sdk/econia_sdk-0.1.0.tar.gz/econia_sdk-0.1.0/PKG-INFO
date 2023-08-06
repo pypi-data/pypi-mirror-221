@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: econia-sdk
+Version: 0.1.0
+Summary: 
+Author: qdrs
+Author-email: qdrs@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aptos-sdk (>=0.5.1,<0.6.0)
+Description-Content-Type: text/markdown
+
+See [documentation](https://econia.dev/off-chain/python-sdk).
