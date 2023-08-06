@@ -1,0 +1,9 @@
+sympytorch/__init__.py,sha256=CXwvg9ekafH1A7v1QpqQ8HCgg1yoQbE3IkM0biHJLAM,131
+sympytorch/hide_floats_m.py,sha256=xS8F_S7sDXB6VFJK9v5bYyoJCxLUkNuQa6ZY0KskL1s,1114
+sympytorch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sympytorch/sympy_module.py,sha256=XGSONl15DsAnfkEk6SDGvtN_hD1_ESqybmGo_fbEXEw,8958
+sympytorch-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sympytorch-0.1.4.dist-info/METADATA,sha256=Tg2PLIBmXK5pxlHwmuTodM2VZm5Sj7OwIDF7mNHnsyM,3289
+sympytorch-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sympytorch-0.1.4.dist-info/top_level.txt,sha256=ju9DB53hMgYq1nwwRS_8Hl2-ShJZamIbZI_hQCIN4O0,11
+sympytorch-0.1.4.dist-info/RECORD,,
