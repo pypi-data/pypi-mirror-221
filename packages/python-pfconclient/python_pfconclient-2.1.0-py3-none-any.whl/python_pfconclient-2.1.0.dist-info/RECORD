@@ -1,0 +1,9 @@
+pfconclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pfconclient/client.py,sha256=pIqLJucVjvzxj-QQe2miVOyPaJqxI4vPm3fv6dsvjho,8242
+pfconclient/exceptions.py,sha256=_zQ5heyjvLIh1AOcZaV6NZqqrvClE53Tl12-ahBvHgI,175
+python_pfconclient-2.1.0.data/scripts/pfconclient,sha256=Cc3m_17vVQZq2Rf-CA32XKlGri_rG2O3Pq8C1Tu-VJA,7616
+python_pfconclient-2.1.0.dist-info/LICENSE,sha256=J-Lhd74NgzsFbmCGkz-i2gn1ugincnTjCEQqYVAquSs,1069
+python_pfconclient-2.1.0.dist-info/METADATA,sha256=nhEH3sC9UrMoSlCNeher6FO-E_TlcCfeNJ0BW4fC1BQ,6674
+python_pfconclient-2.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_pfconclient-2.1.0.dist-info/top_level.txt,sha256=qsveCnOwrc-anlPdD4_4kFTAuVBWbm2FmUU7VTxeiX8,12
+python_pfconclient-2.1.0.dist-info/RECORD,,
