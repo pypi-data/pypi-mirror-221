@@ -1,0 +1,47 @@
+DEBUG 2023-07-27 11:05:44,420 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:05:44,421 server.py Initialization of CLI argument parser : ['server.py']
+DEBUG 2023-07-27 11:05:44,422 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:05:44,422 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:06:10,743 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:06:10,743 server.py Initialization of CLI argument parser : ['server.py']
+DEBUG 2023-07-27 11:06:10,744 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:06:10,745 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:06:36,982 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:06:36,983 server.py Initialization of CLI argument parser : ['server.py']
+DEBUG 2023-07-27 11:06:36,983 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:06:36,984 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:08:43,091 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:08:43,091 server.py Initialization of CLI argument parser : ['server.py']
+DEBUG 2023-07-27 11:08:43,092 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:08:43,092 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:10:52,731 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:10:52,732 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:10:52,734 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:10:52,738 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:08,310 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:08,311 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:11:08,313 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:11:08,316 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:20,512 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:20,513 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:11:20,515 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:11:20,517 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:39,867 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:39,868 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:11:39,869 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:11:39,872 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:57,417 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:11:57,417 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:11:57,420 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:11:57,422 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:13:05,472 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:13:05,472 server.py Initialization of CLI argument parser : ['C:\\Users\\Manager\\PycharmProjects\\AsyncChatPractice\\lesson_15_16\\server.py']
+DEBUG 2023-07-27 11:13:05,474 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:13:05,476 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+INFO 2023-07-27 11:13:19,625 core.py Server started, listening port: 7777, listening address: . If no address, listen all connections
+DEBUG 2023-07-27 11:17:45,863 common.py "config_load" function with arguments (), {} was called from "main" function, from module __main__
+DEBUG 2023-07-27 11:17:45,863 server.py Initialization of CLI argument parser : ['.\\server.py']
+DEBUG 2023-07-27 11:17:45,864 server.py Arguments successfully loaded
+DEBUG 2023-07-27 11:17:45,865 common.py "arg_parser" function with arguments ('7777', ''), {} was called from "main" function, from module __main__
+INFO 2023-07-27 11:17:45,924 core.py Server started, listening port: 7777, listening address: . If no address, listen all connections
+DEBUG 2023-07-27 11:17:48,473 common.py "main" function with arguments (), {} was called from "<module>" function, from module __main__
