@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "hopfreepowerend": {
+                "name": "Fim da hora de energia gratuita"
+            },
+            "hopfreepowerstart": {
+                "name": "Hora de in\u00edcio de energia livre"
+            }
+        }
+    }
+}

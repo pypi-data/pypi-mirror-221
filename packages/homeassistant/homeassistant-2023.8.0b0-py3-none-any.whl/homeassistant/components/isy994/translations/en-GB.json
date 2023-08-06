@@ -1,0 +1,11 @@
+{
+    "services": {
+        "send_raw_node_command": {
+            "fields": {
+                "parameters": {
+                    "description": "A dict of parameters to be sent in the query string (e.g. for controlling coloured bulbs)."
+                }
+            }
+        }
+    }
+}

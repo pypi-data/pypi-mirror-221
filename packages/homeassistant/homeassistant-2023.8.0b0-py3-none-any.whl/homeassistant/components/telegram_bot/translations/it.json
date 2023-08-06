@@ -1,0 +1,136 @@
+{
+    "services": {
+        "send_animation": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        },
+        "send_document": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        },
+        "send_location": {
+            "fields": {
+                "latitude": {
+                    "name": "Latitudine"
+                },
+                "longitude": {
+                    "name": "Logitudine"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la posizione. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                }
+            }
+        },
+        "send_message": {
+            "fields": {
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la notifica. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                }
+            }
+        },
+        "send_photo": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        },
+        "send_poll": {
+            "fields": {
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la posizione. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                }
+            }
+        },
+        "send_sticker": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        },
+        "send_video": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        },
+        "send_voice": {
+            "fields": {
+                "password": {
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "name": "Nome utente"
+                }
+            }
+        }
+    }
+}
