@@ -1,0 +1,13 @@
+{% localize off %} {# avoid decimal comma #}
+
+{% addtoblock "js" strip %}
+<script>
+	window.onload = function() {
+        L.marker([{{ instance.latitude }}, {{ instance.longitude }}]).addTo(map)
+            .bindPopup('{{ instance.name }}')
+            .openPopup();
+    }
+</script>
+{% endaddtoblock %}
+
+{% endlocalize %}
