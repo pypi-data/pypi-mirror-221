@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+data_to_object/deserializer.py
+data_to_object.egg-info/PKG-INFO
+data_to_object.egg-info/SOURCES.txt
+data_to_object.egg-info/dependency_links.txt
+data_to_object.egg-info/top_level.txt
