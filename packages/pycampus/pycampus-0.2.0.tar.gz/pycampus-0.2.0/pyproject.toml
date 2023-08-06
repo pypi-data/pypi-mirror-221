@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pycampus"
+dynamic = ["version"]
+authors = [
+    { name="Tyson Mak", email="tysonjmak@gmail.com" },
+]
+description = "A Python student management program"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "click",
+]
+
+[project.scripts]
+pycampus = "pycampus:pycampus"
+
+[project.urls]
+Homepage = "https://github.com/tysonjmak/pycampus"
+Source = "https://github.com/tysonjmak/pycampus"
+
+[tool.hatch.version]
+path = "pycampus/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/pycampus",
+    "/README.md",
+]
