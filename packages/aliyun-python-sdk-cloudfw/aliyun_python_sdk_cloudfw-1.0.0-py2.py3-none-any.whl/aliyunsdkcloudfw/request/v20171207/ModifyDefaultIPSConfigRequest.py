@@ -1,0 +1,83 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RpcRequest
+from aliyunsdkcloudfw.endpoint import endpoint_data
+
+class ModifyDefaultIPSConfigRequest(RpcRequest):
+
+	def __init__(self):
+		RpcRequest.__init__(self, 'Cloudfw', '2017-12-07', 'ModifyDefaultIPSConfig','cloudfirewall')
+		self.set_method('POST')
+
+		if hasattr(self, "endpoint_map"):
+			setattr(self, "endpoint_map", endpoint_data.getEndpointMap())
+		if hasattr(self, "endpoint_regional"):
+			setattr(self, "endpoint_regional", endpoint_data.getEndpointRegional())
+
+	def get_RunMode(self): # String
+		return self.get_query_params().get('RunMode')
+
+	def set_RunMode(self, RunMode):  # String
+		self.add_query_param('RunMode', RunMode)
+	def get_BasicRules(self): # String
+		return self.get_query_params().get('BasicRules')
+
+	def set_BasicRules(self, BasicRules):  # String
+		self.add_query_param('BasicRules', BasicRules)
+	def get_EnableDefault(self): # String
+		return self.get_query_params().get('EnableDefault')
+
+	def set_EnableDefault(self, EnableDefault):  # String
+		self.add_query_param('EnableDefault', EnableDefault)
+	def get_CtiRules(self): # String
+		return self.get_query_params().get('CtiRules')
+
+	def set_CtiRules(self, CtiRules):  # String
+		self.add_query_param('CtiRules', CtiRules)
+	def get_SourceIp(self): # String
+		return self.get_query_params().get('SourceIp')
+
+	def set_SourceIp(self, SourceIp):  # String
+		self.add_query_param('SourceIp', SourceIp)
+	def get_Lang(self): # String
+		return self.get_query_params().get('Lang')
+
+	def set_Lang(self, Lang):  # String
+		self.add_query_param('Lang', Lang)
+	def get_AiRules(self): # String
+		return self.get_query_params().get('AiRules')
+
+	def set_AiRules(self, AiRules):  # String
+		self.add_query_param('AiRules', AiRules)
+	def get_EnableAllPatch(self): # String
+		return self.get_query_params().get('EnableAllPatch')
+
+	def set_EnableAllPatch(self, EnableAllPatch):  # String
+		self.add_query_param('EnableAllPatch', EnableAllPatch)
+	def get_PatchRules(self): # String
+		return self.get_query_params().get('PatchRules')
+
+	def set_PatchRules(self, PatchRules):  # String
+		self.add_query_param('PatchRules', PatchRules)
+	def get_RuleClass(self): # String
+		return self.get_query_params().get('RuleClass')
+
+	def set_RuleClass(self, RuleClass):  # String
+		self.add_query_param('RuleClass', RuleClass)
