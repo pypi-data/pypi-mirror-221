@@ -1,0 +1,6 @@
+[console_scripts]
+gempyp=gempyp.gemPyp:main
+
+[pytest11]
+gempyp=gempyp.gempyp_plugin
+
