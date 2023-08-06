@@ -1,0 +1,3 @@
+cocotb>=1.8.0
+# cocolight>=0.0.3
+cocolight @ git+https://github.com/kammoh/cocolight.git#egg=cocolight
