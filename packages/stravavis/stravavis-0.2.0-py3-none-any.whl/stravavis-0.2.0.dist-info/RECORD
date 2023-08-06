@@ -1,0 +1,16 @@
+stravavis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stravavis/__main__.py,sha256=NT2HqoKM1BKUJn4symzLLV_rsTkAr6R0_CQ-jAzJwZ8,69
+stravavis/cli.py,sha256=dG8J-5CSLTdUh2SEJzeU0jU-vybrRksdFoq6Evigjjs,4858
+stravavis/plot_calendar.py,sha256=aK-_hvw1XBXOYQtDUh5TP4H1pzqzOrQ_3oW513ql9HE,1046
+stravavis/plot_dumbbell.py,sha256=LrqxUdkVnqWBczGh8b4vdWVCIEUvfCzuWXeRT2cpeOY,2837
+stravavis/plot_elevations.py,sha256=SpG0IMabAMBfps9uY3f6ySCENmNFN7tTzXubJlajFbk,1023
+stravavis/plot_facets.py,sha256=VWK7LjXwiry4K6828iu1vuj2ICUvL5BY71go5hccW_0,1013
+stravavis/plot_landscape.py,sha256=9clsKKXHziBMo_P1VdKSRRLsGDoYFymo5Kb0fJb73tM,1174
+stravavis/plot_map.py,sha256=MT9SgElQ9KR5opaN3XCAM_b7ezPcrH1DWaT5o5CBysE,1688
+stravavis/process_activities.py,sha256=tDCBFKPNmr8FjbdmHGHVdoBgasAb_vLjMnjJ7sGR_Lw,224
+stravavis/process_data.py,sha256=rMY8593t-kBdwrPMx3JK0892lRt9_OKhPhPRB49mal8,3187
+stravavis-0.2.0.dist-info/METADATA,sha256=rrMCVE7UPZ57YMBNThGmeKv0lZUONT4gsJFwJ53vhNU,5505
+stravavis-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+stravavis-0.2.0.dist-info/entry_points.txt,sha256=1lr2rU2qinRhdY_09bF7R-0b7By7QIGkEWci-aEwwrU,49
+stravavis-0.2.0.dist-info/licenses/LICENSE,sha256=3ogd28V4NEAaNToYXHq1lj4m71QLaqD_E1rYw4Xi7gc,1068
+stravavis-0.2.0.dist-info/RECORD,,
