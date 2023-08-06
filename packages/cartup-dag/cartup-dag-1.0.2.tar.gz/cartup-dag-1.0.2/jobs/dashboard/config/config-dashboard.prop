@@ -1,0 +1,21 @@
+{
+    "org_name" : "wipro_demo_mag",
+    "org_s" : "wipro_demo_mag",
+    "orgId_s":"5fc09aa1-93e4-4ee8-8e69-10a429150c07",
+    "solr_url" : "http://188.166.203.241:8981/solr/",
+    "solr_url3" : "http://188.166.203.241:8981/solr/",
+    "collection_clickstream" : "clickstream",
+    "collection_product_profile" : "product_profile",
+    "collection_dashboard" : "dashboard",
+    "start_time" : "05:30:00",
+    "end_time" : "05:30:00",
+    "historical_start_date" : "2021-08-04",
+    "historical_end_date" : "2021-08-05",
+    "crosssell_status" : true,
+    "crosssell_count" : [1,3,5],
+    "vav_status" : true,
+    "vav_count" : [1,3],
+    "stock_validation" : true,
+    "stock_count" : [1,3,5],
+    "visibility_validation" : true
+}

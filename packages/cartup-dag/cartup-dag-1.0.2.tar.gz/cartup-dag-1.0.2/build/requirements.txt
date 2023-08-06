@@ -1,0 +1,15 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+# fast-autocomplete
+# fast-autocomplete[levenshtein]
+fast-autocomplete[pylev]
+symspellpy==6.7.0
+rapidfuzz
+flask
+gunicorn==20.0.4
+numpy
+ipython
+pandas
+Flask-Cors
+jellyfish
+paramiko
+scp
