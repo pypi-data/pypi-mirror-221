@@ -1,0 +1,15 @@
+{
+    "services": {
+        "set_theme": {
+            "fields": {
+                "mode": {
+                    "name": "Mode"
+                },
+                "name": {
+                    "description": "Nom del tema.",
+                    "name": "Tema"
+                }
+            }
+        }
+    }
+}

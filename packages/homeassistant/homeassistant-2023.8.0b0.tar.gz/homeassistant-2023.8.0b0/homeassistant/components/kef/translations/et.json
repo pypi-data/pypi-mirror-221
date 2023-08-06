@@ -1,0 +1,11 @@
+{
+    "services": {
+        "set_wall_db": {
+            "name": "M\u00e4\u00e4ra seina dB"
+        },
+        "update_dsp": {
+            "description": "V\u00e4rskendab k\u00f5iki DSP s\u00e4tteid.",
+            "name": "DSP v\u00e4rskendamine"
+        }
+    }
+}

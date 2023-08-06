@@ -1,0 +1,13 @@
+{
+    "services": {
+        "send_message": {
+            "description": "Invia un messaggio alle stanze di destinazione.",
+            "fields": {
+                "target": {
+                    "description": "Un elenco di stanze a cui inviare il messaggio.",
+                    "name": "Destinazione"
+                }
+            }
+        }
+    }
+}

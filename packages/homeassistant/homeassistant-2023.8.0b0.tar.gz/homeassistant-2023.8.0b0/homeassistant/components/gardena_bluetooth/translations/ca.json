@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositiu ja est\u00e0 configurat"
+        },
+        "step": {
+            "confirm": {
+                "description": "Vols configurar {name}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Dispositiu"
+                },
+                "description": "Tria un dispositiu a configurar"
+            }
+        }
+    },
+    "entity": {
+        "switch": {
+            "state": {
+                "name": "Obert/a"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "entity": {
+        "button": {
+            "factory_reset": {
+                "name": "Ripristino delle impostazioni di fabbrica"
+            }
+        },
+        "number": {
+            "manual_watering_time": {
+                "name": "Tempo di irrigazione manuale"
+            },
+            "rain_pause": {
+                "name": "Pausa pioggia"
+            },
+            "remaining_open_set": {
+                "name": "Aperto per"
+            },
+            "remaining_open_time": {
+                "name": "Tempo di apertura rimanente"
+            },
+            "season_pause": {
+                "name": "Pausa stagionale"
+            }
+        },
+        "sensor": {
+            "activation_reason": {
+                "name": "Motivo di attivazione"
+            },
+            "remaining_open_timestamp": {
+                "name": "Chiusura della valvola"
+            }
+        },
+        "switch": {
+            "state": {
+                "name": "Aperto/a"
+            }
+        }
+    }
+}

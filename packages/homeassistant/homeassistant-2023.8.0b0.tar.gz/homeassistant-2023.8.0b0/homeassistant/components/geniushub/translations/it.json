@@ -1,0 +1,18 @@
+{
+    "services": {
+        "set_zone_mode": {
+            "fields": {
+                "mode": {
+                    "name": "Modalit\u00e0"
+                }
+            }
+        },
+        "set_zone_override": {
+            "fields": {
+                "temperature": {
+                    "description": "La temperatura desiderata"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "services": {
+        "set_theme": {
+            "fields": {
+                "name": {
+                    "name": "T\u0113ma"
+                }
+            },
+            "name": "Noklus\u0113juma t\u0113mas iestat\u012b\u0161ana"
+        }
+    }
+}
