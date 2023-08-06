@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "contentalchemy"
+version = "0.1.1"
+description = ""
+authors = ["nguyenthanhquang152 <nguyenthanhquang.cse@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+playwright = "^1.36.0"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
