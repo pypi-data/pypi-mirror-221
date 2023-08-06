@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+WC/WC.py
+WC/__init__.py
+Widget_Controller.egg-info/PKG-INFO
+Widget_Controller.egg-info/SOURCES.txt
+Widget_Controller.egg-info/dependency_links.txt
+Widget_Controller.egg-info/top_level.txt
