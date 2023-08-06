@@ -1,0 +1,3 @@
+[console_scripts]
+olympix = olympix_test_generator.client:main
+
