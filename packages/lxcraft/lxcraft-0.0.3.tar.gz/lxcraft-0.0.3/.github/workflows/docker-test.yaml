@@ -1,0 +1,19 @@
+name: Run tests
+on: push
+
+jobs:
+  build:
+    name: just all
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: addnab/docker-run-action@v3
+        with:
+          image: debian:12
+          options: -v ${{ github.workspace }}:/work -w /work
+          run: |
+            bash /work/develop/setup.sh
+            bash /work/develop/just-test.sh
