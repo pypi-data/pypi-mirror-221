@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: nx_yaml
+Version: 0.0.2
+Summary: A library for loading a YAML Representation Graph into NetworkX
+Project-URL: Source, https://github.com/colltoaction/nx_yaml
