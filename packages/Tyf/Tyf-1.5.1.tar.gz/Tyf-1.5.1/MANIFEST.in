@@ -1,0 +1,2 @@
+include Tyf/tags.sqlite
+include VERSION
