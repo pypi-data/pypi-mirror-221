@@ -1,0 +1,7 @@
+lsrestclient/__init__.py,sha256=lI62SHmG0m-iukB5UEwdN5dO4cKnDasOt-TmR1rgaWI,72
+lsrestclient/client.py,sha256=dHMxIC3imZcLFK3kA5xo8HmoUuAmFtJcVGFfLclc91c,8704
+lsrestclient/exceptions.py,sha256=YZQqBtqLvJ_7kKswX0_JatyxIXCHImcqSuqwe30aqbc,588
+lsrestclient/response.py,sha256=_9b-BXKFl2UFA70mzSuv0ftUdN8jJaREqvncTS68UJM,1088
+lsrestclient-0.5.0.dist-info/METADATA,sha256=piwXtIdEwvk67BEJmeSHYWs2co5VWbIrrOhhuSs0haU,6672
+lsrestclient-0.5.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+lsrestclient-0.5.0.dist-info/RECORD,,
