@@ -1,0 +1,9 @@
+[tool.semantic_release]
+version_variables = ["src/sweetrpg_model_core/__init__.py:__version__"]
+upload_to_pypi = true
+
+[tool.semantic_release.branches.master]
+match = "(master|develop)"
+prerelease = false
+
+[tool.semantic_release.publish]
