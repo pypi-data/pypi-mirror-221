@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: citsci-notebook-core-pipeline
+Version: 0.0.3
+License-File: LICENSE
+Requires-Dist: panoptes-client
+Requires-Dist: google.cloud.storage
+
