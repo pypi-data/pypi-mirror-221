@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "task3"
+version = "1.0.5"
+description = "xSV file parser CLI and library"
+authors = ["Bill.Avramenko <billavramenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "parse_xsv"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+questionary = "^1.10.0"
+faker = "^19.2.0"
+
+[tool.poetry.scripts]
+parse_xsv = "parse_xsv:parse_cli"
+parse_xsv_showcase = "parse_xsv.showcase:parse_showcase"
+xsv_sample_gen = "parse_xsv.sample_gen:generate_sample_data"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
