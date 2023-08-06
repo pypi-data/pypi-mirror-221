@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Flask_UA_Enricher.egg-info/PKG-INFO
+Flask_UA_Enricher.egg-info/SOURCES.txt
+Flask_UA_Enricher.egg-info/dependency_links.txt
+Flask_UA_Enricher.egg-info/requires.txt
+Flask_UA_Enricher.egg-info/top_level.txt
+flask_ua_enricher/__init__.py
+flask_ua_enricher/flask_sec_ch_ua.py
