@@ -1,0 +1,12 @@
+sqlite2rest/__init__.py,sha256=RUHAf3d7yCB-baBtIUyyjsqEUeWNflfnsYpfNZwRcWU,59
+sqlite2rest/__main__.py,sha256=9e0rVYl2Teg-X6IvlsnTJNCPTBBVLVJmEGLEYVAfXOE,439
+sqlite2rest/app.py,sha256=CUbRBq2ePpqG6FUM46lnGjQKm-PHfyG-auOY2hxbyOI,744
+sqlite2rest/database.py,sha256=J6wsI4VE6JG1ctwaK7ariS1G_ZQZ74At1TshbkrNNF8,2354
+sqlite2rest/openapi.py,sha256=XQkwNKlYqYAijHlGZcea-6XnETzsNKoOiCbJVJl9m80,1774
+sqlite2rest/routes.py,sha256=WermXQQ_vrOfLJMaEeOAStPCHQqlxSNhV6YSJ4NUB08,3422
+sqlite2rest-1.2.0.dist-info/LICENSE,sha256=AfKz8kCsClTE8jImJDKIxxn-GbGKSetPnCEIqINdHXU,1070
+sqlite2rest-1.2.0.dist-info/METADATA,sha256=fN3IHLX5i8DkRTW7M38khitoE6nFR59t9BH9vK1UeJM,2505
+sqlite2rest-1.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sqlite2rest-1.2.0.dist-info/entry_points.txt,sha256=Ylb1eWGj306hooooFALy3EB6M3XSq34MRqH-sJ7glQ4,58
+sqlite2rest-1.2.0.dist-info/top_level.txt,sha256=OH8pOBpoTnJdwpbCkpc3scOzqjrRKMyo45-5YuWji6E,12
+sqlite2rest-1.2.0.dist-info/RECORD,,
