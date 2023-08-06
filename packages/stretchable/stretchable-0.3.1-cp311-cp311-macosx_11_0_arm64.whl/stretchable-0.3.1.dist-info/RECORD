@@ -1,0 +1,10 @@
+stretchable-0.3.1.dist-info/METADATA,sha256=XF8Ef0X8JkBChgP0y9xUaw0D79vi-8R69QCqgz7G40E,1871
+stretchable-0.3.1.dist-info/WHEEL,sha256=3eF7E69w5Xxpb7h1qHVNi_Fl69_A4_K7f97KXlpXIAU,104
+stretchable-0.3.1.dist-info/license_files/LICENSE,sha256=GIngvuEx844F91Cd3C-5tpO48FF0Spht8J2WsEur2-A,1085
+stretchable/stretch.py,sha256=DrHu3P20VeF2mxbu9WpN9FQhfCp_YMd0jnwOKp_--Tg,1047
+stretchable/style.py,sha256=gebHAiMF072XBaPL_3RbUmI6tkvkHaLzGZ3Gz3QUvZk,11405
+stretchable/layout.py,sha256=tGGPLp5FqMu0xz243sqpBtYIZXPDvSRgMUhUewjy9nk,1467
+stretchable/__init__.py,sha256=7ftdP8E-JOsCTj8HOoqy-6-ENJoyNAWYgFuZJHyoZEg,612
+stretchable/node.py,sha256=TPdmzZN979qM45xlPRv4IIy1WWQ2YN2vR5vdT-Jzk6g,5951
+stretchable/stretchable.cpython-311-darwin.so,sha256=RGbHt00W_n-Kbd4iKFP6ywPQbtkYrgOpu-JWpuyr6NM,772222
+stretchable-0.3.1.dist-info/RECORD,,
