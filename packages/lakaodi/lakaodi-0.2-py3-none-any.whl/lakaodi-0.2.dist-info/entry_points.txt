@@ -1,0 +1,3 @@
+[console_scripts]
+lakaodi-post-install = post_install:send_notification
+
