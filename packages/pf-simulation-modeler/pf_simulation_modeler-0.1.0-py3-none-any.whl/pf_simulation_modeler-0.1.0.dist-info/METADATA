@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pf-simulation-modeler
+Version: 0.1.0
+Summary: Parflow Simulation modeler
+Author: Kitware Inc.
+License: Apache Software License
+Keywords: Python,Interactive,Web,Application,Framework
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pftools[io]
+Requires-Dist: trame
+Requires-Dist: trame-code
+Requires-Dist: trame-simput
+Requires-Dist: trame-vuetify
+Requires-Dist: trame-vtk
+
