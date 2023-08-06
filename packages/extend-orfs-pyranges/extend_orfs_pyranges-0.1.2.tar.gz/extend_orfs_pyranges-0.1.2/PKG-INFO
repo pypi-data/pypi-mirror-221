@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: extend_orfs_pyranges
+Version: 0.1.2
+Summary: Fork of Joan Pallares extend_orf based on pyranges
+Home-page: https://github.com/pypa/sampleproject
+Author: Marco Mariotti and Joan Pallares
+Author-email: marco.mariotti@ub.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# extend_orfs
+
+## What does extend_orfs do?
+It takes advantage of the PyRanges package (Stovner and Sætrom, 2019) and uses 
+several of its functions to efficiently parse the sequence of thousands of
+transcripts and return its extended ORFs.
+
+## Using extend_orfs
+You can install extend_orfs using PyPI or download it directly from GitHub.
