@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+gauth_python/__init__.py
+gauth_python/requests.py
+gauth_python.egg-info/PKG-INFO
+gauth_python.egg-info/SOURCES.txt
+gauth_python.egg-info/dependency_links.txt
+gauth_python.egg-info/requires.txt
+gauth_python.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gauth_python.py
