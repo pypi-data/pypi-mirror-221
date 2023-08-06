@@ -1,0 +1,2 @@
+[console_scripts]
+monstera = monstera.__main__:_main

@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+monstera/__init__.py
+monstera/__main__.py
+monstera.egg-info/PKG-INFO
+monstera.egg-info/SOURCES.txt
+monstera.egg-info/dependency_links.txt
+monstera.egg-info/entry_points.txt
+monstera.egg-info/requires.txt
+monstera.egg-info/top_level.txt
