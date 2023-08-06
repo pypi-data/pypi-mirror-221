@@ -1,0 +1,2 @@
+[console_scripts]
+value_to_rgb = teeworlds_player_color_value_to_rgb.__init__:value_to_rgb
