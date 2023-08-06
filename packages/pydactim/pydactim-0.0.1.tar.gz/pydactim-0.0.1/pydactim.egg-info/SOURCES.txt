@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pydactim.egg-info/PKG-INFO
+pydactim.egg-info/SOURCES.txt
+pydactim.egg-info/dependency_links.txt
+pydactim.egg-info/requires.txt
+pydactim.egg-info/top_level.txt
