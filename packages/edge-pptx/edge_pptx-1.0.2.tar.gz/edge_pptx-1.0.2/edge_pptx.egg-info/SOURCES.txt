@@ -1,0 +1,10 @@
+setup.py
+edge_pptx.egg-info/PKG-INFO
+edge_pptx.egg-info/SOURCES.txt
+edge_pptx.egg-info/dependency_links.txt
+edge_pptx.egg-info/requires.txt
+edge_pptx.egg-info/top_level.txt
+ppt_style/__init__.py
+ppt_style/component.py
+ppt_style/master_ppt.py
+ppt_style/templates/default.pptx

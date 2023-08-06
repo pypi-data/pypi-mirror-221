@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: edge_pptx
+Version: 1.0.2
+Summary: 用于生成 PowerPoint 文件的 Python 模块
+Home-page: https://github.com/edgeriver/PPTX_edge.git
+Author: wangwl
+Author-email: 643176574@qq.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6, <=3.12
+Description-Content-Type: text/markdown
+
+# edge_pdf 使用说明
+## 概述
+edge_pdf 是一个用于生成 PowerPoint 文件的 Python 模块。它提供了一系列方法用于插入表格、文本、图片和图表等内容，并可以保存生成的 PPT 文件。
+
+## 使用方法
+### 1. 导入模块及类
+```python
+from edge_pdf import PlaceholderComponent, PPTTable, PPTGenerator
+
+```
+### 2. 创建 PPTGenerator 实例
+```python
+ppt = PPTGenerator()
+```
+或者使用现有的模板文件创建实例：
+
+```python
+template_ppt = "template.pptx"
+ppt = PPTGenerator(template_ppt)
+```
+### 3. 插入内容
+#### 3.1 插入表格
+```python
+data = your_data_frame
+slide_index = 0 # 第几张幻灯片
+placeholder_index = 0 # 占位符索引
+
+ppt.insert_table(data, slide_index, placeholder_index)
+```
+#### 3.2 插入文本
+```python
+content_text = "Your text content"
+slide_index = 0 # 第几张幻灯片
+placeholder_index = 1 # 占位符索引
+
+ppt.insert_text(content_text, slide_index, placeholder_index)
+```
+#### 3.3 插入图片
+```python
+image_file_path = "path/to/your/image.jpg"
+slide_index = 0 # 第几张幻灯片
+placeholder_index = 2 # 占位符索引
+
+ppt.insert_picture(image_file_path, slide_index, placeholder_index)
+```
+或者从 URL 插入图片：
+ 
+```python
+image_url = "http://example.com/image.jpg"
+slide_index = 0 # 第几张幻灯片
+placeholder_index = 2 # 占位符索引
+
+ppt.insert_picture(image_url, slide_index, placeholder_index)
+```
+#### 3.4 插入图表
+```python
+chart_type = XL_CHART_TYPE.LINE # 图表类型，参考 pptx.enum.chart.XL_CHART_TYPE
+chart_data = your_chart_data
+slide_index = 0 # 第几张幻灯片
+placeholder_index = 3 # 占位符索引
+
+ppt.insert_chart(chart_type, chart_data, slide_index, placeholder_index)
+```
+### 4. 保存 PPT 文件
+```python
+output_file = "output.pptx"
+ppt.save_ppt(output_file)
+```
+## 注意事项
+- 插入内容时的幻灯片索引和占位符索引都是从0开始的。
+- 插入表格时，数据应为 Pandas DataFrame 对象。
+
+以上就是 PPTGenerator 类的使用说明。希望对您有所帮助！如有任何问题，请随时向我提问。
