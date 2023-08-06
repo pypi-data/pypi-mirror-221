@@ -1,0 +1,7 @@
+pyproject.toml
+audioshake_job_manager/__init__.py
+audioshake_job_manager.egg-info/PKG-INFO
+audioshake_job_manager.egg-info/SOURCES.txt
+audioshake_job_manager.egg-info/dependency_links.txt
+audioshake_job_manager.egg-info/requires.txt
+audioshake_job_manager.egg-info/top_level.txt
