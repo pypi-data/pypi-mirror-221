@@ -1,0 +1,9 @@
+distanceclosure/__init__.py,sha256=Pr75kGG3R8DiOaTEiNZDeqohKJy-cbNeZWf9tnsa_8w,516
+distanceclosure/backbone.py,sha256=HmowYcO2Me8C6Sp61xf7dVjdd3nz71RpQn_QyW_A8MM,5447
+distanceclosure/closure.py,sha256=5ii_O6kzhFlTmGRgmmcKyrL7DGWKI64F5JER4jpLxLU,7708
+distanceclosure/dijkstra.py,sha256=TX7MK7-bcFCD7VnOkL5LKLp-2HVJfs9kLSLFImjZOXE,4891
+distanceclosure/distance.py,sha256=pT6OsoWPK9kw8n-_ZzggF5E4lpKU4hvJfA-4YdNnaZ4,7951
+distanceclosure/utils.py,sha256=X34nLgR7DsAfDUehHStgr2ZQmeS1kecQ_ihzwtnfWow,4970
+distanceclosure-0.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+distanceclosure-0.5.dist-info/METADATA,sha256=KW_H-HE9H9glFK-VYJmgZ7dK6becEajpjwu8dMYq9kw,4424
+distanceclosure-0.5.dist-info/RECORD,,
