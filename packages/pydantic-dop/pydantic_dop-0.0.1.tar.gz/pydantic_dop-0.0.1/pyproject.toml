@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pydantic-dop"
+version = "0.0.1"
+description = "Data Oriented Programming with Pydantic Models."
+authors = ["Aditya Gudimella <aditya.gudimella@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pydantic_dop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
