@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cosmopawn
+Version: 1.0.0
+Summary: An API wrapper for the CosmoPawn API in Python
+Author: pennacap
+Project-URL: Homepage, https://github.com/pennacap/cosmopawn-py
+Project-URL: Bug Tracker, https://github.com/pennacap/cosmopawn-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CosmoPawn-Py : An API wrapper for [CosmoPawn](https://github.com/hczhu/CosmoPawn) in Python
+## Installation
+```sh
+pip install cosmopawn
+# or
+pip3 install cosmopawn
+```
+## Usage
+```py
+import cosmopawn
+wrapper = cosmopawn.CosmoPawn() # Or pass in an IP address / domain
+wrapper.download('dog', save_to='dog_pics', prefix='dog', no=10) # downloads 10 dog pictures, prefixing their file name with dog and saving it to dog_pics/
+wrapper.upload(['file1.jpg', 'file2.png'], ['keyword1', 'keyword2']) # upload file1.jpg and file2.png with keywords keyword1 and keywords2
+```
+
