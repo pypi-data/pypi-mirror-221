@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+labeled-user-defined-values = mkdocs_labeled_user_defined_values.plugin:LabeledUserDefinedValues
