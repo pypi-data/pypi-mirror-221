@@ -1,0 +1,10 @@
+run_length_encoding.pypy38-pp73-darwin.so,sha256=kIEJjUL2Na5f05JAmZtRuy9ug8y-OPocV6qU27RuC8Y,142352
+find_contours.pypy38-pp73-darwin.so,sha256=L7_C9MnsHm1akAUg5S6Byzkuy81hmP8GUkdbtELVsAc,142184
+draw_polygon.pypy38-pp73-darwin.so,sha256=gYWMzwu42h7z8zPX_AbDPRpYYrz53vH1et9o9TbVFMI,256776
+simplify_polygon.pypy38-pp73-darwin.so,sha256=OGdAUuC2iVReVN-LJukKZirlSdXf7H8uFqIrnypYDBw,41272
+upolygon/__init__.py,sha256=aE6-KFPaDlusNg2V1ECZXiSQrRpWfgyn7Vi--rElaGU,211
+upolygon-0.1.11.dist-info/RECORD,,
+upolygon-0.1.11.dist-info/LICENSE,sha256=vX3MGNxB4U6FvOADAOm5qENWj89MW8Y0TrtcRhH6OXM,1072
+upolygon-0.1.11.dist-info/WHEEL,sha256=VMBBef_aaH47VF3GFSfyoACW4nyHj8TKcxFECdDIZYM,116
+upolygon-0.1.11.dist-info/top_level.txt,sha256=5VhPAEB3KpSpSXie94Yb_PHVLVXh85qeYEfxki7XZbM,73
+upolygon-0.1.11.dist-info/METADATA,sha256=nF_XEmPrbuuZV1s5fAPREZZQKY_ecZRQeuJgyA9SiDc,3446
