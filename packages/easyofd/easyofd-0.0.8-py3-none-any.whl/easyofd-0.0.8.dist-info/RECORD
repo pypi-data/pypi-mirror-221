@@ -1,0 +1,9 @@
+easyofd/__init__.py,sha256=MfbGrSBd5NWpCz_t4ITtXLA_B6GGu4P_p-2OL4WBpQw,32
+easyofd/ofdparser.py,sha256=D2vrphg7Gk95nk2vgnOIpTAm1LHWlhocIP6ylWAri6k,54928
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=6RL7aH8Gst4mDBhrS98ykyVOC6ehEuRJ81GkfbICFK0,976
+easyofd-0.0.8.dist-info/LICENSE,sha256=bk1gxrbKyoW8kx0mWui3cPZKdxSM07qKLpnu7bQEUQk,1086
+easyofd-0.0.8.dist-info/METADATA,sha256=oGWXVD-vSKP2b1v646K2w5645bklMziLjxMd6rhof-M,915
+easyofd-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+easyofd-0.0.8.dist-info/top_level.txt,sha256=GdUynXvjlCfbF1Ipp7Fz-H-JZTOJe3m4s6OL1VCvRpU,13
+easyofd-0.0.8.dist-info/RECORD,,
