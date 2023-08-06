@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/application.py
+src/tools.py
+src/utilities.py
+src/dukeai_lib.egg-info/PKG-INFO
+src/dukeai_lib.egg-info/SOURCES.txt
+src/dukeai_lib.egg-info/dependency_links.txt
+src/dukeai_lib.egg-info/requires.txt
+src/dukeai_lib.egg-info/top_level.txt
