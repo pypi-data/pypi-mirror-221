@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gitstats-abilian"
+version = "1.0.3"
+description = ""
+authors = ["Stefane Fermigier <sf@abilian.com>"]
+readme = "README.md"
+packages = [{include = "gitstats", from = "src" }]
+
+[tool.poetry.scripts]
+gitstats = "gitstats.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+abilian-devtools = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
