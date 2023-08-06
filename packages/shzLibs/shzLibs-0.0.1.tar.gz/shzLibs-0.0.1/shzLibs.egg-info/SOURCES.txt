@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+deepLearning/tools.py
+machineLearning/tools.py
+shzLibs.egg-info/PKG-INFO
+shzLibs.egg-info/SOURCES.txt
+shzLibs.egg-info/dependency_links.txt
+shzLibs.egg-info/requires.txt
+shzLibs.egg-info/top_level.txt
