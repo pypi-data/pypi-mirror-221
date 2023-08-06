@@ -1,0 +1,12 @@
+cpath/__init__.py,sha256=GolhQ6ZBWSc_5ZDQ0Pn9ZSZ2b1Ca3RQ5KCiR6m-NLNE,45
+cpath/core.py,sha256=EHWGYZKsl1byBzCFZVegLFhMOu8rN7QPEXm18mqCdRk,256
+cpath/cpath.py,sha256=4rD7oFQGZE2Yf9-CSEHmLEqHeUHSAr-p1XNiqibai6U,3115
+cpath/cpaths.py,sha256=94-ljk1bBzlGC3FB2YGGD_ap2P5m-t6dUKUTqSaViy4,8079
+cpath/imp.py,sha256=RkD4QYDYa-AjgJwLrJt5_zLQ3IBkIua2LulH4sWn-dM,887
+cpath/trans.py,sha256=4BsA-o-HfBwcNhvWiM-8OgzWoZxjsYIwqduBRBNfJ_g,2812
+cpath/utilities.py,sha256=rLec-yFDiqQzrO9v-BN0dvp1A3kZffx3dKQOR581Cro,599
+cpath-0.0.1.dist-info/LICENSE,sha256=RjnOXdVwVY46RINdj9G_CEmBEPKbpv5GIMWRSH0DPRg,1073
+cpath-0.0.1.dist-info/METADATA,sha256=FZ-cQoUT12EhJRXHgDmlonwsIOZmqJ1FWuKSSS3Q50k,3051
+cpath-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cpath-0.0.1.dist-info/top_level.txt,sha256=SYXvsuOPxYZu-LkJkd2DBaff-uocuzU82L6J1-txJ28,6
+cpath-0.0.1.dist-info/RECORD,,
