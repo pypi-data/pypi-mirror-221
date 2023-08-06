@@ -1,0 +1,16 @@
+rouskinhf/__init__.py,sha256=PCU51rpu9DiS6xnW2suYLIkO9Haf4E9o0LudUSscDCg,134
+rouskinhf/datafolder.py,sha256=d9mvQXypf6_aO3p5YRaBpBcFBLBe44G2yAOWINCS4gk,17391
+rouskinhf/datapoint.py,sha256=SWKuO6iKEfM0KsylJCSuMJO7-vAG0hk9Lr43cM_FcY8,10786
+rouskinhf/env.py,sha256=K7wizn_Z48YVOPgih1Vxl7-N_p1eP2G3Zb-hdzmjGpQ,556
+rouskinhf/import_dataset_fun.py,sha256=RobjQBnMI4Ks7-cFdBjaWh8XDcS9R92GqUuj_sJCyDg,2838
+rouskinhf/info_file.py,sha256=ctPEoeKuzJQwZN0Wvn6zd3sazWOF3_2d5wWHznAZaOs,4609
+rouskinhf/list_datapoints.py,sha256=ds00phyIyXwlYnErVEE7UPrhvPFeembsr1KqLB_iQGY,12498
+rouskinhf/parsers.py,sha256=DkdT1u7EANPP09cUl8FjUn2fSuVKKx45J_BiHW8T5C4,3652
+rouskinhf/path.py,sha256=IGSZW71HGyMexHi5SYwQ7MivwWq-L8ARFfw4qvYnxhk,2503
+rouskinhf/rnastructure.py,sha256=e-5FBZGp6-C508URpEfDY0ID_f5r5FffjwgByIpP6EI,6262
+rouskinhf/util.py,sha256=oj-U2q5eZGvlniHyvU1EFIONhHUPl-3wy60i1_RLk5s,3681
+rouskinhf-0.2.5.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+rouskinhf-0.2.5.dist-info/METADATA,sha256=KalFmrov5MvPaDoVGBi0nIcfaYkCfQeKO7VX96Qeuxg,7499
+rouskinhf-0.2.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+rouskinhf-0.2.5.dist-info/top_level.txt,sha256=4gTNgCeACvF_U5mgP_-rq3JtFjuD0X7cTpIEmwLnKkw,10
+rouskinhf-0.2.5.dist-info/RECORD,,
