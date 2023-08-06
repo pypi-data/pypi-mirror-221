@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: meetnotes-questions
+Version: 0.1.11
+Summary: GPT plugin for asking intelligent questions on live meeting notes
+Home-page: https://github.com/pypa/meetnotes-questions
+Author: Joseph Turian
+Author-email: lastname@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: python-dotenv
+Requires-Dist: watchdog
+Requires-Dist: tiktoken
+Requires-Dist: openai
+Requires-Dist: asyncio
+
