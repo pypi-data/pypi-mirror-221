@@ -1,0 +1,10 @@
+youtube_transcriber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube_transcriber/main.py,sha256=neGE7tQE2HK6buWqWOUkjlWB8FUjQQtV1_mVqkArjyM,217
+youtube_transcriber/setup.py,sha256=evBsdvSqPDviHAHKWXKt_bU3k45lXGtK9B5GaLeRDm0,327
+youtube_transcriber/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube_transcriber/gui/transcriber.py,sha256=Sw6Tuimy5qLEjz3VULm4T8y4SCzqdv4H9zrWC0tfA0s,3081
+youtube_transcriber1-1.1.0.dist-info/METADATA,sha256=4SweuNgbuI64jPtCNoR84U8YZPfFKjxdHH_McT8wbXM,110
+youtube_transcriber1-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+youtube_transcriber1-1.1.0.dist-info/entry_points.txt,sha256=oVhaG0QEn519ywAK2yHQz0MMLsXouJyNyrdmagIjrtg,70
+youtube_transcriber1-1.1.0.dist-info/top_level.txt,sha256=q5AY1x75v5YUUGdDvEIzmaUSdvXBLiktjKvkfQ0gdyo,20
+youtube_transcriber1-1.1.0.dist-info/RECORD,,
