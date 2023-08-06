@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel>=0.37.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlsmorph"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.11"
+authors = [{ name = "Mark Mayerfeld", email = "mark.m.mayerfeld@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = [
+    "torch>=2.0",
+    "torchvision",
+    "timm",
+    "matplotlib",
+    "opencv-contrib-python",
+    "kornia",
+    "rich",
+    "rlsvision",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "isort", "build"]
+
+ipy = [
+    "ipykernel",
+    "ipython",
+    "ipython-genutils",
+    "ipywidgets",
+    "jupyter",
+    "jupyter-client",
+    "jupyter-console",
+    "jupyter-core",
+    "jupyterlab-pygments",
+    "jupyterlab-widgets",
+]
+
+[project.urls]
+repository = "https://github.com/RakitaLabSoftware/rlsmorph"
+
+[tool.setuptools]
+packages = ["rlsmorph"]
