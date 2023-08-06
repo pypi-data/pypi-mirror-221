@@ -1,0 +1,7 @@
+README.md
+setup.py
+PastebinReaderPy.egg-info/PKG-INFO
+PastebinReaderPy.egg-info/SOURCES.txt
+PastebinReaderPy.egg-info/dependency_links.txt
+PastebinReaderPy.egg-info/top_level.txt
+pastebin_reader/__init__.py
