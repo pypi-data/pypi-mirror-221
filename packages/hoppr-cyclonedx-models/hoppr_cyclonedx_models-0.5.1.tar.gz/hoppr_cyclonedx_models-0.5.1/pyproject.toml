@@ -1,0 +1,111 @@
+[tool.poetry]
+name = "hoppr-cyclonedx-models"
+version = "0.5.1"
+description = "CycloneDX Pydantic models for easy use in your Python project."
+authors = ["LMCO Open Source <open.source@lmco.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/hoppr/hoppr-cyclonedx-models"
+include = ["hoppr_cyclonedx_models/py.typed"]
+
+keywords = [
+    "pydantic models",
+    "cyclonedx",
+    "software bill of materials"
+]
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Framework :: Pydantic",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Code Generators",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+
+[tool.poetry.dependencies.pydantic]
+extras = ["email"]
+version = "^1.10.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+datamodel-code-generator = "0.*"
+
+[tool.poetry.group.dev.dependencies.isort]
+version = "^5.12.0"
+python = "^3.8.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "^7.0.0"
+pylint = "^2.14.4"
+pytest = "^7.1.2"
+
+[tool.black]
+color = true
+line-length = 120
+skip-string-normalization = true
+target-version = ["py37"]
+
+[tool.coverage.report]
+exclude_also = [
+  "if __name__ == .__main__.:",
+  "if (not)? TYPE_CHECKING:",
+  "if self.debug:",
+  "if settings.DEBUG:",
+  "pragma: no cover",
+  "raise NotImplementedError"
+]
+fail_under = 95
+omit = ["hoppr_cyclonedx_models/cyclonedx_*/*"]
+precision = 2
+show_missing = true
+skip_covered = true
+skip_empty = true
+source = ["hoppr_cyclonedx_models"]
+
+[tool.coverage.run]
+command_line = "--module pytest --junit-xml=test.xml"
+omit = ["hoppr_cyclonedx_models/cyclonedx_*/*"]
+source = ["hoppr_cyclonedx_models"]
+
+[tool.coverage.xml]
+fail_under = 95
+
+[tool.datamodel-codegen]
+allow-extra-fields = true
+allow-population-by-field-name = true
+disable-warnings = true
+field-constraints = true
+input-file-type = "jsonschema"
+reuse-model = true
+special-field-name-prefix = ""
+target-python-version = "3.7"
+use-double-quotes = true
+wrap-string-literal = true
+
+[tool.isort]
+atomic = true
+lines_between_types = 1
+line_length = 120
+profile = "black"
+py_version = 37
+skip_gitignore = true
+
+[tool.pylint.main]
+extension-pkg-whitelist = ["pydantic"]
+ignore-paths = ["hoppr_cyclonedx_models/cyclonedx_1_.+"]
+init-hook = """\
+  from pylint.config import find_default_config_files;\
+  import sys;\
+  sys.path.append(str(list(find_default_config_files())[0].parent / 'hoppr_cyclonedx_models'))\
+  """
+py-version = "3.7"
+
+[tool.pylint.format]
+max-line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
