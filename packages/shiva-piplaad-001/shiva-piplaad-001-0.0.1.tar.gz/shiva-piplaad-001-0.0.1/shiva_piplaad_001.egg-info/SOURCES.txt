@@ -1,0 +1,7 @@
+README.md
+setup.py
+shiva_piplaad_001.egg-info/PKG-INFO
+shiva_piplaad_001.egg-info/SOURCES.txt
+shiva_piplaad_001.egg-info/dependency_links.txt
+shiva_piplaad_001.egg-info/requires.txt
+shiva_piplaad_001.egg-info/top_level.txt
