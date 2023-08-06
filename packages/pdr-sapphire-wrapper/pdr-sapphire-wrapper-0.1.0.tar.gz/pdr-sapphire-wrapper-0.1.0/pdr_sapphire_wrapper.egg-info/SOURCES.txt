@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/sapphirewrapper.dylib
+bin/sapphirewrapper.so
+pdr_sapphire_wrapper.egg-info/PKG-INFO
+pdr_sapphire_wrapper.egg-info/SOURCES.txt
+pdr_sapphire_wrapper.egg-info/dependency_links.txt
+pdr_sapphire_wrapper.egg-info/not-zip-safe
+pdr_sapphire_wrapper.egg-info/top_level.txt
