@@ -1,0 +1,7 @@
+guc/__init__.py,sha256=yjKuQOQsfTI7eYMuVTQpKW19Xl529JyQSPig2TXqEJA,1459
+guc/colors.py,sha256=KE4hhQrr6s-clrIhbB2GXp_fXt8ApxRebGg5Hc9zVKM,2112
+guc/linalg.py,sha256=wuSsLekY8XmJUHAlLqrzlSSmn8_Wtr-0BXs4K8kyfx8,6301
+guc-0.0.1.dist-info/METADATA,sha256=ltziaO5lHs3KrWzg8Z7Th7WBlaO38I4-aMHlU-5ckKA,712
+guc-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+guc-0.0.1.dist-info/licenses/LICENSE,sha256=dABFU3vEmK8xImcvLxIBy9qjG5_LhZ85KMeyyMkuPMk,1070
+guc-0.0.1.dist-info/RECORD,,
