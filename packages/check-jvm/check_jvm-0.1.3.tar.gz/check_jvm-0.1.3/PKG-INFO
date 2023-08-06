@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: check-jvm
+Version: 0.1.3
+Summary: 
+License: MIT
+Keywords: oracle jvm,jvm checker
+Author: Dániel Hagyárossy
+Author-email: daniel@hagyarossy.hu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
+# TechFlurry Controller
+
+[![release](https://img.shields.io/github/v/tag/atraides/check-jvm?sort=semver&label=release&logo=semver&logoColor=white)][github-release]
+[![build-status](https://img.shields.io/github/actions/workflow/status/atraides/check-jvm/gh-pages.yml?event=push&logo=GitHub%20Actions&logoColor=white)][github-build]
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)][webpage-semantic-release]
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)][webpage-cz-cli]
+[![stars](https://img.shields.io/github/stars/atraides/check-jvm?logo=github&logoColor=white&color=gold&style=flat)][github-repo]
+
+## Author Information
+
+Daniel Hagyárossy <[d.hagyarossy@sapstar.eu](mailto:d.hagyarossy@sapstar.eu)>
+
+## Copyright
+
+Copyright (c) 2023 All rights reserved.
+
+[github-build]: https://github.com/atraides/check-jvm/actions/workflows/release.yml
+[github-repo]: https://github.com/atraides/check-jvm
+[github-release]: https://github.com/atraides/check-jvm/releases/tag/v0.1.3
+[webpage-cz-cli]: https://commitizen.github.io/cz-cli/
+[webpage-semantic-release]: https://github.com/semantic-release/semantic-release
+
