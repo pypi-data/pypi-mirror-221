@@ -1,0 +1,14 @@
+prefect_lakefs/__init__.py,sha256=y-Hji6LSXaU6rW4EymDXtoU9hEkVM00IY__B8cT_UNM,143
+prefect_lakefs/_version.py,sha256=7FYXLRQgk8K26z5MqqPwWm1Qo4nN5tCZai0ThLSvcXc,497
+prefect_lakefs/branches.py,sha256=ACv5CvP_r2695UO9CN-LfnHXL0An7oDed_av3DfFxD4,12081
+prefect_lakefs/commits.py,sha256=bcHOUcHJb36L6BUnetn_AgljEjpCG0036NqDL19ApXE,4873
+prefect_lakefs/credentials.py,sha256=yhk3S-FVZ67vfVqcubrXtvsUSY3JC7ld-Z6NpZMIOT0,4613
+prefect_lakefs/objects.py,sha256=RlNTKqKf6Cej-zKZ5ruc3jX9RpRhDNHIZA1H3oNncqI,16131
+prefect_lakefs/storage.py,sha256=HvixPAQPkplL6Sekb9TEkcT9MQ542wfyHgvYHBUikRg,1969
+prefect_lakefs/tasks.py,sha256=z7qjUuxOTe9Nw3jPXxhUFXJIhsabArNTs5guw4wsMYY,941
+prefect_lakefs-0.2.0.dist-info/LICENSE,sha256=r6kh_2BwZeDZNREiHlGpAY0uX9j1ie9i89PAX1nCbsQ,11357
+prefect_lakefs-0.2.0.dist-info/METADATA,sha256=ez94jrHLypbccUzc3HxWSMaVnc7e7AcZIFDXB6MwSdI,6246
+prefect_lakefs-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+prefect_lakefs-0.2.0.dist-info/entry_points.txt,sha256=v0bdFRHsDlU4X7bEPf4I5NX1KsuA6HBkRW81JS2VFz8,54
+prefect_lakefs-0.2.0.dist-info/top_level.txt,sha256=Pfyjjx3x67BPBuoVIjaOKv1m2OlEzPnb2QftqrHL3JE,15
+prefect_lakefs-0.2.0.dist-info/RECORD,,
