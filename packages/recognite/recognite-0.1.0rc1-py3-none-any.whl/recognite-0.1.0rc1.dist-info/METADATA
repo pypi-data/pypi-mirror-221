@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: recognite
+Version: 0.1.0rc1
+Summary: Recognite is a library to kickstart your next PyTorch-based recognition project.
+Home-page: https://github.com/florisdf/recognite
+Author: Floris De Feyter
+Author-email: floris.defeyter@kuleuven.be
+License: MIT license
+Keywords: recognite
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: torch (>=2.0.1)
+Requires-Dist: torchvision (>=0.15.2)
+Requires-Dist: tqdm
+
+# Recognite
+
+
+[![](https://img.shields.io/pypi/v/recognite.svg)](https://pypi.org/project/recognite/)
+[![](https://readthedocs.org/projects/recognite/badge/?version=latest)](https://recognite.readthedocs.io/)
+
+
+Recognite is a library to kickstart your next PyTorch-based recognition project.
+
+
+* Free software: MIT license
+* Documentation: https://recognite.readthedocs.io.
