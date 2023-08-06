@@ -1,0 +1,15 @@
+chkpy/__init__.py,sha256=8JtMzNVJmpfX87ket5ImDE-6eR29egpOcd_pWeJYAbc,123
+chkpy/__main__.py,sha256=RlLv4jIamcgnPFW7u7Bc8k4_Fx7A2QOaqrTErDeEBow,371
+chkpy/art.py,sha256=Pe9zr0ZtTMwlIO_sj-t5_Rqj6n_eqIpjfjIgBGu9lmI,783
+chkpy/directory.py,sha256=DgjVUZZD55XmdjSnH_089Dlo7YXGrKV_vR3y34BSlpM,1460
+chkpy/filetest copy.py,sha256=E35dsd35Sc41_SsUw1cIg4R-zj4EnwpWXYAYFYW_1Gg,1689
+chkpy/filetest.py,sha256=E35dsd35Sc41_SsUw1cIg4R-zj4EnwpWXYAYFYW_1Gg,1689
+chkpy/main.py,sha256=ByYvDhrHqWCzgUG1FQELpmq_IwGRgXM0zZ-1uYO-vxQ,1832
+chkpy/modes.py,sha256=-3bS9D1FM1zt-U16BugTv6PRlDSZwHCDzfDJ2WEO-Eo,4037
+chkpy/test.py,sha256=UwX3I12GpoIh3j_X98Io5CGPPfZcCHWscrVozSy2lfs,5409
+chkpy-1.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chkpy-1.0.5.dist-info/METADATA,sha256=_0NwMec2KmtXoT9QA5KlLEMUmPxdbFUKgcuGtOz9LzE,588
+chkpy-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+chkpy-1.0.5.dist-info/entry_points.txt,sha256=qONU9SM9yrGkCqkhOaTbmHgjrcf4feirgj0XrJMCiYk,46
+chkpy-1.0.5.dist-info/top_level.txt,sha256=4lSV-LAoJgfC0g6CKR96SaLY8atU_shk_hpDvSxwJHY,6
+chkpy-1.0.5.dist-info/RECORD,,
