@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: promptlabs
+Version: 0.0.3
+Summary: promptlabs: A Python package for PromptOps (versioning, logging, experimenting, etc.)
+Keywords: weavel,prompt,llm,promptops,promptlabs,prompt engineering
+Requires-Python: >=3.7.1
+License-File: LICENSE
