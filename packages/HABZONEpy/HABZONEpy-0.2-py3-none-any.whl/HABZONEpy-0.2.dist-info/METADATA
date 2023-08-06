@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: HABZONEpy
+Version: 0.2
+Summary: un paquete para encontrar la zona habitable de una estrella
+Home-page: UNKNOWN
+Author: ignacio solis
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
