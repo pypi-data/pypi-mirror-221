@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+ethersphere.egg-info/PKG-INFO
+ethersphere.egg-info/SOURCES.txt
+ethersphere.egg-info/dependency_links.txt
+ethersphere.egg-info/top_level.txt
