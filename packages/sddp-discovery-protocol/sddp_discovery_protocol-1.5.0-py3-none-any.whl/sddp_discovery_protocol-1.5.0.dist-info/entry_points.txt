@@ -1,0 +1,3 @@
+[console_scripts]
+sddp=sddp_discovery_protocol.__main__:run
+
