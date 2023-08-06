@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lowhass
+Version: 0.1.1
+Author-email: Dax Harris <mvh3875@rit.edu>
+License: MIT
+Keywords: homeassistant,hass,smart home
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: websockets
+Requires-Dist: pydantic
+
+# lowhass
+Home Assistant API wrapper for REST &amp; WS functions
