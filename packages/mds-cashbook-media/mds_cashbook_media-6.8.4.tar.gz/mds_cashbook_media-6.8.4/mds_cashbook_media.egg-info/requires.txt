@@ -1,0 +1,4 @@
+Pillow
+mds_cashbook<=6.8.999,>=6.8.28
+python-magic>=0.4.24
+trytond<6.9,>=6.8
