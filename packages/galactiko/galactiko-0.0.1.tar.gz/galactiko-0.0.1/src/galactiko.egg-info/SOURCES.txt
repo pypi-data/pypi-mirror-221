@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/galactiko.egg-info/PKG-INFO
+src/galactiko.egg-info/SOURCES.txt
+src/galactiko.egg-info/dependency_links.txt
+src/galactiko.egg-info/top_level.txt
+src/galactiko_gxskpo/__init__.py
