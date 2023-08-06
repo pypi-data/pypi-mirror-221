@@ -1,0 +1,10 @@
+nima/__init__.py,sha256=LaigvSZRYUSFmYJ0FlegtIrMHT7SecDp5fDilM6a7WU,43
+nima/__main__.py,sha256=mrbJ5hC3pTt7NXTpoHjIG9ViJuMMav_NmxyggJcZs38,15527
+nima/generat.py,sha256=kDZ16bXPTv-YoNEQ5XHkpXgmdG8VHDjgP64vByi4qB0,3013
+nima/nima.py,sha256=yvoO1qJTTgFF1pSwmmKk3VX2V66qoDFZKQOq4ZjPF6U,32310
+nima/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nima-0.7.0.dist-info/METADATA,sha256=d2nmroHFK4aU1FxBwSSGzDEdFK6bZ0vNM26qam6fvpU,4033
+nima-0.7.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+nima-0.7.0.dist-info/entry_points.txt,sha256=RVR6Xp6R1Emu7zg-N8TRcRrL_4a7hUwINessRZoL8vM,70
+nima-0.7.0.dist-info/licenses/LICENSE.txt,sha256=moE9QHfvJv6WRpomTTxP1Qvmaxvorc_26ZE-4cu90wg,1476
+nima-0.7.0.dist-info/RECORD,,
