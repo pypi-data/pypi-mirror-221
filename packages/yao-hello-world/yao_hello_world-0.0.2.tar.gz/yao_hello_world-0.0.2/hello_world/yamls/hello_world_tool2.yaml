@@ -1,0 +1,13 @@
+hello_world.tools.hello_world_tool_2.get_greeting_message2:
+  function: get_greeting_message2
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: hello_world.tools.hello_world_tool_2
+  name: get_greeting_message2
+  description: hello_world get_greeting_message2
+  type: python
