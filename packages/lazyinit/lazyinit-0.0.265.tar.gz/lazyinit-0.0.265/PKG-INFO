@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lazyinit
+Version: 0.0.265
+Summary: Init zhei environment.
+Home-page: https://github.com/deng1fan
+Author: deng1fan
+Author-email: dengyifan@iie.ac.cn
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 功能
+在新的服务器上初始化环境
+
+# 安装
+```bash
+pip install zhei
+```
+
+
+# 使用
+```python
+import zhei as j
+
+j.init()
+```
+
