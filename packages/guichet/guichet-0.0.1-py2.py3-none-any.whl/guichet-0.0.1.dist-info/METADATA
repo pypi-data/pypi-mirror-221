@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: guichet
+Version: 0.0.1
+Summary: Quickly create simple GUIs in Python
+Project-URL: Homepage, https://github.com/ubalklen/guichet
+Project-URL: Bug Tracker, https://github.com/ubalklen/guichet/issues
+Author-email: ubalklen <42127323+ubalklen@users.noreply.github.com>
+License-File: license
+Requires-Dist: pydantic
+Requires-Dist: pysimplegui
+Description-Content-Type: text/markdown
+
+# Guichet
+Quickly create simple GUIs in Python.
+
+```python
+def happy_text(text: str, feeling_happy: bool):
+    if feeling_happy:
+        return text + "!!!"
+    else:
+        return text
+
+gui = Guichet(happy_text)
+gui.render()
+```
+The code above renders the following GUI:
+
+![Alt text](assets/image.png)
+
+You can also customize the layout by accessing the `layout` attribute of the `Guichet` object.
+
+Guichet is based on the awesome [PySimpleGUI](https://www.pysimplegui.org/) library.
