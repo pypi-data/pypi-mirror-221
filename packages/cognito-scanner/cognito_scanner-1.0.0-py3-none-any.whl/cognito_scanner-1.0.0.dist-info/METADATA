@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cognito-scanner
+Version: 1.0.0
+Summary: A simple script which implements different Cognito attacks such as Account Oracle or Priviledge Escalation
+Home-page: https://github.com/padok-team/cognito-scanner
+Author-email: thibaultl@padok.fr
+License: Apache2
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: typer
+
