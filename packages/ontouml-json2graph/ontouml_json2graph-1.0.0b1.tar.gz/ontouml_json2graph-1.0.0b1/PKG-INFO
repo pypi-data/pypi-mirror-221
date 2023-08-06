@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ontouml-json2graph
+Version: 1.0.0b1
+Summary: OntoUML JSON2Graph Decoder
+Author: Pedro Paulo F. Barcelos
+Author-email: pedropaulofb@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
