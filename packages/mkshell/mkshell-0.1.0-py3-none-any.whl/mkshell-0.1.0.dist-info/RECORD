@@ -1,0 +1,10 @@
+mkshell/__init__.py,sha256=HhL6E2dpMr56YBhEvA8oj7p3-T_-kbX7bLNfZHHMx2k,108
+mkshell/cli.py,sha256=JBnpj4mfUmLlKNRuakybBcoK9f5EqYszNGNwMHssJpY,2206
+mkshell/explain.toml,sha256=15FQtSuT_gOFgGVF56U_6OWMURauNIx3GMWeKYsN7d4,235
+mkshell/memory.py,sha256=qTmQGO17l2EOtepQ3FzaCLF0FN0i5kZdLVX6T1NSkIQ,1360
+mkshell/parser.py,sha256=WrKKZSaU1HCsGkPuifkwdA1kMe7uVQnsu4Eun-6mXyc,431
+mkshell/prompt.py,sha256=tG_P9bcOHgdFb1U7anotN2JWBMq1iACO4rocbtnFqu0,2137
+mkshell-0.1.0.dist-info/METADATA,sha256=9bUrNvDeNIEuzrKxVLt0A6QqED4Kjrorl3yl_HZrjrc,4400
+mkshell-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mkshell-0.1.0.dist-info/entry_points.txt,sha256=NKpVGXb871ZuMx3EmBSyiQA1Dnw05HWv0iw6g7YZjF8,43
+mkshell-0.1.0.dist-info/RECORD,,
