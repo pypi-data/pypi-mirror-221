@@ -1,0 +1,5 @@
+[console_scripts]
+pf-simulation-modeler = pf_simulation_modeler.app.__main__:main
+
+[jupyter_serverproxy_servers]
+pf-simulation-modeler = pf_simulation_modeler.app.jupyter:jupyter_proxy_info
