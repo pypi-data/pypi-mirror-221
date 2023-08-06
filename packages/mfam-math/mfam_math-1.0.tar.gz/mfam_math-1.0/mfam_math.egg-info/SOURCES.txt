@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+mfam_math/__init__.py
+mfam_math/math_operat.py
+mfam_math.egg-info/PKG-INFO
+mfam_math.egg-info/SOURCES.txt
+mfam_math.egg-info/dependency_links.txt
+mfam_math.egg-info/top_level.txt
