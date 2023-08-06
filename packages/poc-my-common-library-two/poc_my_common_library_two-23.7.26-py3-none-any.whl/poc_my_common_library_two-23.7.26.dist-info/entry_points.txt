@@ -1,0 +1,3 @@
+[console_scripts]
+poc-my-common-library-two=poc_my_common_library_two.main:main
+
