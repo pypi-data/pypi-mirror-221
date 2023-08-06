@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: actionlint-py
+Version: 1.6.25.9
+Summary: Python wrapper around invoking actionlint (https://github.com/rhysd/actionlint)
+Author-email: Ryan Rhee <pypi@rhee.io>, Mateusz Grzeliński <grzelinskimat@gmail.com>
+Maintainer-email: Mateusz Grzeliński <grzelinskimat@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2019 Ryan Rhee
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Mateusz-Grzelinski/actionlint-py
+Project-URL: Bug Reports, https://github.com/Mateusz-Grzelinski/actionlint-py/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: auto_update
+License-File: LICENSE
+
+# actionlint-py
+
+A python wrapper to provide a pip-installable [actionlint] binary.
+
+Internally this package provides a convenient way to download the pre-built
+actionlint binary for your particular platform.
+
+### Installation
+
+```bash
+pip install actionlint-py
+```
+
+### Usage
+
+After installation, the `actionlint` binary should be available in your
+environment (or `actionlint.exe` on windows).
+
+### As a pre-commit hook
+
+See [pre-commit] for instructions
+
+Sample `.pre-commit-config.yaml`:
+
+```yaml
+- repo: https://github.com/Mateusz-Grzelinski/actionlint-py
+  rev: v1.6.25.9
+  hooks:
+    - id: actionlint
+```
+
+Because `actionlint-py` is available as source distribution, pip build system is set up to fetch binary from (public)
+github. It might cause problems with corporate proxy. In case of problems try this semi-manual setup:
+
+```yaml
+- repo: local
+  hooks:
+    - id: actionlint
+      name: actionlint
+      description: Lint GitHub workflows with actionlint
+      additional_dependencies: [ actionlint-py ]
+      #additional_dependencies: [actionlint-py==1.6.25.9]
+      # safer, but pre-commit autoupdate will not work
+      # note: the versioning scheme is different: not "v1.6.25" but "1.6.25.9" (last number is build system version)
+      entry: actionlint
+      #args: [-ignore "*.set-output. was depracated.*"]
+      language: python
+      types: [ "yaml" ]
+      files: "^.github/workflows/"
+```
+
+[actionlint]: https://github.com/rhysd/actionlint
+
+[pre-commit]: https://pre-commit.com
+
+# Development
+
+Development of wrapper and releasing new version:
+see [README-DEV.md](https://github.com/Mateusz-Grzelinski/actionlint-py/blob/main/README-DEV.md)
+
+# Roadmap
+
+- [ ] Update tag in readme in github action when releasing new version
+- [ ] Upload also binary distribution, not only source distribution
+- [ ] Add unit tests to build system
+
+See [README-DEV.md](https://github.com/Mateusz-Grzelinski/actionlint-py/blob/main/README-DEV.md) for more TODOs.
+
+Won't do unless asked:
+
+- support all platforms that actionlint supports (like freebsd)
