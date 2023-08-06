@@ -1,0 +1,10 @@
+torch
+torchvision
+opencv-contrib-python
+lightning
+
+[dev]
+pytest
+black
+isort
+build
