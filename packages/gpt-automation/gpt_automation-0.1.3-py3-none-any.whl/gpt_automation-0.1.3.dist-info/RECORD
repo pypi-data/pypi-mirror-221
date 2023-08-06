@@ -1,0 +1,12 @@
+gpt_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_automation/ignore_walk.py,sha256=tpwSYQBIZQBDHmIgr5ACEqVbAP7XVLIzkrz9RBC-BNM,1608
+gpt_automation/main.py,sha256=DnY4lTZzi-c7GoUfL1DZPESQ-3K84CGpQZsmi-3BtgA,5573
+gpt_automation/project_info.py,sha256=siAXOTG27kgrAO9TB3_wX9lWa6SXqoss2xVzMdHZIkY,1613
+gpt_automation/sample_config/black_list.txt,sha256=rc8OsDaxdXkxNfA71pskP4gW_6b39V1Xsf9oDpG0Nco,132
+gpt_automation/sample_config/white_list.txt,sha256=c8STlROmKzfRod0c-i2ew7hvtmORqXMyxK0TcdIMFWw,1123
+gpt_automation-0.1.3.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+gpt_automation-0.1.3.dist-info/METADATA,sha256=-HoNI1s-kP1yGpX16-DbFUiI1at0BfPzxpr0EOxZB1Q,16356
+gpt_automation-0.1.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gpt_automation-0.1.3.dist-info/entry_points.txt,sha256=iQQsrCVW-oSWdum52p5lVfTOnoa2G24EP2VARsxgsMk,53
+gpt_automation-0.1.3.dist-info/top_level.txt,sha256=r_D9ppCoJsYT9_oOKq7Fr19l0xbe6NHMjxDznuAZbKQ,15
+gpt_automation-0.1.3.dist-info/RECORD,,
