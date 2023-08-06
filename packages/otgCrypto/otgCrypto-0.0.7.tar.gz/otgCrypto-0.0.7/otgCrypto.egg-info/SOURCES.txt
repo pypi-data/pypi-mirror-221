@@ -1,0 +1,7 @@
+LICENSE.txt
+README.txt
+setup.py
+otgCrypto.egg-info/PKG-INFO
+otgCrypto.egg-info/SOURCES.txt
+otgCrypto.egg-info/dependency_links.txt
+otgCrypto.egg-info/top_level.txt
