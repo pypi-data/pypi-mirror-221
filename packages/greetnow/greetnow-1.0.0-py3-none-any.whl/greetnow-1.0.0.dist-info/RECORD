@@ -1,0 +1,12 @@
+greetnow/__init__.py,sha256=en-Wu4OR5bqwYm7BQxmeroXjpJFLTLz4WzOQQeZFtIs,50
+greetnow/generic.py,sha256=uc1bbHdkC5m5XJaZtJTZc7IQZrhHgk1Yxjmqo2NdPWE,50
+greetnow/evening/__init__.py,sha256=Q1kMroH7fvUwdApBZYAdtKWzEihJk46cjvJAhq-7Ho4,29
+greetnow/evening/even_greet.py,sha256=c88txDlfLGbSIktllxdXEIo_tEEA44rROBORGaKnYJY,69
+greetnow/morning/__init__.py,sha256=IVsKA_CvzcrUAvco8tlwX8C7Dmh5aKST3xOGKwvzdeo,29
+greetnow/morning/mng_greet.py,sha256=5uw56gPLLQt77__MRBzC9jDUxAYxqFjaGHu_EDabIO8,61
+greetnow/noon/__init__.py,sha256=UAvctyXGCBSIuvDIJnvcwY9Rtm1o4XeQ0BX2y4TBH94,50
+greetnow/noon/noon_greet.py,sha256=Wcnq0hML0jcwWOudhJs6w5Yfx6bQo4KeOglD45hzQkg,55
+greetnow-1.0.0.dist-info/METADATA,sha256=AXrDNeliZFl73UctwPaaLmMbmCLsLcKqqrw2WHVLjHY,223
+greetnow-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+greetnow-1.0.0.dist-info/top_level.txt,sha256=cyahuGJSVfzyMWG7Uan20S64xCj0fJDvSSRJLlUoQ3Y,9
+greetnow-1.0.0.dist-info/RECORD,,
