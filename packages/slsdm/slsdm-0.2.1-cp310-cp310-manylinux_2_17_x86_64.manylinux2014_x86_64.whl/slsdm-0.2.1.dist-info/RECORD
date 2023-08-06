@@ -1,0 +1,9 @@
+slsdm-0.2.1.dist-info/LICENSE,sha256=8LPUtUXYryOxT6_ElK0g1_wwgh2nTmR6sWzTADccO5I,1499
+slsdm-0.2.1.dist-info/METADATA,sha256=lYWWlROmUIaEvGdmVP5eCEqj3J5P42yfHAATGtjZlKs,4250
+slsdm-0.2.1.dist-info/top_level.txt,sha256=djHrI0FWksBeY4hvj72ZZRFikuunem1Jwx5DPtK4nQg,6
+slsdm-0.2.1.dist-info/RECORD,,
+slsdm-0.2.1.dist-info/WHEEL,sha256=3Zdn_pKH52xNHl9V1neHw5SX5hYmrW-vWPFM1UycHnM,152
+slsdm/__init__.py,sha256=6mxiKvEkwtT93movQ63XzrslvQdf8uOVdJ7nDAhqwsk,538
+slsdm/_dist_metrics.cpython-310-x86_64-linux-gnu.so,sha256=9V0cNtGK17P9c8SnxJ2lJi6x4SKtul9IvyoRa6aO280,11063000
+slsdm/_dist_metrics.pxd,sha256=ILfXgyjucTu4iSeq9TvOFiuTD14ZhJvUFY_427jZhe0,1054
+slsdm/_generate.py,sha256=km1dToBRihQH-CMWqe3mKiKFHV2LvgoAuBa-rF5pL4U,9704
