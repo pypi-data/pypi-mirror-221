@@ -1,0 +1,3 @@
+include spiralpy/CMakeLists.txt
+include Contributing.md
+##  include spiralpy/examples *

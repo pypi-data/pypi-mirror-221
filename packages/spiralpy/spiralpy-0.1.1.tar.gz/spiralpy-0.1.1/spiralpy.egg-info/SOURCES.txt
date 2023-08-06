@@ -1,0 +1,11 @@
+Contributing.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+spiralpy/CMakeLists.txt
+spiralpy/__init__.py
+spiralpy.egg-info/PKG-INFO
+spiralpy.egg-info/SOURCES.txt
+spiralpy.egg-info/dependency_links.txt
+spiralpy.egg-info/top_level.txt
