@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/cosmopawn/__init__.py
+src/cosmopawn/cosmopawn.py
+src/cosmopawn.egg-info/PKG-INFO
+src/cosmopawn.egg-info/SOURCES.txt
+src/cosmopawn.egg-info/dependency_links.txt
+src/cosmopawn.egg-info/top_level.txt
