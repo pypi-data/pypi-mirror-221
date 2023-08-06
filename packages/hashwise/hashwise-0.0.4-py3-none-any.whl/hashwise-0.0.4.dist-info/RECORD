@@ -1,0 +1,10 @@
+hashwise/__init__.py,sha256=79NvJXbhlNiqi1gETuJ7up2QpU7dzxp3Wh-e2PANpb4,23
+hashwise/device_status.py,sha256=88JCiY4jaQ5JmDN2CKQN3lWdbb0dXkJymtgki9SpPY4,2826
+hashwise/exceptions.py,sha256=8dciK51LZjHwVhfCEzSBI8BI4P2mbywCq6va7Py1tC4,413
+hashwise/hashwise.py,sha256=4wPapseTWx-QIMLh9OQOABIYPpYqeyl2o4GXygL5pbU,21682
+hashwise/cuda-libraries/cudalib-windows-64bit.dll,sha256=CYYkg3sTXqVhQgH4SmmeMO1ezadKk5uj9jXheD-MgIs,667648
+hashwise/device-info/device-info.dll,sha256=ZIMK0XKS8iYVIVYszGECwToC4sDC0WbXnzA6esa5R-A,257024
+hashwise-0.0.4.dist-info/METADATA,sha256=t-kh73IFeFNbuthr3oYTp3BN6f85E0fd1Q1RezLkmI4,3978
+hashwise-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hashwise-0.0.4.dist-info/top_level.txt,sha256=-JQk2age02MLja4ful3ViuCp_eCGc1lBxZjRHTULx_A,9
+hashwise-0.0.4.dist-info/RECORD,,
