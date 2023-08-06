@@ -1,0 +1,16 @@
+aicodebot/__init__.py,sha256=qpmtN0_BwqoVr7AIRFBL64yASuvLUfcK8FaPpVyR_W4,19
+aicodebot/agents.py,sha256=rGRCClxOzUDrBgrtcLo7A8UO7xegXIneTx3GB1iOG7k,3110
+aicodebot/cli.py,sha256=wVEZZGf4om1Hx222JGWK5lm9fEDg5e5sryw77u2Vahk,28695
+aicodebot/coder.py,sha256=9S8rezXEwb9h07MJEzflv3kpkHUve6wqLa9feWjQsJ8,18495
+aicodebot/config.py,sha256=L-KIDRhgVAuFXC5BaeXbpFERGviWAPw6RhKcP8kQyx8,1303
+aicodebot/helpers.py,sha256=uzlxcgskU0QhC9WbSvUcCOnqN3xwwDQwUKvEknw9sS8,1592
+aicodebot/input.py,sha256=PWmKKFZrZ_newjhxneHoPNMC6SqAVhgorkG3DaU34IA,2469
+aicodebot/learn.py,sha256=FNPT0TIhxaLU4lcbMnCucPvnhLokWhIHz0rt5ixBXog,6155
+aicodebot/output.py,sha256=qxPE3Ua8xUO5JspggzU_3OzVIjVUxShBs7Qg0sYxUlc,1405
+aicodebot/prompts.py,sha256=Lp2RsKb9du-nm6ixjUT4RkX6gJZCLMJjhDz6ACDvjbE,15811
+aicodebot-0.18.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+aicodebot-0.18.0.dist-info/METADATA,sha256=utOO-oCz0waorEDX2LEfPi85UgpXYyYBC8ZUO1PG-uk,15562
+aicodebot-0.18.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aicodebot-0.18.0.dist-info/entry_points.txt,sha256=tpMRSyq_j-gOc7VOPImCnLdrbp8rJeYfhBbkvomhTnM,48
+aicodebot-0.18.0.dist-info/top_level.txt,sha256=7cCIgwqJaGkr8JzvTvtEsJGqIEepBHEYWx5aG6D09jQ,10
+aicodebot-0.18.0.dist-info/RECORD,,
