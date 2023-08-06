@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyyardian
+Version: 0.0.1
+Summary: A package for interacting with the Yardian irrigation controller
+Home-page: https://github.com/h3l1o5/pyyardian
+Author: Marty Sun
+Author-email: marty.sun@aeonmatrix.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ Python module for interacting with the Yardian irrigation controller. This module communicates directly towards the IP address of the Yardian device.
+
