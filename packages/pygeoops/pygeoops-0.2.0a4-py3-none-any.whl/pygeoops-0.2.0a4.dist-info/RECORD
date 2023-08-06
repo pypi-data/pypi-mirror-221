@@ -1,0 +1,15 @@
+pygeoops/__init__.py,sha256=rDQs66K9GJxlJZIYo4ZeqAzOwcjkxHuyX5ZYMqXUXiI,503
+pygeoops/_centerline.py,sha256=1__R7ZFxj--yDfX853dEQNlzYOy6dxNMAep4ivIU6FQ,11750
+pygeoops/_general.py,sha256=T0Mn1_DsjJ3iSx0hZ38mg2VNRkWfQ_v2kiBXuIS7OhY,10746
+pygeoops/_grid.py,sha256=R5lHn4caXqqgpEuSSRxcte4A8ndTZZrFXYHD8_yuQa4,8595
+pygeoops/_simplify.py,sha256=xNpyBWU-kL7rnlJO1n9o-kb_PAMxrc8FzKITZe3TFJo,12042
+pygeoops/_simplify_lang.py,sha256=FSQ0UTVz6Vh4AF62y6F80sn_0jyZVyEYjscKpcyudS8,9290
+pygeoops/_simplify_topo.py,sha256=ImBbEvlEZKOQOUTck4IEVSEFLdp-B7ZJSGhtc4ajlnE,5833
+pygeoops/_types.py,sha256=GFGFybanDAvr6DuiJSzmxlvBdAWFpIpBdvqXNERKKBI,5507
+pygeoops/_view_angles.py,sha256=ipCLQ_KaPDTbmLk6QsnL0L8DETj3gJCbelmbT2ePMsE,7639
+pygeoops/version.txt,sha256=OWPaCtTlInkvl2W2cIk4E0yeQIFLkqwihYwjWw1jNvM,7
+pygeoops-0.2.0a4.dist-info/LICENSE.txt,sha256=aE8mZkX5scfJMCICrD-dTrkAlic2ngFR_rd5P9e_Kj0,1495
+pygeoops-0.2.0a4.dist-info/METADATA,sha256=Rm5eDLxvlLBuE3t5280E3uGklxDdOO5APG6a9KiSlaE,2011
+pygeoops-0.2.0a4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pygeoops-0.2.0a4.dist-info/top_level.txt,sha256=h550Y1XNOjJoFFK_a_vg0vGYSyO7-wPaJ2AjJv32Trk,9
+pygeoops-0.2.0a4.dist-info/RECORD,,
