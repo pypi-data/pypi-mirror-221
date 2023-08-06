@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+coaxial/src/coaxial_client.egg-info/PKG-INFO
+coaxial/src/coaxial_client.egg-info/SOURCES.txt
+coaxial/src/coaxial_client.egg-info/dependency_links.txt
+coaxial/src/coaxial_client.egg-info/top_level.txt
