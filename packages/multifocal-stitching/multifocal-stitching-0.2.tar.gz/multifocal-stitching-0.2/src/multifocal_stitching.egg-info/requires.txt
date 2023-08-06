@@ -1,0 +1,13 @@
+numpy
+scipy
+scikit-learn
+opencv-python
+Pillow
+
+[dev]
+build
+twine
+
+[test]
+pytest
+pytest-cov
