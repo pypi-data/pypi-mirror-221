@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: git-knapsack
+Version: 2023.7.28
+Summary: Python tool that performs git add, commit and push while taking size limits into account
+Author-Email: Bart Broere <mail@bartbroere.eu>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: gitpython
+Requires-Dist: tqdm
+Requires-Dist: appeal>=0.6.1
+Description-Content-Type: text/markdown
+
+# git-knapsack
+Python tool that performs git add, commit and push while taking size limits into account
