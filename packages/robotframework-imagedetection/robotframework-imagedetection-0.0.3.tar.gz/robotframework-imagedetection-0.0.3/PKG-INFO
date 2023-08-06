@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: robotframework-imagedetection
+Version: 0.0.3
+Summary: Image detection for Robot-Framework
+Home-page: https://github.com/Alpha-Centauri-00/robotframework-imagedetection
+Author: M.Kherki(Alpha-Centauri-00)
+Author-email: alpha_Centauri@posteo.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Framework :: Robot Framework
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Supercharge your Robot Framework automation with our advanced image detection package. Seamlessly integrate machine learning capabilities to train datasets and efficiently detect images in your tests.
+
+Key Features:
+- Utilize the power of machine learning for image detection tasks
+- Train custom datasets to improve accuracy and recognition
+- Simplify Robot Framework test automation with enhanced image recognition
+
+Take your Robot Framework tests to the next level with our image detection package.
+
+# robotframework-objectdetection
+<br/>
+
+[My Awesome Wiki](../../wiki)
+
+[TODO...]
