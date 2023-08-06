@@ -1,0 +1,12 @@
+pyzswagcl/pyzswagcl.cpython-39-x86_64-linux-gnu.so,sha256=EFM-6TfBseKaqpXG2DU7nVdU7NdMT17FYoLTrJ9OTUw,1124721
+pyzswagcl/LICENSE.txt,sha256=JeNdz5tf1QH7CIw_i5yqTWtlyhczLpjj3yhOyCRTEHE,1528
+pyzswagcl/libspeedyj.a,sha256=JNoUn3EO1PT2jsthWjgr5o4j974mYfK-4yPyvKHzx00,34628
+pyzswagcl/libhttpcl.a,sha256=4FXnheqaeeyJR_plAPCB8WPfYL5q4QUG21gF1a74Rwk,2241678
+pyzswagcl/__init__.py,sha256=PjufVr_MTFQZpsXoSMXOSvAacVpnsO4nscSiqqOTmac,24
+pyzswagcl/libzswagcl.so,sha256=f_mDlyIEStrsN4s9BBNJaJfdzi1QXD8TZNYUWJwlXSQ,10165321
+pyzswagcl-1.6.0.dist-info/top_level.txt,sha256=68xZPCqJP4enWPpsst2_9GD8GiGgr8ImRsP5uHJO1jo,10
+pyzswagcl-1.6.0.dist-info/RECORD,,
+pyzswagcl-1.6.0.dist-info/WHEEL,sha256=-fYmC9TvaVuVjNpLeAAgC1KK2SdBoxc0pBU0ug5Tkco,148
+pyzswagcl-1.6.0.dist-info/METADATA,sha256=aMZbVcMzgCXa1y39TvjD_slJb2j17UMXzCOV4Kjibvw,232
+pyzswagcl.libs/libssl-54c26483.so.1.1,sha256=skWIM_skA4kXVGa1KiUltpV361XXsyW5SNcNWIErTO4,736161
+pyzswagcl.libs/libcrypto-8b5759cf.so.1.1,sha256=OsMvUrbeMuL3LPwOyb7QX91sZ-uad0jAkJM121AwVMU,3477145
