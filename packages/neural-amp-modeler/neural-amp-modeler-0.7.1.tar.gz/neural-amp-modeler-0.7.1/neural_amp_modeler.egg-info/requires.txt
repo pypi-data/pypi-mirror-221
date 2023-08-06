@@ -1,0 +1,13 @@
+auraloss==0.3.0
+matplotlib
+numpy
+onnx
+onnxruntime
+pydantic
+pytorch_lightning
+scipy
+sounddevice
+tensorboard
+torch
+tqdm
+wavio>=0.0.5
