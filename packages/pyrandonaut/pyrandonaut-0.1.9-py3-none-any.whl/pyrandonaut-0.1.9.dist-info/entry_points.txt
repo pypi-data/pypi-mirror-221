@@ -1,0 +1,3 @@
+[console_scripts]
+pyrandonaut=pyrandonaut.__init__:__main__
+
