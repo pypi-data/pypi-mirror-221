@@ -1,0 +1,3 @@
+[console_scripts]
+kiri_walkgame=kiri_walkgame:main
+
