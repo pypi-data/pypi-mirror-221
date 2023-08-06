@@ -1,0 +1,1 @@
+from tdcrpy.tests import test_tdcrpy
