@@ -1,0 +1,12 @@
+bagel/__init__.py,sha256=FMxNMhJ-EVSDfdHIzXmyfp87t13D_vVTMG6MwzP98jY,625
+bagel/config.py,sha256=G3oyPbG0yAaz9jiInp6mptUQuou3DKWBGm2cQHiBYrg,5926
+bagel/errors.py,sha256=Z0bebJBMxvOwrDtPsgnybGyhUuZXzYuUh6rsxoebT1M,683
+bagel/api/Cluster.py,sha256=4Q2MfJYQGgBMF3UcXRW2SHZ2MmGWfvdUU-XyfMLwTtQ,13827
+bagel/api/__init__.py,sha256=lMrIE-_zYpa2R2P1t1sHMqCZmyNS_qCAarwXPrfSIss,10468
+bagel/api/fastapi.py,sha256=EEwne2gzjjmPhRMuO6n6y09pcyi9pUEc-ZdEt-JtGHo,11927
+bagel/api/types.py,sha256=RUZ-BNdYXMaQfllbXsQGTtDR2eckad4awrrYXXvsjdQ,11570
+bagel/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+betabageldb-0.2.0.dist-info/METADATA,sha256=s46p1gIohv7SzQ3K6VPkYnfd4IU3X3ADN6ja563I6p4,4300
+betabageldb-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+betabageldb-0.2.0.dist-info/top_level.txt,sha256=KaL6nffATcZ2umc9g6jDo32SPF0UQHuouH3YVoXY61k,6
+betabageldb-0.2.0.dist-info/RECORD,,
