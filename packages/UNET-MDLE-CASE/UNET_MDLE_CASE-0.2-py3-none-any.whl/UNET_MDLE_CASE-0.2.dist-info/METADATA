@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: UNET-MDLE-CASE
+Version: 0.2
+Summary: Package that helps to load data for, build, train, test, and visualize the results of UNET CNN
+Home-page: https://github.com/juldyzmurat/UNET
+Author: Zhuldyz Ualikhankyzy, Thomas Ciardi
+Author-email: zxu4@example.com, tgc17@case.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: opencv-python (>=4.7.0)
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: scikit-image (>=0.20.0)
+Requires-Dist: pandas (>=2.0.2)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: scikit-learn (>=0.0.post1)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: tensorflow (>=2.0.0)
+
+UNKNOWN
+
