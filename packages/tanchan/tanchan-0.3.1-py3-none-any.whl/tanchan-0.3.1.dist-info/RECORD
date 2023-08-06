@@ -1,0 +1,13 @@
+tanchan/__init__.py,sha256=77PWHafH7bS4kfgkQoFYu-Rul009gKSnSgT-Uc6liew,1738
+tanchan/doc_parse.py,sha256=DJOWS_xDHXGAsWMiLOO-kcTWBxsJ5Mb9Q8rKakF6bzo,26280
+tanchan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tanchan/_internal/__init__.py,sha256=u9QNl_KrVksVSwLKhoSENyzVUKvbgfdyQ_q0Dsequ94,1756
+tanchan/_internal/vendor/__init__.py,sha256=599qTbgdYZacaAvqFllqi1JyyHq62fdvb6jkhxuNZHM,156
+tanchan/_internal/vendor/inspect.py,sha256=B1Q13B3tBt1fKTNMzof02mEhoT69CA62cdz6ZaRVYMk,123930
+tanchan/_internal/vendor/inspect.py.LICENSE,sha256=8D4XzVlMIIX2akVOaVx-vltNPA7_U09PGUq8L9FkYhs,13931
+tanchan/_internal/vendor/inspect.pyi,sha256=XyoQdgD-fMUZ84bWAmVqua6M7zFrHEIiHVBNcn-Oj3g,12260
+tanchan/_internal/vendor/inspect.pyi.LICENSE,sha256=KV-FOMlK5cMEMwHPfP8chS2ranhqjd7kceBhtA1eyr4,12657
+tanchan-0.3.1.dist-info/LICENSE,sha256=q7XD7KPjzBi4_9tvCJLhaW7Ilo5o91fBeAX7Cr8NLfI,1520
+tanchan-0.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tanchan-0.3.1.dist-info/METADATA,sha256=r5hPlE6iRGA97GH7gIh6qRLsDXcKd9Gow06IbRhAWkU,2018
+tanchan-0.3.1.dist-info/RECORD,,
