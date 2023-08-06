@@ -1,0 +1,30 @@
+Index: illumigator/data/levels/community/levels.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"levels\": {\"custom_level_test.json\": {\"date_modified\": 1689765849.199818, \"level_name\": \"Custom Test Level\", \"planet_name\": \"earth\"}}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/levels/community/levels.json b/illumigator/data/levels/community/levels.json
+--- a/illumigator/data/levels/community/levels.json	(revision a03987277cc6ed0242f3706b8921446431e8b04a)
++++ b/illumigator/data/levels/community/levels.json	(date 1689841236407)
+@@ -1,1 +1,1 @@
+-{"levels": {"custom_level_test.json": {"date_modified": 1689765849.199818, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
++{"levels": {"custom_level_test.json": {"date_modified": 1689824027.2377517, "level_name": "Custom Test Level", "planet_name": "earth"}}}
+\ No newline at end of file
+Index: illumigator/data/config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"current_level\": 1, \"volume\": {\"master\": 1, \"music\": 1, \"effects\": 1}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/illumigator/data/config.json b/illumigator/data/config.json
+--- a/illumigator/data/config.json	(revision a03987277cc6ed0242f3706b8921446431e8b04a)
++++ b/illumigator/data/config.json	(date 1689841453969)
+@@ -1,1 +1,1 @@
+-{"current_level": 1, "volume": {"master": 1, "music": 1, "effects": 1}}
+\ No newline at end of file
++{"current_level": 1, "volume": {"master": 1, "music": 0.27999999999999936, "effects": 1}}
+\ No newline at end of file
