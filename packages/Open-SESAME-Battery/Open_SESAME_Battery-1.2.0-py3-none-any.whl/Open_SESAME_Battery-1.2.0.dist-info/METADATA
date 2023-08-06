@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: Open-SESAME-Battery
+Version: 1.2.0
+Summary: Open source battery lifetime simulation software
+Home-page: https://gitlab.ti.bfh.ch/oss/esrec/open-sesame
+Author: "Marco Beyeler, Shubham Sharad, Stefan Broennimann, Yoann Moullet"
+Author-email: energy@bfh.ch
+License: MIT
+Project-URL: Source, https://gitlab.ti.bfh.ch/oss/esrec/open-sesame
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rainflow
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# Open-SESAME-Battery
+
+Open-SESAME-Battery is an open source battery lifetime simulation software developed by Bern University of Applied
+Science (BFH) with contributions of Centre Suisse d'Electronique et de Microtechnique (CSEM) within the framework of the
+IEA task 32 funded by Swiss Federal Office of Energy (SFOE).
+
+## Structure
+
+This project is structured in three different folders:
+
+- doc
+- src
+- tests
+
+In the doc folder you will find a user-guide pdf of this project.
+The src (source) folder contains the main package that contains all scripts and data tables for the simulation.
+The folder tests contains testing-scripts and some test input data.
+
+On top level of the project-folder you will find the "app-demo.py" and "app-demo_SoC.py" Scripts.
+Both are Demo-Scripts of how to define a simulation and run it.
+Check the Get started chapter for more information.
+
+## Get started
+
+To run the simulation some preparations have to be done.
+
+1. Read the file `CONTRIBUTIONS.md`.
+2. Execute the `app-demo.py` file to test the simulation a first time
+3. If everything was successful you can now use the simulation for your project
+
+Consult the `user-guide.pdf` in the doc folder of the repository on gitlab.
+You can include open-sesame as repository of your project and initialize the simulation on your own or you can also
+adapt `app-demo.py` to your needs and run this script for your simulations.
