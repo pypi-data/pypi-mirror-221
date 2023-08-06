@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+pwdPackage/__init__.py
+pwdPackage/passwd.py
+pwdPackage/testing.py
+pwdPackage.egg-info/PKG-INFO
+pwdPackage.egg-info/SOURCES.txt
+pwdPackage.egg-info/dependency_links.txt
+pwdPackage.egg-info/top_level.txt
