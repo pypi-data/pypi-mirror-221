@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tableau-sql-parser
+Version: 0.1.1
+Summary: A tool for parsing Tableau custom SQL queries and extracting useful information
+License: LICENSE
+Author: florian-drouet
+Author-email: 50357200+florian-drouet@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lxml (==4.9)
+Requires-Dist: sqlfluff (==2.1)
+Description-Content-Type: text/markdown
+
+# tableau-sql-parser
+SQL parser for Tableau custom SQL requests
+
+## Usage
+
+Given a .twb or a .twbx Tableau archive, you can extract these information:
+- number of queries analyzed
+- tables used
+- a tree-like structure describing `schema.tables.column`
+
+The CLI command to use is `sqlparse`:
+
+`sqlparse -f file/to/parse.twb(x) -r custom_report_name -o`
+
+Type `sqlparse --help` for more details.
