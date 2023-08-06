@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "object-print"
+version = "0.1.0"
+description = "Pretty-printer that works a little differently from `pprint`."
+authors = ["Matt Cooper <vtbassmatt@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/vtbassmatt/object-print"
+repository = "https://github.com/vtbassmatt/object-print.git"
+packages = [{include = "object_print"}]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Topic :: Software Development",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
